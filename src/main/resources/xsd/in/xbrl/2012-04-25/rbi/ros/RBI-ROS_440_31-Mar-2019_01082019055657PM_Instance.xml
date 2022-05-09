@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Count:206-->
+
+<xbrli:xbrl xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref="http://www.xbrl.org/2004/ref" 
+xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi"
+xmlns:in-rbi-rep-par="http://www.rbi.org/in-rbi-rep-par"
+>
+<link:schemaRef xlink:type="simple" xlink:href="in-rbi-ros.xsd" />
+<xbrli:context id="fromto_20181001_20190331">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_PallavanGramabank">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Pallavan Grama bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_PallavanGramabank">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Pallavan Grama bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_BookValueMember_PallavanGramabank">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfValueAxis'>in-rbi-rep:BookValueMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Pallavan Grama bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_MarketValueMember_PallavanGramabank">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfValueAxis'>in-rbi-rep:MarketValueMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Pallavan Grama bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_SaptagiriGrameenaBank">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Saptagiri Grameena Bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_SaptagiriGrameenaBank">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Saptagiri Grameena Bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_BookValueMember_SaptagiriGrameenaBank">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfValueAxis'>in-rbi-rep:BookValueMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Saptagiri Grameena Bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_MarketValueMember_SaptagiriGrameenaBank">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfValueAxis'>in-rbi-rep:MarketValueMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Saptagiri Grameena Bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_INDBANKHOUSINGFINANCELTD">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>INDBANK HOUSING FINANCE LTD.</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_INDBANKHOUSINGFINANCELTD">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>INDBANK HOUSING FINANCE LTD.</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_BookValueMember_INDBANKHOUSINGFINANCELTD">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfValueAxis'>in-rbi-rep:BookValueMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>INDBANK HOUSING FINANCE LTD.</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_MarketValueMember_INDBANKHOUSINGFINANCELTD">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfValueAxis'>in-rbi-rep:MarketValueMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>INDBANK HOUSING FINANCE LTD.</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_PuduvaiBharathiarGramaBank">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Puduvai Bharathiar Grama Bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_PuduvaiBharathiarGramaBank">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Puduvai Bharathiar Grama Bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_BookValueMember_PuduvaiBharathiarGramaBank">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfValueAxis'>in-rbi-rep:BookValueMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Puduvai Bharathiar Grama Bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_MarketValueMember_PuduvaiBharathiarGramaBank">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfValueAxis'>in-rbi-rep:MarketValueMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Puduvai Bharathiar Grama Bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_INDBANKMERCHANBANKINGSERVICESLTD">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>INDBANK MERCHAN BANKING SERVICES LTD</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>INDBANK MERCHAN BANKING SERVICES LTD</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_BookValueMember_INDBANKMERCHANBANKINGSERVICESLTD">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfValueAxis'>in-rbi-rep:BookValueMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>INDBANK MERCHAN BANKING SERVICES LTD</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_MarketValueMember_INDBANKMERCHANBANKINGSERVICESLTD">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">440</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfValueAxis'>in-rbi-rep:MarketValueMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>INDBANK MERCHAN BANKING SERVICES LTD</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+
+<xbrli:unit id="INR">
+<xbrli:measure>iso4217:INR</xbrli:measure>
+</xbrli:unit>
+<xbrli:unit id="PURE">
+<xbrli:measure>xbrli:pure</xbrli:measure>
+</xbrli:unit>
+
+<in-rbi-rep:ReturnName contextRef="fromto_20181001_20190331" >Report on Subsidiaries </in-rbi-rep:ReturnName>
+<in-rbi-rep:ReturnCode contextRef="fromto_20181001_20190331" >ROS</in-rbi-rep:ReturnCode>
+<in-rbi-rep:NameOfReportingInstitution contextRef="fromto_20181001_20190331" >Indian Bank</in-rbi-rep:NameOfReportingInstitution>
+<in-rbi-rep:BankCode contextRef="asof_20190331" >440</in-rbi-rep:BankCode>
+<in-rbi-rep:AddressOfReportingInstitution contextRef="fromto_20181001_20190331" >gfgfg</in-rbi-rep:AddressOfReportingInstitution>
+<in-rbi-rep:ReportingFrequency contextRef="fromto_20181001_20190331" >HalfYearly</in-rbi-rep:ReportingFrequency>
+<in-rbi-rep:ReportForTheYearEnded contextRef="fromto_20181001_20190331" >2019-03-31</in-rbi-rep:ReportForTheYearEnded>
+<in-rbi-rep:DateOfReport contextRef="asof_20190331" >2019-07-30</in-rbi-rep:DateOfReport>
+<in-rbi-rep:ValidationStatus contextRef="fromto_20181001_20190331" >Un-Validated</in-rbi-rep:ValidationStatus>
+<in-rbi-rep:ReturnVersion contextRef="fromto_20181001_20190331" >v1.2</in-rbi-rep:ReturnVersion>
+<in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20190331" >2018-10-01</in-rbi-rep:ReportingPeriodStartDate>
+<in-rbi-rep:SubsidiaryAssociateJointVentureCategory contextRef="fromto_20181001_20190331_PallavanGramabank" >Associate</in-rbi-rep:SubsidiaryAssociateJointVentureCategory>
+<in-rbi-rep:AreaOfOperationOfRelatedParty contextRef="fromto_20181001_20190331_PallavanGramabank" >India</in-rbi-rep:AreaOfOperationOfRelatedParty>
+<in-rbi-rep:SubsidiaryAssociateJointVentureCode contextRef="fromto_20181001_20190331_PallavanGramabank" >440110</in-rbi-rep:SubsidiaryAssociateJointVentureCode>
+<in-rbi-rep:SubsidiaryAssociateJointVentureName contextRef="fromto_20181001_20190331_PallavanGramabank" >Pallavan Grama bank</in-rbi-rep:SubsidiaryAssociateJointVentureName>
+<in-rbi-rep:ActivityName contextRef="fromto_20181001_20190331_PallavanGramabank" >Banking</in-rbi-rep:ActivityName>
+<in-rbi-rep:RegulatorName contextRef="fromto_20181001_20190331_PallavanGramabank" >Department of Banking Supervision</in-rbi-rep:RegulatorName>
+<in-rbi-rep:AggregateAssets contextRef="asof_20190331_PallavanGramabank" unitRef="INR" decimals="-3" >2385425000</in-rbi-rep:AggregateAssets>
+<in-rbi-rep:CapitalFund contextRef="asof_20190331_PallavanGramabank" unitRef="INR" decimals="-3" >2385664000</in-rbi-rep:CapitalFund>
+<in-rbi-rep:MinimumCapitalPrescribedByRegulators contextRef="asof_20190331_PallavanGramabank" unitRef="INR" decimals="-3" >2385903000</in-rbi-rep:MinimumCapitalPrescribedByRegulators>
+<in-rbi-rep:MinimumCapitalAdequacyRatioPrescribedByRegulators contextRef="asof_20190331_PallavanGramabank" unitRef="PURE" decimals="2" >0.02</in-rbi-rep:MinimumCapitalAdequacyRatioPrescribedByRegulators>
+<in-rbi-rep:CapitalAdequacyRatio contextRef="asof_20190331_PallavanGramabank" unitRef="PURE" decimals="2" >0.04</in-rbi-rep:CapitalAdequacyRatio>
+<in-rbi-rep:NotionalCapitalFunds contextRef="asof_20190331_PallavanGramabank" unitRef="INR" decimals="-3" >7889163000</in-rbi-rep:NotionalCapitalFunds>
+<in-rbi-rep:RiskWeightedAssets contextRef="asof_20190331_PallavanGramabank" unitRef="INR" decimals="-3" >7890409000</in-rbi-rep:RiskWeightedAssets>
+<in-rbi-rep:NotionalCapitalAdequacyRatio contextRef="asof_20190331_PallavanGramabank" unitRef="PURE" decimals="2" >0.05</in-rbi-rep:NotionalCapitalAdequacyRatio>
+<in-rbi-rep:CapitalAndReserves contextRef="asof_20190331_PallavanGramabank" unitRef="INR" decimals="-3" >7891655000</in-rbi-rep:CapitalAndReserves>
+<in-rbi-rep:Deposits contextRef="asof_20190331_PallavanGramabank" unitRef="INR" decimals="-3" >7892901000</in-rbi-rep:Deposits>
+<in-rbi-rep:Borrowings contextRef="asof_20190331_PallavanGramabank" unitRef="INR" decimals="-3" >7894147000</in-rbi-rep:Borrowings>
+<in-rbi-rep:ProfitLossBeforeTax contextRef="fromto_20181001_20190331_PallavanGramabank" unitRef="INR" decimals="-3" >7895393000</in-rbi-rep:ProfitLossBeforeTax>
+<in-rbi-rep:NetProfitLossAfterTax contextRef="fromto_20181001_20190331_PallavanGramabank" unitRef="INR" decimals="-3" >7896639000</in-rbi-rep:NetProfitLossAfterTax>
+<in-rbi-rep:SurplusLossOnProfitAndLossAccountCarriedForward contextRef="fromto_20181001_20190331_PallavanGramabank" unitRef="INR" decimals="-3" >7897885000</in-rbi-rep:SurplusLossOnProfitAndLossAccountCarriedForward>
+<in-rbi-rep:ReturnOnAssets contextRef="fromto_20181001_20190331_PallavanGramabank" unitRef="PURE" decimals="2" >0.06</in-rbi-rep:ReturnOnAssets>
+<in-rbi-rep:ReturnOnEquity contextRef="fromto_20181001_20190331_PallavanGramabank" unitRef="PURE" decimals="2" >0.07</in-rbi-rep:ReturnOnEquity>
+<in-rbi-rep:DividendPaid contextRef="asof_20190331_PallavanGramabank" unitRef="INR" decimals="-3" >7899131000</in-rbi-rep:DividendPaid>
+<in-rbi-rep:LoansAdvancesGross contextRef="asof_20190331_PallavanGramabank" unitRef="INR" decimals="-3" >7900377000</in-rbi-rep:LoansAdvancesGross>
+<in-rbi-rep:NonPerformingLoansGross contextRef="asof_20190331_PallavanGramabank" unitRef="INR" decimals="-3" >7901623000</in-rbi-rep:NonPerformingLoansGross>
+<in-rbi-rep:ProvisionsHeldAgainstNonPerformingLoans contextRef="fromto_20181001_20190331_PallavanGramabank" unitRef="INR" decimals="-3" >7902869000</in-rbi-rep:ProvisionsHeldAgainstNonPerformingLoans>
+<in-rbi-rep:ProvisionsRequiredAgainstNonPerformingLoans contextRef="fromto_20181001_20190331_PallavanGramabank" unitRef="INR" decimals="-3" >7904115000</in-rbi-rep:ProvisionsRequiredAgainstNonPerformingLoans>
+<in-rbi-rep:Investments contextRef="asof_20190331_BookValueMember_PallavanGramabank" unitRef="INR" decimals="-3" >7905361000</in-rbi-rep:Investments>
+<in-rbi-rep:Investments contextRef="asof_20190331_MarketValueMember_PallavanGramabank" unitRef="INR" decimals="-3" >7906607000</in-rbi-rep:Investments>
+<in-rbi-rep:NonPerformingInvestments contextRef="asof_20190331_PallavanGramabank" unitRef="INR" decimals="-3" >7907853000</in-rbi-rep:NonPerformingInvestments>
+<in-rbi-rep:ProvisionsHeldAgainstNonPerformingInvestments contextRef="fromto_20181001_20190331_PallavanGramabank" unitRef="INR" decimals="-3" >7909099000</in-rbi-rep:ProvisionsHeldAgainstNonPerformingInvestments>
+<in-rbi-rep:ProvisionsRequiredAgainstNonPerformingInvestments contextRef="fromto_20181001_20190331_PallavanGramabank" unitRef="INR" decimals="-3" >7910345000</in-rbi-rep:ProvisionsRequiredAgainstNonPerformingInvestments>
+<in-rbi-rep:OffBalanceSheetExposuresContingentLiabilities contextRef="asof_20190331_PallavanGramabank" unitRef="INR" decimals="-3" >7911591000</in-rbi-rep:OffBalanceSheetExposuresContingentLiabilities>
+<in-rbi-rep:NumberOfCounterparties contextRef="fromto_20181001_20190331_PallavanGramabank" unitRef="PURE" decimals="INF" >30</in-rbi-rep:NumberOfCounterparties>
+<in-rbi-rep:AggregateExposureAmount contextRef="asof_20190331_PallavanGramabank" unitRef="INR" decimals="-3" >7914083000</in-rbi-rep:AggregateExposureAmount>
+<in-rbi-rep:AggregateExposurePercentageOfCapitalFunds contextRef="asof_20190331_PallavanGramabank" unitRef="PURE" decimals="4" >0.0856</in-rbi-rep:AggregateExposurePercentageOfCapitalFunds>
+<in-rbi-rep:InvestmentInCapitalByParentCompany contextRef="asof_20190331_PallavanGramabank" unitRef="INR" decimals="-5" >1000000</in-rbi-rep:InvestmentInCapitalByParentCompany>
+<in-rbi-rep:PercentageOfSharesHeldByParentBank contextRef="asof_20190331_PallavanGramabank" unitRef="PURE" decimals="2" >0.05</in-rbi-rep:PercentageOfSharesHeldByParentBank>
+<in-rbi-rep:PercentageOfCapitalHeldByParentBankIncludingTierIICapital contextRef="asof_20190331_PallavanGramabank" unitRef="PURE" decimals="2" >0.06</in-rbi-rep:PercentageOfCapitalHeldByParentBankIncludingTierIICapital>
+<in-rbi-rep:SubsidiaryAssociateJointVentureCategory contextRef="fromto_20181001_20190331_SaptagiriGrameenaBank" >Associate</in-rbi-rep:SubsidiaryAssociateJointVentureCategory>
+<in-rbi-rep:AreaOfOperationOfRelatedParty contextRef="fromto_20181001_20190331_SaptagiriGrameenaBank" >India</in-rbi-rep:AreaOfOperationOfRelatedParty>
+<in-rbi-rep:SubsidiaryAssociateJointVentureCode contextRef="fromto_20181001_20190331_SaptagiriGrameenaBank" >440109</in-rbi-rep:SubsidiaryAssociateJointVentureCode>
+<in-rbi-rep:SubsidiaryAssociateJointVentureName contextRef="fromto_20181001_20190331_SaptagiriGrameenaBank" >Saptagiri Grameena Bank</in-rbi-rep:SubsidiaryAssociateJointVentureName>
+<in-rbi-rep:ActivityName contextRef="fromto_20181001_20190331_SaptagiriGrameenaBank" >Banking</in-rbi-rep:ActivityName>
+<in-rbi-rep:RegulatorName contextRef="fromto_20181001_20190331_SaptagiriGrameenaBank" >Department of Banking Supervision</in-rbi-rep:RegulatorName>
+<in-rbi-rep:AggregateAssets contextRef="asof_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2388539000</in-rbi-rep:AggregateAssets>
+<in-rbi-rep:CapitalFund contextRef="asof_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2388778000</in-rbi-rep:CapitalFund>
+<in-rbi-rep:MinimumCapitalPrescribedByRegulators contextRef="asof_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2389017000</in-rbi-rep:MinimumCapitalPrescribedByRegulators>
+<in-rbi-rep:MinimumCapitalAdequacyRatioPrescribedByRegulators contextRef="asof_20190331_SaptagiriGrameenaBank" unitRef="PURE" decimals="4" >0.0385</in-rbi-rep:MinimumCapitalAdequacyRatioPrescribedByRegulators>
+<in-rbi-rep:CapitalAdequacyRatio contextRef="asof_20190331_SaptagiriGrameenaBank" unitRef="PURE" decimals="3" >0.045</in-rbi-rep:CapitalAdequacyRatio>
+<in-rbi-rep:NotionalCapitalFunds contextRef="asof_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2389734000</in-rbi-rep:NotionalCapitalFunds>
+<in-rbi-rep:RiskWeightedAssets contextRef="asof_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2389973000</in-rbi-rep:RiskWeightedAssets>
+<in-rbi-rep:NotionalCapitalAdequacyRatio contextRef="asof_20190331_SaptagiriGrameenaBank" unitRef="PURE" decimals="3" >0.054</in-rbi-rep:NotionalCapitalAdequacyRatio>
+<in-rbi-rep:CapitalAndReserves contextRef="asof_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2390451000</in-rbi-rep:CapitalAndReserves>
+<in-rbi-rep:Deposits contextRef="asof_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-4" >2390690000</in-rbi-rep:Deposits>
+<in-rbi-rep:Borrowings contextRef="asof_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2390929000</in-rbi-rep:Borrowings>
+<in-rbi-rep:ProfitLossBeforeTax contextRef="fromto_20181001_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2391168000</in-rbi-rep:ProfitLossBeforeTax>
+<in-rbi-rep:NetProfitLossAfterTax contextRef="fromto_20181001_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2391407000</in-rbi-rep:NetProfitLossAfterTax>
+<in-rbi-rep:SurplusLossOnProfitAndLossAccountCarriedForward contextRef="fromto_20181001_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2391646000</in-rbi-rep:SurplusLossOnProfitAndLossAccountCarriedForward>
+<in-rbi-rep:ReturnOnAssets contextRef="fromto_20181001_20190331_SaptagiriGrameenaBank" unitRef="PURE" decimals="3" >0.023</in-rbi-rep:ReturnOnAssets>
+<in-rbi-rep:ReturnOnEquity contextRef="fromto_20181001_20190331_SaptagiriGrameenaBank" unitRef="PURE" decimals="3" >0.042</in-rbi-rep:ReturnOnEquity>
+<in-rbi-rep:DividendPaid contextRef="asof_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2392363000</in-rbi-rep:DividendPaid>
+<in-rbi-rep:LoansAdvancesGross contextRef="asof_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2392602000</in-rbi-rep:LoansAdvancesGross>
+<in-rbi-rep:NonPerformingLoansGross contextRef="asof_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2392841000</in-rbi-rep:NonPerformingLoansGross>
+<in-rbi-rep:ProvisionsHeldAgainstNonPerformingLoans contextRef="fromto_20181001_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-4" >2393080000</in-rbi-rep:ProvisionsHeldAgainstNonPerformingLoans>
+<in-rbi-rep:ProvisionsRequiredAgainstNonPerformingLoans contextRef="fromto_20181001_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2393319000</in-rbi-rep:ProvisionsRequiredAgainstNonPerformingLoans>
+<in-rbi-rep:Investments contextRef="asof_20190331_BookValueMember_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2393558000</in-rbi-rep:Investments>
+<in-rbi-rep:Investments contextRef="asof_20190331_MarketValueMember_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2393797000</in-rbi-rep:Investments>
+<in-rbi-rep:NonPerformingInvestments contextRef="asof_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2394036000</in-rbi-rep:NonPerformingInvestments>
+<in-rbi-rep:ProvisionsHeldAgainstNonPerformingInvestments contextRef="fromto_20181001_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2394275000</in-rbi-rep:ProvisionsHeldAgainstNonPerformingInvestments>
+<in-rbi-rep:ProvisionsRequiredAgainstNonPerformingInvestments contextRef="fromto_20181001_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2394514000</in-rbi-rep:ProvisionsRequiredAgainstNonPerformingInvestments>
+<in-rbi-rep:OffBalanceSheetExposuresContingentLiabilities contextRef="asof_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2394753000</in-rbi-rep:OffBalanceSheetExposuresContingentLiabilities>
+<in-rbi-rep:NumberOfCounterparties contextRef="fromto_20181001_20190331_SaptagiriGrameenaBank" unitRef="PURE" decimals="INF" >10</in-rbi-rep:NumberOfCounterparties>
+<in-rbi-rep:AggregateExposureAmount contextRef="asof_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2395709000</in-rbi-rep:AggregateExposureAmount>
+<in-rbi-rep:AggregateExposurePercentageOfCapitalFunds contextRef="asof_20190331_SaptagiriGrameenaBank" unitRef="PURE" decimals="3" >0.045</in-rbi-rep:AggregateExposurePercentageOfCapitalFunds>
+<in-rbi-rep:InvestmentInCapitalByParentCompany contextRef="asof_20190331_SaptagiriGrameenaBank" unitRef="INR" decimals="-3" >2396187000</in-rbi-rep:InvestmentInCapitalByParentCompany>
+<in-rbi-rep:PercentageOfSharesHeldByParentBank contextRef="asof_20190331_SaptagiriGrameenaBank" unitRef="PURE" decimals="3" >0.045</in-rbi-rep:PercentageOfSharesHeldByParentBank>
+<in-rbi-rep:PercentageOfCapitalHeldByParentBankIncludingTierIICapital contextRef="asof_20190331_SaptagiriGrameenaBank" unitRef="PURE" decimals="2" >0.05</in-rbi-rep:PercentageOfCapitalHeldByParentBankIncludingTierIICapital>
+<in-rbi-rep:SubsidiaryAssociateJointVentureCategory contextRef="fromto_20181001_20190331_INDBANKHOUSINGFINANCELTD" >Subsidiary</in-rbi-rep:SubsidiaryAssociateJointVentureCategory>
+<in-rbi-rep:AreaOfOperationOfRelatedParty contextRef="fromto_20181001_20190331_INDBANKHOUSINGFINANCELTD" >India</in-rbi-rep:AreaOfOperationOfRelatedParty>
+<in-rbi-rep:SubsidiaryAssociateJointVentureCode contextRef="fromto_20181001_20190331_INDBANKHOUSINGFINANCELTD" >440103</in-rbi-rep:SubsidiaryAssociateJointVentureCode>
+<in-rbi-rep:SubsidiaryAssociateJointVentureName contextRef="fromto_20181001_20190331_INDBANKHOUSINGFINANCELTD" >INDBANK HOUSING FINANCE LTD.</in-rbi-rep:SubsidiaryAssociateJointVentureName>
+<in-rbi-rep:ActivityName contextRef="fromto_20181001_20190331_INDBANKHOUSINGFINANCELTD" >Housing companies</in-rbi-rep:ActivityName>
+<in-rbi-rep:RegulatorName contextRef="fromto_20181001_20190331_INDBANKHOUSINGFINANCELTD" >National Housing Bank</in-rbi-rep:RegulatorName>
+<in-rbi-rep:AggregateAssets contextRef="asof_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2391653000</in-rbi-rep:AggregateAssets>
+<in-rbi-rep:CapitalFund contextRef="asof_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2391892000</in-rbi-rep:CapitalFund>
+<in-rbi-rep:MinimumCapitalPrescribedByRegulators contextRef="asof_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2392131000</in-rbi-rep:MinimumCapitalPrescribedByRegulators>
+<in-rbi-rep:MinimumCapitalAdequacyRatioPrescribedByRegulators contextRef="asof_20190331_INDBANKHOUSINGFINANCELTD" unitRef="PURE" decimals="2" >0.02</in-rbi-rep:MinimumCapitalAdequacyRatioPrescribedByRegulators>
+<in-rbi-rep:CapitalAdequacyRatio contextRef="asof_20190331_INDBANKHOUSINGFINANCELTD" unitRef="PURE" decimals="2" >0.25</in-rbi-rep:CapitalAdequacyRatio>
+<in-rbi-rep:NotionalCapitalFunds contextRef="asof_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2392848000</in-rbi-rep:NotionalCapitalFunds>
+<in-rbi-rep:RiskWeightedAssets contextRef="asof_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2393087000</in-rbi-rep:RiskWeightedAssets>
+<in-rbi-rep:NotionalCapitalAdequacyRatio contextRef="asof_20190331_INDBANKHOUSINGFINANCELTD" unitRef="PURE" decimals="4" >0.0375</in-rbi-rep:NotionalCapitalAdequacyRatio>
+<in-rbi-rep:CapitalAndReserves contextRef="asof_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2393565000</in-rbi-rep:CapitalAndReserves>
+<in-rbi-rep:Deposits contextRef="asof_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2393804000</in-rbi-rep:Deposits>
+<in-rbi-rep:Borrowings contextRef="asof_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2394043000</in-rbi-rep:Borrowings>
+<in-rbi-rep:ProfitLossBeforeTax contextRef="fromto_20181001_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2394282000</in-rbi-rep:ProfitLossBeforeTax>
+<in-rbi-rep:NetProfitLossAfterTax contextRef="fromto_20181001_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2394521000</in-rbi-rep:NetProfitLossAfterTax>
+<in-rbi-rep:SurplusLossOnProfitAndLossAccountCarriedForward contextRef="fromto_20181001_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-4" >2394760000</in-rbi-rep:SurplusLossOnProfitAndLossAccountCarriedForward>
+<in-rbi-rep:ReturnOnAssets contextRef="fromto_20181001_20190331_INDBANKHOUSINGFINANCELTD" unitRef="PURE" decimals="2" >0.04</in-rbi-rep:ReturnOnAssets>
+<in-rbi-rep:ReturnOnEquity contextRef="fromto_20181001_20190331_INDBANKHOUSINGFINANCELTD" unitRef="PURE" decimals="4" >0.0452</in-rbi-rep:ReturnOnEquity>
+<in-rbi-rep:DividendPaid contextRef="asof_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2395477000</in-rbi-rep:DividendPaid>
+<in-rbi-rep:LoansAdvancesGross contextRef="asof_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2395716000</in-rbi-rep:LoansAdvancesGross>
+<in-rbi-rep:NonPerformingLoansGross contextRef="asof_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2395955000</in-rbi-rep:NonPerformingLoansGross>
+<in-rbi-rep:ProvisionsHeldAgainstNonPerformingLoans contextRef="fromto_20181001_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2396194000</in-rbi-rep:ProvisionsHeldAgainstNonPerformingLoans>
+<in-rbi-rep:ProvisionsRequiredAgainstNonPerformingLoans contextRef="fromto_20181001_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2396433000</in-rbi-rep:ProvisionsRequiredAgainstNonPerformingLoans>
+<in-rbi-rep:Investments contextRef="asof_20190331_BookValueMember_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2396672000</in-rbi-rep:Investments>
+<in-rbi-rep:Investments contextRef="asof_20190331_MarketValueMember_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2396911000</in-rbi-rep:Investments>
+<in-rbi-rep:NonPerformingInvestments contextRef="asof_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-4" >2397150000</in-rbi-rep:NonPerformingInvestments>
+<in-rbi-rep:ProvisionsHeldAgainstNonPerformingInvestments contextRef="fromto_20181001_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2397389000</in-rbi-rep:ProvisionsHeldAgainstNonPerformingInvestments>
+<in-rbi-rep:ProvisionsRequiredAgainstNonPerformingInvestments contextRef="fromto_20181001_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2397628000</in-rbi-rep:ProvisionsRequiredAgainstNonPerformingInvestments>
+<in-rbi-rep:OffBalanceSheetExposuresContingentLiabilities contextRef="asof_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2397867000</in-rbi-rep:OffBalanceSheetExposuresContingentLiabilities>
+<in-rbi-rep:NumberOfCounterparties contextRef="fromto_20181001_20190331_INDBANKHOUSINGFINANCELTD" unitRef="PURE" decimals="INF" >12</in-rbi-rep:NumberOfCounterparties>
+<in-rbi-rep:AggregateExposureAmount contextRef="asof_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2398106000</in-rbi-rep:AggregateExposureAmount>
+<in-rbi-rep:AggregateExposurePercentageOfCapitalFunds contextRef="asof_20190331_INDBANKHOUSINGFINANCELTD" unitRef="PURE" decimals="3" >0.042</in-rbi-rep:AggregateExposurePercentageOfCapitalFunds>
+<in-rbi-rep:InvestmentInCapitalByParentCompany contextRef="asof_20190331_INDBANKHOUSINGFINANCELTD" unitRef="INR" decimals="-3" >2398345000</in-rbi-rep:InvestmentInCapitalByParentCompany>
+<in-rbi-rep:PercentageOfSharesHeldByParentBank contextRef="asof_20190331_INDBANKHOUSINGFINANCELTD" unitRef="PURE" decimals="3" >0.028</in-rbi-rep:PercentageOfSharesHeldByParentBank>
+<in-rbi-rep:PercentageOfCapitalHeldByParentBankIncludingTierIICapital contextRef="asof_20190331_INDBANKHOUSINGFINANCELTD" unitRef="PURE" decimals="4" >0.0125</in-rbi-rep:PercentageOfCapitalHeldByParentBankIncludingTierIICapital>
+<in-rbi-rep:SubsidiaryAssociateJointVentureCategory contextRef="fromto_20181001_20190331_PuduvaiBharathiarGramaBank" >Associate</in-rbi-rep:SubsidiaryAssociateJointVentureCategory>
+<in-rbi-rep:AreaOfOperationOfRelatedParty contextRef="fromto_20181001_20190331_PuduvaiBharathiarGramaBank" >India</in-rbi-rep:AreaOfOperationOfRelatedParty>
+<in-rbi-rep:SubsidiaryAssociateJointVentureCode contextRef="fromto_20181001_20190331_PuduvaiBharathiarGramaBank" >440111</in-rbi-rep:SubsidiaryAssociateJointVentureCode>
+<in-rbi-rep:SubsidiaryAssociateJointVentureName contextRef="fromto_20181001_20190331_PuduvaiBharathiarGramaBank" >Puduvai Bharathiar Grama Bank</in-rbi-rep:SubsidiaryAssociateJointVentureName>
+<in-rbi-rep:ActivityName contextRef="fromto_20181001_20190331_PuduvaiBharathiarGramaBank" >Banking</in-rbi-rep:ActivityName>
+<in-rbi-rep:RegulatorName contextRef="fromto_20181001_20190331_PuduvaiBharathiarGramaBank" >Reserve Bank of India</in-rbi-rep:RegulatorName>
+<in-rbi-rep:AggregateAssets contextRef="asof_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2394767000</in-rbi-rep:AggregateAssets>
+<in-rbi-rep:CapitalFund contextRef="asof_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2395006000</in-rbi-rep:CapitalFund>
+<in-rbi-rep:MinimumCapitalPrescribedByRegulators contextRef="asof_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2395245000</in-rbi-rep:MinimumCapitalPrescribedByRegulators>
+<in-rbi-rep:MinimumCapitalAdequacyRatioPrescribedByRegulators contextRef="asof_20190331_PuduvaiBharathiarGramaBank" unitRef="PURE" decimals="3" >0.015</in-rbi-rep:MinimumCapitalAdequacyRatioPrescribedByRegulators>
+<in-rbi-rep:CapitalAdequacyRatio contextRef="asof_20190331_PuduvaiBharathiarGramaBank" unitRef="PURE" decimals="3" >0.021</in-rbi-rep:CapitalAdequacyRatio>
+<in-rbi-rep:NotionalCapitalFunds contextRef="asof_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2395962000</in-rbi-rep:NotionalCapitalFunds>
+<in-rbi-rep:RiskWeightedAssets contextRef="asof_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2396201000</in-rbi-rep:RiskWeightedAssets>
+<in-rbi-rep:NotionalCapitalAdequacyRatio contextRef="asof_20190331_PuduvaiBharathiarGramaBank" unitRef="PURE" decimals="4" >0.0124</in-rbi-rep:NotionalCapitalAdequacyRatio>
+<in-rbi-rep:CapitalAndReserves contextRef="asof_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2396679000</in-rbi-rep:CapitalAndReserves>
+<in-rbi-rep:Deposits contextRef="asof_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2396918000</in-rbi-rep:Deposits>
+<in-rbi-rep:Borrowings contextRef="asof_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2397157000</in-rbi-rep:Borrowings>
+<in-rbi-rep:ProfitLossBeforeTax contextRef="fromto_20181001_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2397396000</in-rbi-rep:ProfitLossBeforeTax>
+<in-rbi-rep:NetProfitLossAfterTax contextRef="fromto_20181001_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2397635000</in-rbi-rep:NetProfitLossAfterTax>
+<in-rbi-rep:SurplusLossOnProfitAndLossAccountCarriedForward contextRef="fromto_20181001_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2397874000</in-rbi-rep:SurplusLossOnProfitAndLossAccountCarriedForward>
+<in-rbi-rep:ReturnOnAssets contextRef="fromto_20181001_20190331_PuduvaiBharathiarGramaBank" unitRef="PURE" decimals="3" >0.012</in-rbi-rep:ReturnOnAssets>
+<in-rbi-rep:ReturnOnEquity contextRef="fromto_20181001_20190331_PuduvaiBharathiarGramaBank" unitRef="PURE" decimals="4" >0.0329</in-rbi-rep:ReturnOnEquity>
+<in-rbi-rep:DividendPaid contextRef="asof_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2398591000</in-rbi-rep:DividendPaid>
+<in-rbi-rep:LoansAdvancesGross contextRef="asof_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-4" >2398830000</in-rbi-rep:LoansAdvancesGross>
+<in-rbi-rep:NonPerformingLoansGross contextRef="asof_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2399069000</in-rbi-rep:NonPerformingLoansGross>
+<in-rbi-rep:ProvisionsHeldAgainstNonPerformingLoans contextRef="fromto_20181001_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2399308000</in-rbi-rep:ProvisionsHeldAgainstNonPerformingLoans>
+<in-rbi-rep:ProvisionsRequiredAgainstNonPerformingLoans contextRef="fromto_20181001_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2399547000</in-rbi-rep:ProvisionsRequiredAgainstNonPerformingLoans>
+<in-rbi-rep:Investments contextRef="asof_20190331_BookValueMember_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2399786000</in-rbi-rep:Investments>
+<in-rbi-rep:Investments contextRef="asof_20190331_MarketValueMember_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2400025000</in-rbi-rep:Investments>
+<in-rbi-rep:NonPerformingInvestments contextRef="asof_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2400264000</in-rbi-rep:NonPerformingInvestments>
+<in-rbi-rep:ProvisionsHeldAgainstNonPerformingInvestments contextRef="fromto_20181001_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2400503000</in-rbi-rep:ProvisionsHeldAgainstNonPerformingInvestments>
+<in-rbi-rep:ProvisionsRequiredAgainstNonPerformingInvestments contextRef="fromto_20181001_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2400742000</in-rbi-rep:ProvisionsRequiredAgainstNonPerformingInvestments>
+<in-rbi-rep:OffBalanceSheetExposuresContingentLiabilities contextRef="asof_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2400981000</in-rbi-rep:OffBalanceSheetExposuresContingentLiabilities>
+<in-rbi-rep:NumberOfCounterparties contextRef="fromto_20181001_20190331_PuduvaiBharathiarGramaBank" unitRef="PURE" decimals="INF" >9</in-rbi-rep:NumberOfCounterparties>
+<in-rbi-rep:AggregateExposureAmount contextRef="asof_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-4" >2401220000</in-rbi-rep:AggregateExposureAmount>
+<in-rbi-rep:AggregateExposurePercentageOfCapitalFunds contextRef="asof_20190331_PuduvaiBharathiarGramaBank" unitRef="PURE" decimals="2" >0.06</in-rbi-rep:AggregateExposurePercentageOfCapitalFunds>
+<in-rbi-rep:InvestmentInCapitalByParentCompany contextRef="asof_20190331_PuduvaiBharathiarGramaBank" unitRef="INR" decimals="-3" >2401698000</in-rbi-rep:InvestmentInCapitalByParentCompany>
+<in-rbi-rep:PercentageOfSharesHeldByParentBank contextRef="asof_20190331_PuduvaiBharathiarGramaBank" unitRef="PURE" decimals="2" >0.04</in-rbi-rep:PercentageOfSharesHeldByParentBank>
+<in-rbi-rep:PercentageOfCapitalHeldByParentBankIncludingTierIICapital contextRef="asof_20190331_PuduvaiBharathiarGramaBank" unitRef="PURE" decimals="2" >0.08</in-rbi-rep:PercentageOfCapitalHeldByParentBankIncludingTierIICapital>
+<in-rbi-rep:SubsidiaryAssociateJointVentureCategory contextRef="fromto_20181001_20190331_INDBANKMERCHANBANKINGSERVICESLTD" >Subsidiary</in-rbi-rep:SubsidiaryAssociateJointVentureCategory>
+<in-rbi-rep:AreaOfOperationOfRelatedParty contextRef="fromto_20181001_20190331_INDBANKMERCHANBANKINGSERVICESLTD" >India</in-rbi-rep:AreaOfOperationOfRelatedParty>
+<in-rbi-rep:SubsidiaryAssociateJointVentureCode contextRef="fromto_20181001_20190331_INDBANKMERCHANBANKINGSERVICESLTD" >440102</in-rbi-rep:SubsidiaryAssociateJointVentureCode>
+<in-rbi-rep:SubsidiaryAssociateJointVentureName contextRef="fromto_20181001_20190331_INDBANKMERCHANBANKINGSERVICESLTD" >INDBANK MERCHAN BANKING SERVICES LTD</in-rbi-rep:SubsidiaryAssociateJointVentureName>
+<in-rbi-rep:ActivityName contextRef="fromto_20181001_20190331_INDBANKMERCHANBANKINGSERVICESLTD" >Merchant Banking companies</in-rbi-rep:ActivityName>
+<in-rbi-rep:RegulatorName contextRef="fromto_20181001_20190331_INDBANKMERCHANBANKINGSERVICESLTD" >Securities   Exchange Board of India</in-rbi-rep:RegulatorName>
+<in-rbi-rep:AggregateAssets contextRef="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-3" >2397881000</in-rbi-rep:AggregateAssets>
+<in-rbi-rep:CapitalFund contextRef="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-4" >2398120000</in-rbi-rep:CapitalFund>
+<in-rbi-rep:MinimumCapitalPrescribedByRegulators contextRef="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-3" >2398359000</in-rbi-rep:MinimumCapitalPrescribedByRegulators>
+<in-rbi-rep:MinimumCapitalAdequacyRatioPrescribedByRegulators contextRef="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="PURE" decimals="3" >0.035</in-rbi-rep:MinimumCapitalAdequacyRatioPrescribedByRegulators>
+<in-rbi-rep:CapitalAdequacyRatio contextRef="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="PURE" decimals="2" >0.02</in-rbi-rep:CapitalAdequacyRatio>
+<in-rbi-rep:NotionalCapitalFunds contextRef="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-3" >2399076000</in-rbi-rep:NotionalCapitalFunds>
+<in-rbi-rep:RiskWeightedAssets contextRef="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-3" >2399315000</in-rbi-rep:RiskWeightedAssets>
+<in-rbi-rep:NotionalCapitalAdequacyRatio contextRef="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="PURE" decimals="4" >0.0215</in-rbi-rep:NotionalCapitalAdequacyRatio>
+<in-rbi-rep:CapitalAndReserves contextRef="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-3" >2399793000</in-rbi-rep:CapitalAndReserves>
+<in-rbi-rep:Deposits contextRef="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-3" >2400032000</in-rbi-rep:Deposits>
+<in-rbi-rep:Borrowings contextRef="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-3" >2400271000</in-rbi-rep:Borrowings>
+<in-rbi-rep:ProfitLossBeforeTax contextRef="fromto_20181001_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-4" >2400510000</in-rbi-rep:ProfitLossBeforeTax>
+<in-rbi-rep:NetProfitLossAfterTax contextRef="fromto_20181001_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-3" >2400749000</in-rbi-rep:NetProfitLossAfterTax>
+<in-rbi-rep:SurplusLossOnProfitAndLossAccountCarriedForward contextRef="fromto_20181001_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-3" >2400988000</in-rbi-rep:SurplusLossOnProfitAndLossAccountCarriedForward>
+<in-rbi-rep:ReturnOnAssets contextRef="fromto_20181001_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="PURE" decimals="3" >0.026</in-rbi-rep:ReturnOnAssets>
+<in-rbi-rep:ReturnOnEquity contextRef="fromto_20181001_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="PURE" decimals="2" >0.14</in-rbi-rep:ReturnOnEquity>
+<in-rbi-rep:DividendPaid contextRef="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-3" >2401705000</in-rbi-rep:DividendPaid>
+<in-rbi-rep:LoansAdvancesGross contextRef="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-3" >2401944000</in-rbi-rep:LoansAdvancesGross>
+<in-rbi-rep:NonPerformingLoansGross contextRef="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-3" >2402183000</in-rbi-rep:NonPerformingLoansGross>
+<in-rbi-rep:ProvisionsHeldAgainstNonPerformingLoans contextRef="fromto_20181001_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-3" >2402422000</in-rbi-rep:ProvisionsHeldAgainstNonPerformingLoans>
+<in-rbi-rep:ProvisionsRequiredAgainstNonPerformingLoans contextRef="fromto_20181001_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-3" >2402661000</in-rbi-rep:ProvisionsRequiredAgainstNonPerformingLoans>
+<in-rbi-rep:Investments contextRef="asof_20190331_BookValueMember_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-5" >2402900000</in-rbi-rep:Investments>
+<in-rbi-rep:Investments contextRef="asof_20190331_MarketValueMember_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-3" >2403139000</in-rbi-rep:Investments>
+<in-rbi-rep:NonPerformingInvestments contextRef="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-3" >2403378000</in-rbi-rep:NonPerformingInvestments>
+<in-rbi-rep:ProvisionsHeldAgainstNonPerformingInvestments contextRef="fromto_20181001_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-3" >2403617000</in-rbi-rep:ProvisionsHeldAgainstNonPerformingInvestments>
+<in-rbi-rep:ProvisionsRequiredAgainstNonPerformingInvestments contextRef="fromto_20181001_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-3" >2403856000</in-rbi-rep:ProvisionsRequiredAgainstNonPerformingInvestments>
+<in-rbi-rep:OffBalanceSheetExposuresContingentLiabilities contextRef="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-3" >2404095000</in-rbi-rep:OffBalanceSheetExposuresContingentLiabilities>
+<in-rbi-rep:NumberOfCounterparties contextRef="fromto_20181001_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="PURE" decimals="INF" >16</in-rbi-rep:NumberOfCounterparties>
+<in-rbi-rep:AggregateExposureAmount contextRef="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-3" >2404334000</in-rbi-rep:AggregateExposureAmount>
+<in-rbi-rep:AggregateExposurePercentageOfCapitalFunds contextRef="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="PURE" decimals="2" >0.14</in-rbi-rep:AggregateExposurePercentageOfCapitalFunds>
+<in-rbi-rep:InvestmentInCapitalByParentCompany contextRef="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="INR" decimals="-3" >2404573000</in-rbi-rep:InvestmentInCapitalByParentCompany>
+<in-rbi-rep:PercentageOfSharesHeldByParentBank contextRef="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="PURE" decimals="2" >0.04</in-rbi-rep:PercentageOfSharesHeldByParentBank>
+<in-rbi-rep:PercentageOfCapitalHeldByParentBankIncludingTierIICapital contextRef="asof_20190331_INDBANKMERCHANBANKINGSERVICESLTD" unitRef="PURE" decimals="4" >0.0458</in-rbi-rep:PercentageOfCapitalHeldByParentBankIncludingTierIICapital>
+
+</xbrli:xbrl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

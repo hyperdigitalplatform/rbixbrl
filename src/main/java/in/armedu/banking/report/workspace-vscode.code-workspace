@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"name": "rbixbrl",
+			"path": "..\\..\\..\\..\\..\\..\\.."
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -javaagent:\"c:\\Users\\aiio7\\.vscode\\extensions\\gabrielbb.vscode-lombok-1.0.1\\server\\lombok.jar\"",
+		"java.progressReports.enabled": false,
+		"java.recommendations.dependency.analytics.show": false
+	}
+}
