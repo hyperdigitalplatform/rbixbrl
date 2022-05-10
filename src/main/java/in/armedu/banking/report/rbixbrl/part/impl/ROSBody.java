@@ -6,6 +6,7 @@ import java.util.List;
 import javax.xml.bind.JAXBElement;
 
 import org.rbi.in.xbrl._2012_05_07.in_rbi_rep_types.AreaOfOperationOfRelatedPartyItemTypeROS;
+import org.xbrl._2003.instance.StringItemType;
 import org.xbrl._2003.instance.Context;
 import org.xbrl.dtr.type.non_numeric.DomainItemType;
 
@@ -41,7 +42,7 @@ public class ROSBody implements BodyIntf {
         
         org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory rbiObjectFactory;
         rbiObjectFactory = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory();
-            // subsidiary category
+            // create subsidiary category
         DomainItemType domainItemType = new DomainItemType();
         domainItemType.setContextRef(fromToContext);
         domainItemType.setValue(rosItem.getSubsidiaryInfo().getCategory());
@@ -54,7 +55,13 @@ public class ROSBody implements BodyIntf {
         relatedPartyType.setValue(rosItem.getSubsidiaryInfo().getAreaOfOperations());
         JAXBElement<AreaOfOperationOfRelatedPartyItemTypeROS> relatedParty = rbiObjectFactory.createAreaOfOperationOfRelatedParty(relatedPartyType);
         bodyItems.add(relatedParty);
-               
+        // create SubsidiaryAssociateJointVentureCode
+        StringItemType ventureCodeType = new StringItemType();
+        ventureCodeType.setContextRef(fromToContext);
+        ventureCodeType.setValue(rosItem.getSubsidiaryInfo().getSubsidiaryCode());
+        JAXBElement<StringItemType> ventureCode = rbiObjectFactory.createSubsidiaryAssociateJointVentureCode(ventureCodeType);      
+        bodyItems.add(ventureCode);
+
         return bodyItems;
     }
 

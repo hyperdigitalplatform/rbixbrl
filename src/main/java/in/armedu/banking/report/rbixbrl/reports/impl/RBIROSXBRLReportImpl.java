@@ -77,7 +77,7 @@ public class RBIROSXBRLReportImpl {
                     xbrl.getItemOrTupleOrContext().add(ctx);
                 });
                 //xbrl.getItemOrTupleOrContext().add(rosItemContexts);
-                //bodyElements.addAll(rosBody.getReportBodyItem( rosItemContexts, rosData.getRosGeneralInfo(), item));
+                bodyElements.addAll(rosBody.getReportBodyItem( rosItemContexts, rosData.getRosGeneralInfo(), item));
             });
             bodyElements.forEach(bElem->{
                 xbrl.getItemOrTupleOrContext().add(bElem);
@@ -86,6 +86,7 @@ public class RBIROSXBRLReportImpl {
             m.marshal(xbrl, writer);
             System.out.println("");
             System.out.println(writer.toString());
+            System.out.println("");
             return writer;
         } catch(Exception e){
             e.printStackTrace();
