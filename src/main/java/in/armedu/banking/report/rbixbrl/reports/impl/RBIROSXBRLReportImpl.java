@@ -10,6 +10,7 @@ import javax.xml.namespace.QName;
 
 import org.xbrl._2003.instance.Context;
 import org.xbrl._2003.instance.ObjectFactory;
+import org.xbrl._2003.instance.Unit;
 import org.xbrl._2003.instance.Xbrl;
 import org.xbrl._2003.xlink.SimpleType;
 
@@ -17,9 +18,11 @@ import in.armedu.banking.report.rbixbrl.model.GeneralInfoData;
 import in.armedu.banking.report.rbixbrl.model.ROSData;
 import in.armedu.banking.report.rbixbrl.part.BodyIntf;
 import in.armedu.banking.report.rbixbrl.part.ContextIntf;
+import in.armedu.banking.report.rbixbrl.part.UnitIntf;
 import in.armedu.banking.report.rbixbrl.part.impl.ROSBody;
 import in.armedu.banking.report.rbixbrl.part.impl.ROSGeneralBody;
 import in.armedu.banking.report.rbixbrl.part.impl.ROSGeneralContext;
+import in.armedu.banking.report.rbixbrl.part.impl.ROSUnit;
 import in.armedu.banking.report.rbixbrl.util.DefaultNamespacePrefixMapper;
 
 public class RBIROSXBRLReportImpl {
@@ -27,6 +30,7 @@ public class RBIROSXBRLReportImpl {
     private List<BodyIntf> bodies = new ArrayList<BodyIntf>();
     private ContextIntf contextIntf = new ROSGeneralContext();
     private BodyIntf rosGeneralBody = new ROSGeneralBody();
+    private UnitIntf rosUnits = new ROSUnit();
     private BodyIntf rosBody = new ROSBody();
     private ObjectFactory instancObjectFactory = new ObjectFactory();
     private String outFolder;
@@ -76,8 +80,16 @@ public class RBIROSXBRLReportImpl {
                 rosItemContexts.forEach(ctx -> {
                     xbrl.getItemOrTupleOrContext().add(ctx);
                 });
-                //xbrl.getItemOrTupleOrContext().add(rosItemContexts);
-                bodyElements.addAll(rosBody.getReportBodyItem( rosItemContexts, rosData.getRosGeneralInfo(), item));
+            });
+            List<Unit> units = rosUnits.getUnits(instancObjectFactory, rosData.getRosGeneralInfo());
+            units.forEach(unit -> {
+                xbrl.getItemOrTupleOrContext().add(unit);
+            });
+            // generate ros element for each subsidiary
+            rosData.getRosItems().forEach(item->{
+                List<Context> rosItemContexts = contextIntf.getContext(instancObjectFactory, rosData.getRosGeneralInfo(), item);
+                
+                bodyElements.addAll(rosBody.getReportBodyItem( rosItemContexts, units, rosData.getRosGeneralInfo(), item));
             });
             bodyElements.forEach(bElem->{
                 xbrl.getItemOrTupleOrContext().add(bElem);

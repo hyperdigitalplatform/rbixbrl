@@ -15,6 +15,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
 import org.xbrl._2003.instance.Context;
 
 import org.xbrl._2003.instance.StringItemType;
+import org.xbrl._2003.instance.Unit;
 import org.xbrl._2003.instance.DateItemType;
 import org.rbi.in.xbrl._2012_05_07.in_rbi_rep_types.ValidationStatusItemType;
 
@@ -31,7 +32,7 @@ public class ROSGeneralBody implements BodyIntf {
         return getReportBodyItemOnlyForFromToAndASOF(contexts.get(0), contexts.get(1), generalInfoData);
     }
     
-    @Override
+    
     public List<Object> getReportBodyItemOnlyForFromToAndASOF(Context fromToContext, Context asOfContext, GeneralInfoData generalInfoData) {
         List<Object> generalItems = new ArrayList<Object>();
 
@@ -126,16 +127,10 @@ public class ROSGeneralBody implements BodyIntf {
     }
 
     @Override
-    public List<Object> getReportBodyItem(List<Context> contexts, GeneralInfoData generalInfoData, ROSItem rosItem) {
+    public List<Object> getReportBodyItem(List<Context> contexts, List<Unit> units, GeneralInfoData generalInfoData, ROSItem rosItem) {
         // TODO Auto-generated method stub
         return null;
     }
 
-    @Override
-    public List<Object> getReportBodyItemOnlyForFromToAndASOF(Context fromToContext, Context asOfContext,
-            GeneralInfoData generalInfoData, ROSItem rosItem) {
-        // TODO Auto-generated method stub
-        return null;
-    }
 
 }

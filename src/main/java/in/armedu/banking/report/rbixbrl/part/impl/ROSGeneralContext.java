@@ -9,6 +9,7 @@ import org.xbrl._2003.instance.ContextEntityType;
 import org.xbrl._2003.instance.ContextPeriodType;
 import org.xbrl._2003.instance.ObjectFactory;
 import org.xbrl._2003.instance.ContextEntityType.Identifier;
+import org.xbrl._2006.xbrldi.ExplicitMember;
 import org.xbrl._2006.xbrldi.TypedMember;
 
 import in.armedu.banking.report.rbixbrl.model.GeneralInfoData;
@@ -54,7 +55,7 @@ public class ROSGeneralContext implements ContextIntf {
         public List<Context> getContext(ObjectFactory xbrlObjectFactory, GeneralInfoData generalInfoData,
                         ROSItem rosItem) {
                 // create entity and entity identifier
-                                ContextEntityType contextEntityType = xbrlObjectFactory.createContextEntityType();
+                ContextEntityType contextEntityType = xbrlObjectFactory.createContextEntityType();
                 TypedMember typedMember = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
                 typedMember.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "NameOfSubsidiaryAssociateJointVenturesAxis"));
                 typedMember.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory()
@@ -94,8 +95,48 @@ public class ROSGeneralContext implements ContextIntf {
                 periodInstant.setInstant(generalInfoData.getDateOfReport());
                 asOfContext.setEntity(contextEntityType);
                 asOfContext.setPeriod(periodInstant);
+                // create asof context for bookvaluemember
+                // create entity and entity identifier
+                ContextEntityType contextEntityTypeForBookValueMember = xbrlObjectFactory.createContextEntityType();
+                contextEntityTypeForBookValueMember.setIdentifier(identifier);
+                // create segement
+                org.xbrl._2003.instance.Segment segBookValueMember = xbrlObjectFactory.createSegment();
+                
+                ExplicitMember explicitMember = new org.xbrl._2006.xbrldi.ObjectFactory().createExplicitMember();
+                explicitMember.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "DetailsOfValueAxis"));
+                explicitMember.setValue(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "BookValueMember"));;
+                segBookValueMember.getAny().add(explicitMember);
+                segBookValueMember.getAny().add(typedMember);
+                // add to context Entity
+                contextEntityTypeForBookValueMember.setSegment(segBookValueMember);
+                Context asOfBookValueMemberContext = xbrlObjectFactory.createContext();
+                String contextRefAsOfBookValueMemberString = AsOfContext.getId("asof", generalInfoData.getDateOfReport().replaceAll("-", ""),
+                                "BookValueMember", rosItem.getSubsidiaryInfo().getSubsidiaryName().replaceAll("\\s", ""));
+                                asOfBookValueMemberContext.setId(contextRefAsOfBookValueMemberString);
+                asOfBookValueMemberContext.setEntity(contextEntityTypeForBookValueMember);
+                asOfBookValueMemberContext.setPeriod(periodInstant);
+                // create asof context for MarketValueMember
+                // create entity and entity identifier
+                ContextEntityType contextEntityTypeForMarketValueMember = xbrlObjectFactory.createContextEntityType();
+                contextEntityTypeForMarketValueMember.setIdentifier(identifier);
+                // create segement
+                org.xbrl._2003.instance.Segment segMarketValueMember = xbrlObjectFactory.createSegment();
+                
+                ExplicitMember explicitMemberForMarketValueMember = new org.xbrl._2006.xbrldi.ObjectFactory().createExplicitMember();
+                explicitMemberForMarketValueMember.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "DetailsOfValueAxis"));
+                explicitMemberForMarketValueMember.setValue(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "MarketValueMember"));;
+                segMarketValueMember.getAny().add(explicitMemberForMarketValueMember);
+                segMarketValueMember.getAny().add(typedMember);
+                // add to context Entity
+                contextEntityTypeForMarketValueMember.setSegment(segMarketValueMember);
+                Context asOfMarketValueMemberContext = xbrlObjectFactory.createContext();
+                String contextRefAsOfMarketValueMemberString = AsOfContext.getId("asof", generalInfoData.getDateOfReport().replaceAll("-", ""),
+                                "MarketValueMember", rosItem.getSubsidiaryInfo().getSubsidiaryName().replaceAll("\\s", ""));
+                asOfMarketValueMemberContext.setId(contextRefAsOfMarketValueMemberString);
+                asOfMarketValueMemberContext.setEntity(contextEntityTypeForMarketValueMember);
+                asOfMarketValueMemberContext.setPeriod(periodInstant);
 
-                return Arrays.asList(fromToContext, asOfContext);
+                return Arrays.asList(fromToContext, asOfContext, asOfBookValueMemberContext, asOfMarketValueMemberContext);
         }
 
 }

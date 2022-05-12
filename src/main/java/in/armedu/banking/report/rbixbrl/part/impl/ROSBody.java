@@ -22,6 +22,7 @@ import org.xbrl.dtr.type.numeric.PercentItemType;
 import in.armedu.banking.report.rbixbrl.model.GeneralInfoData;
 import in.armedu.banking.report.rbixbrl.model.ROSItem;
 import in.armedu.banking.report.rbixbrl.part.BodyIntf;
+import in.armedu.banking.report.rbixbrl.util.CommonFns;
 
 
 public class ROSBody implements BodyIntf {
@@ -32,38 +33,23 @@ public class ROSBody implements BodyIntf {
         return null;
     }
 
+    
+
+
     @Override
-    public List<Object> getReportBodyItemOnlyForFromToAndASOF(Context fromToContext, Context asOfContext,   GeneralInfoData generalInfoData) {
-        // TODO Auto-generated method stub
-        return null;
+    public List<Object> getReportBodyItem(List<Context> contexts, List<Unit> units, GeneralInfoData generalInfoData, ROSItem rosItem) {
+        return getReportBodyItemOnlyForFromToAndASOF(contexts.get(0), contexts.get(1), contexts.get(2), contexts.get(3), units.get(0), units.get(1), generalInfoData, rosItem);
     }
 
 
-    @Override
-    public List<Object> getReportBodyItem(List<Context> contexts, GeneralInfoData generalInfoData, ROSItem rosItem) {
-        return getReportBodyItemOnlyForFromToAndASOF(contexts.get(0), contexts.get(1), generalInfoData, rosItem);
-    }
-
-    @Override
-    public List<Object> getReportBodyItemOnlyForFromToAndASOF(Context fromToContext, Context asOfContext,  GeneralInfoData generalInfoData, ROSItem rosItem) {
-        ObjectFactory xbrlObject = new ObjectFactory();   
+    public List<Object> getReportBodyItemOnlyForFromToAndASOF(Context fromToContext, Context asOfContext, Context bookValueContext, Context marketValueContext, Unit unitINR, Unit pureUnit, GeneralInfoData generalInfoData, ROSItem rosItem) {
+           
         List<Object> bodyItems = new ArrayList<Object>();
-        List<Object> units = new ArrayList<Object>();
+        
 
         org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory rbiObjectFactory;
         rbiObjectFactory = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory();
-        // create units 
-        Unit unitINR = xbrlObject.createUnit();
-        unitINR.setId("INR");
-        QName unitMeasureValue = new QName("iso4217:INR");
-        unitINR.getMeasure().add(unitMeasureValue);
-        units.add(unitINR);
-        bodyItems.add(unitINR);
-        Unit pureUnit = xbrlObject.createUnit();
-        pureUnit.setId("PURE");
-        QName pureMeasureValue = new QName("xbrli:pure");
-        pureUnit.getMeasure().add(pureMeasureValue);
-        bodyItems.add(pureUnit);
+        
 
         // create subsidiary category
         DomainItemType domainItemType = new DomainItemType();
@@ -106,7 +92,7 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType aggregateAssetsType = new MonetaryItemType();
         aggregateAssetsType.setContextRef(asOfContext);
         aggregateAssetsType.setUnitRef(unitINR);
-        aggregateAssetsType.setDecimals("-3");
+        aggregateAssetsType.setDecimals( String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getTotalAssets() ) )  );
         aggregateAssetsType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getTotalAssets()));
         JAXBElement<MonetaryItemType> aggregateAssets = rbiObjectFactory.createAggregateAssets(aggregateAssetsType);
         bodyItems.add(aggregateAssets);
@@ -114,7 +100,7 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType capitalFundType = new MonetaryItemType();
         capitalFundType.setContextRef(asOfContext);
         capitalFundType.setUnitRef(unitINR);
-        capitalFundType.setDecimals("-3");
+        capitalFundType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getCapitalFunds() ) )  );
         capitalFundType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getCapitalFunds()));
         JAXBElement<MonetaryItemType> capitalFund = rbiObjectFactory.createCapitalFund(capitalFundType);
         bodyItems.add(capitalFund);
@@ -122,7 +108,7 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType minCapitalPrescribedByRegulatorType = new MonetaryItemType();
         minCapitalPrescribedByRegulatorType.setContextRef(asOfContext);
         minCapitalPrescribedByRegulatorType.setUnitRef(unitINR);
-        minCapitalPrescribedByRegulatorType.setDecimals("-3");
+        minCapitalPrescribedByRegulatorType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getMinPrescribedCapital() ) )  );
         minCapitalPrescribedByRegulatorType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getMinPrescribedCapital()));
         JAXBElement<MonetaryItemType> minCapitalPrescribedByRegulator = rbiObjectFactory.createMinimumCapitalPrescribedByRegulators(minCapitalPrescribedByRegulatorType);
         bodyItems.add(minCapitalPrescribedByRegulator);
@@ -147,7 +133,7 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType notionalCapitalFundsType = new MonetaryItemType();
         notionalCapitalFundsType.setContextRef(asOfContext);
         notionalCapitalFundsType.setUnitRef(unitINR);
-        notionalCapitalFundsType.setDecimals("-3");
+        notionalCapitalFundsType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getNotionalCapitalFunds() ) )  );
         notionalCapitalFundsType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getNotionalCapitalFunds()));
         JAXBElement<MonetaryItemType> notionalCapitalFunds = rbiObjectFactory.createNotionalCapitalFunds(notionalCapitalFundsType);
         bodyItems.add(notionalCapitalFunds);
@@ -155,7 +141,7 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType riskWeightedAssetsType = new MonetaryItemType();
         riskWeightedAssetsType.setContextRef(asOfContext);
         riskWeightedAssetsType.setUnitRef(unitINR);
-        riskWeightedAssetsType.setDecimals("-3");
+        riskWeightedAssetsType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getRiskWeightedAssets() ) )  );
         riskWeightedAssetsType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getRiskWeightedAssets()));
         JAXBElement<MonetaryItemType> riskWeightedAssets = rbiObjectFactory.createRiskWeightedAssets(riskWeightedAssetsType);
         bodyItems.add(riskWeightedAssets);
@@ -171,7 +157,7 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType capitalAndReservesType = new MonetaryItemType();
         capitalAndReservesType.setContextRef(asOfContext);
         capitalAndReservesType.setUnitRef(unitINR);
-        capitalAndReservesType.setDecimals("-3");
+        capitalAndReservesType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getCapitalAndReservesAsInTheBalanceSheet() ) )  );
         capitalAndReservesType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getCapitalAndReservesAsInTheBalanceSheet()));
         JAXBElement<MonetaryItemType> capitalAndReserves = rbiObjectFactory.createCapitalAndReserves(capitalAndReservesType);
         bodyItems.add(capitalAndReserves);        
@@ -179,7 +165,7 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType depositsType = new MonetaryItemType();
         depositsType.setContextRef(asOfContext);
         depositsType.setUnitRef(unitINR);
-        depositsType.setDecimals("-3");
+        depositsType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getTotalDeposits() ) )  );
         depositsType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getTotalDeposits()));
         JAXBElement<MonetaryItemType> deposits = rbiObjectFactory.createDeposits(depositsType);
         bodyItems.add(deposits);        
@@ -187,7 +173,7 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType borrowingsType = new MonetaryItemType();
         borrowingsType.setContextRef(asOfContext);
         borrowingsType.setUnitRef(unitINR);
-        borrowingsType.setDecimals("-3");
+        borrowingsType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getTotalBorrowings() ) )  );
         borrowingsType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getTotalBorrowings()));
         JAXBElement<MonetaryItemType> borrowings = rbiObjectFactory.createBorrowings(borrowingsType);
         bodyItems.add(borrowings);        
@@ -195,7 +181,7 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType profitLossBeforeTaxType = new MonetaryItemType();
         profitLossBeforeTaxType.setContextRef(fromToContext);
         profitLossBeforeTaxType.setUnitRef(unitINR);
-        profitLossBeforeTaxType.setDecimals("-3");
+        profitLossBeforeTaxType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getProfitBeforeTax() ) )  );
         profitLossBeforeTaxType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getProfitBeforeTax()));
         JAXBElement<MonetaryItemType> profitLossBeforeTax = rbiObjectFactory.createProfitLossBeforeTax(profitLossBeforeTaxType);
         bodyItems.add(profitLossBeforeTax);        
@@ -203,7 +189,7 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType netProfitLossAfterTaxType = new MonetaryItemType();
         netProfitLossAfterTaxType.setContextRef(fromToContext);
         netProfitLossAfterTaxType.setUnitRef(unitINR);
-        netProfitLossAfterTaxType.setDecimals("-3");
+        netProfitLossAfterTaxType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getProfitAfterTaxOrReturn() ) )  );
         netProfitLossAfterTaxType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getProfitAfterTaxOrReturn()));
         JAXBElement<MonetaryItemType> netProfitLossAfterTax = rbiObjectFactory.createNetProfitLossAfterTax(netProfitLossAfterTaxType);
         bodyItems.add(netProfitLossAfterTax);        
@@ -212,7 +198,7 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType surplusLossOnProfitAndLossAccountCarriedForwardType = new MonetaryItemType();
         surplusLossOnProfitAndLossAccountCarriedForwardType.setContextRef(fromToContext);
         surplusLossOnProfitAndLossAccountCarriedForwardType.setUnitRef(unitINR);
-        surplusLossOnProfitAndLossAccountCarriedForwardType.setDecimals("-3");
+        surplusLossOnProfitAndLossAccountCarriedForwardType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getSurplusOrLossOnProfitAndLossACCarriedForward() ) )  );
         surplusLossOnProfitAndLossAccountCarriedForwardType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getSurplusOrLossOnProfitAndLossACCarriedForward()));
         JAXBElement<MonetaryItemType> surplusLossOnProfitAndLossAccountCarriedForward = rbiObjectFactory.createSurplusLossOnProfitAndLossAccountCarriedForward(surplusLossOnProfitAndLossAccountCarriedForwardType);
         bodyItems.add(surplusLossOnProfitAndLossAccountCarriedForward);        
@@ -236,7 +222,7 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType dividendPaidType = new MonetaryItemType();
         dividendPaidType.setContextRef(asOfContext);
         dividendPaidType.setUnitRef(unitINR);
-        dividendPaidType.setDecimals("-3");
+        dividendPaidType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getTotalDividendsPaid() ) )  );
         dividendPaidType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getTotalDividendsPaid()));
         JAXBElement<MonetaryItemType> dividendPaid = rbiObjectFactory.createDividendPaid(dividendPaidType);
         bodyItems.add(dividendPaid);
@@ -244,7 +230,7 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType loansAdvancesGrossType = new MonetaryItemType();
         loansAdvancesGrossType.setContextRef(asOfContext);
         loansAdvancesGrossType.setUnitRef(unitINR);
-        loansAdvancesGrossType.setDecimals("-3");
+        loansAdvancesGrossType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getLoansAndAdvancesGross() ) )  );
         loansAdvancesGrossType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getLoansAndAdvancesGross()));
         JAXBElement<MonetaryItemType> loansAdvancesGross = rbiObjectFactory.createLoansAdvancesGross(loansAdvancesGrossType);
         bodyItems.add(loansAdvancesGross);
@@ -252,7 +238,7 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType nonPerformingLoansGrossType = new MonetaryItemType();
         nonPerformingLoansGrossType.setContextRef(asOfContext);
         nonPerformingLoansGrossType.setUnitRef(unitINR);
-        nonPerformingLoansGrossType.setDecimals("-3");
+        nonPerformingLoansGrossType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getNonPerformingLoansGross() ) )  );
         nonPerformingLoansGrossType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getNonPerformingLoansGross()));
         JAXBElement<MonetaryItemType> nonPerformingLoansGross = rbiObjectFactory.createNonPerformingLoansGross(nonPerformingLoansGrossType);
         bodyItems.add(nonPerformingLoansGross);
@@ -260,7 +246,7 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType provisionsHeldAgainstNonPerformingLoansType = new MonetaryItemType();
         provisionsHeldAgainstNonPerformingLoansType.setContextRef(fromToContext);
         provisionsHeldAgainstNonPerformingLoansType.setUnitRef(unitINR);
-        provisionsHeldAgainstNonPerformingLoansType.setDecimals("-3");
+        provisionsHeldAgainstNonPerformingLoansType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getProvisionsHeldAgainstNonPerformingLoans() ) )  );
         provisionsHeldAgainstNonPerformingLoansType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getProvisionsHeldAgainstNonPerformingLoans()));
         JAXBElement<MonetaryItemType> provisionsHeldAgainstNonPerformingLoans = rbiObjectFactory.createProvisionsHeldAgainstNonPerformingLoans(provisionsHeldAgainstNonPerformingLoansType);
         bodyItems.add(provisionsHeldAgainstNonPerformingLoans);
@@ -268,23 +254,23 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType provisionsRequiredAgainstNonPerformingLoansType = new MonetaryItemType();
         provisionsRequiredAgainstNonPerformingLoansType.setContextRef(fromToContext);
         provisionsRequiredAgainstNonPerformingLoansType.setUnitRef(unitINR);
-        provisionsRequiredAgainstNonPerformingLoansType.setDecimals("-3");
+        provisionsRequiredAgainstNonPerformingLoansType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getProvisionsRequiredAgainstNonPerformingLoans() ) )  );
         provisionsRequiredAgainstNonPerformingLoansType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getProvisionsRequiredAgainstNonPerformingLoans()));
         JAXBElement<MonetaryItemType> provisionsRequiredAgainstNonPerformingLoans = rbiObjectFactory.createProvisionsRequiredAgainstNonPerformingLoans(provisionsRequiredAgainstNonPerformingLoansType);
         bodyItems.add(provisionsRequiredAgainstNonPerformingLoans);
         // create Investments for BookValue
         MonetaryItemType investmentsBookValueType = new MonetaryItemType();
-        investmentsBookValueType.setContextRef(asOfContext);
+        investmentsBookValueType.setContextRef(bookValueContext);
         investmentsBookValueType.setUnitRef(unitINR);
-        investmentsBookValueType.setDecimals("-3");
+        investmentsBookValueType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getTotalInvestmentBookValue() ) )  );
         investmentsBookValueType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getTotalInvestmentBookValue()));
         JAXBElement<MonetaryItemType> investmentsBookValue = rbiObjectFactory.createInvestments(investmentsBookValueType);
         bodyItems.add(investmentsBookValue);
         // create Investments for MarketValue
         MonetaryItemType investmentsMarketValueType = new MonetaryItemType();
-        investmentsMarketValueType.setContextRef(asOfContext);
+        investmentsMarketValueType.setContextRef(marketValueContext);
         investmentsMarketValueType.setUnitRef(unitINR);
-        investmentsMarketValueType.setDecimals("-3");
+        investmentsMarketValueType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getTotalInvestmentMarketValue() ) )  );
         investmentsMarketValueType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getTotalInvestmentMarketValue()));
         JAXBElement<MonetaryItemType> investmentsMarketValue = rbiObjectFactory.createInvestments(investmentsMarketValueType);
         bodyItems.add(investmentsMarketValue);
@@ -292,7 +278,7 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType nonPerformingInvestmentsType = new MonetaryItemType();
         nonPerformingInvestmentsType.setContextRef(asOfContext);
         nonPerformingInvestmentsType.setUnitRef(unitINR);
-        nonPerformingInvestmentsType.setDecimals("-3");
+        nonPerformingInvestmentsType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getNonPerformingInvestments() ) )  );
         nonPerformingInvestmentsType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getNonPerformingInvestments()));
         JAXBElement<MonetaryItemType> nonPerformingInvestments = rbiObjectFactory.createNonPerformingInvestments(nonPerformingInvestmentsType);
         bodyItems.add(nonPerformingInvestments);
@@ -300,7 +286,7 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType provisionsHeldAgainstNonPerformingInvestmentsType = new MonetaryItemType();
         provisionsHeldAgainstNonPerformingInvestmentsType.setContextRef(fromToContext);
         provisionsHeldAgainstNonPerformingInvestmentsType.setUnitRef(unitINR);
-        provisionsHeldAgainstNonPerformingInvestmentsType.setDecimals("-3");
+        provisionsHeldAgainstNonPerformingInvestmentsType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getProvisionsHeldAgainstNonPerformingInvestments() ) )  );
         provisionsHeldAgainstNonPerformingInvestmentsType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getProvisionsHeldAgainstNonPerformingInvestments()));
         JAXBElement<MonetaryItemType> provisionsHeldAgainstNonPerformingInvestments = rbiObjectFactory.createProvisionsHeldAgainstNonPerformingInvestments(provisionsHeldAgainstNonPerformingInvestmentsType);
         bodyItems.add(provisionsHeldAgainstNonPerformingInvestments);
@@ -308,7 +294,7 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType provisionsRequiredAgainstNonPerformingInvestmentsType = new MonetaryItemType();
         provisionsRequiredAgainstNonPerformingInvestmentsType.setContextRef(fromToContext);
         provisionsRequiredAgainstNonPerformingInvestmentsType.setUnitRef(unitINR);
-        provisionsRequiredAgainstNonPerformingInvestmentsType.setDecimals("-3");
+        provisionsRequiredAgainstNonPerformingInvestmentsType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getProvisionsRequiredAgainstNonPerformingInvestments() ) )  );
         provisionsRequiredAgainstNonPerformingInvestmentsType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getProvisionsRequiredAgainstNonPerformingInvestments()));
         JAXBElement<MonetaryItemType> provisionsRequiredAgainstNonPerformingInvestments = rbiObjectFactory.createProvisionsRequiredAgainstNonPerformingInvestments(provisionsRequiredAgainstNonPerformingInvestmentsType);
         bodyItems.add(provisionsRequiredAgainstNonPerformingInvestments);
@@ -316,7 +302,7 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType offBalanceSheetExposuresContingentLiabilitiesType = new MonetaryItemType();
         offBalanceSheetExposuresContingentLiabilitiesType.setContextRef(asOfContext);
         offBalanceSheetExposuresContingentLiabilitiesType.setUnitRef(unitINR);
-        offBalanceSheetExposuresContingentLiabilitiesType.setDecimals("-3");
+        offBalanceSheetExposuresContingentLiabilitiesType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartAFinancialParameters().getContingentLiabilitiesOrOffBalanceSheetExposures() ) )  );
         offBalanceSheetExposuresContingentLiabilitiesType.setValue(new BigDecimal(rosItem.getPartAFinancialParameters().getContingentLiabilitiesOrOffBalanceSheetExposures()));
         JAXBElement<MonetaryItemType> offBalanceSheetExposuresContingentLiabilities = rbiObjectFactory.createOffBalanceSheetExposuresContingentLiabilities(offBalanceSheetExposuresContingentLiabilitiesType);
         bodyItems.add(offBalanceSheetExposuresContingentLiabilities);
@@ -332,7 +318,7 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType aggregateExposureAmountType = new MonetaryItemType();
         aggregateExposureAmountType.setContextRef(asOfContext);
         aggregateExposureAmountType.setUnitRef(unitINR);
-        aggregateExposureAmountType.setDecimals("-3");
+        aggregateExposureAmountType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartBExposureAndOwnership().getAggregateExposureAmount() ) )  );
         aggregateExposureAmountType.setValue(new BigDecimal(rosItem.getPartBExposureAndOwnership().getAggregateExposureAmount()));
         JAXBElement<MonetaryItemType> aggregateExposureAmount = rbiObjectFactory.createAggregateExposureAmount(aggregateExposureAmountType);
         bodyItems.add(aggregateExposureAmount);
@@ -349,7 +335,7 @@ public class ROSBody implements BodyIntf {
         MonetaryItemType investmentInCapitalByParentCompanyType = new MonetaryItemType();
         investmentInCapitalByParentCompanyType.setContextRef(asOfContext);
         investmentInCapitalByParentCompanyType.setUnitRef(unitINR);
-        investmentInCapitalByParentCompanyType.setDecimals("-5");
+        investmentInCapitalByParentCompanyType.setDecimals(String.format("%s", CommonFns.getDecimals(rosItem.getPartBExposureAndOwnership().getInvestmentInCapitalByParentBank() ) )  );
         investmentInCapitalByParentCompanyType.setValue(new BigDecimal(rosItem.getPartBExposureAndOwnership().getInvestmentInCapitalByParentBank()));
         JAXBElement<MonetaryItemType> investmentInCapitalByParentCompany = rbiObjectFactory.createInvestmentInCapitalByParentCompany(investmentInCapitalByParentCompanyType);
         bodyItems.add(investmentInCapitalByParentCompany);
