@@ -71,7 +71,7 @@ public class XBRLApplication {
         rosItem.setPartAFinancialParameters(partA1);
 
         partB1.setAggregateExposureAmount("326528265000");
-        partB1.setAggregateExposurePercentage("27.76");
+        partB1.setAggregateExposurePercentage("0.2776");
         partB1.setInvestmentInCapitalByParentBank("42075000000");
         partB1.setNoOfCounterparties("10");
         partB1.setSharesHeldByParentBank("51.00");
@@ -124,7 +124,7 @@ public class XBRLApplication {
         rosItem2.setPartAFinancialParameters(partA2);
 
         partB2.setAggregateExposureAmount("11233690000");
-        partB2.setAggregateExposurePercentage("75.00");
+        partB2.setAggregateExposurePercentage("0.75");
         partB2.setInvestmentInCapitalByParentBank("15571931000");
         partB2.setNoOfCounterparties("5");
         partB2.setSharesHeldByParentBank("100.00");
@@ -176,7 +176,7 @@ public class XBRLApplication {
         rosItem3.setPartAFinancialParameters(partA3);
 
         partB3.setAggregateExposureAmount("5158800000");
-        partB3.setAggregateExposurePercentage("43.45");
+        partB3.setAggregateExposurePercentage("0.4345");
         partB3.setInvestmentInCapitalByParentBank("266445000");
         partB3.setNoOfCounterparties("6");
         partB3.setSharesHeldByParentBank("20.03");
