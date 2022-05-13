@@ -6,7 +6,9 @@ public class AsOfContext {
     public static String getId(String type, String... args) {
         StringBuilder generateId = new StringBuilder(StringUtils.defaultIfEmpty(type, "asof"));
         for (String arg : args) {
-            generateId.append("_" + arg);
+            String argValue = arg.replaceAll("[)(]", "");
+            
+            generateId.append("_" + argValue);
         }
         return generateId.toString();
     }

@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Map;
 
 import javax.xml.bind.JAXBElement;
+import javax.xml.datatype.DatatypeConstants;
 import javax.xml.datatype.DatatypeFactory;
 import javax.xml.datatype.XMLGregorianCalendar;
 
@@ -61,7 +62,7 @@ public class ROSGeneralBody implements BodyIntf {
         StringItemType bankCodeValue = new StringItemType();
         bankCodeValue.setContextRef(asOfContext);
         bankCodeValue.setValue(generalInfoData.getBankCode());
-        JAXBElement<StringItemType> bankCode = rbiObjectFactory.createNameOfReportingInstitution(bankCodeValue);
+        JAXBElement<StringItemType> bankCode = rbiObjectFactory.createBankCode(bankCodeValue);
         generalItems.add(bankCode);
         // create AddressOfReportingInstitution
         StringItemType addressOfReportingInstitutionValue = new StringItemType();
@@ -97,7 +98,7 @@ public class ROSGeneralBody implements BodyIntf {
         // create ReturnVersion
         StringItemType returnVersionValue = new StringItemType();
         returnVersionValue.setContextRef(fromToContext);
-        returnVersionValue.setValue(generalInfoData.getValidationStatus());
+        returnVersionValue.setValue(generalInfoData.getReturnVersion());
         JAXBElement<StringItemType> returnVersion = rbiObjectFactory.createReturnVersion(returnVersionValue);
         generalItems.add(returnVersion);
         // create ReportingPeriodStartDate
@@ -118,6 +119,7 @@ public class ROSGeneralBody implements BodyIntf {
             GregorianCalendar cal = new GregorianCalendar();
             cal.setTime(date);
             xmlGregCal =  DatatypeFactory.newInstance().newXMLGregorianCalendar(cal);
+            xmlGregCal.setTimezone(DatatypeConstants.FIELD_UNDEFINED);
         } catch (Exception e) {
             //TODO: handle exception
             e.printStackTrace();
