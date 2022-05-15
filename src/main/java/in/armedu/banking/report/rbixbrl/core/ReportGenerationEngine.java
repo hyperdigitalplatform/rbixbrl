@@ -7,6 +7,5 @@ import in.armedu.banking.report.rbixbrl.model.ReportData;
 
 
 public interface ReportGenerationEngine {
-    public void setInput(String reportName, ReportData data);
-    public StringWriter execute();
+    public StringWriter execute(String reportType, ReportData reportData);
 }

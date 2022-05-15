@@ -35,8 +35,7 @@ public class ROSGeneralContext implements ContextIntf {
                 contextEntityType.setIdentifier(identifier);
                 // create fromto context
                 Context fromToContext = xbrlObjectFactory.createContext();
-                String contextRefFromTo = FromToContext.getId("fromto", generalInfoData.getStartDate().replaceAll("-", ""),
-                                generalInfoData.getEndDate().replaceAll("-", ""));
+                String contextRefFromTo = FromToContext.getId("fromto", generalInfoData.getStartDate(),  generalInfoData.getEndDate());
                 fromToContext.setId(contextRefFromTo);
                 ContextPeriodType period = xbrlObjectFactory.createContextPeriodType();
                 period.setStartDate(generalInfoData.getStartDate());
@@ -46,7 +45,7 @@ public class ROSGeneralContext implements ContextIntf {
                 fromToContext.setPeriod(period);
                 // create asof context
                 Context asOfContext = xbrlObjectFactory.createContext();
-                String contextRefAsOfString = AsOfContext.getId("asof", generalInfoData.getDateOfReport().replaceAll("-", ""));
+                String contextRefAsOfString = AsOfContext.getId("asof", generalInfoData.getDateOfReport());
                 asOfContext.setId(contextRefAsOfString);
                 ContextPeriodType periodInstant = xbrlObjectFactory.createContextPeriodType();
                 periodInstant.setInstant(generalInfoData.getDateOfReport());
@@ -61,7 +60,7 @@ public class ROSGeneralContext implements ContextIntf {
                 
                 ROSGeneralInfoData generalInfoData = (ROSGeneralInfoData) generalData;
                 ROSItem rosItem = (ROSItem) itemData;
-                
+
                 // create entity and entity identifier
                 ContextEntityType contextEntityType = xbrlObjectFactory.createContextEntityType();
                 TypedMember typedMember = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
@@ -82,9 +81,9 @@ public class ROSGeneralContext implements ContextIntf {
                 
                 // create fromto context
                 Context fromToContext = xbrlObjectFactory.createContext();
-                String contextRefFromTo = FromToContext.getId("fromto", generalInfoData.getStartDate().replaceAll("-", ""),
-                                generalInfoData.getEndDate().replaceAll("-", ""),
-                                rosItem.getSubsidiaryInfo().getSubsidiaryName().replaceAll("\\s", ""));
+                String contextRefFromTo = FromToContext.getId("fromto", generalInfoData.getStartDate(),
+                                generalInfoData.getEndDate(),
+                                rosItem.getSubsidiaryInfo().getSubsidiaryName());
                 fromToContext.setId(contextRefFromTo);
                 ContextPeriodType period = xbrlObjectFactory.createContextPeriodType();
                 period.setStartDate(generalInfoData.getStartDate());
@@ -96,8 +95,8 @@ public class ROSGeneralContext implements ContextIntf {
                 
                 // create asof context
                 Context asOfContext = xbrlObjectFactory.createContext();
-                String contextRefAsOfString = AsOfContext.getId("asof", generalInfoData.getDateOfReport().replaceAll("-", ""),
-                                rosItem.getSubsidiaryInfo().getSubsidiaryName().replaceAll("\\s", ""));
+                String contextRefAsOfString = AsOfContext.getId("asof", generalInfoData.getDateOfReport(),
+                                rosItem.getSubsidiaryInfo().getSubsidiaryName());
                 asOfContext.setId(contextRefAsOfString);
                 ContextPeriodType periodInstant = xbrlObjectFactory.createContextPeriodType();
                 periodInstant.setInstant(generalInfoData.getDateOfReport());
@@ -118,8 +117,8 @@ public class ROSGeneralContext implements ContextIntf {
                 // add to context Entity
                 contextEntityTypeForBookValueMember.setSegment(segBookValueMember);
                 Context asOfBookValueMemberContext = xbrlObjectFactory.createContext();
-                String contextRefAsOfBookValueMemberString = AsOfContext.getId("asof", generalInfoData.getDateOfReport().replaceAll("-", ""),
-                                "BookValueMember", rosItem.getSubsidiaryInfo().getSubsidiaryName().replaceAll("\\s", ""));
+                String contextRefAsOfBookValueMemberString = AsOfContext.getId("asof", generalInfoData.getDateOfReport(),
+                                "BookValueMember", rosItem.getSubsidiaryInfo().getSubsidiaryName());
                                 asOfBookValueMemberContext.setId(contextRefAsOfBookValueMemberString);
                 asOfBookValueMemberContext.setEntity(contextEntityTypeForBookValueMember);
                 asOfBookValueMemberContext.setPeriod(periodInstant);
@@ -138,8 +137,8 @@ public class ROSGeneralContext implements ContextIntf {
                 // add to context Entity
                 contextEntityTypeForMarketValueMember.setSegment(segMarketValueMember);
                 Context asOfMarketValueMemberContext = xbrlObjectFactory.createContext();
-                String contextRefAsOfMarketValueMemberString = AsOfContext.getId("asof", generalInfoData.getDateOfReport().replaceAll("-", ""),
-                                "MarketValueMember", rosItem.getSubsidiaryInfo().getSubsidiaryName().replaceAll("\\s", ""));
+                String contextRefAsOfMarketValueMemberString = AsOfContext.getId("asof", generalInfoData.getDateOfReport(),
+                                "MarketValueMember", rosItem.getSubsidiaryInfo().getSubsidiaryName());
                 asOfMarketValueMemberContext.setId(contextRefAsOfMarketValueMemberString);
                 asOfMarketValueMemberContext.setEntity(contextEntityTypeForMarketValueMember);
                 asOfMarketValueMemberContext.setPeriod(periodInstant);

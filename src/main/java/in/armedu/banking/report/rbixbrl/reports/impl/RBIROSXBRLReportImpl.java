@@ -17,6 +17,7 @@ import org.xbrl._2003.xlink.SimpleType;
 import in.armedu.banking.report.rbixbrl.model.ros.ROSGeneralInfoData;
 import in.armedu.banking.report.rbixbrl.model.GeneralData;
 import in.armedu.banking.report.rbixbrl.model.ItemData;
+import in.armedu.banking.report.rbixbrl.model.ReportData;
 import in.armedu.banking.report.rbixbrl.model.ros.ROSData;
 import in.armedu.banking.report.rbixbrl.part.BodyIntf;
 import in.armedu.banking.report.rbixbrl.part.ContextIntf;
@@ -25,22 +26,25 @@ import in.armedu.banking.report.rbixbrl.part.impl.ROSBody;
 import in.armedu.banking.report.rbixbrl.part.impl.ROSGeneralBody;
 import in.armedu.banking.report.rbixbrl.part.impl.ROSGeneralContext;
 import in.armedu.banking.report.rbixbrl.part.impl.ROSUnit;
+import in.armedu.banking.report.rbixbrl.reports.XBRLReportIntf;
 import in.armedu.banking.report.rbixbrl.util.DefaultNamespacePrefixMapper;
+import lombok.Setter;
 
-public class RBIROSXBRLReportImpl {
-    private List<ContextIntf> contexts = new ArrayList<ContextIntf>();
-    private List<BodyIntf> bodies = new ArrayList<BodyIntf>();
+@Setter
+public class RBIROSXBRLReportImpl implements XBRLReportIntf {
+    
     private ContextIntf contextIntf = new ROSGeneralContext();
     private BodyIntf rosGeneralBody = new ROSGeneralBody();
     private UnitIntf rosUnits = new ROSUnit();
     private BodyIntf rosBody = new ROSBody();
     private ObjectFactory instancObjectFactory = new ObjectFactory();
-    private String outFolder;
-    private String reportName;
     
-    public StringWriter generateReport(ROSData rosData){
+    @Override
+    public StringWriter generateReport(ReportData reportData){
         JAXBContext jc;
         Marshaller m;
+        ROSData rosData = (ROSData) reportData;
+
         try {
             jc = JAXBContext.newInstance(ObjectFactory.class,
             org.rbi.in.xbrl._2012_05_07.in_rbi_rep_types.ObjectFactory.class,
@@ -107,12 +111,6 @@ public class RBIROSXBRLReportImpl {
         }
         return null;
 
-    }
-
-    public void prepareReport(ROSData rosData){
-        contexts.add(new ROSGeneralContext());
-        bodies.add(new ROSGeneralBody());
-        bodies.add(new ROSBody());
     }
     
 }

@@ -1,12 +1,14 @@
 package in.armedu.banking.report.rbixbrl;
 
+import in.armedu.banking.report.rbixbrl.core.ReportGenerationEngine;
+import in.armedu.banking.report.rbixbrl.core.ReportGenerationFactory;
+import in.armedu.banking.report.rbixbrl.core.impl.XBRLReportGenerationEngine;
+import in.armedu.banking.report.rbixbrl.model.ros.ROSData;
 import in.armedu.banking.report.rbixbrl.model.ros.ROSExposureAndOwnership;
 import in.armedu.banking.report.rbixbrl.model.ros.ROSFinancialParameters;
 import in.armedu.banking.report.rbixbrl.model.ros.ROSGeneralInfoData;
-import in.armedu.banking.report.rbixbrl.model.ros.ROSData;
 import in.armedu.banking.report.rbixbrl.model.ros.ROSItem;
 import in.armedu.banking.report.rbixbrl.model.ros.ROSSubsidiaryData;
-import in.armedu.banking.report.rbixbrl.reports.impl.RBIROSXBRLReportImpl;
 
 public class XBRLApplication {
     public static void main(String[] args) throws Exception {
@@ -295,8 +297,8 @@ public class XBRLApplication {
         data.getRosItems().add(rosItem4);
         data.getRosItems().add(rosItem5);
 
-        RBIROSXBRLReportImpl report = new RBIROSXBRLReportImpl();
-        report.generateReport(data);
+        ReportGenerationEngine engine = new XBRLReportGenerationEngine();
+        engine.execute(ReportGenerationFactory.RBI_ROS_XBRL_REPORT, data);
         
     }
     
