@@ -1,18 +1,18 @@
 package in.armedu.banking.report.rbixbrl;
 
-import in.armedu.banking.report.rbixbrl.model.ExposureAndOwnership;
-import in.armedu.banking.report.rbixbrl.model.FinancialParameters;
-import in.armedu.banking.report.rbixbrl.model.GeneralInfoData;
-import in.armedu.banking.report.rbixbrl.model.ROSData;
-import in.armedu.banking.report.rbixbrl.model.ROSItem;
-import in.armedu.banking.report.rbixbrl.model.SubsidiaryData;
+import in.armedu.banking.report.rbixbrl.model.ros.ROSExposureAndOwnership;
+import in.armedu.banking.report.rbixbrl.model.ros.ROSFinancialParameters;
+import in.armedu.banking.report.rbixbrl.model.ros.ROSGeneralInfoData;
+import in.armedu.banking.report.rbixbrl.model.ros.ROSData;
+import in.armedu.banking.report.rbixbrl.model.ros.ROSItem;
+import in.armedu.banking.report.rbixbrl.model.ros.ROSSubsidiaryData;
 import in.armedu.banking.report.rbixbrl.reports.impl.RBIROSXBRLReportImpl;
 
 public class XBRLApplication {
     public static void main(String[] args) throws Exception {
         ROSData data = new ROSData();
         
-        GeneralInfoData genInfoData = new GeneralInfoData();
+        ROSGeneralInfoData genInfoData = new ROSGeneralInfoData();
         genInfoData.setBankCode("600");
         genInfoData.setDateOfReport("2021-09-30");
         genInfoData.setEndDate("2021-09-30");
@@ -30,7 +30,7 @@ public class XBRLApplication {
 
         //  *** ROS1 ****
 
-        SubsidiaryData sData1 = new SubsidiaryData();
+        ROSSubsidiaryData sData1 = new ROSSubsidiaryData();
         sData1.setActivityName("Banking");
         sData1.setAreaOfOperations("Foreign");
         sData1.setCategory("Subsidiary");
@@ -39,8 +39,8 @@ public class XBRLApplication {
         sData1.setSubsidiaryName("Druk PNB Bank Ltd");        
         rosItem.setSubsidiaryInfo(sData1);
 
-        FinancialParameters partA1 = new FinancialParameters();
-        ExposureAndOwnership partB1 = new ExposureAndOwnership();
+        ROSFinancialParameters partA1 = new ROSFinancialParameters();
+        ROSExposureAndOwnership partB1 = new ROSExposureAndOwnership();
         partA1.setCapitalAdequacyRatio("15.74");
         partA1.setCapitalAndReservesAsInTheBalanceSheet("200622587000");
         partA1.setCapitalFunds("84000202000");
@@ -83,7 +83,7 @@ public class XBRLApplication {
 
         ROSItem rosItem2 = new ROSItem();
 
-        SubsidiaryData sData2 = new SubsidiaryData();
+        ROSSubsidiaryData sData2 = new ROSSubsidiaryData();
         sData2.setActivityName("BANKING");
         sData2.setAreaOfOperations("Foreign");
         sData2.setCategory("Subsidiary");
@@ -92,8 +92,8 @@ public class XBRLApplication {
         sData2.setSubsidiaryName("Punjab National Bank (International) Limited");        
         rosItem2.setSubsidiaryInfo(sData2);
 
-        FinancialParameters partA2 = new FinancialParameters();
-        ExposureAndOwnership partB2 = new ExposureAndOwnership();
+        ROSFinancialParameters partA2 = new ROSFinancialParameters();
+        ROSExposureAndOwnership partB2 = new ROSExposureAndOwnership();
         partA2.setCapitalAdequacyRatio("23.18");
         partA2.setCapitalAndReservesAsInTheBalanceSheet("11669956000");
         partA2.setCapitalFunds("16876694000");
@@ -135,7 +135,7 @@ public class XBRLApplication {
 
         ROSItem rosItem3 = new ROSItem();
 
-        SubsidiaryData sData3 = new SubsidiaryData();
+        ROSSubsidiaryData sData3 = new ROSSubsidiaryData();
         sData3.setActivityName("Associate");
         sData3.setAreaOfOperations("Foreign");
         sData3.setCategory("Associate");
@@ -144,8 +144,8 @@ public class XBRLApplication {
         sData3.setSubsidiaryName("EVEREST BANK LTD. NEPAL");        
         rosItem3.setSubsidiaryInfo(sData3);
 
-        FinancialParameters partA3 = new FinancialParameters();
-        ExposureAndOwnership partB3 = new ExposureAndOwnership();
+        ROSFinancialParameters partA3 = new ROSFinancialParameters();
+        ROSExposureAndOwnership partB3 = new ROSExposureAndOwnership();
         partA3.setCapitalAdequacyRatio("12.27");
         partA3.setCapitalAndReservesAsInTheBalanceSheet("13109800000");
         partA3.setCapitalFunds("585603000");
@@ -188,7 +188,7 @@ public class XBRLApplication {
 
         ROSItem rosItem4 = new ROSItem();
 
-        SubsidiaryData sData4 = new SubsidiaryData();
+        ROSSubsidiaryData sData4 = new ROSSubsidiaryData();
         sData4.setActivityName("BANKING");
         sData4.setAreaOfOperations("India");
         sData4.setCategory("Associate");
@@ -197,8 +197,8 @@ public class XBRLApplication {
         sData4.setSubsidiaryName("Manipur Rural Bank");        
         rosItem4.setSubsidiaryInfo(sData4);
 
-        FinancialParameters partA4 = new FinancialParameters();
-        ExposureAndOwnership partB4 = new ExposureAndOwnership();
+        ROSFinancialParameters partA4 = new ROSFinancialParameters();
+        ROSExposureAndOwnership partB4 = new ROSExposureAndOwnership();
         partA4.setCapitalAdequacyRatio("2.45");
         partA4.setCapitalAndReservesAsInTheBalanceSheet("585725000");
         partA4.setCapitalFunds("585603000");
@@ -240,7 +240,7 @@ public class XBRLApplication {
 
         ROSItem rosItem5 = new ROSItem();
 
-        SubsidiaryData sData5 = new SubsidiaryData();
+        ROSSubsidiaryData sData5 = new ROSSubsidiaryData();
         sData5.setActivityName("BANKING");
         sData5.setAreaOfOperations("India");
         sData5.setCategory("Associate");
@@ -249,8 +249,8 @@ public class XBRLApplication {
         sData5.setSubsidiaryName("Assam Gramin Vikash Bank");        
         rosItem5.setSubsidiaryInfo(sData5);
 
-        FinancialParameters partA5 = new FinancialParameters();
-        ExposureAndOwnership partB5 = new ExposureAndOwnership();
+        ROSFinancialParameters partA5 = new ROSFinancialParameters();
+        ROSExposureAndOwnership partB5 = new ROSExposureAndOwnership();
         partA5.setCapitalAdequacyRatio("1.28");
         partA5.setCapitalAndReservesAsInTheBalanceSheet("248583000");
         partA5.setCapitalFunds("1867537000");

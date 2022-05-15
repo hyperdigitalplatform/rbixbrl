@@ -1,4 +1,4 @@
-package in.armedu.banking.report.rbixbrl.model;
+package in.armedu.banking.report.rbixbrl.model.ros;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,7 +9,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Setter
 @Getter
-public class FinancialParameters {
+public class ROSFinancialParameters {
     private String totalAssets;
     private String capitalFunds;
     private String minPrescribedCapital;

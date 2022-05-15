@@ -19,8 +19,10 @@ import org.xbrl._2003.instance.ObjectFactory;
 import org.xbrl.dtr.type.non_numeric.DomainItemType;
 import org.xbrl.dtr.type.numeric.PercentItemType;
 
-import in.armedu.banking.report.rbixbrl.model.GeneralInfoData;
-import in.armedu.banking.report.rbixbrl.model.ROSItem;
+import in.armedu.banking.report.rbixbrl.model.GeneralData;
+import in.armedu.banking.report.rbixbrl.model.ItemData;
+import in.armedu.banking.report.rbixbrl.model.ros.ROSGeneralInfoData;
+import in.armedu.banking.report.rbixbrl.model.ros.ROSItem;
 import in.armedu.banking.report.rbixbrl.part.BodyIntf;
 import in.armedu.banking.report.rbixbrl.util.CommonFns;
 
@@ -28,7 +30,7 @@ import in.armedu.banking.report.rbixbrl.util.CommonFns;
 public class ROSBody implements BodyIntf {
 
     @Override
-    public List<Object> getReportBodyItem(List<Context> contexts, GeneralInfoData generalInfoData) {
+    public List<Object> getReportBodyItem(List<Context> contexts, GeneralData generalData) {
         // TODO Auto-generated method stub
         return null;
     }
@@ -37,12 +39,16 @@ public class ROSBody implements BodyIntf {
 
 
     @Override
-    public List<Object> getReportBodyItem(List<Context> contexts, List<Unit> units, GeneralInfoData generalInfoData, ROSItem rosItem) {
+    public List<Object> getReportBodyItem(List<Context> contexts, List<Unit> units, GeneralData generalData,   ItemData itemData) {
+                
+        ROSGeneralInfoData generalInfoData = (ROSGeneralInfoData) generalData;
+        ROSItem rosItem = (ROSItem) itemData;
+
         return getReportBodyItemOnlyForFromToAndASOF(contexts.get(0), contexts.get(1), contexts.get(2), contexts.get(3), units.get(0), units.get(1), generalInfoData, rosItem);
     }
 
 
-    public List<Object> getReportBodyItemOnlyForFromToAndASOF(Context fromToContext, Context asOfContext, Context bookValueContext, Context marketValueContext, Unit unitINR, Unit pureUnit, GeneralInfoData generalInfoData, ROSItem rosItem) {
+    public List<Object> getReportBodyItemOnlyForFromToAndASOF(Context fromToContext, Context asOfContext, Context bookValueContext, Context marketValueContext, Unit unitINR, Unit pureUnit, ROSGeneralInfoData generalInfoData, ROSItem rosItem) {
            
         List<Object> bodyItems = new ArrayList<Object>();
         

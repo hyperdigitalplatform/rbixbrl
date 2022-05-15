@@ -1,5 +1,6 @@
-package in.armedu.banking.report.rbixbrl.model;
+package in.armedu.banking.report.rbixbrl.model.ros;
 
+import in.armedu.banking.report.rbixbrl.model.GeneralData;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,7 +10,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Setter
 @Getter
-public class GeneralInfoData {
+public class ROSGeneralInfoData extends GeneralData {
     private String returnName;
     private String returnCode;
     private String reportInstitution;

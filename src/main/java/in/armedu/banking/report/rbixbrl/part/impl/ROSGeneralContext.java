@@ -12,16 +12,21 @@ import org.xbrl._2003.instance.ContextEntityType.Identifier;
 import org.xbrl._2006.xbrldi.ExplicitMember;
 import org.xbrl._2006.xbrldi.TypedMember;
 
-import in.armedu.banking.report.rbixbrl.model.GeneralInfoData;
-import in.armedu.banking.report.rbixbrl.model.ROSItem;
+import in.armedu.banking.report.rbixbrl.model.GeneralData;
+import in.armedu.banking.report.rbixbrl.model.ItemData;
+import in.armedu.banking.report.rbixbrl.model.ros.ROSGeneralInfoData;
+import in.armedu.banking.report.rbixbrl.model.ros.ROSItem;
 import in.armedu.banking.report.rbixbrl.part.ContextIntf;
 import in.armedu.banking.report.rbixbrl.util.AsOfContext;
 import in.armedu.banking.report.rbixbrl.util.FromToContext;
 
 public class ROSGeneralContext implements ContextIntf {
+        private ObjectFactory xbrlObjectFactory = new ObjectFactory();
 
         @Override
-        public List<Context> getContext(ObjectFactory xbrlObjectFactory, GeneralInfoData generalInfoData) {
+        public List<Context> getContext( GeneralData generalData) {
+                ROSGeneralInfoData generalInfoData = (ROSGeneralInfoData) generalData;
+
                 ContextEntityType contextEntityType = xbrlObjectFactory.createContextEntityType();
                 Identifier identifier = xbrlObjectFactory.createContextEntityTypeIdentifier();
                 identifier.setScheme("http://www.rbi.gov.in/000/2010-12-31");
@@ -52,8 +57,11 @@ public class ROSGeneralContext implements ContextIntf {
         }
 
         @Override
-        public List<Context> getContext(ObjectFactory xbrlObjectFactory, GeneralInfoData generalInfoData,
-                        ROSItem rosItem) {
+        public List<Context> getContext( GeneralData generalData,   ItemData itemData) {
+                
+                ROSGeneralInfoData generalInfoData = (ROSGeneralInfoData) generalData;
+                ROSItem rosItem = (ROSItem) itemData;
+                
                 // create entity and entity identifier
                 ContextEntityType contextEntityType = xbrlObjectFactory.createContextEntityType();
                 TypedMember typedMember = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();

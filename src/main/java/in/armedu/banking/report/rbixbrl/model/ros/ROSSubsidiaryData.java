@@ -1,4 +1,4 @@
-package in.armedu.banking.report.rbixbrl.model;
+package in.armedu.banking.report.rbixbrl.model.ros;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,7 +9,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Setter
 @Getter
-public class SubsidiaryData {
+public class ROSSubsidiaryData {
     private String category;
     private String areaOfOperations;
     private String subsidiaryCode;

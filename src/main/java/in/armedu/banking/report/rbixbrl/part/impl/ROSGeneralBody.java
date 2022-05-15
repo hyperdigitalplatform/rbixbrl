@@ -6,22 +6,21 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
-import java.util.Map;
 
 import javax.xml.bind.JAXBElement;
 import javax.xml.datatype.DatatypeConstants;
 import javax.xml.datatype.DatatypeFactory;
 import javax.xml.datatype.XMLGregorianCalendar;
 
+import org.rbi.in.xbrl._2012_05_07.in_rbi_rep_types.ValidationStatusItemType;
 import org.xbrl._2003.instance.Context;
-
+import org.xbrl._2003.instance.DateItemType;
 import org.xbrl._2003.instance.StringItemType;
 import org.xbrl._2003.instance.Unit;
-import org.xbrl._2003.instance.DateItemType;
-import org.rbi.in.xbrl._2012_05_07.in_rbi_rep_types.ValidationStatusItemType;
 
-import in.armedu.banking.report.rbixbrl.model.GeneralInfoData;
-import in.armedu.banking.report.rbixbrl.model.ROSItem;
+import in.armedu.banking.report.rbixbrl.model.GeneralData;
+import in.armedu.banking.report.rbixbrl.model.ItemData;
+import in.armedu.banking.report.rbixbrl.model.ros.ROSGeneralInfoData;
 import in.armedu.banking.report.rbixbrl.part.BodyIntf;
 
 
@@ -29,12 +28,14 @@ public class ROSGeneralBody implements BodyIntf {
 
 
     @Override
-    public List<Object> getReportBodyItem(List<Context> contexts, GeneralInfoData generalInfoData) {
+    public List<Object> getReportBodyItem(List<Context> contexts, GeneralData generalData) {
+        ROSGeneralInfoData generalInfoData = (ROSGeneralInfoData) generalData;
+
         return getReportBodyItemOnlyForFromToAndASOF(contexts.get(0), contexts.get(1), generalInfoData);
     }
     
     
-    public List<Object> getReportBodyItemOnlyForFromToAndASOF(Context fromToContext, Context asOfContext, GeneralInfoData generalInfoData) {
+    public List<Object> getReportBodyItemOnlyForFromToAndASOF(Context fromToContext, Context asOfContext, ROSGeneralInfoData generalInfoData) {
         List<Object> generalItems = new ArrayList<Object>();
 
         org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory rbiObjectFactory;
@@ -129,7 +130,7 @@ public class ROSGeneralBody implements BodyIntf {
     }
 
     @Override
-    public List<Object> getReportBodyItem(List<Context> contexts, List<Unit> units, GeneralInfoData generalInfoData, ROSItem rosItem) {
+    public List<Object> getReportBodyItem(List<Context> contexts, List<Unit> units, GeneralData generalData, ItemData itemData) {
         // TODO Auto-generated method stub
         return null;
     }

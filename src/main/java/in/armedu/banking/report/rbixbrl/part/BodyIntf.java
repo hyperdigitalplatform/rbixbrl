@@ -5,13 +5,15 @@ import java.util.Map;
 import org.xbrl._2003.instance.Context;
 import org.xbrl._2003.instance.Unit;
 
-import in.armedu.banking.report.rbixbrl.model.GeneralInfoData;
-import in.armedu.banking.report.rbixbrl.model.ROSItem;
+import in.armedu.banking.report.rbixbrl.model.GeneralData;
+import in.armedu.banking.report.rbixbrl.model.ItemData;
+import in.armedu.banking.report.rbixbrl.model.ros.ROSGeneralInfoData;
+import in.armedu.banking.report.rbixbrl.model.ros.ROSItem;
 
 
 public interface BodyIntf {
 
-    public List<Object> getReportBodyItem(List<Context> contexts, GeneralInfoData generalInfoData);
-    public List<Object> getReportBodyItem(List<Context> contexts, List<Unit> units, GeneralInfoData generalInfoData, ROSItem rosItem);
+    public List<Object> getReportBodyItem(List<Context> contexts, GeneralData generalInfoData);
+    public List<Object> getReportBodyItem(List<Context> contexts, List<Unit> units, GeneralData generalInfoData, ItemData rosItem);
     
 }
