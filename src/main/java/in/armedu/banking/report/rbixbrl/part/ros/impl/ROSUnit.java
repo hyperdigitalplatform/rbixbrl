@@ -1,4 +1,4 @@
-package in.armedu.banking.report.rbixbrl.part.impl;
+package in.armedu.banking.report.rbixbrl.part.ros.impl;
 
 import java.util.ArrayList;
 import java.util.List;

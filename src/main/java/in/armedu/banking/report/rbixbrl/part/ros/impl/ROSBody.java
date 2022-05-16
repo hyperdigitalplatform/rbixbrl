@@ -1,4 +1,4 @@
-package in.armedu.banking.report.rbixbrl.part.impl;
+package in.armedu.banking.report.rbixbrl.part.ros.impl;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
