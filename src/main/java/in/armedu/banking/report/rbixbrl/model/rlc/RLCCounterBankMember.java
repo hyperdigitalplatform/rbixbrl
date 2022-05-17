@@ -1,5 +1,6 @@
 package in.armedu.banking.report.rbixbrl.model.rlc;
 
+import in.armedu.banking.report.rbixbrl.model.ItemData;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

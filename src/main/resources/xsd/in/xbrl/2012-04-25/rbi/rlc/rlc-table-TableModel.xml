@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="GeneralInformation">
+<table label="GeneralInformation_geninfo" header="Filing information"/>
+</tableSet>
+<tableSet label="SectionA">
+<table label="SectionA_SectionALayout1" header=""/>
+<table label="SectionA_SectionALayout2" header="Section A - Exposure to Large Individual Borrowers (Global Operations) 2"/>
+<table label="SectionA_SectionALayout3" header="Section A - Exposure to Large Individual Borrowers (Global Operations) 3"/>
+<table label="SectionA_SectionATotalLayout4" header="Section A - Exposure to Large Individual Borrowers (Global Operations) 4"/>
+</tableSet>
+<tableSet label="SectionB">
+<table label="SectionB_SectionBLayout1" header="Section B - Exposure to Large Group Borrowers (Global Operations) 1"/>
+<table label="SectionB_SectionBLayout2" header="Section B - Exposure to Large Group Borrowers (Global Operations) 2"/>
+<table label="SectionB_SectionBTotalLayout3" header="Section B - Exposure to Large Group Borrowers (Global Operations) 3"/>
+</tableSet>
+<tableSet label="SectionC">
+<table label="SectionC_SectionCDomesticLayout1" header="Section C - Top Twenty Exposures to Banks - Domestic Operations 1"/>
+<table label="SectionC_SectionCDomesticTotalLayout2" header="Section C - Top Twenty Exposures to Banks - Domestic Operations 2"/>
+<table label="SectionC_SectionCOverseasLayout3" header="Section C - Top Twenty Exposures to Banks - Overseas Operations 1"/>
+<table label="SectionC_SectionCOverseasTotalLayout4" header="Section C - Top Twenty Exposures to Banks - Overseas Operations 2"/>
+<table label="SectionC_SectionCGlobalLayout5" header="Section C - Top Twenty Exposures to Banks - Global Operations 1"/>
+<table label="SectionC_SectionCGlobalTotalLayout6" header="Section C - Top Twenty Exposures to Banks - Global Operations 2"/>
+</tableSet>
+<tableSet label="AuthorisedSignatory">
+<table label="AuthorisedSignatory_lyt_1_Sign" header="Authorised Signatory"/>
+</tableSet>
+</tableModel>

@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Count:342-->
+<xbrli:xbrl xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref="http://www.xbrl.org/2004/ref" 
+xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi"
+xmlns:in-rbi-rep-par="http://www.rbi.org/in-rbi-rep-par"
+>
+<link:schemaRef xlink:type="simple" xlink:href="in-rbi-rlc.xsd" />
+<xbrli:context id="fromto_20200701_20200930">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200331">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200401_20200930">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-04-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:IndividualBorrowersMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID1</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>28101</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Mfg of Structural Metal Products</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:LeadBankNameAxis'><in-rbi-rep-par:LeadBankNameDomain>Bank Of Baroda</in-rbi-rep-par:LeadBankNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:IndividualBorrowersMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID1</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>28101</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Mfg of Structural Metal Products</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:LeadBankNameAxis'><in-rbi-rep-par:LeadBankNameDomain>Bank Of Baroda</in-rbi-rep-par:LeadBankNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:IndividualBorrowersMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID2</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>27101</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Mfg of Basic Iron and Steel</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:LeadBankNameAxis'><in-rbi-rep-par:LeadBankNameDomain>State Bank Of India</in-rbi-rep-par:LeadBankNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:IndividualBorrowersMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID2</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>27101</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Mfg of Basic Iron and Steel</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:LeadBankNameAxis'><in-rbi-rep-par:LeadBankNameDomain>State Bank Of India</in-rbi-rep-par:LeadBankNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:IndividualBorrowersMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID3</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>45013</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Construction/Maintenance of Roads</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:IndividualBorrowersMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID3</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>45013</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Construction/Maintenance of Roads</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:IndividualBorrowersMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID4</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>40103</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Collection and Distn of Electricity</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:IndividualBorrowersMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID4</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>40103</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Collection and Distn of Electricity</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:IndividualBorrowersMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID5</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>27201</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Mfg of Basic Non-ferrous Metals</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:LeadBankNameAxis'><in-rbi-rep-par:LeadBankNameDomain>HDFC Bank Ltd.</in-rbi-rep-par:LeadBankNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:IndividualBorrowersMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID5</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>27201</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Mfg of Basic Non-ferrous Metals</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:LeadBankNameAxis'><in-rbi-rep-par:LeadBankNameDomain>HDFC Bank Ltd.</in-rbi-rep-par:LeadBankNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_IndividualBorrowersMember_GlobalMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:IndividualBorrowersMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_IndividualBorrowersMember_GlobalMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:IndividualBorrowersMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID1</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:GroupBorrowerCode'><in-rbi-rep-par:GroupBorrowerCodeDomain>A0023</in-rbi-rep-par:GroupBorrowerCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:GroupAxis'><in-rbi-rep-par:GroupDomain>AIR LIQUIDE GROUP</in-rbi-rep-par:GroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>40201</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Mfg of Gas</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID1</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:GroupBorrowerCode'><in-rbi-rep-par:GroupBorrowerCodeDomain>A0023</in-rbi-rep-par:GroupBorrowerCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:GroupAxis'><in-rbi-rep-par:GroupDomain>AIR LIQUIDE GROUP</in-rbi-rep-par:GroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>40201</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Mfg of Gas</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID2</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:GroupBorrowerCode'><in-rbi-rep-par:GroupBorrowerCodeDomain>A0023</in-rbi-rep-par:GroupBorrowerCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:GroupAxis'><in-rbi-rep-par:GroupDomain>AIR LIQUIDE GROUP</in-rbi-rep-par:GroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>74201</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Architectural/Engineering Technical Activity</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:LeadBankNameAxis'><in-rbi-rep-par:LeadBankNameDomain>KRISHNA BHIMA SAMRUDDHI LAB LTD.</in-rbi-rep-par:LeadBankNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID2</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:GroupBorrowerCode'><in-rbi-rep-par:GroupBorrowerCodeDomain>A0023</in-rbi-rep-par:GroupBorrowerCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:GroupAxis'><in-rbi-rep-par:GroupDomain>AIR LIQUIDE GROUP</in-rbi-rep-par:GroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>74201</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Architectural/Engineering Technical Activity</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:LeadBankNameAxis'><in-rbi-rep-par:LeadBankNameDomain>KRISHNA BHIMA SAMRUDDHI LAB LTD.</in-rbi-rep-par:LeadBankNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID3</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:GroupBorrowerCode'><in-rbi-rep-par:GroupBorrowerCodeDomain>A0023</in-rbi-rep-par:GroupBorrowerCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:GroupAxis'><in-rbi-rep-par:GroupDomain>AIR LIQUIDE GROUP</in-rbi-rep-par:GroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>40201</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Mfg of Gas</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID3</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:GroupBorrowerCode'><in-rbi-rep-par:GroupBorrowerCodeDomain>A0023</in-rbi-rep-par:GroupBorrowerCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:GroupAxis'><in-rbi-rep-par:GroupDomain>AIR LIQUIDE GROUP</in-rbi-rep-par:GroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>40201</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Mfg of Gas</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID4</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:GroupBorrowerCode'><in-rbi-rep-par:GroupBorrowerCodeDomain>A0023</in-rbi-rep-par:GroupBorrowerCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:GroupAxis'><in-rbi-rep-par:GroupDomain>AIR LIQUIDE GROUP</in-rbi-rep-par:GroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>29209</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Mfg of Other Special Purpose Machinery</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:LeadBankNameAxis'><in-rbi-rep-par:LeadBankNameDomain>Kotak Mahindra Bank Ltd.</in-rbi-rep-par:LeadBankNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID4</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:GroupBorrowerCode'><in-rbi-rep-par:GroupBorrowerCodeDomain>A0023</in-rbi-rep-par:GroupBorrowerCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:GroupAxis'><in-rbi-rep-par:GroupDomain>AIR LIQUIDE GROUP</in-rbi-rep-par:GroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>29209</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Mfg of Other Special Purpose Machinery</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:LeadBankNameAxis'><in-rbi-rep-par:LeadBankNameDomain>Kotak Mahindra Bank Ltd.</in-rbi-rep-par:LeadBankNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID5</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:GroupBorrowerCode'><in-rbi-rep-par:GroupBorrowerCodeDomain>A0032</in-rbi-rep-par:GroupBorrowerCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:GroupAxis'><in-rbi-rep-par:GroupDomain>ALSTOM GROUP</in-rbi-rep-par:GroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>35201</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Mfg of Railway and Tramway Locos etc</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:LeadBankNameAxis'><in-rbi-rep-par:LeadBankNameDomain>HDFC Bank Ltd.</in-rbi-rep-par:LeadBankNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID5</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:GroupBorrowerCode'><in-rbi-rep-par:GroupBorrowerCodeDomain>A0032</in-rbi-rep-par:GroupBorrowerCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:GroupAxis'><in-rbi-rep-par:GroupDomain>ALSTOM GROUP</in-rbi-rep-par:GroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>35201</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Mfg of Railway and Tramway Locos etc</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:LeadBankNameAxis'><in-rbi-rep-par:LeadBankNameDomain>HDFC Bank Ltd.</in-rbi-rep-par:LeadBankNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_BorrowerGroupMember_GlobalMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_CounterPartyBankMember_DomesticMember_NationalBankforAgricultureandRuralDevelopment_ANGUILLA_TransactionID1">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:DomesticMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>National Bank for Agriculture and Rural Development</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>ANGUILLA</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID1</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_CounterPartyBankMember_DomesticMember_NationalBankforAgricultureandRuralDevelopment_ANGUILLA_TransactionID1">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:DomesticMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>National Bank for Agriculture and Rural Development</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>ANGUILLA</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID1</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_CounterPartyBankMember_DomesticMember_SubhadraLocalAreaBankLtd_AFGHANISTAN_TransactionID2">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:DomesticMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>Subhadra Local Area Bank Ltd.</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>AFGHANISTAN</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID2</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_CounterPartyBankMember_DomesticMember_SubhadraLocalAreaBankLtd_AFGHANISTAN_TransactionID2">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:DomesticMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>Subhadra Local Area Bank Ltd.</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>AFGHANISTAN</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID2</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_CounterPartyBankMember_DomesticMember_HDFCBankLtd_Antarctica_TransactionID3">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:DomesticMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>HDFC Bank Ltd.</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>Antarctica</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID3</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_CounterPartyBankMember_DomesticMember_HDFCBankLtd_Antarctica_TransactionID3">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:DomesticMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>HDFC Bank Ltd.</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>Antarctica</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID3</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_CounterPartyBankMember_DomesticMember_KotakMahindraBankLtd_BONAIRESINTEUSTATIUSANDSABA_TransactionID4">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:DomesticMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>Kotak Mahindra Bank Ltd.</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>BONAIRE,SINT EUSTATIUS AND SABA</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID4</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_CounterPartyBankMember_DomesticMember_KotakMahindraBankLtd_BONAIRESINTEUSTATIUSANDSABA_TransactionID4">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:DomesticMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>Kotak Mahindra Bank Ltd.</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>BONAIRE,SINT EUSTATIUS AND SABA</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID4</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_CounterPartyBankMember_DomesticMember_KRUNGTHAIBANKPUBLICCOMPANYLIMITED_BOUVETISLAND_TransactionID5">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:DomesticMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>KRUNG THAI BANK PUBLIC COMPANY LIMITED</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>BOUVET ISLAND</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID5</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_CounterPartyBankMember_DomesticMember_KRUNGTHAIBANKPUBLICCOMPANYLIMITED_BOUVETISLAND_TransactionID5">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:DomesticMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>KRUNG THAI BANK PUBLIC COMPANY LIMITED</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>BOUVET ISLAND</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID5</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_CounterPartyBankMember_DomesticMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:DomesticMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_CounterPartyBankMember_DomesticMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:DomesticMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_CounterPartyBankMember_OverseasMember_BankofChina_BAHAMAS_TransactionID1">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:OverseasMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>Bank of China</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>BAHAMAS</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID1</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_CounterPartyBankMember_OverseasMember_BankofChina_BAHAMAS_TransactionID1">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:OverseasMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>Bank of China</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>BAHAMAS</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID1</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_CounterPartyBankMember_OverseasMember_KEBHANABANK_Bosnia_TransactionID2">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:OverseasMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>KEB HANA BANK</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>Bosnia</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID2</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_CounterPartyBankMember_OverseasMember_KEBHANABANK_Bosnia_TransactionID2">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:OverseasMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>KEB HANA BANK</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>Bosnia</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID2</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_CounterPartyBankMember_OverseasMember_MUFGBankLtd_CANARYISLANDS_TransactionID3">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:OverseasMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>MUFG Bank Ltd.</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>CANARY ISLANDS</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID3</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_CounterPartyBankMember_OverseasMember_MUFGBankLtd_CANARYISLANDS_TransactionID3">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:OverseasMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>MUFG Bank Ltd.</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>CANARY ISLANDS</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID3</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_CounterPartyBankMember_OverseasMember_SOUTHINDIANBANKLTD_CentralAfricanRepublic_TransactionID4">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:OverseasMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>SOUTH INDIAN BANK LTD</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>Central African Republic</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID4</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_CounterPartyBankMember_OverseasMember_SOUTHINDIANBANKLTD_CentralAfricanRepublic_TransactionID4">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:OverseasMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>SOUTH INDIAN BANK LTD</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>Central African Republic</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID4</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_CounterPartyBankMember_OverseasMember_MASHREQBANKPSC_GUINEA_TransactionID5">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:OverseasMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>MASHREQ BANK PSC</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>GUINEA</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID5</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_CounterPartyBankMember_OverseasMember_MASHREQBANKPSC_GUINEA_TransactionID5">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:OverseasMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>MASHREQ BANK PSC</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>GUINEA</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID5</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_CounterPartyBankMember_OverseasMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:OverseasMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_CounterPartyBankMember_OverseasMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:OverseasMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_GlobalMember_CounterPartyBankMember_IDBIBANKLIMITED_ARUBA_TransactionID1">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>IDBI BANK LIMITED</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>ARUBA</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID1</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_GlobalMember_CounterPartyBankMember_IDBIBANKLIMITED_ARUBA_TransactionID1">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>IDBI BANK LIMITED</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>ARUBA</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID1</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_GlobalMember_CounterPartyBankMember_BANKOFBAHRAINKUWAITBSC_CentralAfricanRepublic_TransactionID2">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>BANK OF BAHRAIN &amp; KUWAIT B.S.C.</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>Central African Republic</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID2</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_GlobalMember_CounterPartyBankMember_BANKOFBAHRAINKUWAITBSC_CentralAfricanRepublic_TransactionID2">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>BANK OF BAHRAIN &amp; KUWAIT B.S.C.</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>Central African Republic</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID2</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_GlobalMember_CounterPartyBankMember_SocieteGenerale_Ethiopia_TransactionID3">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>Societe Generale</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>Ethiopia</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID3</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_GlobalMember_CounterPartyBankMember_SocieteGenerale_Ethiopia_TransactionID3">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>Societe Generale</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>Ethiopia</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID3</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_GlobalMember_CounterPartyBankMember_BankOfNovaScotia_TrinidadAndTobago_TransactionID4">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>Bank Of Nova Scotia</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>Trinidad And Tobago</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID4</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_GlobalMember_CounterPartyBankMember_BankOfNovaScotia_TrinidadAndTobago_TransactionID4">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>Bank Of Nova Scotia</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>Trinidad And Tobago</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID4</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_GlobalMember_CounterPartyBankMember_CreditAgricoleCorporateAndInvestmentBank_WesternSahara_TransactionID5">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>Credit Agricole Corporate And Investment Bank</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>Western Sahara</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID5</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_GlobalMember_CounterPartyBankMember_CreditAgricoleCorporateAndInvestmentBank_WesternSahara_TransactionID5">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankNameAxis'><in-rbi-rep-par:CounterPartyBankNameDomain>Credit Agricole Corporate And Investment Bank</in-rbi-rep-par:CounterPartyBankNameDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CounterPartyBankDomicileAxis'><in-rbi-rep-par:CounterPartyBankDomicileDomain>Western Sahara</in-rbi-rep-par:CounterPartyBankDomicileDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:UniqueTransactionCodeAxis'><in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID5</in-rbi-rep-par:UniqueTransactionCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20200930_GlobalMember_CounterPartyBankMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2020-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20200701_20200930_GlobalMember_CounterPartyBankMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:RegionOfBusinessAxis'>in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2020-07-01</xbrli:startDate>
+<xbrli:endDate>2020-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+
+<xbrli:unit id="INR">
+<xbrli:measure>iso4217:INR</xbrli:measure>
+</xbrli:unit>
+<xbrli:unit id="PURE">
+<xbrli:measure>xbrli:pure</xbrli:measure>
+</xbrli:unit>
+
+<in-rbi-rep:ReturnName contextRef="fromto_20200701_20200930" >Report on Large Credit</in-rbi-rep:ReturnName>
+<in-rbi-rep:ReturnCode contextRef="fromto_20200701_20200930" >RLC</in-rbi-rep:ReturnCode>
+<in-rbi-rep:NameOfReportingInstitution contextRef="fromto_20200701_20200930" >AXIS BANK LIMITED</in-rbi-rep:NameOfReportingInstitution>
+<in-rbi-rep:BankCode contextRef="asof_20200930" >636</in-rbi-rep:BankCode>
+<in-rbi-rep:Address contextRef="fromto_20200701_20200930" >AUDUau</in-rbi-rep:Address>
+<in-rbi-rep:ReportForTheYearEnded contextRef="fromto_20200701_20200930" >2020-09-30</in-rbi-rep:ReportForTheYearEnded>
+<in-rbi-rep:ReportingFrequency contextRef="fromto_20200701_20200930" >Quarterly</in-rbi-rep:ReportingFrequency>
+<in-rbi-rep:ReportStatus contextRef="fromto_20200701_20200930" >Un-Audited</in-rbi-rep:ReportStatus>
+<in-rbi-rep:WhetherNilReporting contextRef="fromto_20200701_20200930" >false</in-rbi-rep:WhetherNilReporting>
+<in-rbi-rep:CategoriesOfBanks contextRef="fromto_20200701_20200930" >Domestic bank with overseas branches</in-rbi-rep:CategoriesOfBanks>
+<in-rbi-rep:ReturnVersion contextRef="fromto_20200701_20200930" >V1.5</in-rbi-rep:ReturnVersion>
+<in-rbi-rep:GeneralRemarks contextRef="fromto_20200701_20200930" >df weru werwer null</in-rbi-rep:GeneralRemarks>
+<in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20200930" >2020-07-01</in-rbi-rep:ReportingPeriodStartDate>
+<in-rbi-rep:RegulatoryCapital contextRef="asof_20200331" unitRef="INR" decimals="-5" >1000000</in-rbi-rep:RegulatoryCapital>
+<in-rbi-rep:CapitalInfusion contextRef="fromto_20200401_20200930" unitRef="INR" decimals="-5" >10000000</in-rbi-rep:CapitalInfusion>
+<in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" >AAACW0744L</in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower>
+<in-rbi-rep:CustomerName contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" >WELSPUN CORPORATION LIMITED</in-rbi-rep:CustomerName>
+<in-rbi-rep:SectorCode contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" >30-Private</in-rbi-rep:SectorCode>
+<in-rbi-rep:BankingArrangement contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" >6-Multiple Arrangement and Consortium</in-rbi-rep:BankingArrangement>
+<in-rbi-rep:InternalRating contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" >C</in-rbi-rep:InternalRating>
+<in-rbi-rep:ExternalRating contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" >Not-Rated</in-rbi-rep:ExternalRating>
+<in-rbi-rep:AssetClassificationRLC contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" >S-Standard</in-rbi-rep:AssetClassificationRLC>
+<in-rbi-rep:LimitSanctionedForFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" unitRef="INR" decimals="-3" >1282406000</in-rbi-rep:LimitSanctionedForFundedExposure>
+<in-rbi-rep:AmountOutstandingForFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" unitRef="INR" decimals="-3" >438913000</in-rbi-rep:AmountOutstandingForFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromFundedExposure>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" unitRef="INR" decimals="-3" >1282406000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:LimitSanctionedForNonFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" unitRef="INR" decimals="-3" >2006594000</in-rbi-rep:LimitSanctionedForNonFundedExposure>
+<in-rbi-rep:AmountOutstandingForNonFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" unitRef="INR" decimals="-3" >2006594000</in-rbi-rep:AmountOutstandingForNonFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" unitRef="INR" decimals="-3" >2006594000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateLimitSanctioned contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" unitRef="INR" decimals="-5" >3289000000</in-rbi-rep:AggregateLimitSanctioned>
+<in-rbi-rep:AggregateAmountOutstanding contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" unitRef="INR" decimals="-3" >2445507000</in-rbi-rep:AggregateAmountOutstanding>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" unitRef="INR" decimals="-5" >3289000000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" unitRef="PURE" decimals="1" >299</in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AggregateInvestmentExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" unitRef="INR" decimals="0" >0</in-rbi-rep:AggregateInvestmentExposure>
+<in-rbi-rep:AggregateExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" unitRef="INR" decimals="-5" >3289000000</in-rbi-rep:AggregateExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda" unitRef="PURE" decimals="1" >299</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" >AAACT2803M</in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower>
+<in-rbi-rep:CustomerName contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" >TATA STEEL LIMITED</in-rbi-rep:CustomerName>
+<in-rbi-rep:SectorCode contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" >30-Private</in-rbi-rep:SectorCode>
+<in-rbi-rep:BankingArrangement contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" >3-Consortium</in-rbi-rep:BankingArrangement>
+<in-rbi-rep:InternalRating contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" >D</in-rbi-rep:InternalRating>
+<in-rbi-rep:ExternalRating contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" >Not-Rated</in-rbi-rep:ExternalRating>
+<in-rbi-rep:AssetClassificationRLC contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" >S-Standard</in-rbi-rep:AssetClassificationRLC>
+<in-rbi-rep:LimitSanctionedForFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" unitRef="INR" decimals="-5" >375000000</in-rbi-rep:LimitSanctionedForFundedExposure>
+<in-rbi-rep:AmountOutstandingForFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountOutstandingForFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromFundedExposure>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" unitRef="INR" decimals="-5" >375000000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:LimitSanctionedForNonFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" unitRef="INR" decimals="-5" >2914000000</in-rbi-rep:LimitSanctionedForNonFundedExposure>
+<in-rbi-rep:AmountOutstandingForNonFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" unitRef="INR" decimals="-3" >417322000</in-rbi-rep:AmountOutstandingForNonFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" unitRef="INR" decimals="-5" >2914000000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateLimitSanctioned contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" unitRef="INR" decimals="-5" >3289000000</in-rbi-rep:AggregateLimitSanctioned>
+<in-rbi-rep:AggregateAmountOutstanding contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" unitRef="INR" decimals="-3" >417322000</in-rbi-rep:AggregateAmountOutstanding>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" unitRef="INR" decimals="-5" >3289000000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" unitRef="PURE" decimals="1" >299</in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AggregateInvestmentExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" unitRef="INR" decimals="0" >0</in-rbi-rep:AggregateInvestmentExposure>
+<in-rbi-rep:AggregateExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" unitRef="INR" decimals="-5" >3289000000</in-rbi-rep:AggregateExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID2_27101_MfgofBasicIronandSteel_StateBankOfIndia" unitRef="PURE" decimals="1" >299</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" >AAACL0140P</in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower>
+<in-rbi-rep:CustomerName contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" >LARSEN &amp; TOUBRO LTD</in-rbi-rep:CustomerName>
+<in-rbi-rep:SectorCode contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" >30-Private</in-rbi-rep:SectorCode>
+<in-rbi-rep:BankingArrangement contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" >1-Sole</in-rbi-rep:BankingArrangement>
+<in-rbi-rep:InternalRating contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" >C</in-rbi-rep:InternalRating>
+<in-rbi-rep:ExternalRating contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" >Not-Rated</in-rbi-rep:ExternalRating>
+<in-rbi-rep:AssetClassificationRLC contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" >S-Standard</in-rbi-rep:AssetClassificationRLC>
+<in-rbi-rep:LimitSanctionedForFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" unitRef="INR" decimals="-5" >1250000000</in-rbi-rep:LimitSanctionedForFundedExposure>
+<in-rbi-rep:AmountOutstandingForFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountOutstandingForFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromFundedExposure>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" unitRef="INR" decimals="-5" >1250000000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:LimitSanctionedForNonFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" unitRef="INR" decimals="-5" >2039000000</in-rbi-rep:LimitSanctionedForNonFundedExposure>
+<in-rbi-rep:AmountOutstandingForNonFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" unitRef="INR" decimals="-3" >1590606000</in-rbi-rep:AmountOutstandingForNonFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" unitRef="INR" decimals="-5" >2039000000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateLimitSanctioned contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" unitRef="INR" decimals="-5" >3289000000</in-rbi-rep:AggregateLimitSanctioned>
+<in-rbi-rep:AggregateAmountOutstanding contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" unitRef="INR" decimals="-3" >1590606000</in-rbi-rep:AggregateAmountOutstanding>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" unitRef="INR" decimals="-5" >3289000000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" unitRef="PURE" decimals="1" >299</in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AggregateInvestmentExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" unitRef="INR" decimals="0" >0</in-rbi-rep:AggregateInvestmentExposure>
+<in-rbi-rep:AggregateExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" unitRef="INR" decimals="-5" >3289000000</in-rbi-rep:AggregateExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID3_45013_ConstructionMaintenanceofRoads" unitRef="PURE" decimals="1" >299</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" >AACCR7446Q</in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower>
+<in-rbi-rep:CustomerName contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" >RELIANCE INFRASTRUCTURE LIMITED</in-rbi-rep:CustomerName>
+<in-rbi-rep:SectorCode contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" >30-Private</in-rbi-rep:SectorCode>
+<in-rbi-rep:BankingArrangement contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" >2-Multiple Arrangement</in-rbi-rep:BankingArrangement>
+<in-rbi-rep:InternalRating contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" >D</in-rbi-rep:InternalRating>
+<in-rbi-rep:ExternalRating contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" >Not-Rated</in-rbi-rep:ExternalRating>
+<in-rbi-rep:AssetClassificationRLC contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" >S-Standard</in-rbi-rep:AssetClassificationRLC>
+<in-rbi-rep:LimitSanctionedForFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" unitRef="INR" decimals="0" >0</in-rbi-rep:LimitSanctionedForFundedExposure>
+<in-rbi-rep:AmountOutstandingForFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountOutstandingForFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromFundedExposure>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:LimitSanctionedForNonFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" unitRef="INR" decimals="-5" >2501400000</in-rbi-rep:LimitSanctionedForNonFundedExposure>
+<in-rbi-rep:AmountOutstandingForNonFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" unitRef="INR" decimals="-5" >3252100000</in-rbi-rep:AmountOutstandingForNonFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" unitRef="INR" decimals="-5" >3289000000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateLimitSanctioned contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" unitRef="INR" decimals="-5" >2501400000</in-rbi-rep:AggregateLimitSanctioned>
+<in-rbi-rep:AggregateAmountOutstanding contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" unitRef="INR" decimals="-5" >3252100000</in-rbi-rep:AggregateAmountOutstanding>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" unitRef="INR" decimals="-5" >3289000000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" unitRef="PURE" decimals="1" >299</in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AggregateInvestmentExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" unitRef="INR" decimals="0" >0</in-rbi-rep:AggregateInvestmentExposure>
+<in-rbi-rep:AggregateExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" unitRef="INR" decimals="-5" >3289000000</in-rbi-rep:AggregateExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID4_40103_CollectionandDistnofElectricity" unitRef="PURE" decimals="1" >299</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" >AAACH1201R</in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower>
+<in-rbi-rep:CustomerName contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" >HINDALCO INDUSTRIES LIMITED</in-rbi-rep:CustomerName>
+<in-rbi-rep:SectorCode contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" >30-Private</in-rbi-rep:SectorCode>
+<in-rbi-rep:BankingArrangement contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" >6-Multiple Arrangement and Consortium</in-rbi-rep:BankingArrangement>
+<in-rbi-rep:InternalRating contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" >D+</in-rbi-rep:InternalRating>
+<in-rbi-rep:ExternalRating contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" >Not-Rated</in-rbi-rep:ExternalRating>
+<in-rbi-rep:AssetClassificationRLC contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" >S-Standard</in-rbi-rep:AssetClassificationRLC>
+<in-rbi-rep:LimitSanctionedForFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" unitRef="INR" decimals="-4" >1012880000</in-rbi-rep:LimitSanctionedForFundedExposure>
+<in-rbi-rep:AmountOutstandingForFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountOutstandingForFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromFundedExposure>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" unitRef="INR" decimals="-4" >1012880000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:LimitSanctionedForNonFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" unitRef="INR" decimals="-4" >2276120000</in-rbi-rep:LimitSanctionedForNonFundedExposure>
+<in-rbi-rep:AmountOutstandingForNonFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" unitRef="INR" decimals="-3" >394735000</in-rbi-rep:AmountOutstandingForNonFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" unitRef="INR" decimals="-4" >2276120000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateLimitSanctioned contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" unitRef="INR" decimals="-5" >3289000000</in-rbi-rep:AggregateLimitSanctioned>
+<in-rbi-rep:AggregateAmountOutstanding contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" unitRef="INR" decimals="-3" >394735000</in-rbi-rep:AggregateAmountOutstanding>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" unitRef="INR" decimals="-5" >3289000000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" unitRef="PURE" decimals="1" >299</in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AggregateInvestmentExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" unitRef="INR" decimals="0" >0</in-rbi-rep:AggregateInvestmentExposure>
+<in-rbi-rep:AggregateExposure contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" unitRef="INR" decimals="-5" >3289000000</in-rbi-rep:AggregateExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID5_27201_MfgofBasicNonferrousMetals_HDFCBankLtd" unitRef="PURE" decimals="1" >299</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:LimitSanctionedForFundedExposure contextRef="asof_20200930_IndividualBorrowersMember_GlobalMember" unitRef="INR" decimals="-3" >3920286000</in-rbi-rep:LimitSanctionedForFundedExposure>
+<in-rbi-rep:AmountOutstandingForFundedExposure contextRef="asof_20200930_IndividualBorrowersMember_GlobalMember" unitRef="INR" decimals="-3" >438913000</in-rbi-rep:AmountOutstandingForFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromFundedExposure contextRef="asof_20200930_IndividualBorrowersMember_GlobalMember" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromFundedExposure>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_IndividualBorrowersMember_GlobalMember" unitRef="INR" decimals="-3" >3920286000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:LimitSanctionedForNonFundedExposure contextRef="asof_20200930_IndividualBorrowersMember_GlobalMember" unitRef="INR" decimals="-3" >11737114000</in-rbi-rep:LimitSanctionedForNonFundedExposure>
+<in-rbi-rep:AmountOutstandingForNonFundedExposure contextRef="asof_20200930_IndividualBorrowersMember_GlobalMember" unitRef="INR" decimals="-3" >7661357000</in-rbi-rep:AmountOutstandingForNonFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure contextRef="asof_20200930_IndividualBorrowersMember_GlobalMember" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_IndividualBorrowersMember_GlobalMember" unitRef="INR" decimals="-3" >12524714000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateLimitSanctioned contextRef="asof_20200930_IndividualBorrowersMember_GlobalMember" unitRef="INR" decimals="-5" >15657400000</in-rbi-rep:AggregateLimitSanctioned>
+<in-rbi-rep:AggregateAmountOutstanding contextRef="asof_20200930_IndividualBorrowersMember_GlobalMember" unitRef="INR" decimals="-4" >8100270000</in-rbi-rep:AggregateAmountOutstanding>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_IndividualBorrowersMember_GlobalMember" unitRef="INR" decimals="-5" >16445000000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_IndividualBorrowersMember_GlobalMember" unitRef="PURE" decimals="1" >1495</in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AggregateInvestmentExposure contextRef="asof_20200930_IndividualBorrowersMember_GlobalMember" unitRef="INR" decimals="0" >0</in-rbi-rep:AggregateInvestmentExposure>
+<in-rbi-rep:AggregateExposure contextRef="asof_20200930_IndividualBorrowersMember_GlobalMember" unitRef="INR" decimals="-5" >16445000000</in-rbi-rep:AggregateExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_IndividualBorrowersMember_GlobalMember" unitRef="PURE" decimals="1" >1495</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" >AAACA9121F</in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower>
+<in-rbi-rep:CustomerName contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" >AIR LIQUIDE INDIA HOLDING PVT LTD</in-rbi-rep:CustomerName>
+<in-rbi-rep:SectorCode contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" >30-Private</in-rbi-rep:SectorCode>
+<in-rbi-rep:BankingArrangement contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" >1-Sole</in-rbi-rep:BankingArrangement>
+<in-rbi-rep:InternalRating contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" >C</in-rbi-rep:InternalRating>
+<in-rbi-rep:ExternalRating contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" >Not-Rated</in-rbi-rep:ExternalRating>
+<in-rbi-rep:AssetClassificationRLC contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" >S-Standard</in-rbi-rep:AssetClassificationRLC>
+<in-rbi-rep:LimitSanctionedForFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="-5" >350000000</in-rbi-rep:LimitSanctionedForFundedExposure>
+<in-rbi-rep:AmountOutstandingForFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="-5" >350000000</in-rbi-rep:AmountOutstandingForFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromFundedExposure>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="-5" >350000000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:LimitSanctionedForNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="0" >0</in-rbi-rep:LimitSanctionedForNonFundedExposure>
+<in-rbi-rep:AmountOutstandingForNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountOutstandingForNonFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateLimitSanctioned contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="-5" >350000000</in-rbi-rep:AggregateLimitSanctioned>
+<in-rbi-rep:AggregateAmountOutstanding contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="-5" >350000000</in-rbi-rep:AggregateAmountOutstanding>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="-5" >350000000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="PURE" decimals="4" >31.8182</in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AggregateInvestmentExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="0" >0</in-rbi-rep:AggregateInvestmentExposure>
+<in-rbi-rep:AggregateExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="-5" >350000000</in-rbi-rep:AggregateExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID1_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="PURE" decimals="4" >31.8182</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" >AAACL4255D</in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower>
+<in-rbi-rep:CustomerName contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" >AIR LIQUIDE GLOBAL  E AND C SOLUTIONS INDIA PRIVATE LIMITED</in-rbi-rep:CustomerName>
+<in-rbi-rep:SectorCode contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" >30-Private</in-rbi-rep:SectorCode>
+<in-rbi-rep:BankingArrangement contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" >3-Consortium</in-rbi-rep:BankingArrangement>
+<in-rbi-rep:InternalRating contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" >C</in-rbi-rep:InternalRating>
+<in-rbi-rep:ExternalRating contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" >Not-Rated</in-rbi-rep:ExternalRating>
+<in-rbi-rep:AssetClassificationRLC contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" >S-Standard</in-rbi-rep:AssetClassificationRLC>
+<in-rbi-rep:LimitSanctionedForFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" unitRef="INR" decimals="-5" >350000000</in-rbi-rep:LimitSanctionedForFundedExposure>
+<in-rbi-rep:AmountOutstandingForFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" unitRef="INR" decimals="-3" >22000</in-rbi-rep:AmountOutstandingForFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromFundedExposure>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" unitRef="INR" decimals="-5" >350000000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:LimitSanctionedForNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" unitRef="INR" decimals="-5" >50000000</in-rbi-rep:LimitSanctionedForNonFundedExposure>
+<in-rbi-rep:AmountOutstandingForNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountOutstandingForNonFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" unitRef="INR" decimals="-5" >50000000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateLimitSanctioned contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" unitRef="INR" decimals="-5" >400000000</in-rbi-rep:AggregateLimitSanctioned>
+<in-rbi-rep:AggregateAmountOutstanding contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" unitRef="INR" decimals="-3" >22000</in-rbi-rep:AggregateAmountOutstanding>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" unitRef="INR" decimals="-5" >400000000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" unitRef="PURE" decimals="4" >36.3636</in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AggregateInvestmentExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" unitRef="INR" decimals="0" >0</in-rbi-rep:AggregateInvestmentExposure>
+<in-rbi-rep:AggregateExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" unitRef="INR" decimals="-5" >400000000</in-rbi-rep:AggregateExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID2_A0023_AIRLIQUIDEGROUP_74201_ArchitecturalEngineeringTechnicalActivity_KRISHNABHIMASAMRUDDHILABLTD" unitRef="PURE" decimals="4" >36.3636</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" >AABCA0563G</in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower>
+<in-rbi-rep:CustomerName contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" >AIR LIQUIDE NORTH INDIA PVT LTD</in-rbi-rep:CustomerName>
+<in-rbi-rep:SectorCode contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" >30-Private</in-rbi-rep:SectorCode>
+<in-rbi-rep:BankingArrangement contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" >2-Multiple Arrangement</in-rbi-rep:BankingArrangement>
+<in-rbi-rep:InternalRating contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" >C</in-rbi-rep:InternalRating>
+<in-rbi-rep:ExternalRating contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" >Not-Rated</in-rbi-rep:ExternalRating>
+<in-rbi-rep:AssetClassificationRLC contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" >S-Standard</in-rbi-rep:AssetClassificationRLC>
+<in-rbi-rep:LimitSanctionedForFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="-5" >275000000</in-rbi-rep:LimitSanctionedForFundedExposure>
+<in-rbi-rep:AmountOutstandingForFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="-5" >225000000</in-rbi-rep:AmountOutstandingForFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromFundedExposure>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="-5" >275000000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:LimitSanctionedForNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="-5" >50000000</in-rbi-rep:LimitSanctionedForNonFundedExposure>
+<in-rbi-rep:AmountOutstandingForNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountOutstandingForNonFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="-5" >50000000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateLimitSanctioned contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="-5" >325000000</in-rbi-rep:AggregateLimitSanctioned>
+<in-rbi-rep:AggregateAmountOutstanding contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="-5" >225000000</in-rbi-rep:AggregateAmountOutstanding>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="-5" >325000000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="PURE" decimals="4" >29.5455</in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AggregateInvestmentExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="0" >0</in-rbi-rep:AggregateInvestmentExposure>
+<in-rbi-rep:AggregateExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="INR" decimals="-5" >325000000</in-rbi-rep:AggregateExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID3_A0023_AIRLIQUIDEGROUP_40201_MfgofGas" unitRef="PURE" decimals="4" >29.5455</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" >AABCL2352C</in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower>
+<in-rbi-rep:CustomerName contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" >LURGI INDIA INTERNATIONAL SERVICES PRIVATE LIMITED</in-rbi-rep:CustomerName>
+<in-rbi-rep:SectorCode contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" >30-Private</in-rbi-rep:SectorCode>
+<in-rbi-rep:BankingArrangement contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" >6-Multiple Arrangement and Consortium</in-rbi-rep:BankingArrangement>
+<in-rbi-rep:InternalRating contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" >C</in-rbi-rep:InternalRating>
+<in-rbi-rep:ExternalRating contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" >Not-Rated</in-rbi-rep:ExternalRating>
+<in-rbi-rep:AssetClassificationRLC contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" >S-Standard</in-rbi-rep:AssetClassificationRLC>
+<in-rbi-rep:LimitSanctionedForFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" unitRef="INR" decimals="-5" >100000000</in-rbi-rep:LimitSanctionedForFundedExposure>
+<in-rbi-rep:AmountOutstandingForFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountOutstandingForFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromFundedExposure>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" unitRef="INR" decimals="-5" >100000000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:LimitSanctionedForNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" unitRef="INR" decimals="-5" >150000000</in-rbi-rep:LimitSanctionedForNonFundedExposure>
+<in-rbi-rep:AmountOutstandingForNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" unitRef="INR" decimals="-4" >64750000</in-rbi-rep:AmountOutstandingForNonFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" unitRef="INR" decimals="-5" >150000000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateLimitSanctioned contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" unitRef="INR" decimals="-5" >250000000</in-rbi-rep:AggregateLimitSanctioned>
+<in-rbi-rep:AggregateAmountOutstanding contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" unitRef="INR" decimals="-4" >64750000</in-rbi-rep:AggregateAmountOutstanding>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" unitRef="INR" decimals="-5" >250000000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" unitRef="PURE" decimals="4" >22.7273</in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AggregateInvestmentExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" unitRef="INR" decimals="0" >0</in-rbi-rep:AggregateInvestmentExposure>
+<in-rbi-rep:AggregateExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" unitRef="INR" decimals="-5" >250000000</in-rbi-rep:AggregateExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID4_A0023_AIRLIQUIDEGROUP_29209_MfgofOtherSpecialPurposeMachinery_KotakMahindraBankLtd" unitRef="PURE" decimals="4" >22.7273</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" >AAFCA8794B</in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower>
+<in-rbi-rep:CustomerName contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" >ALSTOM MANUFACTURING INDIA PRIVATE LIMITED</in-rbi-rep:CustomerName>
+<in-rbi-rep:SectorCode contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" >30-Private</in-rbi-rep:SectorCode>
+<in-rbi-rep:BankingArrangement contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" >7-Sole; Consortium and Multiple Arrangement</in-rbi-rep:BankingArrangement>
+<in-rbi-rep:InternalRating contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" >D+</in-rbi-rep:InternalRating>
+<in-rbi-rep:ExternalRating contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" >Not-Rated</in-rbi-rep:ExternalRating>
+<in-rbi-rep:AssetClassificationRLC contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" >S-Standard</in-rbi-rep:AssetClassificationRLC>
+<in-rbi-rep:LimitSanctionedForFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" unitRef="INR" decimals="0" >0</in-rbi-rep:LimitSanctionedForFundedExposure>
+<in-rbi-rep:AmountOutstandingForFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountOutstandingForFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromFundedExposure>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:LimitSanctionedForNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" unitRef="INR" decimals="-3" >252369000</in-rbi-rep:LimitSanctionedForNonFundedExposure>
+<in-rbi-rep:AmountOutstandingForNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" unitRef="INR" decimals="-3" >252369000</in-rbi-rep:AmountOutstandingForNonFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" unitRef="INR" decimals="-3" >252369000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateLimitSanctioned contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" unitRef="INR" decimals="-3" >252369000</in-rbi-rep:AggregateLimitSanctioned>
+<in-rbi-rep:AggregateAmountOutstanding contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" unitRef="INR" decimals="-3" >252369000</in-rbi-rep:AggregateAmountOutstanding>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" unitRef="INR" decimals="-3" >252369000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" unitRef="PURE" decimals="4" >22.9426</in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AggregateInvestmentExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" unitRef="INR" decimals="0" >0</in-rbi-rep:AggregateInvestmentExposure>
+<in-rbi-rep:AggregateExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" unitRef="INR" decimals="-3" >252369000</in-rbi-rep:AggregateExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember_TransactionID5_A0032_ALSTOMGROUP_35201_MfgofRailwayandTramwayLocosetc_HDFCBankLtd" unitRef="PURE" decimals="4" >22.9426</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:LimitSanctionedForFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember" unitRef="INR" decimals="-5" >1075000000</in-rbi-rep:LimitSanctionedForFundedExposure>
+<in-rbi-rep:AmountOutstandingForFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember" unitRef="INR" decimals="-3" >575022000</in-rbi-rep:AmountOutstandingForFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromFundedExposure>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember" unitRef="INR" decimals="-5" >1075000000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:LimitSanctionedForNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember" unitRef="INR" decimals="-3" >502369000</in-rbi-rep:LimitSanctionedForNonFundedExposure>
+<in-rbi-rep:AmountOutstandingForNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember" unitRef="INR" decimals="-3" >317119000</in-rbi-rep:AmountOutstandingForNonFundedExposure>
+<in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember" unitRef="INR" decimals="0" >0</in-rbi-rep:AmountEligibleForNettingFromNonFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember" unitRef="INR" decimals="-3" >502369000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateLimitSanctioned contextRef="asof_20200930_BorrowerGroupMember_GlobalMember" unitRef="INR" decimals="-3" >1577369000</in-rbi-rep:AggregateLimitSanctioned>
+<in-rbi-rep:AggregateAmountOutstanding contextRef="asof_20200930_BorrowerGroupMember_GlobalMember" unitRef="INR" decimals="-3" >892141000</in-rbi-rep:AggregateAmountOutstanding>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember" unitRef="INR" decimals="-3" >1577369000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember" unitRef="PURE" decimals="4" >143.3972</in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AggregateInvestmentExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember" unitRef="INR" decimals="0" >0</in-rbi-rep:AggregateInvestmentExposure>
+<in-rbi-rep:AggregateExposure contextRef="asof_20200930_BorrowerGroupMember_GlobalMember" unitRef="INR" decimals="-3" >1577369000</in-rbi-rep:AggregateExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_BorrowerGroupMember_GlobalMember" unitRef="PURE" decimals="4" >143.3972</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_CounterPartyBankMember_DomesticMember_NationalBankforAgricultureandRuralDevelopment_ANGUILLA_TransactionID1" unitRef="INR" decimals="-3" >11111000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_CounterPartyBankMember_DomesticMember_NationalBankforAgricultureandRuralDevelopment_ANGUILLA_TransactionID1" unitRef="INR" decimals="-3" >12025000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_CounterPartyBankMember_DomesticMember_NationalBankforAgricultureandRuralDevelopment_ANGUILLA_TransactionID1" unitRef="INR" decimals="-3" >23136000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_CounterPartyBankMember_DomesticMember_NationalBankforAgricultureandRuralDevelopment_ANGUILLA_TransactionID1" unitRef="PURE" decimals="4" >2.1033</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_CounterPartyBankMember_DomesticMember_SubhadraLocalAreaBankLtd_AFGHANISTAN_TransactionID2" unitRef="INR" decimals="-3" >12111000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_CounterPartyBankMember_DomesticMember_SubhadraLocalAreaBankLtd_AFGHANISTAN_TransactionID2" unitRef="INR" decimals="-3" >13045000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_CounterPartyBankMember_DomesticMember_SubhadraLocalAreaBankLtd_AFGHANISTAN_TransactionID2" unitRef="INR" decimals="-3" >25156000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_CounterPartyBankMember_DomesticMember_SubhadraLocalAreaBankLtd_AFGHANISTAN_TransactionID2" unitRef="PURE" decimals="4" >2.2869</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_CounterPartyBankMember_DomesticMember_HDFCBankLtd_Antarctica_TransactionID3" unitRef="INR" decimals="-3" >13125000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_CounterPartyBankMember_DomesticMember_HDFCBankLtd_Antarctica_TransactionID3" unitRef="INR" decimals="-3" >14012000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_CounterPartyBankMember_DomesticMember_HDFCBankLtd_Antarctica_TransactionID3" unitRef="INR" decimals="-3" >27137000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_CounterPartyBankMember_DomesticMember_HDFCBankLtd_Antarctica_TransactionID3" unitRef="PURE" decimals="3" >2.467</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_CounterPartyBankMember_DomesticMember_KotakMahindraBankLtd_BONAIRESINTEUSTATIUSANDSABA_TransactionID4" unitRef="INR" decimals="-3" >14112000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_CounterPartyBankMember_DomesticMember_KotakMahindraBankLtd_BONAIRESINTEUSTATIUSANDSABA_TransactionID4" unitRef="INR" decimals="-3" >15054000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_CounterPartyBankMember_DomesticMember_KotakMahindraBankLtd_BONAIRESINTEUSTATIUSANDSABA_TransactionID4" unitRef="INR" decimals="-3" >29166000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_CounterPartyBankMember_DomesticMember_KotakMahindraBankLtd_BONAIRESINTEUSTATIUSANDSABA_TransactionID4" unitRef="PURE" decimals="4" >2.6515</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_CounterPartyBankMember_DomesticMember_KRUNGTHAIBANKPUBLICCOMPANYLIMITED_BOUVETISLAND_TransactionID5" unitRef="INR" decimals="-3" >15121000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_CounterPartyBankMember_DomesticMember_KRUNGTHAIBANKPUBLICCOMPANYLIMITED_BOUVETISLAND_TransactionID5" unitRef="INR" decimals="-3" >16054000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_CounterPartyBankMember_DomesticMember_KRUNGTHAIBANKPUBLICCOMPANYLIMITED_BOUVETISLAND_TransactionID5" unitRef="INR" decimals="-3" >31175000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_CounterPartyBankMember_DomesticMember_KRUNGTHAIBANKPUBLICCOMPANYLIMITED_BOUVETISLAND_TransactionID5" unitRef="PURE" decimals="4" >2.8341</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_CounterPartyBankMember_DomesticMember" unitRef="INR" decimals="-4" >65580000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_CounterPartyBankMember_DomesticMember" unitRef="INR" decimals="-4" >70190000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_CounterPartyBankMember_DomesticMember" unitRef="INR" decimals="-4" >135770000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_CounterPartyBankMember_DomesticMember" unitRef="PURE" decimals="4" >12.3427</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_CounterPartyBankMember_OverseasMember_BankofChina_BAHAMAS_TransactionID1" unitRef="INR" decimals="-3" >9999000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_CounterPartyBankMember_OverseasMember_BankofChina_BAHAMAS_TransactionID1" unitRef="INR" decimals="-3" >999000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_CounterPartyBankMember_OverseasMember_BankofChina_BAHAMAS_TransactionID1" unitRef="INR" decimals="-3" >10998000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_CounterPartyBankMember_OverseasMember_BankofChina_BAHAMAS_TransactionID1" unitRef="PURE" decimals="4" >0.9998</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_CounterPartyBankMember_OverseasMember_KEBHANABANK_Bosnia_TransactionID2" unitRef="INR" decimals="-3" >8888000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_CounterPartyBankMember_OverseasMember_KEBHANABANK_Bosnia_TransactionID2" unitRef="INR" decimals="-3" >888000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_CounterPartyBankMember_OverseasMember_KEBHANABANK_Bosnia_TransactionID2" unitRef="INR" decimals="-3" >9776000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_CounterPartyBankMember_OverseasMember_KEBHANABANK_Bosnia_TransactionID2" unitRef="PURE" decimals="4" >0.8887</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_CounterPartyBankMember_OverseasMember_MUFGBankLtd_CANARYISLANDS_TransactionID3" unitRef="INR" decimals="-3" >7777000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_CounterPartyBankMember_OverseasMember_MUFGBankLtd_CANARYISLANDS_TransactionID3" unitRef="INR" decimals="-3" >777000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_CounterPartyBankMember_OverseasMember_MUFGBankLtd_CANARYISLANDS_TransactionID3" unitRef="INR" decimals="-3" >8554000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_CounterPartyBankMember_OverseasMember_MUFGBankLtd_CANARYISLANDS_TransactionID3" unitRef="PURE" decimals="4" >0.7776</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_CounterPartyBankMember_OverseasMember_SOUTHINDIANBANKLTD_CentralAfricanRepublic_TransactionID4" unitRef="INR" decimals="-3" >6666000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_CounterPartyBankMember_OverseasMember_SOUTHINDIANBANKLTD_CentralAfricanRepublic_TransactionID4" unitRef="INR" decimals="-3" >666000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_CounterPartyBankMember_OverseasMember_SOUTHINDIANBANKLTD_CentralAfricanRepublic_TransactionID4" unitRef="INR" decimals="-3" >7332000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_CounterPartyBankMember_OverseasMember_SOUTHINDIANBANKLTD_CentralAfricanRepublic_TransactionID4" unitRef="PURE" decimals="4" >0.6665</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_CounterPartyBankMember_OverseasMember_MASHREQBANKPSC_GUINEA_TransactionID5" unitRef="INR" decimals="-3" >5555000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_CounterPartyBankMember_OverseasMember_MASHREQBANKPSC_GUINEA_TransactionID5" unitRef="INR" decimals="-3" >555000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_CounterPartyBankMember_OverseasMember_MASHREQBANKPSC_GUINEA_TransactionID5" unitRef="INR" decimals="-4" >6110000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_CounterPartyBankMember_OverseasMember_MASHREQBANKPSC_GUINEA_TransactionID5" unitRef="PURE" decimals="4" >0.5555</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_CounterPartyBankMember_OverseasMember" unitRef="INR" decimals="-3" >38885000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_CounterPartyBankMember_OverseasMember" unitRef="INR" decimals="-3" >3885000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_CounterPartyBankMember_OverseasMember" unitRef="INR" decimals="-4" >42770000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_CounterPartyBankMember_OverseasMember" unitRef="PURE" decimals="4" >3.8882</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_GlobalMember_CounterPartyBankMember_IDBIBANKLIMITED_ARUBA_TransactionID1" unitRef="INR" decimals="-3" >109999000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_GlobalMember_CounterPartyBankMember_IDBIBANKLIMITED_ARUBA_TransactionID1" unitRef="INR" decimals="-3" >10999000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_GlobalMember_CounterPartyBankMember_IDBIBANKLIMITED_ARUBA_TransactionID1" unitRef="INR" decimals="-3" >120998000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_GlobalMember_CounterPartyBankMember_IDBIBANKLIMITED_ARUBA_TransactionID1" unitRef="PURE" decimals="4" >10.9998</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_GlobalMember_CounterPartyBankMember_BANKOFBAHRAINKUWAITBSC_CentralAfricanRepublic_TransactionID2" unitRef="INR" decimals="-3" >108888000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_GlobalMember_CounterPartyBankMember_BANKOFBAHRAINKUWAITBSC_CentralAfricanRepublic_TransactionID2" unitRef="INR" decimals="-3" >10888000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_GlobalMember_CounterPartyBankMember_BANKOFBAHRAINKUWAITBSC_CentralAfricanRepublic_TransactionID2" unitRef="INR" decimals="-3" >119776000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_GlobalMember_CounterPartyBankMember_BANKOFBAHRAINKUWAITBSC_CentralAfricanRepublic_TransactionID2" unitRef="PURE" decimals="4" >10.8887</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_GlobalMember_CounterPartyBankMember_SocieteGenerale_Ethiopia_TransactionID3" unitRef="INR" decimals="-3" >107777000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_GlobalMember_CounterPartyBankMember_SocieteGenerale_Ethiopia_TransactionID3" unitRef="INR" decimals="-3" >10777000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_GlobalMember_CounterPartyBankMember_SocieteGenerale_Ethiopia_TransactionID3" unitRef="INR" decimals="-3" >118554000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_GlobalMember_CounterPartyBankMember_SocieteGenerale_Ethiopia_TransactionID3" unitRef="PURE" decimals="4" >10.7776</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_GlobalMember_CounterPartyBankMember_BankOfNovaScotia_TrinidadAndTobago_TransactionID4" unitRef="INR" decimals="-3" >106666000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_GlobalMember_CounterPartyBankMember_BankOfNovaScotia_TrinidadAndTobago_TransactionID4" unitRef="INR" decimals="-3" >10666000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_GlobalMember_CounterPartyBankMember_BankOfNovaScotia_TrinidadAndTobago_TransactionID4" unitRef="INR" decimals="-3" >117332000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_GlobalMember_CounterPartyBankMember_BankOfNovaScotia_TrinidadAndTobago_TransactionID4" unitRef="PURE" decimals="4" >10.6665</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_GlobalMember_CounterPartyBankMember_CreditAgricoleCorporateAndInvestmentBank_WesternSahara_TransactionID5" unitRef="INR" decimals="-3" >105555000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_GlobalMember_CounterPartyBankMember_CreditAgricoleCorporateAndInvestmentBank_WesternSahara_TransactionID5" unitRef="INR" decimals="-3" >10555000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_GlobalMember_CounterPartyBankMember_CreditAgricoleCorporateAndInvestmentBank_WesternSahara_TransactionID5" unitRef="INR" decimals="-4" >116110000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_GlobalMember_CounterPartyBankMember_CreditAgricoleCorporateAndInvestmentBank_WesternSahara_TransactionID5" unitRef="PURE" decimals="4" >10.5555</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:AmountOfFundedExposure contextRef="asof_20200930_GlobalMember_CounterPartyBankMember" unitRef="INR" decimals="-3" >538885000</in-rbi-rep:AmountOfFundedExposure>
+<in-rbi-rep:AmountOfNonFundedExposure contextRef="asof_20200930_GlobalMember_CounterPartyBankMember" unitRef="INR" decimals="-3" >53885000</in-rbi-rep:AmountOfNonFundedExposure>
+<in-rbi-rep:AggregateCreditExposure contextRef="asof_20200930_GlobalMember_CounterPartyBankMember" unitRef="INR" decimals="-4" >592770000</in-rbi-rep:AggregateCreditExposure>
+<in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds contextRef="fromto_20200701_20200930_GlobalMember_CounterPartyBankMember" unitRef="PURE" decimals="4" >53.8882</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+<in-rbi-rep:NameOfSignatory contextRef="fromto_20200701_20200930" >rtre</in-rbi-rep:NameOfSignatory>
+<in-rbi-rep:DesignationOfSignatory contextRef="fromto_20200701_20200930" >erterte</in-rbi-rep:DesignationOfSignatory>
+<in-rbi-rep:AuthorisedSignatoryMobileNumber contextRef="fromto_20200701_20200930" unitRef="PURE" decimals="INF" >55235235236</in-rbi-rep:AuthorisedSignatoryMobileNumber>
+<in-rbi-rep:AuthorisedSignatoryLandlineNumber contextRef="fromto_20200701_20200930" unitRef="PURE" decimals="INF" >52352352355</in-rbi-rep:AuthorisedSignatoryLandlineNumber>
+<in-rbi-rep:EMailIDOfAuthorisedReportingOfficial contextRef="fromto_20200701_20200930" >ertertr@m.vom</in-rbi-rep:EMailIDOfAuthorisedReportingOfficial>
+
+</xbrli:xbrl>

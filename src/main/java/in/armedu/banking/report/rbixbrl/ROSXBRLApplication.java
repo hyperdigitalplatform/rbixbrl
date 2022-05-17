@@ -10,7 +10,7 @@ import in.armedu.banking.report.rbixbrl.model.ros.ROSGeneralInfoData;
 import in.armedu.banking.report.rbixbrl.model.ros.ROSItem;
 import in.armedu.banking.report.rbixbrl.model.ros.ROSSubsidiaryData;
 
-public class XBRLApplication {
+public class ROSXBRLApplication {
     public static void main(String[] args) throws Exception {
         ROSData data = new ROSData();
         
