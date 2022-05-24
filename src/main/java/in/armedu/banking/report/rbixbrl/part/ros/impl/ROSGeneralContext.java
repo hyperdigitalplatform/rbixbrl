@@ -133,7 +133,7 @@ public class ROSGeneralContext implements ContextIntf {
                 explicitMemberForMarketValueMember.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "DetailsOfValueAxis"));
                 explicitMemberForMarketValueMember.setValue(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "MarketValueMember"));;
                 segMarketValueMember.getAny().add(explicitMemberForMarketValueMember);
-                segMarketValueMember.getAny().add(typedMember);
+                //segMarketValueMember.getAny().add(typedMember);
                 // add to context Entity
                 contextEntityTypeForMarketValueMember.setSegment(segMarketValueMember);
                 Context asOfMarketValueMemberContext = xbrlObjectFactory.createContext();
@@ -142,6 +142,8 @@ public class ROSGeneralContext implements ContextIntf {
                 asOfMarketValueMemberContext.setId(contextRefAsOfMarketValueMemberString);
                 asOfMarketValueMemberContext.setEntity(contextEntityTypeForMarketValueMember);
                 asOfMarketValueMemberContext.setPeriod(periodInstant);
+
+                
 
                 return Arrays.asList(fromToContext, asOfContext, asOfBookValueMemberContext, asOfMarketValueMemberContext);
         }
