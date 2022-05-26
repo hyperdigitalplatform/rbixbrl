@@ -14,27 +14,29 @@ import lombok.Setter;
 public class RLCGeneralData extends GeneralData {
     
     //Report Details
-    private String ReturnName;
-    private String ReturnCode;
-    private String NameOfReportingInstitution;
-    private String BankCode;
-    private String Address;
-    private String ReportForTheYearEnded;
-    private String ReportingFrequency;
-    private String ReportStatus;
-    private String WhetherNilReporting;
-    private String CategoriesOfBanks;
-    private String ReturnVersion;
-    private String GeneralRemarks;
-    private String ReportingPeriodStartDate;
-    private String RegulatoryCapital;
-    private String CapitalInfusion;
+    private String returnName;
+    private String returnCode;
+    private String nameOfReportingInstitution;
+    private String bankCode;
+    private String address;
+    private String endDate;                //ReportForTheYearEnded
+    private String reportingFrequency;
+    private String reportStatus;
+    private String whetherNilReporting;
+    private String categoriesOfBanks;
+    private String returnVersion;
+    private String generalRemarks;
+    private String startDate;               //ReportingPeriodStartDate
+    private String regulatoryCapital;
+    private String capitalInfusion;
+    private String lastEndDate;             //LastYearEndDate
+    private String currentDate;         //BeginingOfCurrentYear
 
     //Signatory Details
-    private String NameOfSignatory;
-    private String DesignationOfSignatory;
-    private String AuthorisedSignatoryMobileNumber;
-    private String AuthorisedSignatoryLandlineNumber;
-    private String EMailIDOfAuthorisedReportingOfficial;
+    private String nameOfSignatory;
+    private String designationOfSignatory;
+    private String authorisedSignatoryMobileNumber;
+    private String authorisedSignatoryLandlineNumber;
+    private String eMailIDOfAuthorisedReportingOfficial;
 
 }

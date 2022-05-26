@@ -76,7 +76,7 @@ public class RBIRLCXBRLReportImpl implements XBRLReportIntf {
             simpleType.setHref("in-rbi-rlc.xsd");
             xbrl.getSchemaRef().add(simpleType);
             xbrl.getOtherAttributes().put(new QName("xml:lang"), "en");
-            
+           
             List<Object> bodyElements = new ArrayList<Object>();
             //create all contexts
             List<Context> generalContexts = contextIntf.getContext( rlcData.getRlcGeneralData());
@@ -84,20 +84,21 @@ public class RBIRLCXBRLReportImpl implements XBRLReportIntf {
                 xbrl.getItemOrTupleOrContext().add(ctx);
             });
             
-            bodyElements.addAll(rlcGeneralBody.getReportBodyItem( generalContexts, rlcData.getRlcGeneralData()));
+       bodyElements.addAll(rlcGeneralBody.getReportBodyItem( generalContexts, rlcData.getRlcGeneralData()));
 
-            // rlcData.getRlcItems().forEach(item->{
-            //     List<Context> rlcItemContexts = contextIntf.getContext(  rlcData.getRlcGeneralData(),  item);
-            //     rlcItemContexts.forEach(ctx -> {
-            //         xbrl.getItemOrTupleOrContext().add(ctx);
-            //     });
-            // });
-            // List<Unit> units = rlcUnits.getUnits( rlcData.getRlcGeneralData());
-            // units.forEach(unit -> {
-            //     xbrl.getItemOrTupleOrContext().add(unit);
-            // });
+             rlcData.getRlcItem().forEach(item->{
+                 List<Context> rlcItemContexts = contextIntf.getContext(  rlcData.getRlcGeneralData(),  item);
+                rlcItemContexts.forEach(ctx -> {
+                     xbrl.getItemOrTupleOrContext().add(ctx);
+                 });
+             });
+          
+            List<Unit> units = rlcUnits.getUnits( rlcData.getRlcGeneralData());
+            units.forEach(unit -> {
+                xbrl.getItemOrTupleOrContext().add(unit);
+            });
             // // generate ros element for each subsidiary
-            // rlcData.getRlcItems().forEach(item->{
+            // rlcData.getRlcItem().forEach(item->{
             //     List<Context> rlcItemContexts = contextIntf.getContext( rlcData.getRlcGeneralData(), item);
                 
             //     bodyElements.addAll(rlcBody.getReportBodyItem( rlcItemContexts, units, rlcData.getRlcGeneralData(), item));

@@ -1,6 +1,5 @@
 package in.armedu.banking.report.rbixbrl.model.rlc;
 
-import in.armedu.banking.report.rbixbrl.model.ItemData;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,11 +12,11 @@ import lombok.Setter;
 
 //CounterPartyBankMember
 
-public class RLCCounterBankMember extends ItemData{
+public class RLCCounterBankMember{
     
-    private String AggregateExposureAsPercentageOfCapitalFunds;
-    private String AmountOfFundedExposure;
-    private String AmountOfNonFundedExposure;
-    private String AggregateCreditExposure;
+    private String aggregateExposureAsPercentageOfCapitalFunds;
+    private String amountOfFundedExposure;
+    private String amountOfNonFundedExposure;
+    private String aggregateCreditExposure;
     
 }

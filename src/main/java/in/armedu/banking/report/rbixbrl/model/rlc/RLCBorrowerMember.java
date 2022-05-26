@@ -1,6 +1,5 @@
 package in.armedu.banking.report.rbixbrl.model.rlc;
 
-import in.armedu.banking.report.rbixbrl.model.ItemData;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,29 +12,29 @@ import lombok.Setter;
 
 // BorrowerGroupMember
 
-public class RLCBorrowerMember extends ItemData{
+public class RLCBorrowerMember{
     
-    private String PermanentAccountNumberOfCustomerOrBorrower;
-    private String CustomerName;
-    private String SectorCode;
-    private String BankingArrangement;
-    private String InternalRating;
-    private String ExternalRating;
-    private String AssetClassificationRLC;
-    private String LimitSanctionedForFundedExposure;
-    private String AmountOutstandingForFundedExposure;
-    private String AmountEligibleForNettingFromFundedExposure;
-    private String AmountOfFundedExposure;
-    private String LimitSanctionedForNonFundedExposure;
-    private String AmountOutstandingForNonFundedExposure;
-    private String AmountEligibleForNettingFromNonFundedExposure;
-    private String AmountOfNonFundedExposure;
-    private String AggregateLimitSanctioned;
-    private String AggregateAmountOutstanding;
-    private String AggregateCreditExposure;
-    private String AggregateCreditExposureAsPercentageOfCapitalFunds;
-    private String AggregateInvestmentExposure;
-    private String AggregateExposureAsPercentageOfCapitalFunds;
+    private String permanentAccountNumberOfCustomerOrBorrower;
+    private String customerName;
+    private String sectorCode;
+    private String bankingArrangement;
+    private String internalRating;
+    private String externalRating;
+    private String assetClassificationRLC;
+    private String limitSanctionedForFundedExposure;
+    private String amountOutstandingForFundedExposure;
+    private String amountEligibleForNettingFromFundedExposure;
+    private String amountOfFundedExposure;
+    private String limitSanctionedForNonFundedExposure;
+    private String amountOutstandingForNonFundedExposure;
+    private String amountEligibleForNettingFromNonFundedExposure;
+    private String amountOfNonFundedExposure;
+    private String aggregateLimitSanctioned;
+    private String aggregateAmountOutstanding;
+    private String aggregateCreditExposure;
+    private String aggregateCreditExposureAsPercentageOfCapitalFunds;
+    private String aggregateInvestmentExposure;
+    private String aggregateExposureAsPercentageOfCapitalFunds;
 
     
 

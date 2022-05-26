@@ -1,10 +1,6 @@
 package in.armedu.banking.report.rbixbrl.model.rlc;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import in.armedu.banking.report.rbixbrl.model.ItemData;
-import in.armedu.banking.report.rbixbrl.model.ReportData;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,9 +11,9 @@ import lombok.Setter;
 @Setter
 @Getter
 
-public class RLCReportData extends ReportData {
-    
-    private RLCGeneralData rlcGeneralData;
-    private List<RLCItem> rlcItem = new ArrayList<RLCItem>();
-
+public class RLCItem extends ItemData {
+ 
+    private RLCBorrowerMember rLCBorrowerMember;
+    private RLCCounterBankMember rLCCounterBankMember;
+    private RLCBasic rlcBasicInfo;
 }
