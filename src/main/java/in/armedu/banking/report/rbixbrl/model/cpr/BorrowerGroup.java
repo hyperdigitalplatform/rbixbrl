@@ -3,6 +3,7 @@ package in.armedu.banking.report.rbixbrl.model.cpr;
 import java.util.ArrayList;
 import java.util.List;
 
+import in.armedu.banking.report.rbixbrl.model.ItemData;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -12,7 +13,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Setter
 @Getter
-public class BorrowerGroup {
+public class BorrowerGroup extends ItemData {
     private String borrowerGroupName;
     private List<GroupCompany> groupCompanies = new ArrayList<GroupCompany>();
     private String totalAmountFunded;

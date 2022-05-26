@@ -1,8 +1,15 @@
 package in.armedu.banking.report.rbixbrl.part.cpr.impl;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.GregorianCalendar;
 import java.util.List;
 
+import javax.xml.datatype.DatatypeConstants;
+import javax.xml.datatype.DatatypeFactory;
+import javax.xml.datatype.XMLGregorianCalendar;
 import javax.xml.namespace.QName;
 
 import org.xbrl._2003.instance.Context;
@@ -18,6 +25,47 @@ import in.armedu.banking.report.rbixbrl.util.FromToContext;
 
 public class CPRUtil {
     
+    public static final String FROMTO = "fromtocontext";
+    public static final String ASOF = "asofcontext";
+    public static final String ASOFBOOKVALUEMEMBER = "asofbookvalue";
+    public static final String ASOFMARKETVALUEMEMBER = "asofmarketvalue";
+    public static final String ASOFFUNDEDMEMBERINDIVIDUALBORROWER = "asoffundedmemberindividualborrower";
+    public static final String ASOFNONFUNDEDMEMBERINDIVIDUALBORROWER = "asofnonfundedmemberindividualborrower";
+    public static final String FROMTOINDIVIDUALBORROWER = "fromtoindividualborrower";
+    public static final String ASOFFUNDEDMEMBERBORROWERGROUP = "asoffundedmemberborrowergroup";
+    public static final String ASOFNONFUNDEDMEMBERBORROWERGROUP = "asofnonfundedmemberborrowergroup";
+    public static final String FROMTOBORROWERGROUP = "fromtoborrowergroup";
+    public static final String ASOFNONFUNDEDMEMBER = "asofnonfundedmember";
+    public static final String ASOFFUNDEDMEMBER = "asoffundedmember";
+    public static final String FROMTOITEMWOINDIVIDUAL = "fromtoitemwoindividual";
+    public static final String ASOFITEMFORFUNDEDINDIVIDUAL = "asofitemforfundedindividual";
+    public static final String ASOFITEMFORNONFUNDEDINDIVIDUAL = "asofitemfornonfundedindividual";
+    public static final String FROMTOFORITEMWITHINDIVIDUAL = "fromtoforitemwithindividual";
+    public static final String ASOFFUNDEDWITHBORROWERGROUP = "asoffundedwithborrowergroup";
+    public static final String ASOFNONFUNDEDWITHBORROWERGROUP = "asofnonfundedwithborrowergroup";
+    public static final String FROMTOWITHBORROWERGROUPANDGROUPCOMPANY = "fromtowithborrowergroupandgroupcompany";
+    public static final String ASOFFUNDEDWITHBORROWERGROUPANDGROUPCOMPANY = "asoffundedwithborrowergroupandgroupcompany";
+    public static final String ASOFNONFUNDEDWITHBORROWERGROUPANDGROUPCOMPANY = "asofnonfundedwithborrowergroupandgroupcompany";
+    public static final String CURRENCY = null;
+    public static final String PERCENTAGE = null;
+
+    public static XMLGregorianCalendar toXMLGeo(String dateInStr){
+        DateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+        XMLGregorianCalendar xmlGregCal = null;
+        try {
+            Date date = format.parse(dateInStr);
+            GregorianCalendar cal = new GregorianCalendar();
+            cal.setTime(date);
+            xmlGregCal =  DatatypeFactory.newInstance().newXMLGregorianCalendar(cal);
+            xmlGregCal.setTimezone(DatatypeConstants.FIELD_UNDEFINED);
+        } catch (Exception e) {
+            //TODO: handle exception
+            e.printStackTrace();
+        }
+        
+        return xmlGregCal;
+    }
+
     public static Context createFromToContext(String bankCode, String startDate, String endDate, String contextRefFromTo){
         ObjectFactory xbrlObjectFactory = new ObjectFactory();
         ContextEntityType contextEntityType = xbrlObjectFactory.createContextEntityType();

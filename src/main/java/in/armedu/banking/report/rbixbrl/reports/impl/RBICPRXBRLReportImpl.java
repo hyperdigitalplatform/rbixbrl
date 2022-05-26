@@ -3,6 +3,7 @@ package in.armedu.banking.report.rbixbrl.reports.impl;
 import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Marshaller;
@@ -10,17 +11,29 @@ import javax.xml.namespace.QName;
 
 import org.xbrl._2003.instance.Context;
 import org.xbrl._2003.instance.ObjectFactory;
+import org.xbrl._2003.instance.Unit;
 import org.xbrl._2003.instance.Xbrl;
 import org.xbrl._2003.xlink.SimpleType;
 
 import in.armedu.banking.report.rbixbrl.model.ReportData;
+import in.armedu.banking.report.rbixbrl.model.cpr.CPRItemData;
 import in.armedu.banking.report.rbixbrl.model.cpr.CPRReportData;
+import in.armedu.banking.report.rbixbrl.part.BodyInterface;
 import in.armedu.banking.report.rbixbrl.part.BodyIntf;
+import in.armedu.banking.report.rbixbrl.part.ContextInterface;
 import in.armedu.banking.report.rbixbrl.part.ContextIntf;
+import in.armedu.banking.report.rbixbrl.part.UnitInterface;
 import in.armedu.banking.report.rbixbrl.part.UnitIntf;
-import in.armedu.banking.report.rbixbrl.part.cpr.impl.CPRBody;
+import in.armedu.banking.report.rbixbrl.part.cpr.impl.CPRBodyForGroup;
+import in.armedu.banking.report.rbixbrl.part.cpr.impl.CPRBodyForIndividual;
+import in.armedu.banking.report.rbixbrl.part.cpr.impl.CPRBodyForTotalGroup;
+import in.armedu.banking.report.rbixbrl.part.cpr.impl.CPRBodyForTotalIndividual;
+import in.armedu.banking.report.rbixbrl.part.cpr.impl.CPRBorrowerGroupContext;
 import in.armedu.banking.report.rbixbrl.part.cpr.impl.CPRGeneralBody;
 import in.armedu.banking.report.rbixbrl.part.cpr.impl.CPRGeneralContext;
+import in.armedu.banking.report.rbixbrl.part.cpr.impl.CPRGeneralExtraBody;
+import in.armedu.banking.report.rbixbrl.part.cpr.impl.CPRGeneralOtherBody;
+import in.armedu.banking.report.rbixbrl.part.cpr.impl.CPRIndividualContext;
 import in.armedu.banking.report.rbixbrl.part.cpr.impl.CPRUnit;
 import in.armedu.banking.report.rbixbrl.reports.XBRLReportIntf;
 import in.armedu.banking.report.rbixbrl.util.DefaultNamespacePrefixMapper;
@@ -29,10 +42,19 @@ import lombok.Setter;
 @Setter
 public class RBICPRXBRLReportImpl implements XBRLReportIntf {
     
-    private ContextIntf contextIntf = new CPRGeneralContext();
-    private BodyIntf generalBody = new CPRGeneralBody();
-    private UnitIntf units = new CPRUnit();
-    private BodyIntf body = new CPRBody();
+    private ContextInterface generalContext = new CPRGeneralContext();
+    private ContextInterface individualContext = new CPRIndividualContext();
+    private ContextInterface groupContext = new CPRBorrowerGroupContext();
+    private BodyInterface generalBody = new CPRGeneralBody();
+    private BodyInterface extraBody = new CPRGeneralExtraBody();
+    private BodyInterface bodyForIndividual = new CPRBodyForIndividual();
+    private BodyInterface bodyForTotalIndividual = new CPRBodyForTotalIndividual()
+    private BodyInterface bodyForGroup = new CPRBodyForGroup();
+    private BodyInterface bodyForTotalGroup = new CPRBodyForTotalGroup();
+    private BodyInterface otherBody = new CPRGeneralOtherBody();
+
+    private UnitInterface cprUnits = new CPRUnit();
+    
     private ObjectFactory instancObjectFactory = new ObjectFactory();
     
     @Override
@@ -68,25 +90,37 @@ public class RBICPRXBRLReportImpl implements XBRLReportIntf {
             xbrl.getSchemaRef().add(simpleType);
             xbrl.getOtherAttributes().put(new QName("xml:lang"), "en");
             
+            Map<String, Unit> units = cprUnits.getUnits( cprData.getGeneralData());
             List<Object> bodyElements = new ArrayList<Object>();
-            //create all contexts
-            List<Context> generalContexts = contextIntf.getContext( cprData.getGeneralData());
-            generalContexts.forEach(ctx -> {
+            //create all general contexts
+            Map<String, Context> generalContexts = generalContext.getContext( cprData.getGeneralData());
+            generalContexts.forEach((key, ctx) -> {
                 xbrl.getItemOrTupleOrContext().add(ctx);
             });
-            
-            //bodyElements.addAll(generalBody.getReportBodyItem( generalContexts, rlcData.getRlcGeneralData()));
-
-            cprData.getItemDatas().forEach(item->{
-                List<Context> itemContexts = contextIntf.getContext(  cprData.getGeneralData(),  item);
-                itemContexts.forEach(ctx -> {
+            // create all individual borrower contexts
+            CPRItemData cprItemData = (CPRItemData) cprData.getItemDatas().get(0);
+            cprItemData.getLargeExposuresToIndividualBorrower().getIndividualBorrowers().forEach(indBorrower -> {
+                Map<String, Context> indvContexts = individualContext.getContext(cprData.getGeneralData(), indBorrower);
+                indvContexts.forEach((key, ctx) -> {
                     xbrl.getItemOrTupleOrContext().add(ctx);
                 });
             });
+            
+            // create all group borrower contexts  
+            cprItemData.getLargeExposureToBorrowerGroup().getBorrowerGroups().forEach(group ->{
+                Map<String, Context> groupContexts = groupContext.getContext(cprData.getGeneralData(), group);
+                groupContexts.forEach((key, ctx) -> {
+                    xbrl.getItemOrTupleOrContext().add(ctx);
+                });
+            });
+            
+            
             // List<Unit> units = rlcUnits.getUnits( rlcData.getRlcGeneralData());
             // units.forEach(unit -> {
             //     xbrl.getItemOrTupleOrContext().add(unit);
             // });
+            //bodyElements.addAll(generalBody.getReportBodyItem( generalContexts, units, cprData.getGeneralData()));
+
             // // generate ros element for each subsidiary
             // rlcData.getRlcItems().forEach(item->{
             //     List<Context> rlcItemContexts = contextIntf.getContext( rlcData.getRlcGeneralData(), item);
