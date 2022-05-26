@@ -1,6 +1,6 @@
 package in.armedu.banking.report.rbixbrl.reports;
 
-import in.armedu.banking.report.rbixbrl.part.cpr.impl.CPRBody;
+import in.armedu.banking.report.rbixbrl.part.cpr.impl.CPRBodyForIndividual;
 import in.armedu.banking.report.rbixbrl.part.cpr.impl.CPRGeneralBody;
 import in.armedu.banking.report.rbixbrl.part.cpr.impl.CPRGeneralContext;
 import in.armedu.banking.report.rbixbrl.part.cpr.impl.CPRUnit;
@@ -38,7 +38,7 @@ public class XBRLReportBuilder {
         report.setContextIntf(new CPRGeneralContext());
         report.setUnits(new CPRUnit());
         report.setGeneralBody(new CPRGeneralBody());
-        report.setBody(new CPRBody());
+        report.setBody(new CPRBodyForIndividual());
         return report;
     }
 }
