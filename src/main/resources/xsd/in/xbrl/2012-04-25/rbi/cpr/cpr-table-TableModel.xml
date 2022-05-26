@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="Navigation">
+</tableSet>
+<tableSet label="Consolidated Prudential Reports">
+<table label="ConsolidatedPrudentialReports_lyt_Consolidated" header=""/>
+</tableSet>
+<tableSet label="Consolidated Balance Sheet">
+<table label="ConsolidatedBalanceSheet_lyt_CapitalAndLiabilities" header=""/>
+<table label="ConsolidatedBalanceSheet_lyt_Assets" header=""/>
+</tableSet>
+<tableSet label="Consolidated Profit And Loss">
+<table label="ConsolidatedProfitAndLoss_lyt_Income" header=""/>
+<table label="ConsolidatedProfitAndLoss_lyt_Expenditure" header=""/>
+<table label="ConsolidatedProfitAndLoss_lyt_Appropriations" header=""/>
+</tableSet>
+<tableSet label="Schedule 1,2,2A">
+<table label="Schedule122A_Lyt_Authorised" header="SCHEDULE 1 - CAPITAL"/>
+<table label="Schedule122A_Lyt_DImIssued" header=""/>
+<table label="Schedule122A_Lyt_Subscribed" header=""/>
+<table label="Schedule122A_Lyt_DimSubscribed" header=""/>
+<table label="Schedule122A_Lyt_Calledup" header=""/>
+<table label="Schedule122A_Lyt_DimCalledup" header=""/>
+<table label="Schedule122A_Lyt_Lesscallsunpaid" header=""/>
+<table label="Schedule122A_Lyt_DimLesscall" header=""/>
+<table label="Schedule122A_Lyt_ForfietedShares" header=""/>
+<table label="Schedule122A_Lyt_DimForfeited" header=""/>
+<table label="Schedule122A_lyt_ReservesAndSurplus" header="SCHEDULE 2 – RESERVES and SURPLUS"/>
+<table label="Schedule122A_lyt_MINORITIESINTEREST" header=""/>
+</tableSet>
+<tableSet label="Schedule 3,4">
+<table label="Schedule34_lyt_Deposit" header=""/>
+<table label="Schedule34_lyt_Borrowing" header=""/>
+</tableSet>
+<tableSet label="Schedule 5,6,7">
+<table label="Schedule567_lyt_Liabilities" header=""/>
+<table label="Schedule567_lyt_CasdhAndBalance" header=""/>
+<table label="Schedule567_lyt_Balance" header=""/>
+</tableSet>
+<tableSet label="Schedule 8">
+<table label="Schedule8_lyt_Investment" header=""/>
+</tableSet>
+<tableSet label="Schedule 9">
+<table label="Schedule9_lyt_Advances" header=""/>
+</tableSet>
+<tableSet label="Schedule 10">
+<table label="Schedule10_lyt_FixedAsset" header=""/>
+</tableSet>
+<tableSet label="Schedule 11,12,13">
+<table label="Schedule111213_lyt_OtherAsset" header=""/>
+<table label="Schedule111213_lyt_ContigentLiabilities" header=""/>
+<table label="Schedule111213_lyt_Interest" header=""/>
+</tableSet>
+<tableSet label="Schedule 14,15,16">
+<table label="Schedule141516_lyt_OtherIncome" header=""/>
+<table label="Schedule141516_lyt_InterestExpended" header=""/>
+<table label="Schedule141516_lyt_OperatingExpenses" header=""/>
+</tableSet>
+<tableSet label="Details on Subsidiaries">
+<table label="DetailsonSubsidiaries_lyt_Details" header=""/>
+</tableSet>
+<tableSet label="Financials For ConsolidatedBank">
+<table label="FinancialsForConsolidatedBank_lyt_Financials" header=""/>
+</tableSet>
+<tableSet label="Financials For Consolidated(F)">
+<table label="FinancialsForConsolidatedF_lyt_Financials" header=""/>
+</tableSet>
+<tableSet label="Section III - Large Exposures">
+<table label="SectionIIILargeExposures_lyt_Section_3" header=""/>
+<table label="SectionIIILargeExposures_lyt_2_Section3" header=""/>
+<table label="SectionIIILargeExposures_lyt_LargeExposures" header=""/>
+<table label="SectionIIILargeExposures_lyt_2_LargeExposure" header=""/>
+</tableSet>
+<tableSet label="Section IV - Forex Exposures">
+<table label="SectionIVForexExposures_lyt_Forex" header=""/>
+</tableSet>
+<tableSet label="Section V">
+<table label="SectionV_lyt_Layout1" header=""/>
+</tableSet>
+<tableSet label="Section VI">
+<table label="SectionVI_lyt_ExposureUnsecured" header=""/>
+</tableSet>
+<tableSet label="Section VII">
+<table label="SectionVII_lyt_CRR_SSR" header=""/>
+</tableSet>
+</tableModel>

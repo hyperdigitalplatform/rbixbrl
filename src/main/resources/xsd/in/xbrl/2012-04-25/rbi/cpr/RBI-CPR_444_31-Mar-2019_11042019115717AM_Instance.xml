@@ -1,0 +1,1228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Count:341-->
+<xbrli:xbrl xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref="http://www.xbrl.org/2004/ref" 
+xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi"
+xmlns:in-rbi-rep-par="http://www.rbi.org/in-rbi-rep-par"
+>
+<link:schemaRef xlink:type="simple" xlink:href="in-rbi-cpr.xsd" />
+<xbrli:context id="fromto_20181001_20190331">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+
+
+<xbrli:context id="asof_20180331_PremisesMember_ConsolidatedMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:FixedAssetsAxis'>in-rbi-rep:PremisesMember</xbrldi:explicitMember>
+<!-- </xbrli:segment> -->
+<!-- <xbrli:segment> -->
+<xbrldi:explicitMember dimension='in-rbi-rep:CategoriesOfFinancialStatementAxis'>in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2018-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+
+
+
+<xbrli:context id="asof_20190331_ConsolidatedMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CategoriesOfFinancialStatementAxis'>in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+</xbrli:segment>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_ConsolidatedMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CategoriesOfFinancialStatementAxis'>in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_ConsolidatedMember_DYUY">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CategoriesOfFinancialStatementAxis'>in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IssuedCapitalTypeAxis'><in-rbi-rep-par:IssuedCapitalTypeDomain>DYUY</in-rbi-rep-par:IssuedCapitalTypeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_ConsolidatedMember_YUKYCUY">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CategoriesOfFinancialStatementAxis'>in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IssuedCapitalTypeAxis'><in-rbi-rep-par:IssuedCapitalTypeDomain>YUKYCUY</in-rbi-rep-par:IssuedCapitalTypeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_ConsolidatedMember_VKJILOI">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CategoriesOfFinancialStatementAxis'>in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IssuedCapitalTypeAxis'><in-rbi-rep-par:IssuedCapitalTypeDomain>VKJILOI</in-rbi-rep-par:IssuedCapitalTypeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_ConsolidatedMember_IOIOIIP">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CategoriesOfFinancialStatementAxis'>in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:SubscribedCapitalTypeAxis'><in-rbi-rep-par:SubscribedCapitalTypeDomain>IOIOIIP</in-rbi-rep-par:SubscribedCapitalTypeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_ConsolidatedMember_UYUIUY">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CategoriesOfFinancialStatementAxis'>in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CalledUpCapitalTypeAxis'><in-rbi-rep-par:CalledUpCapitalTypeDomain>UYUIUY</in-rbi-rep-par:CalledUpCapitalTypeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_ConsolidatedMember_IUIUVOI">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CategoriesOfFinancialStatementAxis'>in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CallsUnpaidTypeAxis'><in-rbi-rep-par:CallsUnpaidTypeDomain>IUIUVOI</in-rbi-rep-par:CallsUnpaidTypeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_ConsolidatedMember_TYTXU">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CategoriesOfFinancialStatementAxis'>in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:ForfeitedSharesTypeAxis'><in-rbi-rep-par:ForfeitedSharesTypeDomain>TYTXU</in-rbi-rep-par:ForfeitedSharesTypeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_PremisesMember_ConsolidatedMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:FixedAssetsAxis'>in-rbi-rep:PremisesMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:CategoriesOfFinancialStatementAxis'>in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20180930_PremisesMember_ConsolidatedMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:FixedAssetsAxis'>in-rbi-rep:PremisesMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:CategoriesOfFinancialStatementAxis'>in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2018-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_PremisesMember_ConsolidatedMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:FixedAssetsAxis'>in-rbi-rep:PremisesMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:CategoriesOfFinancialStatementAxis'>in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_PremisesUnderConstructionMember_ConsolidatedMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:FixedAssetsAxis'>in-rbi-rep:PremisesUnderConstructionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:CategoriesOfFinancialStatementAxis'>in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_OtherFixedAssetsIncludingFurnitureAndFixturesMember_ConsolidatedMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:FixedAssetsAxis'>in-rbi-rep:OtherFixedAssetsIncludingFurnitureAndFixturesMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:CategoriesOfFinancialStatementAxis'>in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20180930_OtherFixedAssetsIncludingFurnitureAndFixturesMember_ConsolidatedMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:FixedAssetsAxis'>in-rbi-rep:OtherFixedAssetsIncludingFurnitureAndFixturesMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:CategoriesOfFinancialStatementAxis'>in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2018-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_OtherFixedAssetsIncludingFurnitureAndFixturesMember_ConsolidatedMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:FixedAssetsAxis'>in-rbi-rep:OtherFixedAssetsIncludingFurnitureAndFixturesMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:CategoriesOfFinancialStatementAxis'>in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_LeasedAssetsMember_ConsolidatedMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:FixedAssetsAxis'>in-rbi-rep:LeasedAssetsMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:CategoriesOfFinancialStatementAxis'>in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20180930_LeasedAssetsMember_ConsolidatedMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:FixedAssetsAxis'>in-rbi-rep:LeasedAssetsMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:CategoriesOfFinancialStatementAxis'>in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2018-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_LeasedAssetsMember_ConsolidatedMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:FixedAssetsAxis'>in-rbi-rep:LeasedAssetsMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:CategoriesOfFinancialStatementAxis'>in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_CapitalWorkInProgressLeasedAssetsNetOfProvisionsMember_ConsolidatedMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:FixedAssetsAxis'>in-rbi-rep:CapitalWorkInProgressLeasedAssetsNetOfProvisionsMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:CategoriesOfFinancialStatementAxis'>in-rbi-rep:ConsolidatedMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_MadhyaBharathGraminBank">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Madhya Bharath Gramin Bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_CommercialBankofIndiaLLCMoscow">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Commercial Bank of India LLC, Moscow</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_UtkalGramyaBank">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Utkal Gramya Bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_UttaranchalGraminBank">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Uttaranchal Gramin Bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_NAGALANDRB">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>NAGALAND RB</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_DISCOUNTANDFINANCEHOUSEOFINDIALTD">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>DISCOUNT AND FINANCE HOUSE OF INDIA LTD.</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_MIZORAMRB">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis'><in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>MIZORAM RB</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_BookValueMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfValueAxis'>in-rbi-rep:BookValueMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_MarketValueMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfValueAxis'>in-rbi-rep:MarketValueMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_AABFZ0549C_ZYDUSHOSPITALLLP_1104_GrowingofSugarCaneandBeet">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:PermanentAccountNumberAxis'><in-rbi-rep-par:PermanentAccountNumberDomain>AABFZ0549C</in-rbi-rep-par:PermanentAccountNumberDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>ZYDUS HOSPITAL LLP</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>1104</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Growing of Sugar Cane and Beet</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_FundedMember_IndividualBorrowerMember_AABFZ0549C_ZYDUSHOSPITALLLP_1104_GrowingofSugarCaneandBeet">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:FundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:PermanentAccountNumberAxis'><in-rbi-rep-par:PermanentAccountNumberDomain>AABFZ0549C</in-rbi-rep-par:PermanentAccountNumberDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>ZYDUS HOSPITAL LLP</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>1104</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Growing of Sugar Cane and Beet</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_NonFundedMember_IndividualBorrowerMember_AABFZ0549C_ZYDUSHOSPITALLLP_1104_GrowingofSugarCaneandBeet">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:PermanentAccountNumberAxis'><in-rbi-rep-par:PermanentAccountNumberDomain>AABFZ0549C</in-rbi-rep-par:PermanentAccountNumberDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>ZYDUS HOSPITAL LLP</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>1104</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Growing of Sugar Cane and Beet</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_IndividualBorrowerMember_AABFZ0549C_ZYDUSHOSPITALLLP_1104_GrowingofSugarCaneandBeet">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:PermanentAccountNumberAxis'><in-rbi-rep-par:PermanentAccountNumberDomain>AABFZ0549C</in-rbi-rep-par:PermanentAccountNumberDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>ZYDUS HOSPITAL LLP</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>1104</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Growing of Sugar Cane and Beet</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_AABFY2121M_YSHIVANNABROTHERS_1106_GrowingofJuteEtc">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:PermanentAccountNumberAxis'><in-rbi-rep-par:PermanentAccountNumberDomain>AABFY2121M</in-rbi-rep-par:PermanentAccountNumberDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Y SHIVANNA &amp; BROTHERS</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>1106</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Growing of Jute Etc</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_FundedMember_IndividualBorrowerMember_AABFY2121M_YSHIVANNABROTHERS_1106_GrowingofJuteEtc">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:FundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:PermanentAccountNumberAxis'><in-rbi-rep-par:PermanentAccountNumberDomain>AABFY2121M</in-rbi-rep-par:PermanentAccountNumberDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Y SHIVANNA &amp; BROTHERS</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>1106</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Growing of Jute Etc</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_NonFundedMember_IndividualBorrowerMember_AABFY2121M_YSHIVANNABROTHERS_1106_GrowingofJuteEtc">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:PermanentAccountNumberAxis'><in-rbi-rep-par:PermanentAccountNumberDomain>AABFY2121M</in-rbi-rep-par:PermanentAccountNumberDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Y SHIVANNA &amp; BROTHERS</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>1106</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Growing of Jute Etc</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_IndividualBorrowerMember_AABFY2121M_YSHIVANNABROTHERS_1106_GrowingofJuteEtc">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:PermanentAccountNumberAxis'><in-rbi-rep-par:PermanentAccountNumberDomain>AABFY2121M</in-rbi-rep-par:PermanentAccountNumberDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Y SHIVANNA &amp; BROTHERS</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>1106</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryNameAxis'><in-rbi-rep-par:IndustryNameDomain>Growing of Jute Etc</in-rbi-rep-par:IndustryNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_FundedMember_IndividualBorrowerMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:FundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_NonFundedMember_IndividualBorrowerMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_IndividualBorrowerMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_FundedMember_BorrowerGroupMember_BWQR_M565">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:FundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>BWQR</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfGroupCompanyAxis'><in-rbi-rep-par:NameOfGroupCompanyDomain>M565</in-rbi-rep-par:NameOfGroupCompanyDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_NonFundedMember_BorrowerGroupMember_BWQR_M565">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>BWQR</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfGroupCompanyAxis'><in-rbi-rep-par:NameOfGroupCompanyDomain>M565</in-rbi-rep-par:NameOfGroupCompanyDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_BorrowerGroupMember_BWQR_M565">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>BWQR</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfGroupCompanyAxis'><in-rbi-rep-par:NameOfGroupCompanyDomain>M565</in-rbi-rep-par:NameOfGroupCompanyDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_FundedMember_BorrowerGroupMember_BWQR">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:FundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>BWQR</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_NonFundedMember_BorrowerGroupMember_BWQR">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>BWQR</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_BorrowerGroupMember_BWQR">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>BWQR</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_FundedMember_BorrowerGroupMember_QBRQRBQ_R5TRWM">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:FundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>QBRQRBQ</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfGroupCompanyAxis'><in-rbi-rep-par:NameOfGroupCompanyDomain>R5TRWM</in-rbi-rep-par:NameOfGroupCompanyDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_NonFundedMember_BorrowerGroupMember_QBRQRBQ_R5TRWM">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>QBRQRBQ</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfGroupCompanyAxis'><in-rbi-rep-par:NameOfGroupCompanyDomain>R5TRWM</in-rbi-rep-par:NameOfGroupCompanyDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_BorrowerGroupMember_QBRQRBQ_R5TRWM">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>QBRQRBQ</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfGroupCompanyAxis'><in-rbi-rep-par:NameOfGroupCompanyDomain>R5TRWM</in-rbi-rep-par:NameOfGroupCompanyDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_FundedMember_BorrowerGroupMember_QBRQRBQ">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:FundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>QBRQRBQ</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_NonFundedMember_BorrowerGroupMember_QBRQRBQ">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>QBRQRBQ</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_BorrowerGroupMember_QBRQRBQ">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>QBRQRBQ</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_FundedMember_BorrowerGroupMember_BQR34_TTEM">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:FundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>BQR34</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfGroupCompanyAxis'><in-rbi-rep-par:NameOfGroupCompanyDomain>TTEM</in-rbi-rep-par:NameOfGroupCompanyDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_NonFundedMember_BorrowerGroupMember_BQR34_TTEM">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>BQR34</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfGroupCompanyAxis'><in-rbi-rep-par:NameOfGroupCompanyDomain>TTEM</in-rbi-rep-par:NameOfGroupCompanyDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_BorrowerGroupMember_BQR34_TTEM">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>BQR34</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfGroupCompanyAxis'><in-rbi-rep-par:NameOfGroupCompanyDomain>TTEM</in-rbi-rep-par:NameOfGroupCompanyDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_FundedMember_BorrowerGroupMember_BQR34">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:FundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>BQR34</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_NonFundedMember_BorrowerGroupMember_BQR34">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>BQR34</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_BorrowerGroupMember_BQR34">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>BQR34</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_FundedMember_BorrowerGroupMember_B45756_MWW">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:FundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>B45756</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfGroupCompanyAxis'><in-rbi-rep-par:NameOfGroupCompanyDomain>MWW</in-rbi-rep-par:NameOfGroupCompanyDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_NonFundedMember_BorrowerGroupMember_B45756_MWW">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>B45756</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfGroupCompanyAxis'><in-rbi-rep-par:NameOfGroupCompanyDomain>MWW</in-rbi-rep-par:NameOfGroupCompanyDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_BorrowerGroupMember_B45756_MWW">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>B45756</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfGroupCompanyAxis'><in-rbi-rep-par:NameOfGroupCompanyDomain>MWW</in-rbi-rep-par:NameOfGroupCompanyDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_FundedMember_BorrowerGroupMember_B45756">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:FundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>B45756</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_NonFundedMember_BorrowerGroupMember_B45756">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>B45756</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_BorrowerGroupMember_B45756">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerGroupAxis'><in-rbi-rep-par:NameOfBorrowerGroupDomain>B45756</in-rbi-rep-par:NameOfBorrowerGroupDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_FundedMember_BorrowerGroupMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:FundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_NonFundedMember_BorrowerGroupMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ExposureTypeAxis'>in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20181001_20190331_BorrowerGroupMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:LargeCreditAxis'>in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-10-01</xbrli:startDate>
+<xbrli:endDate>2019-03-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_FundedMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfDisbusalOfAdvancesAxis'>in-rbi-rep:FundedMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190331_NonFundedMember">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfDisbusalOfAdvancesAxis'>in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-03-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+
+<xbrli:unit id="INR">
+<xbrli:measure>iso4217:INR</xbrli:measure>
+</xbrli:unit>
+<xbrli:unit id="share">
+<xbrli:measure>xbrli:shares</xbrli:measure>
+</xbrli:unit>
+<xbrli:unit id="INRPerShare">
+<xbrli:divide>
+<xbrli:unitNumerator><xbrli:measure>iso4217:INR</xbrli:measure></xbrli:unitNumerator>
+<xbrli:unitDenominator>
+<xbrli:measure>xbrli:shares</xbrli:measure></xbrli:unitDenominator>
+</xbrli:divide>
+</xbrli:unit>
+<xbrli:unit id="PURE">
+<xbrli:measure>xbrli:pure</xbrli:measure>
+</xbrli:unit>
+
+<in-rbi-rep:ReturnName contextRef="fromto_20181001_20190331" >Consolidated Prudential Reports</in-rbi-rep:ReturnName>
+<in-rbi-rep:ReturnCode contextRef="fromto_20181001_20190331" >CPR</in-rbi-rep:ReturnCode>
+<in-rbi-rep:NameOfReportingInstitution contextRef="fromto_20181001_20190331" >Lead Bank-Others</in-rbi-rep:NameOfReportingInstitution>
+<in-rbi-rep:BankCode contextRef="asof_20190331" >444</in-rbi-rep:BankCode>
+<in-rbi-rep:AddressOfReportingInstitution contextRef="fromto_20181001_20190331" >UIIVGRUIR</in-rbi-rep:AddressOfReportingInstitution>
+<in-rbi-rep:ReportForTheYearEnded contextRef="fromto_20181001_20190331" >2019-03-31</in-rbi-rep:ReportForTheYearEnded>
+<in-rbi-rep:ReportingFrequency contextRef="fromto_20181001_20190331" >HalfYearly</in-rbi-rep:ReportingFrequency>
+<in-rbi-rep:DateOfReport contextRef="asof_20190331" >2019-04-06</in-rbi-rep:DateOfReport>
+<in-rbi-rep:ValidationStatus contextRef="fromto_20181001_20190331" >Validated</in-rbi-rep:ValidationStatus>
+<in-rbi-rep:ReportStatus contextRef="fromto_20181001_20190331" >Audited</in-rbi-rep:ReportStatus>
+<in-rbi-rep:DateOfAudit contextRef="asof_20190331" >2019-04-05</in-rbi-rep:DateOfAudit>
+<in-rbi-rep:ReturnVersion contextRef="fromto_20181001_20190331" >V1.4</in-rbi-rep:ReturnVersion>
+<in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20190331" >2018-10-01</in-rbi-rep:ReportingPeriodStartDate>
+<in-rbi-rep:PaidUpShareCapital contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-3" >1178000</in-rbi-rep:PaidUpShareCapital>
+<in-rbi-rep:ReservesSurplus contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >146400000</in-rbi-rep:ReservesSurplus>
+<in-rbi-rep:MinotitiesInterest contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >48500000</in-rbi-rep:MinotitiesInterest>
+<in-rbi-rep:AggregateDeposits contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >99500000</in-rbi-rep:AggregateDeposits>
+<in-rbi-rep:AggregateBorrowings contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >103500000</in-rbi-rep:AggregateBorrowings>
+<in-rbi-rep:OtherLiabilitiesIncludingProvisions contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >231500000</in-rbi-rep:OtherLiabilitiesIncludingProvisions>
+<in-rbi-rep:CapitalAndLiabilities contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-3" >630578000</in-rbi-rep:CapitalAndLiabilities>
+<in-rbi-rep:CashAndBalancesWithReserveBankOfIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >18600000</in-rbi-rep:CashAndBalancesWithReserveBankOfIndia>
+<in-rbi-rep:BalancesWithBanksAndMoneyAtCallAndShortNotice contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >19300000</in-rbi-rep:BalancesWithBanksAndMoneyAtCallAndShortNotice>
+<in-rbi-rep:Investments contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >24900000</in-rbi-rep:Investments>
+<in-rbi-rep:LoansAdvances contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >24600000</in-rbi-rep:LoansAdvances>
+<in-rbi-rep:FixedAssetsNet contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >298000000</in-rbi-rep:FixedAssetsNet>
+<in-rbi-rep:OtherAssets contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >88500000</in-rbi-rep:OtherAssets>
+<in-rbi-rep:GoodwillOnConsolidation contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-3" >1378000</in-rbi-rep:GoodwillOnConsolidation>
+<in-rbi-rep:DebitBalanceOfProfitAndLossAccount contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >155300000</in-rbi-rep:DebitBalanceOfProfitAndLossAccount>
+<in-rbi-rep:Assets contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-3" >630578000</in-rbi-rep:Assets>
+<in-rbi-rep:ContingentLiabilities contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >93500000</in-rbi-rep:ContingentLiabilities>
+<in-rbi-rep:BillsForCollection contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >50000000</in-rbi-rep:BillsForCollection>
+<in-rbi-rep:InterestEarned contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >516000000</in-rbi-rep:InterestEarned>
+<in-rbi-rep:OtherIncome contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >1455700000</in-rbi-rep:OtherIncome>
+<in-rbi-rep:Income contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >1971700000</in-rbi-rep:Income>
+<in-rbi-rep:InterestExpended contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >532000000</in-rbi-rep:InterestExpended>
+<in-rbi-rep:OperatingExpenses contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >2690500000</in-rbi-rep:OperatingExpenses>
+<in-rbi-rep:ProvisionsAndContingencies contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >10000000</in-rbi-rep:ProvisionsAndContingencies>
+<in-rbi-rep:Expenditure contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >3232500000</in-rbi-rep:Expenditure>
+<in-rbi-rep:ShareOfEarningsLossInAssociates contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >12000000</in-rbi-rep:ShareOfEarningsLossInAssociates>
+<in-rbi-rep:ConsolidatedNetProfitLossForTheYearBeforeDeductingMinoritiesInterest contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >13000000</in-rbi-rep:ConsolidatedNetProfitLossForTheYearBeforeDeductingMinoritiesInterest>
+<in-rbi-rep:MinoritiesInterest contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >14000000</in-rbi-rep:MinoritiesInterest>
+<in-rbi-rep:NetProfitLossAfterTax contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >13500000</in-rbi-rep:NetProfitLossAfterTax>
+<in-rbi-rep:BroughtForwardConsolidatedProfitLossAttributableToTheGroup contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >49500000</in-rbi-rep:BroughtForwardConsolidatedProfitLossAttributableToTheGroup>
+<in-rbi-rep:TransferToStatutoryReserves contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >15000000</in-rbi-rep:TransferToStatutoryReserves>
+<in-rbi-rep:TransferToOtherReserves contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >15500000</in-rbi-rep:TransferToOtherReserves>
+<in-rbi-rep:TransferToGovernmentOrProposedDividend contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >16000000</in-rbi-rep:TransferToGovernmentOrProposedDividend>
+<in-rbi-rep:BalanceCarriedOverToBalanceSheet contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >16500000</in-rbi-rep:BalanceCarriedOverToBalanceSheet>
+<in-rbi-rep:Appropriations contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >63000000</in-rbi-rep:Appropriations>
+<in-rbi-rep:BasicEarningPerShare contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >17000000</in-rbi-rep:BasicEarningPerShare>
+<in-rbi-rep:DilutedEarningPerShare contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >17500000</in-rbi-rep:DilutedEarningPerShare>
+<in-rbi-rep:AmountOfAuthorisedCapital contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >66500000000</in-rbi-rep:AmountOfAuthorisedCapital>
+<in-rbi-rep:NumberOfSharesOfIssuedCapital contextRef="asof_20190331_ConsolidatedMember" unitRef="share" decimals="INF" >500000</in-rbi-rep:NumberOfSharesOfIssuedCapital>
+<in-rbi-rep:AmountOfIssuedCapital contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-3" >8428000</in-rbi-rep:AmountOfIssuedCapital>
+<in-rbi-rep:NumberOfSharesOfIssuedCapital contextRef="asof_20190331_ConsolidatedMember_DYUY" unitRef="share" decimals="INF" >150000</in-rbi-rep:NumberOfSharesOfIssuedCapital>
+<in-rbi-rep:AmountOfEachShareOfIssuedCapital contextRef="asof_20190331_ConsolidatedMember_DYUY" unitRef="INRPerShare" decimals="2" >15.01</in-rbi-rep:AmountOfEachShareOfIssuedCapital>
+<in-rbi-rep:AmountOfIssuedCapital contextRef="asof_20190331_ConsolidatedMember_DYUY" unitRef="INR" decimals="-3" >2252000</in-rbi-rep:AmountOfIssuedCapital>
+<in-rbi-rep:NumberOfSharesOfIssuedCapital contextRef="asof_20190331_ConsolidatedMember_YUKYCUY" unitRef="share" decimals="INF" >160000</in-rbi-rep:NumberOfSharesOfIssuedCapital>
+<in-rbi-rep:AmountOfEachShareOfIssuedCapital contextRef="asof_20190331_ConsolidatedMember_YUKYCUY" unitRef="INRPerShare" decimals="2" >16.01</in-rbi-rep:AmountOfEachShareOfIssuedCapital>
+<in-rbi-rep:AmountOfIssuedCapital contextRef="asof_20190331_ConsolidatedMember_YUKYCUY" unitRef="INR" decimals="-3" >2562000</in-rbi-rep:AmountOfIssuedCapital>
+<in-rbi-rep:NumberOfSharesOfIssuedCapital contextRef="asof_20190331_ConsolidatedMember_VKJILOI" unitRef="share" decimals="INF" >190000</in-rbi-rep:NumberOfSharesOfIssuedCapital>
+<in-rbi-rep:AmountOfEachShareOfIssuedCapital contextRef="asof_20190331_ConsolidatedMember_VKJILOI" unitRef="INRPerShare" decimals="2" >19.02</in-rbi-rep:AmountOfEachShareOfIssuedCapital>
+<in-rbi-rep:AmountOfIssuedCapital contextRef="asof_20190331_ConsolidatedMember_VKJILOI" unitRef="INR" decimals="-3" >3614000</in-rbi-rep:AmountOfIssuedCapital>
+<in-rbi-rep:NumberOfSharesOfSubscribedCapital contextRef="asof_20190331_ConsolidatedMember" unitRef="share" decimals="INF" >155000</in-rbi-rep:NumberOfSharesOfSubscribedCapital>
+<in-rbi-rep:AmountOfSubscribedCapital contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-3" >2333000</in-rbi-rep:AmountOfSubscribedCapital>
+<in-rbi-rep:NumberOfSharesOfSubscribedCapital contextRef="asof_20190331_ConsolidatedMember_IOIOIIP" unitRef="share" decimals="INF" >155000</in-rbi-rep:NumberOfSharesOfSubscribedCapital>
+<in-rbi-rep:AmountOfEachShareOfSubscribedCapital contextRef="asof_20190331_ConsolidatedMember_IOIOIIP" unitRef="INRPerShare" decimals="2" >15.05</in-rbi-rep:AmountOfEachShareOfSubscribedCapital>
+<in-rbi-rep:AmountOfSubscribedCapital contextRef="asof_20190331_ConsolidatedMember_IOIOIIP" unitRef="INR" decimals="-3" >2333000</in-rbi-rep:AmountOfSubscribedCapital>
+<in-rbi-rep:NumberOfSharesOfCalledUpCapital contextRef="asof_20190331_ConsolidatedMember" unitRef="share" decimals="INF" >170000</in-rbi-rep:NumberOfSharesOfCalledUpCapital>
+<in-rbi-rep:AmountOfCalledUpCapital contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-3" >2899000</in-rbi-rep:AmountOfCalledUpCapital>
+<in-rbi-rep:NumberOfSharesOfCalledUpCapital contextRef="asof_20190331_ConsolidatedMember_UYUIUY" unitRef="share" decimals="INF" >170000</in-rbi-rep:NumberOfSharesOfCalledUpCapital>
+<in-rbi-rep:AmountOfEachShareOfCalledUpCapital contextRef="asof_20190331_ConsolidatedMember_UYUIUY" unitRef="INRPerShare" decimals="2" >17.05</in-rbi-rep:AmountOfEachShareOfCalledUpCapital>
+<in-rbi-rep:AmountOfCalledUpCapital contextRef="asof_20190331_ConsolidatedMember_UYUIUY" unitRef="INR" decimals="-3" >2899000</in-rbi-rep:AmountOfCalledUpCapital>
+<in-rbi-rep:NumberOfSharesForCallsUnpaid contextRef="asof_20190331_ConsolidatedMember" unitRef="share" decimals="INF" >190000</in-rbi-rep:NumberOfSharesForCallsUnpaid>
+<in-rbi-rep:AmountOfCallsUnpaid contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-3" >3621000</in-rbi-rep:AmountOfCallsUnpaid>
+<in-rbi-rep:NumberOfSharesForCallsUnpaid contextRef="asof_20190331_ConsolidatedMember_IUIUVOI" unitRef="share" decimals="INF" >190000</in-rbi-rep:NumberOfSharesForCallsUnpaid>
+<in-rbi-rep:AmountOfEachShareForCallsUnpaid contextRef="asof_20190331_ConsolidatedMember_IUIUVOI" unitRef="INRPerShare" decimals="2" >19.06</in-rbi-rep:AmountOfEachShareForCallsUnpaid>
+<in-rbi-rep:AmountOfCallsUnpaid contextRef="asof_20190331_ConsolidatedMember_IUIUVOI" unitRef="INR" decimals="-3" >3621000</in-rbi-rep:AmountOfCallsUnpaid>
+<in-rbi-rep:NumberOfSharesForfeited contextRef="asof_20190331_ConsolidatedMember" unitRef="share" decimals="INF" >5000</in-rbi-rep:NumberOfSharesForfeited>
+<in-rbi-rep:AmountOfForfeitedShares contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >1900000</in-rbi-rep:AmountOfForfeitedShares>
+<in-rbi-rep:NumberOfSharesForfeited contextRef="asof_20190331_ConsolidatedMember_TYTXU" unitRef="share" decimals="INF" >5000</in-rbi-rep:NumberOfSharesForfeited>
+<in-rbi-rep:AmountOfForfeitedShares contextRef="asof_20190331_ConsolidatedMember_TYTXU" unitRef="INR" decimals="-5" >1900000</in-rbi-rep:AmountOfForfeitedShares>
+<in-rbi-rep:StatutoryReserves contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >20000000</in-rbi-rep:StatutoryReserves>
+<in-rbi-rep:CapitalReserves contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >20500000</in-rbi-rep:CapitalReserves>
+<in-rbi-rep:CapitalReserveOnConsolidation contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >20600000</in-rbi-rep:CapitalReserveOnConsolidation>
+<in-rbi-rep:SharePremiumAccount contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >20800000</in-rbi-rep:SharePremiumAccount>
+<in-rbi-rep:DetailOfOtherReserves contextRef="fromto_20181001_20190331" >TTWRTWT</in-rbi-rep:DetailOfOtherReserves>
+<in-rbi-rep:OtherReserves contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >21000000</in-rbi-rep:OtherReserves>
+<in-rbi-rep:RevenueAndOtherReserves contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >21500000</in-rbi-rep:RevenueAndOtherReserves>
+<in-rbi-rep:ProfitLossAccount contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >22000000</in-rbi-rep:ProfitLossAccount>
+<in-rbi-rep:MinorityInterestAtDateOnWhichParentSubsidiaryRelationshipCameIntoExistence contextRef="asof_20190331" unitRef="INR" decimals="-5" >24000000</in-rbi-rep:MinorityInterestAtDateOnWhichParentSubsidiaryRelationshipCameIntoExistence>
+<in-rbi-rep:SubsequentIncreaseDecreaseInMinorityInterest contextRef="fromto_20181001_20190331" unitRef="INR" decimals="-5" >24500000</in-rbi-rep:SubsequentIncreaseDecreaseInMinorityInterest>
+<in-rbi-rep:MinotitiesInterest contextRef="asof_20190331" unitRef="INR" decimals="-5" >48500000</in-rbi-rep:MinotitiesInterest>
+<in-rbi-rep:DemandDeposits contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >33500000</in-rbi-rep:DemandDeposits>
+<in-rbi-rep:DemandDepositsFromBanks contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >12500000</in-rbi-rep:DemandDepositsFromBanks>
+<in-rbi-rep:DemandDepositsFromOthers contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >21000000</in-rbi-rep:DemandDepositsFromOthers>
+<in-rbi-rep:SavingsBankDeposits contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >21500000</in-rbi-rep:SavingsBankDeposits>
+<in-rbi-rep:TermDeposits contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >44500000</in-rbi-rep:TermDeposits>
+<in-rbi-rep:TermDepositsFromBanks contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >22000000</in-rbi-rep:TermDepositsFromBanks>
+<in-rbi-rep:TermDepositsFromOthers contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >22500000</in-rbi-rep:TermDepositsFromOthers>
+<in-rbi-rep:DepositsOfBranchesInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >26000000</in-rbi-rep:DepositsOfBranchesInIndia>
+<in-rbi-rep:DepositsOfBranchesOutsideIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >73500000</in-rbi-rep:DepositsOfBranchesOutsideIndia>
+<in-rbi-rep:BorrowingsBanksInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >76500000</in-rbi-rep:BorrowingsBanksInIndia>
+<in-rbi-rep:BorrowingsReserveBankOfIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >25000000</in-rbi-rep:BorrowingsReserveBankOfIndia>
+<in-rbi-rep:BorrowingsOtherCommercialBanks contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >25500000</in-rbi-rep:BorrowingsOtherCommercialBanks>
+<in-rbi-rep:BorrowingsOtherInstitutionsAndAgencies contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >26000000</in-rbi-rep:BorrowingsOtherInstitutionsAndAgencies>
+<in-rbi-rep:BorrowingsBanksOutsideIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >27000000</in-rbi-rep:BorrowingsBanksOutsideIndia>
+<in-rbi-rep:SecuredBorrowings contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >29000000</in-rbi-rep:SecuredBorrowings>
+<in-rbi-rep:BillsPayable contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >5500000</in-rbi-rep:BillsPayable>
+<in-rbi-rep:InterOfficeAdjustmentsLiabilities contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >55000000</in-rbi-rep:InterOfficeAdjustmentsLiabilities>
+<in-rbi-rep:InteresTAccruedLiabilities contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >56000000</in-rbi-rep:InteresTAccruedLiabilities>
+<in-rbi-rep:DeferredTaxLiabilities contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >57000000</in-rbi-rep:DeferredTaxLiabilities>
+<in-rbi-rep:OtherLiabilitiesProvisions contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >58000000</in-rbi-rep:OtherLiabilitiesProvisions>
+<in-rbi-rep:CashInHand contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >6000000</in-rbi-rep:CashInHand>
+<in-rbi-rep:BalancesWithReserveBankOfIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >12600000</in-rbi-rep:BalancesWithReserveBankOfIndia>
+<in-rbi-rep:BalancesWithReserveBankOfIndiaInCurrentAccount contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >6200000</in-rbi-rep:BalancesWithReserveBankOfIndiaInCurrentAccount>
+<in-rbi-rep:BalancesWithReserveBankOfIndiaInOtherAccounts contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >6400000</in-rbi-rep:BalancesWithReserveBankOfIndiaInOtherAccounts>
+<in-rbi-rep:BalancesWithBanksAndMoneyAtCallAndShortNoticeInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >10600000</in-rbi-rep:BalancesWithBanksAndMoneyAtCallAndShortNoticeInIndia>
+<in-rbi-rep:BalancesWithBanksInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >5300000</in-rbi-rep:BalancesWithBanksInIndia>
+<in-rbi-rep:BalancesWithBanksInCurrentAccountsInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >2500000</in-rbi-rep:BalancesWithBanksInCurrentAccountsInIndia>
+<in-rbi-rep:BalancesWithBanksOtherDepositAccountsInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >2800000</in-rbi-rep:BalancesWithBanksOtherDepositAccountsInIndia>
+<in-rbi-rep:MoneyAtCallShortNoticeInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >5300000</in-rbi-rep:MoneyAtCallShortNoticeInIndia>
+<in-rbi-rep:MoneyAtCallShortNoticeInIndiaWithBanks contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >2600000</in-rbi-rep:MoneyAtCallShortNoticeInIndiaWithBanks>
+<in-rbi-rep:MoneyAtCallShortNoticeInIndiaOtherInstitutions contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >2700000</in-rbi-rep:MoneyAtCallShortNoticeInIndiaOtherInstitutions>
+<in-rbi-rep:BalancesWithBanksAndMoneyAtCallAndShortNoticeOutsideIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >8700000</in-rbi-rep:BalancesWithBanksAndMoneyAtCallAndShortNoticeOutsideIndia>
+<in-rbi-rep:BalancesWithBanksCurrentAccountsOutsideIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >2800000</in-rbi-rep:BalancesWithBanksCurrentAccountsOutsideIndia>
+<in-rbi-rep:BalancesWithBanksOtherDepositAccountsOutsideIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >2900000</in-rbi-rep:BalancesWithBanksOtherDepositAccountsOutsideIndia>
+<in-rbi-rep:MoneyAtCallShortNoticeOutsideIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >3000000</in-rbi-rep:MoneyAtCallShortNoticeOutsideIndia>
+<in-rbi-rep:InvestmentsInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >21000000</in-rbi-rep:InvestmentsInIndia>
+<in-rbi-rep:InvestmentsGovernmentSecuritiesInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >1000000</in-rbi-rep:InvestmentsGovernmentSecuritiesInIndia>
+<in-rbi-rep:InvestmentsOtherApprovedSecuritiesInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >2000000</in-rbi-rep:InvestmentsOtherApprovedSecuritiesInIndia>
+<in-rbi-rep:InvestmentSharesInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >3000000</in-rbi-rep:InvestmentSharesInIndia>
+<in-rbi-rep:InvestmentDebenturesBondsInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >4000000</in-rbi-rep:InvestmentDebenturesBondsInIndia>
+<in-rbi-rep:InvestmentsAssociatesInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >5000000</in-rbi-rep:InvestmentsAssociatesInIndia>
+<in-rbi-rep:DetailOfOtherInvestmentsInIndia contextRef="fromto_20181001_20190331" >RWRHWR</in-rbi-rep:DetailOfOtherInvestmentsInIndia>
+<in-rbi-rep:OtherInvestmentsInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >6000000</in-rbi-rep:OtherInvestmentsInIndia>
+<in-rbi-rep:InvestmentsOutsideIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >3900000</in-rbi-rep:InvestmentsOutsideIndia>
+<in-rbi-rep:InvestmentsGovernmentSecuritiesOutsideIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >1200000</in-rbi-rep:InvestmentsGovernmentSecuritiesOutsideIndia>
+<in-rbi-rep:InvestmentsAssociatesOutsideIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >1300000</in-rbi-rep:InvestmentsAssociatesOutsideIndia>
+<in-rbi-rep:DetailOfOtherInvestmentsOutsideIndia contextRef="fromto_20181001_20190331" >HATAN</in-rbi-rep:DetailOfOtherInvestmentsOutsideIndia>
+<in-rbi-rep:OtherInvestmentsOutsideIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >1400000</in-rbi-rep:OtherInvestmentsOutsideIndia>
+<in-rbi-rep:GrossInvestmentsInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >115000000</in-rbi-rep:GrossInvestmentsInIndia>
+<in-rbi-rep:AggregateProvisionsForDepriciationInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >112500000</in-rbi-rep:AggregateProvisionsForDepriciationInIndia>
+<in-rbi-rep:NetInvestmentsInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >2500000</in-rbi-rep:NetInvestmentsInIndia>
+<in-rbi-rep:GrossInvestmentsOutsideIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >119000000</in-rbi-rep:GrossInvestmentsOutsideIndia>
+<in-rbi-rep:AggregateProvisionsForDepriciationOutsideIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >115500000</in-rbi-rep:AggregateProvisionsForDepriciationOutsideIndia>
+<in-rbi-rep:NetInvestmentsOutsideIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >3500000</in-rbi-rep:NetInvestmentsOutsideIndia>
+<in-rbi-rep:Advances contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >337500000</in-rbi-rep:Advances>
+<in-rbi-rep:BillsPurchasedDiscounted contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >112000000</in-rbi-rep:BillsPurchasedDiscounted>
+<in-rbi-rep:CashCreditsOverdraftsLoansRepayableOnDemand contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >112500000</in-rbi-rep:CashCreditsOverdraftsLoansRepayableOnDemand>
+<in-rbi-rep:TermLoans contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >113000000</in-rbi-rep:TermLoans>
+<in-rbi-rep:LoansAdvancesII contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >310000000</in-rbi-rep:LoansAdvancesII>
+<in-rbi-rep:AdvancesSecuredByTangibleAssets contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >101500000</in-rbi-rep:AdvancesSecuredByTangibleAssets>
+<in-rbi-rep:AdvancesCoveredByBankGovernmentGuarantees contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >104000000</in-rbi-rep:AdvancesCoveredByBankGovernmentGuarantees>
+<in-rbi-rep:UnsecuredAdvances contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >104500000</in-rbi-rep:UnsecuredAdvances>
+<in-rbi-rep:AdvancesInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >5000000</in-rbi-rep:AdvancesInIndia>
+<in-rbi-rep:PrioritySectorAdvancesInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >1100000</in-rbi-rep:PrioritySectorAdvancesInIndia>
+<in-rbi-rep:PublicSectorAdvancesInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >1200000</in-rbi-rep:PublicSectorAdvancesInIndia>
+<in-rbi-rep:BankAdvancesInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >1300000</in-rbi-rep:BankAdvancesInIndia>
+<in-rbi-rep:OtherAdvancesInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >1400000</in-rbi-rep:OtherAdvancesInIndia>
+<in-rbi-rep:AdvancesOutsideIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >19600000</in-rbi-rep:AdvancesOutsideIndia>
+<in-rbi-rep:LoansAdvancesDueBanksOutsideIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >1500000</in-rbi-rep:LoansAdvancesDueBanksOutsideIndia>
+<in-rbi-rep:AdvancesOutsideIndiaDueFromOthers contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >18100000</in-rbi-rep:AdvancesOutsideIndiaDueFromOthers>
+<in-rbi-rep:AdvancesOutsideIndiaDueFromOtherBillsPurchasedDiscounted contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >1600000</in-rbi-rep:AdvancesOutsideIndiaDueFromOtherBillsPurchasedDiscounted>
+<in-rbi-rep:AdvancesOutsideIndiaSyndicatedLoans contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >14700000</in-rbi-rep:AdvancesOutsideIndiaSyndicatedLoans>
+<in-rbi-rep:AdvancesOutsideIndiaOthers contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >1800000</in-rbi-rep:AdvancesOutsideIndiaOthers>
+<in-rbi-rep:FixedAssetsAtCost contextRef="asof_20190331_PremisesMember_ConsolidatedMember" unitRef="INR" decimals="-5" >-31500000</in-rbi-rep:FixedAssetsAtCost>
+<in-rbi-rep:FixedAssetsAtCost contextRef="asof_20180331_PremisesMember_ConsolidatedMember" unitRef="INR" decimals="-5" >120000000</in-rbi-rep:FixedAssetsAtCost>
+<in-rbi-rep:AdditionsToFixedAssetsAtCost contextRef="fromto_20181001_20190331_PremisesMember_ConsolidatedMember" unitRef="INR" decimals="-5" >100000000</in-rbi-rep:AdditionsToFixedAssetsAtCost>
+<in-rbi-rep:DeductionsToFixedAssetsAtCost contextRef="fromto_20181001_20190331_PremisesMember_ConsolidatedMember" unitRef="INR" decimals="-5" >125500000</in-rbi-rep:DeductionsToFixedAssetsAtCost>
+<in-rbi-rep:DepreciationOnFixedAssetsAtCost contextRef="asof_20190331_PremisesMember_ConsolidatedMember" unitRef="INR" decimals="-5" >126000000</in-rbi-rep:DepreciationOnFixedAssetsAtCost>
+<in-rbi-rep:FixedAssetsAtCost contextRef="asof_20190331_PremisesUnderConstructionMember_ConsolidatedMember" unitRef="INR" decimals="-5" >126500000</in-rbi-rep:FixedAssetsAtCost>
+<in-rbi-rep:FixedAssetsAtCost contextRef="asof_20190331_OtherFixedAssetsIncludingFurnitureAndFixturesMember_ConsolidatedMember" unitRef="INR" decimals="-5" >137500000</in-rbi-rep:FixedAssetsAtCost>
+<in-rbi-rep:FixedAssetsAtCost contextRef="asof_20180930_OtherFixedAssetsIncludingFurnitureAndFixturesMember_ConsolidatedMember" unitRef="INR" decimals="-5" >50000000</in-rbi-rep:FixedAssetsAtCost>
+<in-rbi-rep:AdditionsToFixedAssetsAtCost contextRef="fromto_20181001_20190331_OtherFixedAssetsIncludingFurnitureAndFixturesMember_ConsolidatedMember" unitRef="INR" decimals="-5" >127500000</in-rbi-rep:AdditionsToFixedAssetsAtCost>
+<in-rbi-rep:DeductionsToFixedAssetsAtCost contextRef="fromto_20181001_20190331_OtherFixedAssetsIncludingFurnitureAndFixturesMember_ConsolidatedMember" unitRef="INR" decimals="-5" >28000000</in-rbi-rep:DeductionsToFixedAssetsAtCost>
+<in-rbi-rep:DepreciationOnFixedAssetsAtCost contextRef="asof_20190331_OtherFixedAssetsIncludingFurnitureAndFixturesMember_ConsolidatedMember" unitRef="INR" decimals="-5" >12000000</in-rbi-rep:DepreciationOnFixedAssetsAtCost>
+<in-rbi-rep:FixedAssetsAtCost contextRef="asof_20190331_LeasedAssetsMember_ConsolidatedMember" unitRef="INR" decimals="-5" >15500000</in-rbi-rep:FixedAssetsAtCost>
+<in-rbi-rep:FixedAssetsAtCost contextRef="asof_20180930_LeasedAssetsMember_ConsolidatedMember" unitRef="INR" decimals="-5" >150000000</in-rbi-rep:FixedAssetsAtCost>
+<in-rbi-rep:AdditionsToFixedAssetsAtCost contextRef="fromto_20181001_20190331_LeasedAssetsMember_ConsolidatedMember" unitRef="INR" decimals="-5" >131000000</in-rbi-rep:AdditionsToFixedAssetsAtCost>
+<in-rbi-rep:DeductionsToFixedAssetsAtCost contextRef="fromto_20181001_20190331_LeasedAssetsMember_ConsolidatedMember" unitRef="INR" decimals="-5" >132500000</in-rbi-rep:DeductionsToFixedAssetsAtCost>
+<in-rbi-rep:DepreciationOnFixedAssetsAtCost contextRef="asof_20190331_LeasedAssetsMember_ConsolidatedMember" unitRef="INR" decimals="-5" >133000000</in-rbi-rep:DepreciationOnFixedAssetsAtCost>
+<in-rbi-rep:FixedAssets contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >248000000</in-rbi-rep:FixedAssets>
+<in-rbi-rep:FixedAssetsAtCost contextRef="asof_20190331_CapitalWorkInProgressLeasedAssetsNetOfProvisionsMember_ConsolidatedMember" unitRef="INR" decimals="-5" >50000000</in-rbi-rep:FixedAssetsAtCost>
+<in-rbi-rep:InterBranchAdjustmentAccountNet contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >10000000</in-rbi-rep:InterBranchAdjustmentAccountNet>
+<in-rbi-rep:InterestAccruedAssets contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >21000000</in-rbi-rep:InterestAccruedAssets>
+<in-rbi-rep:AdvanceTaxPaidAndTDSNet contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >10500000</in-rbi-rep:AdvanceTaxPaidAndTDSNet>
+<in-rbi-rep:StationeryAndStamps contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >11000000</in-rbi-rep:StationeryAndStamps>
+<in-rbi-rep:NonBankingAssetsAcquiredInSatisfactionOfClaims contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >11500000</in-rbi-rep:NonBankingAssetsAcquiredInSatisfactionOfClaims>
+<in-rbi-rep:DeferredTaxAssets contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >12000000</in-rbi-rep:DeferredTaxAssets>
+<in-rbi-rep:RemainingAssets contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >12500000</in-rbi-rep:RemainingAssets>
+<in-rbi-rep:ClaimsAgainstBankNotAcknowledgedAsDebts contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >13000000</in-rbi-rep:ClaimsAgainstBankNotAcknowledgedAsDebts>
+<in-rbi-rep:LiabiliitesForPartlyPaidInvestments contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >14000000</in-rbi-rep:LiabiliitesForPartlyPaidInvestments>
+<in-rbi-rep:LiabilityOnAccountOfOutstandingForwardExchangeContracts contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >15000000</in-rbi-rep:LiabilityOnAccountOfOutstandingForwardExchangeContracts>
+<in-rbi-rep:GuaranteesGivenOnBehalfOfConstituents contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >24500000</in-rbi-rep:GuaranteesGivenOnBehalfOfConstituents>
+<in-rbi-rep:GuaranteesGivenOnBehalfOfConstituentsInIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >12000000</in-rbi-rep:GuaranteesGivenOnBehalfOfConstituentsInIndia>
+<in-rbi-rep:GuaranteesGivenOnBehalfOfConstituentsOutsideIndia contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >12500000</in-rbi-rep:GuaranteesGivenOnBehalfOfConstituentsOutsideIndia>
+<in-rbi-rep:AcceptancesEndorsementsAndOtherObligations contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >13000000</in-rbi-rep:AcceptancesEndorsementsAndOtherObligations>
+<in-rbi-rep:OtherContingentLiabilities contextRef="asof_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >14000000</in-rbi-rep:OtherContingentLiabilities>
+<in-rbi-rep:InterestOrDiscountOnAdvanceOrBills contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >150000000</in-rbi-rep:InterestOrDiscountOnAdvanceOrBills>
+<in-rbi-rep:IncomeOnInvestments contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >152000000</in-rbi-rep:IncomeOnInvestments>
+<in-rbi-rep:InterestOnBalancesWithReserveBankOfIndiaAndOtherInterBankFunds contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >154000000</in-rbi-rep:InterestOnBalancesWithReserveBankOfIndiaAndOtherInterBankFunds>
+<in-rbi-rep:OtherInterestDividendEarned contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >60000000</in-rbi-rep:OtherInterestDividendEarned>
+<in-rbi-rep:CommissionExchangeAndBrokerage contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >15500000</in-rbi-rep:CommissionExchangeAndBrokerage>
+<in-rbi-rep:ProfitOnSaleOfLandBuildingsAndOtherAssetsNet contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >156000000</in-rbi-rep:ProfitOnSaleOfLandBuildingsAndOtherAssetsNet>
+<in-rbi-rep:ProfitOnExchangeTransactionsNet contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >157000000</in-rbi-rep:ProfitOnExchangeTransactionsNet>
+<in-rbi-rep:ProfitOnSaleOfInvestmentsNet contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >158000000</in-rbi-rep:ProfitOnSaleOfInvestmentsNet>
+<in-rbi-rep:ProfitOnRevaluationOfInvestmentsNet contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >159000000</in-rbi-rep:ProfitOnRevaluationOfInvestmentsNet>
+<in-rbi-rep:LeaseFinanceIncome contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >160000000</in-rbi-rep:LeaseFinanceIncome>
+<in-rbi-rep:LeaseManagementFee contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >161200000</in-rbi-rep:LeaseManagementFee>
+<in-rbi-rep:OverdueCharges contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >162000000</in-rbi-rep:OverdueCharges>
+<in-rbi-rep:InterestOnLeaseRentReceivables contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >163000000</in-rbi-rep:InterestOnLeaseRentReceivables>
+<in-rbi-rep:MiscellaneousIncome contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >164000000</in-rbi-rep:MiscellaneousIncome>
+<in-rbi-rep:InterestExpendedOnDeposits contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >175000000</in-rbi-rep:InterestExpendedOnDeposits>
+<in-rbi-rep:InterestExpendedOnReserveBankOfIndiaOrInterBankBorrowings contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >178000000</in-rbi-rep:InterestExpendedOnReserveBankOfIndiaOrInterBankBorrowings>
+<in-rbi-rep:OtherInterestExpended contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >179000000</in-rbi-rep:OtherInterestExpended>
+<in-rbi-rep:PaymentsToAndProvisionsForEmployees contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >181000000</in-rbi-rep:PaymentsToAndProvisionsForEmployees>
+<in-rbi-rep:ExpensesOnRentTaxesAndLighting contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >182000000</in-rbi-rep:ExpensesOnRentTaxesAndLighting>
+<in-rbi-rep:ExpensesOnPrintingAndStationery contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >183000000</in-rbi-rep:ExpensesOnPrintingAndStationery>
+<in-rbi-rep:ExpensesOnAdvertisementAndPublicity contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >184000000</in-rbi-rep:ExpensesOnAdvertisementAndPublicity>
+<in-rbi-rep:DepreciationOnBanksPropertyOtherThanLeasedAssets contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >185000000</in-rbi-rep:DepreciationOnBanksPropertyOtherThanLeasedAssets>
+<in-rbi-rep:DepreciationOnLeasedAssets contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >186000000</in-rbi-rep:DepreciationOnLeasedAssets>
+<in-rbi-rep:DirectorsFeesAllowancesAndExpenses contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >187000000</in-rbi-rep:DirectorsFeesAllowancesAndExpenses>
+<in-rbi-rep:AuditorsFeesAndExpensesIncludingBranchAuditors contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >188000000</in-rbi-rep:AuditorsFeesAndExpensesIncludingBranchAuditors>
+<in-rbi-rep:LawCharges contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >189000000</in-rbi-rep:LawCharges>
+<in-rbi-rep:ExpensesOnPostagesTelegramsTelephones contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >190000000</in-rbi-rep:ExpensesOnPostagesTelegramsTelephones>
+<in-rbi-rep:ExpensesOnRepairsAndMaintenance contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >191000000</in-rbi-rep:ExpensesOnRepairsAndMaintenance>
+<in-rbi-rep:InsuranceExpense contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >192000000</in-rbi-rep:InsuranceExpense>
+<in-rbi-rep:AmortisationOfGoodwill contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >192500000</in-rbi-rep:AmortisationOfGoodwill>
+<in-rbi-rep:AllOtherOperatingExpenses contextRef="fromto_20181001_20190331_ConsolidatedMember" unitRef="INR" decimals="-5" >260000000</in-rbi-rep:AllOtherOperatingExpenses>
+<in-rbi-rep:TypeOfBusinessOfSubsidiariesAssociatesJointVentures contextRef="fromto_20181001_20190331_MadhyaBharathGraminBank" >Banking</in-rbi-rep:TypeOfBusinessOfSubsidiariesAssociatesJointVentures>
+<in-rbi-rep:RelationOfSubsidiariesAssociatesJointVenturesWithParentCompany contextRef="fromto_20181001_20190331_MadhyaBharathGraminBank" >webhwer</in-rbi-rep:RelationOfSubsidiariesAssociatesJointVenturesWithParentCompany>
+<in-rbi-rep:NameOfRegulator contextRef="fromto_20181001_20190331_MadhyaBharathGraminBank" >Department of Banking Supervision</in-rbi-rep:NameOfRegulator>
+<in-rbi-rep:PercentageOfShareholdingOfSubsidiariesAssociatesJointVenturesInParentCompany contextRef="fromto_20181001_20190331_MadhyaBharathGraminBank" unitRef="PURE" decimals="1" >0.1</in-rbi-rep:PercentageOfShareholdingOfSubsidiariesAssociatesJointVenturesInParentCompany>
+<in-rbi-rep:RemarksForSubsidiariesAssociatesJointVenturesRelationWithParentCompany contextRef="fromto_20181001_20190331_MadhyaBharathGraminBank" >zhdalvbruriovuruiuvowu;r yrywrurwur  riwur rur rwurw vvr8348 23v34k23v432 4o32 3u423u4u 2vop34234u uriowourwur</in-rbi-rep:RemarksForSubsidiariesAssociatesJointVenturesRelationWithParentCompany>
+<in-rbi-rep:TypeOfBusinessOfSubsidiariesAssociatesJointVentures contextRef="fromto_20181001_20190331_CommercialBankofIndiaLLCMoscow" >Banking</in-rbi-rep:TypeOfBusinessOfSubsidiariesAssociatesJointVentures>
+<in-rbi-rep:RelationOfSubsidiariesAssociatesJointVenturesWithParentCompany contextRef="fromto_20181001_20190331_CommercialBankofIndiaLLCMoscow" >wbhtwtwn</in-rbi-rep:RelationOfSubsidiariesAssociatesJointVenturesWithParentCompany>
+<in-rbi-rep:NameOfRegulator contextRef="fromto_20181001_20190331_CommercialBankofIndiaLLCMoscow" >The Cenral Bank of Russian Federation</in-rbi-rep:NameOfRegulator>
+<in-rbi-rep:PercentageOfShareholdingOfSubsidiariesAssociatesJointVenturesInParentCompany contextRef="fromto_20181001_20190331_CommercialBankofIndiaLLCMoscow" unitRef="PURE" decimals="2" >0.12</in-rbi-rep:PercentageOfShareholdingOfSubsidiariesAssociatesJointVenturesInParentCompany>
+<in-rbi-rep:RemarksForSubsidiariesAssociatesJointVenturesRelationWithParentCompany contextRef="fromto_20181001_20190331_CommercialBankofIndiaLLCMoscow" >tbtwe</in-rbi-rep:RemarksForSubsidiariesAssociatesJointVenturesRelationWithParentCompany>
+<in-rbi-rep:TypeOfBusinessOfSubsidiariesAssociatesJointVentures contextRef="fromto_20181001_20190331_UtkalGramyaBank" >Banking</in-rbi-rep:TypeOfBusinessOfSubsidiariesAssociatesJointVentures>
+<in-rbi-rep:RelationOfSubsidiariesAssociatesJointVenturesWithParentCompany contextRef="fromto_20181001_20190331_UtkalGramyaBank" >twttnt</in-rbi-rep:RelationOfSubsidiariesAssociatesJointVenturesWithParentCompany>
+<in-rbi-rep:NameOfRegulator contextRef="fromto_20181001_20190331_UtkalGramyaBank" >Department of Banking Supervision</in-rbi-rep:NameOfRegulator>
+<in-rbi-rep:PercentageOfShareholdingOfSubsidiariesAssociatesJointVenturesInParentCompany contextRef="fromto_20181001_20190331_UtkalGramyaBank" unitRef="PURE" decimals="2" >0.05</in-rbi-rep:PercentageOfShareholdingOfSubsidiariesAssociatesJointVenturesInParentCompany>
+<in-rbi-rep:RemarksForSubsidiariesAssociatesJointVenturesRelationWithParentCompany contextRef="fromto_20181001_20190331_UtkalGramyaBank" >werwe</in-rbi-rep:RemarksForSubsidiariesAssociatesJointVenturesRelationWithParentCompany>
+<in-rbi-rep:TypeOfBusinessOfSubsidiariesAssociatesJointVentures contextRef="fromto_20181001_20190331_UttaranchalGraminBank" >Banking</in-rbi-rep:TypeOfBusinessOfSubsidiariesAssociatesJointVentures>
+<in-rbi-rep:RelationOfSubsidiariesAssociatesJointVenturesWithParentCompany contextRef="fromto_20181001_20190331_UttaranchalGraminBank" >sdtw</in-rbi-rep:RelationOfSubsidiariesAssociatesJointVenturesWithParentCompany>
+<in-rbi-rep:NameOfRegulator contextRef="fromto_20181001_20190331_UttaranchalGraminBank" >Department of Banking Supervision</in-rbi-rep:NameOfRegulator>
+<in-rbi-rep:PercentageOfShareholdingOfSubsidiariesAssociatesJointVenturesInParentCompany contextRef="fromto_20181001_20190331_UttaranchalGraminBank" unitRef="PURE" decimals="2" >0.08</in-rbi-rep:PercentageOfShareholdingOfSubsidiariesAssociatesJointVenturesInParentCompany>
+<in-rbi-rep:RemarksForSubsidiariesAssociatesJointVenturesRelationWithParentCompany contextRef="fromto_20181001_20190331_UttaranchalGraminBank" >dfusio</in-rbi-rep:RemarksForSubsidiariesAssociatesJointVenturesRelationWithParentCompany>
+<in-rbi-rep:TypeOfBusinessOfSubsidiariesAssociatesJointVentures contextRef="fromto_20181001_20190331_NAGALANDRB" >Banking</in-rbi-rep:TypeOfBusinessOfSubsidiariesAssociatesJointVentures>
+<in-rbi-rep:RelationOfSubsidiariesAssociatesJointVenturesWithParentCompany contextRef="fromto_20181001_20190331_NAGALANDRB" >wtr</in-rbi-rep:RelationOfSubsidiariesAssociatesJointVenturesWithParentCompany>
+<in-rbi-rep:NameOfRegulator contextRef="fromto_20181001_20190331_NAGALANDRB" >Department of Banking Supervision</in-rbi-rep:NameOfRegulator>
+<in-rbi-rep:PercentageOfShareholdingOfSubsidiariesAssociatesJointVenturesInParentCompany contextRef="fromto_20181001_20190331_NAGALANDRB" unitRef="PURE" decimals="3" >0.095</in-rbi-rep:PercentageOfShareholdingOfSubsidiariesAssociatesJointVenturesInParentCompany>
+<in-rbi-rep:RemarksForSubsidiariesAssociatesJointVenturesRelationWithParentCompany contextRef="fromto_20181001_20190331_NAGALANDRB" >cvhxcv</in-rbi-rep:RemarksForSubsidiariesAssociatesJointVenturesRelationWithParentCompany>
+<in-rbi-rep:TypeOfBusinessOfSubsidiariesAssociatesJointVentures contextRef="fromto_20181001_20190331_DISCOUNTANDFINANCEHOUSEOFINDIALTD" >All Others</in-rbi-rep:TypeOfBusinessOfSubsidiariesAssociatesJointVentures>
+<in-rbi-rep:RelationOfSubsidiariesAssociatesJointVenturesWithParentCompany contextRef="fromto_20181001_20190331_DISCOUNTANDFINANCEHOUSEOFINDIALTD" >etetertr</in-rbi-rep:RelationOfSubsidiariesAssociatesJointVenturesWithParentCompany>
+<in-rbi-rep:NameOfRegulator contextRef="fromto_20181001_20190331_DISCOUNTANDFINANCEHOUSEOFINDIALTD" >Department of Banking Supervision</in-rbi-rep:NameOfRegulator>
+<in-rbi-rep:PercentageOfShareholdingOfSubsidiariesAssociatesJointVenturesInParentCompany contextRef="fromto_20181001_20190331_DISCOUNTANDFINANCEHOUSEOFINDIALTD" unitRef="PURE" decimals="3" >0.105</in-rbi-rep:PercentageOfShareholdingOfSubsidiariesAssociatesJointVenturesInParentCompany>
+<in-rbi-rep:RemarksForSubsidiariesAssociatesJointVenturesRelationWithParentCompany contextRef="fromto_20181001_20190331_DISCOUNTANDFINANCEHOUSEOFINDIALTD" >wethjkewht</in-rbi-rep:RemarksForSubsidiariesAssociatesJointVenturesRelationWithParentCompany>
+<in-rbi-rep:TypeOfBusinessOfSubsidiariesAssociatesJointVentures contextRef="fromto_20181001_20190331_MIZORAMRB" >Banking</in-rbi-rep:TypeOfBusinessOfSubsidiariesAssociatesJointVentures>
+<in-rbi-rep:RelationOfSubsidiariesAssociatesJointVenturesWithParentCompany contextRef="fromto_20181001_20190331_MIZORAMRB" >nrtr35</in-rbi-rep:RelationOfSubsidiariesAssociatesJointVenturesWithParentCompany>
+<in-rbi-rep:NameOfRegulator contextRef="fromto_20181001_20190331_MIZORAMRB" >Department of Banking Supervision</in-rbi-rep:NameOfRegulator>
+<in-rbi-rep:PercentageOfShareholdingOfSubsidiariesAssociatesJointVenturesInParentCompany contextRef="fromto_20181001_20190331_MIZORAMRB" unitRef="PURE" decimals="4" >0.0989</in-rbi-rep:PercentageOfShareholdingOfSubsidiariesAssociatesJointVenturesInParentCompany>
+<in-rbi-rep:RemarksForSubsidiariesAssociatesJointVenturesRelationWithParentCompany contextRef="fromto_20181001_20190331_MIZORAMRB" >erthrtkjhrtjk</in-rbi-rep:RemarksForSubsidiariesAssociatesJointVenturesRelationWithParentCompany>
+<in-rbi-rep:Assets contextRef="asof_20190331" unitRef="INR" decimals="-3" >630578000</in-rbi-rep:Assets>
+<in-rbi-rep:CapitalAndReserves contextRef="asof_20190331" unitRef="INR" decimals="-5" >185000000</in-rbi-rep:CapitalAndReserves>
+<in-rbi-rep:RegulatoryCapitalActualOrNotionalAfterNettingForConsolidation contextRef="asof_20190331" unitRef="INR" decimals="-5" >160000000</in-rbi-rep:RegulatoryCapitalActualOrNotionalAfterNettingForConsolidation>
+<in-rbi-rep:RiskWeightedAssetsActualOrNotional contextRef="asof_20190331" unitRef="INR" decimals="-5" >165000000</in-rbi-rep:RiskWeightedAssetsActualOrNotional>
+<in-rbi-rep:CapitalAdequacyRatioPercentActualOrNotional contextRef="fromto_20181001_20190331" unitRef="PURE" decimals="2" >1.69</in-rbi-rep:CapitalAdequacyRatioPercentActualOrNotional>
+<in-rbi-rep:AggregateDeposits contextRef="asof_20190331" unitRef="INR" decimals="-5" >99500000</in-rbi-rep:AggregateDeposits>
+<in-rbi-rep:AggregateBorrowings contextRef="asof_20190331" unitRef="INR" decimals="-5" >103500000</in-rbi-rep:AggregateBorrowings>
+<in-rbi-rep:GrossAdvances contextRef="asof_20190331" unitRef="INR" decimals="-5" >55000000</in-rbi-rep:GrossAdvances>
+<in-rbi-rep:GrossNonPerformingAssets contextRef="asof_20190331" unitRef="INR" decimals="-5" >59000000</in-rbi-rep:GrossNonPerformingAssets>
+<in-rbi-rep:Investments contextRef="asof_20190331_BookValueMember" unitRef="INR" decimals="-5" >69000000</in-rbi-rep:Investments>
+<in-rbi-rep:Investments contextRef="asof_20190331_MarketValueMember" unitRef="INR" decimals="-5" >79000000</in-rbi-rep:Investments>
+<in-rbi-rep:NonPerformingInvestments contextRef="asof_20190331" unitRef="INR" decimals="-5" >88000000</in-rbi-rep:NonPerformingInvestments>
+<in-rbi-rep:NonPerformingAssetsIncludingNonPerformingAdvancesAndInvestments contextRef="asof_20190331" unitRef="INR" decimals="-5" >147000000</in-rbi-rep:NonPerformingAssetsIncludingNonPerformingAdvancesAndInvestments>
+<in-rbi-rep:ProvisionsHeldForNonPerformingAdvances contextRef="asof_20190331" unitRef="INR" decimals="-5" >12000000</in-rbi-rep:ProvisionsHeldForNonPerformingAdvances>
+<in-rbi-rep:ProvisionsHeldForNonPerformingInvestments contextRef="asof_20190331" unitRef="INR" decimals="-5" >12500000</in-rbi-rep:ProvisionsHeldForNonPerformingInvestments>
+<in-rbi-rep:ProfitLossBeforeTax contextRef="fromto_20181001_20190331" unitRef="INR" decimals="-5" >13000000</in-rbi-rep:ProfitLossBeforeTax>
+<in-rbi-rep:NetProfitLossAfterTax contextRef="fromto_20181001_20190331" unitRef="INR" decimals="-5" >13500000</in-rbi-rep:NetProfitLossAfterTax>
+<in-rbi-rep:ReturnOnAssets contextRef="fromto_20181001_20190331" unitRef="PURE" decimals="2" >0.14</in-rbi-rep:ReturnOnAssets>
+<in-rbi-rep:ReturnOnEquity contextRef="fromto_20181001_20190331" unitRef="PURE" decimals="2" >0.12</in-rbi-rep:ReturnOnEquity>
+<in-rbi-rep:ContingentLiabilities contextRef="asof_20190331" unitRef="INR" decimals="-5" >93500000</in-rbi-rep:ContingentLiabilities>
+<in-rbi-rep:DividendPaid contextRef="asof_20190331" unitRef="INR" decimals="-5" >99000000</in-rbi-rep:DividendPaid>
+<in-rbi-rep:SectorCode contextRef="fromto_20181001_20190331_AABFZ0549C_ZYDUSHOSPITALLLP_1104_GrowingofSugarCaneandBeet" >11-Public-state government</in-rbi-rep:SectorCode>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_FundedMember_IndividualBorrowerMember_AABFZ0549C_ZYDUSHOSPITALLLP_1104_GrowingofSugarCaneandBeet" unitRef="INR" decimals="-5" >125000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_NonFundedMember_IndividualBorrowerMember_AABFZ0549C_ZYDUSHOSPITALLLP_1104_GrowingofSugarCaneandBeet" unitRef="INR" decimals="-5" >20000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposuresAsPercentToCapitalFunds contextRef="fromto_20181001_20190331_IndividualBorrowerMember_AABFZ0549C_ZYDUSHOSPITALLLP_1104_GrowingofSugarCaneandBeet" unitRef="PURE" decimals="2" >0.01</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
+<in-rbi-rep:SectorCode contextRef="fromto_20181001_20190331_AABFY2121M_YSHIVANNABROTHERS_1106_GrowingofJuteEtc" >30-Private</in-rbi-rep:SectorCode>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_FundedMember_IndividualBorrowerMember_AABFY2121M_YSHIVANNABROTHERS_1106_GrowingofJuteEtc" unitRef="INR" decimals="-5" >130000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_NonFundedMember_IndividualBorrowerMember_AABFY2121M_YSHIVANNABROTHERS_1106_GrowingofJuteEtc" unitRef="INR" decimals="-5" >21000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposuresAsPercentToCapitalFunds contextRef="fromto_20181001_20190331_IndividualBorrowerMember_AABFY2121M_YSHIVANNABROTHERS_1106_GrowingofJuteEtc" unitRef="PURE" decimals="2" >0.02</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_FundedMember_IndividualBorrowerMember" unitRef="INR" decimals="-5" >255000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_NonFundedMember_IndividualBorrowerMember" unitRef="INR" decimals="-5" >41000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposuresAsPercentToCapitalFunds contextRef="fromto_20181001_20190331_IndividualBorrowerMember" unitRef="PURE" decimals="2" >0.03</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_FundedMember_BorrowerGroupMember_BWQR_M565" unitRef="INR" decimals="-5" >10000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_NonFundedMember_BorrowerGroupMember_BWQR_M565" unitRef="INR" decimals="-5" >2000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposuresAsPercentToCapitalFunds contextRef="fromto_20181001_20190331_BorrowerGroupMember_BWQR_M565" unitRef="PURE" decimals="3" >0.015</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_FundedMember_BorrowerGroupMember_BWQR" unitRef="INR" decimals="-5" >10000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_NonFundedMember_BorrowerGroupMember_BWQR" unitRef="INR" decimals="-5" >2000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposuresAsPercentToCapitalFunds contextRef="fromto_20181001_20190331_BorrowerGroupMember_BWQR" unitRef="PURE" decimals="3" >0.015</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_FundedMember_BorrowerGroupMember_QBRQRBQ_R5TRWM" unitRef="INR" decimals="-5" >135000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_NonFundedMember_BorrowerGroupMember_QBRQRBQ_R5TRWM" unitRef="INR" decimals="-5" >4000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposuresAsPercentToCapitalFunds contextRef="fromto_20181001_20190331_BorrowerGroupMember_QBRQRBQ_R5TRWM" unitRef="PURE" decimals="3" >0.015</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_FundedMember_BorrowerGroupMember_QBRQRBQ" unitRef="INR" decimals="-5" >135000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_NonFundedMember_BorrowerGroupMember_QBRQRBQ" unitRef="INR" decimals="-5" >4000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposuresAsPercentToCapitalFunds contextRef="fromto_20181001_20190331_BorrowerGroupMember_QBRQRBQ" unitRef="PURE" decimals="3" >0.015</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_FundedMember_BorrowerGroupMember_BQR34_TTEM" unitRef="INR" decimals="-5" >125000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_NonFundedMember_BorrowerGroupMember_BQR34_TTEM" unitRef="INR" decimals="-5" >3000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposuresAsPercentToCapitalFunds contextRef="fromto_20181001_20190331_BorrowerGroupMember_BQR34_TTEM" unitRef="PURE" decimals="4" >0.0125</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_FundedMember_BorrowerGroupMember_BQR34" unitRef="INR" decimals="-5" >125000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_NonFundedMember_BorrowerGroupMember_BQR34" unitRef="INR" decimals="-5" >3000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposuresAsPercentToCapitalFunds contextRef="fromto_20181001_20190331_BorrowerGroupMember_BQR34" unitRef="PURE" decimals="4" >0.0125</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_FundedMember_BorrowerGroupMember_B45756_MWW" unitRef="INR" decimals="-5" >20000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_NonFundedMember_BorrowerGroupMember_B45756_MWW" unitRef="INR" decimals="-5" >3000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposuresAsPercentToCapitalFunds contextRef="fromto_20181001_20190331_BorrowerGroupMember_B45756_MWW" unitRef="PURE" decimals="4" >0.0125</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_FundedMember_BorrowerGroupMember_B45756" unitRef="INR" decimals="-5" >20000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_NonFundedMember_BorrowerGroupMember_B45756" unitRef="INR" decimals="-5" >3000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposuresAsPercentToCapitalFunds contextRef="fromto_20181001_20190331_BorrowerGroupMember_B45756" unitRef="PURE" decimals="4" >0.0125</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_FundedMember_BorrowerGroupMember" unitRef="INR" decimals="-5" >290000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposureAmount contextRef="asof_20190331_NonFundedMember_BorrowerGroupMember" unitRef="INR" decimals="-5" >12000000</in-rbi-rep:ExposureAmount>
+<in-rbi-rep:ExposuresAsPercentToCapitalFunds contextRef="fromto_20181001_20190331_BorrowerGroupMember" unitRef="PURE" decimals="3" >0.055</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
+<in-rbi-rep:OvernightOpenPositionLimitForConsolidatedBank contextRef="asof_20190331" unitRef="INR" decimals="-5" >125000000</in-rbi-rep:OvernightOpenPositionLimitForConsolidatedBank>
+<in-rbi-rep:LoansAndAdvancesToCapitalMarket contextRef="asof_20190331" unitRef="INR" decimals="-5" >1385000000</in-rbi-rep:LoansAndAdvancesToCapitalMarket>
+<in-rbi-rep:LoansAndAdvancesToCapitalMarket contextRef="asof_20190331_FundedMember" unitRef="INR" decimals="-5" >1250000000</in-rbi-rep:LoansAndAdvancesToCapitalMarket>
+<in-rbi-rep:LoansAndAdvancesToCapitalMarket contextRef="asof_20190331_NonFundedMember" unitRef="INR" decimals="-5" >135000000</in-rbi-rep:LoansAndAdvancesToCapitalMarket>
+<in-rbi-rep:EquityInvestmentInCapitalMarket contextRef="asof_20190331" unitRef="INR" decimals="-5" >175000000</in-rbi-rep:EquityInvestmentInCapitalMarket>
+<in-rbi-rep:AggregateCapitalMarketExposure contextRef="asof_20190331" unitRef="INR" decimals="-5" >1560000000</in-rbi-rep:AggregateCapitalMarketExposure>
+<in-rbi-rep:AggregateOnBalanceSheetAssetsOfConsolidatedBankExcludingIntangibleAssetsAndAccumulatedLosses contextRef="asof_20190331" unitRef="INR" decimals="-5" >189000000</in-rbi-rep:AggregateOnBalanceSheetAssetsOfConsolidatedBankExcludingIntangibleAssetsAndAccumulatedLosses>
+<in-rbi-rep:AggregateCapitalMarketExposureAsAPercentageOfAggregateOnBalanceSheetAssetsOfConsolidatedBankExcludingIntangibleAssetsAndAccumulatedLosses contextRef="fromto_20181001_20190331" unitRef="PURE" decimals="3" >8.254</in-rbi-rep:AggregateCapitalMarketExposureAsAPercentageOfAggregateOnBalanceSheetAssetsOfConsolidatedBankExcludingIntangibleAssetsAndAccumulatedLosses>
+<in-rbi-rep:NetWorth contextRef="asof_20190331" unitRef="INR" decimals="-5" >2200000000</in-rbi-rep:NetWorth>
+<in-rbi-rep:EquityInvestmentInCapitalMarketAsAPercentageOfNetWorth contextRef="fromto_20181001_20190331" unitRef="PURE" decimals="4" >0.0795</in-rbi-rep:EquityInvestmentInCapitalMarketAsAPercentageOfNetWorth>
+<in-rbi-rep:OutstandingUnsecuredGuarantees contextRef="asof_20190331" unitRef="INR" decimals="-5" >2400000000</in-rbi-rep:OutstandingUnsecuredGuarantees>
+<in-rbi-rep:OutstandingUnsecuredAdvances contextRef="asof_20190331" unitRef="INR" decimals="-5" >210000000</in-rbi-rep:OutstandingUnsecuredAdvances>
+<in-rbi-rep:OutstandingAdvances contextRef="asof_20190331" unitRef="INR" decimals="-5" >230000000</in-rbi-rep:OutstandingAdvances>
+<in-rbi-rep:BanksOutstandingUnsecuredGuaranteesPlusTotalOutstandingUnsecuredAdvancesAsAPercentageOfTotalOutstandingAdvances contextRef="asof_20190331" unitRef="PURE" decimals="4" >11.3478</in-rbi-rep:BanksOutstandingUnsecuredGuaranteesPlusTotalOutstandingUnsecuredAdvancesAsAPercentageOfTotalOutstandingAdvances>
+<in-rbi-rep:CashFundsForConsolidatedBankEligibleForCRRPurpose contextRef="asof_20190331" unitRef="INR" decimals="-5" >2600000000</in-rbi-rep:CashFundsForConsolidatedBankEligibleForCRRPurpose>
+<in-rbi-rep:LiquidAssetsForConsolidatedBankEligibleForSLRPurpose contextRef="asof_20190331" unitRef="INR" decimals="-5" >275000000</in-rbi-rep:LiquidAssetsForConsolidatedBankEligibleForSLRPurpose>
+<in-rbi-rep:CRRPercentForConsolidatedBank contextRef="fromto_20181001_20190331" unitRef="PURE" decimals="2" >0.12</in-rbi-rep:CRRPercentForConsolidatedBank>
+<in-rbi-rep:SLRPercentForConsolidatedBank contextRef="fromto_20181001_20190331" unitRef="PURE" decimals="1" >0.1</in-rbi-rep:SLRPercentForConsolidatedBank>
+
+</xbrli:xbrl>
