@@ -46,8 +46,8 @@ public class CPRUtil {
     public static final String FROMTOWITHBORROWERGROUPANDGROUPCOMPANY = "fromtowithborrowergroupandgroupcompany";
     public static final String ASOFFUNDEDWITHBORROWERGROUPANDGROUPCOMPANY = "asoffundedwithborrowergroupandgroupcompany";
     public static final String ASOFNONFUNDEDWITHBORROWERGROUPANDGROUPCOMPANY = "asofnonfundedwithborrowergroupandgroupcompany";
-    public static final String CURRENCY = null;
-    public static final String PERCENTAGE = null;
+    public static final String CURRENCY = "currency";
+    public static final String PERCENTAGE = "percentage";
 
     public static XMLGregorianCalendar toXMLGeo(String dateInStr){
         DateFormat format = new SimpleDateFormat("yyyy-MM-dd");

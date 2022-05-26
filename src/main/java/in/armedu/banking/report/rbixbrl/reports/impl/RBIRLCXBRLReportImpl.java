@@ -10,16 +10,11 @@ import javax.xml.namespace.QName;
 
 import org.xbrl._2003.instance.Context;
 import org.xbrl._2003.instance.ObjectFactory;
-import org.xbrl._2003.instance.Unit;
 import org.xbrl._2003.instance.Xbrl;
 import org.xbrl._2003.xlink.SimpleType;
 
-import in.armedu.banking.report.rbixbrl.model.ros.ROSGeneralInfoData;
-import in.armedu.banking.report.rbixbrl.model.GeneralData;
-import in.armedu.banking.report.rbixbrl.model.ItemData;
 import in.armedu.banking.report.rbixbrl.model.ReportData;
 import in.armedu.banking.report.rbixbrl.model.rlc.RLCReportData;
-import in.armedu.banking.report.rbixbrl.model.ros.ROSData;
 import in.armedu.banking.report.rbixbrl.part.BodyIntf;
 import in.armedu.banking.report.rbixbrl.part.ContextIntf;
 import in.armedu.banking.report.rbixbrl.part.UnitIntf;
@@ -27,10 +22,6 @@ import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCBody;
 import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCGeneralBody;
 import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCGeneralContext;
 import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCUnit;
-import in.armedu.banking.report.rbixbrl.part.ros.impl.ROSBody;
-import in.armedu.banking.report.rbixbrl.part.ros.impl.ROSGeneralBody;
-import in.armedu.banking.report.rbixbrl.part.ros.impl.ROSGeneralContext;
-import in.armedu.banking.report.rbixbrl.part.ros.impl.ROSUnit;
 import in.armedu.banking.report.rbixbrl.reports.XBRLReportIntf;
 import in.armedu.banking.report.rbixbrl.util.DefaultNamespacePrefixMapper;
 import lombok.Setter;
