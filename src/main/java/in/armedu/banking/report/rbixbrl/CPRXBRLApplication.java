@@ -138,7 +138,6 @@ public class CPRXBRLApplication {
         ib12.setIndustryName("Schduled Air Transport");
         ib12.setSector("10-Public-central government");
         individualBorrower.getIndividualBorrowers().add(ib12);
-        cprItemData.setLargeExposuresToIndividualBorrower(individualBorrower);
 
         IndividualBorrower ib13 = new IndividualBorrower();
         ib13.setPanNumber("AAAAH0087M");
@@ -147,7 +146,6 @@ public class CPRXBRLApplication {
         ib13.setIndustryName("Industrial Development Boards/Corporation etc");
         ib13.setSector("10-Public-central government");
         individualBorrower.getIndividualBorrowers().add(ib13);
-        cprItemData.setLargeExposuresToIndividualBorrower(individualBorrower);
 
         IndividualBorrower ib14 = new IndividualBorrower();
         ib14.setPanNumber("AAACG1642F");
@@ -156,7 +154,6 @@ public class CPRXBRLApplication {
         ib14.setIndustryName("Diamond Cutting and Polishing");
         ib14.setSector("30-Private");
         individualBorrower.getIndividualBorrowers().add(ib14);
-        cprItemData.setLargeExposuresToIndividualBorrower(individualBorrower);
 
         IndividualBorrower ib15 = new IndividualBorrower();
         ib15.setPanNumber("AAACI1681G");
@@ -165,7 +162,6 @@ public class CPRXBRLApplication {
         ib15.setIndustryName("Mfg of Refined Pretroleum Products");
         ib15.setSector("30-Private");
         individualBorrower.getIndividualBorrowers().add(ib15);
-        cprItemData.setLargeExposuresToIndividualBorrower(individualBorrower);
 
         IndividualBorrower ib16 = new IndividualBorrower();
         ib16.setPanNumber("AAACP3682N");
@@ -174,7 +170,6 @@ public class CPRXBRLApplication {
         ib16.setIndustryName("NBFCs- in the housing sector");
         ib16.setSector("30-Private");
         individualBorrower.getIndividualBorrowers().add(ib16);
-        cprItemData.setLargeExposuresToIndividualBorrower(individualBorrower);
 
         IndividualBorrower ib17 = new IndividualBorrower();
         ib17.setPanNumber("AACCM5763B");
@@ -183,7 +178,6 @@ public class CPRXBRLApplication {
         ib17.setIndustryName("Construction/Maintenance of Roads");
         ib17.setSector("11-Public-state government");
         individualBorrower.getIndividualBorrowers().add(ib17);
-        cprItemData.setLargeExposuresToIndividualBorrower(individualBorrower);
 
         IndividualBorrower ib18 = new IndividualBorrower();
         ib18.setPanNumber("AAAAN4629F");
@@ -192,7 +186,6 @@ public class CPRXBRLApplication {
         ib18.setIndustryName("Storage & Market yards");
         ib18.setSector("20-Co-operative");
         individualBorrower.getIndividualBorrowers().add(ib18);
-        cprItemData.setLargeExposuresToIndividualBorrower(individualBorrower);
 
         IndividualBorrower ib19 = new IndividualBorrower();
         ib19.setPanNumber("AAALU0121E");
@@ -201,7 +194,6 @@ public class CPRXBRLApplication {
         ib19.setIndustryName("Construction/Maintenance of Roads");
         ib19.setSector("11-Public-state government");
         individualBorrower.getIndividualBorrowers().add(ib19);
-        cprItemData.setLargeExposuresToIndividualBorrower(individualBorrower);
 
         IndividualBorrower ib20 = new IndividualBorrower();
         ib20.setPanNumber("AACCA1963B");
