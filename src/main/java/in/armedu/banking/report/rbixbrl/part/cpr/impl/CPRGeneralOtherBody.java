@@ -68,19 +68,20 @@ public class CPRGeneralOtherBody implements BodyInterface {
         loansAndAdvancesToCapitalMarketTypeAdvances.setValue(new BigDecimal(cprGeneralData.getCapitalMarketExposure().getAdvances()));
         JAXBElement<MonetaryItemType> loansAndAdvancesToCapitalMarketAdvances = rbiObjectFactory.createLoansAndAdvancesToCapitalMarket(loansAndAdvancesToCapitalMarketTypeAdvances);
         generalItems.add(loansAndAdvancesToCapitalMarketAdvances);
+
         MonetaryItemType loansAndAdvancesToCapitalMarketTypeFund = new MonetaryItemType();
         loansAndAdvancesToCapitalMarketTypeFund.setContextRef(asOfFund);
         loansAndAdvancesToCapitalMarketTypeFund.setUnitRef(currency);
         loansAndAdvancesToCapitalMarketTypeFund.setDecimals(String.format("%s", CommonFns.getDecimals(cprGeneralData.getCapitalMarketExposure().getFundBased())));
         loansAndAdvancesToCapitalMarketTypeFund.setValue(new BigDecimal(cprGeneralData.getCapitalMarketExposure().getFundBased()));
-        JAXBElement<MonetaryItemType> loansAndAdvancesToCapitalMarketFund = rbiObjectFactory.createLoansAndAdvancesToCapitalMarket(loansAndAdvancesToCapitalMarketTypeAdvances);
+        JAXBElement<MonetaryItemType> loansAndAdvancesToCapitalMarketFund = rbiObjectFactory.createLoansAndAdvancesToCapitalMarket(loansAndAdvancesToCapitalMarketTypeFund);
         generalItems.add(loansAndAdvancesToCapitalMarketFund);
         MonetaryItemType loansAndAdvancesToCapitalMarketTypeNonFund = new MonetaryItemType();
         loansAndAdvancesToCapitalMarketTypeNonFund.setContextRef(asOfNonFund);
         loansAndAdvancesToCapitalMarketTypeNonFund.setUnitRef(currency);
         loansAndAdvancesToCapitalMarketTypeNonFund.setDecimals(String.format("%s", CommonFns.getDecimals(cprGeneralData.getCapitalMarketExposure().getNonFundBased())));
         loansAndAdvancesToCapitalMarketTypeNonFund.setValue(new BigDecimal(cprGeneralData.getCapitalMarketExposure().getNonFundBased()));
-        JAXBElement<MonetaryItemType> loansAndAdvancesToCapitalMarketNonFund = rbiObjectFactory.createLoansAndAdvancesToCapitalMarket(loansAndAdvancesToCapitalMarketTypeAdvances);
+        JAXBElement<MonetaryItemType> loansAndAdvancesToCapitalMarketNonFund = rbiObjectFactory.createLoansAndAdvancesToCapitalMarket(loansAndAdvancesToCapitalMarketTypeNonFund);
         generalItems.add(loansAndAdvancesToCapitalMarketNonFund);
         // create EquityInvestmentInCapitalMarket
         MonetaryItemType equityInvestmentInCapitalMarketType = new MonetaryItemType();

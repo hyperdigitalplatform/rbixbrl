@@ -7,7 +7,6 @@ import java.util.Map;
 
 import javax.xml.bind.JAXBElement;
 
-import org.rbi.in.xbrl._2012_05_07.in_rbi_rep_types.SectorItemType;
 import org.xbrl._2003.instance.Context;
 import org.xbrl._2003.instance.MonetaryItemType;
 import org.xbrl._2003.instance.Unit;
@@ -17,7 +16,6 @@ import in.armedu.banking.report.rbixbrl.model.GeneralData;
 import in.armedu.banking.report.rbixbrl.model.ItemData;
 import in.armedu.banking.report.rbixbrl.model.cpr.BorrowerGroup;
 import in.armedu.banking.report.rbixbrl.model.cpr.CPRGeneralData;
-import in.armedu.banking.report.rbixbrl.model.cpr.IndividualBorrower;
 import in.armedu.banking.report.rbixbrl.part.BodyInterface;
 import in.armedu.banking.report.rbixbrl.util.CommonFns;
 
@@ -85,8 +83,8 @@ public class CPRBodyForGroup implements BodyInterface {
         totalExposureAmountTypeForFunded.setUnitRef(currency);
         totalExposureAmountTypeForFunded.setDecimals(String.format("%s", CommonFns.getDecimals(borrowerGroup.getTotalAmountFunded())));
         totalExposureAmountTypeForFunded.setValue(new BigDecimal(borrowerGroup.getTotalAmountFunded()));
-        JAXBElement<MonetaryItemType> exposureAmountForFunded = rbiObjectFactory.createExposureAmount(totalExposureAmountTypeForFunded);
-        bodyItems.add(exposureAmountForFunded);
+        JAXBElement<MonetaryItemType> totalExposureAmountForFunded = rbiObjectFactory.createExposureAmount(totalExposureAmountTypeForFunded);
+        bodyItems.add(totalExposureAmountForFunded);
 
         // create exposureamount for nonfundedmember
         MonetaryItemType totalExposureAmountTypeForNonFunded = new MonetaryItemType();
@@ -94,8 +92,8 @@ public class CPRBodyForGroup implements BodyInterface {
         totalExposureAmountTypeForNonFunded.setUnitRef(currency);
         totalExposureAmountTypeForNonFunded.setDecimals(String.format("%s", CommonFns.getDecimals(borrowerGroup.getTotalAmountNonFunded())));
         totalExposureAmountTypeForNonFunded.setValue(new BigDecimal(borrowerGroup.getTotalAmountNonFunded()));
-        JAXBElement<MonetaryItemType> exposureAmountForNonFunded = rbiObjectFactory.createExposureAmount(totalExposureAmountTypeForNonFunded);
-        bodyItems.add(exposureAmountForNonFunded);
+        JAXBElement<MonetaryItemType> totalExposureAmountForNonFunded = rbiObjectFactory.createExposureAmount(totalExposureAmountTypeForNonFunded);
+        bodyItems.add(totalExposureAmountForNonFunded);
 
         // create ExposuresAsPercentToCapitalFunds 
         PercentItemType totalExposuresAsPercentToCapitalFundsType = new PercentItemType();
@@ -103,8 +101,8 @@ public class CPRBodyForGroup implements BodyInterface {
         totalExposuresAsPercentToCapitalFundsType.setUnitRef(percentage);
         totalExposuresAsPercentToCapitalFundsType.setDecimals(CommonFns.getPrecisions(borrowerGroup.getTotalExposureAsPercToCapitalFunds()));
         totalExposuresAsPercentToCapitalFundsType.setValue(new BigDecimal(borrowerGroup.getTotalExposureAsPercToCapitalFunds()));
-        JAXBElement<PercentItemType>  exposuresAsPercentToCapitalFunds = rbiObjectFactory.createExposuresAsPercentToCapitalFunds(totalExposuresAsPercentToCapitalFundsType);
-        bodyItems.add(exposuresAsPercentToCapitalFunds);
+        JAXBElement<PercentItemType>  totalExposuresAsPercentToCapitalFunds = rbiObjectFactory.createExposuresAsPercentToCapitalFunds(totalExposuresAsPercentToCapitalFundsType);
+        bodyItems.add(totalExposuresAsPercentToCapitalFunds);
 
         return bodyItems;
     }    

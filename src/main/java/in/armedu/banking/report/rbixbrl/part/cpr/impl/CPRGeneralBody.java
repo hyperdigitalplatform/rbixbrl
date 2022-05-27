@@ -104,16 +104,6 @@ public class CPRGeneralBody implements BodyInterface {
         JAXBElement<DateItemType> reportingPeriodStartDate = rbiObjectFactory.createReportingPeriodStartDate(reportingPeriodStartDateValue);
         generalItems.add(reportingPeriodStartDate);
         
-        // TODO add remaining fields that are report level
-        
-        // create Assets
-        MonetaryItemType assetsType = new MonetaryItemType();
-        assetsType.setContextRef(asOfContext);
-        assetsType.setUnitRef(currency);
-        assetsType.setDecimals(String.format("%s", CommonFns.getDecimals(cprGeneralData.getFinancialForConsolidated().getAssets()) )  );
-        assetsType.setValue(new BigDecimal(cprGeneralData.getFinancialForConsolidated().getAssets()));
-        JAXBElement<MonetaryItemType> assets = rbiObjectFactory.createAssets(assetsType);
-        generalItems.add(assets);
         
         return generalItems;
     }

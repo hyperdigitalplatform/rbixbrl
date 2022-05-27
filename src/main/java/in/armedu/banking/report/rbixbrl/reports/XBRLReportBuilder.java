@@ -35,10 +35,10 @@ public class XBRLReportBuilder {
     }
     public XBRLReportIntf buildCPRReport(){
         RBICPRXBRLReportImpl report = new RBICPRXBRLReportImpl();
-        report.setContextIntf(new CPRGeneralContext());
-        report.setUnits(new CPRUnit());
-        report.setGeneralBody(new CPRGeneralBody());
-        report.setBody(new CPRBodyForIndividual());
+        // report.setContextIntf(new CPRGeneralContext());
+        // report.setUnits(new CPRUnit());
+        // report.setGeneralBody(new CPRGeneralBody());
+        // report.setBody(new CPRBodyForIndividual());
         return report;
     }
 }

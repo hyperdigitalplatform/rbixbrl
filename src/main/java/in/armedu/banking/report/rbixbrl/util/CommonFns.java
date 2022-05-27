@@ -15,7 +15,9 @@ public class CommonFns {
 
     public static String getPrecisions(String amount) {
         String[] splits= amount.split("\\.");
-        return String.valueOf(splits[0].length());
+        if(splits.length > 1)
+            return String.valueOf(splits[1].length());
+        return "0";
     }
     
     // public static void main(String[] args) {
