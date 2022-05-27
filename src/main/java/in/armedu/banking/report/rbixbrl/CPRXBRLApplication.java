@@ -30,7 +30,7 @@ public class CPRXBRLApplication {
         genInfoData.setValidationStatus("validated");
         data.setGeneralData(genInfoData);
         CPRItemData cprItemData = new CPRItemData();
-        
+        // changes are done to add amountfunded and amount nonfunded
         LargeExposureToIndividualBorrower individualBorrower = new LargeExposureToIndividualBorrower();
         LargeExposureToBorrowerGroup borrowerGroup = new LargeExposureToBorrowerGroup();
         IndividualBorrower ib = new IndividualBorrower();
