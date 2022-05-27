@@ -43,7 +43,7 @@ public class CPRXBRLApplication {
         
         
         CPRItemData cprItemData = new CPRItemData();
-        
+        // changes are done to add amountfunded and amount nonfunded
         LargeExposureToIndividualBorrower individualBorrower = new LargeExposureToIndividualBorrower();
         LargeExposureToBorrowerGroup borrowerGroup = new LargeExposureToBorrowerGroup();
         IndividualBorrower ib = new IndividualBorrower();
