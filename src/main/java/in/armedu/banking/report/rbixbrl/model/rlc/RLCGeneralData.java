@@ -33,10 +33,11 @@ public class RLCGeneralData extends GeneralData {
     private String currentDate;         //BeginingOfCurrentYear
 
     //Signatory Details
-    private String nameOfSignatory;
-    private String designationOfSignatory;
-    private String authorisedSignatoryMobileNumber;
-    private String authorisedSignatoryLandlineNumber;
-    private String eMailIDOfAuthorisedReportingOfficial;
+    // private String nameOfSignatory;
+    // private String designationOfSignatory;
+    // private String authorisedSignatoryMobileNumber;
+    // private String authorisedSignatoryLandlineNumber;
+    // private String eMailIDOfAuthorisedReportingOfficial;
 
+    private RLCGeneralInfo rlcGeneralInfo;
 }

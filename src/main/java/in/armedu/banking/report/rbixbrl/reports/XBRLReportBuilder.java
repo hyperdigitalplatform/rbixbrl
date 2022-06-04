@@ -26,12 +26,12 @@ public class XBRLReportBuilder {
         return report;
     }
     public XBRLReportIntf buildRLCReport(){
-        RBIRLCXBRLReportImpl report = new RBIRLCXBRLReportImpl();
-        report.setContextIntf(new RLCGeneralContext());
-        report.setRlcUnits(new RLCUnit());
-        report.setRlcGeneralBody(new RLCGeneralBody());
-        report.setRlcBody(new RLCBody());
-        return report;
+         RBIRLCXBRLReportImpl report = new RBIRLCXBRLReportImpl();
+        // report.setContextIntf(new RLCGeneralContext());
+        // report.setRlcUnits(new RLCUnit());
+        // report.setRlcGeneralBody(new RLCGeneralBody());
+        // report.setRlcBody(new RLCBody());
+       return report;
     }
     public XBRLReportIntf buildCPRReport(){
         RBICPRXBRLReportImpl report = new RBICPRXBRLReportImpl();

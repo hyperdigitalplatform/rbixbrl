@@ -34,6 +34,7 @@ public class RLCBorrowerMember{
     private String aggregateCreditExposure;
     private String aggregateCreditExposureAsPercentageOfCapitalFunds;
     private String aggregateInvestmentExposure;
+    private String aggregateExposure;
     private String aggregateExposureAsPercentageOfCapitalFunds;
 
     

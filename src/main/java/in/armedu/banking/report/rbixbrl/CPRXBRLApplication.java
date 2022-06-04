@@ -1,10 +1,18 @@
 package in.armedu.banking.report.rbixbrl;
 
+import java.io.FileWriter;
+import java.io.StringWriter;
+
 import in.armedu.banking.report.rbixbrl.core.ReportGenerationEngine;
 import in.armedu.banking.report.rbixbrl.core.ReportGenerationFactory;
 import in.armedu.banking.report.rbixbrl.core.impl.XBRLReportGenerationEngine;
 import in.armedu.banking.report.rbixbrl.model.cpr.BorrowerGroup;
 import in.armedu.banking.report.rbixbrl.model.cpr.CPRGeneralData;
+import in.armedu.banking.report.rbixbrl.model.cpr.ForexExposure;
+import in.armedu.banking.report.rbixbrl.model.cpr.CapitalMarketExposure;
+import in.armedu.banking.report.rbixbrl.model.cpr.ExposureToUnsecure;
+import in.armedu.banking.report.rbixbrl.model.cpr.CPRGeneralFinancialForConsolidated;
+import in.armedu.banking.report.rbixbrl.model.cpr.CRRAndSLR;
 import in.armedu.banking.report.rbixbrl.model.cpr.CPRItemData;
 import in.armedu.banking.report.rbixbrl.model.cpr.CPRReportData;
 import in.armedu.banking.report.rbixbrl.model.cpr.GroupCompany;
@@ -15,30 +23,35 @@ import in.armedu.banking.report.rbixbrl.model.cpr.LargeExposureToIndividualBorro
 public class CPRXBRLApplication {
     public static void main(String[] args) throws Exception {
         CPRReportData data = new CPRReportData();
-        CPRGeneralData genInfoData = new CPRGeneralData();
-        genInfoData.setBankCode("600");
-        genInfoData.setInstitutionAddress("Punjab National Bank corporate office dwarka");
-        genInfoData.setReportInstitution("Punjab National Bank");
-        genInfoData.setReportingFrequency("HalfYearly");
-        genInfoData.setReturnCode("ROS");
-        genInfoData.setReturnName("Report on Subsidiaries");
-        genInfoData.setReturnVersion("v1.2");
-        genInfoData.setStartDate("2021-04-01");
-        genInfoData.setEndDate("2021-09-30");
-        genInfoData.setDateOfReport("2021-09-30");
-        genInfoData.setReportForTheYearEnded("2018-03-31");
-        genInfoData.setValidationStatus("validated");
-        data.setGeneralData(genInfoData);
+        CPRGeneralData cprGeneralData = new CPRGeneralData();
+        cprGeneralData.setBankCode("600");
+        cprGeneralData.setInstitutionAddress("Punjab National Bank corporate office dwarka");
+        cprGeneralData.setReportInstitution("Punjab National Bank");
+        cprGeneralData.setReportingFrequency("HalfYearly");
+        cprGeneralData.setReturnCode("ROS");
+        cprGeneralData.setReturnName("Report on Subsidiaries");
+        cprGeneralData.setReturnVersion("v1.2");
+        cprGeneralData.setStartDate("2021-04-01");
+        cprGeneralData.setEndDate("2021-09-30");
+        cprGeneralData.setDateOfReport("2021-09-30");
+        cprGeneralData.setReportForTheYearEnded("2018-03-31");
+        cprGeneralData.setValidationStatus("validated");
+        data.setGeneralData(cprGeneralData);
         CPRItemData cprItemData = new CPRItemData();
-        // changes are done to add amountfunded and amount nonfunded
+
+
         LargeExposureToIndividualBorrower individualBorrower = new LargeExposureToIndividualBorrower();
         LargeExposureToBorrowerGroup borrowerGroup = new LargeExposureToBorrowerGroup();
         IndividualBorrower ib = new IndividualBorrower();
+
         ib.setPanNumber("AAACF0365N");
         ib.setBorrowerName("FOOD CORPORATION OF INDIA");
         ib.setIndustryCode("51201");
         ib.setIndustryName("Wholesale Food Procurement");
         ib.setSector("10-Public-central government");
+        ib.setAmountFunded("142500000000");
+        ib.setAmountNonFunded("0");
+        ib.setExposureAsPercToCapitalFunds("0.1586");
         individualBorrower.getIndividualBorrowers().add(ib);
 
         IndividualBorrower ib2 = new IndividualBorrower();
@@ -47,8 +60,10 @@ public class CPRXBRLApplication {
         ib2.setIndustryCode("51401");
         ib2.setIndustryName("Wholesale Cotton");
         ib2.setSector("10-Public-central government");
+        ib2.setAmountFunded("111000000000");
+        ib2.setAmountNonFunded("0");
+        ib2.setExposureAsPercToCapitalFunds("0.1235");
         individualBorrower.getIndividualBorrowers().add(ib2);
-        cprItemData.setLargeExposuresToIndividualBorrower(individualBorrower);
 
         IndividualBorrower ib3 = new IndividualBorrower();
         ib3.setPanNumber("AAACI0681C");
@@ -56,8 +71,10 @@ public class CPRXBRLApplication {
         ib3.setIndustryCode("65929");
         ib3.setIndustryName("NBFCs- general purpose loans");
         ib3.setSector("30-Private");
+        ib3.setAmountFunded("11351185900000");
+        ib3.setAmountNonFunded("0");
+        ib3.setExposureAsPercToCapitalFunds("0.1263");
         individualBorrower.getIndividualBorrowers().add(ib3);
-        cprItemData.setLargeExposuresToIndividualBorrower(individualBorrower);
 
         IndividualBorrower ib4 = new IndividualBorrower();
         ib4.setPanNumber("AAACN0255D");
@@ -65,8 +82,10 @@ public class CPRXBRLApplication {
         ib4.setIndustryCode("40101");
         ib4.setIndustryName("Generation of Electricity");
         ib4.setSector("10-Public-central government");
+        ib4.setAmountFunded("6660213800000");
+        ib4.setAmountNonFunded("0");
+        ib4.setExposureAsPercToCapitalFunds("0.0741");
         individualBorrower.getIndividualBorrowers().add(ib4);
-        cprItemData.setLargeExposuresToIndividualBorrower(individualBorrower);
 
         IndividualBorrower ib5 = new IndividualBorrower();
         ib5.setPanNumber("AAACP1570H");
@@ -74,8 +93,10 @@ public class CPRXBRLApplication {
         ib5.setIndustryCode("65939");
         ib5.setIndustryName("Other Financial Intermediation");
         ib5.setSector("10-Public-central government");
+        ib5.setAmountFunded("5496457800000");
+        ib5.setAmountNonFunded("0");
+        ib5.setExposureAsPercToCapitalFunds("0.0612");
         individualBorrower.getIndividualBorrowers().add(ib5);
-        cprItemData.setLargeExposuresToIndividualBorrower(individualBorrower);
 
         IndividualBorrower ib6 = new IndividualBorrower();
         ib6.setPanNumber("AAACR4512R");
@@ -83,8 +104,10 @@ public class CPRXBRLApplication {
         ib6.setIndustryCode("65911");
         ib6.setIndustryName("Developmental Financial Institutions");
         ib6.setSector("30-Private");
+        ib6.setAmountFunded("4702767800000");
+        ib6.setAmountNonFunded("0");
+        ib6.setExposureAsPercToCapitalFunds("0.0523");
         individualBorrower.getIndividualBorrowers().add(ib6);
-        cprItemData.setLargeExposuresToIndividualBorrower(individualBorrower);
 
         IndividualBorrower ib7 = new IndividualBorrower();
         ib7.setPanNumber("AAACJ4323N");
@@ -92,8 +115,10 @@ public class CPRXBRLApplication {
         ib7.setIndustryCode("27101");
         ib7.setIndustryName("Mfg of Basic Iron and Steel");
         ib7.setSector("30-Private");
+        ib7.setAmountFunded("3289514600000");
+        ib7.setAmountNonFunded("2542496400000");
+        ib7.setExposureAsPercToCapitalFunds("0.0649");
         individualBorrower.getIndividualBorrowers().add(ib7);
-        cprItemData.setLargeExposuresToIndividualBorrower(individualBorrower);
 
         IndividualBorrower ib8 = new IndividualBorrower();
         ib8.setPanNumber("AAACH0997E");
@@ -101,8 +126,10 @@ public class CPRXBRLApplication {
         ib8.setIndustryCode("65923");
         ib8.setIndustryName("NBFCs- in the housing sector");
         ib8.setSector("30-Private");
+        ib8.setAmountFunded("11236435700000");
+        ib8.setAmountNonFunded("100000");
+        ib8.setExposureAsPercToCapitalFunds("0.125");
         individualBorrower.getIndividualBorrowers().add(ib8);
-        cprItemData.setLargeExposuresToIndividualBorrower(individualBorrower);
 
         IndividualBorrower ib9 = new IndividualBorrower();
         ib9.setPanNumber("AAATN1963H");
@@ -110,8 +137,10 @@ public class CPRXBRLApplication {
         ib9.setIndustryCode("45013");
         ib9.setIndustryName("Construction/Maintenance of Roads");
         ib9.setSector("10-Public-central government");
+        ib9.setAmountFunded("10050223400000");
+        ib9.setAmountNonFunded("0");
+        ib9.setExposureAsPercToCapitalFunds("0.1118");
         individualBorrower.getIndividualBorrowers().add(ib9);
-        cprItemData.setLargeExposuresToIndividualBorrower(individualBorrower);
 
         IndividualBorrower ib10 = new IndividualBorrower();
         ib10.setPanNumber("AAACL1799C");
@@ -119,8 +148,10 @@ public class CPRXBRLApplication {
         ib10.setIndustryCode("65923");
         ib10.setIndustryName("NBFCs- in the housing sector");
         ib10.setSector("30-Private");
+        ib10.setAmountFunded("7197063500000");
+        ib10.setAmountNonFunded("0");
+        ib10.setExposureAsPercToCapitalFunds("0.0801");
         individualBorrower.getIndividualBorrowers().add(ib10);
-        cprItemData.setLargeExposuresToIndividualBorrower(individualBorrower);
 
         IndividualBorrower ib11 = new IndividualBorrower();
         ib11.setPanNumber("AAECJ4213B");
@@ -128,8 +159,10 @@ public class CPRXBRLApplication {
         ib11.setIndustryCode("64201");
         ib11.setIndustryName("Telecommunication Services");
         ib11.setSector("30-Private");
+        ib11.setAmountFunded("5530533600000");
+        ib11.setAmountNonFunded("0");
+        ib11.setExposureAsPercToCapitalFunds("0.0615");
         individualBorrower.getIndividualBorrowers().add(ib11);
-        cprItemData.setLargeExposuresToIndividualBorrower(individualBorrower);
 
         IndividualBorrower ib12 = new IndividualBorrower();
         ib12.setPanNumber("AACCN6194P");
@@ -137,6 +170,9 @@ public class CPRXBRLApplication {
         ib12.setIndustryCode("62001");
         ib12.setIndustryName("Schduled Air Transport");
         ib12.setSector("10-Public-central government");
+        ib12.setAmountFunded("5180489300000");
+        ib12.setAmountNonFunded("145000000000");
+        ib12.setExposureAsPercToCapitalFunds("0.0593");
         individualBorrower.getIndividualBorrowers().add(ib12);
 
         IndividualBorrower ib13 = new IndividualBorrower();
@@ -145,6 +181,9 @@ public class CPRXBRLApplication {
         ib13.setIndustryCode("67103");
         ib13.setIndustryName("Industrial Development Boards/Corporation etc");
         ib13.setSector("10-Public-central government");
+        ib13.setAmountFunded("7227719700000");
+        ib13.setAmountNonFunded("2399800000");
+        ib13.setExposureAsPercToCapitalFunds("0.0805");
         individualBorrower.getIndividualBorrowers().add(ib13);
 
         IndividualBorrower ib14 = new IndividualBorrower();
@@ -153,6 +192,9 @@ public class CPRXBRLApplication {
         ib14.setIndustryCode("36902");
         ib14.setIndustryName("Diamond Cutting and Polishing");
         ib14.setSector("30-Private");
+        ib14.setAmountFunded("5064849800000");
+        ib14.setAmountNonFunded("365351300000");
+        ib14.setExposureAsPercToCapitalFunds("0.0604");
         individualBorrower.getIndividualBorrowers().add(ib14);
 
         IndividualBorrower ib15 = new IndividualBorrower();
@@ -161,6 +203,9 @@ public class CPRXBRLApplication {
         ib15.setIndustryCode("23201");
         ib15.setIndustryName("Mfg of Refined Pretroleum Products");
         ib15.setSector("30-Private");
+        ib15.setAmountFunded("9659000000000");
+        ib15.setAmountNonFunded("0");
+        ib15.setExposureAsPercToCapitalFunds("0.1075");
         individualBorrower.getIndividualBorrowers().add(ib15);
 
         IndividualBorrower ib16 = new IndividualBorrower();
@@ -169,6 +214,9 @@ public class CPRXBRLApplication {
         ib16.setIndustryCode("65923");
         ib16.setIndustryName("NBFCs- in the housing sector");
         ib16.setSector("30-Private");
+        ib16.setAmountFunded("4488296800000");
+        ib16.setAmountNonFunded("21280000000");
+        ib16.setExposureAsPercToCapitalFunds("0.0502");
         individualBorrower.getIndividualBorrowers().add(ib16);
 
         IndividualBorrower ib17 = new IndividualBorrower();
@@ -177,6 +225,9 @@ public class CPRXBRLApplication {
         ib17.setIndustryCode("45013");
         ib17.setIndustryName("Construction/Maintenance of Roads");
         ib17.setSector("11-Public-state government");
+        ib17.setAmountFunded("6329254800000");
+        ib17.setAmountNonFunded("0");
+        ib17.setExposureAsPercToCapitalFunds("0.0704");
         individualBorrower.getIndividualBorrowers().add(ib17);
 
         IndividualBorrower ib18 = new IndividualBorrower();
@@ -185,6 +236,9 @@ public class CPRXBRLApplication {
         ib18.setIndustryCode("1181");
         ib18.setIndustryName("Storage & Market yards");
         ib18.setSector("20-Co-operative");
+        ib18.setAmountFunded("5052015400000");
+        ib18.setAmountNonFunded("0");
+        ib18.setExposureAsPercToCapitalFunds("0.0562");
         individualBorrower.getIndividualBorrowers().add(ib18);
 
         IndividualBorrower ib19 = new IndividualBorrower();
@@ -193,6 +247,9 @@ public class CPRXBRLApplication {
         ib19.setIndustryCode("45013");
         ib19.setIndustryName("Construction/Maintenance of Roads");
         ib19.setSector("11-Public-state government");
+        ib19.setAmountFunded("8054153000000");
+        ib19.setAmountNonFunded("0");
+        ib19.setExposureAsPercToCapitalFunds("0.0896");
         individualBorrower.getIndividualBorrowers().add(ib19);
 
         IndividualBorrower ib20 = new IndividualBorrower();
@@ -201,61 +258,712 @@ public class CPRXBRLApplication {
         ib20.setIndustryCode("65929");
         ib20.setIndustryName("NBFCs- general purpose loans");
         ib20.setSector("30-Private");
+        ib20.setAmountFunded("5646112400000");
+        ib20.setAmountNonFunded("40000000");
+        ib20.setExposureAsPercToCapitalFunds("0.0628");
         individualBorrower.getIndividualBorrowers().add(ib20);
+                
+        individualBorrower.setTotalAmountFunded("1475662873000");
+        individualBorrower.setTotalAmountNonFunded("30765676000");
+        individualBorrower.setTotalExposureAsPercToCapitalFunds(".16762");
         cprItemData.setLargeExposuresToIndividualBorrower(individualBorrower);
 
 
         //borrower group
+        //***** NTPC *****
         BorrowerGroup bg = new BorrowerGroup();
         bg.setBorrowerGroupName("NTPC");
         GroupCompany gc = new GroupCompany();
         gc.setGroupCompanyName("NTPC LIMITED");
+        gc.setAmountFunded("66602138000");
+        gc.setAmountNonFunded("0");
+        gc.setExposureAsPercToCapitalFunds("0.0741");
         bg.getGroupCompanies().add(gc);
         GroupCompany gc1 = new GroupCompany();
         gc1.setGroupCompanyName("HINDUSTAN URVARAK & RASAYAN LIMITED");
+        gc1.setAmountFunded("29639788000");
+        gc1.setAmountNonFunded("1000000");
+        gc1.setExposureAsPercToCapitalFunds("0.0330");
         bg.getGroupCompanies().add(gc1);
+        GroupCompany gc2 = new GroupCompany();
+        gc2.setGroupCompanyName("NORTH EASTERN ELECTRIC POWER CORPORATION LTD");
+        gc2.setAmountFunded("12548306000");
+        gc2.setAmountNonFunded("0");
+        gc2.setExposureAsPercToCapitalFunds("0.0140");
+        bg.getGroupCompanies().add(gc2);
+        GroupCompany gc3 = new GroupCompany();
+        gc3.setGroupCompanyName("ENERGY EFFICIENCY SERVICES LIMITED");
+        gc3.setAmountFunded("4486339000");
+        gc3.setAmountNonFunded("0");
+        gc3.setExposureAsPercToCapitalFunds("0.005");
+        bg.getGroupCompanies().add(gc3);
+        GroupCompany gc4 = new GroupCompany();
+        gc4.setGroupCompanyName("KANTI BIJLEE UTPADAN NIGAM LIMITED");
+        gc4.setAmountFunded("2743521000");
+        gc4.setAmountNonFunded("0");
+        gc4.setExposureAsPercToCapitalFunds("0.0031");
+        bg.getGroupCompanies().add(gc4);
+        GroupCompany gc5 = new GroupCompany();
+        gc5.setGroupCompanyName("NTPC SAIL POWER COMPANY LIMITED");
+        gc5.setAmountFunded("29639788000");
+        gc5.setAmountNonFunded("100000000");
+        gc5.setExposureAsPercToCapitalFunds("0.0001");
+        bg.getGroupCompanies().add(gc5);
+        GroupCompany gc6 = new GroupCompany();
+        gc6.setGroupCompanyName("ARAVALI POWER COMPANY PRIVATE LIMITED");
+        gc6.setAmountFunded("0");
+        gc6.setAmountNonFunded("89172000");
+        gc6.setExposureAsPercToCapitalFunds("0.0001");
+        bg.getGroupCompanies().add(gc6);
+        bg.setTotalAmountFunded("116020092000");
+        bg.setTotalAmountNonFunded("190172000");
+        bg.setTotalExposureAsPercToCapitalFunds("0.1294");
         borrowerGroup.getBorrowerGroups().add(bg);
-        //cprItemData.setLargeExposureToBorrowerGroup(borrowerGroup);
-        BorrowerGroup bg1 = new BorrowerGroup();
-        bg1.setBorrowerGroupName("ONGC");
+
+        //***** Power Finance Corporation Ltd *****
+        BorrowerGroup bg2 = new BorrowerGroup();
+        bg2.setBorrowerGroupName("Power Finance Corporation Ltd");
         GroupCompany agc = new GroupCompany();
-        agc.setGroupCompanyName("ONGC PETRO ADDITIONS LIMITED");
-        bg1.getGroupCompanies().add(agc);
+        agc.setGroupCompanyName("POWER FINANCE CORPORATION LTD");
+        agc.setAmountFunded("54964578000");
+        agc.setAmountNonFunded("0");
+        agc.setExposureAsPercToCapitalFunds("0.0612");
+        bg2.getGroupCompanies().add(agc);
         GroupCompany agc1 = new GroupCompany();
-        agc1.setGroupCompanyName("ONGC VIDESH LIMITED");
-        bg1.getGroupCompanies().add(agc1);
-        borrowerGroup.getBorrowerGroups().add(bg1);
+        agc1.setGroupCompanyName("RURAL ELECTRIFICATION CORPORATION LIMITED");
+        agc1.setAmountFunded("47027678000");
+        agc1.setAmountNonFunded("0");
+        agc1.setExposureAsPercToCapitalFunds("0.0523");
+        bg2.getGroupCompanies().add(agc1);
+        bg2.setTotalAmountFunded("101992256000");
+        bg2.setTotalAmountNonFunded("0");
+        bg2.setTotalExposureAsPercToCapitalFunds("0.1135");
+        borrowerGroup.getBorrowerGroups().add(bg);
+
+        //***** JSW *****
+        BorrowerGroup bg3 = new BorrowerGroup();
+        bg3.setBorrowerGroupName("JSW");
+        GroupCompany bgc = new GroupCompany();
+        bgc.setGroupCompanyName("JSW STEEL LIMITED");
+        bgc.setAmountFunded("32895146000");
+        bgc.setAmountNonFunded("25424964000");
+        bgc.setExposureAsPercToCapitalFunds("0.0649");
+        bg3.getGroupCompanies().add(bgc);
+        GroupCompany bgc1 = new GroupCompany();
+        bgc1.setGroupCompanyName("BARMER LIGNITE MINING COMPANY LIMITED");
+        bgc1.setAmountFunded("5010025000");
+        bgc1.setAmountNonFunded("0");
+        bgc1.setExposureAsPercToCapitalFunds("0.0056");
+        bg3.getGroupCompanies().add(bgc1);
+        GroupCompany bgc2 = new GroupCompany();
+        bgc2.setGroupCompanyName("JSW ENERGY LIMITED");
+        bgc2.setAmountFunded("9000");
+        bgc2.setAmountNonFunded("4388282000");
+        bgc2.setExposureAsPercToCapitalFunds("0.0049");
+        bg3.getGroupCompanies().add(bgc2);
+        GroupCompany bgc3 = new GroupCompany();
+        bgc3.setGroupCompanyName("JSW ENERGY (BARMER) LIMITED");
+        bgc3.setAmountFunded("2483548000");
+        bgc3.setAmountNonFunded("292200000");
+        bgc3.setExposureAsPercToCapitalFunds("0.0031");
+        bg3.getGroupCompanies().add(bgc3);
+        GroupCompany bgc4 = new GroupCompany();
+        bgc4.setGroupCompanyName("JSW STEEL COATED PRODUCTS LIMITED");
+        bgc4.setAmountFunded("23600000");
+        bgc4.setAmountNonFunded("28414000");
+        bgc4.setExposureAsPercToCapitalFunds("0.0027");
+        bg3.getGroupCompanies().add(bgc4);
+        GroupCompany bgc5 = new GroupCompany();
+        bgc5.setGroupCompanyName("JSW HYDRO ENERGY LIMITED");
+        bgc5.setAmountFunded("0");
+        bgc5.setAmountNonFunded("252550000");
+        bgc5.setExposureAsPercToCapitalFunds("0.0003");
+        bg3.getGroupCompanies().add(bgc5);
+        bg3.setTotalAmountFunded("42749619000");
+        bg3.setTotalAmountNonFunded("30386410000");
+        bg3.setTotalExposureAsPercToCapitalFunds("0.0815");
+        borrowerGroup.getBorrowerGroups().add(bg3);
+
+        //***** ONGC *****
+        BorrowerGroup bg4 = new BorrowerGroup();
+        bg4.setBorrowerGroupName("ONGC");
+        GroupCompany egc = new GroupCompany();
+        egc.setGroupCompanyName("ONGC PETRO ADDITIONS LIMITED");
+        egc.setAmountFunded("19566867000");
+        egc.setAmountNonFunded("0");
+        egc.setExposureAsPercToCapitalFunds("0.0218");
+        bg4.getGroupCompanies().add(egc);
+        GroupCompany egc1 = new GroupCompany();
+        egc1.setGroupCompanyName("ONGC VIDESH LIMITED");
+        egc1.setAmountFunded("141037000");
+        egc1.setAmountNonFunded("0");
+        egc1.setExposureAsPercToCapitalFunds("0.0157");
+        bg4.getGroupCompanies().add(egc1);
+        GroupCompany egc2 = new GroupCompany();
+        egc2.setGroupCompanyName("OIL AND NATURAL GAS CORPORATION LIMITED");
+        egc2.setAmountFunded("9002351000");
+        egc2.setAmountNonFunded("0");
+        egc2.setExposureAsPercToCapitalFunds("0.01");
+        bg4.getGroupCompanies().add(egc2);
+        GroupCompany egc3 = new GroupCompany();
+        egc3.setGroupCompanyName("ONGC MANGALORE PETROCHEMICALS LIMITED");
+        egc3.setAmountFunded("9999857");
+        egc3.setAmountNonFunded("0");
+        egc3.setExposureAsPercToCapitalFunds("0.0111");
+        bg4.getGroupCompanies().add(egc3);
+        GroupCompany egc4 = new GroupCompany();
+        egc4.setGroupCompanyName("MANGALORE REFINERY AND PETROCHEMICALS LIMITED");
+        egc4.setAmountFunded("2315000000");
+        egc4.setAmountNonFunded("3078200000");
+        egc4.setExposureAsPercToCapitalFunds("0.006");
+        bg4.getGroupCompanies().add(egc4);
+        GroupCompany egc5 = new GroupCompany();
+        egc5.setGroupCompanyName("HINDUSTAN PETROLEUM CORPORATION LIMITED");
+        egc5.setAmountFunded("2500000");
+        egc5.setAmountNonFunded("0");
+        egc5.setExposureAsPercToCapitalFunds("0.0003");
+        bg4.getGroupCompanies().add(egc5);
+        bg4.setTotalAmountFunded("55237775000");
+        bg4.setTotalAmountNonFunded("3078200000");
+        bg4.setTotalExposureAsPercToCapitalFunds("0.0649");
+        borrowerGroup.getBorrowerGroups().add(bg4);
+
+
+        //***** L & T *****
+        BorrowerGroup bg5 = new BorrowerGroup();
+        bg5.setBorrowerGroupName("L & T");
+        GroupCompany fgc = new GroupCompany();
+        fgc.setGroupCompanyName("L&T FINANCE LIMITED");
+        fgc.setAmountFunded("56461124000");
+        fgc.setAmountNonFunded("400000");
+        fgc.setExposureAsPercToCapitalFunds("0.0628");
+        bg5.getGroupCompanies().add(fgc);
+        GroupCompany fgc1 = new GroupCompany();
+        fgc1.setGroupCompanyName("AHMEDABAD MALIYA TOLLWAY LIMITED");
+        fgc1.setAmountFunded("4157838000");
+        fgc1.setAmountNonFunded("0");
+        fgc1.setExposureAsPercToCapitalFunds("0.0046");
+        bg5.getGroupCompanies().add(fgc1);
+        GroupCompany fgc2 = new GroupCompany();
+        fgc2.setGroupCompanyName("LARSEN & TOUBRO LIMITED");
+        fgc2.setAmountFunded("0");
+        fgc2.setAmountNonFunded("3952514000");
+        fgc2.setExposureAsPercToCapitalFunds("0.0044");
+        bg5.getGroupCompanies().add(fgc2);
+        GroupCompany fgc3 = new GroupCompany();
+        fgc3.setGroupCompanyName("L&T DECCAN TOLLWAYS LIMITED");
+        fgc3.setAmountFunded("2902621000");
+        fgc3.setAmountNonFunded("0");
+        fgc3.setExposureAsPercToCapitalFunds("0.0032");
+        bg5.getGroupCompanies().add(fgc3);
+        GroupCompany fgc4 = new GroupCompany();
+        fgc4.setGroupCompanyName("L & T INFRASTRUCTURE DEVELOPMENT PROJECTS LIMITED");
+        fgc4.setAmountFunded("0");
+        fgc4.setAmountNonFunded("1630980000");
+        fgc4.setExposureAsPercToCapitalFunds("0.0018");
+        bg5.getGroupCompanies().add(fgc4);
+        GroupCompany fgc5 = new GroupCompany();
+        fgc5.setGroupCompanyName("NABHA POWER LIMITED");
+        fgc5.setAmountFunded("1500000000");
+        fgc5.setAmountNonFunded("0");
+        fgc5.setExposureAsPercToCapitalFunds("0.0017");
+        GroupCompany fgc6 = new GroupCompany();
+        fgc6.setGroupCompanyName("L&T INFRA CREDIT LIMITED");
+        fgc6.setAmountFunded("0");
+        fgc6.setAmountNonFunded("0");
+        fgc6.setExposureAsPercToCapitalFunds("0");
+        GroupCompany fgc7 = new GroupCompany();
+        fgc7.setGroupCompanyName("L&T SAMAKHIALI GANDHIDHAM TOLLWAY LIMITED");
+        fgc7.setAmountFunded("824445000");
+        fgc7.setAmountNonFunded("0");
+        fgc7.setExposureAsPercToCapitalFunds("0.0009");
+        bg5.getGroupCompanies().add(fgc7);
+        bg5.setTotalAmountFunded("65846028000");
+        bg5.setTotalAmountNonFunded("5583894000");
+        bg5.setTotalExposureAsPercToCapitalFunds("0.0749");
+        borrowerGroup.getBorrowerGroups().add(bg5);
+
+
+       //***** MSCSCL *****
+        BorrowerGroup bg6 = new BorrowerGroup();
+        bg6.setBorrowerGroupName("MSCSCL");
+        GroupCompany ggc = new GroupCompany();
+        ggc.setGroupCompanyName("MP STATE CIVIL SUPPLIES CORPN. LTD");
+        ggc.setAmountFunded("63292548000");
+        ggc.setAmountNonFunded("0");
+        ggc.setExposureAsPercToCapitalFunds("0.0704");
+        bg6.getGroupCompanies().add(ggc);
+        bg6.setTotalAmountFunded("63292548000");
+        bg6.setTotalAmountNonFunded("0");
+        bg6.setTotalExposureAsPercToCapitalFunds("0.0704");
+        borrowerGroup.getBorrowerGroups().add(bg6);
+
+        //***** PNB *****
+        BorrowerGroup bg7 = new BorrowerGroup();
+        bg7.setBorrowerGroupName("PNB");
+        GroupCompany hgc = new GroupCompany();
+        hgc.setGroupCompanyName("PNB HOUSING FINANCE LTD");
+        hgc.setAmountFunded("44882968000");
+        hgc.setAmountNonFunded("212800000");
+        hgc.setExposureAsPercToCapitalFunds("0.0502");
+        bg7.getGroupCompanies().add(hgc);
+        GroupCompany hgc1 = new GroupCompany();
+        hgc1.setGroupCompanyName("PNB GILTS LTD");
+        hgc1.setAmountFunded("15000000000");
+        hgc1.setAmountNonFunded("0");
+        hgc1.setExposureAsPercToCapitalFunds("0.0167");
+        bg7.getGroupCompanies().add(hgc1);
+        GroupCompany hgc2 = new GroupCompany();
+        hgc2.setGroupCompanyName("PNB (I) L");
+        hgc2.setAmountFunded("0");
+        hgc2.setAmountNonFunded("0");
+        hgc2.setExposureAsPercToCapitalFunds("0");
+        bg7.getGroupCompanies().add(hgc2);
+        GroupCompany hgc3 = new GroupCompany();
+        hgc3.setGroupCompanyName("PNB CARDS AND SERVICES LIMITED");
+        hgc3.setAmountFunded("289000");
+        hgc3.setAmountNonFunded("0");
+        hgc3.setExposureAsPercToCapitalFunds("0");
+        bg7.getGroupCompanies().add(hgc3);
+        GroupCompany hgc4 = new GroupCompany();
+        hgc4.setGroupCompanyName("CANARA HSBC ORIENTAL BANK OF COMMERCE LIFE INSURANCE COMPANY LIMITED");
+        hgc4.setAmountFunded("0");
+        hgc4.setAmountNonFunded("0");
+        hgc4.setExposureAsPercToCapitalFunds("0");
+        bg7.getGroupCompanies().add(hgc4);
+        GroupCompany hgc5 = new GroupCompany();
+        hgc5.setGroupCompanyName("PNB METLIFE INDIA INSURANCE COMPANY LIMITED");
+        hgc5.setAmountFunded("0");
+        hgc5.setAmountNonFunded("112500000");
+        hgc5.setExposureAsPercToCapitalFunds("0.0001");
+        bg7.getGroupCompanies().add(hgc5);
+        bg7.setTotalAmountFunded("59883257000");
+        bg7.setTotalAmountNonFunded("325300000");
+        bg7.setTotalExposureAsPercToCapitalFunds("0.067");
+        borrowerGroup.getBorrowerGroups().add(bg7);
+
+
+        //***** GITANJALI *****
+        BorrowerGroup bg8 = new BorrowerGroup();
+        bg8.setBorrowerGroupName("GITANJALI");
+        GroupCompany igc = new GroupCompany();
+        igc.setGroupCompanyName("GITANJALI GEMS LIMITED");
+        igc.setAmountFunded("50648498000");
+        igc.setAmountNonFunded("3653513000");
+        igc.setExposureAsPercToCapitalFunds("0.0604");
+        bg8.getGroupCompanies().add(igc);
+        GroupCompany igc1 = new GroupCompany();
+        igc1.setGroupCompanyName("GILI INDIA LIMITED");
+        igc1.setAmountFunded("14466930000");
+        igc1.setAmountNonFunded("0");
+        igc1.setExposureAsPercToCapitalFunds("0.0161");
+        bg8.getGroupCompanies().add(igc1);
+        GroupCompany igc2 = new GroupCompany();
+        igc2.setGroupCompanyName("NAKSHATRA BRANDS LIMITED");
+        igc2.setAmountFunded("11091627000");
+        igc2.setAmountNonFunded("0");
+        igc2.setExposureAsPercToCapitalFunds("0.0123");
+        bg8.getGroupCompanies().add(igc2);
+        GroupCompany igc3 = new GroupCompany();
+        igc3.setGroupCompanyName("ASMI JEWELLERY INDIA LIMITED");
+        igc3.setAmountFunded("1017705000");
+        igc3.setAmountNonFunded("0");
+        igc3.setExposureAsPercToCapitalFunds("0.0011");
+        bg8.getGroupCompanies().add(igc3);
+        bg8.setTotalAmountFunded("77224760000");
+        bg8.setTotalAmountNonFunded("3653513000");
+        bg8.setTotalExposureAsPercToCapitalFunds("0.0899");
+        borrowerGroup.getBorrowerGroups().add(bg8);
+
+        //***** TATA *****
+        BorrowerGroup bg9 = new BorrowerGroup();
+        bg9.setBorrowerGroupName("TATA");
+        GroupCompany jgc = new GroupCompany();
+        jgc.setGroupCompanyName("TATA MOTORS FINANCE LIMITED");
+        jgc.setAmountFunded("15618192000");
+        jgc.setAmountNonFunded("0");
+        jgc.setExposureAsPercToCapitalFunds("0.0174");
+        bg9.getGroupCompanies().add(jgc);
+        GroupCompany jgc1 = new GroupCompany();
+        jgc1.setGroupCompanyName("TATA CAPITAL FINANCIAL SERVICES LIMITED");
+        jgc1.setAmountFunded("15078557000");
+        jgc1.setAmountNonFunded("0");
+        jgc1.setExposureAsPercToCapitalFunds("0.0168");
+        bg9.getGroupCompanies().add(jgc1);
+        GroupCompany jgc2 = new GroupCompany();
+        jgc2.setGroupCompanyName("TATA STEEL LIMITED");
+        jgc2.setAmountFunded("13484080000");
+        jgc2.setAmountNonFunded("0");
+        jgc2.setExposureAsPercToCapitalFunds("0.015");
+        bg9.getGroupCompanies().add(jgc2);
+        GroupCompany jgc3 = new GroupCompany();
+        jgc3.setGroupCompanyName("TATA CAPITAL HOUSING FINANCE LIMITED");
+        jgc3.setAmountFunded("6001548000");
+        jgc3.setAmountNonFunded("0");
+        jgc3.setExposureAsPercToCapitalFunds("0.0067");
+        bg9.getGroupCompanies().add(jgc3);
+        GroupCompany jgc4 = new GroupCompany();
+        jgc4.setGroupCompanyName("TATA MOTORS FINANCE SOLUTIONS LIMITED");
+        jgc4.setAmountFunded("2798948000");
+        jgc4.setAmountNonFunded("0");
+        jgc4.setExposureAsPercToCapitalFunds("0.0031");
+        bg9.getGroupCompanies().add(jgc4);
+        GroupCompany jgc5 = new GroupCompany();
+        jgc5.setGroupCompanyName("TATA POWER DELHI DISTRIBUTION LIMITED");
+        jgc5.setAmountFunded("1967083000");
+        jgc5.setAmountNonFunded("686713000");
+        jgc5.setExposureAsPercToCapitalFunds("0.003");
+        GroupCompany jgc6 = new GroupCompany();
+        jgc6.setGroupCompanyName("TATA SONS LIMITED");
+        jgc6.setAmountFunded("1484600000");
+        jgc6.setAmountNonFunded("0");
+        jgc6.setExposureAsPercToCapitalFunds("0.0017");
+        GroupCompany jgc7 = new GroupCompany();
+        jgc7.setGroupCompanyName("HAMPI EXPRESSWAYS PRIVATE LIMITED");
+        jgc7.setAmountFunded("998809000");
+        jgc7.setAmountNonFunded("0");
+        jgc7.setExposureAsPercToCapitalFunds("0.0011");
+        GroupCompany jgc8 = new GroupCompany();
+        jgc8.setGroupCompanyName("TATA INTERNATIONAL SINGAPORE PTE LTD");
+        jgc8.setAmountFunded("5789940000");
+        jgc8.setAmountNonFunded("0");
+        jgc8.setExposureAsPercToCapitalFunds("0.0064");
+        bg9.getGroupCompanies().add(jgc8);
+        GroupCompany jgc9 = new GroupCompany();
+        jgc9.setGroupCompanyName("TATA MOTORS LIMITED");
+        jgc9.setAmountFunded("0");
+        jgc9.setAmountNonFunded("0");
+        jgc9.setExposureAsPercToCapitalFunds("0");
+        bg9.getGroupCompanies().add(jgc9);
+        GroupCompany jgc10 = new GroupCompany();
+        jgc10.setGroupCompanyName("JAMSHEDPUR CONTINUOUS ANNEALING & PROCESSING COMPANY PRIVATE LIMITED");
+        jgc10.setAmountFunded("0");
+        jgc10.setAmountNonFunded("300000000");
+        jgc10.setExposureAsPercToCapitalFunds("0.0003");
+        bg9.getGroupCompanies().add(jgc10);
+        GroupCompany jgc11 = new GroupCompany();
+        jgc11.setGroupCompanyName("TATA CAPITAL SPECIAL SITUATIONS FUND - TRUST");
+        jgc11.setAmountFunded("0");
+        jgc11.setAmountNonFunded("0");
+        jgc11.setExposureAsPercToCapitalFunds("0");
+        bg9.getGroupCompanies().add(jgc11);
+        GroupCompany jgc12 = new GroupCompany();
+        jgc12.setGroupCompanyName("TATA STEEL BSL LIMITED");
+        jgc12.setAmountFunded("0");
+        jgc12.setAmountNonFunded("68302000");
+        jgc12.setExposureAsPercToCapitalFunds("0.0001");
+        GroupCompany jgc13 = new GroupCompany();
+        jgc13.setGroupCompanyName("VOLTAS LIMITED");
+        jgc13.setAmountFunded("0");
+        jgc13.setAmountNonFunded("66397000");
+        jgc13.setExposureAsPercToCapitalFunds("0.0001");
+        GroupCompany jgc14 = new GroupCompany();
+        jgc14.setGroupCompanyName("TATA CHEMICALS LIMITED");
+        jgc14.setAmountFunded("0");
+        jgc14.setAmountNonFunded("0");
+        jgc14.setExposureAsPercToCapitalFunds("0");
+        bg9.getGroupCompanies().add(jgc14);
+        bg9.setTotalAmountFunded("63221757000");
+        bg9.setTotalAmountNonFunded("1121412000");
+        bg9.setTotalExposureAsPercToCapitalFunds("0.0717");
+        borrowerGroup.getBorrowerGroups().add(bg9);
+
+        //***** HDFC *****
+        BorrowerGroup bg10 = new BorrowerGroup();
+        bg10.setBorrowerGroupName("HDFC");
+        GroupCompany kgc = new GroupCompany();
+        kgc.setGroupCompanyName("HOUSING DEVELOPMENT FINANCE CORPORATION LIMITED");
+        kgc.setAmountFunded("112364357000");
+        kgc.setAmountNonFunded("1000");
+        kgc.setExposureAsPercToCapitalFunds("0.125");
+        bg10.getGroupCompanies().add(kgc);
+        GroupCompany kgc1 = new GroupCompany();
+        kgc1.setGroupCompanyName("HDB FINANCIAL SERVICES LIMITED");
+        kgc1.setAmountFunded("7635258000");
+        kgc1.setAmountNonFunded("0");
+        kgc1.setExposureAsPercToCapitalFunds("0.0085");
+        bg10.getGroupCompanies().add(kgc1);
+        GroupCompany kgc2 = new GroupCompany();
+        kgc2.setGroupCompanyName("HDFC CREDILA FINANCIAL SERVICES PVT LTD");
+        kgc2.setAmountFunded("2000000000");
+        kgc2.setAmountNonFunded("2500000");
+        kgc2.setExposureAsPercToCapitalFunds("0.0022");
+        bg10.getGroupCompanies().add(kgc2);
+        bg10.setTotalAmountFunded("121999615000");
+        bg10.setTotalAmountNonFunded("2501000");
+        bg10.setTotalExposureAsPercToCapitalFunds("0.1357");
+        borrowerGroup.getBorrowerGroups().add(bg10);
+
+        //***** RELIANCE MUKESH DHIRUBHAI AMABANI *****
+        BorrowerGroup bg11 = new BorrowerGroup();
+        bg11.setBorrowerGroupName("RELIANCE MUKESH DHIRUBHAI AMABANI");
+        GroupCompany lgc = new GroupCompany();
+        lgc.setGroupCompanyName("JIO DIGITAL FIBRE PRIVATE LIMITED");
+        lgc.setAmountFunded("55305336000");
+        lgc.setAmountNonFunded("0");
+        lgc.setExposureAsPercToCapitalFunds("0.0615");
+        bg11.getGroupCompanies().add(lgc);
+        GroupCompany lgc1 = new GroupCompany();
+        lgc1.setGroupCompanyName("RELIANCE INDUSTRIES LIMITED");
+        lgc1.setAmountFunded("5684340000");
+        lgc1.setAmountNonFunded("5714921000");
+        lgc1.setExposureAsPercToCapitalFunds("0.0127");
+        bg11.getGroupCompanies().add(lgc1);
+        GroupCompany lgc2 = new GroupCompany();
+        lgc2.setGroupCompanyName("SIKKA PORTS & TERMINALS LIMITED");
+        lgc2.setAmountFunded("0");
+        lgc2.setAmountNonFunded("0");
+        lgc2.setExposureAsPercToCapitalFunds("0");
+        bg11.getGroupCompanies().add(lgc2);
+        GroupCompany lgc3 = new GroupCompany();
+        lgc3.setGroupCompanyName("JAMNAGAR UTILITIES & POWER PRIVATE LTD");
+        lgc3.setAmountFunded("0");
+        lgc3.setAmountNonFunded("0");
+        lgc3.setExposureAsPercToCapitalFunds("0");
+        bg11.getGroupCompanies().add(lgc3);
+        GroupCompany lgc4 = new GroupCompany();
+        lgc4.setGroupCompanyName("FAIRWINDS ASSET MANAGERS LIMITED");
+        lgc4.setAmountFunded("0");
+        lgc4.setAmountNonFunded("0");
+        lgc4.setExposureAsPercToCapitalFunds("0");
+        bg11.getGroupCompanies().add(lgc4);
+        bg11.setTotalAmountFunded("60989676000");
+        bg11.setTotalAmountNonFunded("5714921000");
+        bg11.setTotalExposureAsPercToCapitalFunds("0.0742");
+        borrowerGroup.getBorrowerGroups().add(bg11);
+
+        //***** FOOD CORPORATION OF INDIA *****
+        BorrowerGroup bg12 = new BorrowerGroup();
+        bg12.setBorrowerGroupName("FOOD CORPORATION OF INDIA");
+        GroupCompany mgc = new GroupCompany();
+        mgc.setGroupCompanyName("FOOD CORPORATION OF INDIA");
+        mgc.setAmountFunded("142500000000");
+        mgc.setAmountNonFunded("0");
+        mgc.setExposureAsPercToCapitalFunds("0.1586");
+        bg12.getGroupCompanies().add(mgc);
+        bg12.setTotalAmountFunded("142500000000");
+        bg12.setTotalAmountNonFunded("0");
+        bg12.setTotalExposureAsPercToCapitalFunds("0.1586");
+        borrowerGroup.getBorrowerGroups().add(bg12);
+
+        //*****  CCIL  *****
+        BorrowerGroup bg13 = new BorrowerGroup();
+        bg13.setBorrowerGroupName("CCIL");
+        GroupCompany ngc = new GroupCompany();
+        ngc.setGroupCompanyName("THE COTTON CORPORATION OF INDIA LIMITED");
+        ngc.setAmountFunded("111000000000");
+        ngc.setAmountNonFunded("0");
+        ngc.setExposureAsPercToCapitalFunds("0.1235");
+        bg13.getGroupCompanies().add(ngc);
+        bg13.setTotalAmountFunded("111000000000");
+        bg13.setTotalAmountNonFunded("0");
+        bg13.setTotalExposureAsPercToCapitalFunds("0.1235");
+        borrowerGroup.getBorrowerGroups().add(bg13);
+
+        //***** IRFCL *****
+        BorrowerGroup bg14 = new BorrowerGroup();
+        bg14.setBorrowerGroupName("IRFCL");
+        GroupCompany ogc = new GroupCompany();
+        ogc.setGroupCompanyName("INDIAN RAILWAY FINANCE CORPORATION  LTD");
+        ogc.setAmountFunded("113511859000");
+        ogc.setAmountNonFunded("0");
+        ogc.setExposureAsPercToCapitalFunds("0.1263");
+        bg14.getGroupCompanies().add(ogc);
+        GroupCompany ogc1 = new GroupCompany();
+        ogc1.setGroupCompanyName("IRCON DAVANAGERE HAVERI HIGHWAY LIMITED");
+        ogc1.setAmountFunded("4953412000");
+        ogc1.setAmountNonFunded("0");
+        ogc1.setExposureAsPercToCapitalFunds("0.0055");
+        bg14.getGroupCompanies().add(ogc1);
+        bg14.setTotalAmountFunded("118465271000");
+        bg14.setTotalAmountNonFunded("0");
+        bg14.setTotalExposureAsPercToCapitalFunds("0.1318");
+        borrowerGroup.getBorrowerGroups().add(bg14);
+
+        //***** LIC *****
+        BorrowerGroup bg15 = new BorrowerGroup();
+        bg15.setBorrowerGroupName("LIC");
+        GroupCompany pgc = new GroupCompany();
+        pgc.setGroupCompanyName("LIC HOUSING FINANCE LIMITED");
+        pgc.setAmountFunded("71970635000");
+        pgc.setAmountNonFunded("0");
+        pgc.setExposureAsPercToCapitalFunds("0.0801");
+        bg15.getGroupCompanies().add(pgc);
+        GroupCompany pgc1 = new GroupCompany();
+        pgc1.setGroupCompanyName("LICHFL FUND");
+        pgc1.setAmountFunded("0");
+        pgc1.setAmountNonFunded("0");
+        pgc1.setExposureAsPercToCapitalFunds("0");
+        bg15.getGroupCompanies().add(pgc1);
+        bg15.setTotalAmountFunded("71970635000");
+        bg15.setTotalAmountNonFunded("0");
+        bg15.setTotalExposureAsPercToCapitalFunds("0.0801");
+        borrowerGroup.getBorrowerGroups().add(bg15);
+
+        //***** IOCL *****
+        BorrowerGroup bg16 = new BorrowerGroup();
+        bg16.setBorrowerGroupName("IOCL");
+        GroupCompany qgc = new GroupCompany();
+        qgc.setGroupCompanyName("INDIAN OIL CORPORATION LTD");
+        qgc.setAmountFunded("96590000000");
+        qgc.setAmountNonFunded("0");
+        qgc.setExposureAsPercToCapitalFunds("0.1075");
+        bg16.getGroupCompanies().add(qgc);
+        GroupCompany qgc1 = new GroupCompany();
+        qgc1.setGroupCompanyName("GSPL INDIA GASNET LIMITED");
+        qgc1.setAmountFunded("5599774000");
+        qgc1.setAmountNonFunded("0");
+        qgc1.setExposureAsPercToCapitalFunds("0.0062");
+        bg16.getGroupCompanies().add(qgc1);
+        GroupCompany qgc2 = new GroupCompany();
+        qgc2.setGroupCompanyName("HALDIA  IOC EMPLOYES WELFARE CO OPERATIVE CREDIT SOCIETY");
+        qgc2.setAmountFunded("60000000");
+        qgc2.setAmountNonFunded("1000000");
+        qgc2.setExposureAsPercToCapitalFunds("0.0001");
+        bg16.getGroupCompanies().add(qgc2);
+        bg16.setTotalAmountFunded("102249774000");
+        bg16.setTotalAmountNonFunded("1000000");
+        bg16.setTotalExposureAsPercToCapitalFunds("0.1138");
+        borrowerGroup.getBorrowerGroups().add(bg16);
+
+        //***** NHAI *****
+        BorrowerGroup bg17 = new BorrowerGroup();
+        bg17.setBorrowerGroupName("NHAI");
+        GroupCompany rgc = new GroupCompany();
+        rgc.setGroupCompanyName("NATIONAL HIGHWAYS AUTHORITY OF INDIA");
+        rgc.setAmountFunded("100502234000");
+        rgc.setAmountNonFunded("0");
+        rgc.setExposureAsPercToCapitalFunds("0.1118");
+        bg17.getGroupCompanies().add(rgc);
+        bg17.setTotalAmountFunded("100502234");
+        bg17.setTotalAmountNonFunded("0");
+        bg17.setTotalExposureAsPercToCapitalFunds("0.1118");
+        borrowerGroup.getBorrowerGroups().add(bg17);
+
+        //***** AI *****
+        BorrowerGroup bg18 = new BorrowerGroup();
+        bg18.setBorrowerGroupName("AI");
+        GroupCompany sgc = new GroupCompany();
+        sgc.setGroupCompanyName("AIR INDIA LIMITED");
+        sgc.setAmountFunded("51804893000");
+        sgc.setAmountNonFunded("1450000000");
+        sgc.setExposureAsPercToCapitalFunds("0.0593");
+        bg18.getGroupCompanies().add(sgc);
+        GroupCompany sgc1 = new GroupCompany();
+        sgc1.setGroupCompanyName("AIRLINE ALLIED SERVICES LIMITED");
+        sgc1.setAmountFunded("0");
+        sgc1.setAmountNonFunded("274807000");
+        sgc1.setExposureAsPercToCapitalFunds("0.0003");
+        bg18.getGroupCompanies().add(sgc1);
+        bg18.setTotalAmountFunded("51804893000");
+        bg18.setTotalAmountNonFunded("1724807000");
+        bg18.setTotalExposureAsPercToCapitalFunds("0.0596");
+        borrowerGroup.getBorrowerGroups().add(bg18);
+
+        //***** HAR UDA *****
+        BorrowerGroup bg19 = new BorrowerGroup();
+        bg19.setBorrowerGroupName("HAR UDA");
+        GroupCompany tgc = new GroupCompany();
+        tgc.setGroupCompanyName("HARYANA URBAN DEVELOPMENT AUTHORTY");
+        tgc.setAmountFunded("72277197000");
+        tgc.setAmountNonFunded("23998000");
+        tgc.setExposureAsPercToCapitalFunds("0.0593");
+        bg19.getGroupCompanies().add(tgc);
+        bg19.setTotalAmountFunded("72277197000");
+        bg19.setTotalAmountNonFunded("23998000");
+        bg19.setTotalExposureAsPercToCapitalFunds("0.0805");
+        borrowerGroup.getBorrowerGroups().add(bg19);
+
+        //***** NACMFOI *****
+        BorrowerGroup bg20 = new BorrowerGroup();
+        bg20.setBorrowerGroupName("NACMFOI");
+        GroupCompany ugc = new GroupCompany();
+        ugc.setGroupCompanyName("NATIONAL AGRICULTURAL COOP MKTG FEDERATION OF INDIA LIMITED");
+        ugc.setAmountFunded("50520154000");
+        ugc.setAmountNonFunded("0");
+        ugc.setExposureAsPercToCapitalFunds("0.0562");
+        bg20.getGroupCompanies().add(ugc);
+        bg20.setTotalAmountFunded("50520154000");
+        bg20.setTotalAmountNonFunded("0");
+        bg20.setTotalExposureAsPercToCapitalFunds("0.0562");
+        borrowerGroup.getBorrowerGroups().add(bg20);
+
         cprItemData.setLargeExposureToBorrowerGroup(borrowerGroup);
         data.getItemDatas().add(cprItemData);
+                
+        borrowerGroup.setTotalAmountFunded("1649747541000");
+        borrowerGroup.setTotalAmountNonFunded("51806128000");
+        borrowerGroup.setTotalExposureAsPercToCapitalFunds("1.8935");
+        cprItemData.setLargeExposureToBorrowerGroup(borrowerGroup);
 
-        CPRGeneralData generalData = new CPRGeneralData();
+
+        // set forex exposure
+        ForexExposure forexEx = new ForexExposure();
+        forexEx.setOpenPosition("1012666000");
+        cprGeneralData.setForexExposure(forexEx);
+        
+        // capital market exposure
+        CapitalMarketExposure capitalMarketEx = new CapitalMarketExposure();
+        capitalMarketEx.setAdvances("33842872000");
+        capitalMarketEx.setFundBased("30553272000");
+        capitalMarketEx.setNonFundBased("3289600000");
+        capitalMarketEx.setEquityInvestment("38719200000");
+        capitalMarketEx.setTotalExposure("72562072000");
+        capitalMarketEx.setEquityInvestmentPerc("0");
+        capitalMarketEx.setNetWorth("0");
+        cprGeneralData.setCapitalMarketExposure(capitalMarketEx);
+
+
+        // exposure to capital market
+        ExposureToUnsecure exToUnsecure = new ExposureToUnsecure();
+        exToUnsecure.setOutstandingUnsecuredGuarantees("257919300000");
+        exToUnsecure.setOutstandingUnsecuredAdvances("2155909844000");
+        exToUnsecure.setTotalOutstandingAdvances("7444318987000");
+        exToUnsecure.setTotalUnsecuredOutstanding("0.3243");
+        cprGeneralData.setExposureToUnsecure(exToUnsecure);
+
+        // General Financial For Consildated
+        //CPRGeneralData generalData = new CPRGeneralData();
         CPRGeneralFinancialForConsolidated cgfc = new CPRGeneralFinancialForConsolidated();
-        cgfc.setAssets("12935763752000");
+        cgfc.setAsset("12935763752000");
         cgfc.setCapitalAndReserves("974945945000");
         cgfc.setRegulatoryCapitalActualOrNotionalAfterNettingForConsolidation("920224419000");
         cgfc.setRiskWeightedAssetsActualOrNotional("6050089720000");
         cgfc.setCapitalAdequacyRatioPercentActualOrNotional("15.21");
-        cgfc.setAggregateDeposits("11235307200000");
-        cgfc.setAggregateBorrowings("503770269000");
+        cgfc.setAggregateDeposit("11235307200000");
+        cgfc.setAggregateBorrowing("503770269000");
         cgfc.setGrossAdvances("7444318987000");
         cgfc.setGrossNonPerformingAssets("1029237838000");
-        cgfc.setInvestmentsBookValueMemeber("3860341143000");
-        cgfc.setInvestmentsMarketValueMemeber("3942106593000");
-        cgfc.setNonPerformingInvestments("41709003000");
-        cgfc.setNonPerformingAssetsIncludingNonPerformingAdvancesAndInvestments("1070946841000");
+        cgfc.setInvestmentsBookValueMember("3860341143000");
+        cgfc.setInvestmentsMarketValueMember("3942106593000");
+        cgfc.setNonPerformingInvestment("41709003000");
+        cgfc.setNonPerformingAssetsIncludingNonPerformingAdvancesAndInvestment("1070946841000");
         cgfc.setProvisionsHeldForNonPerformingAdvances("649640336000");
         cgfc.setProvisionsHeldForNonPerformingInvestments("37959603000");
         cgfc.setProfitLossBeforeTax("23780499000");
-        cgfc.setNetProfitLossAfterTax("22725799000");
+        cgfc.setNetProfitLossTax("22725799000");
         cgfc.setReturnOnAssets("0.36");
         cgfc.setReturnOnEquity("5.18");
-        cgfc.setContingentLiabilities("4605838156000");
+        cgfc.setContingentLiabilitie("4605838156000");
         cgfc.setDividendPaid("0");
-        generalData.setGeneralData(cgfc);
+        cprGeneralData.setFinancialForConsolidated(cgfc);
 
+
+        // CRR and SLR
+        CRRAndSLR crrAndSLR = new CRRAndSLR();
+        crrAndSLR.setCashFundEligibleForCRR("464852500000");
+        crrAndSLR.setLiquidAssetsEligibleForSLR("1303857400000");
+        crrAndSLR.setPercCRR("0.04");
+        crrAndSLR.setPercSLR(".3054");
+        cprGeneralData.setCrrAndSLR(crrAndSLR);
+        // set data
+        data.setGeneralData(cprGeneralData);
+        data.getItemDatas().add(cprItemData);
         ReportGenerationEngine engine = new XBRLReportGenerationEngine();
-        engine.execute(ReportGenerationFactory.RBI_CPR_XBRL_REPORT, data);
-        
+        StringWriter sw = engine.execute(ReportGenerationFactory.RBI_CPR_XBRL_REPORT, data);
+        FileWriter fw = new FileWriter("file.txt");
+        fw.write(sw.toString());
+        fw.close();
     }
     
 }

@@ -1,974 +1,242 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <xbrli:xbrl xml:lang="en" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:in-rbi-rep-par="http://www.rbi.org/in-rbi-rep-par">
-    <link:schemaRef xlink:type="simple" xlink:href="in-rbi-cpr.xsd"/>
-    <xbrli:context id="fromto_20210401_20210930">
+    <link:schemaRef xlink:type="simple" xlink:href="in-rbi-rlc.xsd"/>
+    <xbrli:context id="fromto_20200701_20200930">
         <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
         </xbrli:entity>
         <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
+            <xbrli:startDate>2020-07-01</xbrli:startDate>
+            <xbrli:endDate>2020-09-30</xbrli:endDate>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="asof_20210930_FundedMember_BorrowerGroupMember">
+    <xbrli:context id="asof_20200930">
         <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2020-09-30</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20200331">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2020-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
             <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:FundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_IndividualBorrowerMember">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_FundedMember">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:DetailsOfDisbusalOfAdvancesAxis">in-rbi-rep:FundedMember</xbrldi:explicitMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_BookValueMember">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:DetailsOfValueAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_FundedMember_IndividualBorrowerMember">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:FundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_NonFundedMember_IndividualBorrowerMember">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_MarketValueMember">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:DetailsOfValueAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_BorrowerGroupMember">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_NonFundedMember">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:DetailsOfDisbusalOfAdvancesAxis">in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_NonFundedMember_BorrowerGroupMember">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_NonFundedMember_IndividualBorrowerMember_AAACF0365N_FOODCORPORATIONOFINDIA_51201_WholesaleFoodProcurement">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:PermanentAccountNumberAxis">
-                    <in-rbi-rep-par:PermanentAccountNumberDomain>AAACF0365N</in-rbi-rep-par:PermanentAccountNumberDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerAxis">
-                    <in-rbi-rep-par:NameOfBorrowerDomain>FOOD CORPORATION OF INDIA</in-rbi-rep-par:NameOfBorrowerDomain>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RegionOfBusinessAxis">in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:IndividualBorrowersMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:UniqueTransactionCodeAxis">
+                    <in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID1</in-rbi-rep-par:UniqueTransactionCodeDomain>
                 </xbrldi:typedMember>
                 <xbrldi:typedMember dimension="in-rbi-rep:IndustryCodeAxis">
-                    <in-rbi-rep-par:IndustryCodeDomain>51201</in-rbi-rep-par:IndustryCodeDomain>
+                    <in-rbi-rep-par:IndustryCodeDomain>28101</in-rbi-rep-par:IndustryCodeDomain>
                 </xbrldi:typedMember>
                 <xbrldi:typedMember dimension="in-rbi-rep:IndustryNameAxis">
-                    <in-rbi-rep-par:IndustryNameDomain>Wholesale Food Procurement</in-rbi-rep-par:IndustryNameDomain>
+                    <in-rbi-rep-par:IndustryNameDomain>Mfg of Structural Metal Products</in-rbi-rep-par:IndustryNameDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:LeadBankNameAxis">
+                    <in-rbi-rep-par:LeadBankNameDomain>Bank Of Baroda</in-rbi-rep-par:LeadBankNameDomain>
                 </xbrldi:typedMember>
             </xbrli:segment>
         </xbrli:entity>
         <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
+            <xbrli:instant>2020-09-30</xbrli:instant>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_IndividualBorrowerMember_AAACF0365N_FOODCORPORATIONOFINDIA_51201_WholesaleFoodProcurement">
+    <xbrli:context id="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">
         <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
             <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:PermanentAccountNumberAxis">
-                    <in-rbi-rep-par:PermanentAccountNumberDomain>AAACF0365N</in-rbi-rep-par:PermanentAccountNumberDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerAxis">
-                    <in-rbi-rep-par:NameOfBorrowerDomain>FOOD CORPORATION OF INDIA</in-rbi-rep-par:NameOfBorrowerDomain>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RegionOfBusinessAxis">in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:IndividualBorrowersMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:UniqueTransactionCodeAxis">
+                    <in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID1</in-rbi-rep-par:UniqueTransactionCodeDomain>
                 </xbrldi:typedMember>
                 <xbrldi:typedMember dimension="in-rbi-rep:IndustryCodeAxis">
-                    <in-rbi-rep-par:IndustryCodeDomain>51201</in-rbi-rep-par:IndustryCodeDomain>
+                    <in-rbi-rep-par:IndustryCodeDomain>28101</in-rbi-rep-par:IndustryCodeDomain>
                 </xbrldi:typedMember>
                 <xbrldi:typedMember dimension="in-rbi-rep:IndustryNameAxis">
-                    <in-rbi-rep-par:IndustryNameDomain>Wholesale Food Procurement</in-rbi-rep-par:IndustryNameDomain>
+                    <in-rbi-rep-par:IndustryNameDomain>Mfg of Structural Metal Products</in-rbi-rep-par:IndustryNameDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:LeadBankNameAxis">
+                    <in-rbi-rep-par:LeadBankNameDomain>Bank Of Baroda</in-rbi-rep-par:LeadBankNameDomain>
                 </xbrldi:typedMember>
             </xbrli:segment>
         </xbrli:entity>
         <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
+            <xbrli:startDate>2020-07-01</xbrli:startDate>
+            <xbrli:endDate>2020-09-30</xbrli:endDate>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="asof_20210930_FundedMember_IndividualBorrowerMember_AAACF0365N_FOODCORPORATIONOFINDIA_51201_WholesaleFoodProcurement">
+    <xbrli:context id="asof_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">
         <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
             <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:FundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:PermanentAccountNumberAxis">
-                    <in-rbi-rep-par:PermanentAccountNumberDomain>AAACF0365N</in-rbi-rep-par:PermanentAccountNumberDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerAxis">
-                    <in-rbi-rep-par:NameOfBorrowerDomain>FOOD CORPORATION OF INDIA</in-rbi-rep-par:NameOfBorrowerDomain>
+                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RegionOfBusinessAxis">in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:UniqueTransactionCodeAxis">
+                    <in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID1</in-rbi-rep-par:UniqueTransactionCodeDomain>
                 </xbrldi:typedMember>
                 <xbrldi:typedMember dimension="in-rbi-rep:IndustryCodeAxis">
-                    <in-rbi-rep-par:IndustryCodeDomain>51201</in-rbi-rep-par:IndustryCodeDomain>
+                    <in-rbi-rep-par:IndustryCodeDomain>40201</in-rbi-rep-par:IndustryCodeDomain>
                 </xbrldi:typedMember>
                 <xbrldi:typedMember dimension="in-rbi-rep:IndustryNameAxis">
-                    <in-rbi-rep-par:IndustryNameDomain>Wholesale Food Procurement</in-rbi-rep-par:IndustryNameDomain>
+                    <in-rbi-rep-par:IndustryNameDomain>Mfg of Gas</in-rbi-rep-par:IndustryNameDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:GroupBorrowerCode">
+                    <in-rbi-rep-par:GroupBorrowerCodeDomain>A0023</in-rbi-rep-par:GroupBorrowerCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:GroupAxis">
+                    <in-rbi-rep-par:GroupDomain>AIR LIQUIDE GROUP</in-rbi-rep-par:GroupDomain>
                 </xbrldi:typedMember>
             </xbrli:segment>
         </xbrli:entity>
         <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
+            <xbrli:instant>2020-09-30</xbrli:instant>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_AAACF0365N_FOODCORPORATIONOFINDIA_51201_WholesaleFoodProcurement">
+    <xbrli:context id="fromto_20200701_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">
         <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
             <xbrli:segment>
-                <xbrldi:typedMember dimension="in-rbi-rep:PermanentAccountNumberAxis">
-                    <in-rbi-rep-par:PermanentAccountNumberDomain>AAACF0365N</in-rbi-rep-par:PermanentAccountNumberDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerAxis">
-                    <in-rbi-rep-par:NameOfBorrowerDomain>FOOD CORPORATION OF INDIA</in-rbi-rep-par:NameOfBorrowerDomain>
+                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RegionOfBusinessAxis">in-rbi-rep:GlobalMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:UniqueTransactionCodeAxis">
+                    <in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID1</in-rbi-rep-par:UniqueTransactionCodeDomain>
                 </xbrldi:typedMember>
                 <xbrldi:typedMember dimension="in-rbi-rep:IndustryCodeAxis">
-                    <in-rbi-rep-par:IndustryCodeDomain>51201</in-rbi-rep-par:IndustryCodeDomain>
+                    <in-rbi-rep-par:IndustryCodeDomain>40201</in-rbi-rep-par:IndustryCodeDomain>
                 </xbrldi:typedMember>
                 <xbrldi:typedMember dimension="in-rbi-rep:IndustryNameAxis">
-                    <in-rbi-rep-par:IndustryNameDomain>Wholesale Food Procurement</in-rbi-rep-par:IndustryNameDomain>
+                    <in-rbi-rep-par:IndustryNameDomain>Mfg of Gas</in-rbi-rep-par:IndustryNameDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:GroupBorrowerCode">
+                    <in-rbi-rep-par:GroupBorrowerCodeDomain>A0023</in-rbi-rep-par:GroupBorrowerCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:GroupAxis">
+                    <in-rbi-rep-par:GroupDomain>AIR LIQUIDE GROUP</in-rbi-rep-par:GroupDomain>
                 </xbrldi:typedMember>
             </xbrli:segment>
         </xbrli:entity>
         <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
+            <xbrli:startDate>2020-07-01</xbrli:startDate>
+            <xbrli:endDate>2020-09-30</xbrli:endDate>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="asof_20210930_NonFundedMember_IndividualBorrowerMember_AAACT4053B_THECOTTONCORPORATIONOFINDIALIMITED_51401_WholesaleCotton">
+    <xbrli:context id="asof_20200930_DomesticMember_CounterPartyBankMember_YESBANKLTD_ALANDISLANDS_TransactionID1">
         <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
             <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:PermanentAccountNumberAxis">
-                    <in-rbi-rep-par:PermanentAccountNumberDomain>AAACT4053B</in-rbi-rep-par:PermanentAccountNumberDomain>
+                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RegionOfBusinessAxis">in-rbi-rep:DomesticMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CounterPartyBankNameAxis">
+                    <in-rbi-rep-par:CounterPartyBankNameDomain>YES BANK LTD.</in-rbi-rep-par:CounterPartyBankNameDomain>
                 </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerAxis">
-                    <in-rbi-rep-par:NameOfBorrowerDomain>THE COTTON CORPORATION OF INDIA LIMITED</in-rbi-rep-par:NameOfBorrowerDomain>
+                <xbrldi:typedMember dimension="in-rbi-rep:CounterPartyBankDomicileAxis">
+                    <in-rbi-rep-par:CounterPartyBankDomicileDomain>ALAND ISLANDS</in-rbi-rep-par:CounterPartyBankDomicileDomain>
                 </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryCodeAxis">
-                    <in-rbi-rep-par:IndustryCodeDomain>51401</in-rbi-rep-par:IndustryCodeDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryNameAxis">
-                    <in-rbi-rep-par:IndustryNameDomain>Wholesale Cotton</in-rbi-rep-par:IndustryNameDomain>
+                <xbrldi:typedMember dimension="in-rbi-rep:UniqueTransactionCodeAxis">
+                    <in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID1</in-rbi-rep-par:UniqueTransactionCodeDomain>
                 </xbrldi:typedMember>
             </xbrli:segment>
         </xbrli:entity>
         <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
+            <xbrli:instant>2020-09-30</xbrli:instant>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_IndividualBorrowerMember_AAACT4053B_THECOTTONCORPORATIONOFINDIALIMITED_51401_WholesaleCotton">
+    <xbrli:context id="fromto_20200701_20200930_DomesticMember_CounterPartyBankMember_YESBANKLTD_ALANDISLANDS_TransactionID1">
         <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
             <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:PermanentAccountNumberAxis">
-                    <in-rbi-rep-par:PermanentAccountNumberDomain>AAACT4053B</in-rbi-rep-par:PermanentAccountNumberDomain>
+                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:CounterPartyBankMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RegionOfBusinessAxis">in-rbi-rep:DomesticMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CounterPartyBankNameAxis">
+                    <in-rbi-rep-par:CounterPartyBankNameDomain>YES BANK LTD.</in-rbi-rep-par:CounterPartyBankNameDomain>
                 </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerAxis">
-                    <in-rbi-rep-par:NameOfBorrowerDomain>THE COTTON CORPORATION OF INDIA LIMITED</in-rbi-rep-par:NameOfBorrowerDomain>
+                <xbrldi:typedMember dimension="in-rbi-rep:CounterPartyBankDomicileAxis">
+                    <in-rbi-rep-par:CounterPartyBankDomicileDomain>ALAND ISLANDS</in-rbi-rep-par:CounterPartyBankDomicileDomain>
                 </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryCodeAxis">
-                    <in-rbi-rep-par:IndustryCodeDomain>51401</in-rbi-rep-par:IndustryCodeDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryNameAxis">
-                    <in-rbi-rep-par:IndustryNameDomain>Wholesale Cotton</in-rbi-rep-par:IndustryNameDomain>
+                <xbrldi:typedMember dimension="in-rbi-rep:UniqueTransactionCodeAxis">
+                    <in-rbi-rep-par:UniqueTransactionCodeDomain>TransactionID1</in-rbi-rep-par:UniqueTransactionCodeDomain>
                 </xbrldi:typedMember>
             </xbrli:segment>
         </xbrli:entity>
         <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
+            <xbrli:startDate>2020-07-01</xbrli:startDate>
+            <xbrli:endDate>2020-09-30</xbrli:endDate>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="asof_20210930_FundedMember_IndividualBorrowerMember_AAACT4053B_THECOTTONCORPORATIONOFINDIALIMITED_51401_WholesaleCotton">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:FundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:PermanentAccountNumberAxis">
-                    <in-rbi-rep-par:PermanentAccountNumberDomain>AAACT4053B</in-rbi-rep-par:PermanentAccountNumberDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerAxis">
-                    <in-rbi-rep-par:NameOfBorrowerDomain>THE COTTON CORPORATION OF INDIA LIMITED</in-rbi-rep-par:NameOfBorrowerDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryCodeAxis">
-                    <in-rbi-rep-par:IndustryCodeDomain>51401</in-rbi-rep-par:IndustryCodeDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryNameAxis">
-                    <in-rbi-rep-par:IndustryNameDomain>Wholesale Cotton</in-rbi-rep-par:IndustryNameDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_AAACT4053B_THECOTTONCORPORATIONOFINDIALIMITED_51401_WholesaleCotton">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:typedMember dimension="in-rbi-rep:PermanentAccountNumberAxis">
-                    <in-rbi-rep-par:PermanentAccountNumberDomain>AAACT4053B</in-rbi-rep-par:PermanentAccountNumberDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerAxis">
-                    <in-rbi-rep-par:NameOfBorrowerDomain>THE COTTON CORPORATION OF INDIA LIMITED</in-rbi-rep-par:NameOfBorrowerDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryCodeAxis">
-                    <in-rbi-rep-par:IndustryCodeDomain>51401</in-rbi-rep-par:IndustryCodeDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryNameAxis">
-                    <in-rbi-rep-par:IndustryNameDomain>Wholesale Cotton</in-rbi-rep-par:IndustryNameDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_FundedMember_BorrowerGroupMember_NTPC_HINDUSTANURVARAK&amp;RASAYANLIMITED">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:FundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>NTPC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfGroupCompanyAxis">
-                    <in-rbi-rep-par:NameOfGroupCompanyDomain>HINDUSTAN URVARAK &amp; RASAYAN LIMITED</in-rbi-rep-par:NameOfGroupCompanyDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_NonFundedMember_BorrowerGroupMember_NTPC">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>NTPC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_NonFundedMember_BorrowerGroupMember_NTPC_HINDUSTANURVARAK&amp;RASAYANLIMITED">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>NTPC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfGroupCompanyAxis">
-                    <in-rbi-rep-par:NameOfGroupCompanyDomain>HINDUSTAN URVARAK &amp; RASAYAN LIMITED</in-rbi-rep-par:NameOfGroupCompanyDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_FundedMember_BorrowerGroupMember_NTPC">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:FundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>NTPC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_BorrowerGroupMember_NTPC">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>NTPC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_BorrowerGroupMember_NTPC_HINDUSTANURVARAK&amp;RASAYANLIMITED">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>NTPC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfGroupCompanyAxis">
-                    <in-rbi-rep-par:NameOfGroupCompanyDomain>HINDUSTAN URVARAK &amp; RASAYAN LIMITED</in-rbi-rep-par:NameOfGroupCompanyDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_FundedMember_BorrowerGroupMember_ONGC_ONGCVIDESHLIMITED">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:FundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>ONGC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfGroupCompanyAxis">
-                    <in-rbi-rep-par:NameOfGroupCompanyDomain>ONGC VIDESH LIMITED</in-rbi-rep-par:NameOfGroupCompanyDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_NonFundedMember_BorrowerGroupMember_ONGC">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>ONGC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_NonFundedMember_BorrowerGroupMember_ONGC_ONGCVIDESHLIMITED">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>ONGC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfGroupCompanyAxis">
-                    <in-rbi-rep-par:NameOfGroupCompanyDomain>ONGC VIDESH LIMITED</in-rbi-rep-par:NameOfGroupCompanyDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_FundedMember_BorrowerGroupMember_ONGC">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:FundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>ONGC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_BorrowerGroupMember_ONGC">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>ONGC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_BorrowerGroupMember_ONGC_ONGCVIDESHLIMITED">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>ONGC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfGroupCompanyAxis">
-                    <in-rbi-rep-par:NameOfGroupCompanyDomain>ONGC VIDESH LIMITED</in-rbi-rep-par:NameOfGroupCompanyDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_NonFundedMember_IndividualBorrowerMember_AAACF0365N_FOODCORPORATIONOFINDIA_51201_WholesaleFoodProcurement">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:PermanentAccountNumberAxis">
-                    <in-rbi-rep-par:PermanentAccountNumberDomain>AAACF0365N</in-rbi-rep-par:PermanentAccountNumberDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerAxis">
-                    <in-rbi-rep-par:NameOfBorrowerDomain>FOOD CORPORATION OF INDIA</in-rbi-rep-par:NameOfBorrowerDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryCodeAxis">
-                    <in-rbi-rep-par:IndustryCodeDomain>51201</in-rbi-rep-par:IndustryCodeDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryNameAxis">
-                    <in-rbi-rep-par:IndustryNameDomain>Wholesale Food Procurement</in-rbi-rep-par:IndustryNameDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_IndividualBorrowerMember_AAACF0365N_FOODCORPORATIONOFINDIA_51201_WholesaleFoodProcurement">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:PermanentAccountNumberAxis">
-                    <in-rbi-rep-par:PermanentAccountNumberDomain>AAACF0365N</in-rbi-rep-par:PermanentAccountNumberDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerAxis">
-                    <in-rbi-rep-par:NameOfBorrowerDomain>FOOD CORPORATION OF INDIA</in-rbi-rep-par:NameOfBorrowerDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryCodeAxis">
-                    <in-rbi-rep-par:IndustryCodeDomain>51201</in-rbi-rep-par:IndustryCodeDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryNameAxis">
-                    <in-rbi-rep-par:IndustryNameDomain>Wholesale Food Procurement</in-rbi-rep-par:IndustryNameDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_FundedMember_IndividualBorrowerMember_AAACF0365N_FOODCORPORATIONOFINDIA_51201_WholesaleFoodProcurement">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:FundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:PermanentAccountNumberAxis">
-                    <in-rbi-rep-par:PermanentAccountNumberDomain>AAACF0365N</in-rbi-rep-par:PermanentAccountNumberDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerAxis">
-                    <in-rbi-rep-par:NameOfBorrowerDomain>FOOD CORPORATION OF INDIA</in-rbi-rep-par:NameOfBorrowerDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryCodeAxis">
-                    <in-rbi-rep-par:IndustryCodeDomain>51201</in-rbi-rep-par:IndustryCodeDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryNameAxis">
-                    <in-rbi-rep-par:IndustryNameDomain>Wholesale Food Procurement</in-rbi-rep-par:IndustryNameDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_AAACF0365N_FOODCORPORATIONOFINDIA_51201_WholesaleFoodProcurement">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:typedMember dimension="in-rbi-rep:PermanentAccountNumberAxis">
-                    <in-rbi-rep-par:PermanentAccountNumberDomain>AAACF0365N</in-rbi-rep-par:PermanentAccountNumberDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerAxis">
-                    <in-rbi-rep-par:NameOfBorrowerDomain>FOOD CORPORATION OF INDIA</in-rbi-rep-par:NameOfBorrowerDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryCodeAxis">
-                    <in-rbi-rep-par:IndustryCodeDomain>51201</in-rbi-rep-par:IndustryCodeDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryNameAxis">
-                    <in-rbi-rep-par:IndustryNameDomain>Wholesale Food Procurement</in-rbi-rep-par:IndustryNameDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_NonFundedMember_IndividualBorrowerMember_AAACT4053B_THECOTTONCORPORATIONOFINDIALIMITED_51401_WholesaleCotton">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:PermanentAccountNumberAxis">
-                    <in-rbi-rep-par:PermanentAccountNumberDomain>AAACT4053B</in-rbi-rep-par:PermanentAccountNumberDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerAxis">
-                    <in-rbi-rep-par:NameOfBorrowerDomain>THE COTTON CORPORATION OF INDIA LIMITED</in-rbi-rep-par:NameOfBorrowerDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryCodeAxis">
-                    <in-rbi-rep-par:IndustryCodeDomain>51401</in-rbi-rep-par:IndustryCodeDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryNameAxis">
-                    <in-rbi-rep-par:IndustryNameDomain>Wholesale Cotton</in-rbi-rep-par:IndustryNameDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_IndividualBorrowerMember_AAACT4053B_THECOTTONCORPORATIONOFINDIALIMITED_51401_WholesaleCotton">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:PermanentAccountNumberAxis">
-                    <in-rbi-rep-par:PermanentAccountNumberDomain>AAACT4053B</in-rbi-rep-par:PermanentAccountNumberDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerAxis">
-                    <in-rbi-rep-par:NameOfBorrowerDomain>THE COTTON CORPORATION OF INDIA LIMITED</in-rbi-rep-par:NameOfBorrowerDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryCodeAxis">
-                    <in-rbi-rep-par:IndustryCodeDomain>51401</in-rbi-rep-par:IndustryCodeDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryNameAxis">
-                    <in-rbi-rep-par:IndustryNameDomain>Wholesale Cotton</in-rbi-rep-par:IndustryNameDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_FundedMember_IndividualBorrowerMember_AAACT4053B_THECOTTONCORPORATIONOFINDIALIMITED_51401_WholesaleCotton">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:FundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:IndividualBorrowerMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:PermanentAccountNumberAxis">
-                    <in-rbi-rep-par:PermanentAccountNumberDomain>AAACT4053B</in-rbi-rep-par:PermanentAccountNumberDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerAxis">
-                    <in-rbi-rep-par:NameOfBorrowerDomain>THE COTTON CORPORATION OF INDIA LIMITED</in-rbi-rep-par:NameOfBorrowerDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryCodeAxis">
-                    <in-rbi-rep-par:IndustryCodeDomain>51401</in-rbi-rep-par:IndustryCodeDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryNameAxis">
-                    <in-rbi-rep-par:IndustryNameDomain>Wholesale Cotton</in-rbi-rep-par:IndustryNameDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_AAACT4053B_THECOTTONCORPORATIONOFINDIALIMITED_51401_WholesaleCotton">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:typedMember dimension="in-rbi-rep:PermanentAccountNumberAxis">
-                    <in-rbi-rep-par:PermanentAccountNumberDomain>AAACT4053B</in-rbi-rep-par:PermanentAccountNumberDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerAxis">
-                    <in-rbi-rep-par:NameOfBorrowerDomain>THE COTTON CORPORATION OF INDIA LIMITED</in-rbi-rep-par:NameOfBorrowerDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryCodeAxis">
-                    <in-rbi-rep-par:IndustryCodeDomain>51401</in-rbi-rep-par:IndustryCodeDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:IndustryNameAxis">
-                    <in-rbi-rep-par:IndustryNameDomain>Wholesale Cotton</in-rbi-rep-par:IndustryNameDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_FundedMember_BorrowerGroupMember_NTPC_HINDUSTANURVARAK&amp;RASAYANLIMITED">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:FundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>NTPC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfGroupCompanyAxis">
-                    <in-rbi-rep-par:NameOfGroupCompanyDomain>HINDUSTAN URVARAK &amp; RASAYAN LIMITED</in-rbi-rep-par:NameOfGroupCompanyDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_NonFundedMember_BorrowerGroupMember_NTPC">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>NTPC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_NonFundedMember_BorrowerGroupMember_NTPC_HINDUSTANURVARAK&amp;RASAYANLIMITED">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>NTPC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfGroupCompanyAxis">
-                    <in-rbi-rep-par:NameOfGroupCompanyDomain>HINDUSTAN URVARAK &amp; RASAYAN LIMITED</in-rbi-rep-par:NameOfGroupCompanyDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_FundedMember_BorrowerGroupMember_NTPC">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:FundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>NTPC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_BorrowerGroupMember_NTPC">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>NTPC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_BorrowerGroupMember_NTPC_HINDUSTANURVARAK&amp;RASAYANLIMITED">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>NTPC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfGroupCompanyAxis">
-                    <in-rbi-rep-par:NameOfGroupCompanyDomain>HINDUSTAN URVARAK &amp; RASAYAN LIMITED</in-rbi-rep-par:NameOfGroupCompanyDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_FundedMember_BorrowerGroupMember_ONGC_ONGCVIDESHLIMITED">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:FundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>ONGC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfGroupCompanyAxis">
-                    <in-rbi-rep-par:NameOfGroupCompanyDomain>ONGC VIDESH LIMITED</in-rbi-rep-par:NameOfGroupCompanyDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_NonFundedMember_BorrowerGroupMember_ONGC">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>ONGC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_NonFundedMember_BorrowerGroupMember_ONGC_ONGCVIDESHLIMITED">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:NonFundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>ONGC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfGroupCompanyAxis">
-                    <in-rbi-rep-par:NameOfGroupCompanyDomain>ONGC VIDESH LIMITED</in-rbi-rep-par:NameOfGroupCompanyDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_FundedMember_BorrowerGroupMember_ONGC">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:ExposureTypeAxis">in-rbi-rep:FundedMember</xbrldi:explicitMember>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>ONGC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_BorrowerGroupMember_ONGC">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>ONGC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_BorrowerGroupMember_ONGC_ONGCVIDESHLIMITED">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:LargeCreditAxis">in-rbi-rep:BorrowerGroupMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBorrowerGroupAxis">
-                    <in-rbi-rep-par:NameOfBorrowerGroupDomain>ONGC</in-rbi-rep-par:NameOfBorrowerGroupDomain>
-                </xbrldi:typedMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfGroupCompanyAxis">
-                    <in-rbi-rep-par:NameOfGroupCompanyDomain>ONGC VIDESH LIMITED</in-rbi-rep-par:NameOfGroupCompanyDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
-        </xbrli:period>
-    </xbrli:context>
-    <in-rbi-rep:ReturnName contextRef="fromto_20210401_20210930">Report on Subsidiaries</in-rbi-rep:ReturnName>
-    <in-rbi-rep:ReturnCode contextRef="fromto_20210401_20210930">ROS</in-rbi-rep:ReturnCode>
-    <in-rbi-rep:NameOfReportingInstitution contextRef="fromto_20210401_20210930">Punjab National Bank</in-rbi-rep:NameOfReportingInstitution>
-    <in-rbi-rep:BankCode contextRef="asof_20210930">600</in-rbi-rep:BankCode>
-    <in-rbi-rep:AddressOfReportingInstitution contextRef="fromto_20210401_20210930">Punjab National Bank corporate office dwarka</in-rbi-rep:AddressOfReportingInstitution>
-    <in-rbi-rep:ReportingFrequency contextRef="fromto_20210401_20210930">HalfYearly</in-rbi-rep:ReportingFrequency>
-    <in-rbi-rep:ReportForTheYearEnded contextRef="fromto_20210401_20210930">2021-09-30</in-rbi-rep:ReportForTheYearEnded>
-    <in-rbi-rep:DateOfReport contextRef="asof_20210930">2021-09-30</in-rbi-rep:DateOfReport>
-    <in-rbi-rep:ValidationStatus contextRef="fromto_20210401_20210930">validated</in-rbi-rep:ValidationStatus>
-    <in-rbi-rep:ReturnVersion contextRef="fromto_20210401_20210930">v1.2</in-rbi-rep:ReturnVersion>
-    <in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20210930">2021-04-01</in-rbi-rep:ReportingPeriodStartDate>
-    <in-rbi-rep:Assets decimals="-3" unitRef="INR" contextRef="asof_20210930">12935763752000</in-rbi-rep:Assets>
-    <in-rbi-rep:Sector contextRef="fromto_20210401_20210930_AAACF0365N_FOODCORPORATIONOFINDIA_51201_WholesaleFoodProcurement">10-Public-central government</in-rbi-rep:Sector>
-    <in-rbi-rep:ExposureAmount decimals="-5" unitRef="INR" contextRef="asof_20210930_FundedMember_IndividualBorrowerMember_AAACF0365N_FOODCORPORATIONOFINDIA_51201_WholesaleFoodProcurement">142500000000</in-rbi-rep:ExposureAmount>
-    <in-rbi-rep:ExposureAmount decimals="0" unitRef="INR" contextRef="asof_20210930_NonFundedMember_IndividualBorrowerMember_AAACF0365N_FOODCORPORATIONOFINDIA_51201_WholesaleFoodProcurement">0</in-rbi-rep:ExposureAmount>
-    <in-rbi-rep:ExposuresAsPercentToCapitalFunds decimals="4" unitRef="PURE" contextRef="fromto_20210401_20210930_IndividualBorrowerMember_AAACF0365N_FOODCORPORATIONOFINDIA_51201_WholesaleFoodProcurement">0.1586</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
-    <in-rbi-rep:Sector contextRef="fromto_20210401_20210930_AAACT4053B_THECOTTONCORPORATIONOFINDIALIMITED_51401_WholesaleCotton">10-Public-central government</in-rbi-rep:Sector>
-    <in-rbi-rep:ExposureAmount decimals="-5" unitRef="INR" contextRef="asof_20210930_FundedMember_IndividualBorrowerMember_AAACT4053B_THECOTTONCORPORATIONOFINDIALIMITED_51401_WholesaleCotton">111000000000</in-rbi-rep:ExposureAmount>
-    <in-rbi-rep:ExposureAmount decimals="0" unitRef="INR" contextRef="asof_20210930_NonFundedMember_IndividualBorrowerMember_AAACT4053B_THECOTTONCORPORATIONOFINDIALIMITED_51401_WholesaleCotton">0</in-rbi-rep:ExposureAmount>
-    <in-rbi-rep:ExposuresAsPercentToCapitalFunds decimals="4" unitRef="PURE" contextRef="fromto_20210401_20210930_IndividualBorrowerMember_AAACT4053B_THECOTTONCORPORATIONOFINDIALIMITED_51401_WholesaleCotton">0.1235</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
-    <in-rbi-rep:ExposureAmount decimals="-3" unitRef="INR" contextRef="asof_20210930_FundedMember_IndividualBorrowerMember">1475662873000</in-rbi-rep:ExposureAmount>
-    <in-rbi-rep:ExposureAmount decimals="-3" unitRef="INR" contextRef="asof_20210930_NonFundedMember_IndividualBorrowerMember">30765676000</in-rbi-rep:ExposureAmount>
-    <in-rbi-rep:ExposuresAsPercentToCapitalFunds decimals="5" unitRef="PURE" contextRef="fromto_20210401_20210930_IndividualBorrowerMember">0.16762</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
-    <in-rbi-rep:ExposureAmount decimals="-3" unitRef="INR" contextRef="asof_20210930_FundedMember_BorrowerGroupMember_NTPC_HINDUSTANURVARAK&amp;RASAYANLIMITED">66602138000</in-rbi-rep:ExposureAmount>
-    <in-rbi-rep:ExposureAmount decimals="0" unitRef="INR" contextRef="asof_20210930_NonFundedMember_BorrowerGroupMember_NTPC_HINDUSTANURVARAK&amp;RASAYANLIMITED">0</in-rbi-rep:ExposureAmount>
-    <in-rbi-rep:ExposuresAsPercentToCapitalFunds decimals="4" unitRef="PURE" contextRef="fromto_20210401_20210930_BorrowerGroupMember_NTPC_HINDUSTANURVARAK&amp;RASAYANLIMITED">0.0741</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
-    <in-rbi-rep:ExposureAmount decimals="-3" unitRef="INR" contextRef="asof_20210930_FundedMember_BorrowerGroupMember_NTPC_HINDUSTANURVARAK&amp;RASAYANLIMITED">29639788000</in-rbi-rep:ExposureAmount>
-    <in-rbi-rep:ExposureAmount decimals="-5" unitRef="INR" contextRef="asof_20210930_NonFundedMember_BorrowerGroupMember_NTPC_HINDUSTANURVARAK&amp;RASAYANLIMITED">1000000</in-rbi-rep:ExposureAmount>
-    <in-rbi-rep:ExposuresAsPercentToCapitalFunds decimals="4" unitRef="PURE" contextRef="fromto_20210401_20210930_BorrowerGroupMember_NTPC_HINDUSTANURVARAK&amp;RASAYANLIMITED">0.0330</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
-    <in-rbi-rep:ExposureAmount decimals="-3" unitRef="INR" contextRef="asof_20210930_FundedMember_BorrowerGroupMember_NTPC">116020092000</in-rbi-rep:ExposureAmount>
-    <in-rbi-rep:ExposureAmount decimals="-3" unitRef="INR" contextRef="asof_20210930_NonFundedMember_BorrowerGroupMember_NTPC">190172000</in-rbi-rep:ExposureAmount>
-    <in-rbi-rep:ExposuresAsPercentToCapitalFunds decimals="4" unitRef="PURE" contextRef="fromto_20210401_20210930_BorrowerGroupMember_NTPC">0.1294</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
-    <in-rbi-rep:ExposureAmount decimals="-3" unitRef="INR" contextRef="asof_20210930_FundedMember_BorrowerGroupMember_ONGC_ONGCVIDESHLIMITED">19566867000</in-rbi-rep:ExposureAmount>
-    <in-rbi-rep:ExposureAmount decimals="0" unitRef="INR" contextRef="asof_20210930_NonFundedMember_BorrowerGroupMember_ONGC_ONGCVIDESHLIMITED">0</in-rbi-rep:ExposureAmount>
-    <in-rbi-rep:ExposuresAsPercentToCapitalFunds decimals="4" unitRef="PURE" contextRef="fromto_20210401_20210930_BorrowerGroupMember_ONGC_ONGCVIDESHLIMITED">0.0218</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
-    <in-rbi-rep:ExposureAmount decimals="-5" unitRef="INR" contextRef="asof_20210930_FundedMember_BorrowerGroupMember_ONGC_ONGCVIDESHLIMITED">14103700000</in-rbi-rep:ExposureAmount>
-    <in-rbi-rep:ExposureAmount decimals="0" unitRef="INR" contextRef="asof_20210930_NonFundedMember_BorrowerGroupMember_ONGC_ONGCVIDESHLIMITED">0</in-rbi-rep:ExposureAmount>
-    <in-rbi-rep:ExposuresAsPercentToCapitalFunds decimals="4" unitRef="PURE" contextRef="fromto_20210401_20210930_BorrowerGroupMember_ONGC_ONGCVIDESHLIMITED">0.0157</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
-    <in-rbi-rep:ExposureAmount decimals="-3" unitRef="INR" contextRef="asof_20210930_FundedMember_BorrowerGroupMember_ONGC">55237775000</in-rbi-rep:ExposureAmount>
-    <in-rbi-rep:ExposureAmount decimals="-5" unitRef="INR" contextRef="asof_20210930_NonFundedMember_BorrowerGroupMember_ONGC">3078200000</in-rbi-rep:ExposureAmount>
-    <in-rbi-rep:ExposuresAsPercentToCapitalFunds decimals="4" unitRef="PURE" contextRef="fromto_20210401_20210930_BorrowerGroupMember_ONGC">0.0649</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
-    <in-rbi-rep:ExposureAmount decimals="-3" unitRef="INR" contextRef="asof_20210930_FundedMember_BorrowerGroupMember">1649747541000</in-rbi-rep:ExposureAmount>
-    <in-rbi-rep:ExposureAmount decimals="-3" unitRef="INR" contextRef="asof_20210930_NonFundedMember_BorrowerGroupMember">51806128000</in-rbi-rep:ExposureAmount>
-    <in-rbi-rep:ExposuresAsPercentToCapitalFunds decimals="5" unitRef="PURE" contextRef="fromto_20210401_20210930_BorrowerGroupMember">0.18935</in-rbi-rep:ExposuresAsPercentToCapitalFunds>
-    <in-rbi-rep:ReturnName contextRef="fromto_20210401_20210930">Report on Subsidiaries</in-rbi-rep:ReturnName>
-    <in-rbi-rep:OvernightOpenPositionLimitForConsolidatedBank decimals="-3" unitRef="INR" contextRef="asof_20210930">1012666000</in-rbi-rep:OvernightOpenPositionLimitForConsolidatedBank>
-    <in-rbi-rep:LoansAndAdvancesToCapitalMarket decimals="-3" unitRef="INR" contextRef="asof_20210930">33842872000</in-rbi-rep:LoansAndAdvancesToCapitalMarket>
-    <in-rbi-rep:LoansAndAdvancesToCapitalMarket decimals="-3" unitRef="INR" contextRef="asof_20210930_FundedMember">30553272000</in-rbi-rep:LoansAndAdvancesToCapitalMarket>
-    <in-rbi-rep:LoansAndAdvancesToCapitalMarket decimals="-5" unitRef="INR" contextRef="asof_20210930_NonFundedMember">3289600000</in-rbi-rep:LoansAndAdvancesToCapitalMarket>
-    <in-rbi-rep:EquityInvestmentInCapitalMarket decimals="-5" unitRef="INR" contextRef="asof_20210930">38719200000</in-rbi-rep:EquityInvestmentInCapitalMarket>
-    <in-rbi-rep:AggregateCapitalMarketExposure decimals="-3" unitRef="INR" contextRef="asof_20210930">72562072000</in-rbi-rep:AggregateCapitalMarketExposure>
-    <in-rbi-rep:AggregateCapitalMarketExposureAsAPercentageOfAggregateOnBalanceSheetAssetsOfConsolidatedBankExcludingIntangibleAssetsAndAccumulatedLosses decimals="0" unitRef="PURE" contextRef="fromto_20210401_20210930">0</in-rbi-rep:AggregateCapitalMarketExposureAsAPercentageOfAggregateOnBalanceSheetAssetsOfConsolidatedBankExcludingIntangibleAssetsAndAccumulatedLosses>
-    <in-rbi-rep:EquityInvestmentInCapitalMarketAsAPercentageOfNetWorth decimals="0" unitRef="PURE" contextRef="fromto_20210401_20210930">0</in-rbi-rep:EquityInvestmentInCapitalMarketAsAPercentageOfNetWorth>
-    <in-rbi-rep:OutstandingUnsecuredGuarantees decimals="-5" unitRef="INR" contextRef="asof_20210930">257919300000</in-rbi-rep:OutstandingUnsecuredGuarantees>
-    <in-rbi-rep:OutstandingUnsecuredAdvances decimals="-3" unitRef="INR" contextRef="asof_20210930">2155909844000</in-rbi-rep:OutstandingUnsecuredAdvances>
-    <in-rbi-rep:OutstandingAdvances decimals="-3" unitRef="INR" contextRef="asof_20210930">7444318987000</in-rbi-rep:OutstandingAdvances>
-    <in-rbi-rep:BanksOutstandingUnsecuredGuaranteesPlusTotalOutstandingUnsecuredAdvancesAsAPercentageOfTotalOutstandingAdvances decimals="4" unitRef="PURE" contextRef="asof_20210930">0.3243</in-rbi-rep:BanksOutstandingUnsecuredGuaranteesPlusTotalOutstandingUnsecuredAdvancesAsAPercentageOfTotalOutstandingAdvances>
-    <in-rbi-rep:CashFundsForConsolidatedBankEligibleForCRRPurpose decimals="-5" unitRef="INR" contextRef="asof_20210930">464852500000</in-rbi-rep:CashFundsForConsolidatedBankEligibleForCRRPurpose>
-    <in-rbi-rep:LiquidAssetsForConsolidatedBankEligibleForSLRPurpose decimals="-5" unitRef="INR" contextRef="asof_20210930">1303857400000</in-rbi-rep:LiquidAssetsForConsolidatedBankEligibleForSLRPurpose>
-    <in-rbi-rep:CRRPercentForConsolidatedBank decimals="2" unitRef="PURE" contextRef="asof_20210930">0.04</in-rbi-rep:CRRPercentForConsolidatedBank>
-    <in-rbi-rep:SLRPercentForConsolidatedBank decimals="4" unitRef="PURE" contextRef="asof_20210930">0.3054</in-rbi-rep:SLRPercentForConsolidatedBank>
+    <in-rbi-rep:ReturnName contextRef="fromto_20200701_20200930">Report on Large Credit</in-rbi-rep:ReturnName>
+    <in-rbi-rep:ReturnCode contextRef="fromto_20200701_20200930">RLC</in-rbi-rep:ReturnCode>
+    <in-rbi-rep:NameOfReportingInstitution contextRef="fromto_20200701_20200930">AXIS BANK LIMITED</in-rbi-rep:NameOfReportingInstitution>
+    <in-rbi-rep:BankCode contextRef="asof_20200930">636</in-rbi-rep:BankCode>
+    <in-rbi-rep:Address contextRef="fromto_20200701_20200930">AUDUau</in-rbi-rep:Address>
+    <in-rbi-rep:ReportForTheYearEnded contextRef="fromto_20200701_20200930">2020-09-30</in-rbi-rep:ReportForTheYearEnded>
+    <in-rbi-rep:ReportingFrequency contextRef="fromto_20200701_20200930">Quarterly</in-rbi-rep:ReportingFrequency>
+    <in-rbi-rep:ReportStatus contextRef="fromto_20200701_20200930">Un-Audited</in-rbi-rep:ReportStatus>
+    <in-rbi-rep:WhetherNilReporting contextRef="fromto_20200701_20200930">false</in-rbi-rep:WhetherNilReporting>
+    <in-rbi-rep:CategoriesOfBanks contextRef="fromto_20200701_20200930">Domestic bank with overseas branches</in-rbi-rep:CategoriesOfBanks>
+    <in-rbi-rep:ReturnVersion contextRef="fromto_20200701_20200930">V1.5</in-rbi-rep:ReturnVersion>
+    <in-rbi-rep:GeneralRemarks contextRef="fromto_20200701_20200930">df weru werwer null</in-rbi-rep:GeneralRemarks>
+    <in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20200930">2020-07-01</in-rbi-rep:ReportingPeriodStartDate>
+    <in-rbi-rep:RegulatoryCapital decimals="-5" unitRef="INR" contextRef="asof_20200930">1000000</in-rbi-rep:RegulatoryCapital>
+    <in-rbi-rep:CapitalInfusion decimals="-5" unitRef="INR" contextRef="fromto_20200701_20200930">10000000</in-rbi-rep:CapitalInfusion>
+    <in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">AAACW0744L</in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower>
+    <in-rbi-rep:CustomerName contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">WELSPUN CORPORATION LIMITED</in-rbi-rep:CustomerName>
+    <in-rbi-rep:SectorCode contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">30-Private</in-rbi-rep:SectorCode>
+    <in-rbi-rep:BankingArrangement contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">6-Multiple Arrangement and Consortium</in-rbi-rep:BankingArrangement>
+    <in-rbi-rep:InternalRating contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">C</in-rbi-rep:InternalRating>
+    <in-rbi-rep:ExternalRating contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">Not-Rated</in-rbi-rep:ExternalRating>
+    <in-rbi-rep:AssetClassificationRLC contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">S-Standard</in-rbi-rep:AssetClassificationRLC>
+    <in-rbi-rep:LimitSanctionedForFundedExposure decimals="-3" unitRef="INR" contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">1282406000</in-rbi-rep:LimitSanctionedForFundedExposure>
+    <in-rbi-rep:AmountOutstandingForFundedExposure decimals="-3" unitRef="INR" contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">438913000</in-rbi-rep:AmountOutstandingForFundedExposure>
+    <in-rbi-rep:AmountEligibleForNettingFromFundedExposure decimals="0" unitRef="INR" contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">0</in-rbi-rep:AmountEligibleForNettingFromFundedExposure>
+    <in-rbi-rep:AmountOfFundedExposure decimals="-3" unitRef="INR" contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">1282406000</in-rbi-rep:AmountOfFundedExposure>
+    <in-rbi-rep:LimitSanctionedForNonFundedExposure decimals="-3" unitRef="INR" contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">2006594000</in-rbi-rep:LimitSanctionedForNonFundedExposure>
+    <in-rbi-rep:AmountOutstandingForNonFundedExposure decimals="-3" unitRef="INR" contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">2006594000</in-rbi-rep:AmountOutstandingForNonFundedExposure>
+    <in-rbi-rep:AmountOfNonFundedExposure decimals="-3" unitRef="INR" contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">2006594000</in-rbi-rep:AmountOfNonFundedExposure>
+    <in-rbi-rep:AggregateLimitSanctioned decimals="-5" unitRef="INR" contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">3289000000</in-rbi-rep:AggregateLimitSanctioned>
+    <in-rbi-rep:AggregateAmountOutstanding decimals="-3" unitRef="INR" contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">2445507000</in-rbi-rep:AggregateAmountOutstanding>
+    <in-rbi-rep:AggregateCreditExposure decimals="-5" unitRef="INR" contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">3289000000</in-rbi-rep:AggregateCreditExposure>
+    <in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds decimals="1" unitRef="PURE" contextRef="fromto_20200701_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">0.0299</in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds>
+    <in-rbi-rep:AggregateInvestmentExposure decimals="0" unitRef="INR" contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">0</in-rbi-rep:AggregateInvestmentExposure>
+    <in-rbi-rep:AggregateExposure decimals="-5" unitRef="INR" contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">3289000000</in-rbi-rep:AggregateExposure>
+    <in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds decimals="1" unitRef="PURE" contextRef="asof_20200930_GlobalMember_IndividualBorrowersMember_TransactionID1_28101_MfgofStructuralMetalProducts_BankOfBaroda">0.0299</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+    <in-rbi-rep:AmountOfFundedExposure decimals="-5" unitRef="INR" contextRef="asof_20200930_DomesticMember_CounterPartyBankMember_YESBANKLTD_ALANDISLANDS_TransactionID1">4500000</in-rbi-rep:AmountOfFundedExposure>
+    <in-rbi-rep:AmountOfNonFundedExposure decimals="-5" unitRef="INR" contextRef="asof_20200930_DomesticMember_CounterPartyBankMember_YESBANKLTD_ALANDISLANDS_TransactionID1">876700000</in-rbi-rep:AmountOfNonFundedExposure>
+    <in-rbi-rep:AggregateCreditExposure decimals="-5" unitRef="INR" contextRef="asof_20200930_DomesticMember_CounterPartyBankMember_YESBANKLTD_ALANDISLANDS_TransactionID1">881200000</in-rbi-rep:AggregateCreditExposure>
+    <in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds decimals="1" unitRef="PURE" contextRef="fromto_20200701_20200930_DomesticMember_CounterPartyBankMember_YESBANKLTD_ALANDISLANDS_TransactionID1">80.1091</in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds>
+    <in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower contextRef="fromto_20200701_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">AAACA9121F</in-rbi-rep:PermanentAccountNumberOfCustomerOrBorrower>
+    <in-rbi-rep:CustomerName contextRef="fromto_20200701_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">AIR LIQUIDE INDIA HOLDING PVT LTD</in-rbi-rep:CustomerName>
+    <in-rbi-rep:SectorCode contextRef="fromto_20200701_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">30-Private</in-rbi-rep:SectorCode>
+    <in-rbi-rep:BankingArrangement contextRef="fromto_20200701_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">2-Multiple Arrangement</in-rbi-rep:BankingArrangement>
+    <in-rbi-rep:InternalRating contextRef="asof_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">C</in-rbi-rep:InternalRating>
+    <in-rbi-rep:ExternalRating contextRef="fromto_20200701_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">Not-Rated</in-rbi-rep:ExternalRating>
+    <in-rbi-rep:AssetClassificationRLC contextRef="fromto_20200701_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">S-Standard</in-rbi-rep:AssetClassificationRLC>
+    <in-rbi-rep:LimitSanctionedForFundedExposure decimals="-5" unitRef="INR" contextRef="asof_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">350000000</in-rbi-rep:LimitSanctionedForFundedExposure>
+    <in-rbi-rep:AmountOutstandingForFundedExposure decimals="-5" unitRef="INR" contextRef="asof_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">350000000</in-rbi-rep:AmountOutstandingForFundedExposure>
+    <in-rbi-rep:AmountEligibleForNettingFromFundedExposure decimals="0" unitRef="INR" contextRef="asof_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">0</in-rbi-rep:AmountEligibleForNettingFromFundedExposure>
+    <in-rbi-rep:AmountOfFundedExposure decimals="-5" unitRef="INR" contextRef="asof_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">350000000</in-rbi-rep:AmountOfFundedExposure>
+    <in-rbi-rep:LimitSanctionedForNonFundedExposure decimals="0" unitRef="INR" contextRef="asof_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">0</in-rbi-rep:LimitSanctionedForNonFundedExposure>
+    <in-rbi-rep:AmountOutstandingForNonFundedExposure decimals="0" unitRef="INR" contextRef="asof_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">0</in-rbi-rep:AmountOutstandingForNonFundedExposure>
+    <in-rbi-rep:AmountOfNonFundedExposure decimals="0" unitRef="INR" contextRef="asof_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">0</in-rbi-rep:AmountOfNonFundedExposure>
+    <in-rbi-rep:AggregateLimitSanctioned decimals="-5" unitRef="INR" contextRef="asof_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">350000000</in-rbi-rep:AggregateLimitSanctioned>
+    <in-rbi-rep:AggregateAmountOutstanding decimals="-5" unitRef="INR" contextRef="asof_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">350000000</in-rbi-rep:AggregateAmountOutstanding>
+    <in-rbi-rep:AggregateCreditExposure decimals="-5" unitRef="INR" contextRef="asof_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">350000000</in-rbi-rep:AggregateCreditExposure>
+    <in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds decimals="1" unitRef="PURE" contextRef="fromto_20200701_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">31.8182</in-rbi-rep:AggregateCreditExposureAsPercentageOfCapitalFunds>
+    <in-rbi-rep:AggregateInvestmentExposure decimals="0" unitRef="INR" contextRef="asof_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">0</in-rbi-rep:AggregateInvestmentExposure>
+    <in-rbi-rep:AggregateExposure decimals="-5" unitRef="INR" contextRef="asof_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">350000000</in-rbi-rep:AggregateExposure>
+    <in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds decimals="1" unitRef="PURE" contextRef="asof_20200930_GlobalMember_BorrowerGroupMember_TransactionID1_40201_MfgofGas_A0023_AIRLIQUIDEGROUP">31.8182</in-rbi-rep:AggregateExposureAsPercentageOfCapitalFunds>
+    <in-rbi-rep:NameOfSignatory contextRef="fromto_20200701_20200930">rtre</in-rbi-rep:NameOfSignatory>
+    <in-rbi-rep:DesignationOfSignatory contextRef="fromto_20200701_20200930">erterte</in-rbi-rep:DesignationOfSignatory>
+    <in-rbi-rep:AuthorisedSignatoryMobileNumber decimals="INF" unitRef="PURE" contextRef="fromto_20200701_20200930">55235235236</in-rbi-rep:AuthorisedSignatoryMobileNumber>
+    <in-rbi-rep:AuthorisedSignatoryLandlineNumber decimals="INF" unitRef="PURE" contextRef="fromto_20200701_20200930">52352352355</in-rbi-rep:AuthorisedSignatoryLandlineNumber>
+    <in-rbi-rep:EMailIDOfAuthorisedReportingOfficial contextRef="fromto_20200701_20200930">ertertr@m.vom</in-rbi-rep:EMailIDOfAuthorisedReportingOfficial>
 </xbrli:xbrl>

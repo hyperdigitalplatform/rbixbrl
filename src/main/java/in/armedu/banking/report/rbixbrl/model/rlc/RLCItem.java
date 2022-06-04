@@ -13,7 +13,6 @@ import lombok.Setter;
 
 public class RLCItem extends ItemData {
  
-    private RLCBorrowerMember rLCBorrowerMember;
-    private RLCCounterBankMember rLCCounterBankMember;
+    private RLCBorrowerMember rlcBorrowerMember;
     private RLCBasic rlcBasicInfo;
 }

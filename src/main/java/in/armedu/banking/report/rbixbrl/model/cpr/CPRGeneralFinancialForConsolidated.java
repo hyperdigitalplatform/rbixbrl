@@ -55,26 +55,26 @@ public class CPRGeneralFinancialForConsolidated {
     private String amountOfIssuedCapital;
 
     //international
-    private String assets;
+    private String asset;
     private String capitalAndReserves;
     private String regulatoryCapitalActualOrNotionalAfterNettingForConsolidation;
     private String riskWeightedAssetsActualOrNotional;
     private String capitalAdequacyRatioPercentActualOrNotional;
-    private String aggregateDeposits;
-    private String aggregateBorrowings;
+    private String aggregateDeposit;
+    private String aggregateBorrowing;
     private String grossAdvances;
     private String grossNonPerformingAssets;
-    private String investmentsBookValueMemeber;
-    private String investmentsMarketValueMemeber;
-    private String nonPerformingInvestments;
-    private String nonPerformingAssetsIncludingNonPerformingAdvancesAndInvestments;
+    private String investmentsBookValueMember;
+    private String investmentsMarketValueMember;
+    private String nonPerformingInvestment;
+    private String nonPerformingAssetsIncludingNonPerformingAdvancesAndInvestment;
     private String provisionsHeldForNonPerformingAdvances;
     private String provisionsHeldForNonPerformingInvestments;
     private String profitLossBeforeTax;
-    private String netProfitLossAfterTax;
+    private String netProfitLossTax;
     private String returnOnAssets;
     private String returnOnEquity;
-    private String contingentLiabilities;
+    private String contingentLiabilitie;
     private String dividendPaid;
 
 }

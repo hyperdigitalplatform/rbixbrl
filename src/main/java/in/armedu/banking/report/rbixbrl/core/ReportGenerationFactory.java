@@ -15,8 +15,8 @@ public class ReportGenerationFactory {
         // build ROS report
         else if(RBI_ROS_XBRL_REPORT.equalsIgnoreCase(reportType)) {
             return new XBRLReportBuilder().buildROSReport();
-        } else if(RBI_RLC_XBRL_REPORT.equalsIgnoreCase(reportType)) { // build RLC report
-            return new XBRLReportBuilder().buildRLCReport();
+         } else if(RBI_RLC_XBRL_REPORT.equalsIgnoreCase(reportType)) { // build RLC report
+             return new XBRLReportBuilder().buildRLCReport();
         } else if(RBI_CPR_XBRL_REPORT.equalsIgnoreCase(reportType)) { // build RLC report
             return new XBRLReportBuilder().buildCPRReport();
         }

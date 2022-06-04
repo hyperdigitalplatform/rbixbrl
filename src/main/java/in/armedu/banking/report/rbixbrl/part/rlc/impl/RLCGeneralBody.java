@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
+import java.util.Map;
 
 import javax.xml.bind.JAXBElement;
 import javax.xml.datatype.DatatypeConstants;
@@ -33,25 +34,23 @@ import in.armedu.banking.report.rbixbrl.model.GeneralData;
 import in.armedu.banking.report.rbixbrl.model.ItemData;
 import in.armedu.banking.report.rbixbrl.model.rlc.RLCGeneralData;
 import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCUnit;
-import in.armedu.banking.report.rbixbrl.part.BodyIntf;
+import in.armedu.banking.report.rbixbrl.part.BodyInterface;
 import in.armedu.banking.report.rbixbrl.util.CommonFns;
 
 
-public class RLCGeneralBody implements BodyIntf {
-
+public class RLCGeneralBody implements BodyInterface {
+     
     @Override
-    public List<Object> getReportBodyItem(List<Context> contexts, GeneralData generalData) {
-        RLCGeneralData rlcGeneralData = (RLCGeneralData) generalData;
-
-        return getReportBodyItemOnlyForFromToAndASOF(contexts.get(0), contexts.get(1), 
-        contexts.get(2), contexts.get(3), rlcGeneralData);
- 
-    }
-
-    public List<Object> getReportBodyItemOnlyForFromToAndASOF(Context fromToContext, Context asOfContext,
-    Context asOfContext2, Context fromToContext2, RLCGeneralData rlcGeneralData)
-     { 
+    public List<Object> getReportBodyItem(Map<String, Context> contexts, Map<String, Unit> units, GeneralData generalData) {
+        
+        // TODO add general items related to RLC report
         List<Object> generalItems = new ArrayList<Object>();
+        Context fromToContext = contexts.get(RLCUtil.FROMTO);
+        Context asOfContext = contexts.get(RLCUtil.ASOF);
+
+        Unit unitINR = units.get(RLCUtil.CURRENCY);
+        Unit pureUnit = units.get(RLCUtil.PERCENTAGE);
+        RLCGeneralData rlcGeneralData = (RLCGeneralData) generalData;
         
         org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory rbiObjectFactory;
         rbiObjectFactory = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory();
@@ -164,7 +163,7 @@ public class RLCGeneralBody implements BodyIntf {
         capitalInfusionValue.setValue(new BigDecimal(rlcGeneralData.getCapitalInfusion()));
         JAXBElement<MonetaryItemType> capitalInfusion = rbiObjectFactory.createCapitalInfusion(capitalInfusionValue);
         generalItems.add(capitalInfusion);
-
+/*
         ////Signatory Details
         // create NameOfSignatory
         StringItemType nameOfSignatoryValue = new StringItemType();
@@ -204,7 +203,7 @@ public class RLCGeneralBody implements BodyIntf {
         eMailIDOfAuthorisedReportingOfficialValue.setValue(rlcGeneralData.getEMailIDOfAuthorisedReportingOfficial());
         JAXBElement<StringItemType> eMailIDOfAuthorisedReportingOfficial = rbiObjectFactory.createEMailIDOfAuthorisedReportingOfficial(eMailIDOfAuthorisedReportingOfficialValue);
         generalItems.add(eMailIDOfAuthorisedReportingOfficial);
-        
+   */     
         return generalItems;
       
     }
@@ -225,12 +224,13 @@ public class RLCGeneralBody implements BodyIntf {
         
         return xmlGregCal;
     }
-
+   
     @Override
-    public List<Object> getReportBodyItem(List<Context> contexts, List<Unit> units, GeneralData generalData, ItemData itemData) {
+    public List<Object> getReportBodyItem(Map<String, Context> contexts, Map<String, Unit> units,
+            GeneralData generalInfoData, ItemData rosItem) {
         // TODO Auto-generated method stub
         return null;
     }
-  
+
     
 }
