@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xbrli:xbrl xml:lang="en" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:in-rbi-rep-par="http://www.rbi.org/in-rbi-rep-par">
+    <link:schemaRef xlink:type="simple" xlink:href="in-rbi-rep-fmr4.xsd"/>
+    <xbrli:context id="fromto_20201001_20201231">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2020-10-01</xbrli:startDate>
+            <xbrli:endDate>2020-12-31</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20201001">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2020-10-01</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="fromto_20201001_20201231_RobbersMember_0000003_AKBARPUR_20201022T12:51:00">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:TypeOfCriminalAxis">in-rbi-rep:RobbersMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>0000003</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBranchAxis">
+                    <in-rbi-rep-par:NameOfBranchDomain>AKBARPUR</in-rbi-rep-par:NameOfBranchDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:DateAndTimeOfOccurrenceTypeAxis">
+                    <in-rbi-rep-par:DateAndTimeOfOccurrenceTypeDomain>2020-10-22T00:00:00.000</in-rbi-rep-par:DateAndTimeOfOccurrenceTypeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2020-10-01</xbrli:startDate>
+            <xbrli:endDate>2020-12-31</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="fromto_20201001_20201231_StaffMember_0000003_AKBARPUR_20201022T12:51:00">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:TypeOfCriminalAxis">in-rbi-rep:StaffMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>0000003</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBranchAxis">
+                    <in-rbi-rep-par:NameOfBranchDomain>AKBARPUR</in-rbi-rep-par:NameOfBranchDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:DateAndTimeOfOccurrenceTypeAxis">
+                    <in-rbi-rep-par:DateAndTimeOfOccurrenceTypeDomain>2020-10-22T00:00:00.000</in-rbi-rep-par:DateAndTimeOfOccurrenceTypeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2020-10-01</xbrli:startDate>
+            <xbrli:endDate>2020-12-31</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="fromto_20201001_20201231_0000003_AKBARPUR_20201022T12:51:00">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>0000003</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBranchAxis">
+                    <in-rbi-rep-par:NameOfBranchDomain>AKBARPUR</in-rbi-rep-par:NameOfBranchDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:DateAndTimeOfOccurrenceTypeAxis">
+                    <in-rbi-rep-par:DateAndTimeOfOccurrenceTypeDomain>2020-10-22T00:00:00.000</in-rbi-rep-par:DateAndTimeOfOccurrenceTypeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2020-10-01</xbrli:startDate>
+            <xbrli:endDate>2020-12-31</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="fromto_20201001_20201231_OtherCriminalMember_0000003_AKBARPUR_20201022T12:51:00">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:TypeOfCriminalAxis">in-rbi-rep:OtherCriminalMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>0000003</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:NameOfBranchAxis">
+                    <in-rbi-rep-par:NameOfBranchDomain>AKBARPUR</in-rbi-rep-par:NameOfBranchDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:DateAndTimeOfOccurrenceTypeAxis">
+                    <in-rbi-rep-par:DateAndTimeOfOccurrenceTypeDomain>2020-10-22T00:00:00.000</in-rbi-rep-par:DateAndTimeOfOccurrenceTypeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:startDate>2020-10-01</xbrli:startDate>
+            <xbrli:endDate>2020-12-31</xbrli:endDate>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:unit id="PURE">
+        <xbrli:measure xmlns="">xbrli:pure</xbrli:measure>
+    </xbrli:unit>
+    <xbrli:unit id="INR">
+        <xbrli:measure xmlns="">iso4217:INR</xbrli:measure>
+    </xbrli:unit>
+    <in-rbi-rep:ReturnName contextRef="fromto_20201001_20201231">Return on Bank Robberies, Dacoities, Thefts and Burglaries</in-rbi-rep:ReturnName>
+    <in-rbi-rep:ReturnCode contextRef="fromto_20201001_20201231">RBR</in-rbi-rep:ReturnCode>
+    <in-rbi-rep:NameOfReportingInstitution contextRef="fromto_20201001_20201231">State Bank Of India</in-rbi-rep:NameOfReportingInstitution>
+    <in-rbi-rep:BankCode contextRef="asof_20201001">010</in-rbi-rep:BankCode>
+    <in-rbi-rep:RegionalOfficeName contextRef="fromto_20201001_20201231">Vashi, Navi Mumbai</in-rbi-rep:RegionalOfficeName>
+    <in-rbi-rep:QuarterEndDate contextRef="fromto_20201001_20201231">2020-12-31</in-rbi-rep:QuarterEndDate>
+    <in-rbi-rep:DateOfSubmission contextRef="asof_20201001">2021-02-22</in-rbi-rep:DateOfSubmission>
+    <in-rbi-rep:ReportingFrequency contextRef="fromto_20201001_20201231">Quarterly</in-rbi-rep:ReportingFrequency>
+    <in-rbi-rep:ReturnVersion contextRef="fromto_20201001_20201231">V2.0</in-rbi-rep:ReturnVersion>
+    <in-rbi-rep:WhetherNilReporting contextRef="fromto_20201001_20201231">false</in-rbi-rep:WhetherNilReporting>
+    <in-rbi-rep:ReportStatus contextRef="fromto_20201001_20201231">Audited</in-rbi-rep:ReportStatus>
+    <in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20201001">2020-10-01</in-rbi-rep:ReportingPeriodStartDate>
+    <in-rbi-rep:TypeOfBranch contextRef="fromto_20201001_20201231_0000003_AKBARPUR_20201022T12:51:00">Rural</in-rbi-rep:TypeOfBranch>
+    <in-rbi-rep:RiskClassificationPhishing contextRef="fromto_20201001_20201231_0000003_AKBARPUR_20201022T12:51:00">High</in-rbi-rep:RiskClassificationPhishing>
+    <in-rbi-rep:WhetherCurrencyChestBranch contextRef="fromto_20201001_20201231_0000003_AKBARPUR_20201022T12:51:00">false</in-rbi-rep:WhetherCurrencyChestBranch>
+    <in-rbi-rep:NumberOfArmedGuards decimals="INF" unitRef="PURE" contextRef="fromto_20201001_20201231_0000003_AKBARPUR_20201022T12:51:00">10</in-rbi-rep:NumberOfArmedGuards>
+    <in-rbi-rep:TypeOfCase contextRef="fromto_20201001_20201231_0000003_AKBARPUR_20201022T12:51:00">Dacoity</in-rbi-rep:TypeOfCase>
+    <in-rbi-rep:PlaceOfOccurence contextRef="fromto_20201001_20201231_0000003_AKBARPUR_20201022T12:51:00">Dacoity</in-rbi-rep:PlaceOfOccurence>
+    <in-rbi-rep:AmountInvolvedInCases decimals="-5" unitRef="INR" contextRef="fromto_20201001_20201231_0000003_AKBARPUR_20201022T12:51:00">524100000</in-rbi-rep:AmountInvolvedInCases>
+    <in-rbi-rep:AmountRecovered decimals="-5" unitRef="INR" contextRef="fromto_20201001_20201231_0000003_AKBARPUR_20201022T12:51:00">547600000</in-rbi-rep:AmountRecovered>
+    <in-rbi-rep:InsuranceClaimSettled decimals="-5" unitRef="INR" contextRef="fromto_20201001_20201231_0000003_AKBARPUR_20201022T12:51:00">571100000</in-rbi-rep:InsuranceClaimSettled>
+    <in-rbi-rep:NumberOfArrested decimals="INF" unitRef="PURE" contextRef="fromto_20201001_20201231_StaffMember_0000003_AKBARPUR_20201022T12:51:00">45</in-rbi-rep:NumberOfArrested>
+    <in-rbi-rep:NumberOfArrested decimals="INF" unitRef="PURE" contextRef="fromto_20201001_20201231_StaffMember_0000003_AKBARPUR_20201022T12:51:00">45</in-rbi-rep:NumberOfArrested>
+    <in-rbi-rep:NumberOfKilled decimals="INF" unitRef="PURE" contextRef="fromto_20201001_20201231_StaffMember_0000003_AKBARPUR_20201022T12:51:00">48</in-rbi-rep:NumberOfKilled>
+    <in-rbi-rep:NumberOfKilled decimals="INF" unitRef="PURE" contextRef="fromto_20201001_20201231_RobbersMember_0000003_AKBARPUR_20201022T12:51:00">51</in-rbi-rep:NumberOfKilled>
+    <in-rbi-rep:NumberOfKilled decimals="INF" unitRef="PURE" contextRef="fromto_20201001_20201231_OtherCriminalMember_0000003_AKBARPUR_20201022T12:51:00">54</in-rbi-rep:NumberOfKilled>
+    <in-rbi-rep:NumberOfInjured decimals="INF" unitRef="PURE" contextRef="fromto_20201001_20201231_StaffMember_0000003_AKBARPUR_20201022T12:51:00">68</in-rbi-rep:NumberOfInjured>
+    <in-rbi-rep:NumberOfInjured decimals="INF" unitRef="PURE" contextRef="fromto_20201001_20201231_OtherCriminalMember_0000003_AKBARPUR_20201022T12:51:00">82</in-rbi-rep:NumberOfInjured>
+    <in-rbi-rep:NumberOfConvicted decimals="INF" unitRef="PURE" contextRef="fromto_20201001_20201231_StaffMember_0000003_AKBARPUR_20201022T12:51:00">110</in-rbi-rep:NumberOfConvicted>
+    <in-rbi-rep:NumberOfConvicted decimals="INF" unitRef="PURE" contextRef="fromto_20201001_20201231_StaffMember_0000003_AKBARPUR_20201022T12:51:00">110</in-rbi-rep:NumberOfConvicted>
+    <in-rbi-rep:CompensationPaid decimals="0" unitRef="INR" contextRef="fromto_20201001_20201231_StaffMember_0000003_AKBARPUR_20201022T12:51:00">5946</in-rbi-rep:CompensationPaid>
+    <in-rbi-rep:CompensationPaid decimals="0" unitRef="INR" contextRef="fromto_20201001_20201231_OtherCriminalMember_0000003_AKBARPUR_20201022T12:51:00">6181</in-rbi-rep:CompensationPaid>
+    <in-rbi-rep:ActionTaken contextRef="fromto_20201001_20201231_0000003_AKBARPUR_20201022T12:51:00">Suit filed</in-rbi-rep:ActionTaken>
+    <in-rbi-rep:CrimeNumberAndNameOfPoliceStationAtWhichOffenceIsegistered contextRef="fromto_20201001_20201231_0000003_AKBARPUR_20201022T12:51:00">DHDRFHSDRY</in-rbi-rep:CrimeNumberAndNameOfPoliceStationAtWhichOffenceIsegistered>
+    <in-rbi-rep:ModusOperandi contextRef="fromto_20201001_20201231_0000003_AKBARPUR_20201022T12:51:00">PJIOHJIIHO</in-rbi-rep:ModusOperandi>
+    <in-rbi-rep:NameOfAuthorisedReportingOfficial contextRef="fromto_20201001_20201231">Prashant Shah</in-rbi-rep:NameOfAuthorisedReportingOfficial>
+    <in-rbi-rep:NameOfPersonCountersigned contextRef="fromto_20201001_20201231">Jignash Jain</in-rbi-rep:NameOfPersonCountersigned>
+    <in-rbi-rep:DesignationOfAuthorisedReportingOfficial contextRef="fromto_20201001_20201231">Managing director</in-rbi-rep:DesignationOfAuthorisedReportingOfficial>
+    <in-rbi-rep:DesignationOfPersonCountersigned contextRef="fromto_20201001_20201231">Cheif executive</in-rbi-rep:DesignationOfPersonCountersigned>
+    <in-rbi-rep:EMailIDOfAuthorisedReportingOfficial contextRef="fromto_20201001_20201231">PrashantS@gmail.com</in-rbi-rep:EMailIDOfAuthorisedReportingOfficial>
+    <in-rbi-rep:EMailIDOfPersonCountersigned contextRef="fromto_20201001_20201231">Jian@gmail.com</in-rbi-rep:EMailIDOfPersonCountersigned>
+    <in-rbi-rep:OfficeTelephoneNumberOfAuthorisedReportingOfficial contextRef="fromto_20201001_20201231">1234567891</in-rbi-rep:OfficeTelephoneNumberOfAuthorisedReportingOfficial>
+    <in-rbi-rep:OfficeTelephoneNumberOfPersonCountersigned contextRef="fromto_20201001_20201231">5148769213</in-rbi-rep:OfficeTelephoneNumberOfPersonCountersigned>
+    <in-rbi-rep:ResidenceTelephoneNumberOfAuthorisedReportingOfficial contextRef="fromto_20201001_20201231">8521479630</in-rbi-rep:ResidenceTelephoneNumberOfAuthorisedReportingOfficial>
+    <in-rbi-rep:ResidenceTelephoneNumberOfPersonCountersigned contextRef="fromto_20201001_20201231">2135486927</in-rbi-rep:ResidenceTelephoneNumberOfPersonCountersigned>
+    <in-rbi-rep:FaxNumberOfAuthorisedReportingOfficial contextRef="fromto_20201001_20201231">52468</in-rbi-rep:FaxNumberOfAuthorisedReportingOfficial>
+    <in-rbi-rep:FaxNumberOfPersonCountersigned contextRef="fromto_20201001_20201231">84759</in-rbi-rep:FaxNumberOfPersonCountersigned>
+    <in-rbi-rep:PlaceOfSigningByAuthorisedReportingOfficial contextRef="fromto_20201001_20201231">Jaipur</in-rbi-rep:PlaceOfSigningByAuthorisedReportingOfficial>
+    <in-rbi-rep:PlaceOfSigningByPersonCountersigned contextRef="fromto_20201001_20201231">Vashi</in-rbi-rep:PlaceOfSigningByPersonCountersigned>
+    <in-rbi-rep:DateOfSigningByAuthorisedReportingOfficial contextRef="fromto_20201001_20201231">2021-02-22</in-rbi-rep:DateOfSigningByAuthorisedReportingOfficial>
+    <in-rbi-rep:DateOfSigningByPersonCountersigned contextRef="fromto_20201001_20201231">2021-02-22</in-rbi-rep:DateOfSigningByPersonCountersigned>
+</xbrli:xbrl>

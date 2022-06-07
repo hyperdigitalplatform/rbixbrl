@@ -15,6 +15,7 @@ import javax.xml.namespace.QName;
 import org.xbrl._2003.instance.Context;
 import org.xbrl._2003.instance.ContextEntityType;
 import org.xbrl._2003.instance.ContextEntityType.Identifier;
+import org.xbrl._2006.xbrldi.ExplicitMember;
 import org.xbrl._2006.xbrldi.TypedMember;
 import org.xbrl._2003.instance.ContextPeriodType;
 import org.xbrl._2003.instance.ObjectFactory;
@@ -100,21 +101,35 @@ public class FMRUtil {
         
         // create segement
         org.xbrl._2003.instance.Segment segFundedMember = xbrlObjectFactory.createSegment();
+        List<ExplicitMember> explicitMembers = createExplicitMembers(typeOfCriminal, branchCode, nameOfBranch, dateAndTimeOfOccurrence); 
         List<TypedMember> typeMembers = createTypedMembers(typeOfCriminal, branchCode, nameOfBranch, dateAndTimeOfOccurrence); 
+        segFundedMember.getAny().addAll(explicitMembers);
         segFundedMember.getAny().addAll(typeMembers);
         
         context.getEntity().setSegment(segFundedMember);
         return context;
     }
 
+    public static List<ExplicitMember> createExplicitMembers(String typeOfCriminal, String branchCode, String nameOfBranch, String dateAndTimeOfOccurrence) {
+        List<ExplicitMember> explicitMembers = new ArrayList<ExplicitMember>();
+        if(typeOfCriminal != null && !typeOfCriminal.isEmpty()){
+            ExplicitMember explicitMemberForExposureType = new org.xbrl._2006.xbrldi.ObjectFactory().createExplicitMember();
+            explicitMemberForExposureType.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "TypeOfCriminalAxis"));
+            explicitMemberForExposureType.setValue(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", typeOfCriminal));
+            explicitMembers.add(explicitMemberForExposureType);
+        }
+        
+        return explicitMembers;
+    }
+
     public static List<TypedMember> createTypedMembers(String typeOfCriminal, String branchCode, String nameOfBranch, String dateAndTimeOfOccurrence) {
         List<TypedMember> typedMembers = new ArrayList<TypedMember>();
-        if(typeOfCriminal != null && !typeOfCriminal.isEmpty()){
-            TypedMember typeOfCriminalType = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-            typeOfCriminalType.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "TypeOfCriminalAxis"));
-            typeOfCriminalType.setAny(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", typeOfCriminal));
-            typedMembers.add(typeOfCriminalType);
-        }
+        // if(typeOfCriminal != null && !typeOfCriminal.isEmpty()){
+        //     TypedMember typeOfCriminalType = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
+        //     typeOfCriminalType.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "TypeOfCriminalAxis"));
+        //     typeOfCriminalType.setAny(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", typeOfCriminal));
+        //     typedMembers.add(typeOfCriminalType);
+        // }
         if(branchCode != null && !branchCode.isEmpty()){
             TypedMember typedMemberForBranchCode = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
             typedMemberForBranchCode.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "BranchCodeAxis"));
