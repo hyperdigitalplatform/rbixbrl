@@ -163,47 +163,7 @@ public class RLCGeneralBody implements BodyInterface {
         capitalInfusionValue.setValue(new BigDecimal(rlcGeneralData.getCapitalInfusion()));
         JAXBElement<MonetaryItemType> capitalInfusion = rbiObjectFactory.createCapitalInfusion(capitalInfusionValue);
         generalItems.add(capitalInfusion);
-/*
-        ////Signatory Details
-        // create NameOfSignatory
-        StringItemType nameOfSignatoryValue = new StringItemType();
-        nameOfSignatoryValue.setContextRef(fromToContext);
-        nameOfSignatoryValue.setValue(rlcGeneralData.getNameOfSignatory());
-        JAXBElement<StringItemType> nameOfSignatory = rbiObjectFactory.createNameOfSignatory(nameOfSignatoryValue);
-        generalItems.add(returnVersion);
 
-        // create DesignationOfSignatory
-        StringItemType designationOfSignatoryValue = new StringItemType();
-        designationOfSignatoryValue.setContextRef(fromToContext);
-        designationOfSignatoryValue.setValue(rlcGeneralData.getDesignationOfSignatory());
-        JAXBElement<StringItemType> designationOfSignatory = rbiObjectFactory.createDesignationOfSignatory(designationOfSignatoryValue);
-        generalItems.add(designationOfSignatory);
-
-        // create AuthorisedSignatoryMobileNumber
-        IntegerItemType authorisedSignatoryMobileNumberValue = new IntegerItemType();
-        authorisedSignatoryMobileNumberValue.setContextRef(fromToContext);
-        authorisedSignatoryMobileNumberValue.setUnitRef(pureUnit);
-        authorisedSignatoryMobileNumberValue.setDecimals("INF");
-        authorisedSignatoryMobileNumberValue.setValue(new BigInteger(rlcGeneralData.getAuthorisedSignatoryMobileNumber()));
-        JAXBElement<IntegerItemType> authorisedSignatoryMobileNumber = rbiObjectFactory.createAuthorisedSignatoryMobileNumber(authorisedSignatoryMobileNumberValue);
-        generalItems.add(authorisedSignatoryMobileNumber);
-
-        // create AuthorisedSignatoryLandlineNumber
-        IntegerItemType authorisedSignatoryLandlineNumberValue = new IntegerItemType();
-        authorisedSignatoryLandlineNumberValue.setContextRef(fromToContext);
-        authorisedSignatoryLandlineNumberValue.setUnitRef(pureUnit);
-        authorisedSignatoryLandlineNumberValue.setDecimals("INF");
-        authorisedSignatoryLandlineNumberValue.setValue(new BigInteger(rlcGeneralData.getAuthorisedSignatoryLandlineNumber()));
-        JAXBElement<IntegerItemType> authorisedSignatoryLandlineNumber = rbiObjectFactory.createAuthorisedSignatoryLandlineNumber(authorisedSignatoryLandlineNumberValue);
-        generalItems.add(authorisedSignatoryLandlineNumber);
-
-        // create EMailIDOfAuthorisedReportingOfficial
-        StringItemType eMailIDOfAuthorisedReportingOfficialValue = new StringItemType();
-        eMailIDOfAuthorisedReportingOfficialValue.setContextRef(fromToContext);
-        eMailIDOfAuthorisedReportingOfficialValue.setValue(rlcGeneralData.getEMailIDOfAuthorisedReportingOfficial());
-        JAXBElement<StringItemType> eMailIDOfAuthorisedReportingOfficial = rbiObjectFactory.createEMailIDOfAuthorisedReportingOfficial(eMailIDOfAuthorisedReportingOfficialValue);
-        generalItems.add(eMailIDOfAuthorisedReportingOfficial);
-   */     
         return generalItems;
       
     }

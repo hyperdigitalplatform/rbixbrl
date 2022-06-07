@@ -23,7 +23,7 @@ import in.armedu.banking.report.rbixbrl.part.ContextInterface;
 import in.armedu.banking.report.rbixbrl.part.UnitInterface;
 import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCBody;
 import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCBodyBorrowerGroup;
-//import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCBodyCounterDomestic;
+import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCBodyCounterParty;
 import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCGeneralBody;
 import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCGeneralBodyExtra;
 import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCGeneralContext;
@@ -39,7 +39,7 @@ public class RBIRLCXBRLReportImpl implements XBRLReportIntf {
     private BodyInterface rlcGeneralBody = new RLCGeneralBody();
     private BodyInterface rlcBody = new RLCBody();
     private BodyInterface rlcBodyBorrowerGroup = new RLCBodyBorrowerGroup();
-    //private BodyInterface rlcBodyCounterDomestic = new RLCBodyCounterDomestic();
+    private BodyInterface rlcBodyCounterParty = new RLCBodyCounterParty();
     private BodyInterface rlcGeneralBodyExtra = new RLCGeneralBodyExtra();
     private UnitInterface rlcUnits = new RLCUnit();
     private ObjectFactory instancObjectFactory = new ObjectFactory();
@@ -77,7 +77,7 @@ public class RBIRLCXBRLReportImpl implements XBRLReportIntf {
             xbrl.getSchemaRef().add(simpleType);
             xbrl.getOtherAttributes().put(new QName("xml:lang"), "en");
            
-            Map<String, Unit> units = rlcUnits.getUnits( rlcReportData.getRlcGeneralData());
+           // Map<String, Unit> units = rlcUnits.getUnits( rlcReportData.getRlcGeneralData());
 
             List<Object> bodyElements = new ArrayList<Object>();
   
@@ -87,7 +87,7 @@ public class RBIRLCXBRLReportImpl implements XBRLReportIntf {
                 xbrl.getItemOrTupleOrContext().add(ctx);
             });
 
-            //  // create all contexts
+            //  create all contexts
             List<RLCItem> rlcItemData = rlcReportData.getRlcItem();
             rlcItemData.forEach(item ->{
                 Map<String, Context> rlcItemContexts = contextIntf.getContext(rlcReportData.getRlcGeneralData(), item);
@@ -97,6 +97,13 @@ public class RBIRLCXBRLReportImpl implements XBRLReportIntf {
             });
    
         
+        // create units
+        Map<String, Unit> units = rlcUnits.getUnits( rlcReportData.getRlcGeneralData());
+        units.forEach((key, unit) -> {
+        xbrl.getItemOrTupleOrContext().add(unit);
+        });
+    
+    // create general body
    bodyElements.addAll(rlcGeneralBody.getReportBodyItem( generalContexts, units, rlcReportData.getRlcGeneralData()));
 
       // generate RLCBody Individual
@@ -111,14 +118,13 @@ public class RBIRLCXBRLReportImpl implements XBRLReportIntf {
         bodyElements.addAll(rlcBodyBorrowerGroup.getReportBodyItem( rlcItemBorrower, units, rlcReportData.getRlcGeneralData(), item));
     });
 
-        // //  RLCBodyCounterDomestic
-        // rlcItemData.forEach(item ->{
-        //     Map<String, Context> rlcItemCounterDomestic = contextIntf.getContext(rlcReportData.getRlcGeneralData(), item);
-        //     bodyElements.addAll(rlcBodyCounterDomestic.getReportBodyItem( rlcItemCounterDomestic, units, rlcReportData.getRlcGeneralData(), item));
-        // });
+    //  RLCBodyCounterParty
+    rlcItemData.forEach(item ->{
+        Map<String, Context> rlcItemCounter = contextIntf.getContext(rlcReportData.getRlcGeneralData(), item);
+        bodyElements.addAll(rlcBodyCounterParty.getReportBodyItem( rlcItemCounter, units, rlcReportData.getRlcGeneralData(), item));
+    });
 
         
-
         // signatory details
      bodyElements.addAll(rlcGeneralBodyExtra.getReportBodyItem( generalContexts, units, rlcReportData.getRlcGeneralData()));
 

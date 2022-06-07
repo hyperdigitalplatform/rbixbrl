@@ -328,173 +328,61 @@ public class RLCGeneralContext implements ContextInterface {
       contexts.put(RLCUtil.ASOFDOMESTICCOUNTERPARTY, asOfDomesticCounterParty);
 
     }
-      // //*********************** RLC GLOBAL MEMBER COUNTERPARTY BANK MEMBER  **************
+ 
+
+      //*********************** RLC GLOBAL MEMBER COUNTERPARTY BANK MEMBER  **************
      
-      // // create entity and entity identifier
-      // ContextEntityType contextEntityTypeGlobalCounterParty = xbrlObjectFactory.createContextEntityType();
+      // create entity and entity identifier
+      ContextEntityType contextEntityTypeGlobalCounterParty = xbrlObjectFactory.createContextEntityType();
 
-      // // set entity identifier aka bank code
+      // set entity identifier aka bank code
       
-      // contextEntityTypeGlobalCounterParty.setIdentifier(identifier);
+      contextEntityTypeGlobalCounterParty.setIdentifier(identifier);
 
+      if(rlcItem.getRlcBasicInfo().getRegionOfBusinessAxis() == "GlobalMember" &&
+      rlcItem.getRlcBasicInfo().getLargeCreditAxis() == "CounterPartyBankMember")
+    {
 
-      // // create segement
-      // org.xbrl._2003.instance.Segment segmentGlobalCounterParty = xbrlObjectFactory.createSegment();
-      // segmentGlobalCounterParty.getAny().add(explicitMemberGlobalMember);
-      // segmentGlobalCounterParty.getAny().add(explicitMemberCounterParty);
-      // segmentGlobalCounterParty.getAny().add(typedMemberCounterPartyBankName);
-      // segmentGlobalCounterParty.getAny().add(typedMemberCounterPartyBankDomicile);
-      // segmentGlobalCounterParty.getAny().add(typedMemberUniqueTransaction);
+      // create segement
+      org.xbrl._2003.instance.Segment segmentGlobalCounterParty = xbrlObjectFactory.createSegment();
+      segmentGlobalCounterParty.getAny().add(explicitMemberGlobalMember);
+      segmentGlobalCounterParty.getAny().add(explicitMemberCounterParty);
+      segmentGlobalCounterParty.getAny().add(typedMemberCounterPartyBankName);
+      segmentGlobalCounterParty.getAny().add(typedMemberCounterPartyBankDomicile);
+      segmentGlobalCounterParty.getAny().add(typedMemberUniqueTransaction);
       
-      // // add to context Entity
-      // contextEntityTypeGlobalCounterParty.setSegment(segmentGlobalCounterParty);
+      // add to context Entity
+      contextEntityTypeGlobalCounterParty.setSegment(segmentGlobalCounterParty);
 
-      // // create fromto context GlobalCounterParty1
-      // Context fromToGlobalCounterParty = xbrlObjectFactory.createContext();
-      // String fromToStringGlobalCounterParty = FromToContext.getId("fromto", rlcGeneralData.getStartDate(),
-      //                           rlcGeneralData.getEndDate(), rlcItem.getRlcBasicInfo().getRegionOfBusinessAxis(),
-      //                           rlcItem.getRlcBasicInfo().getLargeCreditAxis(),
-      //                           rlcItem.getRlcBasicInfo().getCounterPartyBankNameAxis(),
-      //                           rlcItem.getRlcBasicInfo().getCounterPartyBankDomicileAxis(),
-      //                           rlcItem.getRlcBasicInfo().getUniqueTransactionCodeAxis());
+      // create fromto context GlobalCounterParty1
+      Context fromToGlobalCounterParty = xbrlObjectFactory.createContext();
+      String fromToStringGlobalCounterParty = FromToContext.getId("fromto", rlcGeneralData.getStartDate(),
+                                rlcGeneralData.getEndDate(),    rlcItem.getRlcBasicInfo().getRegionOfBusinessAxis(),
+                                rlcItem.getRlcBasicInfo().getLargeCreditAxis(),
+                                rlcItem.getRlcBasicInfo().getCounterPartyBankNameAxis(),
+                                rlcItem.getRlcBasicInfo().getCounterPartyBankDomicileAxis(),
+                                rlcItem.getRlcBasicInfo().getUniqueTransactionCodeAxis());
 
-      // fromToGlobalCounterParty.setId(fromToStringGlobalCounterParty);
+      fromToGlobalCounterParty.setId(fromToStringGlobalCounterParty);
       
-      // // set all objects to context GlobalCounterParty
-      // fromToGlobalCounterParty.setEntity(contextEntityTypeGlobalCounterParty);
-      // fromToGlobalCounterParty.setPeriod(period);
-      // contexts.put(RLCUtil.FROMTOGLOBALCOUNTERPARTY, fromToGlobalCounterParty);
+      // set all objects to context GlobalCounterParty
+      fromToGlobalCounterParty.setEntity(contextEntityTypeGlobalCounterParty);
+      fromToGlobalCounterParty.setPeriod(period);
+      contexts.put(RLCUtil.FROMTOGLOBALCOUNTERPARTY, fromToGlobalCounterParty);
 
-      // // create asof context
-      // Context asOfGlobalCounterParty = xbrlObjectFactory.createContext();
-      // String asOfStringGlobalCounterParty = AsOfContext.getId("asof", rlcGeneralData.getEndDate(),
-      //                               rlcItem.getRlcBasicInfo().getLargeCreditAxis(),
-      //                               rlcItem.getRlcBasicInfo().getRegionOfBusinessAxis(),
-      //                               rlcItem.getRlcBasicInfo().getCounterPartyBankNameAxis(),
-      //                               rlcItem.getRlcBasicInfo().getCounterPartyBankDomicileAxis(),
-      //                               rlcItem.getRlcBasicInfo().getUniqueTransactionCodeAxis());
-      // asOfGlobalCounterParty.setId(asOfStringGlobalCounterParty);
-      // asOfGlobalCounterParty.setEntity(contextEntityTypeGlobalCounterParty);
-      // asOfGlobalCounterParty.setPeriod(periodInstant);
-      // contexts.put(RLCUtil.ASOFGLOBALCOUNTERPARTY, asOfGlobalCounterParty);
-
-      //    //*********************** RLC DOMESTIC MEMBER COUNTERPARTY BANK MEMBER  **************
-     
-      // //set typed members
-      // TypedMember typedMemberUniqueTransactionCounter = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-      // typedMemberUniqueTransactionCounter.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "UniqueTransactionCodeAxis"));
-      // typedMemberUniqueTransactionCounter.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory().createUniqueTransactionCodeDomain(
-      //                       rlcItem.getRlcBasicCPB().getUniqueTransactionCode()));
-
-      // TypedMember typedMemberCounterPartyBankName = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-      // typedMemberCounterPartyBankName.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "CounterPartyBankNameAxis"));
-      // typedMemberCounterPartyBankName.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory().createCounterPartyBankNameDomain(
-      //                       rlcItem.getRlcBasicCPB().getCounterPartyBankNameAxis()));
-
-      // TypedMember typedMemberCounterPartyBankDomicile = new org.xbrl._2006.xbrldi.ObjectFactory().createTypedMember();
-      // typedMemberCounterPartyBankDomicile.setDimension(new QName("http://www.rbi.org/in/xbrl/2012-04-25/rbi", "CounterPartyBankDomicileAxis"));
-      // typedMemberCounterPartyBankDomicile.setAny(new org.rbi.in_rbi_rep_par.ObjectFactory().createCounterPartyBankDomicileDomain(
-      //                       rlcItem.getRlcBasicCPB().getCounterPartyBankDomicileAxis()));
-
-      // // create entity and entity identifier
-      // ContextEntityType contextEntityTypeDomesticCounterParty = xbrlObjectFactory.createContextEntityType();
-
-      // // set entity identifier aka bank code
-      
-      // contextEntityTypeDomesticCounterParty.setIdentifier(identifier);
-
-
-      // // create segement
-      // org.xbrl._2003.instance.Segment segmentDomesticCounterParty = xbrlObjectFactory.createSegment();
-      // segmentDomesticCounterParty.getAny().add(explicitMemberCounterParty);
-      // segmentDomesticCounterParty.getAny().add(explicitMemberDomesticMember);
-      // segmentDomesticCounterParty.getAny().add(typedMemberCounterPartyBankName);
-      // segmentDomesticCounterParty.getAny().add(typedMemberCounterPartyBankDomicile);
-      // segmentDomesticCounterParty.getAny().add(typedMemberUniqueTransactionCounter);
-      
-      // // add to context Entity
-      // contextEntityTypeDomesticCounterParty.setSegment(segmentDomesticCounterParty);
-
-      // // create fromto context DomesticCounterParty1
-      // Context fromToDomesticCounterParty = xbrlObjectFactory.createContext();
-      // String fromToStringDomesticCounterParty = FromToContext.getId("fromto", rlcGeneralData.getStartDate(),
-      //                           rlcGeneralData.getEndDate(), rlcItem.getRlcBasicCPB().getLargeCredit(),
-      //                           rlcItem.getRlcBasicCPB().getRegionOfBusiness(),
-      //                           rlcItem.getRlcBasicCPB().getCounterPartyBankNameAxis(),
-      //                           rlcItem.getRlcBasicCPB().getCounterPartyBankDomicileAxis(),
-      //                           rlcItem.getRlcBasicCPB().getUniqueTransactionCode());
-
-      // fromToDomesticCounterParty.setId(fromToStringDomesticCounterParty);
-      
-      // // set all objects to context DomesticCounterParty
-      // fromToDomesticCounterParty.setEntity(contextEntityTypeDomesticCounterParty);
-      // fromToDomesticCounterParty.setPeriod(period);
-      // contexts.put(RLCUtil.FROMTODOMESTICCOUNTERPARTY, fromToDomesticCounterParty);
-
-      // // create asof context
-      // Context asOfDomesticCounterParty = xbrlObjectFactory.createContext();
-      // String asOfStringDomesticCounterParty = AsOfContext.getId("asof", rlcGeneralData.getEndDate(),
-      //                               rlcItem.getRlcBasicCPB().getLargeCredit(),
-      //                               rlcItem.getRlcBasicCPB().getRegionOfBusiness(),
-      //                               rlcItem.getRlcBasicCPB().getCounterPartyBankNameAxis(),
-      //                               rlcItem.getRlcBasicCPB().getCounterPartyBankDomicileAxis(),
-      //                               rlcItem.getRlcBasicCPB().getUniqueTransactionCode());
-      // asOfDomesticCounterParty.setId(asOfStringDomesticCounterParty);
-      // asOfDomesticCounterParty.setEntity(contextEntityTypeDomesticCounterParty);
-      // asOfDomesticCounterParty.setPeriod(periodInstant);
-      // contexts.put(RLCUtil.ASOFDOMESTICCOUNTERPARTY, asOfDomesticCounterParty);
-
-
-      // //*********************** RLC GLOBAL MEMBER COUNTERPARTY BANK MEMBER  **************
-     
-      // // create entity and entity identifier
-      // ContextEntityType contextEntityTypeGlobalCounterParty = xbrlObjectFactory.createContextEntityType();
-
-      // // set entity identifier aka bank code
-      
-      // contextEntityTypeGlobalCounterParty.setIdentifier(identifier);
-
-
-      // // create segement
-      // org.xbrl._2003.instance.Segment segmentGlobalCounterParty = xbrlObjectFactory.createSegment();
-      // segmentGlobalCounterParty.getAny().add(explicitMemberGlobalMember);
-      // segmentGlobalCounterParty.getAny().add(explicitMemberCounterParty);
-      // segmentGlobalCounterParty.getAny().add(typedMemberCounterPartyBankName);
-      // segmentGlobalCounterParty.getAny().add(typedMemberCounterPartyBankDomicile);
-      // segmentGlobalCounterParty.getAny().add(typedMemberUniqueTransactionCounter);
-      
-      // // add to context Entity
-      // contextEntityTypeGlobalCounterParty.setSegment(segmentGlobalCounterParty);
-
-      // // create fromto context GlobalCounterParty1
-      // Context fromToGlobalCounterParty = xbrlObjectFactory.createContext();
-      // String fromToStringGlobalCounterParty = FromToContext.getId("fromto", rlcGeneralData.getStartDate(),
-      //                           rlcGeneralData.getEndDate(), rlcItem.getRlcBasicCPB().getRegionOfBusiness(),
-      //                           rlcItem.getRlcBasicCPB().getLargeCredit(),
-      //                           rlcItem.getRlcBasicCPB().getCounterPartyBankNameAxis(),
-      //                           rlcItem.getRlcBasicCPB().getCounterPartyBankDomicileAxis(),
-      //                           rlcItem.getRlcBasicCPB().getUniqueTransactionCode());
-
-      // fromToGlobalCounterParty.setId(fromToStringGlobalCounterParty);
-      
-      // // set all objects to context GlobalCounterParty
-      // fromToGlobalCounterParty.setEntity(contextEntityTypeGlobalCounterParty);
-      // fromToGlobalCounterParty.setPeriod(period);
-      // contexts.put(RLCUtil.FROMTOGLOBALCOUNTERPARTY, fromToGlobalCounterParty);
-
-      // // create asof context
-      // Context asOfGlobalCounterParty = xbrlObjectFactory.createContext();
-      // String asOfStringGlobalCounterParty = AsOfContext.getId("asof", rlcGeneralData.getEndDate(),
-      //                               rlcItem.getRlcBasicCPB().getLargeCredit(),
-      //                               rlcItem.getRlcBasicCPB().getRegionOfBusiness(),
-      //                               rlcItem.getRlcBasicCPB().getCounterPartyBankNameAxis(),
-      //                               rlcItem.getRlcBasicCPB().getCounterPartyBankDomicileAxis(),
-      //                               rlcItem.getRlcBasicCPB().getUniqueTransactionCode());
-      // asOfGlobalCounterParty.setId(asOfStringGlobalCounterParty);
-      // asOfGlobalCounterParty.setEntity(contextEntityTypeGlobalCounterParty);
-      // asOfGlobalCounterParty.setPeriod(periodInstant);
-      // contexts.put(RLCUtil.ASOFGLOBALCOUNTERPARTY, asOfGlobalCounterParty);
-
+      // create asof context
+      Context asOfGlobalCounterParty = xbrlObjectFactory.createContext();
+      String asOfStringGlobalCounterParty = AsOfContext.getId("asof", rlcGeneralData.getEndDate(),
+                                      rlcItem.getRlcBasicInfo().getRegionOfBusinessAxis(),
+                                rlcItem.getRlcBasicInfo().getLargeCreditAxis(),
+                                rlcItem.getRlcBasicInfo().getCounterPartyBankNameAxis(),
+                                rlcItem.getRlcBasicInfo().getCounterPartyBankDomicileAxis(),
+                                rlcItem.getRlcBasicInfo().getUniqueTransactionCodeAxis());
+      asOfGlobalCounterParty.setId(asOfStringGlobalCounterParty);
+      asOfGlobalCounterParty.setEntity(contextEntityTypeGlobalCounterParty);
+      asOfGlobalCounterParty.setPeriod(periodInstant);
+      contexts.put(RLCUtil.ASOFGLOBALCOUNTERPARTY, asOfGlobalCounterParty);
+    }
       return contexts;
     }
 

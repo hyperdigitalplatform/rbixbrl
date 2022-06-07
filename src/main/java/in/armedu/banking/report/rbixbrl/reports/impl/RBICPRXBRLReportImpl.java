@@ -85,7 +85,7 @@ public class RBICPRXBRLReportImpl implements XBRLReportIntf {
             xbrl.getSchemaRef().add(simpleType);
             xbrl.getOtherAttributes().put(new QName("xml:lang"), "en");
             
-            Map<String, Unit> units = cprUnits.getUnits( cprData.getGeneralData());
+           // Map<String, Unit> units = cprUnits.getUnits( cprData.getGeneralData());
             List<Object> bodyElements = new ArrayList<Object>();
             //create all general contexts
             Map<String, Context> generalContexts = generalContext.getContext( cprData.getGeneralData());
@@ -108,6 +108,13 @@ public class RBICPRXBRLReportImpl implements XBRLReportIntf {
                     xbrl.getItemOrTupleOrContext().add(ctx);
                 });
             });
+
+             // create units
+             Map<String, Unit> units = cprUnits.getUnits( cprData.getGeneralData());
+             units.forEach((key, unit) -> {
+                xbrl.getItemOrTupleOrContext().add(unit);
+                });
+
             // create cpr generalbody
             bodyElements.addAll(generalBody.getReportBodyItem( generalContexts, units, cprData.getGeneralData()));
             // create cpr general extra body

@@ -46,11 +46,7 @@ public class RLCXBRLApplication {
         basicInfoIndividual.setUniqueTransactionCodeAxis("TransactionID1");
         basicInfoIndividual.setIndustryCodeAxis("28101");
         basicInfoIndividual.setIndustryNameAxis("Mfg of Structural Metal Products");
-        basicInfoIndividual.setLeadBankNameAxis("Bank Of Baroda");
-        basicInfoIndividual.setGroupBorrowerCode("");
-        basicInfoIndividual.setGroupAxis("");
-        // basicInfoIndividual.setCounterPartyBankNameAxis("");
-        // basicInfoIndividual.setCounterPartyBankDomicileAxis("");      
+        basicInfoIndividual.setLeadBankNameAxis("Bank Of Baroda");  
         
         RLCBorrowerMember borrowerMemberIndividual = new RLCBorrowerMember();
         borrowerMemberIndividual.setPermanentAccountNumberOfCustomerOrBorrower("AAACW0744L");
@@ -86,9 +82,6 @@ public class RLCXBRLApplication {
         basicInfoBorrowerGroup.setIndustryNameAxis("Mfg of Gas");
         basicInfoBorrowerGroup.setGroupBorrowerCode("A0023");
         basicInfoBorrowerGroup.setGroupAxis("AIR LIQUIDE GROUP");
-        basicInfoBorrowerGroup.setLeadBankNameAxis("");
-        // basicInfoBorrowerGroup.setCounterPartyBankNameAxis("");
-        // basicInfoBorrowerGroup.setCounterPartyBankDomicileAxis("");
 
         RLCBorrowerMember borrowerMemberGroup = new RLCBorrowerMember();
         borrowerMemberGroup.setPermanentAccountNumberOfCustomerOrBorrower("AAACA9121F");
@@ -122,13 +115,6 @@ public class RLCXBRLApplication {
         basicInfoCounterPartyDomestic.setLargeCreditAxis("CounterPartyBankMember");
         basicInfoCounterPartyDomestic.setUniqueTransactionCodeAxis("TransactionID1");
         basicInfoCounterPartyDomestic.setCounterPartyBankNameAxis("YES BANK LTD.");
-        basicInfoCounterPartyDomestic.setCounterPartyBankDomicileAxis("ALAND ISLANDS");
-        // basicInfoCounterPartyDomestic.setIndustryCodeAxis("");
-        // basicInfoCounterPartyDomestic.setIndustryNameAxis("");
-        // basicInfoCounterPartyDomestic.setGroupBorrowerCode("");
-        // basicInfoCounterPartyDomestic.setGroupAxis("");
-        // basicInfoCounterPartyDomestic.setLeadBankNameAxis("");
-
 
         RLCBorrowerMember counterPartyDomestic = new RLCBorrowerMember();
         counterPartyDomestic.setAmountOfFundedExposure("4500000");
@@ -136,7 +122,21 @@ public class RLCXBRLApplication {
         counterPartyDomestic.setAggregateCreditExposure("881200000");
         counterPartyDomestic.setAggregateCreditExposureAsPercentageOfCapitalFunds("80.1091");
 
-        
+        // RLC CounterParty Global
+        RLCItem rlcItemCounterPartyGlobal = new RLCItem();
+
+        RLCBasic basicInfoCounterPartyGlobal = new RLCBasic();
+        basicInfoCounterPartyGlobal.setRegionOfBusinessAxis("GlobalMember");
+        basicInfoCounterPartyGlobal.setLargeCreditAxis("CounterPartyBankMember");
+        basicInfoCounterPartyGlobal.setUniqueTransactionCodeAxis("TransactionID1");
+        basicInfoCounterPartyGlobal.setCounterPartyBankNameAxis("YES BANK LTD.");
+
+        RLCBorrowerMember counterPartyGlobal = new RLCBorrowerMember();
+        counterPartyGlobal.setAmountOfFundedExposure("4500000");
+        counterPartyGlobal.setAmountOfNonFundedExposure("876700000");
+        counterPartyGlobal.setAggregateCreditExposure("881200000");
+        counterPartyGlobal.setAggregateCreditExposureAsPercentageOfCapitalFunds("80.1091");
+
         rlcItemIndividual.setRlcBasicInfo(basicInfoIndividual);
         rlcItemIndividual.setRlcBorrowerMember(borrowerMemberIndividual);
 
@@ -146,11 +146,16 @@ public class RLCXBRLApplication {
         rlcItemCounterPartyDomestic.setRlcBasicInfo(basicInfoCounterPartyDomestic);
         rlcItemCounterPartyDomestic.setRlcBorrowerMember(counterPartyDomestic);
 
+        rlcItemCounterPartyGlobal.setRlcBasicInfo(basicInfoCounterPartyGlobal);
+        rlcItemCounterPartyGlobal.setRlcBorrowerMember(counterPartyGlobal);
+
         data.getRlcItem().add(rlcItemIndividual);   
 
         data.getRlcItem().add(rlcItemGroupBorrowerMember);   
 
-        data.getRlcItem().add(rlcItemCounterPartyDomestic);   
+        data.getRlcItem().add(rlcItemCounterPartyDomestic); 
+        
+        data.getRlcItem().add(rlcItemCounterPartyGlobal); 
 
         //Signatory Details
         RLCGeneralInfo rlcGeneralInfo = new RLCGeneralInfo();

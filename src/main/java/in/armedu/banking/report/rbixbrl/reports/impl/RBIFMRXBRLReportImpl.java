@@ -75,13 +75,14 @@ public class RBIFMRXBRLReportImpl implements XBRLReportIntf {
             xbrl.getSchemaRef().add(simpleType);
             xbrl.getOtherAttributes().put(new QName("xml:lang"), "en");
             
-            Map<String, Unit> units = fmrUnits.getUnits( fmrData.getGeneralData());
+            //Map<String, Unit> units = fmrUnits.getUnits( fmrData.getGeneralData());
             List<Object> bodyElements = new ArrayList<Object>();
             //create all general contexts
             Map<String, Context> generalContexts = generalContext.getContext( fmrData.getGeneralData());
             generalContexts.forEach((key, ctx) -> {
                 xbrl.getItemOrTupleOrContext().add(ctx);
             });
+
             // create all item contexts
             List<ItemData> fmrItemData = fmrData.getItemDatas();
             fmrItemData.forEach(itemData -> {
@@ -91,6 +92,11 @@ public class RBIFMRXBRLReportImpl implements XBRLReportIntf {
                 });
             });
             
+            // create units
+            Map<String, Unit> units = fmrUnits.getUnits( fmrData.getGeneralData());
+        units.forEach((key, unit) -> {
+        xbrl.getItemOrTupleOrContext().add(unit);
+        });
             
             // create fmr generalbody
             bodyElements.addAll(generalBody.getReportBodyItem( generalContexts, units, fmrData.getGeneralData()));

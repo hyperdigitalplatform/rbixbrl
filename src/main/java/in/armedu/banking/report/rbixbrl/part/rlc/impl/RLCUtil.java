@@ -34,8 +34,8 @@ public class  RLCUtil {
     public static final String ASOFGLOBALBORROWERGROUP= "asofglobalborrowergroup";
     public static final String FROMTODOMESTICCOUNTERPARTY = "fromtodomesticcounterparty";
     public static final String ASOFDOMESTICCOUNTERPARTY = "asofdomesticcounterparty";
-    // public static final String FROMTOGLOBALCOUNTERPARTY = "fromtoglobalcounterparty";
-    // public static final String ASOFGLOBALCOUNTERPARTY = "asofglobalcounterparty";
+    public static final String FROMTOGLOBALCOUNTERPARTY = "fromtoglobalcounterparty";
+    public static final String ASOFGLOBALCOUNTERPARTY = "asofglobalcounterparty";
     public static final String CURRENCY = "currency";
     public static final String PERCENTAGE = "percentage";
 

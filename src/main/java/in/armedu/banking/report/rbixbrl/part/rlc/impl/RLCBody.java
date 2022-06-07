@@ -55,9 +55,6 @@ public class RLCBody  implements BodyInterface {
         Context fromtoglobalindividualmember = contexts.get(RLCUtil.FROMTOGLOBALINDIVIDUALMEMBER);
         Context asofglobalindividualmember = contexts.get(RLCUtil.ASOFGLOBALINDIVIDUALMEMBER);
 
-        Context fromtodomesticcounterparty = contexts.get(RLCUtil.FROMTODOMESTICCOUNTERPARTY);
-        Context asofdomesticcounterparty = contexts.get(RLCUtil.ASOFDOMESTICCOUNTERPARTY);
-
         if(rlcItem.getRlcBasicInfo().getRegionOfBusinessAxis() == "GlobalMember" &&
         rlcItem.getRlcBasicInfo().getLargeCreditAxis() == "IndividualBorrowersMember")
         {
@@ -238,49 +235,7 @@ public class RLCBody  implements BodyInterface {
     bodyItems.add(aggregateExposureAsPercentageOfCapitalFunds);
 }
 
-if(rlcItem.getRlcBasicInfo().getRegionOfBusinessAxis() == "DomesticMember" &&
-rlcItem.getRlcBasicInfo().getLargeCreditAxis() == "CounterPartyBankMember")
-{
-
-    // create amountOfFundedExposure
-    MonetaryItemType amountOfFundedExposureValue = new MonetaryItemType();
-    amountOfFundedExposureValue.setContextRef(asofdomesticcounterparty);
-    amountOfFundedExposureValue.setUnitRef(currency);
-    amountOfFundedExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerMember().getAmountOfFundedExposure())));
-    amountOfFundedExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerMember().getAmountOfFundedExposure()));
-    JAXBElement<MonetaryItemType> amountOfFundedExposure = rbiObjectFactory.createAmountOfFundedExposure(amountOfFundedExposureValue);
-    bodyItems.add(amountOfFundedExposure);
-
-    // create amountOfNonFundedExposure
-    MonetaryItemType amountOfNonFundedExposureValue = new MonetaryItemType();
-    amountOfNonFundedExposureValue.setContextRef(asofdomesticcounterparty);   
-    amountOfNonFundedExposureValue.setUnitRef(currency);
-    amountOfNonFundedExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerMember().getAmountOfNonFundedExposure())));
-    amountOfNonFundedExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerMember().getAmountOfNonFundedExposure()));
-    JAXBElement<MonetaryItemType> amountOfNonFundedExposure = rbiObjectFactory.createAmountOfNonFundedExposure(amountOfNonFundedExposureValue);
-    bodyItems.add(amountOfNonFundedExposure);
-
-    // create aggregateCreditExposure
-    MonetaryItemType aggregateCreditExposureValue = new MonetaryItemType();
-    aggregateCreditExposureValue.setContextRef(asofdomesticcounterparty);
-    aggregateCreditExposureValue.setUnitRef(currency);
-    aggregateCreditExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerMember().getAggregateCreditExposure())));
-    aggregateCreditExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerMember().getAggregateCreditExposure()));
-    JAXBElement<MonetaryItemType> aggregateCreditExposure = rbiObjectFactory.createAggregateCreditExposure(aggregateCreditExposureValue);
-    bodyItems.add(aggregateCreditExposure);
-    
-    // create aggregateCreditExposureAsPercentageOfCapitalFunds
-    PercentItemType aggregateCreditExposureAsPercentageOfCapitalFundsValue = new PercentItemType();
-    aggregateCreditExposureAsPercentageOfCapitalFundsValue.setContextRef(fromtodomesticcounterparty);
-    aggregateCreditExposureAsPercentageOfCapitalFundsValue.setUnitRef(percentage);
-    aggregateCreditExposureAsPercentageOfCapitalFundsValue.setDecimals("1");
-    aggregateCreditExposureAsPercentageOfCapitalFundsValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerMember().getAggregateCreditExposureAsPercentageOfCapitalFunds()));
-    JAXBElement<PercentItemType> aggregateCreditExposureAsPercentageOfCapitalFunds = rbiObjectFactory.createAggregateCreditExposureAsPercentageOfCapitalFunds(aggregateCreditExposureAsPercentageOfCapitalFundsValue);
-    bodyItems.add(aggregateCreditExposureAsPercentageOfCapitalFunds);
-
-}
     return bodyItems;
-
         
     }
     
