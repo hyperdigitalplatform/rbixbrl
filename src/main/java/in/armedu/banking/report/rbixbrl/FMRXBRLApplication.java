@@ -62,7 +62,7 @@ public class FMRXBRLApplication {
         fmrItemData.setCrimeNumberAndNameOfPoliceStationAtWhichOffenceIsegistered("DHDRFHSDRY");
         fmrItemData.setModusOperandi("PJIOHJIIHO");
        
-        data.setItemDatas().add(fmrItemData);
+        data.getItemDatas().add(fmrItemData);
 
         //Authorized Reporting Details
         AuthorizedReporting authorizedReportingData = new AuthorizedReporting();

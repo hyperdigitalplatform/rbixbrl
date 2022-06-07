@@ -94,9 +94,9 @@ public class RBIFMRXBRLReportImpl implements XBRLReportIntf {
             
             // create units
             Map<String, Unit> units = fmrUnits.getUnits( fmrData.getGeneralData());
-        units.forEach((key, unit) -> {
-        xbrl.getItemOrTupleOrContext().add(unit);
-        });
+            units.forEach((key, unit) -> {
+                xbrl.getItemOrTupleOrContext().add(unit);
+            });
             
             // create fmr generalbody
             bodyElements.addAll(generalBody.getReportBodyItem( generalContexts, units, fmrData.getGeneralData()));
