@@ -48,8 +48,8 @@ public class RLCGeneralBody implements BodyInterface {
         Context fromToContext = contexts.get(RLCUtil.FROMTO);
         Context asOfContext = contexts.get(RLCUtil.ASOF);
 
-        Unit unitINR = units.get(RLCUtil.CURRENCY);
-        Unit pureUnit = units.get(RLCUtil.PERCENTAGE);
+        Unit currency = units.get(RLCUtil.CURRENCY);
+        Unit percentage = units.get(RLCUtil.PERCENTAGE);
         RLCGeneralData rlcGeneralData = (RLCGeneralData) generalData;
         
         org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory rbiObjectFactory;
@@ -149,7 +149,7 @@ public class RLCGeneralBody implements BodyInterface {
         // create RegulatoryCapital
         MonetaryItemType regulatoryCapitalValue = new MonetaryItemType();
         regulatoryCapitalValue.setContextRef(asOfContext);
-        regulatoryCapitalValue.setUnitRef(unitINR);
+        regulatoryCapitalValue.setUnitRef(currency);
         regulatoryCapitalValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcGeneralData.getRegulatoryCapital())));
         regulatoryCapitalValue.setValue(new BigDecimal(rlcGeneralData.getRegulatoryCapital()));
         JAXBElement<MonetaryItemType> regulatoryCapital = rbiObjectFactory.createRegulatoryCapital(regulatoryCapitalValue);
@@ -158,7 +158,7 @@ public class RLCGeneralBody implements BodyInterface {
         // create CapitalInfusion
         MonetaryItemType capitalInfusionValue = new MonetaryItemType();
         capitalInfusionValue.setContextRef(fromToContext);
-        capitalInfusionValue.setUnitRef(unitINR);
+        capitalInfusionValue.setUnitRef(currency);
         capitalInfusionValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcGeneralData.getCapitalInfusion())));
         capitalInfusionValue.setValue(new BigDecimal(rlcGeneralData.getCapitalInfusion()));
         JAXBElement<MonetaryItemType> capitalInfusion = rbiObjectFactory.createCapitalInfusion(capitalInfusionValue);

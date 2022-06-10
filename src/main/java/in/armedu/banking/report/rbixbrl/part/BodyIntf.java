@@ -14,5 +14,5 @@ public interface BodyIntf {
 
     public List<Object> getReportBodyItem(List<Context> contexts, GeneralData generalInfoData);
     public List<Object> getReportBodyItem(List<Context> contexts, List<Unit> units, GeneralData generalInfoData, ItemData rosItem);
-   // public List<Object> getReportBodyItem(List<Context> contexts, List<Unit> units, GeneralData rlcGeneralData);
+
 }

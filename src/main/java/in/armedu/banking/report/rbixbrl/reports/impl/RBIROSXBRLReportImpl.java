@@ -3,6 +3,7 @@ package in.armedu.banking.report.rbixbrl.reports.impl;
 import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Marshaller;
@@ -19,9 +20,10 @@ import in.armedu.banking.report.rbixbrl.model.GeneralData;
 import in.armedu.banking.report.rbixbrl.model.ItemData;
 import in.armedu.banking.report.rbixbrl.model.ReportData;
 import in.armedu.banking.report.rbixbrl.model.ros.ROSData;
-import in.armedu.banking.report.rbixbrl.part.BodyIntf;
-import in.armedu.banking.report.rbixbrl.part.ContextIntf;
-import in.armedu.banking.report.rbixbrl.part.UnitIntf;
+import in.armedu.banking.report.rbixbrl.model.ros.ROSItem;
+import in.armedu.banking.report.rbixbrl.part.BodyInterface;
+import in.armedu.banking.report.rbixbrl.part.ContextInterface;
+import in.armedu.banking.report.rbixbrl.part.UnitInterface;
 import in.armedu.banking.report.rbixbrl.part.ros.impl.ROSBody;
 import in.armedu.banking.report.rbixbrl.part.ros.impl.ROSGeneralBody;
 import in.armedu.banking.report.rbixbrl.part.ros.impl.ROSGeneralContext;
@@ -33,10 +35,10 @@ import lombok.Setter;
 @Setter
 public class RBIROSXBRLReportImpl implements XBRLReportIntf {
     
-    private ContextIntf contextIntf = new ROSGeneralContext();
-    private BodyIntf rosGeneralBody = new ROSGeneralBody();
-    private UnitIntf rosUnits = new ROSUnit();
-    private BodyIntf rosBody = new ROSBody();
+    private ContextInterface contextIntf = new ROSGeneralContext();
+    private BodyInterface rosGeneralBody = new ROSGeneralBody();
+    private UnitInterface rosUnits = new ROSUnit();
+    private BodyInterface rosBody = new ROSBody();
     private ObjectFactory instancObjectFactory = new ObjectFactory();
     
     @Override
@@ -73,30 +75,38 @@ public class RBIROSXBRLReportImpl implements XBRLReportIntf {
             xbrl.getOtherAttributes().put(new QName("xml:lang"), "en");
             
             List<Object> bodyElements = new ArrayList<Object>();
-            //create all contexts
-            List<Context> generalContexts = contextIntf.getContext( rosData.getRosGeneralInfo());
-            generalContexts.forEach(ctx -> {
+            Map<String, Unit> units = rosUnits.getUnits(rosData.getRosGeneralInfo());
+            
+             //create all general contexts
+            Map<String, Context> generalContexts = contextIntf.getContext(rosData.getRosGeneralInfo());
+            generalContexts.forEach((key, ctx) -> {
                 xbrl.getItemOrTupleOrContext().add(ctx);
             });
-            
-            bodyElements.addAll(rosGeneralBody.getReportBodyItem( generalContexts, rosData.getRosGeneralInfo()));
 
-            rosData.getRosItems().forEach(item->{
-                List<Context> rosItemContexts = contextIntf.getContext(  rosData.getRosGeneralInfo(),  item);
-                rosItemContexts.forEach(ctx -> {
+            bodyElements.addAll(rosGeneralBody.getReportBodyItem( generalContexts, units, rosData.getRosGeneralInfo()));
+
+            //  create all item contexts
+            List<ROSItem> rosItemData = rosData.getRosItems();
+            rosItemData.forEach(item ->{
+                Map<String, Context> rosItemContexts = contextIntf.getContext(rosData.getRosGeneralInfo(), item);
+                rosItemContexts.forEach((key, ctx) -> {
                     xbrl.getItemOrTupleOrContext().add(ctx);
                 });
             });
-            List<Unit> units = rosUnits.getUnits( rosData.getRosGeneralInfo());
-            units.forEach(unit -> {
-                xbrl.getItemOrTupleOrContext().add(unit);
+            
+                //create units
+           units.forEach((key, unit) -> {
+            xbrl.getItemOrTupleOrContext().add(unit);
             });
+           
+
             // generate ros element for each subsidiary
-            rosData.getRosItems().forEach(item->{
-                List<Context> rosItemContexts = contextIntf.getContext( rosData.getRosGeneralInfo(), item);
-                
+            rosData.getRosItems().forEach(item ->{
+                Map<String, Context> rosItemContexts = contextIntf.getContext(rosData.getRosGeneralInfo(), item);
                 bodyElements.addAll(rosBody.getReportBodyItem( rosItemContexts, units, rosData.getRosGeneralInfo(), item));
             });
+           
+
             bodyElements.forEach(bElem->{
                 xbrl.getItemOrTupleOrContext().add(bElem);
             });

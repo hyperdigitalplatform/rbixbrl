@@ -1,5 +1,8 @@
 package in.armedu.banking.report.rbixbrl;
 
+import java.io.FileWriter;
+import java.io.StringWriter;
+
 import in.armedu.banking.report.rbixbrl.core.ReportGenerationEngine;
 import in.armedu.banking.report.rbixbrl.core.ReportGenerationFactory;
 import in.armedu.banking.report.rbixbrl.core.impl.XBRLReportGenerationEngine;
@@ -298,7 +301,10 @@ public class ROSXBRLApplication {
         data.getRosItems().add(rosItem5);
 
         ReportGenerationEngine engine = new XBRLReportGenerationEngine();
-        engine.execute(ReportGenerationFactory.RBI_ROS_XBRL_REPORT, data);
+        StringWriter sw = engine.execute(ReportGenerationFactory.RBI_ROS_XBRL_REPORT, data);
+        FileWriter fw = new FileWriter("file.txt");
+        fw.write(sw.toString());
+        fw.close();
         
     }
     
