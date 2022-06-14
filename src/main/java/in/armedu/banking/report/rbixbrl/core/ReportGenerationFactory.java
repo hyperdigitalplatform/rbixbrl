@@ -8,6 +8,8 @@ public class ReportGenerationFactory {
     public static final String RBI_RLC_XBRL_REPORT = "RBI_RLC_XBRL_REPORT";
     public static final String RBI_CPR_XBRL_REPORT = "RBI_CPR_XBRL_REPORT";
     public static final String RBI_FMR_XBRL_REPORT = "RBI_FMR_XBRL_REPORT";
+    public static final String RBI_ALO_XBRL_REPORT = "RBI_ALO_XBRL_REPORT";
+    public static final String RBI_CEM_XBRL_REPORT = "RBI_CEM_XBRL_REPORT";
     
     public XBRLReportIntf createXBRLReport(String reportType){
         // return null if report type is null
@@ -21,6 +23,10 @@ public class ReportGenerationFactory {
             return new XBRLReportBuilder().buildCPRReport();
         } else if(RBI_FMR_XBRL_REPORT.equalsIgnoreCase(reportType)) { // build FMR report
             return new XBRLReportBuilder().buildFMRReport();
+        } else if(RBI_ALO_XBRL_REPORT.equalsIgnoreCase(reportType)) { // build ALO report
+            return new XBRLReportBuilder().buildALOReport();
+        } else if(RBI_CEM_XBRL_REPORT.equalsIgnoreCase(reportType)) { // build CEM report
+            return new XBRLReportBuilder().buildCEMReport();
         }
         return null;
     }

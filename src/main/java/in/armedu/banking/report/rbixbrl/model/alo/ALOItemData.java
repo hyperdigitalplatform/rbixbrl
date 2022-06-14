@@ -13,8 +13,7 @@ import lombok.Setter;
 
 public class ALOItemData extends ItemData{
     
-    //Item Data for General Context
-    private String reportingPeriodAxis;
+
     private String detailsOfAccountsWithBranchesAxis;
     private String periodOfPendingReconcilliationAxis;
     private String countryCodeAxis;
@@ -88,7 +87,12 @@ public class ALOItemData extends ItemData{
     private String netGap;
     private String cumulativeGap;
     private String netGapAsPercentageOfAggregateAssets;
+
+    
     private String debitNumberOfEntriesInAccount;
+    private String debitAmountOfEntriesInAccount;
     private String creditNumberOfEntriesInAccount;
+    private String creditAmountOfEntriesInAccount;
+
 
 }

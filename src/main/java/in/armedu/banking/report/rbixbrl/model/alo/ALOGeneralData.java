@@ -1,8 +1,6 @@
 package in.armedu.banking.report.rbixbrl.model.alo;
 
 import in.armedu.banking.report.rbixbrl.model.GeneralData;
-import in.armedu.banking.report.rbixbrl.model.alo.ALOGeneralInfo;
-import in.armedu.banking.report.rbixbrl.model.alo.ALOSignatoryDetails;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -21,7 +19,6 @@ public class ALOGeneralData extends GeneralData {
     private String bankCode;
     private String address;
     private String dateOfQuarterEnded;
-    private String dateOfSubmission;
     private String reportingFrequency;
     private String dateOfReport;
     private String reportStatus;
@@ -31,7 +28,28 @@ public class ALOGeneralData extends GeneralData {
     private String generalRemarks;
     private String reportingPeriodStartDate;
 
-    private ALOGeneralInfo aloGeneralInfo;
-    private ALOSignatoryDetails aloSignatoryDetails;
+    private String documentaryCreditsCommitted;
+    private String documentaryCreditsCommittedIssuedOnClientAccount;
+    private String documentaryCreditsCommittedIssuedOnBanksAccount;
+    private String paymentGuaranteesOrAcceptances;
+    private String performanceGuaranteesIssued;
+    private String loanCommitments;
+    private String offBalanceSheetExposures;
+    private String outstandingForexContracts;
+    private String outstandingInterestRateSwaps;
+    private String forwardRateAgreements;
+    private String otherFutureAndForwardContracts;
+    private String currencyOptionsBought;
+    private String currencyOptionsWritten;
+    private String otherOffBalanceSheetExposure;
+    private String aggregateOffBalanceSheetExposures;
+    
+    private String nameOfSignatory;
+    private String designationOfSignatory;
+    private String authorisedSignatoryMobileNumber;
+    private String authorisedSignatoryLandlineNumber;
+    private String eMailIDOfAuthorisedReportingOfficial;
+    private String placeOfSignature;
+    private String dateOfDocumentAuthorisation;
 
 }

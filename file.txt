@@ -1,503 +1,304 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <xbrli:xbrl xml:lang="en" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:in-rbi-rep-par="http://www.rbi.org/in-rbi-rep-par">
-    <link:schemaRef xlink:type="simple" xlink:href="in-rbi-ros.xsd"/>
-    <xbrli:context id="fromto_20210401_20210930">
+    <link:schemaRef xlink:type="simple" xlink:href="in-rbi-rlc.xsd"/>
+    <xbrli:context id="fromto_20190401_20190630">
         <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
         </xbrli:entity>
         <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
+            <xbrli:startDate>2019-04-01</xbrli:startDate>
+            <xbrli:endDate>2019-06-30</xbrli:endDate>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="asof_20210930">
+    <xbrli:context id="asof_20190630">
         <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
         </xbrli:entity>
         <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
+            <xbrli:instant>2019-06-30</xbrli:instant>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_DrukPNBBankLtd">
+    <xbrli:context id="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548">
         <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
             <xbrli:segment>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis">
-                    <in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Druk PNB Bank Ltd</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ReportingPeriodAxis">in-rbi-rep:OverSixMonthsAndUptoOneYearMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain>
                 </xbrldi:typedMember>
             </xbrli:segment>
         </xbrli:entity>
         <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
+            <xbrli:instant>2019-06-30</xbrli:instant>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="asof_20210930_DrukPNBBankLtd">
+    <xbrli:context id="asof_20190630_NonSensitiveMember_IN_548">
         <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
             <xbrli:segment>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis">
-                    <in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Druk PNB Bank Ltd</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ReportingPeriodAxis">in-rbi-rep:NonSensitiveMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain>
                 </xbrldi:typedMember>
             </xbrli:segment>
         </xbrli:entity>
         <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
+            <xbrli:instant>2019-06-30</xbrli:instant>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="asof_20210930_BookValueMember_DrukPNBBankLtd">
+    <xbrli:context id="asof_20190630_OneToTwentyEightDaysMember_IN_548">
         <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
             <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:DetailsOfValueAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis">
-                    <in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Druk PNB Bank Ltd</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ReportingPeriodAxis">in-rbi-rep:OneToTwentyEightDaysMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain>
                 </xbrldi:typedMember>
             </xbrli:segment>
         </xbrli:entity>
         <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
+            <xbrli:instant>2019-06-30</xbrli:instant>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="asof_20210930_MarketValueMember_DrukPNBBankLtd">
+    <xbrli:context id="asof_20190630_IN_548">
         <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
             <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:DetailsOfValueAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis">
-                    <in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Druk PNB Bank Ltd</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain>
                 </xbrldi:typedMember>
             </xbrli:segment>
         </xbrli:entity>
         <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
+            <xbrli:instant>2019-06-30</xbrli:instant>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_PunjabNationalBankInternationalLimited">
+    <xbrli:context id="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548">
         <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
             <xbrli:segment>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis">
-                    <in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Punjab National Bank (International) Limited</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ReportingPeriodAxis">in-rbi-rep:OverThreeYearsAndUptoFiveYearMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain>
                 </xbrldi:typedMember>
             </xbrli:segment>
         </xbrli:entity>
         <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
+            <xbrli:instant>2019-06-30</xbrli:instant>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="asof_20210930_PunjabNationalBankInternationalLimited">
+    <xbrli:context id="asof_20190630_AccountsWithOtherBranchesMember_OverThreeMonthsAndUptoSixMonthsMember_IN_548">
         <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
             <xbrli:segment>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis">
-                    <in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Punjab National Bank (International) Limited</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>
+                <xbrldi:explicitMember dimension="in-rbi-rep:DetailsOfAccountsWithBranchesAxis">in-rbi-rep:AccountsWithOtherBranchesMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:PeriodOfPendingReconcilliationAxis">in-rbi-rep:OverThreeMonthsAndUptoSixMonthsMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain>
                 </xbrldi:typedMember>
             </xbrli:segment>
         </xbrli:entity>
         <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
+            <xbrli:instant>2019-06-30</xbrli:instant>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="asof_20210930_BookValueMember_PunjabNationalBankInternationalLimited">
+    <xbrli:context id="asof_20190630_OverFiveYearsMember_IN_548">
         <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
             <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:DetailsOfValueAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis">
-                    <in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Punjab National Bank (International) Limited</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ReportingPeriodAxis">in-rbi-rep:OverFiveYearsMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain>
                 </xbrldi:typedMember>
             </xbrli:segment>
         </xbrli:entity>
         <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
+            <xbrli:instant>2019-06-30</xbrli:instant>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="asof_20210930_MarketValueMember_PunjabNationalBankInternationalLimited">
+    <xbrli:context id="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548">
         <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
             <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:DetailsOfValueAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis">
-                    <in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Punjab National Bank (International) Limited</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ReportingPeriodAxis">in-rbi-rep:TwentyNineDaysAndUptoThreeMonthsMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain>
                 </xbrldi:typedMember>
             </xbrli:segment>
         </xbrli:entity>
         <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
+            <xbrli:instant>2019-06-30</xbrli:instant>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_EVERESTBANKLTDNEPAL">
+    <xbrli:context id="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548">
         <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
             <xbrli:segment>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis">
-                    <in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>EVEREST BANK LTD. NEPAL</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ReportingPeriodAxis">in-rbi-rep:OverOneYearUptoAndThreeYearMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain>
                 </xbrldi:typedMember>
             </xbrli:segment>
         </xbrli:entity>
         <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
+            <xbrli:instant>2019-06-30</xbrli:instant>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="asof_20210930_EVERESTBANKLTDNEPAL">
+    <xbrli:context id="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548">
         <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
             <xbrli:segment>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis">
-                    <in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>EVEREST BANK LTD. NEPAL</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>
+                <xbrldi:explicitMember dimension="in-rbi-rep:ReportingPeriodAxis">in-rbi-rep:OverThreeMonthsAndUptoSixMonthsMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain>
                 </xbrldi:typedMember>
             </xbrli:segment>
         </xbrli:entity>
         <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_BookValueMember_EVERESTBANKLTDNEPAL">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:DetailsOfValueAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis">
-                    <in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>EVEREST BANK LTD. NEPAL</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_MarketValueMember_EVERESTBANKLTDNEPAL">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:DetailsOfValueAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis">
-                    <in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>EVEREST BANK LTD. NEPAL</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_ManipurRuralBank">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis">
-                    <in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Manipur Rural Bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_ManipurRuralBank">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis">
-                    <in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Manipur Rural Bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_BookValueMember_ManipurRuralBank">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:DetailsOfValueAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis">
-                    <in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Manipur Rural Bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_MarketValueMember_ManipurRuralBank">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:DetailsOfValueAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis">
-                    <in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Manipur Rural Bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="fromto_20210401_20210930_AssamGraminVikashBank">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis">
-                    <in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Assam Gramin Vikash Bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:startDate>2021-04-01</xbrli:startDate>
-            <xbrli:endDate>2021-09-30</xbrli:endDate>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_AssamGraminVikashBank">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis">
-                    <in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Assam Gramin Vikash Bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_BookValueMember_AssamGraminVikashBank">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:DetailsOfValueAxis">in-rbi-rep:BookValueMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis">
-                    <in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Assam Gramin Vikash Bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
-        </xbrli:period>
-    </xbrli:context>
-    <xbrli:context id="asof_20210930_MarketValueMember_AssamGraminVikashBank">
-        <xbrli:entity>
-            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">600</xbrli:identifier>
-            <xbrli:segment>
-                <xbrldi:explicitMember dimension="in-rbi-rep:DetailsOfValueAxis">in-rbi-rep:MarketValueMember</xbrldi:explicitMember>
-                <xbrldi:typedMember dimension="in-rbi-rep:NameOfSubsidiaryAssociateJointVenturesAxis">
-                    <in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>Assam Gramin Vikash Bank</in-rbi-rep-par:NameOfSubsidiaryAssociateJointVenturesDomain>
-                </xbrldi:typedMember>
-            </xbrli:segment>
-        </xbrli:entity>
-        <xbrli:period>
-            <xbrli:instant>2021-09-30</xbrli:instant>
+            <xbrli:instant>2019-06-30</xbrli:instant>
         </xbrli:period>
     </xbrli:context>
     <xbrli:unit id="PURE">
         <xbrli:measure xmlns="">xbrli:pure</xbrli:measure>
     </xbrli:unit>
-    <xbrli:unit id="INR">
+    <xbrli:unit id="USD">
         <xbrli:measure xmlns="">iso4217:INR</xbrli:measure>
     </xbrli:unit>
-    <in-rbi-rep:ReturnName contextRef="fromto_20210401_20210930">Report on Subsidiaries</in-rbi-rep:ReturnName>
-    <in-rbi-rep:ReturnCode contextRef="fromto_20210401_20210930">ROS</in-rbi-rep:ReturnCode>
-    <in-rbi-rep:NameOfReportingInstitution contextRef="fromto_20210401_20210930">Punjab National Bank</in-rbi-rep:NameOfReportingInstitution>
-    <in-rbi-rep:BankCode contextRef="asof_20210930">600</in-rbi-rep:BankCode>
-    <in-rbi-rep:AddressOfReportingInstitution contextRef="fromto_20210401_20210930">Punjab National Bank corporate office dwarka</in-rbi-rep:AddressOfReportingInstitution>
-    <in-rbi-rep:ReportingFrequency contextRef="fromto_20210401_20210930">HalfYearly</in-rbi-rep:ReportingFrequency>
-    <in-rbi-rep:ReportForTheYearEnded contextRef="fromto_20210401_20210930">2021-09-30</in-rbi-rep:ReportForTheYearEnded>
-    <in-rbi-rep:DateOfReport contextRef="asof_20210930">2021-09-30</in-rbi-rep:DateOfReport>
-    <in-rbi-rep:ValidationStatus contextRef="fromto_20210401_20210930">validated</in-rbi-rep:ValidationStatus>
-    <in-rbi-rep:ReturnVersion contextRef="fromto_20210401_20210930">v1.2</in-rbi-rep:ReturnVersion>
-    <in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20210930">2021-04-01</in-rbi-rep:ReportingPeriodStartDate>
-    <in-rbi-rep:SubsidiaryJointVentureAssociateMember contextRef="fromto_20210401_20210930_DrukPNBBankLtd">Subsidiary</in-rbi-rep:SubsidiaryJointVentureAssociateMember>
-    <in-rbi-rep:AreaOfOperationOfRelatedParty contextRef="fromto_20210401_20210930_DrukPNBBankLtd">Foreign</in-rbi-rep:AreaOfOperationOfRelatedParty>
-    <in-rbi-rep:SubsidiaryAssociateJointVentureCode contextRef="fromto_20210401_20210930_DrukPNBBankLtd">600145</in-rbi-rep:SubsidiaryAssociateJointVentureCode>
-    <in-rbi-rep:SubsidiaryAssociateJointVentureName contextRef="fromto_20210401_20210930_DrukPNBBankLtd">Druk PNB Bank Ltd</in-rbi-rep:SubsidiaryAssociateJointVentureName>
-    <in-rbi-rep:ActivityName contextRef="fromto_20210401_20210930_DrukPNBBankLtd">Banking</in-rbi-rep:ActivityName>
-    <in-rbi-rep:AggregateAssets decimals="-3" unitRef="INR" contextRef="asof_20210930_DrukPNBBankLtd">1786713497000</in-rbi-rep:AggregateAssets>
-    <in-rbi-rep:CapitalFund decimals="-3" unitRef="INR" contextRef="asof_20210930_DrukPNBBankLtd">84000202000</in-rbi-rep:CapitalFund>
-    <in-rbi-rep:MinimumCapitalPrescribedByRegulators decimals="-5" unitRef="INR" contextRef="asof_20210930_DrukPNBBankLtd">60000000000</in-rbi-rep:MinimumCapitalPrescribedByRegulators>
-    <in-rbi-rep:MinimumCapitalAdequacyRatioPrescribedByRegulators decimals="2" unitRef="PURE" contextRef="asof_20210930_DrukPNBBankLtd">12.50</in-rbi-rep:MinimumCapitalAdequacyRatioPrescribedByRegulators>
-    <in-rbi-rep:CapitalAdequacyRatio decimals="2" unitRef="PURE" contextRef="asof_20210930_DrukPNBBankLtd">15.74</in-rbi-rep:CapitalAdequacyRatio>
-    <in-rbi-rep:NotionalCapitalFunds decimals="0" unitRef="INR" contextRef="asof_20210930_DrukPNBBankLtd">0</in-rbi-rep:NotionalCapitalFunds>
-    <in-rbi-rep:RiskWeightedAssets decimals="-3" unitRef="INR" contextRef="asof_20210930_DrukPNBBankLtd">1425906748000</in-rbi-rep:RiskWeightedAssets>
-    <in-rbi-rep:NotionalCapitalAdequacyRatio decimals="2" unitRef="PURE" contextRef="asof_20210930_DrukPNBBankLtd">15.74</in-rbi-rep:NotionalCapitalAdequacyRatio>
-    <in-rbi-rep:CapitalAndReserves decimals="-3" unitRef="INR" contextRef="asof_20210930_DrukPNBBankLtd">200622587000</in-rbi-rep:CapitalAndReserves>
-    <in-rbi-rep:Deposits decimals="-3" unitRef="INR" contextRef="asof_20210930_DrukPNBBankLtd">1472245581000</in-rbi-rep:Deposits>
-    <in-rbi-rep:Borrowings decimals="0" unitRef="INR" contextRef="asof_20210930_DrukPNBBankLtd">0</in-rbi-rep:Borrowings>
-    <in-rbi-rep:ProfitLossBeforeTax decimals="-3" unitRef="INR" contextRef="fromto_20210401_20210930_DrukPNBBankLtd">9099247000</in-rbi-rep:ProfitLossBeforeTax>
-    <in-rbi-rep:NetProfitLossAfterTax decimals="-3" unitRef="INR" contextRef="fromto_20210401_20210930_DrukPNBBankLtd">6369473000</in-rbi-rep:NetProfitLossAfterTax>
-    <in-rbi-rep:SurplusLossOnProfitAndLossAccountCarriedForward decimals="0" unitRef="INR" contextRef="fromto_20210401_20210930_DrukPNBBankLtd">0</in-rbi-rep:SurplusLossOnProfitAndLossAccountCarriedForward>
-    <in-rbi-rep:ReturnOnAssets decimals="2" unitRef="PURE" contextRef="fromto_20210401_20210930_DrukPNBBankLtd">0.71</in-rbi-rep:ReturnOnAssets>
-    <in-rbi-rep:ReturnOnEquity decimals="2" unitRef="PURE" contextRef="fromto_20210401_20210930_DrukPNBBankLtd">5.68</in-rbi-rep:ReturnOnEquity>
-    <in-rbi-rep:DividendPaid decimals="-5" unitRef="INR" contextRef="asof_20210930_DrukPNBBankLtd">41484600000</in-rbi-rep:DividendPaid>
-    <in-rbi-rep:LoansAdvancesGross decimals="-3" unitRef="INR" contextRef="asof_20210930_DrukPNBBankLtd">1176044366000</in-rbi-rep:LoansAdvancesGross>
-    <in-rbi-rep:NonPerformingLoansGross decimals="-3" unitRef="INR" contextRef="asof_20210930_DrukPNBBankLtd">59294528000</in-rbi-rep:NonPerformingLoansGross>
-    <in-rbi-rep:ProvisionsHeldAgainstNonPerformingLoans decimals="-3" unitRef="INR" contextRef="fromto_20210401_20210930_DrukPNBBankLtd">34500151000</in-rbi-rep:ProvisionsHeldAgainstNonPerformingLoans>
-    <in-rbi-rep:ProvisionsRequiredAgainstNonPerformingLoans decimals="0" unitRef="INR" contextRef="fromto_20210401_20210930_DrukPNBBankLtd">0</in-rbi-rep:ProvisionsRequiredAgainstNonPerformingLoans>
-    <in-rbi-rep:Investments decimals="-3" unitRef="INR" contextRef="asof_20210930_DrukPNBBankLtd">264784319000</in-rbi-rep:Investments>
-    <in-rbi-rep:Investments decimals="-3" unitRef="INR" contextRef="asof_20210930_DrukPNBBankLtd">264784319000</in-rbi-rep:Investments>
-    <in-rbi-rep:NonPerformingInvestments decimals="0" unitRef="INR" contextRef="asof_20210930_DrukPNBBankLtd">0</in-rbi-rep:NonPerformingInvestments>
-    <in-rbi-rep:ProvisionsHeldAgainstNonPerformingInvestments decimals="0" unitRef="INR" contextRef="fromto_20210401_20210930_DrukPNBBankLtd">0</in-rbi-rep:ProvisionsHeldAgainstNonPerformingInvestments>
-    <in-rbi-rep:ProvisionsRequiredAgainstNonPerformingInvestments decimals="0" unitRef="INR" contextRef="fromto_20210401_20210930_DrukPNBBankLtd">0</in-rbi-rep:ProvisionsRequiredAgainstNonPerformingInvestments>
-    <in-rbi-rep:OffBalanceSheetExposuresContingentLiabilities decimals="-3" unitRef="INR" contextRef="asof_20210930_DrukPNBBankLtd">288202878000</in-rbi-rep:OffBalanceSheetExposuresContingentLiabilities>
-    <in-rbi-rep:NumberOfCounterparties decimals="INF" unitRef="INR" contextRef="fromto_20210401_20210930_DrukPNBBankLtd">10</in-rbi-rep:NumberOfCounterparties>
-    <in-rbi-rep:AggregateExposureAmount decimals="-3" unitRef="INR" contextRef="asof_20210930_DrukPNBBankLtd">326528265000</in-rbi-rep:AggregateExposureAmount>
-    <in-rbi-rep:AggregateExposurePercentageOfCapitalFunds decimals="4" unitRef="PURE" contextRef="asof_20210930_DrukPNBBankLtd">0.2776</in-rbi-rep:AggregateExposurePercentageOfCapitalFunds>
-    <in-rbi-rep:InvestmentInCapitalByParentCompany decimals="-5" unitRef="INR" contextRef="asof_20210930_DrukPNBBankLtd">42075000000</in-rbi-rep:InvestmentInCapitalByParentCompany>
-    <in-rbi-rep:PercentageOfSharesHeldByParentBank decimals="2" unitRef="PURE" contextRef="asof_20210930_DrukPNBBankLtd">51.00</in-rbi-rep:PercentageOfSharesHeldByParentBank>
-    <in-rbi-rep:PercentageOfCapitalHeldByParentBankIncludingTierIICapital decimals="2" unitRef="PURE" contextRef="asof_20210930_DrukPNBBankLtd">21.63</in-rbi-rep:PercentageOfCapitalHeldByParentBankIncludingTierIICapital>
-    <in-rbi-rep:SubsidiaryJointVentureAssociateMember contextRef="fromto_20210401_20210930_PunjabNationalBankInternationalLimited">Subsidiary</in-rbi-rep:SubsidiaryJointVentureAssociateMember>
-    <in-rbi-rep:AreaOfOperationOfRelatedParty contextRef="fromto_20210401_20210930_PunjabNationalBankInternationalLimited">Foreign</in-rbi-rep:AreaOfOperationOfRelatedParty>
-    <in-rbi-rep:SubsidiaryAssociateJointVentureCode contextRef="fromto_20210401_20210930_PunjabNationalBankInternationalLimited">600141</in-rbi-rep:SubsidiaryAssociateJointVentureCode>
-    <in-rbi-rep:SubsidiaryAssociateJointVentureName contextRef="fromto_20210401_20210930_PunjabNationalBankInternationalLimited">Punjab National Bank (International) Limited</in-rbi-rep:SubsidiaryAssociateJointVentureName>
-    <in-rbi-rep:ActivityName contextRef="fromto_20210401_20210930_PunjabNationalBankInternationalLimited">BANKING</in-rbi-rep:ActivityName>
-    <in-rbi-rep:AggregateAssets decimals="-3" unitRef="INR" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">103115602000</in-rbi-rep:AggregateAssets>
-    <in-rbi-rep:CapitalFund decimals="-3" unitRef="INR" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">16876694000</in-rbi-rep:CapitalFund>
-    <in-rbi-rep:MinimumCapitalPrescribedByRegulators decimals="-3" unitRef="INR" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">10002312000</in-rbi-rep:MinimumCapitalPrescribedByRegulators>
-    <in-rbi-rep:MinimumCapitalAdequacyRatioPrescribedByRegulators decimals="2" unitRef="PURE" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">15.55</in-rbi-rep:MinimumCapitalAdequacyRatioPrescribedByRegulators>
-    <in-rbi-rep:CapitalAdequacyRatio decimals="2" unitRef="PURE" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">23.18</in-rbi-rep:CapitalAdequacyRatio>
-    <in-rbi-rep:NotionalCapitalFunds decimals="-3" unitRef="INR" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">14909917000</in-rbi-rep:NotionalCapitalFunds>
-    <in-rbi-rep:RiskWeightedAssets decimals="-3" unitRef="INR" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">64323549000</in-rbi-rep:RiskWeightedAssets>
-    <in-rbi-rep:NotionalCapitalAdequacyRatio decimals="2" unitRef="PURE" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">23.18</in-rbi-rep:NotionalCapitalAdequacyRatio>
-    <in-rbi-rep:CapitalAndReserves decimals="-3" unitRef="INR" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">11669956000</in-rbi-rep:CapitalAndReserves>
-    <in-rbi-rep:Deposits decimals="-3" unitRef="INR" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">65818222000</in-rbi-rep:Deposits>
-    <in-rbi-rep:Borrowings decimals="-3" unitRef="INR" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">246000</in-rbi-rep:Borrowings>
-    <in-rbi-rep:ProfitLossBeforeTax decimals="-3" unitRef="INR" contextRef="fromto_20210401_20210930_PunjabNationalBankInternationalLimited">185847000</in-rbi-rep:ProfitLossBeforeTax>
-    <in-rbi-rep:NetProfitLossAfterTax decimals="-3" unitRef="INR" contextRef="fromto_20210401_20210930_PunjabNationalBankInternationalLimited">185847000</in-rbi-rep:NetProfitLossAfterTax>
-    <in-rbi-rep:SurplusLossOnProfitAndLossAccountCarriedForward decimals="0" unitRef="INR" contextRef="fromto_20210401_20210930_PunjabNationalBankInternationalLimited">0</in-rbi-rep:SurplusLossOnProfitAndLossAccountCarriedForward>
-    <in-rbi-rep:ReturnOnAssets decimals="2" unitRef="PURE" contextRef="fromto_20210401_20210930_PunjabNationalBankInternationalLimited">0.36</in-rbi-rep:ReturnOnAssets>
-    <in-rbi-rep:ReturnOnEquity decimals="2" unitRef="PURE" contextRef="fromto_20210401_20210930_PunjabNationalBankInternationalLimited">3.19</in-rbi-rep:ReturnOnEquity>
-    <in-rbi-rep:DividendPaid decimals="0" unitRef="INR" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">0</in-rbi-rep:DividendPaid>
-    <in-rbi-rep:LoansAdvancesGross decimals="-3" unitRef="INR" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">73719901000</in-rbi-rep:LoansAdvancesGross>
-    <in-rbi-rep:NonPerformingLoansGross decimals="-3" unitRef="INR" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">25666689000</in-rbi-rep:NonPerformingLoansGross>
-    <in-rbi-rep:ProvisionsHeldAgainstNonPerformingLoans decimals="-3" unitRef="INR" contextRef="fromto_20210401_20210930_PunjabNationalBankInternationalLimited">16251027000</in-rbi-rep:ProvisionsHeldAgainstNonPerformingLoans>
-    <in-rbi-rep:ProvisionsRequiredAgainstNonPerformingLoans decimals="-3" unitRef="INR" contextRef="fromto_20210401_20210930_PunjabNationalBankInternationalLimited">16251027000</in-rbi-rep:ProvisionsRequiredAgainstNonPerformingLoans>
-    <in-rbi-rep:Investments decimals="-3" unitRef="INR" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">13262741000</in-rbi-rep:Investments>
-    <in-rbi-rep:Investments decimals="-3" unitRef="INR" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">13124630000</in-rbi-rep:Investments>
-    <in-rbi-rep:NonPerformingInvestments decimals="-3" unitRef="INR" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">781403000</in-rbi-rep:NonPerformingInvestments>
-    <in-rbi-rep:ProvisionsHeldAgainstNonPerformingInvestments decimals="-3" unitRef="INR" contextRef="fromto_20210401_20210930_PunjabNationalBankInternationalLimited">771717000</in-rbi-rep:ProvisionsHeldAgainstNonPerformingInvestments>
-    <in-rbi-rep:ProvisionsRequiredAgainstNonPerformingInvestments decimals="-3" unitRef="INR" contextRef="fromto_20210401_20210930_PunjabNationalBankInternationalLimited">771717000</in-rbi-rep:ProvisionsRequiredAgainstNonPerformingInvestments>
-    <in-rbi-rep:OffBalanceSheetExposuresContingentLiabilities decimals="-3" unitRef="INR" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">17696154000</in-rbi-rep:OffBalanceSheetExposuresContingentLiabilities>
-    <in-rbi-rep:NumberOfCounterparties decimals="INF" unitRef="INR" contextRef="fromto_20210401_20210930_PunjabNationalBankInternationalLimited">5</in-rbi-rep:NumberOfCounterparties>
-    <in-rbi-rep:AggregateExposureAmount decimals="-3" unitRef="INR" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">11233690000</in-rbi-rep:AggregateExposureAmount>
-    <in-rbi-rep:AggregateExposurePercentageOfCapitalFunds decimals="4" unitRef="PURE" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">0.75</in-rbi-rep:AggregateExposurePercentageOfCapitalFunds>
-    <in-rbi-rep:InvestmentInCapitalByParentCompany decimals="-3" unitRef="INR" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">15571931000</in-rbi-rep:InvestmentInCapitalByParentCompany>
-    <in-rbi-rep:PercentageOfSharesHeldByParentBank decimals="2" unitRef="PURE" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">100.00</in-rbi-rep:PercentageOfSharesHeldByParentBank>
-    <in-rbi-rep:PercentageOfCapitalHeldByParentBankIncludingTierIICapital decimals="2" unitRef="PURE" contextRef="asof_20210930_PunjabNationalBankInternationalLimited">96.00</in-rbi-rep:PercentageOfCapitalHeldByParentBankIncludingTierIICapital>
-    <in-rbi-rep:SubsidiaryJointVentureAssociateMember contextRef="fromto_20210401_20210930_EVERESTBANKLTDNEPAL">Associate</in-rbi-rep:SubsidiaryJointVentureAssociateMember>
-    <in-rbi-rep:AreaOfOperationOfRelatedParty contextRef="fromto_20210401_20210930_EVERESTBANKLTDNEPAL">Foreign</in-rbi-rep:AreaOfOperationOfRelatedParty>
-    <in-rbi-rep:SubsidiaryAssociateJointVentureCode contextRef="fromto_20210401_20210930_EVERESTBANKLTDNEPAL">600110</in-rbi-rep:SubsidiaryAssociateJointVentureCode>
-    <in-rbi-rep:SubsidiaryAssociateJointVentureName contextRef="fromto_20210401_20210930_EVERESTBANKLTDNEPAL">EVEREST BANK LTD. NEPAL</in-rbi-rep:SubsidiaryAssociateJointVentureName>
-    <in-rbi-rep:ActivityName contextRef="fromto_20210401_20210930_EVERESTBANKLTDNEPAL">Associate</in-rbi-rep:ActivityName>
-    <in-rbi-rep:AggregateAssets decimals="-5" unitRef="INR" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">122801800000</in-rbi-rep:AggregateAssets>
-    <in-rbi-rep:CapitalFund decimals="-3" unitRef="INR" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">585603000</in-rbi-rep:CapitalFund>
-    <in-rbi-rep:MinimumCapitalPrescribedByRegulators decimals="0" unitRef="INR" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">0</in-rbi-rep:MinimumCapitalPrescribedByRegulators>
-    <in-rbi-rep:MinimumCapitalAdequacyRatioPrescribedByRegulators decimals="2" unitRef="PURE" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">9.00</in-rbi-rep:MinimumCapitalAdequacyRatioPrescribedByRegulators>
-    <in-rbi-rep:CapitalAdequacyRatio decimals="2" unitRef="PURE" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">12.27</in-rbi-rep:CapitalAdequacyRatio>
-    <in-rbi-rep:NotionalCapitalFunds decimals="0" unitRef="INR" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">0</in-rbi-rep:NotionalCapitalFunds>
-    <in-rbi-rep:RiskWeightedAssets decimals="-5" unitRef="INR" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">96781800000</in-rbi-rep:RiskWeightedAssets>
-    <in-rbi-rep:NotionalCapitalAdequacyRatio decimals="2" unitRef="PURE" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">12.27</in-rbi-rep:NotionalCapitalAdequacyRatio>
-    <in-rbi-rep:CapitalAndReserves decimals="-5" unitRef="INR" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">13109800000</in-rbi-rep:CapitalAndReserves>
-    <in-rbi-rep:Deposits decimals="-5" unitRef="INR" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">98570500000</in-rbi-rep:Deposits>
-    <in-rbi-rep:Borrowings decimals="-5" unitRef="INR" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">3965500000</in-rbi-rep:Borrowings>
-    <in-rbi-rep:ProfitLossBeforeTax decimals="-5" unitRef="INR" contextRef="fromto_20210401_20210930_EVERESTBANKLTDNEPAL">978200000</in-rbi-rep:ProfitLossBeforeTax>
-    <in-rbi-rep:NetProfitLossAfterTax decimals="-5" unitRef="INR" contextRef="fromto_20210401_20210930_EVERESTBANKLTDNEPAL">682600000</in-rbi-rep:NetProfitLossAfterTax>
-    <in-rbi-rep:SurplusLossOnProfitAndLossAccountCarriedForward decimals="-5" unitRef="INR" contextRef="fromto_20210401_20210930_EVERESTBANKLTDNEPAL">682600000</in-rbi-rep:SurplusLossOnProfitAndLossAccountCarriedForward>
-    <in-rbi-rep:ReturnOnAssets decimals="2" unitRef="PURE" contextRef="fromto_20210401_20210930_EVERESTBANKLTDNEPAL">1.11</in-rbi-rep:ReturnOnAssets>
-    <in-rbi-rep:ReturnOnEquity decimals="2" unitRef="PURE" contextRef="fromto_20210401_20210930_EVERESTBANKLTDNEPAL">10.41</in-rbi-rep:ReturnOnEquity>
-    <in-rbi-rep:DividendPaid decimals="0" unitRef="INR" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">0</in-rbi-rep:DividendPaid>
-    <in-rbi-rep:LoansAdvancesGross decimals="-5" unitRef="INR" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">86872300000</in-rbi-rep:LoansAdvancesGross>
-    <in-rbi-rep:NonPerformingLoansGross decimals="-5" unitRef="INR" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">80300000</in-rbi-rep:NonPerformingLoansGross>
-    <in-rbi-rep:ProvisionsHeldAgainstNonPerformingLoans decimals="-5" unitRef="INR" contextRef="fromto_20210401_20210930_EVERESTBANKLTDNEPAL">63400000</in-rbi-rep:ProvisionsHeldAgainstNonPerformingLoans>
-    <in-rbi-rep:ProvisionsRequiredAgainstNonPerformingLoans decimals="-5" unitRef="INR" contextRef="fromto_20210401_20210930_EVERESTBANKLTDNEPAL">63400000</in-rbi-rep:ProvisionsRequiredAgainstNonPerformingLoans>
-    <in-rbi-rep:Investments decimals="-5" unitRef="INR" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">24630200000</in-rbi-rep:Investments>
-    <in-rbi-rep:Investments decimals="-5" unitRef="INR" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">24630200000</in-rbi-rep:Investments>
-    <in-rbi-rep:NonPerformingInvestments decimals="0" unitRef="INR" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">0</in-rbi-rep:NonPerformingInvestments>
-    <in-rbi-rep:ProvisionsHeldAgainstNonPerformingInvestments decimals="0" unitRef="INR" contextRef="fromto_20210401_20210930_EVERESTBANKLTDNEPAL">0</in-rbi-rep:ProvisionsHeldAgainstNonPerformingInvestments>
-    <in-rbi-rep:ProvisionsRequiredAgainstNonPerformingInvestments decimals="0" unitRef="INR" contextRef="fromto_20210401_20210930_EVERESTBANKLTDNEPAL">0</in-rbi-rep:ProvisionsRequiredAgainstNonPerformingInvestments>
-    <in-rbi-rep:OffBalanceSheetExposuresContingentLiabilities decimals="-5" unitRef="INR" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">32137500000</in-rbi-rep:OffBalanceSheetExposuresContingentLiabilities>
-    <in-rbi-rep:NumberOfCounterparties decimals="INF" unitRef="INR" contextRef="fromto_20210401_20210930_EVERESTBANKLTDNEPAL">6</in-rbi-rep:NumberOfCounterparties>
-    <in-rbi-rep:AggregateExposureAmount decimals="-5" unitRef="INR" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">5158800000</in-rbi-rep:AggregateExposureAmount>
-    <in-rbi-rep:AggregateExposurePercentageOfCapitalFunds decimals="4" unitRef="PURE" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">0.4345</in-rbi-rep:AggregateExposurePercentageOfCapitalFunds>
-    <in-rbi-rep:InvestmentInCapitalByParentCompany decimals="-3" unitRef="INR" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">266445000</in-rbi-rep:InvestmentInCapitalByParentCompany>
-    <in-rbi-rep:PercentageOfSharesHeldByParentBank decimals="2" unitRef="PURE" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">20.03</in-rbi-rep:PercentageOfSharesHeldByParentBank>
-    <in-rbi-rep:PercentageOfCapitalHeldByParentBankIncludingTierIICapital decimals="2" unitRef="PURE" contextRef="asof_20210930_EVERESTBANKLTDNEPAL">9.67</in-rbi-rep:PercentageOfCapitalHeldByParentBankIncludingTierIICapital>
-    <in-rbi-rep:SubsidiaryJointVentureAssociateMember contextRef="fromto_20210401_20210930_ManipurRuralBank">Associate</in-rbi-rep:SubsidiaryJointVentureAssociateMember>
-    <in-rbi-rep:AreaOfOperationOfRelatedParty contextRef="fromto_20210401_20210930_ManipurRuralBank">India</in-rbi-rep:AreaOfOperationOfRelatedParty>
-    <in-rbi-rep:SubsidiaryAssociateJointVentureCode contextRef="fromto_20210401_20210930_ManipurRuralBank">600115</in-rbi-rep:SubsidiaryAssociateJointVentureCode>
-    <in-rbi-rep:SubsidiaryAssociateJointVentureName contextRef="fromto_20210401_20210930_ManipurRuralBank">Manipur Rural Bank</in-rbi-rep:SubsidiaryAssociateJointVentureName>
-    <in-rbi-rep:ActivityName contextRef="fromto_20210401_20210930_ManipurRuralBank">BANKING</in-rbi-rep:ActivityName>
-    <in-rbi-rep:AggregateAssets decimals="-3" unitRef="INR" contextRef="asof_20210930_ManipurRuralBank">5102182000</in-rbi-rep:AggregateAssets>
-    <in-rbi-rep:CapitalFund decimals="-3" unitRef="INR" contextRef="asof_20210930_ManipurRuralBank">585603000</in-rbi-rep:CapitalFund>
-    <in-rbi-rep:MinimumCapitalPrescribedByRegulators decimals="0" unitRef="INR" contextRef="asof_20210930_ManipurRuralBank">0</in-rbi-rep:MinimumCapitalPrescribedByRegulators>
-    <in-rbi-rep:MinimumCapitalAdequacyRatioPrescribedByRegulators decimals="2" unitRef="PURE" contextRef="asof_20210930_ManipurRuralBank">9.00</in-rbi-rep:MinimumCapitalAdequacyRatioPrescribedByRegulators>
-    <in-rbi-rep:CapitalAdequacyRatio decimals="2" unitRef="PURE" contextRef="asof_20210930_ManipurRuralBank">2.45</in-rbi-rep:CapitalAdequacyRatio>
-    <in-rbi-rep:NotionalCapitalFunds decimals="0" unitRef="INR" contextRef="asof_20210930_ManipurRuralBank">0</in-rbi-rep:NotionalCapitalFunds>
-    <in-rbi-rep:RiskWeightedAssets decimals="-3" unitRef="INR" contextRef="asof_20210930_ManipurRuralBank">1589966000</in-rbi-rep:RiskWeightedAssets>
-    <in-rbi-rep:NotionalCapitalAdequacyRatio decimals="2" unitRef="PURE" contextRef="asof_20210930_ManipurRuralBank">2.45</in-rbi-rep:NotionalCapitalAdequacyRatio>
-    <in-rbi-rep:CapitalAndReserves decimals="-3" unitRef="INR" contextRef="asof_20210930_ManipurRuralBank">585725000</in-rbi-rep:CapitalAndReserves>
-    <in-rbi-rep:Deposits decimals="-3" unitRef="INR" contextRef="asof_20210930_ManipurRuralBank">3477728000</in-rbi-rep:Deposits>
-    <in-rbi-rep:Borrowings decimals="-3" unitRef="INR" contextRef="asof_20210930_ManipurRuralBank">438912000</in-rbi-rep:Borrowings>
-    <in-rbi-rep:ProfitLossBeforeTax decimals="0" unitRef="INR" contextRef="fromto_20210401_20210930_ManipurRuralBank">-26.66</in-rbi-rep:ProfitLossBeforeTax>
-    <in-rbi-rep:NetProfitLossAfterTax decimals="0" unitRef="INR" contextRef="fromto_20210401_20210930_ManipurRuralBank">-26.66</in-rbi-rep:NetProfitLossAfterTax>
-    <in-rbi-rep:SurplusLossOnProfitAndLossAccountCarriedForward decimals="-3" unitRef="INR" contextRef="fromto_20210401_20210930_ManipurRuralBank">-568484000</in-rbi-rep:SurplusLossOnProfitAndLossAccountCarriedForward>
-    <in-rbi-rep:ReturnOnAssets decimals="2" unitRef="PURE" contextRef="fromto_20210401_20210930_ManipurRuralBank">-0.06</in-rbi-rep:ReturnOnAssets>
-    <in-rbi-rep:ReturnOnEquity decimals="2" unitRef="PURE" contextRef="fromto_20210401_20210930_ManipurRuralBank">-11.12</in-rbi-rep:ReturnOnEquity>
-    <in-rbi-rep:DividendPaid decimals="0" unitRef="INR" contextRef="asof_20210930_ManipurRuralBank">0</in-rbi-rep:DividendPaid>
-    <in-rbi-rep:LoansAdvancesGross decimals="-3" unitRef="INR" contextRef="asof_20210930_ManipurRuralBank">189497000</in-rbi-rep:LoansAdvancesGross>
-    <in-rbi-rep:NonPerformingLoansGross decimals="-3" unitRef="INR" contextRef="asof_20210930_ManipurRuralBank">501814000</in-rbi-rep:NonPerformingLoansGross>
-    <in-rbi-rep:ProvisionsHeldAgainstNonPerformingLoans decimals="-3" unitRef="INR" contextRef="fromto_20210401_20210930_ManipurRuralBank">156140000</in-rbi-rep:ProvisionsHeldAgainstNonPerformingLoans>
-    <in-rbi-rep:ProvisionsRequiredAgainstNonPerformingLoans decimals="-3" unitRef="INR" contextRef="fromto_20210401_20210930_ManipurRuralBank">156140000</in-rbi-rep:ProvisionsRequiredAgainstNonPerformingLoans>
-    <in-rbi-rep:Investments decimals="-3" unitRef="INR" contextRef="asof_20210930_ManipurRuralBank">2092130000</in-rbi-rep:Investments>
-    <in-rbi-rep:Investments decimals="-3" unitRef="INR" contextRef="asof_20210930_ManipurRuralBank">2050989000</in-rbi-rep:Investments>
-    <in-rbi-rep:NonPerformingInvestments decimals="0" unitRef="INR" contextRef="asof_20210930_ManipurRuralBank">0</in-rbi-rep:NonPerformingInvestments>
-    <in-rbi-rep:ProvisionsHeldAgainstNonPerformingInvestments decimals="0" unitRef="INR" contextRef="fromto_20210401_20210930_ManipurRuralBank">0</in-rbi-rep:ProvisionsHeldAgainstNonPerformingInvestments>
-    <in-rbi-rep:ProvisionsRequiredAgainstNonPerformingInvestments decimals="0" unitRef="INR" contextRef="fromto_20210401_20210930_ManipurRuralBank">0</in-rbi-rep:ProvisionsRequiredAgainstNonPerformingInvestments>
-    <in-rbi-rep:OffBalanceSheetExposuresContingentLiabilities decimals="0" unitRef="INR" contextRef="asof_20210930_ManipurRuralBank">33.00</in-rbi-rep:OffBalanceSheetExposuresContingentLiabilities>
-    <in-rbi-rep:NumberOfCounterparties decimals="INF" unitRef="INR" contextRef="fromto_20210401_20210930_ManipurRuralBank">0</in-rbi-rep:NumberOfCounterparties>
-    <in-rbi-rep:AggregateExposureAmount decimals="0" unitRef="INR" contextRef="asof_20210930_ManipurRuralBank">0.00</in-rbi-rep:AggregateExposureAmount>
-    <in-rbi-rep:AggregateExposurePercentageOfCapitalFunds decimals="4" unitRef="PURE" contextRef="asof_20210930_ManipurRuralBank">0.00</in-rbi-rep:AggregateExposurePercentageOfCapitalFunds>
-    <in-rbi-rep:InvestmentInCapitalByParentCompany decimals="-3" unitRef="INR" contextRef="asof_20210930_ManipurRuralBank">204961000</in-rbi-rep:InvestmentInCapitalByParentCompany>
-    <in-rbi-rep:PercentageOfSharesHeldByParentBank decimals="2" unitRef="PURE" contextRef="asof_20210930_ManipurRuralBank">35.00</in-rbi-rep:PercentageOfSharesHeldByParentBank>
-    <in-rbi-rep:PercentageOfCapitalHeldByParentBankIncludingTierIICapital decimals="2" unitRef="PURE" contextRef="asof_20210930_ManipurRuralBank">35.00</in-rbi-rep:PercentageOfCapitalHeldByParentBankIncludingTierIICapital>
-    <in-rbi-rep:SubsidiaryJointVentureAssociateMember contextRef="fromto_20210401_20210930_AssamGraminVikashBank">Associate</in-rbi-rep:SubsidiaryJointVentureAssociateMember>
-    <in-rbi-rep:AreaOfOperationOfRelatedParty contextRef="fromto_20210401_20210930_AssamGraminVikashBank">India</in-rbi-rep:AreaOfOperationOfRelatedParty>
-    <in-rbi-rep:SubsidiaryAssociateJointVentureCode contextRef="fromto_20210401_20210930_AssamGraminVikashBank">600111</in-rbi-rep:SubsidiaryAssociateJointVentureCode>
-    <in-rbi-rep:SubsidiaryAssociateJointVentureName contextRef="fromto_20210401_20210930_AssamGraminVikashBank">Assam Gramin Vikash Bank</in-rbi-rep:SubsidiaryAssociateJointVentureName>
-    <in-rbi-rep:ActivityName contextRef="fromto_20210401_20210930_AssamGraminVikashBank">BANKING</in-rbi-rep:ActivityName>
-    <in-rbi-rep:AggregateAssets decimals="-3" unitRef="INR" contextRef="asof_20210930_AssamGraminVikashBank">125181503000</in-rbi-rep:AggregateAssets>
-    <in-rbi-rep:CapitalFund decimals="-3" unitRef="INR" contextRef="asof_20210930_AssamGraminVikashBank">1867537000</in-rbi-rep:CapitalFund>
-    <in-rbi-rep:MinimumCapitalPrescribedByRegulators decimals="-5" unitRef="INR" contextRef="asof_20210930_AssamGraminVikashBank">20000000000</in-rbi-rep:MinimumCapitalPrescribedByRegulators>
-    <in-rbi-rep:MinimumCapitalAdequacyRatioPrescribedByRegulators decimals="2" unitRef="PURE" contextRef="asof_20210930_AssamGraminVikashBank">9.00</in-rbi-rep:MinimumCapitalAdequacyRatioPrescribedByRegulators>
-    <in-rbi-rep:CapitalAdequacyRatio decimals="2" unitRef="PURE" contextRef="asof_20210930_AssamGraminVikashBank">1.28</in-rbi-rep:CapitalAdequacyRatio>
-    <in-rbi-rep:NotionalCapitalFunds decimals="-3" unitRef="INR" contextRef="asof_20210930_AssamGraminVikashBank">497166000</in-rbi-rep:NotionalCapitalFunds>
-    <in-rbi-rep:RiskWeightedAssets decimals="-3" unitRef="INR" contextRef="asof_20210930_AssamGraminVikashBank">38846872000</in-rbi-rep:RiskWeightedAssets>
-    <in-rbi-rep:NotionalCapitalAdequacyRatio decimals="2" unitRef="PURE" contextRef="asof_20210930_AssamGraminVikashBank">1.28</in-rbi-rep:NotionalCapitalAdequacyRatio>
-    <in-rbi-rep:CapitalAndReserves decimals="-3" unitRef="INR" contextRef="asof_20210930_AssamGraminVikashBank">248583000</in-rbi-rep:CapitalAndReserves>
-    <in-rbi-rep:Deposits decimals="-3" unitRef="INR" contextRef="asof_20210930_AssamGraminVikashBank">114287043000</in-rbi-rep:Deposits>
-    <in-rbi-rep:Borrowings decimals="-3" unitRef="INR" contextRef="asof_20210930_AssamGraminVikashBank">8329811000</in-rbi-rep:Borrowings>
-    <in-rbi-rep:ProfitLossBeforeTax decimals="-3" unitRef="INR" contextRef="fromto_20210401_20210930_AssamGraminVikashBank">-115146000</in-rbi-rep:ProfitLossBeforeTax>
-    <in-rbi-rep:NetProfitLossAfterTax decimals="-3" unitRef="INR" contextRef="fromto_20210401_20210930_AssamGraminVikashBank">-115146000</in-rbi-rep:NetProfitLossAfterTax>
-    <in-rbi-rep:SurplusLossOnProfitAndLossAccountCarriedForward decimals="-3" unitRef="INR" contextRef="fromto_20210401_20210930_AssamGraminVikashBank">-4859440000</in-rbi-rep:SurplusLossOnProfitAndLossAccountCarriedForward>
-    <in-rbi-rep:ReturnOnAssets decimals="2" unitRef="PURE" contextRef="fromto_20210401_20210930_AssamGraminVikashBank">-1.80</in-rbi-rep:ReturnOnAssets>
-    <in-rbi-rep:ReturnOnEquity decimals="2" unitRef="PURE" contextRef="fromto_20210401_20210930_AssamGraminVikashBank">-31.66</in-rbi-rep:ReturnOnEquity>
-    <in-rbi-rep:DividendPaid decimals="0" unitRef="INR" contextRef="asof_20210930_AssamGraminVikashBank">0</in-rbi-rep:DividendPaid>
-    <in-rbi-rep:LoansAdvancesGross decimals="-3" unitRef="INR" contextRef="asof_20210930_AssamGraminVikashBank">45103154000</in-rbi-rep:LoansAdvancesGross>
-    <in-rbi-rep:NonPerformingLoansGross decimals="-3" unitRef="INR" contextRef="asof_20210930_AssamGraminVikashBank">13960117000</in-rbi-rep:NonPerformingLoansGross>
-    <in-rbi-rep:ProvisionsHeldAgainstNonPerformingLoans decimals="-3" unitRef="INR" contextRef="fromto_20210401_20210930_AssamGraminVikashBank">6962330000</in-rbi-rep:ProvisionsHeldAgainstNonPerformingLoans>
-    <in-rbi-rep:ProvisionsRequiredAgainstNonPerformingLoans decimals="-3" unitRef="INR" contextRef="fromto_20210401_20210930_AssamGraminVikashBank">5688264000</in-rbi-rep:ProvisionsRequiredAgainstNonPerformingLoans>
-    <in-rbi-rep:Investments decimals="-3" unitRef="INR" contextRef="asof_20210930_AssamGraminVikashBank">76885480000</in-rbi-rep:Investments>
-    <in-rbi-rep:Investments decimals="-3" unitRef="INR" contextRef="asof_20210930_AssamGraminVikashBank">73163176000</in-rbi-rep:Investments>
-    <in-rbi-rep:NonPerformingInvestments decimals="0" unitRef="INR" contextRef="asof_20210930_AssamGraminVikashBank">0</in-rbi-rep:NonPerformingInvestments>
-    <in-rbi-rep:ProvisionsHeldAgainstNonPerformingInvestments decimals="0" unitRef="INR" contextRef="fromto_20210401_20210930_AssamGraminVikashBank">0</in-rbi-rep:ProvisionsHeldAgainstNonPerformingInvestments>
-    <in-rbi-rep:ProvisionsRequiredAgainstNonPerformingInvestments decimals="0" unitRef="INR" contextRef="fromto_20210401_20210930_AssamGraminVikashBank">0</in-rbi-rep:ProvisionsRequiredAgainstNonPerformingInvestments>
-    <in-rbi-rep:OffBalanceSheetExposuresContingentLiabilities decimals="-3" unitRef="INR" contextRef="asof_20210930_AssamGraminVikashBank">221791000</in-rbi-rep:OffBalanceSheetExposuresContingentLiabilities>
-    <in-rbi-rep:NumberOfCounterparties decimals="INF" unitRef="INR" contextRef="fromto_20210401_20210930_AssamGraminVikashBank">0</in-rbi-rep:NumberOfCounterparties>
-    <in-rbi-rep:AggregateExposureAmount decimals="0" unitRef="INR" contextRef="asof_20210930_AssamGraminVikashBank">0.00</in-rbi-rep:AggregateExposureAmount>
-    <in-rbi-rep:AggregateExposurePercentageOfCapitalFunds decimals="4" unitRef="PURE" contextRef="asof_20210930_AssamGraminVikashBank">0.00</in-rbi-rep:AggregateExposurePercentageOfCapitalFunds>
-    <in-rbi-rep:InvestmentInCapitalByParentCompany decimals="-3" unitRef="INR" contextRef="asof_20210930_AssamGraminVikashBank">653708000</in-rbi-rep:InvestmentInCapitalByParentCompany>
-    <in-rbi-rep:PercentageOfSharesHeldByParentBank decimals="2" unitRef="PURE" contextRef="asof_20210930_AssamGraminVikashBank">35.00</in-rbi-rep:PercentageOfSharesHeldByParentBank>
-    <in-rbi-rep:PercentageOfCapitalHeldByParentBankIncludingTierIICapital decimals="2" unitRef="PURE" contextRef="asof_20210930_AssamGraminVikashBank">35.00</in-rbi-rep:PercentageOfCapitalHeldByParentBankIncludingTierIICapital>
+    <in-rbi-rep:ReturnName contextRef="fromto_20190401_20190630">Asset Liability Exposure (Overseas)</in-rbi-rep:ReturnName>
+    <in-rbi-rep:ReturnCode contextRef="fromto_20190401_20190630">ALO</in-rbi-rep:ReturnCode>
+    <in-rbi-rep:NameOfReportingInstitution contextRef="fromto_20190401_20190630">Lead Bank-Others</in-rbi-rep:NameOfReportingInstitution>
+    <in-rbi-rep:BankCode contextRef="asof_20190630">444</in-rbi-rep:BankCode>
+    <in-rbi-rep:Address contextRef="fromto_20190401_20190630">dfgdg</in-rbi-rep:Address>
+    <in-rbi-rep:DateOfQuarterEnded contextRef="asof_20190630">2019-06-30</in-rbi-rep:DateOfQuarterEnded>
+    <in-rbi-rep:ReportingFrequency contextRef="fromto_20190401_20190630">Quarterly</in-rbi-rep:ReportingFrequency>
+    <in-rbi-rep:DateOfReport contextRef="asof_20190630">2019-08-01</in-rbi-rep:DateOfReport>
+    <in-rbi-rep:ReportStatus contextRef="fromto_20190401_20190630">Audited</in-rbi-rep:ReportStatus>
+    <in-rbi-rep:DateOfAudit contextRef="asof_20190630">2019-07-04</in-rbi-rep:DateOfAudit>
+    <in-rbi-rep:ValidationStatus contextRef="fromto_20190401_20190630">Validated</in-rbi-rep:ValidationStatus>
+    <in-rbi-rep:ReturnVersion contextRef="fromto_20190401_20190630">V1.3</in-rbi-rep:ReturnVersion>
+    <in-rbi-rep:GeneralRemarks contextRef="fromto_20190401_20190630">dfgdgdgf</in-rbi-rep:GeneralRemarks>
+    <in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20190630">2019-04-01</in-rbi-rep:ReportingPeriodStartDate>
+    <in-rbi-rep:CashAndBalancesWithCentralBanks decimals="-5" unitRef="USD" contextRef="asof_20190630_IN_548">4504000000</in-rbi-rep:CashAndBalancesWithCentralBanks>
+    <in-rbi-rep:InvestmentsInSecurities decimals="-5" unitRef="USD" contextRef="asof_20190630_IN_548">18163200000</in-rbi-rep:InvestmentsInSecurities>
+    <in-rbi-rep:InvestmentsInLocalGovernments decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4518720000</in-rbi-rep:InvestmentsInLocalGovernments>
+    <in-rbi-rep:InvestmentsInIndia decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4533440000</in-rbi-rep:InvestmentsInIndia>
+    <in-rbi-rep:InvestmentsInOECDCountries decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4548160000</in-rbi-rep:InvestmentsInOECDCountries>
+    <in-rbi-rep:OtherInvestments decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4562880000</in-rbi-rep:OtherInvestments>
+    <in-rbi-rep:InterBranchPlacementsOrDeposits decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">13776960000</in-rbi-rep:InterBranchPlacementsOrDeposits>
+    <in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInSameForeignCentre decimals="-5" unitRef="USD" contextRef="asof_20190630_IN_548">4577600000</in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInSameForeignCentre>
+    <in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInOtherForeignCentre decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4592320000</in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInOtherForeignCentre>
+    <in-rbi-rep:InterBranchPlacementsOrDepositsWithIndiaBranches decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4607040000</in-rbi-rep:InterBranchPlacementsOrDepositsWithIndiaBranches>
+    <in-rbi-rep:InterBankPlacementsOrDeposits decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">9258240000</in-rbi-rep:InterBankPlacementsOrDeposits>
+    <in-rbi-rep:InterBankPlacementsOrDepositsInCurrentAccounts decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4621760000</in-rbi-rep:InterBankPlacementsOrDepositsInCurrentAccounts>
+    <in-rbi-rep:InterBankPlacementsInOtherDeposits decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4636480000</in-rbi-rep:InterBankPlacementsInOtherDeposits>
+    <in-rbi-rep:GrossCustomerCredit decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">61613760000</in-rbi-rep:GrossCustomerCredit>
+    <in-rbi-rep:LoansOrOverdrafts decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">56785920000</in-rbi-rep:LoansOrOverdrafts>
+    <in-rbi-rep:LoansAgainstDepositsOrSecuritiesHeldIn decimals="-5" unitRef="USD" contextRef="asof_20190630_IN_548">4651200000</in-rbi-rep:LoansAgainstDepositsOrSecuritiesHeldIn>
+    <in-rbi-rep:LoansAgainstLCOrLOCByHeadOffice decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4665920000</in-rbi-rep:LoansAgainstLCOrLOCByHeadOffice>
+    <in-rbi-rep:LoansToIndianPSU decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">18810880000</in-rbi-rep:LoansToIndianPSU>
+    <in-rbi-rep:ShortTermFacilitiesByBank decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4680640000</in-rbi-rep:ShortTermFacilitiesByBank>
+    <in-rbi-rep:BankerAcceptanceFacilities decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4695360000</in-rbi-rep:BankerAcceptanceFacilities>
+    <in-rbi-rep:SyndicatedLoans decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4710080000</in-rbi-rep:SyndicatedLoans>
+    <in-rbi-rep:OtherLoansToIndianPSU decimals="-5" unitRef="USD" contextRef="asof_20190630_IN_548">4724800000</in-rbi-rep:OtherLoansToIndianPSU>
+    <in-rbi-rep:OtherIndiaRelatedFundedExposures decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4739520000</in-rbi-rep:OtherIndiaRelatedFundedExposures>
+    <in-rbi-rep:SovereignLoans decimals="-5" unitRef="USD" contextRef="asof_20190630_IN_548">9523200000</in-rbi-rep:SovereignLoans>
+    <in-rbi-rep:LoansToProblemCountries decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4754240000</in-rbi-rep:LoansToProblemCountries>
+    <in-rbi-rep:OtherSovereignLoans decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4768960000</in-rbi-rep:OtherSovereignLoans>
+    <in-rbi-rep:RealEstateExposures decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4783680000</in-rbi-rep:RealEstateExposures>
+    <in-rbi-rep:CommercialLoans decimals="-5" unitRef="USD" contextRef="asof_20190630_IN_548">4798400000</in-rbi-rep:CommercialLoans>
+    <in-rbi-rep:OtherLoans decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4813120000</in-rbi-rep:OtherLoans>
+    <in-rbi-rep:BillsPurchasedAndDiscounted decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4827840000</in-rbi-rep:BillsPurchasedAndDiscounted>
+    <in-rbi-rep:NettingItems decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">9699840000</in-rbi-rep:NettingItems>
+    <in-rbi-rep:Provisions decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4842560000</in-rbi-rep:Provisions>
+    <in-rbi-rep:InterestSuspense decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4857280000</in-rbi-rep:InterestSuspense>
+    <in-rbi-rep:NetCustomerCredit decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">51913920000</in-rbi-rep:NetCustomerCredit>
+    <in-rbi-rep:AccumulatedLosses decimals="-5" unitRef="USD" contextRef="asof_20190630_IN_548">4872000000</in-rbi-rep:AccumulatedLosses>
+    <in-rbi-rep:OtherAssets decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4886720000</in-rbi-rep:OtherAssets>
+    <in-rbi-rep:AggregateAssets decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">107375040000</in-rbi-rep:AggregateAssets>
+    <in-rbi-rep:HeadOfficeFunds decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">19694080000</in-rbi-rep:HeadOfficeFunds>
+    <in-rbi-rep:AssignedCapital decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4901440000</in-rbi-rep:AssignedCapital>
+    <in-rbi-rep:SupportFunds decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4916160000</in-rbi-rep:SupportFunds>
+    <in-rbi-rep:EarningsRetained decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4930880000</in-rbi-rep:EarningsRetained>
+    <in-rbi-rep:OtherFunds decimals="-5" unitRef="USD" contextRef="asof_20190630_IN_548">4945600000</in-rbi-rep:OtherFunds>
+    <in-rbi-rep:CustomerDeposits decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">9935360000</in-rbi-rep:CustomerDeposits>
+    <in-rbi-rep:CustomerDepositsInCurrentAccounts decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4960320000</in-rbi-rep:CustomerDepositsInCurrentAccounts>
+    <in-rbi-rep:CustomerDepositsInOtherAccounts decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4975040000</in-rbi-rep:CustomerDepositsInOtherAccounts>
+    <in-rbi-rep:InterBranchBorrowingsOrDeposits decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">15013440000</in-rbi-rep:InterBranchBorrowingsOrDeposits>
+    <in-rbi-rep:InterBranchBorrowingsOrDepositsWithBranchesInSameForeign decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">4989760000</in-rbi-rep:InterBranchBorrowingsOrDepositsWithBranchesInSameForeign>
+    <in-rbi-rep:InterBranchBorrowingsOrDepositswithBranchesInOtherForeign decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">5004480000</in-rbi-rep:InterBranchBorrowingsOrDepositswithBranchesInOtherForeign>
+    <in-rbi-rep:InterBranchBorrowingsOrDepositsWithIndiaBranches decimals="-5" unitRef="USD" contextRef="asof_20190630_IN_548">5019200000</in-rbi-rep:InterBranchBorrowingsOrDepositsWithIndiaBranches>
+    <in-rbi-rep:InterBankBorrowings decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">10082560000</in-rbi-rep:InterBankBorrowings>
+    <in-rbi-rep:InterBankBorrowingsInCurrentAccount decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">5033920000</in-rbi-rep:InterBankBorrowingsInCurrentAccount>
+    <in-rbi-rep:InterBankBorrowingsInOtherDeposits decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">5048640000</in-rbi-rep:InterBankBorrowingsInOtherDeposits>
+    <in-rbi-rep:OtherDebtInstruments decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">5063360000</in-rbi-rep:OtherDebtInstruments>
+    <in-rbi-rep:OtherLiabilities decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">10170880000</in-rbi-rep:OtherLiabilities>
+    <in-rbi-rep:GeneralProvision decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">5078080000</in-rbi-rep:GeneralProvision>
+    <in-rbi-rep:MiscellaneousLiabilities decimals="-5" unitRef="USD" contextRef="asof_20190630_IN_548">5092800000</in-rbi-rep:MiscellaneousLiabilities>
+    <in-rbi-rep:AggregateLiabilities decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">69959680000</in-rbi-rep:AggregateLiabilities>
+    <in-rbi-rep:AggregateCapital decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">37415360000</in-rbi-rep:AggregateCapital>
+    <in-rbi-rep:AggregateForwardRateAgreements decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">5107520000</in-rbi-rep:AggregateForwardRateAgreements>
+    <in-rbi-rep:Swaps decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">5122240000</in-rbi-rep:Swaps>
+    <in-rbi-rep:Futures decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">5136960000</in-rbi-rep:Futures>
+    <in-rbi-rep:Options decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">5151680000</in-rbi-rep:Options>
+    <in-rbi-rep:OtherProducts decimals="-5" unitRef="USD" contextRef="asof_20190630_IN_548">5166400000</in-rbi-rep:OtherProducts>
+    <in-rbi-rep:AggregateOtherProducts decimals="-5" unitRef="USD" contextRef="asof_20190630_IN_548">25684800000</in-rbi-rep:AggregateOtherProducts>
+    <in-rbi-rep:NetGap decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">63100160000</in-rbi-rep:NetGap>
+    <in-rbi-rep:CumulativeGap decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">63100160000</in-rbi-rep:CumulativeGap>
+    <in-rbi-rep:NetGapAsPercentageOfAggregateAssets decimals="4" unitRef="PURE" contextRef="asof_20190630_IN_548">0.5877</in-rbi-rep:NetGapAsPercentageOfAggregateAssets>
+    <in-rbi-rep:DocumentaryCreditsCommitted decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">10376960000</in-rbi-rep:DocumentaryCreditsCommitted>
+    <in-rbi-rep:DocumentaryCreditsCommittedIssuedOnClientAccount decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">5181120000</in-rbi-rep:DocumentaryCreditsCommittedIssuedOnClientAccount>
+    <in-rbi-rep:DocumentaryCreditsCommittedIssuedOnBanksAccount decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">5195840000</in-rbi-rep:DocumentaryCreditsCommittedIssuedOnBanksAccount>
+    <in-rbi-rep:PaymentGuaranteesOrAcceptances decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">5210560000</in-rbi-rep:PaymentGuaranteesOrAcceptances>
+    <in-rbi-rep:PerformanceGuaranteesIssued decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">5225280000</in-rbi-rep:PerformanceGuaranteesIssued>
+    <in-rbi-rep:LoanCommitments decimals="-5" unitRef="USD" contextRef="asof_20190630_IN_548">5240000000</in-rbi-rep:LoanCommitments>
+    <in-rbi-rep:OffBalanceSheetExposures decimals="-5" unitRef="USD" contextRef="asof_20190630_IN_548">26052800000</in-rbi-rep:OffBalanceSheetExposures>
+    <in-rbi-rep:OutstandingForexContracts decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">5193070000</in-rbi-rep:OutstandingForexContracts>
+    <in-rbi-rep:OutstandingInterestRateSwaps decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">5207790000</in-rbi-rep:OutstandingInterestRateSwaps>
+    <in-rbi-rep:ForwardRateAgreements decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">5222510000</in-rbi-rep:ForwardRateAgreements>
+    <in-rbi-rep:OtherFutureAndForwardContracts decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">5237230000</in-rbi-rep:OtherFutureAndForwardContracts>
+    <in-rbi-rep:CurrencyOptionsBought decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">5251950000</in-rbi-rep:CurrencyOptionsBought>
+    <in-rbi-rep:CurrencyOptionsWritten decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">5266670000</in-rbi-rep:CurrencyOptionsWritten>
+    <in-rbi-rep:OtherOffBalanceSheetExposure decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">5281390000</in-rbi-rep:OtherOffBalanceSheetExposure>
+    <in-rbi-rep:AggregateOffBalanceSheetExposures decimals="-3" unitRef="USD" contextRef="asof_20190630_IN_548">36660610000</in-rbi-rep:AggregateOffBalanceSheetExposures>
+    <in-rbi-rep:DebitNumberOfEntriesInAccount decimals="INF" unitRef="PURE" contextRef="asof_20190630_AccountsWithOtherBranchesMember_OverThreeMonthsAndUptoSixMonthsMember_IN_548">17</in-rbi-rep:DebitNumberOfEntriesInAccount>
+    <in-rbi-rep:DebitAmountOfEntriesInAccount decimals="-3" unitRef="USD" contextRef="asof_20190630_AccountsWithOtherBranchesMember_OverThreeMonthsAndUptoSixMonthsMember_IN_548">5205020000</in-rbi-rep:DebitAmountOfEntriesInAccount>
+    <in-rbi-rep:CreditNumberOfEntriesInAccount decimals="INF" unitRef="PURE" contextRef="asof_20190630_AccountsWithOtherBranchesMember_OverThreeMonthsAndUptoSixMonthsMember_IN_548">45</in-rbi-rep:CreditNumberOfEntriesInAccount>
+    <in-rbi-rep:CreditAmountOfEntriesInAccount decimals="-3" unitRef="USD" contextRef="asof_20190630_AccountsWithOtherBranchesMember_OverThreeMonthsAndUptoSixMonthsMember_IN_548">5216970000</in-rbi-rep:CreditAmountOfEntriesInAccount>
+    <in-rbi-rep:NameOfSignatory contextRef="fromto_20190401_20190630">sdafasf</in-rbi-rep:NameOfSignatory>
+    <in-rbi-rep:DesignationOfSignatory contextRef="fromto_20190401_20190630">dsfsdf</in-rbi-rep:DesignationOfSignatory>
+    <in-rbi-rep:AuthorisedSignatoryMobileNumber decimals="INF" unitRef="PURE" contextRef="fromto_20190401_20190630">1234678915</in-rbi-rep:AuthorisedSignatoryMobileNumber>
+    <in-rbi-rep:AuthorisedSignatoryLandlineNumber decimals="INF" unitRef="PURE" contextRef="fromto_20190401_20190630">1213455555</in-rbi-rep:AuthorisedSignatoryLandlineNumber>
+    <in-rbi-rep:EMailIDOfAuthorisedReportingOfficial contextRef="asof_20190630">fsfads@sdf.com</in-rbi-rep:EMailIDOfAuthorisedReportingOfficial>
+    <in-rbi-rep:PlaceOfSignature contextRef="fromto_20190401_20190630">fsafd</in-rbi-rep:PlaceOfSignature>
+    <in-rbi-rep:DateOfDocumentAuthorisation contextRef="asof_20190630">2019-07-24</in-rbi-rep:DateOfDocumentAuthorisation>
 </xbrli:xbrl>

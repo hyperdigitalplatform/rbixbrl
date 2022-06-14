@@ -1,4 +1,4 @@
-package in.armedu.banking.report.rbixbrl.model.alo;
+package in.armedu.banking.report.rbixbrl.model.cem;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +17,7 @@ import lombok.Setter;
 @Setter
 @Getter
 
-public class ALOReportData extends ReportData {
+public class CEMReportData extends ReportData {
     
     private GeneralData generalData;
     private List<ItemData> itemDatas = new ArrayList<ItemData>();
