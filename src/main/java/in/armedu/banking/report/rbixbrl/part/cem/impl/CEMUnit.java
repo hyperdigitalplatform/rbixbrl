@@ -21,7 +21,7 @@ public class CEMUnit implements UnitInterface {
         // create units 
         Unit unitINR = xbrlObjectFactory.createUnit();
         unitINR.setId("USD");
-        QName unitMeasureValue = new QName("iso4217:INR");
+        QName unitMeasureValue = new QName("iso4217:USD");
         unitINR.getMeasure().add(unitMeasureValue);
         units.put(CEMUtil.CURRENCY, unitINR);
         Unit pureUnit = xbrlObjectFactory.createUnit();

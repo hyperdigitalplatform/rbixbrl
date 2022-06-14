@@ -16,18 +16,18 @@ public class CEMXBRLApplication {
         CEMReportData data = new CEMReportData();
     
         CEMGeneralData cemGeneralData = new CEMGeneralData();
-        cemGeneralData.setReturnName("Asset Liability Exposure (Overseas)");
-        cemGeneralData.setReturnCode("ALO");
-        cemGeneralData.setNameOfReportingInstitution("Lead Bank-Others");
-        cemGeneralData.setBankCode("444");
-        cemGeneralData.setReportingDate("dfgdg"); 
+        cemGeneralData.setReturnName("Report on Country Exposures and Maturity");
+        cemGeneralData.setReturnCode("CEM");
+        cemGeneralData.setNameOfReportingInstitution("State Bank Of India");
+        cemGeneralData.setBankCode("010");
+        cemGeneralData.setReportingDate("2019-03-31"); 
         cemGeneralData.setReportingFrequency("Quarterly"); 
         cemGeneralData.setDateOfReport("2019-08-01");          
-        cemGeneralData.setReportStatus("Audited");         
+        cemGeneralData.setReportStatus("Un-Audited");         
         cemGeneralData.setValidationStatus("Validated"); 
         cemGeneralData.setReturnVersion("V1.3");          
-        cemGeneralData.setToolName("dfgdgdgf");
-        cemGeneralData.setReportingPeriodStartDate("2019-04-01");
+        cemGeneralData.setToolName("iFile");
+        cemGeneralData.setReportingPeriodStartDate("2019-01-01");
 
     
         //CEM SignatoryDetails 
@@ -37,7 +37,7 @@ public class CEMXBRLApplication {
         cemGeneralData.setAuthorisedSignatoryLandlineNumber("8518518515");
         cemGeneralData.setEMailIDOfAuthorisedReportingOfficial("xjsdfhfds@n.com");
         cemGeneralData.setPlaceOfSignature("dfsdfuiosu");
-        cemGeneralData.setDateOfDocumentAuthorisation("2019-06-24");
+        cemGeneralData.setDateOfSigning("2019-06-24");
     
     
         data.setGeneralData(cemGeneralData);
@@ -45,80 +45,38 @@ public class CEMXBRLApplication {
     
         // CEM Item
     
-        CEMItemData cemItemData = new CEMItemData();
+        CEMItemData cemItemDataInsignificantMember = new CEMItemData();
     
         //Item Data for General Context
-        cemItemData.setRiskClassificationAxis("InsignificantMember");
-        cemItemData.setMaturityPeriodAxis("OverOneYearAndUptoFiveYearMember");
-        cemItemData.setCountryCodeAxis("IN");
-        cemItemData.setBranchCodeAxis("558");
-        cemItemData.setExposureCountryCodeAxis("BF");
+        cemItemDataInsignificantMember.setRiskClassificationAxis("InsignificantMember");
+        cemItemDataInsignificantMember.setCountryCodeAxis("IN");
+        cemItemDataInsignificantMember.setBranchCodeAxis("558");
+        cemItemDataInsignificantMember.setExposureCountryCodeAxis("BF");
 
         //item data for body
-        cemItemData.setAmountOfCountryExposure("4037670000");
+        cemItemDataInsignificantMember.setAmountOfCountryExposureBetweenSixMonthMember("4014720000");
+        cemItemDataInsignificantMember.setAmountOfCountryExposureOverSixMonthsAndUptoOneYearMember("4026670000");
+        cemItemDataInsignificantMember.setAmountOfCountryExposureOverOneYearAndUptoFiveYearMember("4037670000");
+        cemItemDataInsignificantMember.setAmountOfCountryExposureOverFiveYearsMember("4048670000");
+        cemItemDataInsignificantMember.setAmountOfCountryExposureRiskClassification("16127730000");
 
-        // //Item Data for General Context
-        // cemItemData.setRiskClassificationAxis("");
-        // cemItemData.setMaturityPeriodAxis("");
-        // cemItemData.setCountryCodeAxis("");
-        // cemItemData.setBranchCodeAxis("");
-        // cemItemData.setExposureCountryCodeAxis("");
+        CEMItemData cemItemDataLowRiskMember= new CEMItemData();
+    
+        //Item Data for General Context
+        cemItemDataLowRiskMember.setRiskClassificationAxis("LowRiskMember");
+        cemItemDataLowRiskMember.setCountryCodeAxis("IN");
+        cemItemDataLowRiskMember.setBranchCodeAxis("558");
+        cemItemDataLowRiskMember.setExposureCountryCodeAxis("BF");
 
-        // //item data for body
-        // cemItemData.setAmountOfCountryExposure("");
+        //item data for body
+        cemItemDataLowRiskMember.setAmountOfCountryExposureBetweenSixMonthMember("4029440000");
+        cemItemDataLowRiskMember.setAmountOfCountryExposureOverSixMonthsAndUptoOneYearMember("4041390000");
+        cemItemDataLowRiskMember.setAmountOfCountryExposureOverOneYearAndUptoFiveYearMember("4052390000");
+        cemItemDataLowRiskMember.setAmountOfCountryExposureOverFiveYearsMember("4063390000");
+        cemItemDataLowRiskMember.setAmountOfCountryExposureRiskClassification("16186610000");
 
-        // //Item Data for General Context
-        // cemItemData.setRiskClassificationAxis("");
-        // cemItemData.setMaturityPeriodAxis("");
-        // cemItemData.setCountryCodeAxis("");
-        // cemItemData.setBranchCodeAxis("");
-        // cemItemData.setExposureCountryCodeAxis("");
-
-        // //item data for body
-        // cemItemData.setAmountOfCountryExposure("");
-
-        // //Item Data for General Context
-        // cemItemData.setRiskClassificationAxis("");
-        // cemItemData.setMaturityPeriodAxis("");
-        // cemItemData.setCountryCodeAxis("");
-        // cemItemData.setBranchCodeAxis("");
-        // cemItemData.setExposureCountryCodeAxis("");
-
-        // //item data for body
-        // cemItemData.setAmountOfCountryExposure("");
-
-        // //Item Data for General Context
-        // cemItemData.setRiskClassificationAxis("");
-        // cemItemData.setMaturityPeriodAxis("");
-        // cemItemData.setCountryCodeAxis("");
-        // cemItemData.setBranchCodeAxis("");
-        // cemItemData.setExposureCountryCodeAxis("");
-
-        // //item data for body
-        // cemItemData.setAmountOfCountryExposure("");
-
-        // //Item Data for General Context
-        // cemItemData.setRiskClassificationAxis("");
-        // cemItemData.setMaturityPeriodAxis("");
-        // cemItemData.setCountryCodeAxis("");
-        // cemItemData.setBranchCodeAxis("");
-        // cemItemData.setExposureCountryCodeAxis("");
-
-        // //item data for body
-        // cemItemData.setAmountOfCountryExposure("");
-
-        // //Item Data for General Context
-        // cemItemData.setRiskClassificationAxis("");
-        // cemItemData.setMaturityPeriodAxis("");
-        // cemItemData.setCountryCodeAxis("");
-        // cemItemData.setBranchCodeAxis("");
-        // cemItemData.setExposureCountryCodeAxis("");
-
-        // //item data for body
-        // cemItemData.setAmountOfCountryExposure("");
-                 
-        data.getItemDatas().add(aloItemData);
-
+        data.getItemDatas().add(cemItemDataInsignificantMember);
+        data.getItemDatas().add(cemItemDataLowRiskMember);
         
         ReportGenerationEngine engine = new XBRLReportGenerationEngine();
         StringWriter sw = engine.execute(ReportGenerationFactory.RBI_CEM_XBRL_REPORT, data);

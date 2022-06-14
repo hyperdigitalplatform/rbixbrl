@@ -13,6 +13,7 @@ import in.armedu.banking.report.rbixbrl.reports.impl.RBIFMRXBRLReportImpl;
 import in.armedu.banking.report.rbixbrl.reports.impl.RBIRLCXBRLReportImpl;
 import in.armedu.banking.report.rbixbrl.reports.impl.RBIROSXBRLReportImpl;
 import in.armedu.banking.report.rbixbrl.reports.impl.RBIALOXBRLReportImpl;
+import in.armedu.banking.report.rbixbrl.reports.impl.RBICEMXBRLReportImpl;
 
 public class XBRLReportBuilder {
     public XBRLReportIntf buildROSReport(){
@@ -49,6 +50,14 @@ public class XBRLReportBuilder {
     }
     public XBRLReportIntf buildALOReport(){
         RBIALOXBRLReportImpl report = new RBIALOXBRLReportImpl();
+        // report.setContextIntf(new CPRGeneralContext());
+        // report.setUnits(new CPRUnit());
+        // report.setGeneralBody(new CPRGeneralBody());
+        // report.setBody(new CPRBodyForIndividual());
+        return report;
+    }
+    public XBRLReportIntf buildCEMReport(){
+        RBICEMXBRLReportImpl report = new RBICEMXBRLReportImpl();
         // report.setContextIntf(new CPRGeneralContext());
         // report.setUnits(new CPRUnit());
         // report.setGeneralBody(new CPRGeneralBody());

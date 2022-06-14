@@ -17,38 +17,36 @@ import org.xbrl._2003.xlink.SimpleType;
 
 import in.armedu.banking.report.rbixbrl.model.ReportData;
 import in.armedu.banking.report.rbixbrl.model.ItemData;
-import in.armedu.banking.report.rbixbrl.model.alo.ALOReportData;
-import in.armedu.banking.report.rbixbrl.model.alo.ALOItemData;
-import in.armedu.banking.report.rbixbrl.model.alo.ALOGeneralData;
+import in.armedu.banking.report.rbixbrl.model.cem.CEMReportData;
+import in.armedu.banking.report.rbixbrl.model.cem.CEMItemData;
+import in.armedu.banking.report.rbixbrl.model.cem.CEMGeneralData;
 import in.armedu.banking.report.rbixbrl.part.BodyInterface;
 import in.armedu.banking.report.rbixbrl.part.ContextInterface;
 import in.armedu.banking.report.rbixbrl.part.UnitInterface;
-import in.armedu.banking.report.rbixbrl.part.alo.impl.ALOBody;
-import in.armedu.banking.report.rbixbrl.part.alo.impl.ALOBodyExtra;
-import in.armedu.banking.report.rbixbrl.part.alo.impl.ALOGeneralBody;
-import in.armedu.banking.report.rbixbrl.part.alo.impl.ALOSignatoryDetails;
-import in.armedu.banking.report.rbixbrl.part.alo.impl.ALOGeneralContext;
-import in.armedu.banking.report.rbixbrl.part.alo.impl.ALOUnit;
+import in.armedu.banking.report.rbixbrl.part.cem.impl.CEMGeneralContext;
+import in.armedu.banking.report.rbixbrl.part.cem.impl.CEMBody;
+import in.armedu.banking.report.rbixbrl.part.cem.impl.CEMGeneralBody;
+import in.armedu.banking.report.rbixbrl.part.cem.impl.CEMSignatoryDetails;
+import in.armedu.banking.report.rbixbrl.part.cem.impl.CEMUnit;
 import in.armedu.banking.report.rbixbrl.reports.XBRLReportIntf;
 import in.armedu.banking.report.rbixbrl.util.DefaultNamespacePrefixMapper;
 import lombok.Setter;
 
 @Setter
-public class RBIALOXBRLReportImpl implements XBRLReportIntf {
+public class RBICEMXBRLReportImpl implements XBRLReportIntf {
     
-    private ContextInterface contextIntf = new ALOGeneralContext();
-    private BodyInterface aloGeneralBody = new ALOGeneralBody();
-    private BodyInterface aloSignatoryDetails = new ALOSignatoryDetails();    
-    private BodyInterface aloBody = new ALOBody();
-    private BodyInterface aloBodyExtra = new ALOBodyExtra();
-    private UnitInterface aloUnits = new ALOUnit();
+    private ContextInterface contextIntf = new CEMGeneralContext();
+    private BodyInterface cemGeneralBody = new CEMGeneralBody();
+    private BodyInterface cemSignatoryDetails = new CEMSignatoryDetails();    
+    private BodyInterface cemBody = new CEMBody();
+    private UnitInterface cemUnits = new CEMUnit();
     private ObjectFactory instancObjectFactory = new ObjectFactory();
     
     @Override
     public StringWriter generateReport(ReportData reportData){
         JAXBContext jc;
         Marshaller m;
-        ALOReportData aloData = (ALOReportData) reportData;
+        CEMReportData cemData = (CEMReportData) reportData;
 
         try {
             jc = JAXBContext.newInstance(ObjectFactory.class,
@@ -73,59 +71,48 @@ public class RBIALOXBRLReportImpl implements XBRLReportIntf {
             org.xbrl._2003.xlink.ObjectFactory xlinkObjectFactory = new org.xbrl._2003.xlink.ObjectFactory();
             SimpleType simpleType = xlinkObjectFactory.createSimpleType();
             simpleType.setType("simple");
-            simpleType.setHref("in-rbi-alo.xsd");
+            simpleType.setHref("in-rbi-cem.xsd");
             xbrl.getSchemaRef().add(simpleType);
             xbrl.getOtherAttributes().put(new QName("xml:lang"), "en");
-           
+            
             List<Object> bodyElements = new ArrayList<Object>();
 
             //create all general contexts
-            Map<String, Context> generalContexts = contextIntf.getContext( aloData.getGeneralData());
+            Map<String, Context> generalContexts = contextIntf.getContext( cemData.getGeneralData());
             generalContexts.forEach((key, ctx) -> {
                 xbrl.getItemOrTupleOrContext().add(ctx);
             });
 
             // create all item contexts
-            List<ItemData> aloItemData = aloData.getItemDatas();
-            aloItemData.forEach(itemData -> {
-                Map<String, Context> itemContexts = contextIntf.getContext(aloData.getGeneralData(), itemData);
+            List<ItemData> cemItemData = cemData.getItemDatas();
+            cemItemData.forEach(itemData -> {
+                Map<String, Context> itemContexts = contextIntf.getContext(cemData.getGeneralData(), itemData);
                 itemContexts.forEach((key, ctx) -> {
                     xbrl.getItemOrTupleOrContext().add(ctx);
                 });
             });
         
         // create units
-        Map<String, Unit> units = aloUnits.getUnits( aloData.getGeneralData());
+        Map<String, Unit> units = cemUnits.getUnits( cemData.getGeneralData());
         units.forEach((key, unit) -> {
         xbrl.getItemOrTupleOrContext().add(unit);
         });
     
     // create general body
-   bodyElements.addAll(aloGeneralBody.getReportBodyItem( generalContexts, units, aloData.getGeneralData()));
-   
-      // generate ALO Body
-      aloItemData.forEach(item ->{
-        Map<String, Context> aloItem = contextIntf.getContext(aloData.getGeneralData(), item);
-        bodyElements.addAll(aloBody.getReportBodyItem( aloItem, units, aloData.getGeneralData(), item));
+    bodyElements.addAll(cemGeneralBody.getReportBodyItem( generalContexts, units, cemData.getGeneralData()));
+    
+        // generate CEM Body
+        cemItemData.forEach(item ->{
+        Map<String, Context> cemItem = contextIntf.getContext(cemData.getGeneralData(), item);
+        bodyElements.addAll(cemBody.getReportBodyItem( cemItem, units, cemData.getGeneralData(), item));
     });
 
     
-        // //generate ALO General Info Body
-        // bodyElements.addAll(aloGeneralInfoBody.getReportBodyItem( generalContexts, units, aloData.getGeneralData()));
+        //generate CEM SignatoryDetails
+        bodyElements.addAll(cemSignatoryDetails.getReportBodyItem( generalContexts, units, cemData.getGeneralData()));
 
-      // generate ALO Body Extra
-      aloItemData.forEach(item ->{
-        Map<String, Context> aloItem = contextIntf.getContext(aloData.getGeneralData(), item);
-        bodyElements.addAll(aloBodyExtra.getReportBodyItem( aloItem, units, aloData.getGeneralData(), item));
-    });
-
- 
-
-     //signatory details
-     bodyElements.addAll(aloSignatoryDetails.getReportBodyItem( generalContexts, units, aloData.getGeneralData()));
-
-      // add all element into xbrl
-      bodyElements.forEach(bElem->{
+        // add all element into xbrl
+        bodyElements.forEach(bElem->{
         xbrl.getItemOrTupleOrContext().add(bElem);
     });
 

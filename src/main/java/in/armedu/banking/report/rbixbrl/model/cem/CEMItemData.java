@@ -15,13 +15,16 @@ public class CEMItemData  extends ItemData {
 
     //item data for general context
     private String riskClassificationAxis;
-    private String maturityPeriodAxis;
     private String countryCodeAxis;
     private String branchCodeAxis;
     private String exposureCountryCodeAxis;
 
     //item data for body
-    private String amountOfCountryExposure;
+    private String amountOfCountryExposureBetweenSixMonthMember;
+    private String amountOfCountryExposureOverSixMonthsAndUptoOneYearMember;
+    private String amountOfCountryExposureOverOneYearAndUptoFiveYearMember;
+    private String amountOfCountryExposureOverFiveYearsMember;
+    private String amountOfCountryExposureRiskClassification;
 
     
 }
