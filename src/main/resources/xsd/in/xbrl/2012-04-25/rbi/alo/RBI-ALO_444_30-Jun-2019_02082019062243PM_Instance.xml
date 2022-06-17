@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Count:699-->
+<xbrli:xbrl xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref="http://www.xbrl.org/2004/ref" 
+xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi"
+xmlns:in-rbi-rep-par="http://www.rbi.org/in-rbi-rep-par"
+>
+<link:schemaRef xlink:type="simple" xlink:href="in-rbi-alo.xsd" />
+<xbrli:context id="fromto_20190401_20190630">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_OneToTwentyEightDaysMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ReportingPeriodAxis'>in-rbi-rep:OneToTwentyEightDaysMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ReportingPeriodAxis'>in-rbi-rep:TwentyNineDaysAndUptoThreeMonthsMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ReportingPeriodAxis'>in-rbi-rep:OverThreeMonthsAndUptoSixMonthsMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ReportingPeriodAxis'>in-rbi-rep:OverSixMonthsAndUptoOneYearMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ReportingPeriodAxis'>in-rbi-rep:OverOneYearUptoAndThreeYearMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ReportingPeriodAxis'>in-rbi-rep:OverThreeYearsAndUptoFiveYearMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_OverFiveYearsMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ReportingPeriodAxis'>in-rbi-rep:OverFiveYearsMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_NonSensitiveMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:ReportingPeriodAxis'>in-rbi-rep:NonSensitiveMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_AccountsWithOtherBranchesMember_OverThreeMonthsAndUptoSixMonthsMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfAccountsWithBranchesAxis'>in-rbi-rep:AccountsWithOtherBranchesMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:PeriodOfPendingReconcilliationAxis'>in-rbi-rep:OverThreeMonthsAndUptoSixMonthsMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_AccountsWithOtherBranchesMember_OverSixMonthsUptoTwelveMonthsMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfAccountsWithBranchesAxis'>in-rbi-rep:AccountsWithOtherBranchesMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:PeriodOfPendingReconcilliationAxis'>in-rbi-rep:OverSixMonthsUptoTwelveMonthsMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_AccountsWithOtherBranchesMember_OverOneYearUptoAndTwoYearMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfAccountsWithBranchesAxis'>in-rbi-rep:AccountsWithOtherBranchesMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:PeriodOfPendingReconcilliationAxis'>in-rbi-rep:OverOneYearUptoAndTwoYearMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_AccountsWithOtherBranchesMember_OverTwoYearMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfAccountsWithBranchesAxis'>in-rbi-rep:AccountsWithOtherBranchesMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:PeriodOfPendingReconcilliationAxis'>in-rbi-rep:OverTwoYearMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_AccountsWithOtherBranchesMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfAccountsWithBranchesAxis'>in-rbi-rep:AccountsWithOtherBranchesMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_OverThreeMonthsAndUptoSixMonthsMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfAccountsWithBranchesAxis'>in-rbi-rep:AccountsWithOtherIndianBankBranchesInSameForeignCenterMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:PeriodOfPendingReconcilliationAxis'>in-rbi-rep:OverThreeMonthsAndUptoSixMonthsMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_OverSixMonthsUptoTwelveMonthsMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfAccountsWithBranchesAxis'>in-rbi-rep:AccountsWithOtherIndianBankBranchesInSameForeignCenterMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:PeriodOfPendingReconcilliationAxis'>in-rbi-rep:OverSixMonthsUptoTwelveMonthsMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_OverOneYearUptoAndTwoYearMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfAccountsWithBranchesAxis'>in-rbi-rep:AccountsWithOtherIndianBankBranchesInSameForeignCenterMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:PeriodOfPendingReconcilliationAxis'>in-rbi-rep:OverOneYearUptoAndTwoYearMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_OverTwoYearMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfAccountsWithBranchesAxis'>in-rbi-rep:AccountsWithOtherIndianBankBranchesInSameForeignCenterMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:PeriodOfPendingReconcilliationAxis'>in-rbi-rep:OverTwoYearMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfAccountsWithBranchesAxis'>in-rbi-rep:AccountsWithOtherIndianBankBranchesInSameForeignCenterMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_AccountsWithOtherBanksMember_OverThreeMonthsAndUptoSixMonthsMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfAccountsWithBranchesAxis'>in-rbi-rep:AccountsWithOtherBanksMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:PeriodOfPendingReconcilliationAxis'>in-rbi-rep:OverThreeMonthsAndUptoSixMonthsMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_AccountsWithOtherBanksMember_OverSixMonthsUptoTwelveMonthsMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfAccountsWithBranchesAxis'>in-rbi-rep:AccountsWithOtherBanksMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:PeriodOfPendingReconcilliationAxis'>in-rbi-rep:OverSixMonthsUptoTwelveMonthsMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_AccountsWithOtherBanksMember_OverOneYearUptoAndTwoYearMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfAccountsWithBranchesAxis'>in-rbi-rep:AccountsWithOtherBanksMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:PeriodOfPendingReconcilliationAxis'>in-rbi-rep:OverOneYearUptoAndTwoYearMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_AccountsWithOtherBanksMember_OverTwoYearMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfAccountsWithBranchesAxis'>in-rbi-rep:AccountsWithOtherBanksMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:PeriodOfPendingReconcilliationAxis'>in-rbi-rep:OverTwoYearMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_AccountsWithOtherBanksMember_IN_548">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:DetailsOfAccountsWithBranchesAxis'>in-rbi-rep:AccountsWithOtherBanksMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>548</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+
+<xbrli:unit id="USD">
+<xbrli:measure>iso4217:USD</xbrli:measure>
+</xbrli:unit>
+<xbrli:unit id="PURE">
+<xbrli:measure>xbrli:pure</xbrli:measure>
+</xbrli:unit>
+
+<in-rbi-rep:ReturnName contextRef="fromto_20190401_20190630" >Asset Liability Exposure (Overseas)</in-rbi-rep:ReturnName>
+<in-rbi-rep:ReturnCode contextRef="fromto_20190401_20190630" >ALO</in-rbi-rep:ReturnCode>
+<in-rbi-rep:NameOfReportingInstitution contextRef="fromto_20190401_20190630" >Lead Bank-Others</in-rbi-rep:NameOfReportingInstitution>
+<in-rbi-rep:BankCode contextRef="asof_20190630" >444</in-rbi-rep:BankCode>
+<in-rbi-rep:Address contextRef="fromto_20190401_20190630" >dfgdg</in-rbi-rep:Address>
+<in-rbi-rep:DateOfQuarterEnded contextRef="asof_20190630" >2019-06-30</in-rbi-rep:DateOfQuarterEnded>
+<in-rbi-rep:ReportingFrequency contextRef="fromto_20190401_20190630" >Quarterly</in-rbi-rep:ReportingFrequency>
+<in-rbi-rep:DateOfReport contextRef="asof_20190630" >2019-08-01</in-rbi-rep:DateOfReport>
+<in-rbi-rep:ReportStatus contextRef="fromto_20190401_20190630" >Audited</in-rbi-rep:ReportStatus>
+<in-rbi-rep:DateOfAudit contextRef="asof_20190630" >2019-07-04</in-rbi-rep:DateOfAudit>
+<in-rbi-rep:ValidationStatus contextRef="fromto_20190401_20190630" >Validated</in-rbi-rep:ValidationStatus>
+<in-rbi-rep:ReturnVersion contextRef="fromto_20190401_20190630" >V1.3</in-rbi-rep:ReturnVersion>
+<in-rbi-rep:GeneralRemarks contextRef="fromto_20190401_20190630" >dfgdgdgf</in-rbi-rep:GeneralRemarks>
+<in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20190630" >2019-04-01</in-rbi-rep:ReportingPeriodStartDate>
+<in-rbi-rep:CashAndBalancesWithCentralBanks contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-6" >4504000000</in-rbi-rep:CashAndBalancesWithCentralBanks>
+<in-rbi-rep:CashAndBalancesWithCentralBanks contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4515950000</in-rbi-rep:CashAndBalancesWithCentralBanks>
+<in-rbi-rep:CashAndBalancesWithCentralBanks contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-5" >4527900000</in-rbi-rep:CashAndBalancesWithCentralBanks>
+<in-rbi-rep:CashAndBalancesWithCentralBanks contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4539850000</in-rbi-rep:CashAndBalancesWithCentralBanks>
+<in-rbi-rep:CashAndBalancesWithCentralBanks contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-5" >4551800000</in-rbi-rep:CashAndBalancesWithCentralBanks>
+<in-rbi-rep:CashAndBalancesWithCentralBanks contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4563750000</in-rbi-rep:CashAndBalancesWithCentralBanks>
+<in-rbi-rep:CashAndBalancesWithCentralBanks contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-5" >4575700000</in-rbi-rep:CashAndBalancesWithCentralBanks>
+<in-rbi-rep:CashAndBalancesWithCentralBanks contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4587650000</in-rbi-rep:CashAndBalancesWithCentralBanks>
+<in-rbi-rep:CashAndBalancesWithCentralBanks contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-5" >36366600000</in-rbi-rep:CashAndBalancesWithCentralBanks>
+<in-rbi-rep:InvestmentsInSecurities contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-5" >18163200000</in-rbi-rep:InvestmentsInSecurities>
+<in-rbi-rep:InvestmentsInSecurities contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-6" >18211000000</in-rbi-rep:InvestmentsInSecurities>
+<in-rbi-rep:InvestmentsInSecurities contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-5" >18258800000</in-rbi-rep:InvestmentsInSecurities>
+<in-rbi-rep:InvestmentsInSecurities contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-5" >18306600000</in-rbi-rep:InvestmentsInSecurities>
+<in-rbi-rep:InvestmentsInSecurities contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-5" >18354400000</in-rbi-rep:InvestmentsInSecurities>
+<in-rbi-rep:InvestmentsInSecurities contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-5" >18402200000</in-rbi-rep:InvestmentsInSecurities>
+<in-rbi-rep:InvestmentsInSecurities contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-6" >18450000000</in-rbi-rep:InvestmentsInSecurities>
+<in-rbi-rep:InvestmentsInSecurities contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-5" >18497800000</in-rbi-rep:InvestmentsInSecurities>
+<in-rbi-rep:InvestmentsInSecurities contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-6" >146644000000</in-rbi-rep:InvestmentsInSecurities>
+<in-rbi-rep:InvestmentsInLocalGovernments contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4518720000</in-rbi-rep:InvestmentsInLocalGovernments>
+<in-rbi-rep:InvestmentsInLocalGovernments contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4530670000</in-rbi-rep:InvestmentsInLocalGovernments>
+<in-rbi-rep:InvestmentsInLocalGovernments contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4542620000</in-rbi-rep:InvestmentsInLocalGovernments>
+<in-rbi-rep:InvestmentsInLocalGovernments contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4554570000</in-rbi-rep:InvestmentsInLocalGovernments>
+<in-rbi-rep:InvestmentsInLocalGovernments contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4566520000</in-rbi-rep:InvestmentsInLocalGovernments>
+<in-rbi-rep:InvestmentsInLocalGovernments contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4578470000</in-rbi-rep:InvestmentsInLocalGovernments>
+<in-rbi-rep:InvestmentsInLocalGovernments contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4590420000</in-rbi-rep:InvestmentsInLocalGovernments>
+<in-rbi-rep:InvestmentsInLocalGovernments contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4602370000</in-rbi-rep:InvestmentsInLocalGovernments>
+<in-rbi-rep:InvestmentsInLocalGovernments contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >36484360000</in-rbi-rep:InvestmentsInLocalGovernments>
+<in-rbi-rep:InvestmentsInIndia contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4533440000</in-rbi-rep:InvestmentsInIndia>
+<in-rbi-rep:InvestmentsInIndia contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4545390000</in-rbi-rep:InvestmentsInIndia>
+<in-rbi-rep:InvestmentsInIndia contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4557340000</in-rbi-rep:InvestmentsInIndia>
+<in-rbi-rep:InvestmentsInIndia contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4569290000</in-rbi-rep:InvestmentsInIndia>
+<in-rbi-rep:InvestmentsInIndia contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4581240000</in-rbi-rep:InvestmentsInIndia>
+<in-rbi-rep:InvestmentsInIndia contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4593190000</in-rbi-rep:InvestmentsInIndia>
+<in-rbi-rep:InvestmentsInIndia contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4605140000</in-rbi-rep:InvestmentsInIndia>
+<in-rbi-rep:InvestmentsInIndia contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4617090000</in-rbi-rep:InvestmentsInIndia>
+<in-rbi-rep:InvestmentsInIndia contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >36602120000</in-rbi-rep:InvestmentsInIndia>
+<in-rbi-rep:InvestmentsInOECDCountries contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4548160000</in-rbi-rep:InvestmentsInOECDCountries>
+<in-rbi-rep:InvestmentsInOECDCountries contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4560110000</in-rbi-rep:InvestmentsInOECDCountries>
+<in-rbi-rep:InvestmentsInOECDCountries contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4572060000</in-rbi-rep:InvestmentsInOECDCountries>
+<in-rbi-rep:InvestmentsInOECDCountries contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4584010000</in-rbi-rep:InvestmentsInOECDCountries>
+<in-rbi-rep:InvestmentsInOECDCountries contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4595960000</in-rbi-rep:InvestmentsInOECDCountries>
+<in-rbi-rep:InvestmentsInOECDCountries contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4607910000</in-rbi-rep:InvestmentsInOECDCountries>
+<in-rbi-rep:InvestmentsInOECDCountries contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4619860000</in-rbi-rep:InvestmentsInOECDCountries>
+<in-rbi-rep:InvestmentsInOECDCountries contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4631810000</in-rbi-rep:InvestmentsInOECDCountries>
+<in-rbi-rep:InvestmentsInOECDCountries contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >36719880000</in-rbi-rep:InvestmentsInOECDCountries>
+<in-rbi-rep:OtherInvestments contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4562880000</in-rbi-rep:OtherInvestments>
+<in-rbi-rep:OtherInvestments contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4574830000</in-rbi-rep:OtherInvestments>
+<in-rbi-rep:OtherInvestments contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4586780000</in-rbi-rep:OtherInvestments>
+<in-rbi-rep:OtherInvestments contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4598730000</in-rbi-rep:OtherInvestments>
+<in-rbi-rep:OtherInvestments contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4610680000</in-rbi-rep:OtherInvestments>
+<in-rbi-rep:OtherInvestments contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4622630000</in-rbi-rep:OtherInvestments>
+<in-rbi-rep:OtherInvestments contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4634580000</in-rbi-rep:OtherInvestments>
+<in-rbi-rep:OtherInvestments contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4646530000</in-rbi-rep:OtherInvestments>
+<in-rbi-rep:OtherInvestments contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >36837640000</in-rbi-rep:OtherInvestments>
+<in-rbi-rep:InterBranchPlacementsOrDeposits contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >13776960000</in-rbi-rep:InterBranchPlacementsOrDeposits>
+<in-rbi-rep:InterBranchPlacementsOrDeposits contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >13812810000</in-rbi-rep:InterBranchPlacementsOrDeposits>
+<in-rbi-rep:InterBranchPlacementsOrDeposits contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >13848660000</in-rbi-rep:InterBranchPlacementsOrDeposits>
+<in-rbi-rep:InterBranchPlacementsOrDeposits contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >13884510000</in-rbi-rep:InterBranchPlacementsOrDeposits>
+<in-rbi-rep:InterBranchPlacementsOrDeposits contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >13920360000</in-rbi-rep:InterBranchPlacementsOrDeposits>
+<in-rbi-rep:InterBranchPlacementsOrDeposits contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >13956210000</in-rbi-rep:InterBranchPlacementsOrDeposits>
+<in-rbi-rep:InterBranchPlacementsOrDeposits contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >13992060000</in-rbi-rep:InterBranchPlacementsOrDeposits>
+<in-rbi-rep:InterBranchPlacementsOrDeposits contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >14027910000</in-rbi-rep:InterBranchPlacementsOrDeposits>
+<in-rbi-rep:InterBranchPlacementsOrDeposits contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >111219480000</in-rbi-rep:InterBranchPlacementsOrDeposits>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInSameForeignCentre contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-5" >4577600000</in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInSameForeignCentre>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInSameForeignCentre contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4589550000</in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInSameForeignCentre>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInSameForeignCentre contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-5" >4601500000</in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInSameForeignCentre>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInSameForeignCentre contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4613450000</in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInSameForeignCentre>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInSameForeignCentre contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-5" >4625400000</in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInSameForeignCentre>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInSameForeignCentre contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4637350000</in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInSameForeignCentre>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInSameForeignCentre contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-5" >4649300000</in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInSameForeignCentre>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInSameForeignCentre contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4661250000</in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInSameForeignCentre>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInSameForeignCentre contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-5" >36955400000</in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInSameForeignCentre>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInOtherForeignCentre contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4592320000</in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInOtherForeignCentre>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInOtherForeignCentre contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4604270000</in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInOtherForeignCentre>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInOtherForeignCentre contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4616220000</in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInOtherForeignCentre>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInOtherForeignCentre contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4628170000</in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInOtherForeignCentre>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInOtherForeignCentre contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4640120000</in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInOtherForeignCentre>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInOtherForeignCentre contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4652070000</in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInOtherForeignCentre>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInOtherForeignCentre contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4664020000</in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInOtherForeignCentre>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInOtherForeignCentre contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4675970000</in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInOtherForeignCentre>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInOtherForeignCentre contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >37073160000</in-rbi-rep:InterBranchPlacementsOrDepositsWithBranchesInOtherForeignCentre>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithIndiaBranches contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4607040000</in-rbi-rep:InterBranchPlacementsOrDepositsWithIndiaBranches>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithIndiaBranches contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4618990000</in-rbi-rep:InterBranchPlacementsOrDepositsWithIndiaBranches>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithIndiaBranches contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4630940000</in-rbi-rep:InterBranchPlacementsOrDepositsWithIndiaBranches>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithIndiaBranches contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4642890000</in-rbi-rep:InterBranchPlacementsOrDepositsWithIndiaBranches>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithIndiaBranches contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4654840000</in-rbi-rep:InterBranchPlacementsOrDepositsWithIndiaBranches>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithIndiaBranches contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4666790000</in-rbi-rep:InterBranchPlacementsOrDepositsWithIndiaBranches>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithIndiaBranches contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4678740000</in-rbi-rep:InterBranchPlacementsOrDepositsWithIndiaBranches>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithIndiaBranches contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4690690000</in-rbi-rep:InterBranchPlacementsOrDepositsWithIndiaBranches>
+<in-rbi-rep:InterBranchPlacementsOrDepositsWithIndiaBranches contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >37190920000</in-rbi-rep:InterBranchPlacementsOrDepositsWithIndiaBranches>
+<in-rbi-rep:InterBankPlacementsOrDeposits contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >9258240000</in-rbi-rep:InterBankPlacementsOrDeposits>
+<in-rbi-rep:InterBankPlacementsOrDeposits contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >9282140000</in-rbi-rep:InterBankPlacementsOrDeposits>
+<in-rbi-rep:InterBankPlacementsOrDeposits contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >9306040000</in-rbi-rep:InterBankPlacementsOrDeposits>
+<in-rbi-rep:InterBankPlacementsOrDeposits contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >9329940000</in-rbi-rep:InterBankPlacementsOrDeposits>
+<in-rbi-rep:InterBankPlacementsOrDeposits contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >9353840000</in-rbi-rep:InterBankPlacementsOrDeposits>
+<in-rbi-rep:InterBankPlacementsOrDeposits contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >9377740000</in-rbi-rep:InterBankPlacementsOrDeposits>
+<in-rbi-rep:InterBankPlacementsOrDeposits contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >9401640000</in-rbi-rep:InterBankPlacementsOrDeposits>
+<in-rbi-rep:InterBankPlacementsOrDeposits contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >9425540000</in-rbi-rep:InterBankPlacementsOrDeposits>
+<in-rbi-rep:InterBankPlacementsOrDeposits contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >74735120000</in-rbi-rep:InterBankPlacementsOrDeposits>
+<in-rbi-rep:InterBankPlacementsOrDepositsInCurrentAccounts contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4621760000</in-rbi-rep:InterBankPlacementsOrDepositsInCurrentAccounts>
+<in-rbi-rep:InterBankPlacementsOrDepositsInCurrentAccounts contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4633710000</in-rbi-rep:InterBankPlacementsOrDepositsInCurrentAccounts>
+<in-rbi-rep:InterBankPlacementsOrDepositsInCurrentAccounts contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4645660000</in-rbi-rep:InterBankPlacementsOrDepositsInCurrentAccounts>
+<in-rbi-rep:InterBankPlacementsOrDepositsInCurrentAccounts contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4657610000</in-rbi-rep:InterBankPlacementsOrDepositsInCurrentAccounts>
+<in-rbi-rep:InterBankPlacementsOrDepositsInCurrentAccounts contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4669560000</in-rbi-rep:InterBankPlacementsOrDepositsInCurrentAccounts>
+<in-rbi-rep:InterBankPlacementsOrDepositsInCurrentAccounts contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4681510000</in-rbi-rep:InterBankPlacementsOrDepositsInCurrentAccounts>
+<in-rbi-rep:InterBankPlacementsOrDepositsInCurrentAccounts contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4693460000</in-rbi-rep:InterBankPlacementsOrDepositsInCurrentAccounts>
+<in-rbi-rep:InterBankPlacementsOrDepositsInCurrentAccounts contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4705410000</in-rbi-rep:InterBankPlacementsOrDepositsInCurrentAccounts>
+<in-rbi-rep:InterBankPlacementsOrDepositsInCurrentAccounts contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >37308680000</in-rbi-rep:InterBankPlacementsOrDepositsInCurrentAccounts>
+<in-rbi-rep:InterBankPlacementsInOtherDeposits contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4636480000</in-rbi-rep:InterBankPlacementsInOtherDeposits>
+<in-rbi-rep:InterBankPlacementsInOtherDeposits contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4648430000</in-rbi-rep:InterBankPlacementsInOtherDeposits>
+<in-rbi-rep:InterBankPlacementsInOtherDeposits contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4660380000</in-rbi-rep:InterBankPlacementsInOtherDeposits>
+<in-rbi-rep:InterBankPlacementsInOtherDeposits contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4672330000</in-rbi-rep:InterBankPlacementsInOtherDeposits>
+<in-rbi-rep:InterBankPlacementsInOtherDeposits contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4684280000</in-rbi-rep:InterBankPlacementsInOtherDeposits>
+<in-rbi-rep:InterBankPlacementsInOtherDeposits contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4696230000</in-rbi-rep:InterBankPlacementsInOtherDeposits>
+<in-rbi-rep:InterBankPlacementsInOtherDeposits contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4708180000</in-rbi-rep:InterBankPlacementsInOtherDeposits>
+<in-rbi-rep:InterBankPlacementsInOtherDeposits contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4720130000</in-rbi-rep:InterBankPlacementsInOtherDeposits>
+<in-rbi-rep:InterBankPlacementsInOtherDeposits contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >37426440000</in-rbi-rep:InterBankPlacementsInOtherDeposits>
+<in-rbi-rep:GrossCustomerCredit contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >61613760000</in-rbi-rep:GrossCustomerCredit>
+<in-rbi-rep:GrossCustomerCredit contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >61769110000</in-rbi-rep:GrossCustomerCredit>
+<in-rbi-rep:GrossCustomerCredit contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >61924460000</in-rbi-rep:GrossCustomerCredit>
+<in-rbi-rep:GrossCustomerCredit contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >62079810000</in-rbi-rep:GrossCustomerCredit>
+<in-rbi-rep:GrossCustomerCredit contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >62235160000</in-rbi-rep:GrossCustomerCredit>
+<in-rbi-rep:GrossCustomerCredit contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >62390510000</in-rbi-rep:GrossCustomerCredit>
+<in-rbi-rep:GrossCustomerCredit contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >62545860000</in-rbi-rep:GrossCustomerCredit>
+<in-rbi-rep:GrossCustomerCredit contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >62701210000</in-rbi-rep:GrossCustomerCredit>
+<in-rbi-rep:GrossCustomerCredit contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >497259880000</in-rbi-rep:GrossCustomerCredit>
+<in-rbi-rep:LoansOrOverdrafts contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >56785920000</in-rbi-rep:LoansOrOverdrafts>
+<in-rbi-rep:LoansOrOverdrafts contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >56929320000</in-rbi-rep:LoansOrOverdrafts>
+<in-rbi-rep:LoansOrOverdrafts contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >57072720000</in-rbi-rep:LoansOrOverdrafts>
+<in-rbi-rep:LoansOrOverdrafts contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >57216120000</in-rbi-rep:LoansOrOverdrafts>
+<in-rbi-rep:LoansOrOverdrafts contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >57359520000</in-rbi-rep:LoansOrOverdrafts>
+<in-rbi-rep:LoansOrOverdrafts contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >57502920000</in-rbi-rep:LoansOrOverdrafts>
+<in-rbi-rep:LoansOrOverdrafts contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >57646320000</in-rbi-rep:LoansOrOverdrafts>
+<in-rbi-rep:LoansOrOverdrafts contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >57789720000</in-rbi-rep:LoansOrOverdrafts>
+<in-rbi-rep:LoansOrOverdrafts contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >458302560000</in-rbi-rep:LoansOrOverdrafts>
+<in-rbi-rep:LoansAgainstDepositsOrSecuritiesHeldIn contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-5" >4651200000</in-rbi-rep:LoansAgainstDepositsOrSecuritiesHeldIn>
+<in-rbi-rep:LoansAgainstDepositsOrSecuritiesHeldIn contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4663150000</in-rbi-rep:LoansAgainstDepositsOrSecuritiesHeldIn>
+<in-rbi-rep:LoansAgainstDepositsOrSecuritiesHeldIn contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-5" >4675100000</in-rbi-rep:LoansAgainstDepositsOrSecuritiesHeldIn>
+<in-rbi-rep:LoansAgainstDepositsOrSecuritiesHeldIn contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4687050000</in-rbi-rep:LoansAgainstDepositsOrSecuritiesHeldIn>
+<in-rbi-rep:LoansAgainstDepositsOrSecuritiesHeldIn contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-6" >4699000000</in-rbi-rep:LoansAgainstDepositsOrSecuritiesHeldIn>
+<in-rbi-rep:LoansAgainstDepositsOrSecuritiesHeldIn contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4710950000</in-rbi-rep:LoansAgainstDepositsOrSecuritiesHeldIn>
+<in-rbi-rep:LoansAgainstDepositsOrSecuritiesHeldIn contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-5" >4722900000</in-rbi-rep:LoansAgainstDepositsOrSecuritiesHeldIn>
+<in-rbi-rep:LoansAgainstDepositsOrSecuritiesHeldIn contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4734850000</in-rbi-rep:LoansAgainstDepositsOrSecuritiesHeldIn>
+<in-rbi-rep:LoansAgainstDepositsOrSecuritiesHeldIn contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-5" >37544200000</in-rbi-rep:LoansAgainstDepositsOrSecuritiesHeldIn>
+<in-rbi-rep:LoansAgainstLCOrLOCByHeadOffice contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4665920000</in-rbi-rep:LoansAgainstLCOrLOCByHeadOffice>
+<in-rbi-rep:LoansAgainstLCOrLOCByHeadOffice contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4677870000</in-rbi-rep:LoansAgainstLCOrLOCByHeadOffice>
+<in-rbi-rep:LoansAgainstLCOrLOCByHeadOffice contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4689820000</in-rbi-rep:LoansAgainstLCOrLOCByHeadOffice>
+<in-rbi-rep:LoansAgainstLCOrLOCByHeadOffice contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4701770000</in-rbi-rep:LoansAgainstLCOrLOCByHeadOffice>
+<in-rbi-rep:LoansAgainstLCOrLOCByHeadOffice contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4713720000</in-rbi-rep:LoansAgainstLCOrLOCByHeadOffice>
+<in-rbi-rep:LoansAgainstLCOrLOCByHeadOffice contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4725670000</in-rbi-rep:LoansAgainstLCOrLOCByHeadOffice>
+<in-rbi-rep:LoansAgainstLCOrLOCByHeadOffice contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4737620000</in-rbi-rep:LoansAgainstLCOrLOCByHeadOffice>
+<in-rbi-rep:LoansAgainstLCOrLOCByHeadOffice contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4749570000</in-rbi-rep:LoansAgainstLCOrLOCByHeadOffice>
+<in-rbi-rep:LoansAgainstLCOrLOCByHeadOffice contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >37661960000</in-rbi-rep:LoansAgainstLCOrLOCByHeadOffice>
+<in-rbi-rep:LoansToIndianPSU contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >18810880000</in-rbi-rep:LoansToIndianPSU>
+<in-rbi-rep:LoansToIndianPSU contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >18858680000</in-rbi-rep:LoansToIndianPSU>
+<in-rbi-rep:LoansToIndianPSU contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >18906480000</in-rbi-rep:LoansToIndianPSU>
+<in-rbi-rep:LoansToIndianPSU contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >18954280000</in-rbi-rep:LoansToIndianPSU>
+<in-rbi-rep:LoansToIndianPSU contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >19002080000</in-rbi-rep:LoansToIndianPSU>
+<in-rbi-rep:LoansToIndianPSU contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >19049880000</in-rbi-rep:LoansToIndianPSU>
+<in-rbi-rep:LoansToIndianPSU contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >19097680000</in-rbi-rep:LoansToIndianPSU>
+<in-rbi-rep:LoansToIndianPSU contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >19145480000</in-rbi-rep:LoansToIndianPSU>
+<in-rbi-rep:LoansToIndianPSU contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >151825440000</in-rbi-rep:LoansToIndianPSU>
+<in-rbi-rep:ShortTermFacilitiesByBank contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4680640000</in-rbi-rep:ShortTermFacilitiesByBank>
+<in-rbi-rep:ShortTermFacilitiesByBank contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4692590000</in-rbi-rep:ShortTermFacilitiesByBank>
+<in-rbi-rep:ShortTermFacilitiesByBank contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4704540000</in-rbi-rep:ShortTermFacilitiesByBank>
+<in-rbi-rep:ShortTermFacilitiesByBank contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4716490000</in-rbi-rep:ShortTermFacilitiesByBank>
+<in-rbi-rep:ShortTermFacilitiesByBank contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4728440000</in-rbi-rep:ShortTermFacilitiesByBank>
+<in-rbi-rep:ShortTermFacilitiesByBank contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4740390000</in-rbi-rep:ShortTermFacilitiesByBank>
+<in-rbi-rep:ShortTermFacilitiesByBank contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4752340000</in-rbi-rep:ShortTermFacilitiesByBank>
+<in-rbi-rep:ShortTermFacilitiesByBank contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4764290000</in-rbi-rep:ShortTermFacilitiesByBank>
+<in-rbi-rep:ShortTermFacilitiesByBank contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >37779720000</in-rbi-rep:ShortTermFacilitiesByBank>
+<in-rbi-rep:BankerAcceptanceFacilities contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4695360000</in-rbi-rep:BankerAcceptanceFacilities>
+<in-rbi-rep:BankerAcceptanceFacilities contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4707310000</in-rbi-rep:BankerAcceptanceFacilities>
+<in-rbi-rep:BankerAcceptanceFacilities contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4719260000</in-rbi-rep:BankerAcceptanceFacilities>
+<in-rbi-rep:BankerAcceptanceFacilities contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4731210000</in-rbi-rep:BankerAcceptanceFacilities>
+<in-rbi-rep:BankerAcceptanceFacilities contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4743160000</in-rbi-rep:BankerAcceptanceFacilities>
+<in-rbi-rep:BankerAcceptanceFacilities contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4755110000</in-rbi-rep:BankerAcceptanceFacilities>
+<in-rbi-rep:BankerAcceptanceFacilities contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4767060000</in-rbi-rep:BankerAcceptanceFacilities>
+<in-rbi-rep:BankerAcceptanceFacilities contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4779010000</in-rbi-rep:BankerAcceptanceFacilities>
+<in-rbi-rep:BankerAcceptanceFacilities contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >37897480000</in-rbi-rep:BankerAcceptanceFacilities>
+<in-rbi-rep:SyndicatedLoans contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4710080000</in-rbi-rep:SyndicatedLoans>
+<in-rbi-rep:SyndicatedLoans contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4722030000</in-rbi-rep:SyndicatedLoans>
+<in-rbi-rep:SyndicatedLoans contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4733980000</in-rbi-rep:SyndicatedLoans>
+<in-rbi-rep:SyndicatedLoans contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4745930000</in-rbi-rep:SyndicatedLoans>
+<in-rbi-rep:SyndicatedLoans contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4757880000</in-rbi-rep:SyndicatedLoans>
+<in-rbi-rep:SyndicatedLoans contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4769830000</in-rbi-rep:SyndicatedLoans>
+<in-rbi-rep:SyndicatedLoans contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4781780000</in-rbi-rep:SyndicatedLoans>
+<in-rbi-rep:SyndicatedLoans contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4793730000</in-rbi-rep:SyndicatedLoans>
+<in-rbi-rep:SyndicatedLoans contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >38015240000</in-rbi-rep:SyndicatedLoans>
+<in-rbi-rep:OtherLoansToIndianPSU contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-5" >4724800000</in-rbi-rep:OtherLoansToIndianPSU>
+<in-rbi-rep:OtherLoansToIndianPSU contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4736750000</in-rbi-rep:OtherLoansToIndianPSU>
+<in-rbi-rep:OtherLoansToIndianPSU contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-5" >4748700000</in-rbi-rep:OtherLoansToIndianPSU>
+<in-rbi-rep:OtherLoansToIndianPSU contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4760650000</in-rbi-rep:OtherLoansToIndianPSU>
+<in-rbi-rep:OtherLoansToIndianPSU contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-5" >4772600000</in-rbi-rep:OtherLoansToIndianPSU>
+<in-rbi-rep:OtherLoansToIndianPSU contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4784550000</in-rbi-rep:OtherLoansToIndianPSU>
+<in-rbi-rep:OtherLoansToIndianPSU contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-5" >4796500000</in-rbi-rep:OtherLoansToIndianPSU>
+<in-rbi-rep:OtherLoansToIndianPSU contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4808450000</in-rbi-rep:OtherLoansToIndianPSU>
+<in-rbi-rep:OtherLoansToIndianPSU contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-6" >38133000000</in-rbi-rep:OtherLoansToIndianPSU>
+<in-rbi-rep:OtherIndiaRelatedFundedExposures contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4739520000</in-rbi-rep:OtherIndiaRelatedFundedExposures>
+<in-rbi-rep:OtherIndiaRelatedFundedExposures contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4751470000</in-rbi-rep:OtherIndiaRelatedFundedExposures>
+<in-rbi-rep:OtherIndiaRelatedFundedExposures contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4763420000</in-rbi-rep:OtherIndiaRelatedFundedExposures>
+<in-rbi-rep:OtherIndiaRelatedFundedExposures contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4775370000</in-rbi-rep:OtherIndiaRelatedFundedExposures>
+<in-rbi-rep:OtherIndiaRelatedFundedExposures contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4787320000</in-rbi-rep:OtherIndiaRelatedFundedExposures>
+<in-rbi-rep:OtherIndiaRelatedFundedExposures contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4799270000</in-rbi-rep:OtherIndiaRelatedFundedExposures>
+<in-rbi-rep:OtherIndiaRelatedFundedExposures contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4811220000</in-rbi-rep:OtherIndiaRelatedFundedExposures>
+<in-rbi-rep:OtherIndiaRelatedFundedExposures contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4823170000</in-rbi-rep:OtherIndiaRelatedFundedExposures>
+<in-rbi-rep:OtherIndiaRelatedFundedExposures contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >38250760000</in-rbi-rep:OtherIndiaRelatedFundedExposures>
+<in-rbi-rep:SovereignLoans contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-5" >9523200000</in-rbi-rep:SovereignLoans>
+<in-rbi-rep:SovereignLoans contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-5" >9547100000</in-rbi-rep:SovereignLoans>
+<in-rbi-rep:SovereignLoans contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-6" >9571000000</in-rbi-rep:SovereignLoans>
+<in-rbi-rep:SovereignLoans contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-5" >9594900000</in-rbi-rep:SovereignLoans>
+<in-rbi-rep:SovereignLoans contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-5" >9618800000</in-rbi-rep:SovereignLoans>
+<in-rbi-rep:SovereignLoans contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-5" >9642700000</in-rbi-rep:SovereignLoans>
+<in-rbi-rep:SovereignLoans contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-5" >9666600000</in-rbi-rep:SovereignLoans>
+<in-rbi-rep:SovereignLoans contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-5" >9690500000</in-rbi-rep:SovereignLoans>
+<in-rbi-rep:SovereignLoans contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-5" >76854800000</in-rbi-rep:SovereignLoans>
+<in-rbi-rep:LoansToProblemCountries contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4754240000</in-rbi-rep:LoansToProblemCountries>
+<in-rbi-rep:LoansToProblemCountries contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4766190000</in-rbi-rep:LoansToProblemCountries>
+<in-rbi-rep:LoansToProblemCountries contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4778140000</in-rbi-rep:LoansToProblemCountries>
+<in-rbi-rep:LoansToProblemCountries contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4790090000</in-rbi-rep:LoansToProblemCountries>
+<in-rbi-rep:LoansToProblemCountries contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4802040000</in-rbi-rep:LoansToProblemCountries>
+<in-rbi-rep:LoansToProblemCountries contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4813990000</in-rbi-rep:LoansToProblemCountries>
+<in-rbi-rep:LoansToProblemCountries contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4825940000</in-rbi-rep:LoansToProblemCountries>
+<in-rbi-rep:LoansToProblemCountries contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4837890000</in-rbi-rep:LoansToProblemCountries>
+<in-rbi-rep:LoansToProblemCountries contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >38368520000</in-rbi-rep:LoansToProblemCountries>
+<in-rbi-rep:OtherSovereignLoans contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4768960000</in-rbi-rep:OtherSovereignLoans>
+<in-rbi-rep:OtherSovereignLoans contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4780910000</in-rbi-rep:OtherSovereignLoans>
+<in-rbi-rep:OtherSovereignLoans contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4792860000</in-rbi-rep:OtherSovereignLoans>
+<in-rbi-rep:OtherSovereignLoans contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4804810000</in-rbi-rep:OtherSovereignLoans>
+<in-rbi-rep:OtherSovereignLoans contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4816760000</in-rbi-rep:OtherSovereignLoans>
+<in-rbi-rep:OtherSovereignLoans contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4828710000</in-rbi-rep:OtherSovereignLoans>
+<in-rbi-rep:OtherSovereignLoans contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4840660000</in-rbi-rep:OtherSovereignLoans>
+<in-rbi-rep:OtherSovereignLoans contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4852610000</in-rbi-rep:OtherSovereignLoans>
+<in-rbi-rep:OtherSovereignLoans contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >38486280000</in-rbi-rep:OtherSovereignLoans>
+<in-rbi-rep:RealEstateExposures contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4783680000</in-rbi-rep:RealEstateExposures>
+<in-rbi-rep:RealEstateExposures contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4795630000</in-rbi-rep:RealEstateExposures>
+<in-rbi-rep:RealEstateExposures contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4807580000</in-rbi-rep:RealEstateExposures>
+<in-rbi-rep:RealEstateExposures contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4819530000</in-rbi-rep:RealEstateExposures>
+<in-rbi-rep:RealEstateExposures contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4831480000</in-rbi-rep:RealEstateExposures>
+<in-rbi-rep:RealEstateExposures contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4843430000</in-rbi-rep:RealEstateExposures>
+<in-rbi-rep:RealEstateExposures contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4855380000</in-rbi-rep:RealEstateExposures>
+<in-rbi-rep:RealEstateExposures contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4867330000</in-rbi-rep:RealEstateExposures>
+<in-rbi-rep:RealEstateExposures contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >38604040000</in-rbi-rep:RealEstateExposures>
+<in-rbi-rep:CommercialLoans contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-5" >4798400000</in-rbi-rep:CommercialLoans>
+<in-rbi-rep:CommercialLoans contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4810350000</in-rbi-rep:CommercialLoans>
+<in-rbi-rep:CommercialLoans contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-5" >4822300000</in-rbi-rep:CommercialLoans>
+<in-rbi-rep:CommercialLoans contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4834250000</in-rbi-rep:CommercialLoans>
+<in-rbi-rep:CommercialLoans contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-5" >4846200000</in-rbi-rep:CommercialLoans>
+<in-rbi-rep:CommercialLoans contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4858150000</in-rbi-rep:CommercialLoans>
+<in-rbi-rep:CommercialLoans contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-5" >4870100000</in-rbi-rep:CommercialLoans>
+<in-rbi-rep:CommercialLoans contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4882050000</in-rbi-rep:CommercialLoans>
+<in-rbi-rep:CommercialLoans contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-5" >38721800000</in-rbi-rep:CommercialLoans>
+<in-rbi-rep:OtherLoans contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4813120000</in-rbi-rep:OtherLoans>
+<in-rbi-rep:OtherLoans contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4825070000</in-rbi-rep:OtherLoans>
+<in-rbi-rep:OtherLoans contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4837020000</in-rbi-rep:OtherLoans>
+<in-rbi-rep:OtherLoans contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4848970000</in-rbi-rep:OtherLoans>
+<in-rbi-rep:OtherLoans contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4860920000</in-rbi-rep:OtherLoans>
+<in-rbi-rep:OtherLoans contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4872870000</in-rbi-rep:OtherLoans>
+<in-rbi-rep:OtherLoans contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4884820000</in-rbi-rep:OtherLoans>
+<in-rbi-rep:OtherLoans contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4896770000</in-rbi-rep:OtherLoans>
+<in-rbi-rep:OtherLoans contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >38839560000</in-rbi-rep:OtherLoans>
+<in-rbi-rep:BillsPurchasedAndDiscounted contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4827840000</in-rbi-rep:BillsPurchasedAndDiscounted>
+<in-rbi-rep:BillsPurchasedAndDiscounted contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4839790000</in-rbi-rep:BillsPurchasedAndDiscounted>
+<in-rbi-rep:BillsPurchasedAndDiscounted contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4851740000</in-rbi-rep:BillsPurchasedAndDiscounted>
+<in-rbi-rep:BillsPurchasedAndDiscounted contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4863690000</in-rbi-rep:BillsPurchasedAndDiscounted>
+<in-rbi-rep:BillsPurchasedAndDiscounted contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4875640000</in-rbi-rep:BillsPurchasedAndDiscounted>
+<in-rbi-rep:BillsPurchasedAndDiscounted contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4887590000</in-rbi-rep:BillsPurchasedAndDiscounted>
+<in-rbi-rep:BillsPurchasedAndDiscounted contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4899540000</in-rbi-rep:BillsPurchasedAndDiscounted>
+<in-rbi-rep:BillsPurchasedAndDiscounted contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4911490000</in-rbi-rep:BillsPurchasedAndDiscounted>
+<in-rbi-rep:BillsPurchasedAndDiscounted contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >38957320000</in-rbi-rep:BillsPurchasedAndDiscounted>
+<in-rbi-rep:NettingItems contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >9699840000</in-rbi-rep:NettingItems>
+<in-rbi-rep:NettingItems contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >9723740000</in-rbi-rep:NettingItems>
+<in-rbi-rep:NettingItems contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >9747640000</in-rbi-rep:NettingItems>
+<in-rbi-rep:NettingItems contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >9771540000</in-rbi-rep:NettingItems>
+<in-rbi-rep:NettingItems contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >9795440000</in-rbi-rep:NettingItems>
+<in-rbi-rep:NettingItems contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >9819340000</in-rbi-rep:NettingItems>
+<in-rbi-rep:NettingItems contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >9843240000</in-rbi-rep:NettingItems>
+<in-rbi-rep:NettingItems contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >9867140000</in-rbi-rep:NettingItems>
+<in-rbi-rep:NettingItems contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >78267920000</in-rbi-rep:NettingItems>
+<in-rbi-rep:Provisions contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4842560000</in-rbi-rep:Provisions>
+<in-rbi-rep:Provisions contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4854510000</in-rbi-rep:Provisions>
+<in-rbi-rep:Provisions contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4866460000</in-rbi-rep:Provisions>
+<in-rbi-rep:Provisions contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4878410000</in-rbi-rep:Provisions>
+<in-rbi-rep:Provisions contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4890360000</in-rbi-rep:Provisions>
+<in-rbi-rep:Provisions contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4902310000</in-rbi-rep:Provisions>
+<in-rbi-rep:Provisions contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4914260000</in-rbi-rep:Provisions>
+<in-rbi-rep:Provisions contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4926210000</in-rbi-rep:Provisions>
+<in-rbi-rep:Provisions contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >39075080000</in-rbi-rep:Provisions>
+<in-rbi-rep:InterestSuspense contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4857280000</in-rbi-rep:InterestSuspense>
+<in-rbi-rep:InterestSuspense contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4869230000</in-rbi-rep:InterestSuspense>
+<in-rbi-rep:InterestSuspense contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4881180000</in-rbi-rep:InterestSuspense>
+<in-rbi-rep:InterestSuspense contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4893130000</in-rbi-rep:InterestSuspense>
+<in-rbi-rep:InterestSuspense contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4905080000</in-rbi-rep:InterestSuspense>
+<in-rbi-rep:InterestSuspense contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4917030000</in-rbi-rep:InterestSuspense>
+<in-rbi-rep:InterestSuspense contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4928980000</in-rbi-rep:InterestSuspense>
+<in-rbi-rep:InterestSuspense contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4940930000</in-rbi-rep:InterestSuspense>
+<in-rbi-rep:InterestSuspense contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >39192840000</in-rbi-rep:InterestSuspense>
+<in-rbi-rep:NetCustomerCredit contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >51913920000</in-rbi-rep:NetCustomerCredit>
+<in-rbi-rep:NetCustomerCredit contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >52045370000</in-rbi-rep:NetCustomerCredit>
+<in-rbi-rep:NetCustomerCredit contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >52176820000</in-rbi-rep:NetCustomerCredit>
+<in-rbi-rep:NetCustomerCredit contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >52308270000</in-rbi-rep:NetCustomerCredit>
+<in-rbi-rep:NetCustomerCredit contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >52439720000</in-rbi-rep:NetCustomerCredit>
+<in-rbi-rep:NetCustomerCredit contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >52571170000</in-rbi-rep:NetCustomerCredit>
+<in-rbi-rep:NetCustomerCredit contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >52702620000</in-rbi-rep:NetCustomerCredit>
+<in-rbi-rep:NetCustomerCredit contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >52834070000</in-rbi-rep:NetCustomerCredit>
+<in-rbi-rep:NetCustomerCredit contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >418991960000</in-rbi-rep:NetCustomerCredit>
+<in-rbi-rep:AccumulatedLosses contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-6" >4872000000</in-rbi-rep:AccumulatedLosses>
+<in-rbi-rep:AccumulatedLosses contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4883950000</in-rbi-rep:AccumulatedLosses>
+<in-rbi-rep:AccumulatedLosses contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-5" >4895900000</in-rbi-rep:AccumulatedLosses>
+<in-rbi-rep:AccumulatedLosses contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4907850000</in-rbi-rep:AccumulatedLosses>
+<in-rbi-rep:AccumulatedLosses contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-5" >4919800000</in-rbi-rep:AccumulatedLosses>
+<in-rbi-rep:AccumulatedLosses contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4931750000</in-rbi-rep:AccumulatedLosses>
+<in-rbi-rep:AccumulatedLosses contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-5" >4943700000</in-rbi-rep:AccumulatedLosses>
+<in-rbi-rep:AccumulatedLosses contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4955650000</in-rbi-rep:AccumulatedLosses>
+<in-rbi-rep:AccumulatedLosses contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-5" >39310600000</in-rbi-rep:AccumulatedLosses>
+<in-rbi-rep:OtherAssets contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4886720000</in-rbi-rep:OtherAssets>
+<in-rbi-rep:OtherAssets contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4898670000</in-rbi-rep:OtherAssets>
+<in-rbi-rep:OtherAssets contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4910620000</in-rbi-rep:OtherAssets>
+<in-rbi-rep:OtherAssets contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4922570000</in-rbi-rep:OtherAssets>
+<in-rbi-rep:OtherAssets contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4934520000</in-rbi-rep:OtherAssets>
+<in-rbi-rep:OtherAssets contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4946470000</in-rbi-rep:OtherAssets>
+<in-rbi-rep:OtherAssets contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4958420000</in-rbi-rep:OtherAssets>
+<in-rbi-rep:OtherAssets contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4970370000</in-rbi-rep:OtherAssets>
+<in-rbi-rep:OtherAssets contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >39428360000</in-rbi-rep:OtherAssets>
+<in-rbi-rep:AggregateAssets contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >107375040000</in-rbi-rep:AggregateAssets>
+<in-rbi-rep:AggregateAssets contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >107649890000</in-rbi-rep:AggregateAssets>
+<in-rbi-rep:AggregateAssets contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >107924740000</in-rbi-rep:AggregateAssets>
+<in-rbi-rep:AggregateAssets contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >108199590000</in-rbi-rep:AggregateAssets>
+<in-rbi-rep:AggregateAssets contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >108474440000</in-rbi-rep:AggregateAssets>
+<in-rbi-rep:AggregateAssets contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >108749290000</in-rbi-rep:AggregateAssets>
+<in-rbi-rep:AggregateAssets contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >109024140000</in-rbi-rep:AggregateAssets>
+<in-rbi-rep:AggregateAssets contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >109298990000</in-rbi-rep:AggregateAssets>
+<in-rbi-rep:AggregateAssets contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >866696120000</in-rbi-rep:AggregateAssets>
+<in-rbi-rep:HeadOfficeFunds contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >19694080000</in-rbi-rep:HeadOfficeFunds>
+<in-rbi-rep:HeadOfficeFunds contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >19741880000</in-rbi-rep:HeadOfficeFunds>
+<in-rbi-rep:HeadOfficeFunds contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >19789680000</in-rbi-rep:HeadOfficeFunds>
+<in-rbi-rep:HeadOfficeFunds contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >19837480000</in-rbi-rep:HeadOfficeFunds>
+<in-rbi-rep:HeadOfficeFunds contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >19885280000</in-rbi-rep:HeadOfficeFunds>
+<in-rbi-rep:HeadOfficeFunds contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >19933080000</in-rbi-rep:HeadOfficeFunds>
+<in-rbi-rep:HeadOfficeFunds contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >19980880000</in-rbi-rep:HeadOfficeFunds>
+<in-rbi-rep:HeadOfficeFunds contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >20028680000</in-rbi-rep:HeadOfficeFunds>
+<in-rbi-rep:HeadOfficeFunds contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >158891040000</in-rbi-rep:HeadOfficeFunds>
+<in-rbi-rep:AssignedCapital contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4901440000</in-rbi-rep:AssignedCapital>
+<in-rbi-rep:AssignedCapital contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4913390000</in-rbi-rep:AssignedCapital>
+<in-rbi-rep:AssignedCapital contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4925340000</in-rbi-rep:AssignedCapital>
+<in-rbi-rep:AssignedCapital contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4937290000</in-rbi-rep:AssignedCapital>
+<in-rbi-rep:AssignedCapital contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4949240000</in-rbi-rep:AssignedCapital>
+<in-rbi-rep:AssignedCapital contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4961190000</in-rbi-rep:AssignedCapital>
+<in-rbi-rep:AssignedCapital contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4973140000</in-rbi-rep:AssignedCapital>
+<in-rbi-rep:AssignedCapital contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4985090000</in-rbi-rep:AssignedCapital>
+<in-rbi-rep:AssignedCapital contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >39546120000</in-rbi-rep:AssignedCapital>
+<in-rbi-rep:SupportFunds contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4916160000</in-rbi-rep:SupportFunds>
+<in-rbi-rep:SupportFunds contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4928110000</in-rbi-rep:SupportFunds>
+<in-rbi-rep:SupportFunds contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4940060000</in-rbi-rep:SupportFunds>
+<in-rbi-rep:SupportFunds contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4952010000</in-rbi-rep:SupportFunds>
+<in-rbi-rep:SupportFunds contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4963960000</in-rbi-rep:SupportFunds>
+<in-rbi-rep:SupportFunds contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4975910000</in-rbi-rep:SupportFunds>
+<in-rbi-rep:SupportFunds contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >4987860000</in-rbi-rep:SupportFunds>
+<in-rbi-rep:SupportFunds contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >4999810000</in-rbi-rep:SupportFunds>
+<in-rbi-rep:SupportFunds contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >39663880000</in-rbi-rep:SupportFunds>
+<in-rbi-rep:EarningsRetained contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4930880000</in-rbi-rep:EarningsRetained>
+<in-rbi-rep:EarningsRetained contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4942830000</in-rbi-rep:EarningsRetained>
+<in-rbi-rep:EarningsRetained contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4954780000</in-rbi-rep:EarningsRetained>
+<in-rbi-rep:EarningsRetained contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4966730000</in-rbi-rep:EarningsRetained>
+<in-rbi-rep:EarningsRetained contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >4978680000</in-rbi-rep:EarningsRetained>
+<in-rbi-rep:EarningsRetained contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >4990630000</in-rbi-rep:EarningsRetained>
+<in-rbi-rep:EarningsRetained contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >5002580000</in-rbi-rep:EarningsRetained>
+<in-rbi-rep:EarningsRetained contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >5014530000</in-rbi-rep:EarningsRetained>
+<in-rbi-rep:EarningsRetained contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >39781640000</in-rbi-rep:EarningsRetained>
+<in-rbi-rep:OtherFunds contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-5" >4945600000</in-rbi-rep:OtherFunds>
+<in-rbi-rep:OtherFunds contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4957550000</in-rbi-rep:OtherFunds>
+<in-rbi-rep:OtherFunds contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-5" >4969500000</in-rbi-rep:OtherFunds>
+<in-rbi-rep:OtherFunds contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4981450000</in-rbi-rep:OtherFunds>
+<in-rbi-rep:OtherFunds contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-5" >4993400000</in-rbi-rep:OtherFunds>
+<in-rbi-rep:OtherFunds contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >5005350000</in-rbi-rep:OtherFunds>
+<in-rbi-rep:OtherFunds contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-5" >5017300000</in-rbi-rep:OtherFunds>
+<in-rbi-rep:OtherFunds contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >5029250000</in-rbi-rep:OtherFunds>
+<in-rbi-rep:OtherFunds contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-5" >39899400000</in-rbi-rep:OtherFunds>
+<in-rbi-rep:CustomerDeposits contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >9935360000</in-rbi-rep:CustomerDeposits>
+<in-rbi-rep:CustomerDeposits contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >9959260000</in-rbi-rep:CustomerDeposits>
+<in-rbi-rep:CustomerDeposits contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >9983160000</in-rbi-rep:CustomerDeposits>
+<in-rbi-rep:CustomerDeposits contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >10007060000</in-rbi-rep:CustomerDeposits>
+<in-rbi-rep:CustomerDeposits contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >10030960000</in-rbi-rep:CustomerDeposits>
+<in-rbi-rep:CustomerDeposits contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >10054860000</in-rbi-rep:CustomerDeposits>
+<in-rbi-rep:CustomerDeposits contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >10078760000</in-rbi-rep:CustomerDeposits>
+<in-rbi-rep:CustomerDeposits contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >10102660000</in-rbi-rep:CustomerDeposits>
+<in-rbi-rep:CustomerDeposits contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >80152080000</in-rbi-rep:CustomerDeposits>
+<in-rbi-rep:CustomerDepositsInCurrentAccounts contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4960320000</in-rbi-rep:CustomerDepositsInCurrentAccounts>
+<in-rbi-rep:CustomerDepositsInCurrentAccounts contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4972270000</in-rbi-rep:CustomerDepositsInCurrentAccounts>
+<in-rbi-rep:CustomerDepositsInCurrentAccounts contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4984220000</in-rbi-rep:CustomerDepositsInCurrentAccounts>
+<in-rbi-rep:CustomerDepositsInCurrentAccounts contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >4996170000</in-rbi-rep:CustomerDepositsInCurrentAccounts>
+<in-rbi-rep:CustomerDepositsInCurrentAccounts contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >5008120000</in-rbi-rep:CustomerDepositsInCurrentAccounts>
+<in-rbi-rep:CustomerDepositsInCurrentAccounts contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >5020070000</in-rbi-rep:CustomerDepositsInCurrentAccounts>
+<in-rbi-rep:CustomerDepositsInCurrentAccounts contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >5032020000</in-rbi-rep:CustomerDepositsInCurrentAccounts>
+<in-rbi-rep:CustomerDepositsInCurrentAccounts contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >5043970000</in-rbi-rep:CustomerDepositsInCurrentAccounts>
+<in-rbi-rep:CustomerDepositsInCurrentAccounts contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >40017160000</in-rbi-rep:CustomerDepositsInCurrentAccounts>
+<in-rbi-rep:CustomerDepositsInOtherAccounts contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4975040000</in-rbi-rep:CustomerDepositsInOtherAccounts>
+<in-rbi-rep:CustomerDepositsInOtherAccounts contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >4986990000</in-rbi-rep:CustomerDepositsInOtherAccounts>
+<in-rbi-rep:CustomerDepositsInOtherAccounts contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >4998940000</in-rbi-rep:CustomerDepositsInOtherAccounts>
+<in-rbi-rep:CustomerDepositsInOtherAccounts contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >5010890000</in-rbi-rep:CustomerDepositsInOtherAccounts>
+<in-rbi-rep:CustomerDepositsInOtherAccounts contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >5022840000</in-rbi-rep:CustomerDepositsInOtherAccounts>
+<in-rbi-rep:CustomerDepositsInOtherAccounts contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >5034790000</in-rbi-rep:CustomerDepositsInOtherAccounts>
+<in-rbi-rep:CustomerDepositsInOtherAccounts contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >5046740000</in-rbi-rep:CustomerDepositsInOtherAccounts>
+<in-rbi-rep:CustomerDepositsInOtherAccounts contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >5058690000</in-rbi-rep:CustomerDepositsInOtherAccounts>
+<in-rbi-rep:CustomerDepositsInOtherAccounts contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >40134920000</in-rbi-rep:CustomerDepositsInOtherAccounts>
+<in-rbi-rep:InterBranchBorrowingsOrDeposits contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >15013440000</in-rbi-rep:InterBranchBorrowingsOrDeposits>
+<in-rbi-rep:InterBranchBorrowingsOrDeposits contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >15049290000</in-rbi-rep:InterBranchBorrowingsOrDeposits>
+<in-rbi-rep:InterBranchBorrowingsOrDeposits contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >15085140000</in-rbi-rep:InterBranchBorrowingsOrDeposits>
+<in-rbi-rep:InterBranchBorrowingsOrDeposits contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >15120990000</in-rbi-rep:InterBranchBorrowingsOrDeposits>
+<in-rbi-rep:InterBranchBorrowingsOrDeposits contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >15156840000</in-rbi-rep:InterBranchBorrowingsOrDeposits>
+<in-rbi-rep:InterBranchBorrowingsOrDeposits contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >15192690000</in-rbi-rep:InterBranchBorrowingsOrDeposits>
+<in-rbi-rep:InterBranchBorrowingsOrDeposits contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >15228540000</in-rbi-rep:InterBranchBorrowingsOrDeposits>
+<in-rbi-rep:InterBranchBorrowingsOrDeposits contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >15264390000</in-rbi-rep:InterBranchBorrowingsOrDeposits>
+<in-rbi-rep:InterBranchBorrowingsOrDeposits contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >121111320000</in-rbi-rep:InterBranchBorrowingsOrDeposits>
+<in-rbi-rep:InterBranchBorrowingsOrDepositsWithBranchesInSameForeign contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >4989760000</in-rbi-rep:InterBranchBorrowingsOrDepositsWithBranchesInSameForeign>
+<in-rbi-rep:InterBranchBorrowingsOrDepositsWithBranchesInSameForeign contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >5001710000</in-rbi-rep:InterBranchBorrowingsOrDepositsWithBranchesInSameForeign>
+<in-rbi-rep:InterBranchBorrowingsOrDepositsWithBranchesInSameForeign contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >5013660000</in-rbi-rep:InterBranchBorrowingsOrDepositsWithBranchesInSameForeign>
+<in-rbi-rep:InterBranchBorrowingsOrDepositsWithBranchesInSameForeign contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >5025610000</in-rbi-rep:InterBranchBorrowingsOrDepositsWithBranchesInSameForeign>
+<in-rbi-rep:InterBranchBorrowingsOrDepositsWithBranchesInSameForeign contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >5037560000</in-rbi-rep:InterBranchBorrowingsOrDepositsWithBranchesInSameForeign>
+<in-rbi-rep:InterBranchBorrowingsOrDepositsWithBranchesInSameForeign contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >5049510000</in-rbi-rep:InterBranchBorrowingsOrDepositsWithBranchesInSameForeign>
+<in-rbi-rep:InterBranchBorrowingsOrDepositsWithBranchesInSameForeign contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >5061460000</in-rbi-rep:InterBranchBorrowingsOrDepositsWithBranchesInSameForeign>
+<in-rbi-rep:InterBranchBorrowingsOrDepositsWithBranchesInSameForeign contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >5073410000</in-rbi-rep:InterBranchBorrowingsOrDepositsWithBranchesInSameForeign>
+<in-rbi-rep:InterBranchBorrowingsOrDepositsWithBranchesInSameForeign contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >40252680000</in-rbi-rep:InterBranchBorrowingsOrDepositsWithBranchesInSameForeign>
+<in-rbi-rep:InterBranchBorrowingsOrDepositswithBranchesInOtherForeign contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >5004480000</in-rbi-rep:InterBranchBorrowingsOrDepositswithBranchesInOtherForeign>
+<in-rbi-rep:InterBranchBorrowingsOrDepositswithBranchesInOtherForeign contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >5016430000</in-rbi-rep:InterBranchBorrowingsOrDepositswithBranchesInOtherForeign>
+<in-rbi-rep:InterBranchBorrowingsOrDepositswithBranchesInOtherForeign contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >5028380000</in-rbi-rep:InterBranchBorrowingsOrDepositswithBranchesInOtherForeign>
+<in-rbi-rep:InterBranchBorrowingsOrDepositswithBranchesInOtherForeign contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >5040330000</in-rbi-rep:InterBranchBorrowingsOrDepositswithBranchesInOtherForeign>
+<in-rbi-rep:InterBranchBorrowingsOrDepositswithBranchesInOtherForeign contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >5052280000</in-rbi-rep:InterBranchBorrowingsOrDepositswithBranchesInOtherForeign>
+<in-rbi-rep:InterBranchBorrowingsOrDepositswithBranchesInOtherForeign contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >5064230000</in-rbi-rep:InterBranchBorrowingsOrDepositswithBranchesInOtherForeign>
+<in-rbi-rep:InterBranchBorrowingsOrDepositswithBranchesInOtherForeign contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >5076180000</in-rbi-rep:InterBranchBorrowingsOrDepositswithBranchesInOtherForeign>
+<in-rbi-rep:InterBranchBorrowingsOrDepositswithBranchesInOtherForeign contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >5088130000</in-rbi-rep:InterBranchBorrowingsOrDepositswithBranchesInOtherForeign>
+<in-rbi-rep:InterBranchBorrowingsOrDepositswithBranchesInOtherForeign contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >40370440000</in-rbi-rep:InterBranchBorrowingsOrDepositswithBranchesInOtherForeign>
+<in-rbi-rep:InterBranchBorrowingsOrDepositsWithIndiaBranches contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-5" >5019200000</in-rbi-rep:InterBranchBorrowingsOrDepositsWithIndiaBranches>
+<in-rbi-rep:InterBranchBorrowingsOrDepositsWithIndiaBranches contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >5031150000</in-rbi-rep:InterBranchBorrowingsOrDepositsWithIndiaBranches>
+<in-rbi-rep:InterBranchBorrowingsOrDepositsWithIndiaBranches contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-5" >5043100000</in-rbi-rep:InterBranchBorrowingsOrDepositsWithIndiaBranches>
+<in-rbi-rep:InterBranchBorrowingsOrDepositsWithIndiaBranches contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >5055050000</in-rbi-rep:InterBranchBorrowingsOrDepositsWithIndiaBranches>
+<in-rbi-rep:InterBranchBorrowingsOrDepositsWithIndiaBranches contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-6" >5067000000</in-rbi-rep:InterBranchBorrowingsOrDepositsWithIndiaBranches>
+<in-rbi-rep:InterBranchBorrowingsOrDepositsWithIndiaBranches contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >5078950000</in-rbi-rep:InterBranchBorrowingsOrDepositsWithIndiaBranches>
+<in-rbi-rep:InterBranchBorrowingsOrDepositsWithIndiaBranches contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-5" >5090900000</in-rbi-rep:InterBranchBorrowingsOrDepositsWithIndiaBranches>
+<in-rbi-rep:InterBranchBorrowingsOrDepositsWithIndiaBranches contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >5102850000</in-rbi-rep:InterBranchBorrowingsOrDepositsWithIndiaBranches>
+<in-rbi-rep:InterBranchBorrowingsOrDepositsWithIndiaBranches contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-5" >40488200000</in-rbi-rep:InterBranchBorrowingsOrDepositsWithIndiaBranches>
+<in-rbi-rep:InterBankBorrowings contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >10082560000</in-rbi-rep:InterBankBorrowings>
+<in-rbi-rep:InterBankBorrowings contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >10106460000</in-rbi-rep:InterBankBorrowings>
+<in-rbi-rep:InterBankBorrowings contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >10130360000</in-rbi-rep:InterBankBorrowings>
+<in-rbi-rep:InterBankBorrowings contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >10154260000</in-rbi-rep:InterBankBorrowings>
+<in-rbi-rep:InterBankBorrowings contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >10178160000</in-rbi-rep:InterBankBorrowings>
+<in-rbi-rep:InterBankBorrowings contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >10202060000</in-rbi-rep:InterBankBorrowings>
+<in-rbi-rep:InterBankBorrowings contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >10225960000</in-rbi-rep:InterBankBorrowings>
+<in-rbi-rep:InterBankBorrowings contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >10249860000</in-rbi-rep:InterBankBorrowings>
+<in-rbi-rep:InterBankBorrowings contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >81329680000</in-rbi-rep:InterBankBorrowings>
+<in-rbi-rep:InterBankBorrowingsInCurrentAccount contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >5033920000</in-rbi-rep:InterBankBorrowingsInCurrentAccount>
+<in-rbi-rep:InterBankBorrowingsInCurrentAccount contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >5045870000</in-rbi-rep:InterBankBorrowingsInCurrentAccount>
+<in-rbi-rep:InterBankBorrowingsInCurrentAccount contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >5057820000</in-rbi-rep:InterBankBorrowingsInCurrentAccount>
+<in-rbi-rep:InterBankBorrowingsInCurrentAccount contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >5069770000</in-rbi-rep:InterBankBorrowingsInCurrentAccount>
+<in-rbi-rep:InterBankBorrowingsInCurrentAccount contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >5081720000</in-rbi-rep:InterBankBorrowingsInCurrentAccount>
+<in-rbi-rep:InterBankBorrowingsInCurrentAccount contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >5093670000</in-rbi-rep:InterBankBorrowingsInCurrentAccount>
+<in-rbi-rep:InterBankBorrowingsInCurrentAccount contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >5105620000</in-rbi-rep:InterBankBorrowingsInCurrentAccount>
+<in-rbi-rep:InterBankBorrowingsInCurrentAccount contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >5117570000</in-rbi-rep:InterBankBorrowingsInCurrentAccount>
+<in-rbi-rep:InterBankBorrowingsInCurrentAccount contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >40605960000</in-rbi-rep:InterBankBorrowingsInCurrentAccount>
+<in-rbi-rep:InterBankBorrowingsInOtherDeposits contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >5048640000</in-rbi-rep:InterBankBorrowingsInOtherDeposits>
+<in-rbi-rep:InterBankBorrowingsInOtherDeposits contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >5060590000</in-rbi-rep:InterBankBorrowingsInOtherDeposits>
+<in-rbi-rep:InterBankBorrowingsInOtherDeposits contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >5072540000</in-rbi-rep:InterBankBorrowingsInOtherDeposits>
+<in-rbi-rep:InterBankBorrowingsInOtherDeposits contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >5084490000</in-rbi-rep:InterBankBorrowingsInOtherDeposits>
+<in-rbi-rep:InterBankBorrowingsInOtherDeposits contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >5096440000</in-rbi-rep:InterBankBorrowingsInOtherDeposits>
+<in-rbi-rep:InterBankBorrowingsInOtherDeposits contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >5108390000</in-rbi-rep:InterBankBorrowingsInOtherDeposits>
+<in-rbi-rep:InterBankBorrowingsInOtherDeposits contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >5120340000</in-rbi-rep:InterBankBorrowingsInOtherDeposits>
+<in-rbi-rep:InterBankBorrowingsInOtherDeposits contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >5132290000</in-rbi-rep:InterBankBorrowingsInOtherDeposits>
+<in-rbi-rep:InterBankBorrowingsInOtherDeposits contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >40723720000</in-rbi-rep:InterBankBorrowingsInOtherDeposits>
+<in-rbi-rep:OtherDebtInstruments contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >5063360000</in-rbi-rep:OtherDebtInstruments>
+<in-rbi-rep:OtherDebtInstruments contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >5075310000</in-rbi-rep:OtherDebtInstruments>
+<in-rbi-rep:OtherDebtInstruments contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >5087260000</in-rbi-rep:OtherDebtInstruments>
+<in-rbi-rep:OtherDebtInstruments contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >5099210000</in-rbi-rep:OtherDebtInstruments>
+<in-rbi-rep:OtherDebtInstruments contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >5111160000</in-rbi-rep:OtherDebtInstruments>
+<in-rbi-rep:OtherDebtInstruments contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >5123110000</in-rbi-rep:OtherDebtInstruments>
+<in-rbi-rep:OtherDebtInstruments contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >5135060000</in-rbi-rep:OtherDebtInstruments>
+<in-rbi-rep:OtherDebtInstruments contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >5147010000</in-rbi-rep:OtherDebtInstruments>
+<in-rbi-rep:OtherDebtInstruments contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >40841480000</in-rbi-rep:OtherDebtInstruments>
+<in-rbi-rep:OtherLiabilities contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >10170880000</in-rbi-rep:OtherLiabilities>
+<in-rbi-rep:OtherLiabilities contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >10194780000</in-rbi-rep:OtherLiabilities>
+<in-rbi-rep:OtherLiabilities contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >10218680000</in-rbi-rep:OtherLiabilities>
+<in-rbi-rep:OtherLiabilities contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >10242580000</in-rbi-rep:OtherLiabilities>
+<in-rbi-rep:OtherLiabilities contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >10266480000</in-rbi-rep:OtherLiabilities>
+<in-rbi-rep:OtherLiabilities contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >10290380000</in-rbi-rep:OtherLiabilities>
+<in-rbi-rep:OtherLiabilities contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >10314280000</in-rbi-rep:OtherLiabilities>
+<in-rbi-rep:OtherLiabilities contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >312672460000</in-rbi-rep:OtherLiabilities>
+<in-rbi-rep:OtherLiabilities contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >384370520000</in-rbi-rep:OtherLiabilities>
+<in-rbi-rep:GeneralProvision contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >5078080000</in-rbi-rep:GeneralProvision>
+<in-rbi-rep:GeneralProvision contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >5090030000</in-rbi-rep:GeneralProvision>
+<in-rbi-rep:GeneralProvision contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >5101980000</in-rbi-rep:GeneralProvision>
+<in-rbi-rep:GeneralProvision contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >5113930000</in-rbi-rep:GeneralProvision>
+<in-rbi-rep:GeneralProvision contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >5125880000</in-rbi-rep:GeneralProvision>
+<in-rbi-rep:GeneralProvision contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >5137830000</in-rbi-rep:GeneralProvision>
+<in-rbi-rep:GeneralProvision contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >5149780000</in-rbi-rep:GeneralProvision>
+<in-rbi-rep:GeneralProvision contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >5161730000</in-rbi-rep:GeneralProvision>
+<in-rbi-rep:GeneralProvision contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >40959240000</in-rbi-rep:GeneralProvision>
+<in-rbi-rep:MiscellaneousLiabilities contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-5" >5092800000</in-rbi-rep:MiscellaneousLiabilities>
+<in-rbi-rep:MiscellaneousLiabilities contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >5104750000</in-rbi-rep:MiscellaneousLiabilities>
+<in-rbi-rep:MiscellaneousLiabilities contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-5" >5116700000</in-rbi-rep:MiscellaneousLiabilities>
+<in-rbi-rep:MiscellaneousLiabilities contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >5128650000</in-rbi-rep:MiscellaneousLiabilities>
+<in-rbi-rep:MiscellaneousLiabilities contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-5" >5140600000</in-rbi-rep:MiscellaneousLiabilities>
+<in-rbi-rep:MiscellaneousLiabilities contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >5152550000</in-rbi-rep:MiscellaneousLiabilities>
+<in-rbi-rep:MiscellaneousLiabilities contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-5" >5164500000</in-rbi-rep:MiscellaneousLiabilities>
+<in-rbi-rep:MiscellaneousLiabilities contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >307510730000</in-rbi-rep:MiscellaneousLiabilities>
+<in-rbi-rep:MiscellaneousLiabilities contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >343411280000</in-rbi-rep:MiscellaneousLiabilities>
+<in-rbi-rep:AggregateLiabilities contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >69959680000</in-rbi-rep:AggregateLiabilities>
+<in-rbi-rep:AggregateLiabilities contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >70126980000</in-rbi-rep:AggregateLiabilities>
+<in-rbi-rep:AggregateLiabilities contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >70294280000</in-rbi-rep:AggregateLiabilities>
+<in-rbi-rep:AggregateLiabilities contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >70461580000</in-rbi-rep:AggregateLiabilities>
+<in-rbi-rep:AggregateLiabilities contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >70628880000</in-rbi-rep:AggregateLiabilities>
+<in-rbi-rep:AggregateLiabilities contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >70796180000</in-rbi-rep:AggregateLiabilities>
+<in-rbi-rep:AggregateLiabilities contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >70963480000</in-rbi-rep:AggregateLiabilities>
+<in-rbi-rep:AggregateLiabilities contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >373465060000</in-rbi-rep:AggregateLiabilities>
+<in-rbi-rep:AggregateLiabilities contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >866696120000</in-rbi-rep:AggregateLiabilities>
+<in-rbi-rep:AggregateCapital contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >37415360000</in-rbi-rep:AggregateCapital>
+<in-rbi-rep:AggregateCapital contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >37522910000</in-rbi-rep:AggregateCapital>
+<in-rbi-rep:AggregateCapital contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >37630460000</in-rbi-rep:AggregateCapital>
+<in-rbi-rep:AggregateCapital contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >37738010000</in-rbi-rep:AggregateCapital>
+<in-rbi-rep:AggregateCapital contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >37845560000</in-rbi-rep:AggregateCapital>
+<in-rbi-rep:AggregateCapital contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >37953110000</in-rbi-rep:AggregateCapital>
+<in-rbi-rep:AggregateCapital contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >38060660000</in-rbi-rep:AggregateCapital>
+<in-rbi-rep:AggregateCapital contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >-264166070000</in-rbi-rep:AggregateCapital>
+<in-rbi-rep:AggregateCapital contextRef="asof_20190630_IN_548" unitRef="USD" decimals="0" >0</in-rbi-rep:AggregateCapital>
+<in-rbi-rep:AggregateForwardRateAgreements contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >5107520000</in-rbi-rep:AggregateForwardRateAgreements>
+<in-rbi-rep:AggregateForwardRateAgreements contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >5119470000</in-rbi-rep:AggregateForwardRateAgreements>
+<in-rbi-rep:AggregateForwardRateAgreements contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >5131420000</in-rbi-rep:AggregateForwardRateAgreements>
+<in-rbi-rep:AggregateForwardRateAgreements contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >5143370000</in-rbi-rep:AggregateForwardRateAgreements>
+<in-rbi-rep:AggregateForwardRateAgreements contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >5155320000</in-rbi-rep:AggregateForwardRateAgreements>
+<in-rbi-rep:AggregateForwardRateAgreements contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >5167270000</in-rbi-rep:AggregateForwardRateAgreements>
+<in-rbi-rep:AggregateForwardRateAgreements contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >5179220000</in-rbi-rep:AggregateForwardRateAgreements>
+<in-rbi-rep:AggregateForwardRateAgreements contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >5191170000</in-rbi-rep:AggregateForwardRateAgreements>
+<in-rbi-rep:AggregateForwardRateAgreements contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >41194760000</in-rbi-rep:AggregateForwardRateAgreements>
+<in-rbi-rep:Swaps contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >5122240000</in-rbi-rep:Swaps>
+<in-rbi-rep:Swaps contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >5134190000</in-rbi-rep:Swaps>
+<in-rbi-rep:Swaps contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >5146140000</in-rbi-rep:Swaps>
+<in-rbi-rep:Swaps contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >5158090000</in-rbi-rep:Swaps>
+<in-rbi-rep:Swaps contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >5170040000</in-rbi-rep:Swaps>
+<in-rbi-rep:Swaps contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >5181990000</in-rbi-rep:Swaps>
+<in-rbi-rep:Swaps contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >5193940000</in-rbi-rep:Swaps>
+<in-rbi-rep:Swaps contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >5205890000</in-rbi-rep:Swaps>
+<in-rbi-rep:Swaps contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >41312520000</in-rbi-rep:Swaps>
+<in-rbi-rep:Futures contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >5136960000</in-rbi-rep:Futures>
+<in-rbi-rep:Futures contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >5148910000</in-rbi-rep:Futures>
+<in-rbi-rep:Futures contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >5160860000</in-rbi-rep:Futures>
+<in-rbi-rep:Futures contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >5172810000</in-rbi-rep:Futures>
+<in-rbi-rep:Futures contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >5184760000</in-rbi-rep:Futures>
+<in-rbi-rep:Futures contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >5196710000</in-rbi-rep:Futures>
+<in-rbi-rep:Futures contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >5208660000</in-rbi-rep:Futures>
+<in-rbi-rep:Futures contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >5220610000</in-rbi-rep:Futures>
+<in-rbi-rep:Futures contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >41430280000</in-rbi-rep:Futures>
+<in-rbi-rep:Options contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >5151680000</in-rbi-rep:Options>
+<in-rbi-rep:Options contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >5163630000</in-rbi-rep:Options>
+<in-rbi-rep:Options contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >5175580000</in-rbi-rep:Options>
+<in-rbi-rep:Options contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >5187530000</in-rbi-rep:Options>
+<in-rbi-rep:Options contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >5199480000</in-rbi-rep:Options>
+<in-rbi-rep:Options contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >5211430000</in-rbi-rep:Options>
+<in-rbi-rep:Options contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >5223380000</in-rbi-rep:Options>
+<in-rbi-rep:Options contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >5235330000</in-rbi-rep:Options>
+<in-rbi-rep:Options contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >41548040000</in-rbi-rep:Options>
+<in-rbi-rep:OtherProducts contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-5" >5166400000</in-rbi-rep:OtherProducts>
+<in-rbi-rep:OtherProducts contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >5178350000</in-rbi-rep:OtherProducts>
+<in-rbi-rep:OtherProducts contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-5" >5190300000</in-rbi-rep:OtherProducts>
+<in-rbi-rep:OtherProducts contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >5202250000</in-rbi-rep:OtherProducts>
+<in-rbi-rep:OtherProducts contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-5" >5214200000</in-rbi-rep:OtherProducts>
+<in-rbi-rep:OtherProducts contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >5226150000</in-rbi-rep:OtherProducts>
+<in-rbi-rep:OtherProducts contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-5" >5238100000</in-rbi-rep:OtherProducts>
+<in-rbi-rep:OtherProducts contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >5250050000</in-rbi-rep:OtherProducts>
+<in-rbi-rep:OtherProducts contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-5" >41665800000</in-rbi-rep:OtherProducts>
+<in-rbi-rep:AggregateOtherProducts contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-5" >25684800000</in-rbi-rep:AggregateOtherProducts>
+<in-rbi-rep:AggregateOtherProducts contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >25744550000</in-rbi-rep:AggregateOtherProducts>
+<in-rbi-rep:AggregateOtherProducts contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-5" >25804300000</in-rbi-rep:AggregateOtherProducts>
+<in-rbi-rep:AggregateOtherProducts contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >25864050000</in-rbi-rep:AggregateOtherProducts>
+<in-rbi-rep:AggregateOtherProducts contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-5" >25923800000</in-rbi-rep:AggregateOtherProducts>
+<in-rbi-rep:AggregateOtherProducts contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >25983550000</in-rbi-rep:AggregateOtherProducts>
+<in-rbi-rep:AggregateOtherProducts contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-5" >26043300000</in-rbi-rep:AggregateOtherProducts>
+<in-rbi-rep:AggregateOtherProducts contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >26103050000</in-rbi-rep:AggregateOtherProducts>
+<in-rbi-rep:AggregateOtherProducts contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-5" >207151400000</in-rbi-rep:AggregateOtherProducts>
+<in-rbi-rep:NetGap contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >63100160000</in-rbi-rep:NetGap>
+<in-rbi-rep:NetGap contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >63267460000</in-rbi-rep:NetGap>
+<in-rbi-rep:NetGap contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >63434760000</in-rbi-rep:NetGap>
+<in-rbi-rep:NetGap contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >63602060000</in-rbi-rep:NetGap>
+<in-rbi-rep:NetGap contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-4" >63769360000</in-rbi-rep:NetGap>
+<in-rbi-rep:NetGap contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >63936660000</in-rbi-rep:NetGap>
+<in-rbi-rep:NetGap contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >64103960000</in-rbi-rep:NetGap>
+<in-rbi-rep:NetGap contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-4" >-238063020000</in-rbi-rep:NetGap>
+<in-rbi-rep:NetGap contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-5" >207151400000</in-rbi-rep:NetGap>
+<in-rbi-rep:CumulativeGap contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="USD" decimals="-4" >63100160000</in-rbi-rep:CumulativeGap>
+<in-rbi-rep:CumulativeGap contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="USD" decimals="-4" >126367620000</in-rbi-rep:CumulativeGap>
+<in-rbi-rep:CumulativeGap contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >189802380000</in-rbi-rep:CumulativeGap>
+<in-rbi-rep:CumulativeGap contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="USD" decimals="-4" >253404440000</in-rbi-rep:CumulativeGap>
+<in-rbi-rep:CumulativeGap contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="USD" decimals="-5" >317173800000</in-rbi-rep:CumulativeGap>
+<in-rbi-rep:CumulativeGap contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="USD" decimals="-4" >381110460000</in-rbi-rep:CumulativeGap>
+<in-rbi-rep:CumulativeGap contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="USD" decimals="-4" >445214420000</in-rbi-rep:CumulativeGap>
+<in-rbi-rep:CumulativeGap contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="USD" decimals="-5" >207151400000</in-rbi-rep:CumulativeGap>
+<in-rbi-rep:CumulativeGap contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-5" >207151400000</in-rbi-rep:CumulativeGap>
+<in-rbi-rep:NetGapAsPercentageOfAggregateAssets contextRef="asof_20190630_OneToTwentyEightDaysMember_IN_548" unitRef="PURE" decimals="4" >0.5877</in-rbi-rep:NetGapAsPercentageOfAggregateAssets>
+<in-rbi-rep:NetGapAsPercentageOfAggregateAssets contextRef="asof_20190630_TwentyNineDaysAndUptoThreeMonthsMember_IN_548" unitRef="PURE" decimals="4" >0.5877</in-rbi-rep:NetGapAsPercentageOfAggregateAssets>
+<in-rbi-rep:NetGapAsPercentageOfAggregateAssets contextRef="asof_20190630_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="PURE" decimals="4" >0.5878</in-rbi-rep:NetGapAsPercentageOfAggregateAssets>
+<in-rbi-rep:NetGapAsPercentageOfAggregateAssets contextRef="asof_20190630_OverSixMonthsAndUptoOneYearMember_IN_548" unitRef="PURE" decimals="4" >0.5878</in-rbi-rep:NetGapAsPercentageOfAggregateAssets>
+<in-rbi-rep:NetGapAsPercentageOfAggregateAssets contextRef="asof_20190630_OverOneYearUptoAndThreeYearMember_IN_548" unitRef="PURE" decimals="4" >0.5879</in-rbi-rep:NetGapAsPercentageOfAggregateAssets>
+<in-rbi-rep:NetGapAsPercentageOfAggregateAssets contextRef="asof_20190630_OverThreeYearsAndUptoFiveYearMember_IN_548" unitRef="PURE" decimals="4" >0.5879</in-rbi-rep:NetGapAsPercentageOfAggregateAssets>
+<in-rbi-rep:NetGapAsPercentageOfAggregateAssets contextRef="asof_20190630_OverFiveYearsMember_IN_548" unitRef="PURE" decimals="3" >0.588</in-rbi-rep:NetGapAsPercentageOfAggregateAssets>
+<in-rbi-rep:NetGapAsPercentageOfAggregateAssets contextRef="asof_20190630_NonSensitiveMember_IN_548" unitRef="PURE" decimals="4" >-2.1781</in-rbi-rep:NetGapAsPercentageOfAggregateAssets>
+<in-rbi-rep:NetGapAsPercentageOfAggregateAssets contextRef="asof_20190630_IN_548" unitRef="PURE" decimals="3" >0.239</in-rbi-rep:NetGapAsPercentageOfAggregateAssets>
+<in-rbi-rep:DocumentaryCreditsCommitted contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >10376960000</in-rbi-rep:DocumentaryCreditsCommitted>
+<in-rbi-rep:DocumentaryCreditsCommittedIssuedOnClientAccount contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >5181120000</in-rbi-rep:DocumentaryCreditsCommittedIssuedOnClientAccount>
+<in-rbi-rep:DocumentaryCreditsCommittedIssuedOnBanksAccount contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >5195840000</in-rbi-rep:DocumentaryCreditsCommittedIssuedOnBanksAccount>
+<in-rbi-rep:PaymentGuaranteesOrAcceptances contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >5210560000</in-rbi-rep:PaymentGuaranteesOrAcceptances>
+<in-rbi-rep:PerformanceGuaranteesIssued contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >5225280000</in-rbi-rep:PerformanceGuaranteesIssued>
+<in-rbi-rep:LoanCommitments contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-6" >5240000000</in-rbi-rep:LoanCommitments>
+<in-rbi-rep:OffBalanceSheetExposures contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-5" >26052800000</in-rbi-rep:OffBalanceSheetExposures>
+<in-rbi-rep:OutstandingForexContracts contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >5193070000</in-rbi-rep:OutstandingForexContracts>
+<in-rbi-rep:OutstandingInterestRateSwaps contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >5207790000</in-rbi-rep:OutstandingInterestRateSwaps>
+<in-rbi-rep:ForwardRateAgreements contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >5222510000</in-rbi-rep:ForwardRateAgreements>
+<in-rbi-rep:OtherFutureAndForwardContracts contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >5237230000</in-rbi-rep:OtherFutureAndForwardContracts>
+<in-rbi-rep:CurrencyOptionsBought contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >5251950000</in-rbi-rep:CurrencyOptionsBought>
+<in-rbi-rep:CurrencyOptionsWritten contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >5266670000</in-rbi-rep:CurrencyOptionsWritten>
+<in-rbi-rep:OtherOffBalanceSheetExposure contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >5281390000</in-rbi-rep:OtherOffBalanceSheetExposure>
+<in-rbi-rep:AggregateOffBalanceSheetExposures contextRef="asof_20190630_IN_548" unitRef="USD" decimals="-4" >36660610000</in-rbi-rep:AggregateOffBalanceSheetExposures>
+<in-rbi-rep:DebitNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBranchesMember_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="PURE" decimals="INF" >17</in-rbi-rep:DebitNumberOfEntriesInAccount>
+<in-rbi-rep:DebitAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBranchesMember_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >5205020000</in-rbi-rep:DebitAmountOfEntriesInAccount>
+<in-rbi-rep:CreditNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBranchesMember_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="PURE" decimals="INF" >45</in-rbi-rep:CreditNumberOfEntriesInAccount>
+<in-rbi-rep:CreditAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBranchesMember_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >5216970000</in-rbi-rep:CreditAmountOfEntriesInAccount>
+<in-rbi-rep:DebitNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBranchesMember_OverSixMonthsUptoTwelveMonthsMember_IN_548" unitRef="PURE" decimals="INF" >22</in-rbi-rep:DebitNumberOfEntriesInAccount>
+<in-rbi-rep:DebitAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBranchesMember_OverSixMonthsUptoTwelveMonthsMember_IN_548" unitRef="USD" decimals="-4" >5219740000</in-rbi-rep:DebitAmountOfEntriesInAccount>
+<in-rbi-rep:CreditNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBranchesMember_OverSixMonthsUptoTwelveMonthsMember_IN_548" unitRef="PURE" decimals="INF" >50</in-rbi-rep:CreditNumberOfEntriesInAccount>
+<in-rbi-rep:CreditAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBranchesMember_OverSixMonthsUptoTwelveMonthsMember_IN_548" unitRef="USD" decimals="-4" >5231690000</in-rbi-rep:CreditAmountOfEntriesInAccount>
+<in-rbi-rep:DebitNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBranchesMember_OverOneYearUptoAndTwoYearMember_IN_548" unitRef="PURE" decimals="INF" >27</in-rbi-rep:DebitNumberOfEntriesInAccount>
+<in-rbi-rep:DebitAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBranchesMember_OverOneYearUptoAndTwoYearMember_IN_548" unitRef="USD" decimals="-4" >5234460000</in-rbi-rep:DebitAmountOfEntriesInAccount>
+<in-rbi-rep:CreditNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBranchesMember_OverOneYearUptoAndTwoYearMember_IN_548" unitRef="PURE" decimals="INF" >55</in-rbi-rep:CreditNumberOfEntriesInAccount>
+<in-rbi-rep:CreditAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBranchesMember_OverOneYearUptoAndTwoYearMember_IN_548" unitRef="USD" decimals="-4" >5246410000</in-rbi-rep:CreditAmountOfEntriesInAccount>
+<in-rbi-rep:DebitNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBranchesMember_OverTwoYearMember_IN_548" unitRef="PURE" decimals="INF" >32</in-rbi-rep:DebitNumberOfEntriesInAccount>
+<in-rbi-rep:DebitAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBranchesMember_OverTwoYearMember_IN_548" unitRef="USD" decimals="-4" >5249180000</in-rbi-rep:DebitAmountOfEntriesInAccount>
+<in-rbi-rep:CreditNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBranchesMember_OverTwoYearMember_IN_548" unitRef="PURE" decimals="INF" >60</in-rbi-rep:CreditNumberOfEntriesInAccount>
+<in-rbi-rep:CreditAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBranchesMember_OverTwoYearMember_IN_548" unitRef="USD" decimals="-4" >5261130000</in-rbi-rep:CreditAmountOfEntriesInAccount>
+<in-rbi-rep:DebitNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBranchesMember_IN_548" unitRef="PURE" decimals="INF" >98</in-rbi-rep:DebitNumberOfEntriesInAccount>
+<in-rbi-rep:DebitAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBranchesMember_IN_548" unitRef="USD" decimals="-5" >20908400000</in-rbi-rep:DebitAmountOfEntriesInAccount>
+<in-rbi-rep:CreditNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBranchesMember_IN_548" unitRef="PURE" decimals="INF" >210</in-rbi-rep:CreditNumberOfEntriesInAccount>
+<in-rbi-rep:CreditAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBranchesMember_IN_548" unitRef="USD" decimals="-5" >20956200000</in-rbi-rep:CreditAmountOfEntriesInAccount>
+<in-rbi-rep:DebitNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="PURE" decimals="INF" >73</in-rbi-rep:DebitNumberOfEntriesInAccount>
+<in-rbi-rep:DebitAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >5228920000</in-rbi-rep:DebitAmountOfEntriesInAccount>
+<in-rbi-rep:CreditNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="PURE" decimals="INF" >101</in-rbi-rep:CreditNumberOfEntriesInAccount>
+<in-rbi-rep:CreditAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >5240870000</in-rbi-rep:CreditAmountOfEntriesInAccount>
+<in-rbi-rep:DebitNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_OverSixMonthsUptoTwelveMonthsMember_IN_548" unitRef="PURE" decimals="INF" >78</in-rbi-rep:DebitNumberOfEntriesInAccount>
+<in-rbi-rep:DebitAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_OverSixMonthsUptoTwelveMonthsMember_IN_548" unitRef="USD" decimals="-4" >5243640000</in-rbi-rep:DebitAmountOfEntriesInAccount>
+<in-rbi-rep:CreditNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_OverSixMonthsUptoTwelveMonthsMember_IN_548" unitRef="PURE" decimals="INF" >106</in-rbi-rep:CreditNumberOfEntriesInAccount>
+<in-rbi-rep:CreditAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_OverSixMonthsUptoTwelveMonthsMember_IN_548" unitRef="USD" decimals="-4" >5255590000</in-rbi-rep:CreditAmountOfEntriesInAccount>
+<in-rbi-rep:DebitNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_OverOneYearUptoAndTwoYearMember_IN_548" unitRef="PURE" decimals="INF" >83</in-rbi-rep:DebitNumberOfEntriesInAccount>
+<in-rbi-rep:DebitAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_OverOneYearUptoAndTwoYearMember_IN_548" unitRef="USD" decimals="-4" >5258360000</in-rbi-rep:DebitAmountOfEntriesInAccount>
+<in-rbi-rep:CreditNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_OverOneYearUptoAndTwoYearMember_IN_548" unitRef="PURE" decimals="INF" >111</in-rbi-rep:CreditNumberOfEntriesInAccount>
+<in-rbi-rep:CreditAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_OverOneYearUptoAndTwoYearMember_IN_548" unitRef="USD" decimals="-4" >5270310000</in-rbi-rep:CreditAmountOfEntriesInAccount>
+<in-rbi-rep:DebitNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_OverTwoYearMember_IN_548" unitRef="PURE" decimals="INF" >88</in-rbi-rep:DebitNumberOfEntriesInAccount>
+<in-rbi-rep:DebitAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_OverTwoYearMember_IN_548" unitRef="USD" decimals="-4" >5273080000</in-rbi-rep:DebitAmountOfEntriesInAccount>
+<in-rbi-rep:CreditNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_OverTwoYearMember_IN_548" unitRef="PURE" decimals="INF" >116</in-rbi-rep:CreditNumberOfEntriesInAccount>
+<in-rbi-rep:CreditAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_OverTwoYearMember_IN_548" unitRef="USD" decimals="-4" >5285030000</in-rbi-rep:CreditAmountOfEntriesInAccount>
+<in-rbi-rep:DebitNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_IN_548" unitRef="PURE" decimals="INF" >322</in-rbi-rep:DebitNumberOfEntriesInAccount>
+<in-rbi-rep:DebitAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_IN_548" unitRef="USD" decimals="-6" >21004000000</in-rbi-rep:DebitAmountOfEntriesInAccount>
+<in-rbi-rep:CreditNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_IN_548" unitRef="PURE" decimals="INF" >434</in-rbi-rep:CreditNumberOfEntriesInAccount>
+<in-rbi-rep:CreditAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherIndianBankBranchesInSameForeignCenterMember_IN_548" unitRef="USD" decimals="-5" >21051800000</in-rbi-rep:CreditAmountOfEntriesInAccount>
+<in-rbi-rep:DebitNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBanksMember_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="PURE" decimals="INF" >129</in-rbi-rep:DebitNumberOfEntriesInAccount>
+<in-rbi-rep:DebitAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBanksMember_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >5252820000</in-rbi-rep:DebitAmountOfEntriesInAccount>
+<in-rbi-rep:CreditNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBanksMember_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="PURE" decimals="INF" >157</in-rbi-rep:CreditNumberOfEntriesInAccount>
+<in-rbi-rep:CreditAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBanksMember_OverThreeMonthsAndUptoSixMonthsMember_IN_548" unitRef="USD" decimals="-4" >5264770000</in-rbi-rep:CreditAmountOfEntriesInAccount>
+<in-rbi-rep:DebitNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBanksMember_OverSixMonthsUptoTwelveMonthsMember_IN_548" unitRef="PURE" decimals="INF" >134</in-rbi-rep:DebitNumberOfEntriesInAccount>
+<in-rbi-rep:DebitAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBanksMember_OverSixMonthsUptoTwelveMonthsMember_IN_548" unitRef="USD" decimals="-4" >5267540000</in-rbi-rep:DebitAmountOfEntriesInAccount>
+<in-rbi-rep:CreditNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBanksMember_OverSixMonthsUptoTwelveMonthsMember_IN_548" unitRef="PURE" decimals="INF" >162</in-rbi-rep:CreditNumberOfEntriesInAccount>
+<in-rbi-rep:CreditAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBanksMember_OverSixMonthsUptoTwelveMonthsMember_IN_548" unitRef="USD" decimals="-4" >5279490000</in-rbi-rep:CreditAmountOfEntriesInAccount>
+<in-rbi-rep:DebitNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBanksMember_OverOneYearUptoAndTwoYearMember_IN_548" unitRef="PURE" decimals="INF" >139</in-rbi-rep:DebitNumberOfEntriesInAccount>
+<in-rbi-rep:DebitAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBanksMember_OverOneYearUptoAndTwoYearMember_IN_548" unitRef="USD" decimals="-4" >5282260000</in-rbi-rep:DebitAmountOfEntriesInAccount>
+<in-rbi-rep:CreditNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBanksMember_OverOneYearUptoAndTwoYearMember_IN_548" unitRef="PURE" decimals="INF" >167</in-rbi-rep:CreditNumberOfEntriesInAccount>
+<in-rbi-rep:CreditAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBanksMember_OverOneYearUptoAndTwoYearMember_IN_548" unitRef="USD" decimals="-4" >5294210000</in-rbi-rep:CreditAmountOfEntriesInAccount>
+<in-rbi-rep:DebitNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBanksMember_OverTwoYearMember_IN_548" unitRef="PURE" decimals="INF" >144</in-rbi-rep:DebitNumberOfEntriesInAccount>
+<in-rbi-rep:DebitAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBanksMember_OverTwoYearMember_IN_548" unitRef="USD" decimals="-4" >5296980000</in-rbi-rep:DebitAmountOfEntriesInAccount>
+<in-rbi-rep:CreditNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBanksMember_OverTwoYearMember_IN_548" unitRef="PURE" decimals="INF" >172</in-rbi-rep:CreditNumberOfEntriesInAccount>
+<in-rbi-rep:CreditAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBanksMember_OverTwoYearMember_IN_548" unitRef="USD" decimals="-4" >5308930000</in-rbi-rep:CreditAmountOfEntriesInAccount>
+<in-rbi-rep:DebitNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBanksMember_IN_548" unitRef="PURE" decimals="INF" >546</in-rbi-rep:DebitNumberOfEntriesInAccount>
+<in-rbi-rep:DebitAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBanksMember_IN_548" unitRef="USD" decimals="-5" >21099600000</in-rbi-rep:DebitAmountOfEntriesInAccount>
+<in-rbi-rep:CreditNumberOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBanksMember_IN_548" unitRef="PURE" decimals="INF" >658</in-rbi-rep:CreditNumberOfEntriesInAccount>
+<in-rbi-rep:CreditAmountOfEntriesInAccount contextRef="asof_20190630_AccountsWithOtherBanksMember_IN_548" unitRef="USD" decimals="-5" >21147400000</in-rbi-rep:CreditAmountOfEntriesInAccount>
+<in-rbi-rep:NameOfSignatory contextRef="fromto_20190401_20190630" >sdafasf</in-rbi-rep:NameOfSignatory>
+<in-rbi-rep:DesignationOfSignatory contextRef="fromto_20190401_20190630" >dsfsdf</in-rbi-rep:DesignationOfSignatory>
+<in-rbi-rep:AuthorisedSignatoryMobileNumber contextRef="fromto_20190401_20190630" unitRef="PURE" decimals="INF" >1234678915</in-rbi-rep:AuthorisedSignatoryMobileNumber>
+<in-rbi-rep:AuthorisedSignatoryLandlineNumber contextRef="fromto_20190401_20190630" unitRef="PURE" decimals="INF" >1213455555</in-rbi-rep:AuthorisedSignatoryLandlineNumber>
+<in-rbi-rep:EMailIDOfAuthorisedReportingOfficial contextRef="fromto_20190401_20190630" >fsfads@sdf.com</in-rbi-rep:EMailIDOfAuthorisedReportingOfficial>
+<in-rbi-rep:PlaceOfSignature contextRef="fromto_20190401_20190630" >fsafd</in-rbi-rep:PlaceOfSignature>
+<in-rbi-rep:DateOfDocumentAuthorisation contextRef="asof_20190630" >2019-07-24</in-rbi-rep:DateOfDocumentAuthorisation>
+
+</xbrli:xbrl>

@@ -66,8 +66,8 @@ public static void main(String[] args) throws Exception {
 
      //Item Data for General Context
      //aloItemData.setReportingPeriodAxis("OneToTwentyEightDaysMember");
-     aloItemData.setDetailsOfAccountsWithBranchesAxis("AccountsWithOtherBranchesMember");
-     aloItemData.setPeriodOfPendingReconcilliationAxis("OverThreeMonthsAndUptoSixMonthsMember");
+    //  aloItemData.setDetailsOfAccountsWithBranchesAxis("AccountsWithOtherBranchesMember");
+    //  aloItemData.setPeriodOfPendingReconcilliationAxis("OverThreeMonthsAndUptoSixMonthsMember");
      aloItemData.setCountryCodeAxis("IN");
      aloItemData.setBranchCodeAxis("548");
  

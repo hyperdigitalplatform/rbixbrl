@@ -38,7 +38,21 @@ public class ALOUtil {
     public static final String ASOFNONSENSITIVEMEMBER = "asofnonsensitivemember";
     public static final String ASOFREPORTINGPERIOD = "asofreportingperiod";
 
-    public static final String ASOFACCOUNTWITHMEMBER = "asofaccountwithmember";
+    public static final String ASOFCONTEXTACCOUNTWITHMEMBEROVERTHREEMONTHSANDUPTOSIXMONTHSMEMBER = "asofcontextaccountwithmemberoverthreemonthsanduptosixmonthsmember";
+    public static final String ASOFCONTEXTACCOUNTWITHMEMBEROVERSIXMONTHSUPTOTWELVEMONTHSMEMBER = "asofcontextaccountwithmemberoversixmonthsuptotwelvemonthsmember";
+    public static final String ASOFCONTEXTACCOUNTWITHMEMBEROVERONEYEARUPTOANDTWOYEARMEMBER = "asofcontextaccountwithmemberoveroneyearuptoandtwoyearmember";
+    public static final String ASOFCONTEXTACCOUNTWITHMEMBEROVERTWOYEARMEMBER = "asofcontextaccountwithmemberovertwoyearmember";
+    public static final String ASOFCONTEXTACCOUNTWITHMEMBER = "asofcontextaccountwithmember";
+    public static final String ASOFCONTEXTACCOUNTSWITHOTHERINDIANOVERTHREEMONTHSANDUPTOSIXMONTHSMEMBER = "asofcontextaccountswithotherindianoverthreemonthsanduptosixmonthsmember";
+    public static final String ASOFCONTEXTACCOUNTSWITHOTHERINDIANOVERSIXMONTHSUPTOTWELVEMONTHSMEMBER = "asofcontextaccountswithotherindianoversixmonthsuptotwelvemonthsmember";
+    public static final String ASOFCONTEXTACCOUNTSWITHOTHERINDIANOVERONEYEARUPTOANDTWOYEARMEMBER = "asofcontextaccountswithotherindianoveroneyearuptoandtwoyearmember";
+    public static final String ASOFCONTEXTACCOUNTSWITHOTHERINDIANOVERTWOYEARMEMBER = "asofcontextaccountswithotherindianovertwoyearmember";
+    public static final String ASOFCONTEXTACCOUNTSWITHOTHERINDIANMEMBER = "asofcontextaccountswithotherindianmember";
+    public static final String ASOFCONTEXTACCOUNTSWITHOTHERBANKSOVERTHREEMONTHSANDUPTOSIXMONTHSMEMBER = "asofcontextaccountswithotherbanksoverthreemonthsanduptosixmonthsmember";
+    public static final String ASOFCONTEXTACCOUNTSWITHOTHERBANKSOVERSIXMONTHSUPTOTWELVEMONTHSMEMBER = "asofcontextaccountswithotherbanksoversixmonthsuptotwelvemonthsmember";
+    public static final String ASOFCONTEXTACCOUNTSWITHOTHERBANKSOVERONEYEARUPTOANDTWOYEARMEMBER = "asofcontextaccountswithotherbanksoveroneyearuptoandtwoyearmember";
+    public static final String ASOFCONTEXTACCOUNTSWITHOTHERBANKSOVERTWOYEARMEMBER = "asofcontextaccountswithotherbanksovertwoyearmember";
+    public static final String ASOFCONTEXTACCOUNTSWITHOTHERBANKSMEMBER = "asofcontextaccountswithotherbanksmember";
 
     public static final String CURRENCY = "currency";
     public static final String PERCENTAGE = "percentage";

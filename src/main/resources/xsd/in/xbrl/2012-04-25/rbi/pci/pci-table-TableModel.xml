@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="General Information">
+<table label="GeneralInformation_Lyt_Page1" header=""/>
+</tableSet>
+<tableSet label="PARTA">
+<table label="PARTA_lyt_PartA" header=""/>
+<table label="PARTA_lyt_PartA_Total" header=""/>
+<table label="PARTA_lyt_PartA_Sect2" header=""/>
+<table label="PARTA_lyt_PartA_Gross" header=""/>
+</tableSet>
+<tableSet label="PARTB">
+<table label="PARTB_lyt_PartB1" header=""/>
+<table label="PARTB_lyt_PartB1_total" header=""/>
+<table label="PARTB_lyt_PartB1_Sect2" header=""/>
+<table label="PARTB_lyt_PartB_Gross" header=""/>
+</tableSet>
+<tableSet label="Authorised Signatory">
+<table label="AuthorisedSignatory_Signatory" header=""/>
+</tableSet>
+</tableModel>

@@ -47,7 +47,6 @@ public class ALOBody  implements BodyInterface {
         Unit currency = units.get(ALOUtil.CURRENCY);
         Unit percentage = units.get(ALOUtil.PERCENTAGE);
         Context asofreportingperiod = contexts.get(ALOUtil.ASOFREPORTINGPERIOD);
-        Context asofaccountwithmember = contexts.get(ALOUtil.ASOFACCOUNTWITHMEMBER);
 
         // create CashAndBalancesWithCentralBanks
         MonetaryItemType cashAndBalancesWithCentralBanksValue = new MonetaryItemType();

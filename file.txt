@@ -122,7 +122,7 @@
             <xbrli:instant>2019-03-31</xbrli:instant>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="asof_20190331_LowRiskMember_BetweenSixMonthMember_IN_558_BF">
+    <xbrli:context id="asof_20190331_LowRiskMember_BetweenSixMonthMember_IN_558_AF">
         <xbrli:entity>
             <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
             <xbrli:segment>
@@ -135,7 +135,7 @@
                     <in-rbi-rep-par:BranchCodeDomain>558</in-rbi-rep-par:BranchCodeDomain>
                 </xbrldi:typedMember>
                 <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
-                    <in-rbi-rep-par:CountryCodeDomain>BF</in-rbi-rep-par:CountryCodeDomain>
+                    <in-rbi-rep-par:CountryCodeDomain>AF</in-rbi-rep-par:CountryCodeDomain>
                 </xbrldi:typedMember>
             </xbrli:segment>
         </xbrli:entity>
@@ -143,7 +143,7 @@
             <xbrli:instant>2019-03-31</xbrli:instant>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="asof_20190331_LowRiskMember_OverSixMonthsAndUptoOneYearMember_IN_558_BF">
+    <xbrli:context id="asof_20190331_LowRiskMember_OverSixMonthsAndUptoOneYearMember_IN_558_AF">
         <xbrli:entity>
             <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
             <xbrli:segment>
@@ -156,7 +156,7 @@
                     <in-rbi-rep-par:BranchCodeDomain>558</in-rbi-rep-par:BranchCodeDomain>
                 </xbrldi:typedMember>
                 <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
-                    <in-rbi-rep-par:CountryCodeDomain>BF</in-rbi-rep-par:CountryCodeDomain>
+                    <in-rbi-rep-par:CountryCodeDomain>AF</in-rbi-rep-par:CountryCodeDomain>
                 </xbrldi:typedMember>
             </xbrli:segment>
         </xbrli:entity>
@@ -164,7 +164,7 @@
             <xbrli:instant>2019-03-31</xbrli:instant>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="asof_20190331_LowRiskMember_IN_558_BF">
+    <xbrli:context id="asof_20190331_LowRiskMember_IN_558_AF">
         <xbrli:entity>
             <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
             <xbrli:segment>
@@ -176,7 +176,7 @@
                     <in-rbi-rep-par:BranchCodeDomain>558</in-rbi-rep-par:BranchCodeDomain>
                 </xbrldi:typedMember>
                 <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
-                    <in-rbi-rep-par:CountryCodeDomain>BF</in-rbi-rep-par:CountryCodeDomain>
+                    <in-rbi-rep-par:CountryCodeDomain>AF</in-rbi-rep-par:CountryCodeDomain>
                 </xbrldi:typedMember>
             </xbrli:segment>
         </xbrli:entity>
@@ -184,7 +184,7 @@
             <xbrli:instant>2019-03-31</xbrli:instant>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="asof_20190331_LowRiskMember_OverOneYearAndUptoFiveYearMember_IN_558_BF">
+    <xbrli:context id="asof_20190331_LowRiskMember_OverOneYearAndUptoFiveYearMember_IN_558_AF">
         <xbrli:entity>
             <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
             <xbrli:segment>
@@ -197,7 +197,7 @@
                     <in-rbi-rep-par:BranchCodeDomain>558</in-rbi-rep-par:BranchCodeDomain>
                 </xbrldi:typedMember>
                 <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
-                    <in-rbi-rep-par:CountryCodeDomain>BF</in-rbi-rep-par:CountryCodeDomain>
+                    <in-rbi-rep-par:CountryCodeDomain>AF</in-rbi-rep-par:CountryCodeDomain>
                 </xbrldi:typedMember>
             </xbrli:segment>
         </xbrli:entity>
@@ -205,7 +205,7 @@
             <xbrli:instant>2019-03-31</xbrli:instant>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="asof_20190331_LowRiskMember_OverFiveYearsMember_IN_558_BF">
+    <xbrli:context id="asof_20190331_LowRiskMember_OverFiveYearsMember_IN_558_AF">
         <xbrli:entity>
             <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
             <xbrli:segment>
@@ -218,7 +218,423 @@
                     <in-rbi-rep-par:BranchCodeDomain>558</in-rbi-rep-par:BranchCodeDomain>
                 </xbrldi:typedMember>
                 <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
-                    <in-rbi-rep-par:CountryCodeDomain>BF</in-rbi-rep-par:CountryCodeDomain>
+                    <in-rbi-rep-par:CountryCodeDomain>AF</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2019-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20190331_ModeratelyLowMember_BetweenSixMonthMember_IN_558_BA">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RiskClassificationAxis">in-rbi-rep:ModeratelyLowMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:MaturityPeriodAxis">in-rbi-rep:BetweenSixMonthMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>558</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>BA</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2019-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20190331_ModeratelyLowMember_OverSixMonthsAndUptoOneYearMember_IN_558_BA">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RiskClassificationAxis">in-rbi-rep:ModeratelyLowMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:MaturityPeriodAxis">in-rbi-rep:OverSixMonthsAndUptoOneYearMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>558</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>BA</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2019-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20190331_ModeratelyLowMember_IN_558_BA">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RiskClassificationAxis">in-rbi-rep:ModeratelyLowMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>558</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>BA</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2019-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20190331_ModeratelyLowMember_OverOneYearAndUptoFiveYearMember_IN_558_BA">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RiskClassificationAxis">in-rbi-rep:ModeratelyLowMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:MaturityPeriodAxis">in-rbi-rep:OverOneYearAndUptoFiveYearMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>558</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>BA</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2019-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20190331_ModeratelyLowMember_OverFiveYearsMember_IN_558_BA">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RiskClassificationAxis">in-rbi-rep:ModeratelyLowMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:MaturityPeriodAxis">in-rbi-rep:OverFiveYearsMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>558</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>BA</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2019-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20190331_ModerateRiskMember_BetweenSixMonthMember_IN_558_AT">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RiskClassificationAxis">in-rbi-rep:ModerateRiskMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:MaturityPeriodAxis">in-rbi-rep:BetweenSixMonthMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>558</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>AT</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2019-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20190331_ModerateRiskMember_OverSixMonthsAndUptoOneYearMember_IN_558_AT">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RiskClassificationAxis">in-rbi-rep:ModerateRiskMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:MaturityPeriodAxis">in-rbi-rep:OverSixMonthsAndUptoOneYearMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>558</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>AT</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2019-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20190331_ModerateRiskMember_IN_558_AT">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RiskClassificationAxis">in-rbi-rep:ModerateRiskMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>558</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>AT</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2019-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20190331_ModerateRiskMember_OverOneYearAndUptoFiveYearMember_IN_558_AT">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RiskClassificationAxis">in-rbi-rep:ModerateRiskMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:MaturityPeriodAxis">in-rbi-rep:OverOneYearAndUptoFiveYearMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>558</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>AT</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2019-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20190331_ModerateRiskMember_OverFiveYearsMember_IN_558_AT">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RiskClassificationAxis">in-rbi-rep:ModerateRiskMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:MaturityPeriodAxis">in-rbi-rep:OverFiveYearsMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>558</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>AT</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2019-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20190331_VeryHighMember_BetweenSixMonthMember_IN_558_DZ">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RiskClassificationAxis">in-rbi-rep:VeryHighMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:MaturityPeriodAxis">in-rbi-rep:BetweenSixMonthMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>558</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>DZ</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2019-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20190331_VeryHighMember_OverSixMonthsAndUptoOneYearMember_IN_558_DZ">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RiskClassificationAxis">in-rbi-rep:VeryHighMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:MaturityPeriodAxis">in-rbi-rep:OverSixMonthsAndUptoOneYearMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>558</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>DZ</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2019-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20190331_VeryHighMember_IN_558_DZ">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RiskClassificationAxis">in-rbi-rep:VeryHighMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>558</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>DZ</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2019-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20190331_VeryHighMember_OverOneYearAndUptoFiveYearMember_IN_558_DZ">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RiskClassificationAxis">in-rbi-rep:VeryHighMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:MaturityPeriodAxis">in-rbi-rep:OverOneYearAndUptoFiveYearMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>558</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>DZ</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2019-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20190331_VeryHighMember_OverFiveYearsMember_IN_558_DZ">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RiskClassificationAxis">in-rbi-rep:VeryHighMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:MaturityPeriodAxis">in-rbi-rep:OverFiveYearsMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>558</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>DZ</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2019-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20190331_ModeratelyHighMember_BetweenSixMonthMember_AU_138_AL">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RiskClassificationAxis">in-rbi-rep:ModeratelyHighMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:MaturityPeriodAxis">in-rbi-rep:BetweenSixMonthMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>AU</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>138</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>AL</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2019-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20190331_ModeratelyHighMember_OverSixMonthsAndUptoOneYearMember_AU_138_AL">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RiskClassificationAxis">in-rbi-rep:ModeratelyHighMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:MaturityPeriodAxis">in-rbi-rep:OverSixMonthsAndUptoOneYearMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>AU</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>138</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>AL</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2019-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20190331_ModeratelyHighMember_AU_138_AL">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RiskClassificationAxis">in-rbi-rep:ModeratelyHighMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>AU</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>138</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>AL</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2019-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20190331_ModeratelyHighMember_OverOneYearAndUptoFiveYearMember_AU_138_AL">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RiskClassificationAxis">in-rbi-rep:ModeratelyHighMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:MaturityPeriodAxis">in-rbi-rep:OverOneYearAndUptoFiveYearMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>AU</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>138</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>AL</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+            </xbrli:segment>
+        </xbrli:entity>
+        <xbrli:period>
+            <xbrli:instant>2019-03-31</xbrli:instant>
+        </xbrli:period>
+    </xbrli:context>
+    <xbrli:context id="asof_20190331_ModeratelyHighMember_OverFiveYearsMember_AU_138_AL">
+        <xbrli:entity>
+            <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">010</xbrli:identifier>
+            <xbrli:segment>
+                <xbrldi:explicitMember dimension="in-rbi-rep:RiskClassificationAxis">in-rbi-rep:ModeratelyHighMember</xbrldi:explicitMember>
+                <xbrldi:explicitMember dimension="in-rbi-rep:MaturityPeriodAxis">in-rbi-rep:OverFiveYearsMember</xbrldi:explicitMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:CountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>AU</in-rbi-rep-par:CountryCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:BranchCodeAxis">
+                    <in-rbi-rep-par:BranchCodeDomain>138</in-rbi-rep-par:BranchCodeDomain>
+                </xbrldi:typedMember>
+                <xbrldi:typedMember dimension="in-rbi-rep:ExposureCountryCodeAxis">
+                    <in-rbi-rep-par:CountryCodeDomain>AL</in-rbi-rep-par:CountryCodeDomain>
                 </xbrldi:typedMember>
             </xbrli:segment>
         </xbrli:entity>
@@ -249,11 +665,31 @@
     <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_InsignificantMember_OverOneYearAndUptoFiveYearMember_IN_558_BF">4037670000</in-rbi-rep:AmountOfCountryExposure>
     <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_InsignificantMember_OverFiveYearsMember_IN_558_BF">4048670000</in-rbi-rep:AmountOfCountryExposure>
     <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_InsignificantMember_IN_558_BF">16127730000</in-rbi-rep:AmountOfCountryExposure>
-    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_LowRiskMember_BetweenSixMonthMember_IN_558_BF">4029440000</in-rbi-rep:AmountOfCountryExposure>
-    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_LowRiskMember_OverSixMonthsAndUptoOneYearMember_IN_558_BF">4041390000</in-rbi-rep:AmountOfCountryExposure>
-    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_LowRiskMember_OverOneYearAndUptoFiveYearMember_IN_558_BF">4052390000</in-rbi-rep:AmountOfCountryExposure>
-    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_LowRiskMember_OverFiveYearsMember_IN_558_BF">4063390000</in-rbi-rep:AmountOfCountryExposure>
-    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_LowRiskMember_IN_558_BF">16186610000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_LowRiskMember_BetweenSixMonthMember_IN_558_AF">4029440000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_LowRiskMember_OverSixMonthsAndUptoOneYearMember_IN_558_AF">4041390000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_LowRiskMember_OverOneYearAndUptoFiveYearMember_IN_558_AF">4052390000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_LowRiskMember_OverFiveYearsMember_IN_558_AF">4063390000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_LowRiskMember_IN_558_AF">16186610000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_ModeratelyLowMember_BetweenSixMonthMember_IN_558_BA">4044160000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_ModeratelyLowMember_OverSixMonthsAndUptoOneYearMember_IN_558_BA">4056110000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_ModeratelyLowMember_OverOneYearAndUptoFiveYearMember_IN_558_BA">4067110000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_ModeratelyLowMember_OverFiveYearsMember_IN_558_BA">4078110000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_ModeratelyLowMember_IN_558_BA">16245490000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_ModerateRiskMember_BetweenSixMonthMember_IN_558_AT">4058880000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_ModerateRiskMember_OverSixMonthsAndUptoOneYearMember_IN_558_AT">4070830000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_ModerateRiskMember_OverOneYearAndUptoFiveYearMember_IN_558_AT">4081830000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_ModerateRiskMember_OverFiveYearsMember_IN_558_AT">4092830000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_ModerateRiskMember_IN_558_AT">16304370000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-5" unitRef="USD" contextRef="asof_20190331_VeryHighMember_BetweenSixMonthMember_IN_558_DZ">4073600000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_VeryHighMember_OverSixMonthsAndUptoOneYearMember_IN_558_DZ">4085550000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_VeryHighMember_OverOneYearAndUptoFiveYearMember_IN_558_DZ">4096550000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_VeryHighMember_OverFiveYearsMember_IN_558_DZ">4107550000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_VeryHighMember_IN_558_DZ">16363250000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_ModeratelyHighMember_BetweenSixMonthMember_AU_138_AL">4162710000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_ModeratelyHighMember_OverSixMonthsAndUptoOneYearMember_AU_138_AL">4173710000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_ModeratelyHighMember_OverOneYearAndUptoFiveYearMember_AU_138_AL">4184710000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_ModeratelyHighMember_OverFiveYearsMember_AU_138_AL">4195710000</in-rbi-rep:AmountOfCountryExposure>
+    <in-rbi-rep:AmountOfCountryExposure decimals="-3" unitRef="USD" contextRef="asof_20190331_ModeratelyHighMember_AU_138_AL">16716840000</in-rbi-rep:AmountOfCountryExposure>
     <in-rbi-rep:NameOfSignatory contextRef="fromto_20190101_20190331">EWIEI</in-rbi-rep:NameOfSignatory>
     <in-rbi-rep:DesignationOfSignatory contextRef="fromto_20190101_20190331">JHDSOUDUSDUS</in-rbi-rep:DesignationOfSignatory>
     <in-rbi-rep:AuthorisedSignatoryMobileNumber decimals="INF" unitRef="PURE" contextRef="fromto_20190101_20190331">8538538535</in-rbi-rep:AuthorisedSignatoryMobileNumber>

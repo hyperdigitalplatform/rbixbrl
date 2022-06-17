@@ -65,10 +65,51 @@ public class ALOGeneralContext implements ContextInterface {
         contexts.put(ALOUtil.ASOFREPORTINGPERIOD , asofContextReporting);
 
         // create asof context Account with Other Members
-        Context asofContextAccountWithMember = ALOUtil.createAsOfContextForAccountWithMember(aloGeneralData.getBankCode(), aloGeneralData.getDateOfQuarterEnded(), aloItemData.getDetailsOfAccountsWithBranchesAxis(), aloItemData.getPeriodOfPendingReconcilliationAxis(), aloItemData.getCountryCodeAxis(), aloItemData.getBranchCodeAxis());
-        contexts.put(ALOUtil.ASOFACCOUNTWITHMEMBER, asofContextAccountWithMember);
+        Context asofContextAccountWithMemberOverThreeMonthsAndUptoSixMonthsMember = ALOUtil.createAsOfContextForAccountWithMember(aloGeneralData.getBankCode(), aloGeneralData.getDateOfQuarterEnded(), "AccountsWithOtherBranchesMember", "OverThreeMonthsAndUptoSixMonthsMember", aloItemData.getCountryCodeAxis(), aloItemData.getBranchCodeAxis());
+        contexts.put(ALOUtil.ASOFCONTEXTACCOUNTWITHMEMBEROVERTHREEMONTHSANDUPTOSIXMONTHSMEMBER , asofContextAccountWithMemberOverThreeMonthsAndUptoSixMonthsMember);
         
-
+        Context asofContextAccountWithMemberOverSixMonthsUptoTwelveMonthsMember = ALOUtil.createAsOfContextForAccountWithMember(aloGeneralData.getBankCode(), aloGeneralData.getDateOfQuarterEnded(), "AccountsWithOtherBranchesMember", "OverSixMonthsUptoTwelveMonthsMember", aloItemData.getCountryCodeAxis(), aloItemData.getBranchCodeAxis());
+        contexts.put(ALOUtil.ASOFCONTEXTACCOUNTWITHMEMBEROVERSIXMONTHSUPTOTWELVEMONTHSMEMBER , asofContextAccountWithMemberOverSixMonthsUptoTwelveMonthsMember);
+        
+        Context asofContextAccountWithMemberOverOneYearUptoAndTwoYearMember = ALOUtil.createAsOfContextForAccountWithMember(aloGeneralData.getBankCode(), aloGeneralData.getDateOfQuarterEnded(), "AccountsWithOtherBranchesMember", "OverOneYearUptoAndTwoYearMember", aloItemData.getCountryCodeAxis(), aloItemData.getBranchCodeAxis());
+        contexts.put(ALOUtil.ASOFCONTEXTACCOUNTWITHMEMBEROVERONEYEARUPTOANDTWOYEARMEMBER , asofContextAccountWithMemberOverOneYearUptoAndTwoYearMember);
+        
+        Context asofContextAccountWithMemberOverTwoYearMember = ALOUtil.createAsOfContextForAccountWithMember(aloGeneralData.getBankCode(), aloGeneralData.getDateOfQuarterEnded(), "AccountsWithOtherBranchesMember", "OverTwoYearMember", aloItemData.getCountryCodeAxis(), aloItemData.getBranchCodeAxis());
+        contexts.put(ALOUtil.ASOFCONTEXTACCOUNTWITHMEMBEROVERTWOYEARMEMBER , asofContextAccountWithMemberOverTwoYearMember);
+        
+        Context asofContextAccountWithMember = ALOUtil.createAsOfContextForAccountWithMember(aloGeneralData.getBankCode(), aloGeneralData.getDateOfQuarterEnded(), "AccountsWithOtherBranchesMember", null, aloItemData.getCountryCodeAxis(), aloItemData.getBranchCodeAxis());
+        contexts.put(ALOUtil.ASOFCONTEXTACCOUNTWITHMEMBER, asofContextAccountWithMember);
+        
+        Context asofContextAccountsWithOtherIndianOverThreeMonthsAndUptoSixMonthsMember = ALOUtil.createAsOfContextForAccountWithMember(aloGeneralData.getBankCode(), aloGeneralData.getDateOfQuarterEnded(), "AccountsWithOtherIndianBankBranchesInSameForeignCenterMember", "OverThreeMonthsAndUptoSixMonthsMember", aloItemData.getCountryCodeAxis(), aloItemData.getBranchCodeAxis());
+        contexts.put(ALOUtil.ASOFCONTEXTACCOUNTSWITHOTHERINDIANOVERTHREEMONTHSANDUPTOSIXMONTHSMEMBER , asofContextAccountsWithOtherIndianOverThreeMonthsAndUptoSixMonthsMember);
+        
+        Context asofContextAccountsWithOtherIndianOverSixMonthsUptoTwelveMonthsMember = ALOUtil.createAsOfContextForAccountWithMember(aloGeneralData.getBankCode(), aloGeneralData.getDateOfQuarterEnded(), "AccountsWithOtherIndianBankBranchesInSameForeignCenterMember", "OverSixMonthsUptoTwelveMonthsMember", aloItemData.getCountryCodeAxis(), aloItemData.getBranchCodeAxis());
+        contexts.put(ALOUtil.ASOFCONTEXTACCOUNTSWITHOTHERINDIANOVERSIXMONTHSUPTOTWELVEMONTHSMEMBER , asofContextAccountsWithOtherIndianOverSixMonthsUptoTwelveMonthsMember);
+         
+        Context asofContextAccountsWithOtherIndianOverOneYearUptoAndTwoYearMember = ALOUtil.createAsOfContextForAccountWithMember(aloGeneralData.getBankCode(), aloGeneralData.getDateOfQuarterEnded(), "AccountsWithOtherIndianBankBranchesInSameForeignCenterMember", "OverOneYearUptoAndTwoYearMember", aloItemData.getCountryCodeAxis(), aloItemData.getBranchCodeAxis());
+        contexts.put(ALOUtil.ASOFCONTEXTACCOUNTSWITHOTHERINDIANOVERONEYEARUPTOANDTWOYEARMEMBER , asofContextAccountsWithOtherIndianOverOneYearUptoAndTwoYearMember);
+         
+        Context asofContextAccountsWithOtherIndianOverTwoYearMember = ALOUtil.createAsOfContextForAccountWithMember(aloGeneralData.getBankCode(), aloGeneralData.getDateOfQuarterEnded(), "AccountsWithOtherIndianBankBranchesInSameForeignCenterMember", "OverTwoYearMember", aloItemData.getCountryCodeAxis(), aloItemData.getBranchCodeAxis());
+        contexts.put(ALOUtil.ASOFCONTEXTACCOUNTSWITHOTHERINDIANOVERTWOYEARMEMBER , asofContextAccountsWithOtherIndianOverTwoYearMember);
+        
+        Context asofContextAccountsWithOtherIndianMember = ALOUtil.createAsOfContextForAccountWithMember(aloGeneralData.getBankCode(), aloGeneralData.getDateOfQuarterEnded(), "AccountsWithOtherIndianBankBranchesInSameForeignCenterMember", null, aloItemData.getCountryCodeAxis(), aloItemData.getBranchCodeAxis());
+        contexts.put(ALOUtil.ASOFCONTEXTACCOUNTSWITHOTHERINDIANMEMBER , asofContextAccountsWithOtherIndianMember);
+        
+        Context asofContextAccountsWithOtherBanksOverThreeMonthsAndUptoSixMonthsMember = ALOUtil.createAsOfContextForAccountWithMember(aloGeneralData.getBankCode(), aloGeneralData.getDateOfQuarterEnded(), "AccountsWithOtherBanksMember", "OverThreeMonthsAndUptoSixMonthsMember", aloItemData.getCountryCodeAxis(), aloItemData.getBranchCodeAxis());
+        contexts.put(ALOUtil.ASOFCONTEXTACCOUNTSWITHOTHERBANKSOVERTHREEMONTHSANDUPTOSIXMONTHSMEMBER , asofContextAccountsWithOtherBanksOverThreeMonthsAndUptoSixMonthsMember);
+        
+        Context asofContextAccountsWithOtherBanksOverSixMonthsUptoTwelveMonthsMember = ALOUtil.createAsOfContextForAccountWithMember(aloGeneralData.getBankCode(), aloGeneralData.getDateOfQuarterEnded(), "AccountsWithOtherBanksMember", "OverSixMonthsUptoTwelveMonthsMember", aloItemData.getCountryCodeAxis(), aloItemData.getBranchCodeAxis());
+        contexts.put(ALOUtil.ASOFCONTEXTACCOUNTSWITHOTHERBANKSOVERSIXMONTHSUPTOTWELVEMONTHSMEMBER , asofContextAccountsWithOtherBanksOverSixMonthsUptoTwelveMonthsMember);
+         
+        Context asofContextAccountsWithOtherBanksOverOneYearUptoAndTwoYearMember = ALOUtil.createAsOfContextForAccountWithMember(aloGeneralData.getBankCode(), aloGeneralData.getDateOfQuarterEnded(), "AccountsWithOtherBanksMember", "OverOneYearUptoAndTwoYearMember", aloItemData.getCountryCodeAxis(), aloItemData.getBranchCodeAxis());
+        contexts.put(ALOUtil.ASOFCONTEXTACCOUNTSWITHOTHERBANKSOVERONEYEARUPTOANDTWOYEARMEMBER , asofContextAccountsWithOtherBanksOverOneYearUptoAndTwoYearMember);
+         
+        Context asofContextAccountsWithOtherBanksOverTwoYearMember = ALOUtil.createAsOfContextForAccountWithMember(aloGeneralData.getBankCode(), aloGeneralData.getDateOfQuarterEnded(), "AccountsWithOtherBanksMember", "OverTwoYearMember", aloItemData.getCountryCodeAxis(), aloItemData.getBranchCodeAxis());
+        contexts.put(ALOUtil.ASOFCONTEXTACCOUNTSWITHOTHERBANKSOVERTWOYEARMEMBER , asofContextAccountsWithOtherBanksOverTwoYearMember);
+         
+        Context asofContextAccountsWithOtherBanksMember = ALOUtil.createAsOfContextForAccountWithMember(aloGeneralData.getBankCode(), aloGeneralData.getDateOfQuarterEnded(), "AccountsWithOtherBanksMember", null, aloItemData.getCountryCodeAxis(), aloItemData.getBranchCodeAxis());
+        contexts.put(ALOUtil.ASOFCONTEXTACCOUNTSWITHOTHERBANKSMEMBER, asofContextAccountsWithOtherBanksMember);
+ 
         return contexts;
 
         }
