@@ -80,7 +80,7 @@ public class CEMXBRLApplication {
         
         ReportGenerationEngine engine = new XBRLReportGenerationEngine();
         StringWriter sw = engine.execute(ReportGenerationFactory.RBI_CEM_XBRL_REPORT, data);
-        FileWriter fw = new FileWriter("file.txt");
+        FileWriter fw = new FileWriter("reports/cem-instance.xml");
         fw.write(sw.toString());
         fw.close();
             

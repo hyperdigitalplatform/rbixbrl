@@ -71,7 +71,7 @@ public class RBICEMXBRLReportImpl implements XBRLReportIntf {
             org.xbrl._2003.xlink.ObjectFactory xlinkObjectFactory = new org.xbrl._2003.xlink.ObjectFactory();
             SimpleType simpleType = xlinkObjectFactory.createSimpleType();
             simpleType.setType("simple");
-            simpleType.setHref("in-rbi-cem.xsd");
+            simpleType.setHref("../schemas/cem/in-rbi-cem.xsd");
             xbrl.getSchemaRef().add(simpleType);
             xbrl.getOtherAttributes().put(new QName("xml:lang"), "en");
             

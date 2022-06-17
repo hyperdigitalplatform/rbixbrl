@@ -73,7 +73,7 @@ public class RBIALOXBRLReportImpl implements XBRLReportIntf {
             org.xbrl._2003.xlink.ObjectFactory xlinkObjectFactory = new org.xbrl._2003.xlink.ObjectFactory();
             SimpleType simpleType = xlinkObjectFactory.createSimpleType();
             simpleType.setType("simple");
-            simpleType.setHref("in-rbi-alo.xsd");
+            simpleType.setHref("../schemas/alo/in-rbi-alo.xsd");
             xbrl.getSchemaRef().add(simpleType);
             xbrl.getOtherAttributes().put(new QName("xml:lang"), "en");
            

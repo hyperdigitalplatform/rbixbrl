@@ -149,7 +149,7 @@ public static void main(String[] args) throws Exception {
      
         ReportGenerationEngine engine = new XBRLReportGenerationEngine();
         StringWriter sw = engine.execute(ReportGenerationFactory.RBI_ALO_XBRL_REPORT, data);
-        FileWriter fw = new FileWriter("file.txt");
+        FileWriter fw = new FileWriter("reports/alo-instance.xml");
         fw.write(sw.toString());
         fw.close();
         

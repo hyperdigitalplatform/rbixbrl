@@ -46,17 +46,17 @@
       </df:member>
     </df:explicitDimension>
 	
-	<!-- <variable:variableFilterArc xlink:type="arc" xlink:from="Var_3" xlink:to="Var_3_typedDimension_1" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" cover="true" complement="false" xlink:title="Var_3_Var_3_typedDimension_1" order="2" /> -->
-    <!-- <df:typedDimension xlink:type="resource" xlink:label="Var_3_typedDimension_1" xlink:title="Var_3_typedDimension_1" id="Var_3_typedDimension_1" test="xfi:fact-typed-dimension-value($V1,QName('http://www.rbi.org/in/xbrl/2012-04-25/rbi','UniqueTransactionCodeAxis'))"> -->
-      <!-- <df:dimension> -->
-        <!-- <df:qname>in-rbi-rep:UniqueTransactionCodeAxis</df:qname> -->
-      <!-- </df:dimension> -->
-    <!-- </df:typedDimension> -->
+	<variable:variableFilterArc xlink:type="arc" xlink:from="Var_3" xlink:to="Var_3_typedDimension_1" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" cover="true" complement="false" xlink:title="Var_3_Var_3_typedDimension_1" order="2" />
+    <df:typedDimension xlink:type="resource" xlink:label="Var_3_typedDimension_1" xlink:title="Var_3_typedDimension_1" id="Var_3_typedDimension_1" test="xfi:fact-typed-dimension-value($V1,QName('http://www.rbi.org/in/xbrl/2012-04-25/rbi','UniqueTransactionCodeAxis'))">
+      <df:dimension>
+        <df:qname>in-rbi-rep:UniqueTransactionCodeAxis</df:qname>
+      </df:dimension>
+    </df:typedDimension>
 	
-	<!--<mf:matchDimension xlink:type="resource" xlink:label="matchfilter2"
+	<mf:matchDimension xlink:type="resource" xlink:label="matchfilter2"
      variable="V1" dimension="in-rbi-rep:UniqueTransactionCodeAxis" />
 	<variable:variableFilterArc xlink:type="arc" xlink:to="matchfilter2" xlink:from="Var_3" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" order="1" complement="false" cover="false" />
-	-->
+	
 	
 	
     <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="SectionAandB-CrossValidation" xlink:to="Var_4" xlink:title="SectionAandB-CrossValidation_Var_4" order="4" name="V4" />
