@@ -66,7 +66,7 @@ public class CEMXBRLApplication {
         cemItemDataLowRiskMember.setRiskClassificationAxis("LowRiskMember");
         cemItemDataLowRiskMember.setCountryCodeAxis("IN");
         cemItemDataLowRiskMember.setBranchCodeAxis("558");
-        cemItemDataLowRiskMember.setExposureCountryCodeAxis("BF");
+        cemItemDataLowRiskMember.setExposureCountryCodeAxis("AF");
 
         //item data for body
         cemItemDataLowRiskMember.setAmountOfCountryExposureBetweenSixMonthMember("4029440000");
@@ -75,9 +75,88 @@ public class CEMXBRLApplication {
         cemItemDataLowRiskMember.setAmountOfCountryExposureOverFiveYearsMember("4063390000");
         cemItemDataLowRiskMember.setAmountOfCountryExposureRiskClassification("16186610000");
 
+        CEMItemData cemItemDataModeratelyLowMember= new CEMItemData();
+    
+        //Item Data for General Context
+        cemItemDataModeratelyLowMember.setRiskClassificationAxis("ModeratelyLowMember");
+        cemItemDataModeratelyLowMember.setCountryCodeAxis("IN");
+        cemItemDataModeratelyLowMember.setBranchCodeAxis("558");
+        cemItemDataModeratelyLowMember.setExposureCountryCodeAxis("BA");
+
+        //item data for body
+        cemItemDataModeratelyLowMember.setAmountOfCountryExposureBetweenSixMonthMember("4044160000");
+        cemItemDataModeratelyLowMember.setAmountOfCountryExposureOverSixMonthsAndUptoOneYearMember("4056110000");
+        cemItemDataModeratelyLowMember.setAmountOfCountryExposureOverOneYearAndUptoFiveYearMember("4067110000");
+        cemItemDataModeratelyLowMember.setAmountOfCountryExposureOverFiveYearsMember("4078110000");
+        cemItemDataModeratelyLowMember.setAmountOfCountryExposureRiskClassification("16245490000");
+
+        CEMItemData cemItemDataModerateRiskMember= new CEMItemData();
+    
+        //Item Data for General Context
+        cemItemDataModerateRiskMember.setRiskClassificationAxis("ModerateRiskMember");
+        cemItemDataModerateRiskMember.setCountryCodeAxis("IN");
+        cemItemDataModerateRiskMember.setBranchCodeAxis("558");
+        cemItemDataModerateRiskMember.setExposureCountryCodeAxis("AT");
+
+        //item data for body
+        cemItemDataModerateRiskMember.setAmountOfCountryExposureBetweenSixMonthMember("4058880000");
+        cemItemDataModerateRiskMember.setAmountOfCountryExposureOverSixMonthsAndUptoOneYearMember("4070830000");
+        cemItemDataModerateRiskMember.setAmountOfCountryExposureOverOneYearAndUptoFiveYearMember("4081830000");
+        cemItemDataModerateRiskMember.setAmountOfCountryExposureOverFiveYearsMember("4092830000");
+        cemItemDataModerateRiskMember.setAmountOfCountryExposureRiskClassification("16304370000");
+
+        CEMItemData cemItemDataVeryHighMember= new CEMItemData();
+    
+        //Item Data for General Context
+        cemItemDataVeryHighMember.setRiskClassificationAxis("VeryHighMember");
+        cemItemDataVeryHighMember.setCountryCodeAxis("IN");
+        cemItemDataVeryHighMember.setBranchCodeAxis("558");
+        cemItemDataVeryHighMember.setExposureCountryCodeAxis("DZ");
+
+        //item data for body
+        cemItemDataVeryHighMember.setAmountOfCountryExposureBetweenSixMonthMember("4073600000");
+        cemItemDataVeryHighMember.setAmountOfCountryExposureOverSixMonthsAndUptoOneYearMember("4085550000");
+        cemItemDataVeryHighMember.setAmountOfCountryExposureOverOneYearAndUptoFiveYearMember("4096550000");
+        cemItemDataVeryHighMember.setAmountOfCountryExposureOverFiveYearsMember("4107550000");
+        cemItemDataVeryHighMember.setAmountOfCountryExposureRiskClassification("16363250000");
+
+        CEMItemData cemItemDataHighRiskMember= new CEMItemData();
+    
+        //Item Data for General Context
+        cemItemDataHighRiskMember.setRiskClassificationAxis("HighRiskMember");
+        cemItemDataHighRiskMember.setCountryCodeAxis("AU");
+        cemItemDataHighRiskMember.setBranchCodeAxis("138");
+        cemItemDataHighRiskMember.setExposureCountryCodeAxis("AF");
+
+        //item data for body
+        cemItemDataHighRiskMember.setAmountOfCountryExposureBetweenSixMonthMember("4147990000");
+        cemItemDataHighRiskMember.setAmountOfCountryExposureOverSixMonthsAndUptoOneYearMember("4158990000");
+        cemItemDataHighRiskMember.setAmountOfCountryExposureOverOneYearAndUptoFiveYearMember("4169990000");
+        cemItemDataHighRiskMember.setAmountOfCountryExposureOverFiveYearsMember("4180990000");
+        cemItemDataHighRiskMember.setAmountOfCountryExposureRiskClassification("16657960000");
+
+        CEMItemData cemItemDataModeratelyHighMember= new CEMItemData();
+    
+        //Item Data for General Context
+        cemItemDataModeratelyHighMember.setRiskClassificationAxis("ModeratelyHighMember");
+        cemItemDataModeratelyHighMember.setCountryCodeAxis("AU");
+        cemItemDataModeratelyHighMember.setBranchCodeAxis("138");
+        cemItemDataModeratelyHighMember.setExposureCountryCodeAxis("AL");
+
+        //item data for body
+        cemItemDataModeratelyHighMember.setAmountOfCountryExposureBetweenSixMonthMember("4162710000");
+        cemItemDataModeratelyHighMember.setAmountOfCountryExposureOverSixMonthsAndUptoOneYearMember("4173710000");
+        cemItemDataModeratelyHighMember.setAmountOfCountryExposureOverOneYearAndUptoFiveYearMember("4184710000");
+        cemItemDataModeratelyHighMember.setAmountOfCountryExposureOverFiveYearsMember("4195710000");
+        cemItemDataModeratelyHighMember.setAmountOfCountryExposureRiskClassification("16716840000");
+
         data.getItemDatas().add(cemItemDataInsignificantMember);
         data.getItemDatas().add(cemItemDataLowRiskMember);
-        
+        data.getItemDatas().add(cemItemDataModeratelyLowMember);
+        data.getItemDatas().add(cemItemDataModerateRiskMember);
+        data.getItemDatas().add(cemItemDataVeryHighMember);
+        data.getItemDatas().add(cemItemDataModeratelyHighMember);
+                
         ReportGenerationEngine engine = new XBRLReportGenerationEngine();
         StringWriter sw = engine.execute(ReportGenerationFactory.RBI_CEM_XBRL_REPORT, data);
         FileWriter fw = new FileWriter("reports/cem-instance.xml");

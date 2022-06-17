@@ -14,8 +14,8 @@ import lombok.Setter;
 public class ALOItemData extends ItemData{
     
 
-    private String detailsOfAccountsWithBranchesAxis;
-    private String periodOfPendingReconcilliationAxis;
+    // private String detailsOfAccountsWithBranchesAxis;
+    // private String periodOfPendingReconcilliationAxis;
     private String countryCodeAxis;
     private String branchCodeAxis;
 

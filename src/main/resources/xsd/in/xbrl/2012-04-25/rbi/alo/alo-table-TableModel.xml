@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<tableModel xmlns="http://xbrl.org/PWD/2013-05-17/table/model">
+<tableSet label="GeneralInformation">
+<table label="GeneralInformation_Lyt_Page1" header=""/>
+</tableSet>
+<tableSet label="Assets">
+<table label="Assets_lyt_1_Assets" header=""/>
+</tableSet>
+<tableSet label="Liabilities">
+<table label="Liabilities_lyt_1_Liabilities" header=""/>
+</tableSet>
+<tableSet label="OtherProducts">
+<table label="OtherProducts_lyt_1_OtherProducts" header=""/>
+</tableSet>
+<tableSet label="AnnexureI ">
+<table label="AnnexureI_lyt_1_Annexure1" header="Annexure I:- Details of Off-Balance Sheet Exposures"/>
+</tableSet>
+<tableSet label="AnnexureII">
+<table label="AnnexureII_lyt_1_Annexure2" header=""/>
+</tableSet>
+<tableSet label="AuthorisedSignatory">
+<table label="AuthorisedSignatory_Signatory" header=""/>
+</tableSet>
+</tableModel>

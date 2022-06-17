@@ -46,13 +46,13 @@ public class ALOBodyExtra  implements BodyInterface {
         Context asOfContext = contexts.get(ALOUtil.ASOF);
         Unit currency = units.get(ALOUtil.CURRENCY);
         Unit percentage = units.get(ALOUtil.PERCENTAGE);
-        Context asofaccountwithmember = contexts.get(ALOUtil.ASOFACCOUNTWITHMEMBER);
+        Context asofcontextaccountwithmember = contexts.get(ALOUtil.ASOFCONTEXTACCOUNTWITHMEMBER);
 
 
 ///     For Account with members
         // create DebitNumberOfEntriesInAccount
         IntegerItemType debitNumberOfEntriesInAccountValue = new IntegerItemType();
-        debitNumberOfEntriesInAccountValue.setContextRef(asofaccountwithmember); 
+        debitNumberOfEntriesInAccountValue.setContextRef(asofcontextaccountwithmember); 
         debitNumberOfEntriesInAccountValue.setDecimals("INF");
         debitNumberOfEntriesInAccountValue.setUnitRef(percentage);
         debitNumberOfEntriesInAccountValue.setValue(new BigInteger(aloItem.getDebitNumberOfEntriesInAccount()));
@@ -61,7 +61,7 @@ public class ALOBodyExtra  implements BodyInterface {
 
         // create DebitAmountOfEntriesInAccount
         MonetaryItemType debitAmountOfEntriesInAccountValue = new MonetaryItemType();
-        debitAmountOfEntriesInAccountValue.setContextRef(asofaccountwithmember);  
+        debitAmountOfEntriesInAccountValue.setContextRef(asofcontextaccountwithmember);  
         debitAmountOfEntriesInAccountValue.setUnitRef(currency);
         debitAmountOfEntriesInAccountValue.setDecimals(String.format("%s", CommonFns.getDecimals(aloItem.getDebitAmountOfEntriesInAccount())));
         debitAmountOfEntriesInAccountValue.setValue(new BigDecimal(aloItem.getDebitAmountOfEntriesInAccount()));
@@ -70,7 +70,7 @@ public class ALOBodyExtra  implements BodyInterface {
 
         // create CreditNumberOfEntriesInAccount
         IntegerItemType creditNumberOfEntriesInAccountValue = new IntegerItemType();
-        creditNumberOfEntriesInAccountValue.setContextRef(asofaccountwithmember); 
+        creditNumberOfEntriesInAccountValue.setContextRef(asofcontextaccountwithmember); 
         creditNumberOfEntriesInAccountValue.setDecimals("INF");
         creditNumberOfEntriesInAccountValue.setUnitRef(percentage);
         creditNumberOfEntriesInAccountValue.setValue(new BigInteger(aloItem.getCreditNumberOfEntriesInAccount()));
@@ -79,7 +79,7 @@ public class ALOBodyExtra  implements BodyInterface {
 
         // create CreditAmountOfEntriesInAccount
         MonetaryItemType creditAmountOfEntriesInAccountValue = new MonetaryItemType();
-        creditAmountOfEntriesInAccountValue.setContextRef(asofaccountwithmember); 
+        creditAmountOfEntriesInAccountValue.setContextRef(asofcontextaccountwithmember); 
         creditAmountOfEntriesInAccountValue.setUnitRef(currency);
         creditAmountOfEntriesInAccountValue.setDecimals(String.format("%s", CommonFns.getDecimals(aloItem.getCreditAmountOfEntriesInAccount())));
         creditAmountOfEntriesInAccountValue.setValue(new BigDecimal(aloItem.getCreditAmountOfEntriesInAccount()));

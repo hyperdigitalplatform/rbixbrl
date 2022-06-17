@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Count:227-->
+<xbrli:xbrl xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref="http://www.xbrl.org/2004/ref" 
+xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi"
+xmlns:in-rbi-rep-par="http://www.rbi.org/in-rbi-rep-par"
+>
+<link:schemaRef xlink:type="simple" xlink:href="in-rbi-pci.xsd" />
+<xbrli:context id="fromto_20190401_20190630">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD2MillionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemCreditMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Borrower 1</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BorrowerGroupNameAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Borrower Group 1</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>Service</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD2MillionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemCreditMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Borrower 1</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BorrowerGroupNameAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Borrower Group 1</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>Service</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower2_BorrowerGroup2_Financial">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD2MillionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemCreditMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Borrower 2</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BorrowerGroupNameAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Borrower Group 2</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>Financial</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower2_BorrowerGroup2_Financial">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD2MillionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemCreditMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Borrower 2</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BorrowerGroupNameAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Borrower Group 2</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>Financial</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower3_BorrowerGroup3_Insurance">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD2MillionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemCreditMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Borrower 3</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BorrowerGroupNameAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Borrower Group 3</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>Insurance</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower3_BorrowerGroup3_Insurance">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD2MillionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemCreditMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Borrower 3</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BorrowerGroupNameAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Borrower Group 3</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>Insurance</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower4_BorrowerGroup4_StockBroking">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD2MillionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemCreditMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Borrower 4</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BorrowerGroupNameAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Borrower Group 4</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>Stock Broking</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower4_BorrowerGroup4_StockBroking">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD2MillionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemCreditMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Borrower 4</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BorrowerGroupNameAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Borrower Group 4</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>Stock Broking</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower5_BorrowerGroup5_FilmandTourism">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD2MillionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemCreditMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Borrower 5</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BorrowerGroupNameAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Borrower Group 5</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>Film and Tourism</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower5_BorrowerGroup5_FilmandTourism">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD2MillionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemCreditMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Borrower 5</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BorrowerGroupNameAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Borrower Group 5</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IndustryCodeAxis'><in-rbi-rep-par:IndustryCodeDomain>Film and Tourism</in-rbi-rep-par:IndustryCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD2MillionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemCreditMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_LessThanUSD2MillionMember_ProblemCreditMember_IN_592">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:LessThanUSD2MillionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemCreditMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20190401_20190630_LessThanUSD2MillionMember_ProblemCreditMember_IN_592">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:LessThanUSD2MillionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemCreditMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_ProblemCreditMember_IN_592">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemCreditMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20190401_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower3_BorrowerGroup3">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD1MiliionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemInvestmentMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfIssuerAxis'><in-rbi-rep-par:NameOfIssuerDomain>Borrower  3</in-rbi-rep-par:NameOfIssuerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IssuerGroupNameAxis'><in-rbi-rep-par:IssuerGroupNameDomain>Borrower Group 3</in-rbi-rep-par:IssuerGroupNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower3_BorrowerGroup3">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD1MiliionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemInvestmentMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfIssuerAxis'><in-rbi-rep-par:NameOfIssuerDomain>Borrower  3</in-rbi-rep-par:NameOfIssuerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IssuerGroupNameAxis'><in-rbi-rep-par:IssuerGroupNameDomain>Borrower Group 3</in-rbi-rep-par:IssuerGroupNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20190401_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower4_BorrowerGroup4">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD1MiliionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemInvestmentMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfIssuerAxis'><in-rbi-rep-par:NameOfIssuerDomain>Borrower 4</in-rbi-rep-par:NameOfIssuerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IssuerGroupNameAxis'><in-rbi-rep-par:IssuerGroupNameDomain>Borrower Group 4</in-rbi-rep-par:IssuerGroupNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower4_BorrowerGroup4">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD1MiliionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemInvestmentMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfIssuerAxis'><in-rbi-rep-par:NameOfIssuerDomain>Borrower 4</in-rbi-rep-par:NameOfIssuerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IssuerGroupNameAxis'><in-rbi-rep-par:IssuerGroupNameDomain>Borrower Group 4</in-rbi-rep-par:IssuerGroupNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20190401_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower6_BorrowerGroup6">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD1MiliionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemInvestmentMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfIssuerAxis'><in-rbi-rep-par:NameOfIssuerDomain>Borrower 6</in-rbi-rep-par:NameOfIssuerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IssuerGroupNameAxis'><in-rbi-rep-par:IssuerGroupNameDomain>Borrower Group 6</in-rbi-rep-par:IssuerGroupNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower6_BorrowerGroup6">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD1MiliionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemInvestmentMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfIssuerAxis'><in-rbi-rep-par:NameOfIssuerDomain>Borrower 6</in-rbi-rep-par:NameOfIssuerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IssuerGroupNameAxis'><in-rbi-rep-par:IssuerGroupNameDomain>Borrower Group 6</in-rbi-rep-par:IssuerGroupNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20190401_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower7_BorrowerGroup7">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD1MiliionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemInvestmentMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfIssuerAxis'><in-rbi-rep-par:NameOfIssuerDomain>Borrower 7</in-rbi-rep-par:NameOfIssuerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IssuerGroupNameAxis'><in-rbi-rep-par:IssuerGroupNameDomain>Borrower Group 7</in-rbi-rep-par:IssuerGroupNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower7_BorrowerGroup7">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD1MiliionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemInvestmentMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfIssuerAxis'><in-rbi-rep-par:NameOfIssuerDomain>Borrower 7</in-rbi-rep-par:NameOfIssuerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IssuerGroupNameAxis'><in-rbi-rep-par:IssuerGroupNameDomain>Borrower Group 7</in-rbi-rep-par:IssuerGroupNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20190401_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower8_BorrowerGroup8">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD1MiliionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemInvestmentMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfIssuerAxis'><in-rbi-rep-par:NameOfIssuerDomain>Borrower 8</in-rbi-rep-par:NameOfIssuerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IssuerGroupNameAxis'><in-rbi-rep-par:IssuerGroupNameDomain>Borrower Group 8</in-rbi-rep-par:IssuerGroupNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower8_BorrowerGroup8">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD1MiliionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemInvestmentMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfIssuerAxis'><in-rbi-rep-par:NameOfIssuerDomain>Borrower 8</in-rbi-rep-par:NameOfIssuerDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:IssuerGroupNameAxis'><in-rbi-rep-par:IssuerGroupNameDomain>Borrower Group 8</in-rbi-rep-par:IssuerGroupNameDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:MoreThanUSD1MiliionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemInvestmentMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_LessThanUSD1MiliionMember_ProblemInvestmentMember_IN_592">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:LessThanUSD1MiliionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemInvestmentMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20190401_20190630_LessThanUSD1MiliionMember_ProblemInvestmentMember_IN_592">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:CustomerCreditLimitAxis'>in-rbi-rep:LessThanUSD1MiliionMember</xbrldi:explicitMember>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemInvestmentMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_ProblemInvestmentMember_IN_592">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfProblemCreditAndInvestmentCustomerAxis'>in-rbi-rep:ProblemInvestmentMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+
+<xbrli:unit id="USD">
+<xbrli:measure>iso4217:USD</xbrli:measure>
+</xbrli:unit>
+<xbrli:unit id="PURE">
+<xbrli:measure>xbrli:pure</xbrli:measure>
+</xbrli:unit>
+
+<in-rbi-rep:ReturnName contextRef="fromto_20190401_20190630" >Problem Credit and Investments</in-rbi-rep:ReturnName>
+<in-rbi-rep:ReturnCode contextRef="fromto_20190401_20190630" >PCI</in-rbi-rep:ReturnCode>
+<in-rbi-rep:NameOfReportingInstitution contextRef="fromto_20190401_20190630" >Kookmin Bank</in-rbi-rep:NameOfReportingInstitution>
+<in-rbi-rep:BankCode contextRef="asof_20190630" >00A</in-rbi-rep:BankCode>
+<in-rbi-rep:ReportForTheYearEnded contextRef="fromto_20190401_20190630" >2019-06-30</in-rbi-rep:ReportForTheYearEnded>
+<in-rbi-rep:ReportingFrequency contextRef="fromto_20190401_20190630" >Quarterly</in-rbi-rep:ReportingFrequency>
+<in-rbi-rep:DateOfReport contextRef="asof_20190630" >2019-08-01</in-rbi-rep:DateOfReport>
+<in-rbi-rep:ReportStatus contextRef="fromto_20190401_20190630" >Audited</in-rbi-rep:ReportStatus>
+<in-rbi-rep:DateOfAudit contextRef="asof_20190630" >2019-08-02</in-rbi-rep:DateOfAudit>
+<in-rbi-rep:ValidationStatus contextRef="fromto_20190401_20190630" >Validated</in-rbi-rep:ValidationStatus>
+<in-rbi-rep:ToolName contextRef="fromto_20190401_20190630" >iFile</in-rbi-rep:ToolName>
+<in-rbi-rep:ReturnVersion contextRef="fromto_20190401_20190630" >V2.1</in-rbi-rep:ReturnVersion>
+<in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20190630" >2019-04-01</in-rbi-rep:ReportingPeriodStartDate>
+<in-rbi-rep:SoverignCharacter contextRef="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service" >WDRWLYPQAE</in-rbi-rep:SoverignCharacter>
+<in-rbi-rep:CategoryOfBorrower contextRef="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service" >Existing</in-rbi-rep:CategoryOfBorrower>
+<in-rbi-rep:AggregateAmountOfLimitsSanctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service" unitRef="USD" decimals="-4" >16950000</in-rbi-rep:AggregateAmountOfLimitsSanctioned>
+<in-rbi-rep:AmountOfFundedLimitsSanctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service" unitRef="USD" decimals="-4" >8350000</in-rbi-rep:AmountOfFundedLimitsSanctioned>
+<in-rbi-rep:AmountOfNonFundedLimitsSanctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service" unitRef="USD" decimals="-5" >8600000</in-rbi-rep:AmountOfNonFundedLimitsSanctioned>
+<in-rbi-rep:AmountOutstandingOfCustomerCreditLimitSenctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service" unitRef="USD" decimals="-4" >8850000</in-rbi-rep:AmountOutstandingOfCustomerCreditLimitSenctioned>
+<in-rbi-rep:SecurityValue contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service" unitRef="USD" decimals="-5" >9100000</in-rbi-rep:SecurityValue>
+<in-rbi-rep:AssetsClassification contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service" >Sub-standard</in-rbi-rep:AssetsClassification>
+<in-rbi-rep:AssetsClassificationHostCountry contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service" >Performing Asset</in-rbi-rep:AssetsClassificationHostCountry>
+<in-rbi-rep:AmountOfProvisionsHeldAtBranch contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service" unitRef="USD" decimals="-4" >29350000</in-rbi-rep:AmountOfProvisionsHeldAtBranch>
+<in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service" unitRef="USD" decimals="-5" >9600000</in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice>
+<in-rbi-rep:AmountOfInterestSuspense contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service" unitRef="USD" decimals="-4" >9850000</in-rbi-rep:AmountOfInterestSuspense>
+<in-rbi-rep:AggregateAmountOfProvisionAndInterestSuspense contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service" unitRef="USD" decimals="-5" >48800000</in-rbi-rep:AggregateAmountOfProvisionAndInterestSuspense>
+<in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service" unitRef="USD" decimals="-6" >64000000</in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities>
+<in-rbi-rep:AmountOfShortFall contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service" unitRef="USD" decimals="-5" >15200000</in-rbi-rep:AmountOfShortFall>
+<in-rbi-rep:AmountOfHeadOfficeSupportFund contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service" unitRef="USD" decimals="-5" >13600000</in-rbi-rep:AmountOfHeadOfficeSupportFund>
+<in-rbi-rep:DevelopmentsDuringQuarter contextRef="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service" >CXTZKHAPVK</in-rbi-rep:DevelopmentsDuringQuarter>
+<in-rbi-rep:SoverignCharacter contextRef="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower2_BorrowerGroup2_Financial" >IEMPPDPDPU</in-rbi-rep:SoverignCharacter>
+<in-rbi-rep:CategoryOfBorrower contextRef="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower2_BorrowerGroup2_Financial" >New</in-rbi-rep:CategoryOfBorrower>
+<in-rbi-rep:AggregateAmountOfLimitsSanctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower2_BorrowerGroup2_Financial" unitRef="USD" decimals="-4" >19050000</in-rbi-rep:AggregateAmountOfLimitsSanctioned>
+<in-rbi-rep:AmountOfFundedLimitsSanctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower2_BorrowerGroup2_Financial" unitRef="USD" decimals="-5" >9400000</in-rbi-rep:AmountOfFundedLimitsSanctioned>
+<in-rbi-rep:AmountOfNonFundedLimitsSanctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower2_BorrowerGroup2_Financial" unitRef="USD" decimals="-4" >9650000</in-rbi-rep:AmountOfNonFundedLimitsSanctioned>
+<in-rbi-rep:AmountOutstandingOfCustomerCreditLimitSenctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower2_BorrowerGroup2_Financial" unitRef="USD" decimals="-5" >9900000</in-rbi-rep:AmountOutstandingOfCustomerCreditLimitSenctioned>
+<in-rbi-rep:SecurityValue contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower2_BorrowerGroup2_Financial" unitRef="USD" decimals="-4" >10150000</in-rbi-rep:SecurityValue>
+<in-rbi-rep:AssetsClassification contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower2_BorrowerGroup2_Financial" >Doubtful</in-rbi-rep:AssetsClassification>
+<in-rbi-rep:AssetsClassificationHostCountry contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower2_BorrowerGroup2_Financial" >Performing Asset</in-rbi-rep:AssetsClassificationHostCountry>
+<in-rbi-rep:AmountOfProvisionsHeldAtBranch contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower2_BorrowerGroup2_Financial" unitRef="USD" decimals="-5" >10400000</in-rbi-rep:AmountOfProvisionsHeldAtBranch>
+<in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower2_BorrowerGroup2_Financial" unitRef="USD" decimals="-4" >10650000</in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice>
+<in-rbi-rep:AmountOfInterestSuspense contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower2_BorrowerGroup2_Financial" unitRef="USD" decimals="-5" >10900000</in-rbi-rep:AmountOfInterestSuspense>
+<in-rbi-rep:AggregateAmountOfProvisionAndInterestSuspense contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower2_BorrowerGroup2_Financial" unitRef="USD" decimals="-4" >31950000</in-rbi-rep:AggregateAmountOfProvisionAndInterestSuspense>
+<in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower2_BorrowerGroup2_Financial" unitRef="USD" decimals="-4" >65050000</in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities>
+<in-rbi-rep:AmountOfShortFall contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower2_BorrowerGroup2_Financial" unitRef="USD" decimals="-5" >33100000</in-rbi-rep:AmountOfShortFall>
+<in-rbi-rep:AmountOfHeadOfficeSupportFund contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower2_BorrowerGroup2_Financial" unitRef="USD" decimals="-4" >14650000</in-rbi-rep:AmountOfHeadOfficeSupportFund>
+<in-rbi-rep:DevelopmentsDuringQuarter contextRef="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower2_BorrowerGroup2_Financial" >JLSHHCYDVG</in-rbi-rep:DevelopmentsDuringQuarter>
+<in-rbi-rep:SoverignCharacter contextRef="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower3_BorrowerGroup3_Insurance" >UBIGNNHWRN</in-rbi-rep:SoverignCharacter>
+<in-rbi-rep:CategoryOfBorrower contextRef="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower3_BorrowerGroup3_Insurance" >Existing</in-rbi-rep:CategoryOfBorrower>
+<in-rbi-rep:AggregateAmountOfLimitsSanctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower3_BorrowerGroup3_Insurance" unitRef="USD" decimals="-4" >21150000</in-rbi-rep:AggregateAmountOfLimitsSanctioned>
+<in-rbi-rep:AmountOfFundedLimitsSanctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower3_BorrowerGroup3_Insurance" unitRef="USD" decimals="-4" >10450000</in-rbi-rep:AmountOfFundedLimitsSanctioned>
+<in-rbi-rep:AmountOfNonFundedLimitsSanctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower3_BorrowerGroup3_Insurance" unitRef="USD" decimals="-5" >10700000</in-rbi-rep:AmountOfNonFundedLimitsSanctioned>
+<in-rbi-rep:AmountOutstandingOfCustomerCreditLimitSenctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower3_BorrowerGroup3_Insurance" unitRef="USD" decimals="-4" >10950000</in-rbi-rep:AmountOutstandingOfCustomerCreditLimitSenctioned>
+<in-rbi-rep:SecurityValue contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower3_BorrowerGroup3_Insurance" unitRef="USD" decimals="-5" >11200000</in-rbi-rep:SecurityValue>
+<in-rbi-rep:AssetsClassification contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower3_BorrowerGroup3_Insurance" >Loss</in-rbi-rep:AssetsClassification>
+<in-rbi-rep:AssetsClassificationHostCountry contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower3_BorrowerGroup3_Insurance" >Non-Performing Asset</in-rbi-rep:AssetsClassificationHostCountry>
+<in-rbi-rep:AmountOfProvisionsHeldAtBranch contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower3_BorrowerGroup3_Insurance" unitRef="USD" decimals="-4" >11450000</in-rbi-rep:AmountOfProvisionsHeldAtBranch>
+<in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower3_BorrowerGroup3_Insurance" unitRef="USD" decimals="-5" >11700000</in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice>
+<in-rbi-rep:AmountOfInterestSuspense contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower3_BorrowerGroup3_Insurance" unitRef="USD" decimals="-4" >11950000</in-rbi-rep:AmountOfInterestSuspense>
+<in-rbi-rep:AggregateAmountOfProvisionAndInterestSuspense contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower3_BorrowerGroup3_Insurance" unitRef="USD" decimals="-5" >35100000</in-rbi-rep:AggregateAmountOfProvisionAndInterestSuspense>
+<in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower3_BorrowerGroup3_Insurance" unitRef="USD" decimals="-5" >26100000</in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities>
+<in-rbi-rep:AmountOfShortFall contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower3_BorrowerGroup3_Insurance" unitRef="USD" decimals="-6" >-9000000</in-rbi-rep:AmountOfShortFall>
+<in-rbi-rep:AmountOfHeadOfficeSupportFund contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower3_BorrowerGroup3_Insurance" unitRef="USD" decimals="-5" >15700000</in-rbi-rep:AmountOfHeadOfficeSupportFund>
+<in-rbi-rep:DevelopmentsDuringQuarter contextRef="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower3_BorrowerGroup3_Insurance" >HPKPIRFJRB</in-rbi-rep:DevelopmentsDuringQuarter>
+<in-rbi-rep:SoverignCharacter contextRef="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower4_BorrowerGroup4_StockBroking" >CWFEQDJNMS</in-rbi-rep:SoverignCharacter>
+<in-rbi-rep:CategoryOfBorrower contextRef="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower4_BorrowerGroup4_StockBroking" >New</in-rbi-rep:CategoryOfBorrower>
+<in-rbi-rep:AggregateAmountOfLimitsSanctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower4_BorrowerGroup4_StockBroking" unitRef="USD" decimals="-4" >23250000</in-rbi-rep:AggregateAmountOfLimitsSanctioned>
+<in-rbi-rep:AmountOfFundedLimitsSanctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower4_BorrowerGroup4_StockBroking" unitRef="USD" decimals="-5" >11500000</in-rbi-rep:AmountOfFundedLimitsSanctioned>
+<in-rbi-rep:AmountOfNonFundedLimitsSanctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower4_BorrowerGroup4_StockBroking" unitRef="USD" decimals="-4" >11750000</in-rbi-rep:AmountOfNonFundedLimitsSanctioned>
+<in-rbi-rep:AmountOutstandingOfCustomerCreditLimitSenctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower4_BorrowerGroup4_StockBroking" unitRef="USD" decimals="-6" >12000000</in-rbi-rep:AmountOutstandingOfCustomerCreditLimitSenctioned>
+<in-rbi-rep:SecurityValue contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower4_BorrowerGroup4_StockBroking" unitRef="USD" decimals="-4" >12250000</in-rbi-rep:SecurityValue>
+<in-rbi-rep:AssetsClassification contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower4_BorrowerGroup4_StockBroking" >Sub-standard</in-rbi-rep:AssetsClassification>
+<in-rbi-rep:AssetsClassificationHostCountry contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower4_BorrowerGroup4_StockBroking" >Performing Asset</in-rbi-rep:AssetsClassificationHostCountry>
+<in-rbi-rep:AmountOfProvisionsHeldAtBranch contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower4_BorrowerGroup4_StockBroking" unitRef="USD" decimals="-5" >12500000</in-rbi-rep:AmountOfProvisionsHeldAtBranch>
+<in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower4_BorrowerGroup4_StockBroking" unitRef="USD" decimals="-4" >12750000</in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice>
+<in-rbi-rep:AmountOfInterestSuspense contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower4_BorrowerGroup4_StockBroking" unitRef="USD" decimals="-6" >13000000</in-rbi-rep:AmountOfInterestSuspense>
+<in-rbi-rep:AggregateAmountOfProvisionAndInterestSuspense contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower4_BorrowerGroup4_StockBroking" unitRef="USD" decimals="-4" >38250000</in-rbi-rep:AggregateAmountOfProvisionAndInterestSuspense>
+<in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower4_BorrowerGroup4_StockBroking" unitRef="USD" decimals="-4" >67150000</in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities>
+<in-rbi-rep:AmountOfShortFall contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower4_BorrowerGroup4_StockBroking" unitRef="USD" decimals="-5" >28900000</in-rbi-rep:AmountOfShortFall>
+<in-rbi-rep:AmountOfHeadOfficeSupportFund contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower4_BorrowerGroup4_StockBroking" unitRef="USD" decimals="-4" >16750000</in-rbi-rep:AmountOfHeadOfficeSupportFund>
+<in-rbi-rep:DevelopmentsDuringQuarter contextRef="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower4_BorrowerGroup4_StockBroking" >BVNJRQBYKS</in-rbi-rep:DevelopmentsDuringQuarter>
+<in-rbi-rep:SoverignCharacter contextRef="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower5_BorrowerGroup5_FilmandTourism" >UWAFHFUVHH</in-rbi-rep:SoverignCharacter>
+<in-rbi-rep:CategoryOfBorrower contextRef="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower5_BorrowerGroup5_FilmandTourism" >Existing</in-rbi-rep:CategoryOfBorrower>
+<in-rbi-rep:AggregateAmountOfLimitsSanctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower5_BorrowerGroup5_FilmandTourism" unitRef="USD" decimals="-4" >25350000</in-rbi-rep:AggregateAmountOfLimitsSanctioned>
+<in-rbi-rep:AmountOfFundedLimitsSanctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower5_BorrowerGroup5_FilmandTourism" unitRef="USD" decimals="-4" >12550000</in-rbi-rep:AmountOfFundedLimitsSanctioned>
+<in-rbi-rep:AmountOfNonFundedLimitsSanctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower5_BorrowerGroup5_FilmandTourism" unitRef="USD" decimals="-5" >12800000</in-rbi-rep:AmountOfNonFundedLimitsSanctioned>
+<in-rbi-rep:AmountOutstandingOfCustomerCreditLimitSenctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower5_BorrowerGroup5_FilmandTourism" unitRef="USD" decimals="-4" >13050000</in-rbi-rep:AmountOutstandingOfCustomerCreditLimitSenctioned>
+<in-rbi-rep:SecurityValue contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower5_BorrowerGroup5_FilmandTourism" unitRef="USD" decimals="-5" >13300000</in-rbi-rep:SecurityValue>
+<in-rbi-rep:AssetsClassification contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower5_BorrowerGroup5_FilmandTourism" >Doubtful</in-rbi-rep:AssetsClassification>
+<in-rbi-rep:AssetsClassificationHostCountry contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower5_BorrowerGroup5_FilmandTourism" >Non-Performing Asset</in-rbi-rep:AssetsClassificationHostCountry>
+<in-rbi-rep:AmountOfProvisionsHeldAtBranch contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower5_BorrowerGroup5_FilmandTourism" unitRef="USD" decimals="-4" >13550000</in-rbi-rep:AmountOfProvisionsHeldAtBranch>
+<in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower5_BorrowerGroup5_FilmandTourism" unitRef="USD" decimals="-5" >13800000</in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice>
+<in-rbi-rep:AmountOfInterestSuspense contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower5_BorrowerGroup5_FilmandTourism" unitRef="USD" decimals="-4" >14050000</in-rbi-rep:AmountOfInterestSuspense>
+<in-rbi-rep:AggregateAmountOfProvisionAndInterestSuspense contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower5_BorrowerGroup5_FilmandTourism" unitRef="USD" decimals="-5" >41400000</in-rbi-rep:AggregateAmountOfProvisionAndInterestSuspense>
+<in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower5_BorrowerGroup5_FilmandTourism" unitRef="USD" decimals="-5" >28200000</in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities>
+<in-rbi-rep:AmountOfShortFall contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower5_BorrowerGroup5_FilmandTourism" unitRef="USD" decimals="-5" >-13200000</in-rbi-rep:AmountOfShortFall>
+<in-rbi-rep:AmountOfHeadOfficeSupportFund contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower5_BorrowerGroup5_FilmandTourism" unitRef="USD" decimals="-5" >17800000</in-rbi-rep:AmountOfHeadOfficeSupportFund>
+<in-rbi-rep:DevelopmentsDuringQuarter contextRef="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower5_BorrowerGroup5_FilmandTourism" >EMXFVHTQZL</in-rbi-rep:DevelopmentsDuringQuarter>
+<in-rbi-rep:AggregateAmountOfLimitsSanctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >105750000</in-rbi-rep:AggregateAmountOfLimitsSanctioned>
+<in-rbi-rep:AmountOfFundedLimitsSanctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >52250000</in-rbi-rep:AmountOfFundedLimitsSanctioned>
+<in-rbi-rep:AmountOfNonFundedLimitsSanctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-5" >53500000</in-rbi-rep:AmountOfNonFundedLimitsSanctioned>
+<in-rbi-rep:AmountOutstandingOfCustomerCreditLimitSenctioned contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >54750000</in-rbi-rep:AmountOutstandingOfCustomerCreditLimitSenctioned>
+<in-rbi-rep:SecurityValue contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-6" >56000000</in-rbi-rep:SecurityValue>
+<in-rbi-rep:AmountOfProvisionsHeldAtBranch contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >77250000</in-rbi-rep:AmountOfProvisionsHeldAtBranch>
+<in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-5" >58500000</in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice>
+<in-rbi-rep:AmountOfInterestSuspense contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >59750000</in-rbi-rep:AmountOfInterestSuspense>
+<in-rbi-rep:AggregateAmountOfProvisionAndInterestSuspense contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-5" >195500000</in-rbi-rep:AggregateAmountOfProvisionAndInterestSuspense>
+<in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-5" >250500000</in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities>
+<in-rbi-rep:AmountOfShortFall contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-6" >55000000</in-rbi-rep:AmountOfShortFall>
+<in-rbi-rep:AmountOfHeadOfficeSupportFund contextRef="asof_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-5" >78500000</in-rbi-rep:AmountOfHeadOfficeSupportFund>
+<in-rbi-rep:AggregateAmountOfLimitsSanctioned contextRef="asof_20190630_LessThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >14850000</in-rbi-rep:AggregateAmountOfLimitsSanctioned>
+<in-rbi-rep:AmountOfFundedLimitsSanctioned contextRef="asof_20190630_LessThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-5" >7300000</in-rbi-rep:AmountOfFundedLimitsSanctioned>
+<in-rbi-rep:AmountOfNonFundedLimitsSanctioned contextRef="asof_20190630_LessThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >7550000</in-rbi-rep:AmountOfNonFundedLimitsSanctioned>
+<in-rbi-rep:AmountOutstandingOfCustomerCreditLimitSenctioned contextRef="asof_20190630_LessThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-5" >7800000</in-rbi-rep:AmountOutstandingOfCustomerCreditLimitSenctioned>
+<in-rbi-rep:SecurityValue contextRef="asof_20190630_LessThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >8050000</in-rbi-rep:SecurityValue>
+<in-rbi-rep:AmountOfProvisionsHeldAtBranch contextRef="asof_20190630_LessThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-5" >8300000</in-rbi-rep:AmountOfProvisionsHeldAtBranch>
+<in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice contextRef="asof_20190630_LessThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >8550000</in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice>
+<in-rbi-rep:AmountOfInterestSuspense contextRef="asof_20190630_LessThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-5" >8800000</in-rbi-rep:AmountOfInterestSuspense>
+<in-rbi-rep:AggregateAmountOfProvisionAndInterestSuspense contextRef="asof_20190630_LessThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >25650000</in-rbi-rep:AggregateAmountOfProvisionAndInterestSuspense>
+<in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities contextRef="asof_20190630_LessThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-5" >68200000</in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities>
+<in-rbi-rep:AmountOfShortFall contextRef="asof_20190630_LessThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >42550000</in-rbi-rep:AmountOfShortFall>
+<in-rbi-rep:AmountOfHeadOfficeSupportFund contextRef="asof_20190630_LessThanUSD2MillionMember_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >8850000</in-rbi-rep:AmountOfHeadOfficeSupportFund>
+<in-rbi-rep:DevelopmentsDuringQuarter contextRef="fromto_20190401_20190630_LessThanUSD2MillionMember_ProblemCreditMember_IN_592" >OTUWXXFIXT</in-rbi-rep:DevelopmentsDuringQuarter>
+<in-rbi-rep:AggregateAmountOfLimitsSanctioned contextRef="asof_20190630_ProblemCreditMember_IN_592" unitRef="USD" decimals="-5" >120600000</in-rbi-rep:AggregateAmountOfLimitsSanctioned>
+<in-rbi-rep:AmountOfFundedLimitsSanctioned contextRef="asof_20190630_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >59550000</in-rbi-rep:AmountOfFundedLimitsSanctioned>
+<in-rbi-rep:AmountOfNonFundedLimitsSanctioned contextRef="asof_20190630_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >61050000</in-rbi-rep:AmountOfNonFundedLimitsSanctioned>
+<in-rbi-rep:AmountOutstandingOfCustomerCreditLimitSenctioned contextRef="asof_20190630_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >62550000</in-rbi-rep:AmountOutstandingOfCustomerCreditLimitSenctioned>
+<in-rbi-rep:SecurityValue contextRef="asof_20190630_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >64050000</in-rbi-rep:SecurityValue>
+<in-rbi-rep:AmountOfProvisionsHeldAtBranch contextRef="asof_20190630_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >85550000</in-rbi-rep:AmountOfProvisionsHeldAtBranch>
+<in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice contextRef="asof_20190630_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >67050000</in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice>
+<in-rbi-rep:AmountOfInterestSuspense contextRef="asof_20190630_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >68550000</in-rbi-rep:AmountOfInterestSuspense>
+<in-rbi-rep:AggregateAmountOfProvisionAndInterestSuspense contextRef="asof_20190630_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >221150000</in-rbi-rep:AggregateAmountOfProvisionAndInterestSuspense>
+<in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities contextRef="asof_20190630_ProblemCreditMember_IN_592" unitRef="USD" decimals="-5" >318700000</in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities>
+<in-rbi-rep:AmountOfShortFall contextRef="asof_20190630_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >97550000</in-rbi-rep:AmountOfShortFall>
+<in-rbi-rep:AmountOfHeadOfficeSupportFund contextRef="asof_20190630_ProblemCreditMember_IN_592" unitRef="USD" decimals="-4" >87350000</in-rbi-rep:AmountOfHeadOfficeSupportFund>
+<in-rbi-rep:SoverignCharacter contextRef="fromto_20190401_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower3_BorrowerGroup3" >URYZHHLFKY</in-rbi-rep:SoverignCharacter>
+<in-rbi-rep:CategoryOfBorrower contextRef="fromto_20190401_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower3_BorrowerGroup3" >New</in-rbi-rep:CategoryOfBorrower>
+<in-rbi-rep:AmountOfBookValueOfCreditSanctioned contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower3_BorrowerGroup3" unitRef="USD" decimals="-4" >1814720000</in-rbi-rep:AmountOfBookValueOfCreditSanctioned>
+<in-rbi-rep:AmountOfMarketValueOfCreditSanctioned contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower3_BorrowerGroup3" unitRef="USD" decimals="-4" >8938980000</in-rbi-rep:AmountOfMarketValueOfCreditSanctioned>
+<in-rbi-rep:AssetsClassification contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower3_BorrowerGroup3" >Doubtful</in-rbi-rep:AssetsClassification>
+<in-rbi-rep:AmountOfProvisionsHeldAtBranch contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower3_BorrowerGroup3" unitRef="USD" decimals="-4" >1903040000</in-rbi-rep:AmountOfProvisionsHeldAtBranch>
+<in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower3_BorrowerGroup3" unitRef="USD" decimals="-5" >9027300000</in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice>
+<in-rbi-rep:AggregateAmountOfProvision contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower3_BorrowerGroup3" unitRef="USD" decimals="-4" >10930340000</in-rbi-rep:AggregateAmountOfProvision>
+<in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower3_BorrowerGroup3" unitRef="USD" decimals="-4" >17276930000</in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities>
+<in-rbi-rep:AmountOfShortFall contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower3_BorrowerGroup3" unitRef="USD" decimals="-4" >6346590000</in-rbi-rep:AmountOfShortFall>
+<in-rbi-rep:AmountOfHeadOfficeSupportFund contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower3_BorrowerGroup3" unitRef="USD" decimals="-4" >2123840000</in-rbi-rep:AmountOfHeadOfficeSupportFund>
+<in-rbi-rep:DevelopmentsDuringQuarter contextRef="fromto_20190401_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower3_BorrowerGroup3" >ONAOHQTPSQ</in-rbi-rep:DevelopmentsDuringQuarter>
+<in-rbi-rep:SoverignCharacter contextRef="fromto_20190401_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower4_BorrowerGroup4" >KAELKDNGVV</in-rbi-rep:SoverignCharacter>
+<in-rbi-rep:CategoryOfBorrower contextRef="fromto_20190401_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower4_BorrowerGroup4" >Existing</in-rbi-rep:CategoryOfBorrower>
+<in-rbi-rep:AmountOfBookValueOfCreditSanctioned contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower4_BorrowerGroup4" unitRef="USD" decimals="-4" >1829440000</in-rbi-rep:AmountOfBookValueOfCreditSanctioned>
+<in-rbi-rep:AmountOfMarketValueOfCreditSanctioned contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower4_BorrowerGroup4" unitRef="USD" decimals="-5" >8953700000</in-rbi-rep:AmountOfMarketValueOfCreditSanctioned>
+<in-rbi-rep:AssetsClassification contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower4_BorrowerGroup4" >Loss</in-rbi-rep:AssetsClassification>
+<in-rbi-rep:AmountOfProvisionsHeldAtBranch contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower4_BorrowerGroup4" unitRef="USD" decimals="-4" >1917760000</in-rbi-rep:AmountOfProvisionsHeldAtBranch>
+<in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower4_BorrowerGroup4" unitRef="USD" decimals="-4" >9042020000</in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice>
+<in-rbi-rep:AggregateAmountOfProvision contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower4_BorrowerGroup4" unitRef="USD" decimals="-4" >10959780000</in-rbi-rep:AggregateAmountOfProvision>
+<in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower4_BorrowerGroup4" unitRef="USD" decimals="-4" >17291650000</in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities>
+<in-rbi-rep:AmountOfShortFall contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower4_BorrowerGroup4" unitRef="USD" decimals="-4" >6331870000</in-rbi-rep:AmountOfShortFall>
+<in-rbi-rep:AmountOfHeadOfficeSupportFund contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower4_BorrowerGroup4" unitRef="USD" decimals="-4" >2138560000</in-rbi-rep:AmountOfHeadOfficeSupportFund>
+<in-rbi-rep:DevelopmentsDuringQuarter contextRef="fromto_20190401_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower4_BorrowerGroup4" >BTRHAFGTHU</in-rbi-rep:DevelopmentsDuringQuarter>
+<in-rbi-rep:SoverignCharacter contextRef="fromto_20190401_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower6_BorrowerGroup6" >ZKECHRUJUD</in-rbi-rep:SoverignCharacter>
+<in-rbi-rep:CategoryOfBorrower contextRef="fromto_20190401_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower6_BorrowerGroup6" >New</in-rbi-rep:CategoryOfBorrower>
+<in-rbi-rep:AmountOfBookValueOfCreditSanctioned contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower6_BorrowerGroup6" unitRef="USD" decimals="-4" >1844160000</in-rbi-rep:AmountOfBookValueOfCreditSanctioned>
+<in-rbi-rep:AmountOfMarketValueOfCreditSanctioned contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower6_BorrowerGroup6" unitRef="USD" decimals="-4" >8968420000</in-rbi-rep:AmountOfMarketValueOfCreditSanctioned>
+<in-rbi-rep:AssetsClassification contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower6_BorrowerGroup6" >Sub-standard</in-rbi-rep:AssetsClassification>
+<in-rbi-rep:AmountOfProvisionsHeldAtBranch contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower6_BorrowerGroup6" unitRef="USD" decimals="-4" >1932480000</in-rbi-rep:AmountOfProvisionsHeldAtBranch>
+<in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower6_BorrowerGroup6" unitRef="USD" decimals="-4" >9056740000</in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice>
+<in-rbi-rep:AggregateAmountOfProvision contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower6_BorrowerGroup6" unitRef="USD" decimals="-4" >10989220000</in-rbi-rep:AggregateAmountOfProvision>
+<in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower6_BorrowerGroup6" unitRef="USD" decimals="-4" >17306370000</in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities>
+<in-rbi-rep:AmountOfShortFall contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower6_BorrowerGroup6" unitRef="USD" decimals="-4" >6317150000</in-rbi-rep:AmountOfShortFall>
+<in-rbi-rep:AmountOfHeadOfficeSupportFund contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower6_BorrowerGroup6" unitRef="USD" decimals="-4" >2153280000</in-rbi-rep:AmountOfHeadOfficeSupportFund>
+<in-rbi-rep:DevelopmentsDuringQuarter contextRef="fromto_20190401_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower6_BorrowerGroup6" >RERHJLNZYG</in-rbi-rep:DevelopmentsDuringQuarter>
+<in-rbi-rep:SoverignCharacter contextRef="fromto_20190401_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower7_BorrowerGroup7" >WNFFSZHKQC</in-rbi-rep:SoverignCharacter>
+<in-rbi-rep:CategoryOfBorrower contextRef="fromto_20190401_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower7_BorrowerGroup7" >Existing</in-rbi-rep:CategoryOfBorrower>
+<in-rbi-rep:AmountOfBookValueOfCreditSanctioned contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower7_BorrowerGroup7" unitRef="USD" decimals="-4" >1858880000</in-rbi-rep:AmountOfBookValueOfCreditSanctioned>
+<in-rbi-rep:AmountOfMarketValueOfCreditSanctioned contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower7_BorrowerGroup7" unitRef="USD" decimals="-4" >8983140000</in-rbi-rep:AmountOfMarketValueOfCreditSanctioned>
+<in-rbi-rep:AssetsClassification contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower7_BorrowerGroup7" >Doubtful</in-rbi-rep:AssetsClassification>
+<in-rbi-rep:AmountOfProvisionsHeldAtBranch contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower7_BorrowerGroup7" unitRef="USD" decimals="-5" >1947200000</in-rbi-rep:AmountOfProvisionsHeldAtBranch>
+<in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower7_BorrowerGroup7" unitRef="USD" decimals="-4" >9071460000</in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice>
+<in-rbi-rep:AggregateAmountOfProvision contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower7_BorrowerGroup7" unitRef="USD" decimals="-4" >11018660000</in-rbi-rep:AggregateAmountOfProvision>
+<in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower7_BorrowerGroup7" unitRef="USD" decimals="-4" >7321090000</in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities>
+<in-rbi-rep:AmountOfShortFall contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower7_BorrowerGroup7" unitRef="USD" decimals="-4" >-3697570000</in-rbi-rep:AmountOfShortFall>
+<in-rbi-rep:AmountOfHeadOfficeSupportFund contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower7_BorrowerGroup7" unitRef="USD" decimals="-6" >2168000000</in-rbi-rep:AmountOfHeadOfficeSupportFund>
+<in-rbi-rep:DevelopmentsDuringQuarter contextRef="fromto_20190401_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower7_BorrowerGroup7" >DVJSBKBCCP</in-rbi-rep:DevelopmentsDuringQuarter>
+<in-rbi-rep:SoverignCharacter contextRef="fromto_20190401_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower8_BorrowerGroup8" >FTRHVSNGXY</in-rbi-rep:SoverignCharacter>
+<in-rbi-rep:CategoryOfBorrower contextRef="fromto_20190401_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower8_BorrowerGroup8" >New</in-rbi-rep:CategoryOfBorrower>
+<in-rbi-rep:AmountOfBookValueOfCreditSanctioned contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower8_BorrowerGroup8" unitRef="USD" decimals="-5" >1873600000</in-rbi-rep:AmountOfBookValueOfCreditSanctioned>
+<in-rbi-rep:AmountOfMarketValueOfCreditSanctioned contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower8_BorrowerGroup8" unitRef="USD" decimals="-4" >8997860000</in-rbi-rep:AmountOfMarketValueOfCreditSanctioned>
+<in-rbi-rep:AssetsClassification contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower8_BorrowerGroup8" >Loss</in-rbi-rep:AssetsClassification>
+<in-rbi-rep:AmountOfProvisionsHeldAtBranch contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower8_BorrowerGroup8" unitRef="USD" decimals="-4" >1961920000</in-rbi-rep:AmountOfProvisionsHeldAtBranch>
+<in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower8_BorrowerGroup8" unitRef="USD" decimals="-4" >9086180000</in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice>
+<in-rbi-rep:AggregateAmountOfProvision contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower8_BorrowerGroup8" unitRef="USD" decimals="-5" >11048100000</in-rbi-rep:AggregateAmountOfProvision>
+<in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower8_BorrowerGroup8" unitRef="USD" decimals="-4" >17335810000</in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities>
+<in-rbi-rep:AmountOfShortFall contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower8_BorrowerGroup8" unitRef="USD" decimals="-4" >6287710000</in-rbi-rep:AmountOfShortFall>
+<in-rbi-rep:AmountOfHeadOfficeSupportFund contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower8_BorrowerGroup8" unitRef="USD" decimals="-4" >2182720000</in-rbi-rep:AmountOfHeadOfficeSupportFund>
+<in-rbi-rep:DevelopmentsDuringQuarter contextRef="fromto_20190401_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592_Borrower8_BorrowerGroup8" >EBBRDXVDXF</in-rbi-rep:DevelopmentsDuringQuarter>
+<in-rbi-rep:AmountOfBookValueOfCreditSanctioned contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-5" >9220800000</in-rbi-rep:AmountOfBookValueOfCreditSanctioned>
+<in-rbi-rep:AmountOfMarketValueOfCreditSanctioned contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-5" >44842100000</in-rbi-rep:AmountOfMarketValueOfCreditSanctioned>
+<in-rbi-rep:AmountOfProvisionsHeldAtBranch contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-5" >9662400000</in-rbi-rep:AmountOfProvisionsHeldAtBranch>
+<in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-5" >45283700000</in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice>
+<in-rbi-rep:AggregateAmountOfProvision contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-5" >54946100000</in-rbi-rep:AggregateAmountOfProvision>
+<in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-4" >76531850000</in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities>
+<in-rbi-rep:AmountOfShortFall contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-4" >21585750000</in-rbi-rep:AmountOfShortFall>
+<in-rbi-rep:AmountOfHeadOfficeSupportFund contextRef="asof_20190630_MoreThanUSD1MiliionMember_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-5" >10766400000</in-rbi-rep:AmountOfHeadOfficeSupportFund>
+<in-rbi-rep:AmountOfBookValueOfCreditSanctioned contextRef="asof_20190630_LessThanUSD1MiliionMember_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-4" >1888320000</in-rbi-rep:AmountOfBookValueOfCreditSanctioned>
+<in-rbi-rep:AmountOfMarketValueOfCreditSanctioned contextRef="asof_20190630_LessThanUSD1MiliionMember_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-4" >9012580000</in-rbi-rep:AmountOfMarketValueOfCreditSanctioned>
+<in-rbi-rep:AmountOfProvisionsHeldAtBranch contextRef="asof_20190630_LessThanUSD1MiliionMember_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-4" >1976640000</in-rbi-rep:AmountOfProvisionsHeldAtBranch>
+<in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice contextRef="asof_20190630_LessThanUSD1MiliionMember_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-5" >9100900000</in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice>
+<in-rbi-rep:AggregateAmountOfProvision contextRef="asof_20190630_LessThanUSD1MiliionMember_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-4" >11077540000</in-rbi-rep:AggregateAmountOfProvision>
+<in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities contextRef="asof_20190630_LessThanUSD1MiliionMember_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-4" >8542250000</in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities>
+<in-rbi-rep:AmountOfShortFall contextRef="asof_20190630_LessThanUSD1MiliionMember_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-4" >-2535290000</in-rbi-rep:AmountOfShortFall>
+<in-rbi-rep:AmountOfHeadOfficeSupportFund contextRef="asof_20190630_LessThanUSD1MiliionMember_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-6" >2197000000</in-rbi-rep:AmountOfHeadOfficeSupportFund>
+<in-rbi-rep:DevelopmentsDuringQuarter contextRef="fromto_20190401_20190630_LessThanUSD1MiliionMember_ProblemInvestmentMember_IN_592" >RXFVJBXAON</in-rbi-rep:DevelopmentsDuringQuarter>
+<in-rbi-rep:AmountOfBookValueOfCreditSanctioned contextRef="asof_20190630_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-4" >11109120000</in-rbi-rep:AmountOfBookValueOfCreditSanctioned>
+<in-rbi-rep:AmountOfMarketValueOfCreditSanctioned contextRef="asof_20190630_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-4" >53854680000</in-rbi-rep:AmountOfMarketValueOfCreditSanctioned>
+<in-rbi-rep:AmountOfProvisionsHeldAtBranch contextRef="asof_20190630_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-4" >11639040000</in-rbi-rep:AmountOfProvisionsHeldAtBranch>
+<in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice contextRef="asof_20190630_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-5" >54384600000</in-rbi-rep:AmountOfProvisionsHeldAtHeadOffice>
+<in-rbi-rep:AggregateAmountOfProvision contextRef="asof_20190630_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-4" >66023640000</in-rbi-rep:AggregateAmountOfProvision>
+<in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities contextRef="asof_20190630_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-5" >85074100000</in-rbi-rep:AmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities>
+<in-rbi-rep:AmountOfShortFall contextRef="asof_20190630_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-4" >19050460000</in-rbi-rep:AmountOfShortFall>
+<in-rbi-rep:AmountOfHeadOfficeSupportFund contextRef="asof_20190630_ProblemInvestmentMember_IN_592" unitRef="USD" decimals="-5" >12963400000</in-rbi-rep:AmountOfHeadOfficeSupportFund>
+<in-rbi-rep:NameOfSignatory contextRef="fromto_20190401_20190630" >RTIRJNCVXRJJFG</in-rbi-rep:NameOfSignatory>
+<in-rbi-rep:DesignationOfSignatory contextRef="fromto_20190401_20190630" >FGUGTIKREUTRU</in-rbi-rep:DesignationOfSignatory>
+<in-rbi-rep:AuthorisedSignatoryMobileNumber contextRef="fromto_20190401_20190630" unitRef="PURE" decimals="INF" >5241789363</in-rbi-rep:AuthorisedSignatoryMobileNumber>
+<in-rbi-rep:AuthorisedSignatoryLandlineNumber contextRef="fromto_20190401_20190630" unitRef="PURE" decimals="INF" >5236125874</in-rbi-rep:AuthorisedSignatoryLandlineNumber>
+<in-rbi-rep:EMailIDOfAuthorisedReportingOfficial contextRef="fromto_20190401_20190630" >FSDHRUESY@dfsf.com</in-rbi-rep:EMailIDOfAuthorisedReportingOfficial>
+<in-rbi-rep:PlaceOfSignature contextRef="fromto_20190401_20190630" >WE4RY4WA3Q546</in-rbi-rep:PlaceOfSignature>
+<in-rbi-rep:DateOfSigning contextRef="fromto_20190401_20190630" >2019-08-05</in-rbi-rep:DateOfSigning>
+
+</xbrli:xbrl>
