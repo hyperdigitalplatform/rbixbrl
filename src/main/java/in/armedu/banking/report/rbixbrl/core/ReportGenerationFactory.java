@@ -11,6 +11,7 @@ public class ReportGenerationFactory {
     public static final String RBI_ALO_XBRL_REPORT = "RBI_ALO_XBRL_REPORT";
     public static final String RBI_CEM_XBRL_REPORT = "RBI_CEM_XBRL_REPORT";
     public static final String RBI_PCI_XBRL_REPORT = "RBI_PCI_XBRL_REPORT";
+    public static final String RBI_ROP_XBRL_REPORT = "RBI_ROP_XBRL_REPORT";
 
     public XBRLReportIntf createXBRLReport(String reportType){
         // return null if report type is null
@@ -30,6 +31,8 @@ public class ReportGenerationFactory {
             return new XBRLReportBuilder().buildCEMReport();
         } else if(RBI_PCI_XBRL_REPORT.equalsIgnoreCase(reportType)) { // build PCI report
             return new XBRLReportBuilder().buildPCIReport();
+        } else if(RBI_ROP_XBRL_REPORT.equalsIgnoreCase(reportType)) { // build ROP report
+            return new XBRLReportBuilder().buildROPReport();
         }
         return null;
     }

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Count:88-->
+
+<xbrli:xbrl xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref="http://www.xbrl.org/2004/ref" 
+xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi"
+xmlns:in-rbi-rep-par="http://www.rbi.org/in-rbi-rep-par"
+>
+<link:schemaRef xlink:type="simple" xlink:href="in-rbi-rop.xsd" />
+<xbrli:context id="fromto_20180701_20180930">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-07-01</xbrli:startDate>
+<xbrli:endDate>2018-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20180930">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2018-09-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20180701_20180930_IN_592">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-07-01</xbrli:startDate>
+<xbrli:endDate>2018-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20180401_20180930_IN_592">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2018-04-01</xbrli:startDate>
+<xbrli:endDate>2018-09-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+
+<xbrli:unit id="USD">
+<xbrli:measure>iso4217:USD</xbrli:measure>
+</xbrli:unit>
+<xbrli:unit id="PURE">
+<xbrli:measure>xbrli:pure</xbrli:measure>
+</xbrli:unit>
+
+<in-rbi-rep:ReturnName contextRef="fromto_20180701_20180930" >Report on profitability</in-rbi-rep:ReturnName>
+<in-rbi-rep:ReturnCode contextRef="fromto_20180701_20180930" >ROP</in-rbi-rep:ReturnCode>
+<in-rbi-rep:NameOfReportingInstitution contextRef="fromto_20180701_20180930" >Kookmin Bank</in-rbi-rep:NameOfReportingInstitution>
+<in-rbi-rep:BankCode contextRef="asof_20180930" >00A</in-rbi-rep:BankCode>
+<in-rbi-rep:Address contextRef="fromto_20180701_20180930" >dfgg</in-rbi-rep:Address>
+<in-rbi-rep:DateOfQuarterEnded contextRef="asof_20180930" >2018-09-30</in-rbi-rep:DateOfQuarterEnded>
+<in-rbi-rep:ReportingFrequency contextRef="fromto_20180701_20180930" >Quarterly</in-rbi-rep:ReportingFrequency>
+<in-rbi-rep:DateOfReport contextRef="asof_20180930" >2019-08-01</in-rbi-rep:DateOfReport>
+<in-rbi-rep:ReportStatus contextRef="fromto_20180701_20180930" >Audited</in-rbi-rep:ReportStatus>
+<in-rbi-rep:DateOfAudit contextRef="asof_20180930" >2019-08-05</in-rbi-rep:DateOfAudit>
+<in-rbi-rep:ValidationStatus contextRef="fromto_20180701_20180930" >Validated</in-rbi-rep:ValidationStatus>
+<in-rbi-rep:ReturnVersion contextRef="fromto_20180701_20180930" >V1.2</in-rbi-rep:ReturnVersion>
+<in-rbi-rep:GeneralRemarks contextRef="fromto_20180701_20180930" >fdfdsfsdfsdfdsf</in-rbi-rep:GeneralRemarks>
+<in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20180930" >2018-07-01</in-rbi-rep:ReportingPeriodStartDate>
+<in-rbi-rep:InterestIncome contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >40910000</in-rbi-rep:InterestIncome>
+<in-rbi-rep:InterestIncome contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >121290000</in-rbi-rep:InterestIncome>
+<in-rbi-rep:InterestIncomeOnBalancesWithMonetaryAuthorityInterBranchOrbankDepositsAndCredits contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >1120000</in-rbi-rep:InterestIncomeOnBalancesWithMonetaryAuthorityInterBranchOrbankDepositsAndCredits>
+<in-rbi-rep:InterestIncomeOnBalancesWithMonetaryAuthorityInterBranchOrbankDepositsAndCredits contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-5" >54300000</in-rbi-rep:InterestIncomeOnBalancesWithMonetaryAuthorityInterBranchOrbankDepositsAndCredits>
+<in-rbi-rep:InterestOnLoansAndAdvancesNonBank contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >2320000</in-rbi-rep:InterestOnLoansAndAdvancesNonBank>
+<in-rbi-rep:InterestOnLoansAndAdvancesNonBank contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-6" >2000000</in-rbi-rep:InterestOnLoansAndAdvancesNonBank>
+<in-rbi-rep:InterestOnGovernmentSecurities contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-5" >3500000</in-rbi-rep:InterestOnGovernmentSecurities>
+<in-rbi-rep:InterestOnGovernmentSecurities contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-6" >21000000</in-rbi-rep:InterestOnGovernmentSecurities>
+<in-rbi-rep:InterestOnOtherInvestments contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >21630000</in-rbi-rep:InterestOnOtherInvestments>
+<in-rbi-rep:InterestOnOtherInvestments contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-6" >34000000</in-rbi-rep:InterestOnOtherInvestments>
+<in-rbi-rep:InterestIncomeOnOtherInterestBearingAssets contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >12340000</in-rbi-rep:InterestIncomeOnOtherInterestBearingAssets>
+<in-rbi-rep:InterestIncomeOnOtherInterestBearingAssets contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >9990000</in-rbi-rep:InterestIncomeOnOtherInterestBearingAssets>
+<in-rbi-rep:InterestExpenses contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-5" >77300000</in-rbi-rep:InterestExpenses>
+<in-rbi-rep:InterestExpenses contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >55850000</in-rbi-rep:InterestExpenses>
+<in-rbi-rep:InterestExpensesOnCustomerDeposits contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-5" >54300000</in-rbi-rep:InterestExpensesOnCustomerDeposits>
+<in-rbi-rep:InterestExpensesOnCustomerDeposits contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-6" >21000000</in-rbi-rep:InterestExpensesOnCustomerDeposits>
+<in-rbi-rep:InterestExpensesOnInterBranchAndInterBankBorrowings contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-6" >2000000</in-rbi-rep:InterestExpensesOnInterBranchAndInterBankBorrowings>
+<in-rbi-rep:InterestExpensesOnInterBranchAndInterBankBorrowings contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >13220000</in-rbi-rep:InterestExpensesOnInterBranchAndInterBankBorrowings>
+<in-rbi-rep:OtherInterestExpended contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-6" >21000000</in-rbi-rep:OtherInterestExpended>
+<in-rbi-rep:OtherInterestExpended contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >21630000</in-rbi-rep:OtherInterestExpended>
+<in-rbi-rep:NetInterestIncome contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >-36390000</in-rbi-rep:NetInterestIncome>
+<in-rbi-rep:NetInterestIncome contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >65440000</in-rbi-rep:NetInterestIncome>
+<in-rbi-rep:OtherIncome contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >78210000</in-rbi-rep:OtherIncome>
+<in-rbi-rep:OtherIncome contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >165750000</in-rbi-rep:OtherIncome>
+<in-rbi-rep:OtherFeeIncome contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-6" >34000000</in-rbi-rep:OtherFeeIncome>
+<in-rbi-rep:OtherFeeIncome contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >43350000</in-rbi-rep:OtherFeeIncome>
+<in-rbi-rep:ProfitLossOnForexTrading contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >9990000</in-rbi-rep:ProfitLossOnForexTrading>
+<in-rbi-rep:ProfitLossOnForexTrading contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >43760000</in-rbi-rep:ProfitLossOnForexTrading>
+<in-rbi-rep:ProfitLossOnSecuritiesTrading contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-6" >21000000</in-rbi-rep:ProfitLossOnSecuritiesTrading>
+<in-rbi-rep:ProfitLossOnSecuritiesTrading contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >23870000</in-rbi-rep:ProfitLossOnSecuritiesTrading>
+<in-rbi-rep:MiscellaneousIncome contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >13220000</in-rbi-rep:MiscellaneousIncome>
+<in-rbi-rep:MiscellaneousIncome contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >54770000</in-rbi-rep:MiscellaneousIncome>
+<in-rbi-rep:GrossIncome contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >41820000</in-rbi-rep:GrossIncome>
+<in-rbi-rep:GrossIncome contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >231190000</in-rbi-rep:GrossIncome>
+<in-rbi-rep:StaffExpenses contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >32340000</in-rbi-rep:StaffExpenses>
+<in-rbi-rep:StaffExpenses contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-6" >2000000</in-rbi-rep:StaffExpenses>
+<in-rbi-rep:OtherExpenses contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >32460000</in-rbi-rep:OtherExpenses>
+<in-rbi-rep:OtherExpenses contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-6" >21000000</in-rbi-rep:OtherExpenses>
+<in-rbi-rep:AggregateExpenses contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-5" >64800000</in-rbi-rep:AggregateExpenses>
+<in-rbi-rep:AggregateExpenses contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-6" >23000000</in-rbi-rep:AggregateExpenses>
+<in-rbi-rep:OperatingSurplusDeficit contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >-22980000</in-rbi-rep:OperatingSurplusDeficit>
+<in-rbi-rep:OperatingSurplusDeficit contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >208190000</in-rbi-rep:OperatingSurplusDeficit>
+<in-rbi-rep:BadDebtsWrittenoff contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >43350000</in-rbi-rep:BadDebtsWrittenoff>
+<in-rbi-rep:BadDebtsWrittenoff contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >54560000</in-rbi-rep:BadDebtsWrittenoff>
+<in-rbi-rep:ExtraordinaryLossAndOtherWriteOff contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >43760000</in-rbi-rep:ExtraordinaryLossAndOtherWriteOff>
+<in-rbi-rep:ExtraordinaryLossAndOtherWriteOff contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >56640000</in-rbi-rep:ExtraordinaryLossAndOtherWriteOff>
+<in-rbi-rep:HeadOfficeAdministrationCharges contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >23870000</in-rbi-rep:HeadOfficeAdministrationCharges>
+<in-rbi-rep:HeadOfficeAdministrationCharges contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >56870000</in-rbi-rep:HeadOfficeAdministrationCharges>
+<in-rbi-rep:ProvisionOtherThanTax contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >54770000</in-rbi-rep:ProvisionOtherThanTax>
+<in-rbi-rep:ProvisionOtherThanTax contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-6" >35000000</in-rbi-rep:ProvisionOtherThanTax>
+<in-rbi-rep:ProfitLossBeforeTax contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >-188730000</in-rbi-rep:ProfitLossBeforeTax>
+<in-rbi-rep:ProfitLossBeforeTax contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >5120000</in-rbi-rep:ProfitLossBeforeTax>
+<in-rbi-rep:NetPovisionOfTaxes contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >4430000</in-rbi-rep:NetPovisionOfTaxes>
+<in-rbi-rep:NetPovisionOfTaxes contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >7770000</in-rbi-rep:NetPovisionOfTaxes>
+<in-rbi-rep:NetProfitLossForPeriod contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >-193160000</in-rbi-rep:NetProfitLossForPeriod>
+<in-rbi-rep:NetProfitLossForPeriod contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >-2650000</in-rbi-rep:NetProfitLossForPeriod>
+<in-rbi-rep:RemittanceToHeadOfficeExpenses contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >54560000</in-rbi-rep:RemittanceToHeadOfficeExpenses>
+<in-rbi-rep:RemittanceToHeadOfficeExpenses contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >2320000</in-rbi-rep:RemittanceToHeadOfficeExpenses>
+<in-rbi-rep:RemittanceToHeadOfficeProfit contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >56640000</in-rbi-rep:RemittanceToHeadOfficeProfit>
+<in-rbi-rep:RemittanceToHeadOfficeProfit contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >3440000</in-rbi-rep:RemittanceToHeadOfficeProfit>
+<in-rbi-rep:RemittanceToHeadOfficeOthers contextRef="fromto_20180701_20180930_IN_592" unitRef="USD" decimals="-4" >56870000</in-rbi-rep:RemittanceToHeadOfficeOthers>
+<in-rbi-rep:RemittanceToHeadOfficeOthers contextRef="fromto_20180401_20180930_IN_592" unitRef="USD" decimals="-4" >21630000</in-rbi-rep:RemittanceToHeadOfficeOthers>
+<in-rbi-rep:BusinessesPerEmployee contextRef="fromto_20180701_20180930_IN_592" unitRef="PURE" decimals="INF" >35</in-rbi-rep:BusinessesPerEmployee>
+<in-rbi-rep:BusinessesPerEmployee contextRef="fromto_20180401_20180930_IN_592" unitRef="PURE" decimals="2" >12.34</in-rbi-rep:BusinessesPerEmployee>
+<in-rbi-rep:ProfitPerEmployee contextRef="fromto_20180701_20180930_IN_592" unitRef="PURE" decimals="INF" >35</in-rbi-rep:ProfitPerEmployee>
+<in-rbi-rep:ProfitPerEmployee contextRef="fromto_20180401_20180930_IN_592" unitRef="PURE" decimals="INF" >34</in-rbi-rep:ProfitPerEmployee>
+<in-rbi-rep:AverageYieldOnInterestEarningAssets contextRef="fromto_20180701_20180930_IN_592" unitRef="PURE" decimals="2" >6.78</in-rbi-rep:AverageYieldOnInterestEarningAssets>
+<in-rbi-rep:AverageYieldOnInterestEarningAssets contextRef="fromto_20180401_20180930_IN_592" unitRef="PURE" decimals="2" >9.99</in-rbi-rep:AverageYieldOnInterestEarningAssets>
+<in-rbi-rep:CostOfFundsAveragePercentage contextRef="fromto_20180701_20180930_IN_592" unitRef="PURE" decimals="2" >56.76</in-rbi-rep:CostOfFundsAveragePercentage>
+<in-rbi-rep:CostOfFundsAveragePercentage contextRef="fromto_20180401_20180930_IN_592" unitRef="PURE" decimals="INF" >21</in-rbi-rep:CostOfFundsAveragePercentage>
+<in-rbi-rep:ReturnsOnAssets contextRef="fromto_20180701_20180930_IN_592" unitRef="PURE" decimals="2" >45.44</in-rbi-rep:ReturnsOnAssets>
+<in-rbi-rep:ReturnsOnAssets contextRef="fromto_20180401_20180930_IN_592" unitRef="PURE" decimals="2" >13.22</in-rbi-rep:ReturnsOnAssets>
+<in-rbi-rep:InterestSpreadInReturnOnProfitability contextRef="fromto_20180701_20180930_IN_592" unitRef="PURE" decimals="2" >23.34</in-rbi-rep:InterestSpreadInReturnOnProfitability>
+<in-rbi-rep:InterestSpreadInReturnOnProfitability contextRef="fromto_20180401_20180930_IN_592" unitRef="PURE" decimals="2" >4.43</in-rbi-rep:InterestSpreadInReturnOnProfitability>
+
+</xbrli:xbrl>
