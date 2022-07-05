@@ -10,17 +10,8 @@ import lombok.Setter;
 @Setter
 @Getter
 
-// BorrowerGroupMember
+public class RLCGeneralIndividual {
 
-public class RLCBorrowerMember{
-    
-    private String permanentAccountNumberOfCustomerOrBorrower;
-    private String customerName;
-    private String sectorCode;
-    private String bankingArrangement;
-    private String internalRating;
-    private String externalRating;
-    private String assetClassificationRLC;
     private String limitSanctionedForFundedExposure;
     private String amountOutstandingForFundedExposure;
     private String amountEligibleForNettingFromFundedExposure;
@@ -31,12 +22,10 @@ public class RLCBorrowerMember{
     private String amountOfNonFundedExposure;
     private String aggregateLimitSanctioned;
     private String aggregateAmountOutstanding;
-    private String aggregateCreditExposure;
+    private String aggregateCreditExposure;;
     private String aggregateCreditExposureAsPercentageOfCapitalFunds;
     private String aggregateInvestmentExposure;
     private String aggregateExposure;
     private String aggregateExposureAsPercentageOfCapitalFunds;
-
     
-
 }

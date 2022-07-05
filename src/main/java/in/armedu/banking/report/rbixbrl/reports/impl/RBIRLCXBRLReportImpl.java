@@ -21,12 +21,17 @@ import in.armedu.banking.report.rbixbrl.model.rlc.RLCItem;
 import in.armedu.banking.report.rbixbrl.part.BodyInterface;
 import in.armedu.banking.report.rbixbrl.part.ContextInterface;
 import in.armedu.banking.report.rbixbrl.part.UnitInterface;
-import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCBody;
+import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCBodyIndividual;
 import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCBodyBorrowerGroup;
-import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCBodyCounterParty;
+import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCBodyCounterPartyDomestic;
+import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCBodyCounterPartyGlobal;
 import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCGeneralBody;
-import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCGeneralBodyExtra;
+import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCGeneralBodyIndividual;
+import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCGeneralBodyGroupBorrower;
+import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCGeneralCounterParty;
 import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCGeneralContext;
+// import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCGeneralBodyContext;
+import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCGeneralBodyExtra;
 import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCUnit;
 import in.armedu.banking.report.rbixbrl.reports.XBRLReportIntf;
 import in.armedu.banking.report.rbixbrl.util.DefaultNamespacePrefixMapper;
@@ -36,10 +41,15 @@ import lombok.Setter;
 public class RBIRLCXBRLReportImpl implements XBRLReportIntf {
     
     private ContextInterface contextIntf = new RLCGeneralContext();
+    // private ContextInterface contextOnlyIntf = new RLCGeneralBodyContext();
     private BodyInterface rlcGeneralBody = new RLCGeneralBody();
-    private BodyInterface rlcBody = new RLCBody();
+    private BodyInterface rlcBodyIndividual = new RLCBodyIndividual();
     private BodyInterface rlcBodyBorrowerGroup = new RLCBodyBorrowerGroup();
-    private BodyInterface rlcBodyCounterParty = new RLCBodyCounterParty();
+    private BodyInterface rlcBodyCounterPartyDomestic = new RLCBodyCounterPartyDomestic();
+    private BodyInterface rlcBodyCounterPartyGlobal = new RLCBodyCounterPartyGlobal();
+    private BodyInterface rlcGeneralBodyIndividual = new RLCGeneralBodyIndividual();
+    private BodyInterface rlcGeneralBodyGroupBorrower = new RLCGeneralBodyGroupBorrower();
+    private BodyInterface rlcGeneralCounterParty = new RLCGeneralCounterParty();
     private BodyInterface rlcGeneralBodyExtra = new RLCGeneralBodyExtra();
     private UnitInterface rlcUnits = new RLCUnit();
     private ObjectFactory instancObjectFactory = new ObjectFactory();
@@ -95,6 +105,13 @@ public class RBIRLCXBRLReportImpl implements XBRLReportIntf {
                     xbrl.getItemOrTupleOrContext().add(ctx);
                 });
             });
+
+            // //create all only general contexts
+            // Map<String, Context> generalOnlyContexts = contextOnlyIntf.getContext(rlcReportData.getRlcGeneralData());
+            // generalOnlyContexts.forEach((key, ctx) -> {
+            //     xbrl.getItemOrTupleOrContext().add(ctx);
+            // });
+
    
         
         // create units
@@ -103,35 +120,49 @@ public class RBIRLCXBRLReportImpl implements XBRLReportIntf {
         xbrl.getItemOrTupleOrContext().add(unit);
         });
     
-    // create general body
-   bodyElements.addAll(rlcGeneralBody.getReportBodyItem( generalContexts, units, rlcReportData.getRlcGeneralData()));
+        // create general body
+        bodyElements.addAll(rlcGeneralBody.getReportBodyItem( generalContexts, units, rlcReportData.getRlcGeneralData()));
 
-      // generate RLCBody Individual
-      rlcItemData.forEach(item ->{
-        Map<String, Context> rlcItemIndividual = contextIntf.getContext(rlcReportData.getRlcGeneralData(), item);
-        bodyElements.addAll(rlcBody.getReportBodyItem( rlcItemIndividual, units, rlcReportData.getRlcGeneralData(), item));
-    });
+        // generate RLCBody Individual
+        rlcItemData.forEach(item ->{
+            Map<String, Context> rlcItemIndividual = contextIntf.getContext(rlcReportData.getRlcGeneralData(), item);
+            bodyElements.addAll(rlcBodyIndividual.getReportBodyItem( rlcItemIndividual, units, rlcReportData.getRlcGeneralData(), item));
+        });
+
+        // create rlc General Body Individual
+        bodyElements.addAll(rlcGeneralBodyIndividual.getReportBodyItem( generalContexts, units, rlcReportData.getRlcGeneralData()));
                  
-    //  RLCBodyBorrowerGroup
-    rlcItemData.forEach(item ->{
-        Map<String, Context> rlcItemBorrower = contextIntf.getContext(rlcReportData.getRlcGeneralData(), item);
-        bodyElements.addAll(rlcBodyBorrowerGroup.getReportBodyItem( rlcItemBorrower, units, rlcReportData.getRlcGeneralData(), item));
-    });
+        //  RLCBodyBorrowerGroup
+        rlcItemData.forEach(item ->{
+            Map<String, Context> rlcItemBorrower = contextIntf.getContext(rlcReportData.getRlcGeneralData(), item);
+            bodyElements.addAll(rlcBodyBorrowerGroup.getReportBodyItem( rlcItemBorrower, units, rlcReportData.getRlcGeneralData(), item));
+        });
 
-    //  RLCBodyCounterParty
-    rlcItemData.forEach(item ->{
-        Map<String, Context> rlcItemCounter = contextIntf.getContext(rlcReportData.getRlcGeneralData(), item);
-        bodyElements.addAll(rlcBodyCounterParty.getReportBodyItem( rlcItemCounter, units, rlcReportData.getRlcGeneralData(), item));
-    });
+        // create general body
+        bodyElements.addAll(rlcGeneralBodyGroupBorrower.getReportBodyItem( generalContexts, units, rlcReportData.getRlcGeneralData()));
 
+        //  RLCBodyCounterParty Domestic
+        rlcItemData.forEach(item ->{
+            Map<String, Context> rlcItemCounterDomestic = contextIntf.getContext(rlcReportData.getRlcGeneralData(), item);
+            bodyElements.addAll(rlcBodyCounterPartyDomestic.getReportBodyItem( rlcItemCounterDomestic, units, rlcReportData.getRlcGeneralData(), item));
+        });
+
+         //  RLCBodyCounterParty Global
+        rlcItemData.forEach(item ->{
+            Map<String, Context> rlcItemCounterGlobal = contextIntf.getContext(rlcReportData.getRlcGeneralData(), item);
+            bodyElements.addAll(rlcBodyCounterPartyGlobal.getReportBodyItem( rlcItemCounterGlobal, units, rlcReportData.getRlcGeneralData(), item));
+        });
+
+        // create general body
+        bodyElements.addAll(rlcGeneralCounterParty.getReportBodyItem( generalContexts, units, rlcReportData.getRlcGeneralData()));
         
         // signatory details
-     bodyElements.addAll(rlcGeneralBodyExtra.getReportBodyItem( generalContexts, units, rlcReportData.getRlcGeneralData()));
+        bodyElements.addAll(rlcGeneralBodyExtra.getReportBodyItem( generalContexts, units, rlcReportData.getRlcGeneralData()));
 
-      // add all element into xbrl
-      bodyElements.forEach(bElem->{
-        xbrl.getItemOrTupleOrContext().add(bElem);
-    });
+        // add all element into xbrl
+        bodyElements.forEach(bElem->{
+            xbrl.getItemOrTupleOrContext().add(bElem);
+        });
 
             
             m.marshal(xbrl, writer);

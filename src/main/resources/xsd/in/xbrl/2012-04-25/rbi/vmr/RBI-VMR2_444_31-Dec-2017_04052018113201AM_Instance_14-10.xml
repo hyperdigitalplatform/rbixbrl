@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Count:35-->
+<xbrli:xbrl xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref="http://www.xbrl.org/2004/ref" 
+xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi"
+>
+<link:schemaRef xlink:type="simple" xlink:href="in-rbi-VMR2.xsd" />
+<xbrli:context id="fromto_20171001_20171231">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2017-10-01</xbrli:startDate>
+<xbrli:endDate>2017-12-31</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20171231">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">444</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2017-12-31</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+
+<xbrli:unit id="PURE">
+<xbrli:measure>xbrli:pure</xbrli:measure>
+</xbrli:unit>
+
+<in-rbi-rep:NameOfReportingInstitution contextRef="fromto_20171001_20171231" >Lead Bank-Others</in-rbi-rep:NameOfReportingInstitution>
+<in-rbi-rep:DateOfQuarterEnded contextRef="asof_20171231" >2017-12-31</in-rbi-rep:DateOfQuarterEnded>
+<in-rbi-rep:DateOfSubmission contextRef="asof_20171231" >2018-05-01</in-rbi-rep:DateOfSubmission>
+
+<in-rbi-rep:ReturnName contextRef="fromto_20171001_20171231" >VMR-2</in-rbi-rep:ReturnName>
+<in-rbi-rep:ReturnCode contextRef="fromto_20171001_20171231" >VMR2</in-rbi-rep:ReturnCode>
+<in-rbi-rep:BankCode contextRef="asof_20171231" >444</in-rbi-rep:BankCode>
+<in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20171231" >2017-10-01</in-rbi-rep:ReportingPeriodStartDate>
+<in-rbi-rep:ReportingFrequency contextRef="fromto_20171001_20171231" >Quarterly</in-rbi-rep:ReportingFrequency>
+<in-rbi-rep:ReturnVersion contextRef="fromto_20171001_20171231" >1.0</in-rbi-rep:ReturnVersion>
+
+<in-rbi-rep:TotalNumberOfBranchesIncludingExtensionCounters contextRef="asof_20171231" unitRef="PURE" decimals="INF" >100</in-rbi-rep:TotalNumberOfBranchesIncludingExtensionCounters>
+<in-rbi-rep:HighRiskVulnerabilityBranches contextRef="asof_20171231" unitRef="PURE" decimals="INF" >100</in-rbi-rep:HighRiskVulnerabilityBranches>
+<in-rbi-rep:NormalRiskVulnerabilityBranches contextRef="asof_20171231" unitRef="PURE" decimals="INF" >0</in-rbi-rep:NormalRiskVulnerabilityBranches>
+<in-rbi-rep:TotalNumberOfVulnerableBranches contextRef="asof_20171231" unitRef="PURE" decimals="INF" >100</in-rbi-rep:TotalNumberOfVulnerableBranches>
+<in-rbi-rep:ArmedGuards contextRef="asof_20171231" unitRef="PURE" decimals="INF" >100</in-rbi-rep:ArmedGuards>
+<in-rbi-rep:UnArmedGuards contextRef="asof_20171231" unitRef="PURE" decimals="INF" >0</in-rbi-rep:UnArmedGuards>
+<in-rbi-rep:NumberOfBranchesInWhichAlarmSystemHasBeenProvided contextRef="asof_20171231" unitRef="PURE" decimals="INF" >100</in-rbi-rep:NumberOfBranchesInWhichAlarmSystemHasBeenProvided>
+<in-rbi-rep:CollapsibleDoorsAndShuttersAtTheMainEntrance contextRef="asof_20171231" unitRef="PURE" decimals="INF" >10</in-rbi-rep:CollapsibleDoorsAndShuttersAtTheMainEntrance>
+<in-rbi-rep:NightLatchesAutoLockToCashiersCabins contextRef="asof_20171231" unitRef="PURE" decimals="INF" >10</in-rbi-rep:NightLatchesAutoLockToCashiersCabins>
+<in-rbi-rep:GrillGatesToStrongRooms contextRef="asof_20171231" unitRef="PURE" decimals="INF" >10</in-rbi-rep:GrillGatesToStrongRooms>
+<in-rbi-rep:CashVansForRemittanceOfCash contextRef="asof_20171231" unitRef="PURE" decimals="INF" >10</in-rbi-rep:CashVansForRemittanceOfCash>
+<in-rbi-rep:ArmouredCashVans contextRef="asof_20171231" unitRef="PURE" decimals="INF" >10</in-rbi-rep:ArmouredCashVans>
+<in-rbi-rep:ClosedCircuitTVs contextRef="asof_20171231" unitRef="PURE" decimals="INF" >10</in-rbi-rep:ClosedCircuitTVs>
+<in-rbi-rep:TimeLockDevices contextRef="asof_20171231" unitRef="PURE" decimals="INF" >10</in-rbi-rep:TimeLockDevices>
+<in-rbi-rep:PoliceArmedGuardsProvided contextRef="asof_20171231" unitRef="PURE" decimals="INF" >10</in-rbi-rep:PoliceArmedGuardsProvided>
+<in-rbi-rep:CurrencyChestsProvidedWithHotLineTelephone contextRef="asof_20171231" unitRef="PURE" decimals="INF" >10</in-rbi-rep:CurrencyChestsProvidedWithHotLineTelephone>
+<in-rbi-rep:NameOfAuthorisedReportingOfficial contextRef="fromto_20171001_20171231" >asdsds</in-rbi-rep:NameOfAuthorisedReportingOfficial>
+<in-rbi-rep:NameOfPersonCountersigned contextRef="fromto_20171001_20171231" >sdad</in-rbi-rep:NameOfPersonCountersigned>
+<in-rbi-rep:DesignationOfAuthorisedReportingOfficial contextRef="fromto_20171001_20171231" >asdasd</in-rbi-rep:DesignationOfAuthorisedReportingOfficial>
+<in-rbi-rep:DesignationOfPersonCountersigned contextRef="fromto_20171001_20171231" >dasdasd</in-rbi-rep:DesignationOfPersonCountersigned>
+<in-rbi-rep:EMailIDOfAuthorisedReportingOfficial contextRef="fromto_20171001_20171231" >asdsdas@m.com</in-rbi-rep:EMailIDOfAuthorisedReportingOfficial>
+<in-rbi-rep:EMailIDOfPersonCountersigned contextRef="fromto_20171001_20171231" >sdfsf@m.com</in-rbi-rep:EMailIDOfPersonCountersigned>
+<in-rbi-rep:OfficeTelephoneNumberOfAuthorisedReportingOfficial contextRef="fromto_20171001_20171231" unitRef="PURE" decimals="INF" >1524587555</in-rbi-rep:OfficeTelephoneNumberOfAuthorisedReportingOfficial>
+<in-rbi-rep:OfficeTelephoneNumberOfPersonCountersigned contextRef="fromto_20171001_20171231" unitRef="PURE" decimals="INF" >8565852548</in-rbi-rep:OfficeTelephoneNumberOfPersonCountersigned>
+<in-rbi-rep:ResidenceTelephoneNumberOfAuthorisedReportingOfficial contextRef="fromto_20171001_20171231" unitRef="PURE" decimals="INF" >2512452147</in-rbi-rep:ResidenceTelephoneNumberOfAuthorisedReportingOfficial>
+<in-rbi-rep:ResidenceTelephoneNumberOfPersonCountersigned contextRef="fromto_20171001_20171231" unitRef="PURE" decimals="INF" >2154854582</in-rbi-rep:ResidenceTelephoneNumberOfPersonCountersigned>
+<in-rbi-rep:FaxNumberOfAuthorisedReportingOfficial contextRef="fromto_20171001_20171231" unitRef="PURE" decimals="INF" >1548725485</in-rbi-rep:FaxNumberOfAuthorisedReportingOfficial>
+<in-rbi-rep:FaxNumberOfPersonCountersigned contextRef="fromto_20171001_20171231" unitRef="PURE" decimals="INF" >5215475214</in-rbi-rep:FaxNumberOfPersonCountersigned>
+<in-rbi-rep:PlaceOfSigningByAuthorisedReportingOfficial contextRef="fromto_20171001_20171231" >fdsfd</in-rbi-rep:PlaceOfSigningByAuthorisedReportingOfficial>
+<in-rbi-rep:PlaceOfSigningByPersonCountersigned contextRef="fromto_20171001_20171231" >fdfdsf</in-rbi-rep:PlaceOfSigningByPersonCountersigned>
+<in-rbi-rep:DateOfSigningByAuthorisedReportingOfficial contextRef="fromto_20171001_20171231" >2018-05-02</in-rbi-rep:DateOfSigningByAuthorisedReportingOfficial>
+<in-rbi-rep:DateOfSigningByPersonCountersigned contextRef="fromto_20171001_20171231" >2018-05-02</in-rbi-rep:DateOfSigningByPersonCountersigned>
+
+</xbrli:xbrl>
