@@ -19,25 +19,23 @@ public class RLCGeneralData extends GeneralData {
     private String nameOfReportingInstitution;
     private String bankCode;
     private String address;
-    private String endDate;                //ReportForTheYearEnded
+    private String reportForTheYearEnded;                //End Date
     private String reportingFrequency;
     private String reportStatus;
     private String whetherNilReporting;
     private String categoriesOfBanks;
     private String returnVersion;
     private String generalRemarks;
-    private String startDate;               //ReportingPeriodStartDate
+    private String reportingPeriodStartDate;               //Start Date
     private String regulatoryCapital;
     private String capitalInfusion;
     private String lastEndDate;             //LastYearEndDate
-    private String currentDate;         //BeginingOfCurrentYear
 
     //Signatory Details
-    // private String nameOfSignatory;
-    // private String designationOfSignatory;
-    // private String authorisedSignatoryMobileNumber;
-    // private String authorisedSignatoryLandlineNumber;
-    // private String eMailIDOfAuthorisedReportingOfficial;
-
     private RLCGeneralInfo rlcGeneralInfo;
+    private RLCGeneralIndividual rlcGeneralIndividual;
+    private RLCGeneralBorrowerGroup rlcGeneralBorrowerGroup;
+    private RLCGeneralCounterDomestic rlcGeneralCounterDomestic;
+    private RLCGeneralCounterGlobal rlcGeneralCounterGlobal;
+
 }

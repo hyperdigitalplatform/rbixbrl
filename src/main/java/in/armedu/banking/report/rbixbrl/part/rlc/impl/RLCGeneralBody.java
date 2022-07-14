@@ -93,7 +93,7 @@ public class RLCGeneralBody implements BodyInterface {
         // create ReportForTheYearEnded
         DateItemType reportForTheYearEndedValue = new DateItemType();
         reportForTheYearEndedValue.setContextRef(fromToContext);
-        reportForTheYearEndedValue.setValue(toXMLGeo(rlcGeneralData.getEndDate()));
+        reportForTheYearEndedValue.setValue(toXMLGeo(rlcGeneralData.getReportForTheYearEnded()));
         JAXBElement<DateItemType> reportForTheYearEnd = rbiObjectFactory.createReportForTheYearEnded(reportForTheYearEndedValue);
         generalItems.add(reportForTheYearEnd);
 
@@ -142,7 +142,7 @@ public class RLCGeneralBody implements BodyInterface {
         // create ReportingPeriodStartDate
         DateItemType reportingPeriodStartDateValue = new DateItemType();
         reportingPeriodStartDateValue.setContextRef(asOfContext);
-        reportingPeriodStartDateValue.setValue(toXMLGeo(rlcGeneralData.getStartDate()));
+        reportingPeriodStartDateValue.setValue(toXMLGeo(rlcGeneralData.getReportingPeriodStartDate()));
         JAXBElement<DateItemType> reportingPeriodStartDate = rbiObjectFactory.createReportingPeriodStartDate(reportingPeriodStartDateValue);
         generalItems.add(reportingPeriodStartDate);
 

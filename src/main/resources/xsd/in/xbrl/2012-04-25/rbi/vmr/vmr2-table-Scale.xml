@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<ScalesForElelments>
+<Scale RuleNodeId="id_RuleNode_3" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.xbrl.org/2003/instance:stringItemType" />
+<Scale RuleNodeId="id_RuleNode_5" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.xbrl.org/2003/instance:dateTimeItemType" />
+<Scale RuleNodeId="id_RuleNode_6" CustomNodeId="" ScaleLabel="" ScaleMeasure="" DataType="http://www.xbrl.org/2003/instance:dateItemType" />
+<Scale RuleNodeId="id_RuleNode_9" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_12" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_13" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_14" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_16" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_17" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_18" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_20" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_21" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_22" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_23" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_24" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_25" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_26" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_28" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+<Scale RuleNodeId="id_RuleNode_29" CustomNodeId="" ScaleLabel="Actuals" ScaleMeasure="1" DataType="http://www.xbrl.org/2003/instance:integerItemType" />
+</ScalesForElelments>

@@ -47,9 +47,6 @@ public class RLCBodyBorrowerGroup  implements BodyInterface {
         org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory rbiObjectFactory;
         rbiObjectFactory = new org.rbi.in.xbrl._2012_04_25.rbi.ObjectFactory();
 
-        if(rlcItem.getRlcBasicInfo().getRegionOfBusinessAxis() == "GlobalMember" &&
-        rlcItem.getRlcBasicInfo().getLargeCreditAxis() == "BorrowerGroupMember")
-  {
         Context fromtoglobalborrowergroup = contexts.get(RLCUtil.FROMTOGLOBALBORROWERGROUP);
         Context asofglobalborrowergroup = contexts.get(RLCUtil.ASOFGLOBALBORROWERGROUP);
         Unit currency = units.get(RLCUtil.CURRENCY);
@@ -58,49 +55,49 @@ public class RLCBodyBorrowerGroup  implements BodyInterface {
     // create permanentAccountNumberOfCustomerOrBorrower
     PermanentAccountNumberItemType permanentAccountNumberOfCustomerOrBorrowerValue = new PermanentAccountNumberItemType();
     permanentAccountNumberOfCustomerOrBorrowerValue.setContextRef(fromtoglobalborrowergroup);
-    permanentAccountNumberOfCustomerOrBorrowerValue.setValue(rlcItem.getRlcBorrowerMember().getPermanentAccountNumberOfCustomerOrBorrower());
+    permanentAccountNumberOfCustomerOrBorrowerValue.setValue(rlcItem.getRlcBorrowerGroupMember().getPermanentAccountNumberOfCustomerOrBorrower());
     JAXBElement<PermanentAccountNumberItemType> permanentAccountNumberOfCustomerOrBorrower = rbiObjectFactory.createPermanentAccountNumberOfCustomerOrBorrower(permanentAccountNumberOfCustomerOrBorrowerValue);
     bodyItems.add(permanentAccountNumberOfCustomerOrBorrower);
 
     // create customerName
     StringItemType customerNameValue = new StringItemType();
     customerNameValue.setContextRef(fromtoglobalborrowergroup);
-    customerNameValue.setValue(rlcItem.getRlcBorrowerMember().getCustomerName());
+    customerNameValue.setValue(rlcItem.getRlcBorrowerGroupMember().getCustomerName());
     JAXBElement<StringItemType> customerName = rbiObjectFactory.createCustomerName(customerNameValue);
     bodyItems.add(customerName);   
 
     // create sectorCode
     SectorCodeItemType sectorCodeValue = new SectorCodeItemType();
     sectorCodeValue.setContextRef(fromtoglobalborrowergroup);
-    sectorCodeValue.setValue(rlcItem.getRlcBorrowerMember().getSectorCode());
+    sectorCodeValue.setValue(rlcItem.getRlcBorrowerGroupMember().getSectorCode());
     JAXBElement<SectorCodeItemType> sectorCode = rbiObjectFactory.createSectorCode(sectorCodeValue);
     bodyItems.add(sectorCode);
 
     // create bankingArrangement
     BankingArrangementItemType bankingArrangementValue = new BankingArrangementItemType();
     bankingArrangementValue.setContextRef(fromtoglobalborrowergroup);
-    bankingArrangementValue.setValue(rlcItem.getRlcBorrowerMember().getBankingArrangement());
+    bankingArrangementValue.setValue(rlcItem.getRlcBorrowerGroupMember().getBankingArrangement());
     JAXBElement<BankingArrangementItemType> bankingArrangement = rbiObjectFactory.createBankingArrangement(bankingArrangementValue);
     bodyItems.add(bankingArrangement);
 
     // create internalRating
     StringItemType internalRatingValue = new StringItemType();
     internalRatingValue.setContextRef(asofglobalborrowergroup);
-    internalRatingValue.setValue(rlcItem.getRlcBorrowerMember().getInternalRating());
+    internalRatingValue.setValue(rlcItem.getRlcBorrowerGroupMember().getInternalRating());
     JAXBElement<StringItemType> internalRating = rbiObjectFactory.createInternalRating(internalRatingValue);
     bodyItems.add(internalRating);
 
     // create ExternalRating
     StringItemType externalRatingValue = new StringItemType();
     externalRatingValue.setContextRef(fromtoglobalborrowergroup);
-    externalRatingValue.setValue(rlcItem.getRlcBorrowerMember().getExternalRating());
+    externalRatingValue.setValue(rlcItem.getRlcBorrowerGroupMember().getExternalRating());
     JAXBElement<StringItemType> externalRating = rbiObjectFactory.createExternalRating(externalRatingValue);
     bodyItems.add(externalRating);
 
     // create assetClassificationRLC
     AssetsClassificationRLCItemType assetClassificationRLCValue = new AssetsClassificationRLCItemType();
     assetClassificationRLCValue.setContextRef(fromtoglobalborrowergroup);
-    assetClassificationRLCValue.setValue(rlcItem.getRlcBorrowerMember().getAssetClassificationRLC());
+    assetClassificationRLCValue.setValue(rlcItem.getRlcBorrowerGroupMember().getAssetClassificationRLC());
     JAXBElement<AssetsClassificationRLCItemType> assetClassificationRLC = rbiObjectFactory.createAssetClassificationRLC(assetClassificationRLCValue);
     bodyItems.add(assetClassificationRLC);
 
@@ -108,8 +105,8 @@ public class RLCBodyBorrowerGroup  implements BodyInterface {
     MonetaryItemType limitSanctionedForFundedExposureValue = new MonetaryItemType();
     limitSanctionedForFundedExposureValue.setContextRef(asofglobalborrowergroup);    
     limitSanctionedForFundedExposureValue.setUnitRef(currency);
-    limitSanctionedForFundedExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerMember().getLimitSanctionedForFundedExposure())));
-    limitSanctionedForFundedExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerMember().getLimitSanctionedForFundedExposure()));
+    limitSanctionedForFundedExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerGroupMember().getLimitSanctionedForFundedExposure())));
+    limitSanctionedForFundedExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerGroupMember().getLimitSanctionedForFundedExposure()));
     JAXBElement<MonetaryItemType> limitSanctionedForFundedExposure = rbiObjectFactory.createLimitSanctionedForFundedExposure(limitSanctionedForFundedExposureValue);
     bodyItems.add(limitSanctionedForFundedExposure);
 
@@ -117,8 +114,8 @@ public class RLCBodyBorrowerGroup  implements BodyInterface {
     MonetaryItemType amountOutstandingForFundedExposureValue = new MonetaryItemType();
     amountOutstandingForFundedExposureValue.setContextRef(asofglobalborrowergroup); 
     amountOutstandingForFundedExposureValue.setUnitRef(currency);
-    amountOutstandingForFundedExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerMember().getAmountOutstandingForFundedExposure())));
-    amountOutstandingForFundedExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerMember().getAmountOutstandingForFundedExposure()));
+    amountOutstandingForFundedExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerGroupMember().getAmountOutstandingForFundedExposure())));
+    amountOutstandingForFundedExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerGroupMember().getAmountOutstandingForFundedExposure()));
     JAXBElement<MonetaryItemType> amountOutstandingForFundedExposure = rbiObjectFactory.createAmountOutstandingForFundedExposure(amountOutstandingForFundedExposureValue);
     bodyItems.add(amountOutstandingForFundedExposure);
 
@@ -126,8 +123,8 @@ public class RLCBodyBorrowerGroup  implements BodyInterface {
     MonetaryItemType amountEligibleForNettingFromFundedExposureValue = new MonetaryItemType();
     amountEligibleForNettingFromFundedExposureValue.setContextRef(asofglobalborrowergroup);
     amountEligibleForNettingFromFundedExposureValue.setUnitRef(currency);
-    amountEligibleForNettingFromFundedExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerMember().getAmountEligibleForNettingFromFundedExposure())));
-    amountEligibleForNettingFromFundedExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerMember().getAmountEligibleForNettingFromFundedExposure()));
+    amountEligibleForNettingFromFundedExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerGroupMember().getAmountEligibleForNettingFromFundedExposure())));
+    amountEligibleForNettingFromFundedExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerGroupMember().getAmountEligibleForNettingFromFundedExposure()));
     JAXBElement<MonetaryItemType> amountEligibleForNettingFromFundedExposure = rbiObjectFactory.createAmountEligibleForNettingFromFundedExposure(amountEligibleForNettingFromFundedExposureValue);
     bodyItems.add(amountEligibleForNettingFromFundedExposure);
 
@@ -135,8 +132,8 @@ public class RLCBodyBorrowerGroup  implements BodyInterface {
     MonetaryItemType amountOfFundedExposureValue = new MonetaryItemType();
     amountOfFundedExposureValue.setContextRef(asofglobalborrowergroup);
     amountOfFundedExposureValue.setUnitRef(currency);
-    amountOfFundedExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerMember().getAmountOfFundedExposure())));
-    amountOfFundedExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerMember().getAmountOfFundedExposure()));
+    amountOfFundedExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerGroupMember().getAmountOfFundedExposure())));
+    amountOfFundedExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerGroupMember().getAmountOfFundedExposure()));
     JAXBElement<MonetaryItemType> amountOfFundedExposure = rbiObjectFactory.createAmountOfFundedExposure(amountOfFundedExposureValue);
     bodyItems.add(amountOfFundedExposure);
 
@@ -144,8 +141,8 @@ public class RLCBodyBorrowerGroup  implements BodyInterface {
     MonetaryItemType limitSanctionedForNonFundedExposureValue = new MonetaryItemType();
     limitSanctionedForNonFundedExposureValue.setContextRef(asofglobalborrowergroup);
     limitSanctionedForNonFundedExposureValue.setUnitRef(currency);
-    limitSanctionedForNonFundedExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerMember().getLimitSanctionedForNonFundedExposure())));
-    limitSanctionedForNonFundedExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerMember().getLimitSanctionedForNonFundedExposure()));
+    limitSanctionedForNonFundedExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerGroupMember().getLimitSanctionedForNonFundedExposure())));
+    limitSanctionedForNonFundedExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerGroupMember().getLimitSanctionedForNonFundedExposure()));
     JAXBElement<MonetaryItemType> limitSanctionedForNonFundedExposure = rbiObjectFactory.createLimitSanctionedForNonFundedExposure(limitSanctionedForNonFundedExposureValue);
     bodyItems.add(limitSanctionedForNonFundedExposure);
 
@@ -153,8 +150,8 @@ public class RLCBodyBorrowerGroup  implements BodyInterface {
     MonetaryItemType amountOutstandingForNonFundedExposureValue = new MonetaryItemType();
     amountOutstandingForNonFundedExposureValue.setContextRef(asofglobalborrowergroup);    
     amountOutstandingForNonFundedExposureValue.setUnitRef(currency);
-    amountOutstandingForNonFundedExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerMember().getAmountOutstandingForNonFundedExposure())));
-    amountOutstandingForNonFundedExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerMember().getAmountOutstandingForNonFundedExposure()));
+    amountOutstandingForNonFundedExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerGroupMember().getAmountOutstandingForNonFundedExposure())));
+    amountOutstandingForNonFundedExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerGroupMember().getAmountOutstandingForNonFundedExposure()));
     JAXBElement<MonetaryItemType> amountOutstandingForNonFundedExposure = rbiObjectFactory.createAmountOutstandingForNonFundedExposure(amountOutstandingForNonFundedExposureValue);
     bodyItems.add(amountOutstandingForNonFundedExposure);
 
@@ -162,8 +159,8 @@ public class RLCBodyBorrowerGroup  implements BodyInterface {
     MonetaryItemType amountOfNonFundedExposureValue = new MonetaryItemType();
     amountOfNonFundedExposureValue.setContextRef(asofglobalborrowergroup);   
     amountOfNonFundedExposureValue.setUnitRef(currency);
-    amountOfNonFundedExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerMember().getAmountOfNonFundedExposure())));
-    amountOfNonFundedExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerMember().getAmountOfNonFundedExposure()));
+    amountOfNonFundedExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerGroupMember().getAmountOfNonFundedExposure())));
+    amountOfNonFundedExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerGroupMember().getAmountOfNonFundedExposure()));
     JAXBElement<MonetaryItemType> amountOfNonFundedExposure = rbiObjectFactory.createAmountOfNonFundedExposure(amountOfNonFundedExposureValue);
     bodyItems.add(amountOfNonFundedExposure);
 
@@ -171,8 +168,8 @@ public class RLCBodyBorrowerGroup  implements BodyInterface {
     MonetaryItemType aggregateLimitSanctionedValue = new MonetaryItemType();
     aggregateLimitSanctionedValue.setContextRef(asofglobalborrowergroup);   
     aggregateLimitSanctionedValue.setUnitRef(currency);
-    aggregateLimitSanctionedValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerMember().getAggregateLimitSanctioned())));
-    aggregateLimitSanctionedValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerMember().getAggregateLimitSanctioned()));
+    aggregateLimitSanctionedValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerGroupMember().getAggregateLimitSanctioned())));
+    aggregateLimitSanctionedValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerGroupMember().getAggregateLimitSanctioned()));
     JAXBElement<MonetaryItemType> aggregateLimitSanctioned = rbiObjectFactory.createAggregateLimitSanctioned(aggregateLimitSanctionedValue);
     bodyItems.add(aggregateLimitSanctioned);
 
@@ -180,8 +177,8 @@ public class RLCBodyBorrowerGroup  implements BodyInterface {
     MonetaryItemType aggregateAmountOutstandingValue = new MonetaryItemType();
     aggregateAmountOutstandingValue.setContextRef(asofglobalborrowergroup);
     aggregateAmountOutstandingValue.setUnitRef(currency);
-    aggregateAmountOutstandingValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerMember().getAggregateAmountOutstanding())));
-    aggregateAmountOutstandingValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerMember().getAggregateAmountOutstanding()));
+    aggregateAmountOutstandingValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerGroupMember().getAggregateAmountOutstanding())));
+    aggregateAmountOutstandingValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerGroupMember().getAggregateAmountOutstanding()));
     JAXBElement<MonetaryItemType> aggregateAmountOutstanding = rbiObjectFactory.createAggregateAmountOutstanding(aggregateAmountOutstandingValue);
     bodyItems.add(aggregateAmountOutstanding);
 
@@ -189,8 +186,8 @@ public class RLCBodyBorrowerGroup  implements BodyInterface {
     MonetaryItemType aggregateCreditExposureValue = new MonetaryItemType();
     aggregateCreditExposureValue.setContextRef(asofglobalborrowergroup);
     aggregateCreditExposureValue.setUnitRef(currency);
-    aggregateCreditExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerMember().getAggregateCreditExposure())));
-    aggregateCreditExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerMember().getAggregateCreditExposure()));
+    aggregateCreditExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerGroupMember().getAggregateCreditExposure())));
+    aggregateCreditExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerGroupMember().getAggregateCreditExposure()));
     JAXBElement<MonetaryItemType> aggregateCreditExposure = rbiObjectFactory.createAggregateCreditExposure(aggregateCreditExposureValue);
     bodyItems.add(aggregateCreditExposure);
 
@@ -199,7 +196,7 @@ public class RLCBodyBorrowerGroup  implements BodyInterface {
     aggregateCreditExposureAsPercentageOfCapitalFundsValue.setContextRef(fromtoglobalborrowergroup);
     aggregateCreditExposureAsPercentageOfCapitalFundsValue.setUnitRef(percentage);
     aggregateCreditExposureAsPercentageOfCapitalFundsValue.setDecimals("1");
-    aggregateCreditExposureAsPercentageOfCapitalFundsValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerMember().getAggregateCreditExposureAsPercentageOfCapitalFunds()));
+    aggregateCreditExposureAsPercentageOfCapitalFundsValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerGroupMember().getAggregateCreditExposureAsPercentageOfCapitalFunds()));
     JAXBElement<PercentItemType> aggregateCreditExposureAsPercentageOfCapitalFunds = rbiObjectFactory.createAggregateCreditExposureAsPercentageOfCapitalFunds(aggregateCreditExposureAsPercentageOfCapitalFundsValue);
     bodyItems.add(aggregateCreditExposureAsPercentageOfCapitalFunds);
 
@@ -207,8 +204,8 @@ public class RLCBodyBorrowerGroup  implements BodyInterface {
     MonetaryItemType aggregateInvestmentExposureValue = new MonetaryItemType();
     aggregateInvestmentExposureValue.setContextRef(asofglobalborrowergroup);
     aggregateInvestmentExposureValue.setUnitRef(currency);
-    aggregateInvestmentExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerMember().getAggregateInvestmentExposure())));
-    aggregateInvestmentExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerMember().getAggregateInvestmentExposure()));
+    aggregateInvestmentExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerGroupMember().getAggregateInvestmentExposure())));
+    aggregateInvestmentExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerGroupMember().getAggregateInvestmentExposure()));
     JAXBElement<MonetaryItemType> aggregateInvestmentExposure = rbiObjectFactory.createAggregateInvestmentExposure(aggregateInvestmentExposureValue);
     bodyItems.add(aggregateInvestmentExposure);
 
@@ -216,8 +213,8 @@ public class RLCBodyBorrowerGroup  implements BodyInterface {
     MonetaryItemType aggregateExposureValue = new MonetaryItemType();
     aggregateExposureValue.setContextRef(asofglobalborrowergroup);
     aggregateExposureValue.setUnitRef(currency);
-    aggregateExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerMember().getAggregateExposure())));
-    aggregateExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerMember().getAggregateExposure()));
+    aggregateExposureValue.setDecimals(String.format("%s", CommonFns.getDecimals(rlcItem.getRlcBorrowerGroupMember().getAggregateExposure())));
+    aggregateExposureValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerGroupMember().getAggregateExposure()));
     JAXBElement<MonetaryItemType> aggregateExposure = rbiObjectFactory.createAggregateExposure(aggregateExposureValue);
     bodyItems.add(aggregateExposure);
 
@@ -226,11 +223,10 @@ public class RLCBodyBorrowerGroup  implements BodyInterface {
     aggregateExposureAsPercentageOfCapitalFundsValue.setContextRef(asofglobalborrowergroup);
     aggregateExposureAsPercentageOfCapitalFundsValue.setUnitRef(percentage);
     aggregateExposureAsPercentageOfCapitalFundsValue.setDecimals("1");
-    aggregateExposureAsPercentageOfCapitalFundsValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerMember().getAggregateExposureAsPercentageOfCapitalFunds()));
+    aggregateExposureAsPercentageOfCapitalFundsValue.setValue(new BigDecimal(rlcItem.getRlcBorrowerGroupMember().getAggregateExposureAsPercentageOfCapitalFunds()));
     JAXBElement<PercentItemType> aggregateExposureAsPercentageOfCapitalFunds = rbiObjectFactory.createAggregateExposureAsPercentageOfCapitalFunds(aggregateExposureAsPercentageOfCapitalFundsValue);
     bodyItems.add(aggregateExposureAsPercentageOfCapitalFunds);
 
-  }
     return bodyItems;
 
     }

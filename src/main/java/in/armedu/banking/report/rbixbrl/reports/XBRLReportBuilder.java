@@ -1,7 +1,7 @@
 package in.armedu.banking.report.rbixbrl.reports;
 
-import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCBody;
-import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCGeneralBody;
+// import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCBody;
+// import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCGeneralBody;
 import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCGeneralContext;
 import in.armedu.banking.report.rbixbrl.part.rlc.impl.RLCUnit;
 import in.armedu.banking.report.rbixbrl.part.ros.impl.ROSBody;
@@ -15,6 +15,8 @@ import in.armedu.banking.report.rbixbrl.reports.impl.RBIROSXBRLReportImpl;
 import in.armedu.banking.report.rbixbrl.reports.impl.RBIALOXBRLReportImpl;
 import in.armedu.banking.report.rbixbrl.reports.impl.RBICEMXBRLReportImpl;
 import in.armedu.banking.report.rbixbrl.reports.impl.RBIPCIXBRLReportImpl;
+import in.armedu.banking.report.rbixbrl.reports.impl.RBIROPXBRLReportImpl;
+import in.armedu.banking.report.rbixbrl.reports.impl.RBIVMRXBRLReportImpl;
 
 public class XBRLReportBuilder {
     public XBRLReportIntf buildROSReport(){
@@ -55,6 +57,14 @@ public class XBRLReportBuilder {
     }
     public XBRLReportIntf buildPCIReport(){
         RBIPCIXBRLReportImpl report = new RBIPCIXBRLReportImpl();
+        return report;
+    }
+    public XBRLReportIntf buildROPReport(){
+        RBIROPXBRLReportImpl report = new RBIROPXBRLReportImpl();
+        return report;
+    }
+    public XBRLReportIntf buildVMRReport(){
+        RBIVMRXBRLReportImpl report = new RBIVMRXBRLReportImpl();
         return report;
     }
 }

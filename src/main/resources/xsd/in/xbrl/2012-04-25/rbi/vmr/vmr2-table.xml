@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<link:linkbase xmlns:table="http://xbrl.org/2014/table"
+xmlns:xbrlte= "http://xbrl.org/2014/table/error"
+xmlns:tablemodel= "http://xbrl.org/2014/table/model"
+xmlns:label="http://xbrl.org/2008/label"
+xmlns:reference="http://xbrl.org/2008/reference"
+xmlns:eg= "http://www.iris.com/tablelinbase"
+xmlns:link ="http://www.xbrl.org/2003/linkbase"
+xmlns:xbrli= "http://www.xbrl.org/2003/instance"
+xmlns:xfi= "http://www.xbrl.org/2005/function/instance"
+xmlns:xbrldi= "http://xbrl.org/2006/xbrldi"
+xmlns:xbrldt= "http://xbrl.org/2005/xbrldt"
+xmlns:xl= "http://www.xbrl.org/2003/XLink"
+xmlns:xlink= "http://www.w3.org/1999/xlink"
+xmlns:xs= "http://www.w3.org/2001/XMLSchema"
+xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+xmlns:gen= "http://xbrl.org/2008/generic"
+xmlns:var= "http://xbrl.org/2008/variable"
+xmlns:formula= "http://xbrl.org/2008/formula"
+xmlns:tuple= "http://xbrl.org/2010/formula/tuple"
+xmlns:df="http://xbrl.org/2008/filter/dimension"
+xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi"
+xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://xbrl.org/2008/reference http://www.xbrl.org/2008/generic-reference.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2014/table http://www.xbrl.org/2014/table.xsd http://xbrl.org/2008/filter/dimension http://www.xbrl.org/2008/dimension-filter.xsd">
+<link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2014/table-breakdown" xlink:type="simple" xlink:href="http://www.xbrl.org/2014/table.xsd#table-breakdown"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2014/breakdown-tree" xlink:type="simple" xlink:href="http://www.xbrl.org/2014/table.xsd#breakdown-tree"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2014/definition-node-subtree" xlink:type="simple" xlink:href="http://www.xbrl.org/2014/table.xsd#definition-node-subtree"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2014/aspect-node-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2014/table.xsd#aspect-node-filter"/>
+
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/2014-08-19/rbi/VMR2/GeneralInformation_Lytgeninfo" xlink:type="simple" xlink:href="in-rbi-VMR2-rol.xsd#GeneralInformation_Lytgeninfo"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/2014-08-19/rbi/VMR2/GeneralInformation_Lytgeninfo">
+
+
+ <table:table id="id_GeneralInformation_Lytgeninfo" xlink:type="resource" xlink:label="GeneralInformation_Lytgeninfo" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_0" parentChildOrder="parent-first"  id="Breakdownx_0"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_1" parentChildOrder="parent-first"  id="Breakdowny_1"/>
+ <table:ruleNode id="id_RuleNode_1" xlink:type="resource" xlink:label="RuleNode_1" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_4" xlink:type="resource" xlink:label="RuleNode_4" abstract="false">
+ </table:ruleNode> 
+
+<table:ruleNode id="id_RuleNode_3" xlink:type="resource" xlink:label="RuleNode_3" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:ReturnName
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode>  
+ 
+ <table:ruleNode id="id_RuleNode_5a" xlink:type="resource" xlink:label="RuleNode_5a" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:ReturnCode
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+ 
+ 
+ <table:ruleNode id="id_RuleNode_3a" xlink:type="resource" xlink:label="RuleNode_3a" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:NameOfReportingInstitution
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_7a" xlink:type="resource" xlink:label="RuleNode_7a" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:BankCode
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+ 
+ <table:ruleNode id="id_RuleNode_10z" xlink:type="resource" xlink:label="RuleNode_10z" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:ReportingFrequency
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+ 
+ <table:ruleNode id="id_RuleNode_3z" xlink:type="resource" xlink:label="RuleNode_3z" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:ReportingPeriodStartDate
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+   
+ <table:ruleNode id="id_RuleNode_5z" xlink:type="resource" xlink:label="RuleNode_5z" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:DateOfQuarterEnded
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ 
+ 
+ 
+ <table:ruleNode id="id_RuleNode_6z" xlink:type="resource" xlink:label="RuleNode_6z" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:DateOfSubmission
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+ 
+ <!-- <table:ruleNode id="id_RuleNode_13z" xlink:type="resource" xlink:label="RuleNode_13z" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- in-rbi-rep:ReportStatus -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>   -->
+ 
+ <!-- <table:ruleNode id="id_RuleNode_14z" xlink:type="resource" xlink:label="RuleNode_14z" abstract="false"> -->
+<!-- <formula:concept> -->
+<!-- <formula:qname> -->
+<!-- in-rbi-rep:DateOfAudit -->
+<!-- </formula:qname> -->
+<!-- </formula:concept> -->
+<!-- <formula:period> -->
+<!-- <formula:instant value="xs:date($refPeriodEndDate)" /> -->
+<!-- </formula:period> -->
+ <!-- </table:ruleNode>  -->
+ 
+ 
+ 
+ <table:ruleNode id="id_RuleNode_16z" xlink:type="resource" xlink:label="RuleNode_16z" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:ReturnVersion
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+ 
+ <table:ruleNode id="id_RuleNode_2" xlink:type="resource" xlink:label="RuleNode_2" abstract="true">
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="GeneralInformation_Lytgeninfo" xlink:to="Label_Breakdownx_0" axis="x" order="0"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="GeneralInformation_Lytgeninfo" xlink:to="Label_Breakdowny_1" axis="y" order="1"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_0" xlink:to="RuleNode_1" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_1" xlink:to="RuleNode_2" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_1" xlink:to="RuleNode_4" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_3" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_5a" order="2" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_3a" order="3" />
+<table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_7a" order="4" />
+<table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_10z" order="5" />
+<table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_3z" order="6" />
+<table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_5z" order="7" />
+<table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_6z" order="8" />
+<!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_13z" order="9" /> -->
+<!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_14z" order="10" /> -->
+<table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_2" xlink:to="RuleNode_16z" order="9" />
+
+
+
+
+
+
+ </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/2014-08-19/rbi/VMR2/SecurityArrangements_LytSecarr" xlink:type="simple" xlink:href="in-rbi-VMR2-rol.xsd#SecurityArrangements_LytSecarr"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/2014-08-19/rbi/VMR2/SecurityArrangements_LytSecarr">
+
+
+ <table:table id="id_SecurityArrangements_LytSecarr" xlink:type="resource" xlink:label="SecurityArrangements_LytSecarr" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_2" parentChildOrder="parent-first"  id="Breakdownx_2"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_3" parentChildOrder="parent-first"  id="Breakdowny_3"/>
+ <table:ruleNode id="id_RuleNode_7" xlink:type="resource" xlink:label="RuleNode_7" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_10" xlink:type="resource" xlink:label="RuleNode_10" abstract="false">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_9" xlink:type="resource" xlink:label="RuleNode_9" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:TotalNumberOfBranchesIncludingExtensionCounters
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_11" xlink:type="resource" xlink:label="RuleNode_11" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_12" xlink:type="resource" xlink:label="RuleNode_12" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:HighRiskVulnerabilityBranches
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_13" xlink:type="resource" xlink:label="RuleNode_13" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:NormalRiskVulnerabilityBranches
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_14" xlink:type="resource" xlink:label="RuleNode_14" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:TotalNumberOfVulnerableBranches
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_15" xlink:type="resource" xlink:label="RuleNode_15" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_16" xlink:type="resource" xlink:label="RuleNode_16" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:ArmedGuards
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_17" xlink:type="resource" xlink:label="RuleNode_17" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:UnArmedGuards
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_18" xlink:type="resource" xlink:label="RuleNode_18" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:NumberOfBranchesInWhichAlarmSystemHasBeenProvided
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_19" xlink:type="resource" xlink:label="RuleNode_19" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_20" xlink:type="resource" xlink:label="RuleNode_20" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:CollapsibleDoorsAndShuttersAtTheMainEntrance
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_21" xlink:type="resource" xlink:label="RuleNode_21" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:NightLatchesAutoLockToCashiersCabins
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_22" xlink:type="resource" xlink:label="RuleNode_22" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:GrillGatesToStrongRooms
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_23" xlink:type="resource" xlink:label="RuleNode_23" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:CashVansForRemittanceOfCash
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_24" xlink:type="resource" xlink:label="RuleNode_24" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:ArmouredCashVans
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_25" xlink:type="resource" xlink:label="RuleNode_25" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:ClosedCircuitTVs
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_26" xlink:type="resource" xlink:label="RuleNode_26" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:TimeLockDevices
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_27" xlink:type="resource" xlink:label="RuleNode_27" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_28" xlink:type="resource" xlink:label="RuleNode_28" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:PoliceArmedGuardsProvided
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_29" xlink:type="resource" xlink:label="RuleNode_29" abstract="false">
+<formula:concept>
+<formula:qname>
+in-rbi-rep:CurrencyChestsProvidedWithHotLineTelephone
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure="QName('http://www.xbrl.org/2003/instance','xbrli:pure')"/>
+</formula:unit>
+<formula:period>
+<formula:instant value="xs:date($refPeriodEndDate)" />
+</formula:period>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_8" xlink:type="resource" xlink:label="RuleNode_8" abstract="true">
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="SecurityArrangements_LytSecarr" xlink:to="Label_Breakdownx_2" axis="x" order="2"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="SecurityArrangements_LytSecarr" xlink:to="Label_Breakdowny_3" axis="y" order="3"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_2" xlink:to="RuleNode_7" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_3" xlink:to="RuleNode_8" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_7" xlink:to="RuleNode_10" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_8" xlink:to="RuleNode_9" order="1" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_9" xlink:to="RuleNode_11" order="2" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_11" xlink:to="RuleNode_12" order="3" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_11" xlink:to="RuleNode_13" order="4" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_11" xlink:to="RuleNode_14" order="5" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_9" xlink:to="RuleNode_15" order="6" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_15" xlink:to="RuleNode_16" order="7" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_15" xlink:to="RuleNode_17" order="8" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_9" xlink:to="RuleNode_18" order="9" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_9" xlink:to="RuleNode_19" order="10" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_19" xlink:to="RuleNode_20" order="11" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_19" xlink:to="RuleNode_21" order="12" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_19" xlink:to="RuleNode_22" order="13" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_19" xlink:to="RuleNode_23" order="14" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_19" xlink:to="RuleNode_24" order="15" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_19" xlink:to="RuleNode_25" order="16" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_19" xlink:to="RuleNode_26" order="17" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_9" xlink:to="RuleNode_27" order="18" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_27" xlink:to="RuleNode_28" order="19" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_27" xlink:to="RuleNode_29" order="20" /> </gen:link>
+<link:roleRef roleURI="http://www.rbi.org/in/xbrl/2014-08-19/rbi/VMR2/Signatories_lytsignatr" xlink:type="simple" xlink:href="in-rbi-VMR2-rol.xsd#Signatories_lytsignatr"/>
+ <gen:link xlink:type="extended" xlink:role="http://www.rbi.org/in/xbrl/2014-08-19/rbi/VMR2/Signatories_lytsignatr">
+
+
+ <table:table id="id_Signatories_lytsignatr" xlink:type="resource" xlink:label="Signatories_lytsignatr" parentChildOrder="children-first"/>
+
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdownx_4" parentChildOrder="parent-first"  id="Breakdownx_4"/>
+<table:breakdown xlink:type="resource" xlink:label="Label_Breakdowny_5" parentChildOrder="parent-first"  id="Breakdowny_5"/>
+ <table:ruleNode id="id_RuleNode_30" xlink:type="resource" xlink:label="RuleNode_30" abstract="true">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_33" xlink:type="resource" xlink:label="RuleNode_33" abstract="false" tagSelector="Id_CustomNode_36">
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_34" xlink:type="resource" xlink:label="RuleNode_34" abstract="false" tagSelector="Id_CustomNode_37">
+ </table:ruleNode> 
+
+ <!-- <table:ruleNode id="id_RuleNode_32" xlink:type="resource" xlink:label="RuleNode_32" abstract="true"> -->
+ <!-- </table:ruleNode>  -->
+
+ <table:ruleNode id="id_RuleNode_35" xlink:type="resource" xlink:label="RuleNode_35" abstract="false">
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+in-rbi-rep:NameOfAuthorisedReportingOfficial
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_37"><formula:concept>
+<formula:qname>
+in-rbi-rep:NameOfPersonCountersigned
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_38" xlink:type="resource" xlink:label="RuleNode_38" abstract="false">
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+in-rbi-rep:DesignationOfAuthorisedReportingOfficial
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_37"><formula:concept>
+<formula:qname>
+in-rbi-rep:DesignationOfPersonCountersigned
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_39" xlink:type="resource" xlink:label="RuleNode_39" abstract="false">
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+in-rbi-rep:EMailIDOfAuthorisedReportingOfficial
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_37"><formula:concept>
+<formula:qname>
+in-rbi-rep:EMailIDOfPersonCountersigned
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+  
+ <table:ruleNode id="id_RuleNode_40" xlink:type="resource" xlink:label="RuleNode_40" abstract="false">
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+in-rbi-rep:OfficeTelephoneNumberOfAuthorisedReportingOfficial
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_37"><formula:concept>
+<formula:qname>
+in-rbi-rep:OfficeTelephoneNumberOfPersonCountersigned
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode>
+
+ <table:ruleNode id="id_RuleNode_41" xlink:type="resource" xlink:label="RuleNode_41" abstract="false">
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+in-rbi-rep:ResidenceTelephoneNumberOfAuthorisedReportingOfficial
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_37"><formula:concept>
+<formula:qname>
+in-rbi-rep:ResidenceTelephoneNumberOfPersonCountersigned
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_42" xlink:type="resource" xlink:label="RuleNode_42" abstract="false">
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+in-rbi-rep:FaxNumberOfAuthorisedReportingOfficial
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_37"><formula:concept>
+<formula:qname>
+in-rbi-rep:FaxNumberOfPersonCountersigned
+</formula:qname>
+</formula:concept>
+<formula:unit augment="false">
+<formula:multiplyBy measure=" QName('http://www.xbrl.org/2003/instance','xbrli:pure')" />
+</formula:unit>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_43" xlink:type="resource" xlink:label="RuleNode_43" abstract="false">
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+in-rbi-rep:PlaceOfSigningByAuthorisedReportingOfficial
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_37"><formula:concept>
+<formula:qname>
+in-rbi-rep:PlaceOfSigningByPersonCountersigned
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_44" xlink:type="resource" xlink:label="RuleNode_44" abstract="false">
+<table:ruleSet tag="Id_CustomNode_36"><formula:concept>
+<formula:qname>
+in-rbi-rep:DateOfSigningByAuthorisedReportingOfficial
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+<table:ruleSet tag="Id_CustomNode_37"><formula:concept>
+<formula:qname>
+in-rbi-rep:DateOfSigningByPersonCountersigned
+</formula:qname>
+</formula:concept>
+<formula:period>
+<formula:duration start="xs:date($refPeriodStartDate)" end="xs:date($refPeriodEndDate)" />
+</formula:period>
+</table:ruleSet>
+ </table:ruleNode> 
+
+ <table:ruleNode id="id_RuleNode_31" xlink:type="resource" xlink:label="RuleNode_31" abstract="true">
+ </table:ruleNode> 
+
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="Signatories_lytsignatr" xlink:to="Label_Breakdownx_4" axis="x" order="4"/>
+ <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown"  xlink:from="Signatories_lytsignatr" xlink:to="Label_Breakdowny_5" axis="y" order="5"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdownx_4" xlink:to="RuleNode_30" order="0"/>
+ <table:breakdownTreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/breakdown-tree"  xlink:from="Label_Breakdowny_5" xlink:to="RuleNode_31" order="0"/>
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_30" xlink:to="RuleNode_33" order="0" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_30" xlink:to="RuleNode_34" order="1" />
+ <!-- <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_32" order="2" /> -->
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_35" order="3" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_38" order="4" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_39" order="5" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_40" order="6" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_41" order="7" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_42" order="8" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_43" order="9" />
+ <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree"  xlink:from="RuleNode_31" xlink:to="RuleNode_44" order="10" /> </gen:link>
+ </link:linkbase>
