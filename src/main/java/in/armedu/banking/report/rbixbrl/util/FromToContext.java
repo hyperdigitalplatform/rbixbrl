@@ -1,9 +1,9 @@
 package in.armedu.banking.report.rbixbrl.util;
 
-import org.apache.commons.lang3.StringUtils;
+import java.util.Collection;
 
 public class FromToContext {
-    public static String getId(String type, String... args) {
+    public static String getId(String type, String startDate, String endDate, Collection<String>  String... args) {
         StringBuilder generateId = new StringBuilder(StringUtils.defaultIfEmpty(type, "fromto"));
         for (String arg : args) {
             if(arg == null || arg.isEmpty()) continue;

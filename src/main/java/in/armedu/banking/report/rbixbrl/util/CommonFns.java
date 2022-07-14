@@ -12,7 +12,20 @@ public class CommonFns {
             return "0";     
         }        
     }
-
+    public static String getDecimals(String amount, String scaleMeasures){
+        int trailingZeros = String.valueOf(amount).chars()
+        .reduce(0, (count, ch) -> (ch == '0') ? count + 1 : 0);
+        int trailingZerosScaleMeasures = String.valueOf(scaleMeasures).chars()
+        .reduce(0, (count, ch) -> (ch == '0') ? count + 1 : 0);
+        
+        if(trailingZeros >= trailingZerosScaleMeasures) {
+            return String.format("-%d", trailingZerosScaleMeasures);
+        } else if (trailingZeros >=(trailingZerosScaleMeasures-2) ) {
+            return String.format("-%d", (trailingZerosScaleMeasures-2));
+        } else {
+            return "0";     
+        }        
+    }
     public static String getPrecisions(String amount) {
         String[] splits= amount.split("\\.");
         if(splits.length > 1)
@@ -20,6 +33,7 @@ public class CommonFns {
         return "0";
     }
     
+
     // public static void main(String[] args) {
     //     int count = 0;
     //     count = CommonFns.getDecimals("123");
