@@ -139,9 +139,14 @@ public class Sample {
     public static void main(String[] args) throws Exception {
         ReportMetaDataNode metaDataNode = new ReportMetaDataNode();
         metaDataNode.setName("linkbase");
-        FileInputStream fileIS = new FileInputStream("src/main/resources/xsd/in/xbrl/2012-04-25/rbi/alo/alo-table.xml");
-        FileInputStream filescale = new FileInputStream("src/main/resources/xsd/in/xbrl/2012-04-25/rbi/alo/alo-table-Scale.xml");
-        
+        // FileInputStream fileIS = new FileInputStream("src/main/resources/xsd/in/xbrl/2012-04-25/rbi/alo/alo-table.xml");
+        // FileInputStream filescale = new FileInputStream("src/main/resources/xsd/in/xbrl/2012-04-25/rbi/alo/alo-table-Scale.xml");
+        // FileInputStream fileIS = new FileInputStream("src/main/resources/xsd/in/xbrl/2012-04-25/rbi/rle/rle-table.xml");
+        // FileInputStream filescale = new FileInputStream("src/main/resources/xsd/in/xbrl/2012-04-25/rbi/rle/rle-table-Scale.xml");
+        //FileInputStream fileIS = new FileInputStream("src/main/resources/xsd/in/xbrl/2012-04-25/rbi/vmr/vmr2-table.xml");
+        //FileInputStream filescale = new FileInputStream("src/main/resources/xsd/in/xbrl/2012-04-25/rbi/vmr/vmr2-table-Scale.xml");
+        FileInputStream fileIS = new FileInputStream("src/main/resources/xsd/in/xbrl/2012-04-25/rbi/pci/pci-table.xml");
+        FileInputStream filescale = new FileInputStream("src/main/resources/xsd/in/xbrl/2012-04-25/rbi/pci/pci-table-Scale.xml");
         DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = builderFactory.newDocumentBuilder();
         Document xmlDocument = builder.parse(fileIS);
@@ -180,7 +185,10 @@ public class Sample {
         System.out.println("Completed");
         ObjectMapper objectMapper = new ObjectMapper();
         String reportMetaDataJson = objectMapper.writeValueAsString(metaDataNode);
-        objectMapper.writeValue(new File("reportMetaDataNode.json"), metaDataNode);
+        //objectMapper.writeValue(new File("reportMetaDataNode.json"), metaDataNode);
+        //objectMapper.writeValue(new File("rle-reportMetaDataNode.json"), metaDataNode);
+        //objectMapper.writeValue(new File("vmr2-reportMetaDataNode.json"), metaDataNode);
+        objectMapper.writeValue(new File("pci-reportMetaDataNode.json"), metaDataNode);
         System.out.println(reportMetaDataJson);
     }
 

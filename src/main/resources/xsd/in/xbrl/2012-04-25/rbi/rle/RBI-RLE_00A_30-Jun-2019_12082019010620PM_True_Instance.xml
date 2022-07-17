@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Count:107-->
+<xbrli:xbrl xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref="http://www.xbrl.org/2004/ref" 
+xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi"
+xmlns:in-rbi-rep-par="http://www.rbi.org/in-rbi-rep-par"
+>
+<link:schemaRef xlink:type="simple" xlink:href="in-rbi-rle.xsd" />
+<xbrli:context id="fromto_20190401_20190630">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20190401_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Aaron">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfSectionAxis'>in-rbi-rep:ListOfAccountsOfUSDollarFiveMillionAndAboveMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Aaron</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Aaron">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfSectionAxis'>in-rbi-rep:ListOfAccountsOfUSDollarFiveMillionAndAboveMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Aaron</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20190401_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Yogesh">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfSectionAxis'>in-rbi-rep:ListOfAccountsOfUSDollarFiveMillionAndAboveMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Yogesh</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Yogesh">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfSectionAxis'>in-rbi-rep:ListOfAccountsOfUSDollarFiveMillionAndAboveMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Yogesh</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20190401_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Ashwini">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfSectionAxis'>in-rbi-rep:ListOfAccountsOfUSDollarFiveMillionAndAboveMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Ashwini</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Ashwini">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfSectionAxis'>in-rbi-rep:ListOfAccountsOfUSDollarFiveMillionAndAboveMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Ashwini</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20190401_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Sunita">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfSectionAxis'>in-rbi-rep:ListOfAccountsOfUSDollarFiveMillionAndAboveMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Sunita</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Sunita">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfSectionAxis'>in-rbi-rep:ListOfAccountsOfUSDollarFiveMillionAndAboveMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Sunita</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfSectionAxis'>in-rbi-rep:ListOfAccountsOfUSDollarFiveMillionAndAboveMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20190401_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Revathy">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfSectionAxis'>in-rbi-rep:ListOfAccountsBetweenUSDollarOneToFiveMillionMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Revathy</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Revathy">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfSectionAxis'>in-rbi-rep:ListOfAccountsBetweenUSDollarOneToFiveMillionMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Revathy</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20190401_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Navin">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfSectionAxis'>in-rbi-rep:ListOfAccountsBetweenUSDollarOneToFiveMillionMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Navin</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Navin">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfSectionAxis'>in-rbi-rep:ListOfAccountsBetweenUSDollarOneToFiveMillionMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Navin</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20190401_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Annirudh">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfSectionAxis'>in-rbi-rep:ListOfAccountsBetweenUSDollarOneToFiveMillionMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Annirudh</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Annirudh">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfSectionAxis'>in-rbi-rep:ListOfAccountsBetweenUSDollarOneToFiveMillionMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Annirudh</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20190401_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Akshay">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfSectionAxis'>in-rbi-rep:ListOfAccountsBetweenUSDollarOneToFiveMillionMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Akshay</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2019-04-01</xbrli:startDate>
+<xbrli:endDate>2019-06-30</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Akshay">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfSectionAxis'>in-rbi-rep:ListOfAccountsBetweenUSDollarOneToFiveMillionMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:NameOfBorrowerAxis'><in-rbi-rep-par:NameOfBorrowerDomain>Akshay</in-rbi-rep-par:NameOfBorrowerDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:TypeOfSectionAxis'>in-rbi-rep:ListOfAccountsBetweenUSDollarOneToFiveMillionMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="asof_20190630_InvestmentsDuringTheQuarterMoreThanUSDollarOneMillionMember_IN_592">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
+<xbrli:segment>
+<xbrldi:explicitMember dimension='in-rbi-rep:InvestmentsDuringTheQuarterMoreThanUSDollarOneMillionAxis'>in-rbi-rep:InvestmentsDuringTheQuarterMoreThanUSDollarOneMillionMember</xbrldi:explicitMember>
+<xbrldi:typedMember dimension='in-rbi-rep:CountryCodeAxis'><in-rbi-rep-par:CountryCodeDomain>IN</in-rbi-rep-par:CountryCodeDomain></xbrldi:typedMember>
+<xbrldi:typedMember dimension='in-rbi-rep:BranchCodeAxis'><in-rbi-rep-par:BranchCodeDomain>592</in-rbi-rep-par:BranchCodeDomain></xbrldi:typedMember>
+</xbrli:segment></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2019-06-30</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+
+<xbrli:unit id="USD">
+<xbrli:measure>iso4217:USD</xbrli:measure>
+</xbrli:unit>
+
+<in-rbi-rep:ReturnName contextRef="fromto_20190401_20190630" >Report on Large Exposures</in-rbi-rep:ReturnName>
+<in-rbi-rep:ReturnCode contextRef="fromto_20190401_20190630" >RLE</in-rbi-rep:ReturnCode>
+<in-rbi-rep:NameOfReportingInstitution contextRef="fromto_20190401_20190630" >Kookmin Bank</in-rbi-rep:NameOfReportingInstitution>
+<in-rbi-rep:BankCode contextRef="asof_20190630" >00A</in-rbi-rep:BankCode>
+<in-rbi-rep:DateOfQuarterEnded contextRef="asof_20190630" >2019-06-30</in-rbi-rep:DateOfQuarterEnded>
+<in-rbi-rep:ReportingFrequency contextRef="fromto_20190401_20190630" >Quarterly</in-rbi-rep:ReportingFrequency>
+<in-rbi-rep:DateOfReport contextRef="asof_20190630" >2019-08-05</in-rbi-rep:DateOfReport>
+<in-rbi-rep:ReportStatus contextRef="fromto_20190401_20190630" >Audited</in-rbi-rep:ReportStatus>
+<in-rbi-rep:DateOfAudit contextRef="asof_20190630" >2019-08-06</in-rbi-rep:DateOfAudit>
+<in-rbi-rep:ValidationStatus contextRef="fromto_20190401_20190630" >Validated</in-rbi-rep:ValidationStatus>
+<in-rbi-rep:ReturnVersion contextRef="fromto_20190401_20190630" >V1.3</in-rbi-rep:ReturnVersion>
+<in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20190630" >2019-04-01</in-rbi-rep:ReportingPeriodStartDate>
+<in-rbi-rep:BorrowerGroupName contextRef="fromto_20190401_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Aaron" >IRIS</in-rbi-rep:BorrowerGroupName>
+<in-rbi-rep:RegistrationNumber contextRef="fromto_20190401_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Aaron" >12345</in-rbi-rep:RegistrationNumber>
+<in-rbi-rep:CategoryOfBorrower contextRef="fromto_20190401_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Aaron" >New</in-rbi-rep:CategoryOfBorrower>
+<in-rbi-rep:SovereignCharacter contextRef="fromto_20190401_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Aaron" >ARM</in-rbi-rep:SovereignCharacter>
+<in-rbi-rep:AggregateAmountOfLimitsSanctioned contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Aaron" unitRef="USD" decimals="-6" >3579000000</in-rbi-rep:AggregateAmountOfLimitsSanctioned>
+<in-rbi-rep:AmountOfFundedLimitsSanctioned contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Aaron" unitRef="USD" decimals="-6" >1234000000</in-rbi-rep:AmountOfFundedLimitsSanctioned>
+<in-rbi-rep:AmountOfNonFundedLimitsSanctioned contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Aaron" unitRef="USD" decimals="-6" >2345000000</in-rbi-rep:AmountOfNonFundedLimitsSanctioned>
+<in-rbi-rep:AmountOutstanding contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Aaron" unitRef="USD" decimals="-4" >6543230000</in-rbi-rep:AmountOutstanding>
+<in-rbi-rep:SecurityValue contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Aaron" unitRef="USD" decimals="-6" >14000000</in-rbi-rep:SecurityValue>
+<in-rbi-rep:AssetsClassification contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Aaron" >Standard</in-rbi-rep:AssetsClassification>
+<in-rbi-rep:BorrowerGroupName contextRef="fromto_20190401_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Yogesh" >RBI</in-rbi-rep:BorrowerGroupName>
+<in-rbi-rep:RegistrationNumber contextRef="fromto_20190401_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Yogesh" >54321</in-rbi-rep:RegistrationNumber>
+<in-rbi-rep:CategoryOfBorrower contextRef="fromto_20190401_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Yogesh" >Existing</in-rbi-rep:CategoryOfBorrower>
+<in-rbi-rep:SovereignCharacter contextRef="fromto_20190401_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Yogesh" >YRP</in-rbi-rep:SovereignCharacter>
+<in-rbi-rep:AggregateAmountOfLimitsSanctioned contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Yogesh" unitRef="USD" decimals="-6" >5566000000</in-rbi-rep:AggregateAmountOfLimitsSanctioned>
+<in-rbi-rep:AmountOfFundedLimitsSanctioned contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Yogesh" unitRef="USD" decimals="-6" >4321000000</in-rbi-rep:AmountOfFundedLimitsSanctioned>
+<in-rbi-rep:AmountOfNonFundedLimitsSanctioned contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Yogesh" unitRef="USD" decimals="-6" >1245000000</in-rbi-rep:AmountOfNonFundedLimitsSanctioned>
+<in-rbi-rep:AmountOutstanding contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Yogesh" unitRef="USD" decimals="-4" >54432980000</in-rbi-rep:AmountOutstanding>
+<in-rbi-rep:SecurityValue contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Yogesh" unitRef="USD" decimals="-6" >423000000</in-rbi-rep:SecurityValue>
+<in-rbi-rep:AssetsClassification contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Yogesh" >Sub-standard</in-rbi-rep:AssetsClassification>
+<in-rbi-rep:BorrowerGroupName contextRef="fromto_20190401_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Ashwini" >Consulting</in-rbi-rep:BorrowerGroupName>
+<in-rbi-rep:RegistrationNumber contextRef="fromto_20190401_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Ashwini" >75432</in-rbi-rep:RegistrationNumber>
+<in-rbi-rep:CategoryOfBorrower contextRef="fromto_20190401_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Ashwini" >Existing</in-rbi-rep:CategoryOfBorrower>
+<in-rbi-rep:SovereignCharacter contextRef="fromto_20190401_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Ashwini" >ASR</in-rbi-rep:SovereignCharacter>
+<in-rbi-rep:AggregateAmountOfLimitsSanctioned contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Ashwini" unitRef="USD" decimals="-6" >12460000000</in-rbi-rep:AggregateAmountOfLimitsSanctioned>
+<in-rbi-rep:AmountOfFundedLimitsSanctioned contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Ashwini" unitRef="USD" decimals="-6" >5678000000</in-rbi-rep:AmountOfFundedLimitsSanctioned>
+<in-rbi-rep:AmountOfNonFundedLimitsSanctioned contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Ashwini" unitRef="USD" decimals="-6" >6782000000</in-rbi-rep:AmountOfNonFundedLimitsSanctioned>
+<in-rbi-rep:AmountOutstanding contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Ashwini" unitRef="USD" decimals="-4" >7775670000</in-rbi-rep:AmountOutstanding>
+<in-rbi-rep:SecurityValue contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Ashwini" unitRef="USD" decimals="-6" >234000000</in-rbi-rep:SecurityValue>
+<in-rbi-rep:AssetsClassification contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Ashwini" >Doubtful</in-rbi-rep:AssetsClassification>
+<in-rbi-rep:BorrowerGroupName contextRef="fromto_20190401_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Sunita" >Taxonomy</in-rbi-rep:BorrowerGroupName>
+<in-rbi-rep:RegistrationNumber contextRef="fromto_20190401_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Sunita" >46245</in-rbi-rep:RegistrationNumber>
+<in-rbi-rep:CategoryOfBorrower contextRef="fromto_20190401_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Sunita" >New</in-rbi-rep:CategoryOfBorrower>
+<in-rbi-rep:SovereignCharacter contextRef="fromto_20190401_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Sunita" >SSJ</in-rbi-rep:SovereignCharacter>
+<in-rbi-rep:AggregateAmountOfLimitsSanctioned contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Sunita" unitRef="USD" decimals="-4" >74627850000</in-rbi-rep:AggregateAmountOfLimitsSanctioned>
+<in-rbi-rep:AmountOfFundedLimitsSanctioned contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Sunita" unitRef="USD" decimals="-4" >68372980000</in-rbi-rep:AmountOfFundedLimitsSanctioned>
+<in-rbi-rep:AmountOfNonFundedLimitsSanctioned contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Sunita" unitRef="USD" decimals="-4" >6254870000</in-rbi-rep:AmountOfNonFundedLimitsSanctioned>
+<in-rbi-rep:AmountOutstanding contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Sunita" unitRef="USD" decimals="-6" >123434000000</in-rbi-rep:AmountOutstanding>
+<in-rbi-rep:SecurityValue contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Sunita" unitRef="USD" decimals="-6" >43000000</in-rbi-rep:SecurityValue>
+<in-rbi-rep:AssetsClassification contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592_Sunita" >Loss</in-rbi-rep:AssetsClassification>
+<in-rbi-rep:AggregateAmountOfLimitsSanctioned contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592" unitRef="USD" decimals="-4" >96232850000</in-rbi-rep:AggregateAmountOfLimitsSanctioned>
+<in-rbi-rep:AmountOfFundedLimitsSanctioned contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592" unitRef="USD" decimals="-4" >79605980000</in-rbi-rep:AmountOfFundedLimitsSanctioned>
+<in-rbi-rep:AmountOfNonFundedLimitsSanctioned contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592" unitRef="USD" decimals="-4" >16626870000</in-rbi-rep:AmountOfNonFundedLimitsSanctioned>
+<in-rbi-rep:AmountOutstanding contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592" unitRef="USD" decimals="-4" >192185880000</in-rbi-rep:AmountOutstanding>
+<in-rbi-rep:SecurityValue contextRef="asof_20190630_ListOfAccountsOfUSDollarFiveMillionAndAboveMember_IN_592" unitRef="USD" decimals="-6" >714000000</in-rbi-rep:SecurityValue>
+<in-rbi-rep:BorrowerGroupName contextRef="fromto_20190401_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Revathy" >IRIS GROUP</in-rbi-rep:BorrowerGroupName>
+<in-rbi-rep:RegistrationNumber contextRef="fromto_20190401_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Revathy" >32415</in-rbi-rep:RegistrationNumber>
+<in-rbi-rep:CategoryOfBorrower contextRef="fromto_20190401_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Revathy" >New</in-rbi-rep:CategoryOfBorrower>
+<in-rbi-rep:SovereignCharacter contextRef="fromto_20190401_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Revathy" >RRR</in-rbi-rep:SovereignCharacter>
+<in-rbi-rep:AggregateAmountOfLimitsSanctioned contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Revathy" unitRef="USD" decimals="-4" >71323540000</in-rbi-rep:AggregateAmountOfLimitsSanctioned>
+<in-rbi-rep:AmountOfFundedLimitsSanctioned contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Revathy" unitRef="USD" decimals="-4" >64748540000</in-rbi-rep:AmountOfFundedLimitsSanctioned>
+<in-rbi-rep:AmountOfNonFundedLimitsSanctioned contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Revathy" unitRef="USD" decimals="-6" >6575000000</in-rbi-rep:AmountOfNonFundedLimitsSanctioned>
+<in-rbi-rep:AmountOutstanding contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Revathy" unitRef="USD" decimals="-6" >6435000000</in-rbi-rep:AmountOutstanding>
+<in-rbi-rep:SecurityValue contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Revathy" unitRef="USD" decimals="-6" >234000000</in-rbi-rep:SecurityValue>
+<in-rbi-rep:AssetsClassification contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Revathy" >Standard</in-rbi-rep:AssetsClassification>
+<in-rbi-rep:BorrowerGroupName contextRef="fromto_20190401_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Navin" >RBI DROUP</in-rbi-rep:BorrowerGroupName>
+<in-rbi-rep:RegistrationNumber contextRef="fromto_20190401_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Navin" >84746</in-rbi-rep:RegistrationNumber>
+<in-rbi-rep:CategoryOfBorrower contextRef="fromto_20190401_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Navin" >New</in-rbi-rep:CategoryOfBorrower>
+<in-rbi-rep:SovereignCharacter contextRef="fromto_20190401_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Navin" >NRB</in-rbi-rep:SovereignCharacter>
+<in-rbi-rep:AggregateAmountOfLimitsSanctioned contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Navin" unitRef="USD" decimals="-4" >50195540000</in-rbi-rep:AggregateAmountOfLimitsSanctioned>
+<in-rbi-rep:AmountOfFundedLimitsSanctioned contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Navin" unitRef="USD" decimals="-6" >47648000000</in-rbi-rep:AmountOfFundedLimitsSanctioned>
+<in-rbi-rep:AmountOfNonFundedLimitsSanctioned contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Navin" unitRef="USD" decimals="-4" >2547540000</in-rbi-rep:AmountOfNonFundedLimitsSanctioned>
+<in-rbi-rep:AmountOutstanding contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Navin" unitRef="USD" decimals="-6" >435000000</in-rbi-rep:AmountOutstanding>
+<in-rbi-rep:SecurityValue contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Navin" unitRef="USD" decimals="-6" >543000000</in-rbi-rep:SecurityValue>
+<in-rbi-rep:AssetsClassification contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Navin" >Loss</in-rbi-rep:AssetsClassification>
+<in-rbi-rep:BorrowerGroupName contextRef="fromto_20190401_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Annirudh" >RBIMAPPING</in-rbi-rep:BorrowerGroupName>
+<in-rbi-rep:RegistrationNumber contextRef="fromto_20190401_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Annirudh" >64547</in-rbi-rep:RegistrationNumber>
+<in-rbi-rep:CategoryOfBorrower contextRef="fromto_20190401_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Annirudh" >Existing</in-rbi-rep:CategoryOfBorrower>
+<in-rbi-rep:SovereignCharacter contextRef="fromto_20190401_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Annirudh" >ASB</in-rbi-rep:SovereignCharacter>
+<in-rbi-rep:AggregateAmountOfLimitsSanctioned contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Annirudh" unitRef="USD" decimals="-6" >8253000000</in-rbi-rep:AggregateAmountOfLimitsSanctioned>
+<in-rbi-rep:AmountOfFundedLimitsSanctioned contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Annirudh" unitRef="USD" decimals="-6" >657000000</in-rbi-rep:AmountOfFundedLimitsSanctioned>
+<in-rbi-rep:AmountOfNonFundedLimitsSanctioned contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Annirudh" unitRef="USD" decimals="-6" >7596000000</in-rbi-rep:AmountOfNonFundedLimitsSanctioned>
+<in-rbi-rep:AmountOutstanding contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Annirudh" unitRef="USD" decimals="-6" >35000000</in-rbi-rep:AmountOutstanding>
+<in-rbi-rep:SecurityValue contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Annirudh" unitRef="USD" decimals="-6" >3245000000</in-rbi-rep:SecurityValue>
+<in-rbi-rep:AssetsClassification contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Annirudh" >Sub-standard</in-rbi-rep:AssetsClassification>
+<in-rbi-rep:BorrowerGroupName contextRef="fromto_20190401_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Akshay" >RBICONSULTANT</in-rbi-rep:BorrowerGroupName>
+<in-rbi-rep:RegistrationNumber contextRef="fromto_20190401_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Akshay" >63648</in-rbi-rep:RegistrationNumber>
+<in-rbi-rep:CategoryOfBorrower contextRef="fromto_20190401_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Akshay" >Existing</in-rbi-rep:CategoryOfBorrower>
+<in-rbi-rep:SovereignCharacter contextRef="fromto_20190401_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Akshay" >APJ</in-rbi-rep:SovereignCharacter>
+<in-rbi-rep:AggregateAmountOfLimitsSanctioned contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Akshay" unitRef="USD" decimals="-6" >2543701000000</in-rbi-rep:AggregateAmountOfLimitsSanctioned>
+<in-rbi-rep:AmountOfFundedLimitsSanctioned contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Akshay" unitRef="USD" decimals="-6" >2543467000000</in-rbi-rep:AmountOfFundedLimitsSanctioned>
+<in-rbi-rep:AmountOfNonFundedLimitsSanctioned contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Akshay" unitRef="USD" decimals="-6" >234000000</in-rbi-rep:AmountOfNonFundedLimitsSanctioned>
+<in-rbi-rep:AmountOutstanding contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Akshay" unitRef="USD" decimals="-6" >532000000</in-rbi-rep:AmountOutstanding>
+<in-rbi-rep:SecurityValue contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Akshay" unitRef="USD" decimals="-6" >345000000</in-rbi-rep:SecurityValue>
+<in-rbi-rep:AssetsClassification contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592_Akshay" >Doubtful</in-rbi-rep:AssetsClassification>
+<in-rbi-rep:AggregateAmountOfLimitsSanctioned contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592" unitRef="USD" decimals="-4" >2673473080000</in-rbi-rep:AggregateAmountOfLimitsSanctioned>
+<in-rbi-rep:AmountOfFundedLimitsSanctioned contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592" unitRef="USD" decimals="-4" >2656520540000</in-rbi-rep:AmountOfFundedLimitsSanctioned>
+<in-rbi-rep:AmountOfNonFundedLimitsSanctioned contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592" unitRef="USD" decimals="-4" >16952540000</in-rbi-rep:AmountOfNonFundedLimitsSanctioned>
+<in-rbi-rep:AmountOutstanding contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592" unitRef="USD" decimals="-6" >7437000000</in-rbi-rep:AmountOutstanding>
+<in-rbi-rep:SecurityValue contextRef="asof_20190630_ListOfAccountsBetweenUSDollarOneToFiveMillionMember_IN_592" unitRef="USD" decimals="-6" >4367000000</in-rbi-rep:SecurityValue>
+<in-rbi-rep:InvestmentsInLocalGovernments contextRef="asof_20190630_InvestmentsDuringTheQuarterMoreThanUSDollarOneMillionMember_IN_592" unitRef="USD" decimals="-4" >7363527960000</in-rbi-rep:InvestmentsInLocalGovernments>
+<in-rbi-rep:InvestmentsInIndia contextRef="asof_20190630_InvestmentsDuringTheQuarterMoreThanUSDollarOneMillionMember_IN_592" unitRef="USD" decimals="-6" >68132000000</in-rbi-rep:InvestmentsInIndia>
+<in-rbi-rep:InvestmentsInOECDCountries contextRef="asof_20190630_InvestmentsDuringTheQuarterMoreThanUSDollarOneMillionMember_IN_592" unitRef="USD" decimals="-6" >654000000</in-rbi-rep:InvestmentsInOECDCountries>
+<in-rbi-rep:OtherInvestments contextRef="asof_20190630_InvestmentsDuringTheQuarterMoreThanUSDollarOneMillionMember_IN_592" unitRef="USD" decimals="-4" >87090000</in-rbi-rep:OtherInvestments>
+<in-rbi-rep:AggregateOfCategoriesOfInvestments contextRef="asof_20190630_InvestmentsDuringTheQuarterMoreThanUSDollarOneMillionMember_IN_592" unitRef="USD" decimals="-4" >7432401050000</in-rbi-rep:AggregateOfCategoriesOfInvestments>
+
+</xbrli:xbrl>
