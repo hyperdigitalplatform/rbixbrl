@@ -2,110 +2,126 @@ package in.armedu.banking.report.rbixbrl;
 
 import java.io.FileWriter;
 import java.io.StringWriter;
+import java.util.ArrayList;
+import java.util.List;
 
 import in.armedu.banking.report.rbixbrl.core.ReportGenerationEngine;
 import in.armedu.banking.report.rbixbrl.core.ReportGenerationFactory;
 import in.armedu.banking.report.rbixbrl.core.impl.XBRLReportGenerationEngine;
-import in.armedu.banking.report.rbixbrl.model.pci.PCIGeneralData;
 import in.armedu.banking.report.rbixbrl.model.pci.PCIReportData;
-import in.armedu.banking.report.rbixbrl.model.pci.PCIItemData;
+import in.armedu.banking.report.rbixbrl.model.pci.GeneralInformation_Lyt_Page1;
+import in.armedu.banking.report.rbixbrl.model.pci.PARTA_lyt_PartA;
+import in.armedu.banking.report.rbixbrl.model.pci.CustomerCreditLimitAxis;
+import in.armedu.banking.report.rbixbrl.model.pci.CustomerCreditLimitAxisEnum;
+import in.armedu.banking.report.rbixbrl.model.pci.TypeOfProblemCreditAndInvestmentCustomerAxis;
+import in.armedu.banking.report.rbixbrl.model.pci.TypeOfProblemCreditAndInvestmentCustomerAxisEnum;
+import in.armedu.banking.report.rbixbrl.model.pci.AuthorisedSignatory_Signatory;
 
 public class PCIXBRLApplication {
     
     public static void main(String[] args) throws Exception {
     PCIReportData data = new PCIReportData();
 
-    PCIGeneralData pciGeneralData = new PCIGeneralData();
-    //model for general data
-    pciGeneralData.setReturnName("Problem Credit and Investments");
-    pciGeneralData.setReturnCode("PCI");
-    pciGeneralData.setNameOfReportingInstitution("Kookmin Bank");
-    pciGeneralData.setBankCode("00A");
-    pciGeneralData.setReportForTheYearEnded("2019-06-30");
-    pciGeneralData.setReportingFrequency("Quarterly");
-    pciGeneralData.setDateOfReport("2019-08-01");
-    pciGeneralData.setReportStatus("Audited");
-    pciGeneralData.setDateOfAudit("2019-08-02");
-    pciGeneralData.setValidationStatus("Validated");
-    pciGeneralData.setToolName("iFile");
-    pciGeneralData.setReturnVersion("V2.1");
-    pciGeneralData.setReportingPeriodStartDate("2019-04-01");
-    
-    //model for signatory data
-    pciGeneralData.setNameOfSignatory("RTIRJNCVXRJJFG");
-    pciGeneralData.setDesignationOfSignatory("FGUGTIKREUTRU");
-    pciGeneralData.setAuthorisedSignatoryMobileNumber("5241789363");
-    pciGeneralData.setAuthorisedSignatoryLandlineNumber("5236125874");
-    pciGeneralData.setEMailIDOfAuthorisedReportingOfficial("FSDHRUESY@dfsf.com");
-    pciGeneralData.setPlaceOfSignature("WE4RY4WA3Q546");
-    pciGeneralData.setDateOfSigning("2019-08-05");
+    data.setBankCode("00A");
+    data.setStartDate("2019-04-01");
+    data.setEndDate("2019-06-30");
+    data.setPeriodDate("2019-06-30");
 
-    data.setGeneralData(pciGeneralData);
+    GeneralInformation_Lyt_Page1 generalInfo = new GeneralInformation_Lyt_Page1();
+    generalInfo.setReturnName("Problem Credit and Investments");
+    generalInfo.setReturnCode("PCI");
+    generalInfo.setNameOfReportingInstitution("Kookmin Bank");
+    generalInfo.setBankCode("00A");
+    generalInfo.setReportForTheYearEnded("2019-06-30");
+    generalInfo.setReportingFrequency("Quarterly");
+    generalInfo.setDateOfReport("2019-08-01");
+    generalInfo.setReportStatus("Audited");
+    generalInfo.setDateOfAudit("2019-08-02");
+    generalInfo.setValidationStatus("Validated");
+    generalInfo.setToolName("iFile");
+    generalInfo.setReturnVersion("V2.1");
+    generalInfo.setReportingPeriodStartDate("2019-04-01");
+    data.setGeneralInformation_Lyt_Page1(generalInfo);
+
+    PARTA_lyt_PartA partA = new PARTA_lyt_PartA();
+    partA.setCountryCode("IN");
+    partA.setBranchCode("592");
+    partA.setNameOfBorrower("Borrower 1");
+    partA.setBorrowerGroupName("Borrower Group 1");
+    partA.setIndustryCode("Service");
+    CustomerCreditLimitAxis customerCreditLimitAxis = new CustomerCreditLimitAxis();
+    TypeOfProblemCreditAndInvestmentCustomerAxis typeProblemCredit = new TypeOfProblemCreditAndInvestmentCustomerAxis();
+    typeProblemCredit.setType(TypeOfProblemCreditAndInvestmentCustomerAxisEnum.ProblemCreditMember);
+    typeProblemCredit.setValue("WDRWLYPQAE");
+    List<TypeOfProblemCreditAndInvestmentCustomerAxis> typePCIC = new ArrayList<TypeOfProblemCreditAndInvestmentCustomerAxis>();
+    typePCIC.add(typeProblemCredit);
+    customerCreditLimitAxis.setType(CustomerCreditLimitAxisEnum.MoreThanUSD2MillionMember);
+    customerCreditLimitAxis.setTypeOfProblemCreditAndInvestmentCustomerAxis(typePCIC);
+    List<CustomerCreditLimitAxis> customerCLA = new ArrayList<CustomerCreditLimitAxis>();
+    customerCLA.add(customerCreditLimitAxis);
+
+    partA.setSoverignCharacter(customerCLA);
+
+    // CustomerCreditLimitAxis customerCreditLimitAxis = new CustomerCreditLimitAxis();
+    // TypeOfProblemCreditAndInvestmentCustomerAxis typeProblemCredit = new TypeOfProblemCreditAndInvestmentCustomerAxis();
+    // typeProblemCredit.setType(TypeOfProblemCreditAndInvestmentCustomerAxisEnum.ProblemCreditMember);
+    // typeProblemCredit.setValue("WDRWLYPQAE");
+    // List<TypeOfProblemCreditAndInvestmentCustomerAxis> typePCIC = new ArrayList<TypeOfProblemCreditAndInvestmentCustomerAxis>();
+    // typePCIC.add(typeProblemCredit);
+    // customerCreditLimitAxis.setType(CustomerCreditLimitAxisEnum.MoreThanUSD2MillionMember);
+    // customerCreditLimitAxis.setTypeOfProblemCreditAndInvestmentCustomerAxis(typePCIC);
+    // List<CustomerCreditLimitAxis> customerCLA = new ArrayList<CustomerCreditLimitAxis>();
+    // customerCLA.add(customerCreditLimitAxis);
+    // partA.setCategoryOfBorrower(customerCLA);
+    // partA.setAggregateAmountOfLimitsSanctioned(customerCLA);
+    // partA.setAmountOfFundedLimitsSanctioned(customerCLA);
+    // partA.setAmountOfNonFundedLimitsSanctioned(customerCLA);
+    // partA.setAmountOutstandingOfCustomerCreditLimitSenctioned(customerCLA);
+    // partA.setSecurityValue(customerCLA);
+    // partA.setAssetsClassification(customerCLA);
+    // partA.setAssetsClassificationHostCountry(customerCLA);
+    // partA.setAmountOfProvisionsHeldAtBranch(customerCLA);
+    // partA.setAmountOfProvisionsHeldAtHeadOffice(customerCLA);
+    // partA.setAmountOfInterestSuspense(customerCLA);
+    // partA.setAggregateAmountOfProvisionAndInterestSuspense(customerCLA);
+    // partA.setAmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities(customerCLA);
+    // partA.setAmountOfShortFall(customerCLA);
+    // partA.setAmountOfHeadOfficeSupportFund(customerCLA);
+    // partA.setDevelopmentsDuringQuarter(customerCLA);
+
+    // customerCreditLimitAxis.setSoverignCharacter("WDRWLYPQAE");
+    // customerCreditLimitAxis.setCategoryOfBorrower("Existing");
+    // customerCreditLimitAxis.setAggregateAmountOfLimitsSanctioned("16950000");
+    // customerCreditLimitAxis.setAmountOfFundedLimitsSanctioned("8350000");
+    // customerCreditLimitAxis.setAmountOfNonFundedLimitsSanctioned("8600000");
+    // customerCreditLimitAxis.setAmountOutstandingOfCustomerCreditLimitSenctioned("8850000");
+    // customerCreditLimitAxis.setSecurityValue("9100000");
+    // customerCreditLimitAxis.setAssetsClassification("Sub-standard");
+    // customerCreditLimitAxis.setAssetsClassificationHostCountry("Performing Asset");
+    // customerCreditLimitAxis.setAmountOfProvisionsHeldAtBranch("29350000");
+    // customerCreditLimitAxis.setAmountOfProvisionsHeldAtHeadOffice("9600000");
+    // customerCreditLimitAxis.setAmountOfInterestSuspense("9850000");
+    // customerCreditLimitAxis.setAggregateAmountOfProvisionAndInterestSuspense("48800000");
+    // customerCreditLimitAxis.setAmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities("64000000");
+    // customerCreditLimitAxis.setAmountOfShortFall("15200000");
+    // customerCreditLimitAxis.setAmountOfHeadOfficeSupportFund("13600000");
+    // customerCreditLimitAxis.setDevelopmentsDuringQuarter("CXTZKHAPVK");
+    // partA.setPARTA_lyt_PartA().add(customerCreditLimitAxis);
+    List<PARTA_lyt_PartA> partAList = new ArrayList<PARTA_lyt_PartA>();
+    partAList.add(partA);
+    data.setPARTA_lyt_PartA(partAList);
+   
+
+    // AuthorisedSignatory_Signatory signatoryDetails = new AuthorisedSignatory_Signatory();
+    // signatoryDetails.setNameOfSignatory("");    
+    // signatoryDetails.setDesignationOfSignatory("");
+    // signatoryDetails.setAuthorisedSignatoryMobileNumber("");
+    // signatoryDetails.setAuthorisedSignatoryLandlineNumber("");
+    // signatoryDetails.setEMailIDOfAuthorisedReportingOfficial("");
+    // signatoryDetails.setPlaceOfSignature("");
+    // signatoryDetails.setDateOfSigning("");
 
 
-    // PCI Item
-    //  PCI Item MoreThanUSD2MillionMember
-
-    PCIItemData pciItemDataMoreThanUSD2MillionMember = new PCIItemData();
-
-    //item data for general context
-    pciItemDataMoreThanUSD2MillionMember.setCustomerCreditLimitAxis("MoreThanUSD2MillionMember");
-    pciItemDataMoreThanUSD2MillionMember.setTypeOfProblemCreditAndInvestmentCustomerAxis("ProblemCreditMember");
-    pciItemDataMoreThanUSD2MillionMember.setCountryCodeAxis("IN");
-    pciItemDataMoreThanUSD2MillionMember.setBranchCodeAxis("592");
-    pciItemDataMoreThanUSD2MillionMember.setNameOfBorrowerAxis("Borrower 1");
-    pciItemDataMoreThanUSD2MillionMember.setBorrowerGroupNameAxis("Borrower Group 1");
-    pciItemDataMoreThanUSD2MillionMember.setIndustryCodeAxis("Service");
-    // pciItemDataMoreThanUSD2MillionMember.setNameOfIssuerAxis("Borrower 3");
-    // pciItemDataMoreThanUSD2MillionMember.setIssuerGroupNameAxis("Borrower Group 3");
-
-    //item data for body
-    pciItemDataMoreThanUSD2MillionMember.setSoverignCharacter("WDRWLYPQAE");
-    pciItemDataMoreThanUSD2MillionMember.setCategoryOfBorrower("Existing");
-    pciItemDataMoreThanUSD2MillionMember.setAggregateAmountOfLimitsSanctioned("16950000");
-    pciItemDataMoreThanUSD2MillionMember.setAmountOfFundedLimitsSanctioned("8350000");
-    pciItemDataMoreThanUSD2MillionMember.setAmountOfNonFundedLimitsSanctioned("8600000");
-    pciItemDataMoreThanUSD2MillionMember.setAmountOutstandingOfCustomerCreditLimitSenctioned("8850000");
-    pciItemDataMoreThanUSD2MillionMember.setSecurityValue("9100000");
-    pciItemDataMoreThanUSD2MillionMember.setAssetsClassification("Sub-standard");
-    pciItemDataMoreThanUSD2MillionMember.setAssetsClassificationHostCountry("Performing Asset");
-    pciItemDataMoreThanUSD2MillionMember.setAmountOfProvisionsHeldAtBranch("29350000");
-    pciItemDataMoreThanUSD2MillionMember.setAmountOfProvisionsHeldAtHeadOffice("9600000");
-    pciItemDataMoreThanUSD2MillionMember.setAmountOfInterestSuspense("9850000");
-    pciItemDataMoreThanUSD2MillionMember.setAggregateAmountOfProvisionAndInterestSuspense("48800000");
-    pciItemDataMoreThanUSD2MillionMember.setAmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities("64000000");
-    pciItemDataMoreThanUSD2MillionMember.setAmountOfShortFall("15200000");
-    pciItemDataMoreThanUSD2MillionMember.setAmountOfHeadOfficeSupportFund("13600000");
-    pciItemDataMoreThanUSD2MillionMember.setDevelopmentsDuringQuarter("CXTZKHAPVK");
-
-    //  PCI Item LessThanUSD2MillionMember
-
-    PCIItemData pciItemDataLessThanUSD2MillionMember = new PCIItemData();
-
-    //item data for general context
-    pciItemDataMoreThanUSD2MillionMember.setCustomerCreditLimitAxis("LessThanUSD2MillionMember");
-    pciItemDataLessThanUSD2MillionMember.setTypeOfProblemCreditAndInvestmentCustomerAxis("ProblemCreditMember");
-    pciItemDataLessThanUSD2MillionMember.setCountryCodeAxis("IN");
-    pciItemDataLessThanUSD2MillionMember.setBranchCodeAxis("592");
-
-    // item data for body
-    pciItemDataLessThanUSD2MillionMember.setAggregateAmountOfLimitsSanctioned("14850000");
-    pciItemDataLessThanUSD2MillionMember.setAmountOfFundedLimitsSanctioned("7300000");
-    pciItemDataLessThanUSD2MillionMember.setAmountOfNonFundedLimitsSanctioned("7550000");
-    pciItemDataLessThanUSD2MillionMember.setAmountOutstandingOfCustomerCreditLimitSenctioned("7800000");
-    pciItemDataLessThanUSD2MillionMember.setSecurityValue("8050000");
-    pciItemDataLessThanUSD2MillionMember.setAmountOfProvisionsHeldAtBranch("8300000");
-    pciItemDataLessThanUSD2MillionMember.setAmountOfProvisionsHeldAtHeadOffice("8550000");
-    pciItemDataLessThanUSD2MillionMember.setAmountOfInterestSuspense("8800000");
-    pciItemDataLessThanUSD2MillionMember.setAggregateAmountOfProvisionAndInterestSuspense("25650000");
-    pciItemDataLessThanUSD2MillionMember.setAmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities("68200000");
-    pciItemDataLessThanUSD2MillionMember.setAmountOfShortFall("42550000");
-    pciItemDataLessThanUSD2MillionMember.setAmountOfHeadOfficeSupportFund("8850000");
-    pciItemDataLessThanUSD2MillionMember.setDevelopmentsDuringQuarter("OTUWXXFIXT");
-    
-    data.getItemDatas().add(pciItemDataMoreThanUSD2MillionMember);
-
-    data.getItemDatas().add(pciItemDataLessThanUSD2MillionMember);
 
     ReportGenerationEngine engine = new XBRLReportGenerationEngine();
     StringWriter sw = engine.execute(ReportGenerationFactory.RBI_PCI_XBRL_REPORT, data);
