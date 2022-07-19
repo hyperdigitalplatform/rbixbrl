@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref="http://www.xbrl.org/2004/ref" 
+xmlns:in-rbi-rep="http://www.xbrl.in/rbi/Formx/2010-03-26"
+>
+<link:schemaRef xlink:type="simple" xlink:href="in-rbi-rep-2010-03-26.xsd" />
+<xbrli:context id="asof_20210528">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2021-05-28</xbrli:instant>
+</xbrli:period>
+</xbrli:context>
+<xbrli:context id="fromto_20210501_20210528">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">636</xbrli:identifier>
+</xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2021-05-01</xbrli:startDate>
+<xbrli:endDate>2021-05-28</xbrli:endDate>
+</xbrli:period>
+</xbrli:context>
+
+<xbrli:unit id="INR">
+<xbrli:measure>iso4217:INR</xbrli:measure>
+</xbrli:unit>
+<xbrli:unit id="PURE">
+<xbrli:measure>xbrli:pure</xbrli:measure>
+</xbrli:unit>
+
+<in-rbi-rep:ReturnName contextRef="fromto_20210501_20210528" >Form X</in-rbi-rep:ReturnName>
+<in-rbi-rep:ReturnCode contextRef="fromto_20210501_20210528" >Form X</in-rbi-rep:ReturnCode>
+<in-rbi-rep:NameOfReportingInstitution contextRef="fromto_20210501_20210528" >AXIS BANK LIMITED</in-rbi-rep:NameOfReportingInstitution>
+<in-rbi-rep:BankCode contextRef="asof_20210528" >636</in-rbi-rep:BankCode>
+<in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20210528" >2021-05-01</in-rbi-rep:ReportingPeriodStartDate>
+<in-rbi-rep:ReportingPeriodEndDate contextRef="asof_20210528" >2021-05-28</in-rbi-rep:ReportingPeriodEndDate>
+<in-rbi-rep:ReportingFrequency contextRef="fromto_20210501_20210528" >Monthly</in-rbi-rep:ReportingFrequency>
+<in-rbi-rep:ReturnVersion contextRef="fromto_20210501_20210528" >v1.0</in-rbi-rep:ReturnVersion>
+
+<in-rbi-rep:PaidupEquityShareCapital contextRef="asof_20210528" unitRef="INR" decimals="-3" >17000</in-rbi-rep:PaidupEquityShareCapital>
+<in-rbi-rep:CashHand contextRef="asof_20210528" unitRef="INR" decimals="-3" >12000</in-rbi-rep:CashHand>
+<in-rbi-rep:ReservesSurplus contextRef="asof_20210528" unitRef="INR" decimals="-3" >57000</in-rbi-rep:ReservesSurplus>
+<in-rbi-rep:BalancesWithReserveBankOfIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >13000</in-rbi-rep:BalancesWithReserveBankOfIndia>
+<in-rbi-rep:ReserveFund contextRef="asof_20210528" unitRef="INR" decimals="-3" >18000</in-rbi-rep:ReserveFund>
+<in-rbi-rep:BalancesWithOtherBanksInIndiaCurrentAccount contextRef="asof_20210528" unitRef="INR" decimals="-3" >62000</in-rbi-rep:BalancesWithOtherBanksInIndiaCurrentAccount>
+<in-rbi-rep:OtherReserves contextRef="asof_20210528" unitRef="INR" decimals="-3" >19000</in-rbi-rep:OtherReserves>
+<in-rbi-rep:BalancesWithStateBankOfIndiaCurrentAccount contextRef="asof_20210528" unitRef="INR" decimals="-3" >14000</in-rbi-rep:BalancesWithStateBankOfIndiaCurrentAccount>
+<in-rbi-rep:SecuritiesPremium contextRef="asof_20210528" unitRef="INR" decimals="-3" >20000</in-rbi-rep:SecuritiesPremium>
+<in-rbi-rep:BalancesWithSubsidiariesStateBankOfIndiaCurrentAccount contextRef="asof_20210528" unitRef="INR" decimals="-3" >15000</in-rbi-rep:BalancesWithSubsidiariesStateBankOfIndiaCurrentAccount>
+<in-rbi-rep:Deposits contextRef="asof_20210528" unitRef="INR" decimals="-3" >115000</in-rbi-rep:Deposits>
+<in-rbi-rep:BalancesWithOtherCommercialBanksCurrentAccount contextRef="asof_20210528" unitRef="INR" decimals="-3" >16000</in-rbi-rep:BalancesWithOtherCommercialBanksCurrentAccount>
+<in-rbi-rep:CurrentDeposits contextRef="asof_20210528" unitRef="INR" decimals="-3" >43000</in-rbi-rep:CurrentDeposits>
+<in-rbi-rep:BalancesWithCooperativeBanksCurrentAccount contextRef="asof_20210528" unitRef="INR" decimals="-3" >17000</in-rbi-rep:BalancesWithCooperativeBanksCurrentAccount>
+<in-rbi-rep:CurrentDepositsFromBanks contextRef="asof_20210528" unitRef="INR" decimals="-3" >21000</in-rbi-rep:CurrentDepositsFromBanks>
+<in-rbi-rep:MoneyAtCallShortNoticeInIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >57000</in-rbi-rep:MoneyAtCallShortNoticeInIndia>
+<in-rbi-rep:CurrentDepositsFromOthers contextRef="asof_20210528" unitRef="INR" decimals="-3" >22000</in-rbi-rep:CurrentDepositsFromOthers>
+<in-rbi-rep:MoneyAtCallShortNoticeInIndiaWithCommercialBanks contextRef="asof_20210528" unitRef="INR" decimals="-3" >18000</in-rbi-rep:MoneyAtCallShortNoticeInIndiaWithCommercialBanks>
+<in-rbi-rep:SavingsBankDeposits contextRef="asof_20210528" unitRef="INR" decimals="-3" >23000</in-rbi-rep:SavingsBankDeposits>
+<in-rbi-rep:MoneyAtCallShortNoticeInIndiaWithCooperativeBanks contextRef="asof_20210528" unitRef="INR" decimals="-3" >19000</in-rbi-rep:MoneyAtCallShortNoticeInIndiaWithCooperativeBanks>
+<in-rbi-rep:TermDeposits contextRef="asof_20210528" unitRef="INR" decimals="-3" >49000</in-rbi-rep:TermDeposits>
+<in-rbi-rep:MoneyAtCallShortNoticeInIndiaOtherInstitutions contextRef="asof_20210528" unitRef="INR" decimals="-3" >20000</in-rbi-rep:MoneyAtCallShortNoticeInIndiaOtherInstitutions>
+<in-rbi-rep:TermDepositsFromBanks contextRef="asof_20210528" unitRef="INR" decimals="-3" >24000</in-rbi-rep:TermDepositsFromBanks>
+<in-rbi-rep:InvestmentsNet contextRef="asof_20210528" unitRef="INR" decimals="-3" >168000</in-rbi-rep:InvestmentsNet>
+<in-rbi-rep:TermDepositsFromOthers contextRef="asof_20210528" unitRef="INR" decimals="-3" >25000</in-rbi-rep:TermDepositsFromOthers>
+<in-rbi-rep:InvestmentsTreasuryBillsInIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >21000</in-rbi-rep:InvestmentsTreasuryBillsInIndia>
+<in-rbi-rep:Borrowings contextRef="asof_20210528" unitRef="INR" decimals="-3" >341000</in-rbi-rep:Borrowings>
+<in-rbi-rep:InvestmentsOtherCentralGovernmentSecuritiesInIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >22000</in-rbi-rep:InvestmentsOtherCentralGovernmentSecuritiesInIndia>
+<in-rbi-rep:BorrowingsBanksInIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >140000</in-rbi-rep:BorrowingsBanksInIndia>
+<in-rbi-rep:InvestmentsStateGovernmentSecuritiesInIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >23000</in-rbi-rep:InvestmentsStateGovernmentSecuritiesInIndia>
+<in-rbi-rep:BorrowingsReserveBankOfIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >26000</in-rbi-rep:BorrowingsReserveBankOfIndia>
+<in-rbi-rep:InvestmentOtherApprovedSecuritiesInIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >24000</in-rbi-rep:InvestmentOtherApprovedSecuritiesInIndia>
+<in-rbi-rep:BorrowingsStateBankOfIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >27000</in-rbi-rep:BorrowingsStateBankOfIndia>
+<in-rbi-rep:InvestmentSharesDebenturesInIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >25000</in-rbi-rep:InvestmentSharesDebenturesInIndia>
+<in-rbi-rep:BorrowingsSubsidiariesStateBankOfIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >28000</in-rbi-rep:BorrowingsSubsidiariesStateBankOfIndia>
+<in-rbi-rep:InvestmentFixedDepositsWithBanksInIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >26000</in-rbi-rep:InvestmentFixedDepositsWithBanksInIndia>
+<in-rbi-rep:BorrowingsOtherCommercialBanks contextRef="asof_20210528" unitRef="INR" decimals="-3" >29000</in-rbi-rep:BorrowingsOtherCommercialBanks>
+<in-rbi-rep:OtherInvestmentsInIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >27000</in-rbi-rep:OtherInvestmentsInIndia>
+<in-rbi-rep:BorrowingsCooperativeBanks contextRef="asof_20210528" unitRef="INR" decimals="-3" >30000</in-rbi-rep:BorrowingsCooperativeBanks>
+<in-rbi-rep:BillsPurchasedDiscounted contextRef="asof_20210528" unitRef="INR" decimals="-3" >150000</in-rbi-rep:BillsPurchasedDiscounted>
+<in-rbi-rep:BorrowingsBanksOutsideIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >31000</in-rbi-rep:BorrowingsBanksOutsideIndia>
+<in-rbi-rep:InlandBillsPurchasedDiscounted contextRef="asof_20210528" unitRef="INR" decimals="-3" >28000</in-rbi-rep:InlandBillsPurchasedDiscounted>
+<in-rbi-rep:BorrowingsFinancialInstitutionsInIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >134000</in-rbi-rep:BorrowingsFinancialInstitutionsInIndia>
+<in-rbi-rep:ForeignBillsPurchasedDiscounted contextRef="asof_20210528" unitRef="INR" decimals="-3" >122000</in-rbi-rep:ForeignBillsPurchasedDiscounted>
+<in-rbi-rep:BorrowingsIndustrialDevelopmentBankOfIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >32000</in-rbi-rep:BorrowingsIndustrialDevelopmentBankOfIndia>
+<in-rbi-rep:ExportBillsDrawnInIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >29000</in-rbi-rep:ExportBillsDrawnInIndia>
+<in-rbi-rep:BorrowingsNationalBankForAgriculturalAndRuralDevelopment contextRef="asof_20210528" unitRef="INR" decimals="-3" >33000</in-rbi-rep:BorrowingsNationalBankForAgriculturalAndRuralDevelopment>
+<in-rbi-rep:ImportBillsDrawnPayableInIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >30000</in-rbi-rep:ImportBillsDrawnPayableInIndia>
+<in-rbi-rep:BorrowingsEximBankOfIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >34000</in-rbi-rep:BorrowingsEximBankOfIndia>
+<in-rbi-rep:OtherForeignBillsPurchasedDiscounted contextRef="asof_20210528" unitRef="INR" decimals="-3" >63000</in-rbi-rep:OtherForeignBillsPurchasedDiscounted>
+<in-rbi-rep:BorrowingsOtherFinancialInstitutions contextRef="asof_20210528" unitRef="INR" decimals="-3" >35000</in-rbi-rep:BorrowingsOtherFinancialInstitutions>
+<in-rbi-rep:OtherForeignBillsPurchasedDiscountedPayableInIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >31000</in-rbi-rep:OtherForeignBillsPurchasedDiscountedPayableInIndia>
+<in-rbi-rep:BorrowingsFinancialInstitutionsOutsideIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >36000</in-rbi-rep:BorrowingsFinancialInstitutionsOutsideIndia>
+<in-rbi-rep:OtherForeignBillsPurchasedDiscountedPayableOutsideIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >32000</in-rbi-rep:OtherForeignBillsPurchasedDiscountedPayableOutsideIndia>
+<in-rbi-rep:OtherLiabilitiesIncludingProvisions contextRef="asof_20210528" unitRef="INR" decimals="-3" >195000</in-rbi-rep:OtherLiabilitiesIncludingProvisions>
+<in-rbi-rep:LoansAdvances contextRef="asof_20210528" unitRef="INR" decimals="-3" >138000</in-rbi-rep:LoansAdvances>
+<in-rbi-rep:BillsPayableInIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >75000</in-rbi-rep:BillsPayableInIndia>
+<in-rbi-rep:LoansAdvancesDueOthers contextRef="asof_20210528" unitRef="INR" decimals="-3" >33000</in-rbi-rep:LoansAdvancesDueOthers>
+<in-rbi-rep:BillsPayableInIndiaDrawnIndianOffice contextRef="asof_20210528" unitRef="INR" decimals="-3" >37000</in-rbi-rep:BillsPayableInIndiaDrawnIndianOffice>
+<in-rbi-rep:LoansAdvancesDueBanks contextRef="asof_20210528" unitRef="INR" decimals="-3" >105000</in-rbi-rep:LoansAdvancesDueBanks>
+<in-rbi-rep:BillsPayableInIndiaDrawnForeignOffice contextRef="asof_20210528" unitRef="INR" decimals="-3" >38000</in-rbi-rep:BillsPayableInIndiaDrawnForeignOffice>
+<in-rbi-rep:LoansAdvancesDueCooperativeBanksInIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >34000</in-rbi-rep:LoansAdvancesDueCooperativeBanksInIndia>
+<in-rbi-rep:BillsPayableOutsideIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >39000</in-rbi-rep:BillsPayableOutsideIndia>
+<in-rbi-rep:LoansAdvancesDueCommercialBanksInIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >35000</in-rbi-rep:LoansAdvancesDueCommercialBanksInIndia>
+<in-rbi-rep:CallReceivedInAdvance contextRef="asof_20210528" unitRef="INR" decimals="-3" >40000</in-rbi-rep:CallReceivedInAdvance>
+<in-rbi-rep:LoansAdvancesDueBanksOutsideIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >36000</in-rbi-rep:LoansAdvancesDueBanksOutsideIndia>
+<in-rbi-rep:MiscellaneousLiabilities contextRef="asof_20210528" unitRef="INR" decimals="-3" >41000</in-rbi-rep:MiscellaneousLiabilities>
+<in-rbi-rep:FixedAssets contextRef="asof_20210528" unitRef="INR" decimals="-3" >37000</in-rbi-rep:FixedAssets>
+<in-rbi-rep:InterOfficeAdjustmentsLiabilities contextRef="asof_20210528" unitRef="INR" decimals="-3" >85000</in-rbi-rep:InterOfficeAdjustmentsLiabilities>
+<in-rbi-rep:InterOfficeAdjustmentsAssets contextRef="asof_20210528" unitRef="INR" decimals="-3" >77000</in-rbi-rep:InterOfficeAdjustmentsAssets>
+<in-rbi-rep:InterOfficeAdjustmentsLiabilitiesWithOfficesInIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >42000</in-rbi-rep:InterOfficeAdjustmentsLiabilitiesWithOfficesInIndia>
+<in-rbi-rep:InterOfficeAdjustmentsAssetsWithOfficesInIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >38000</in-rbi-rep:InterOfficeAdjustmentsAssetsWithOfficesInIndia>
+<in-rbi-rep:InterOfficeAdjustmentLiabilitiesWithOfficesOutsideIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >43000</in-rbi-rep:InterOfficeAdjustmentLiabilitiesWithOfficesOutsideIndia>
+<in-rbi-rep:InterOfficeAdjustmentsAssetsWithOfficesOutsideIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >39000</in-rbi-rep:InterOfficeAdjustmentsAssetsWithOfficesOutsideIndia>
+<in-rbi-rep:DemandAndTimeLiabilitiesInIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >651000</in-rbi-rep:DemandAndTimeLiabilitiesInIndia>
+<in-rbi-rep:CapitalisedExpenses contextRef="asof_20210528" unitRef="INR" decimals="-3" >40000</in-rbi-rep:CapitalisedExpenses>
+<in-rbi-rep:ProfitLossAccount contextRef="asof_20210528" unitRef="INR" decimals="-3" >44000</in-rbi-rep:ProfitLossAccount>
+<in-rbi-rep:NonBankingAssetsAcquiredForClaims contextRef="asof_20210528" unitRef="INR" decimals="-3" >41000</in-rbi-rep:NonBankingAssetsAcquiredForClaims>
+<in-rbi-rep:OtherTangibleAssets contextRef="asof_20210528" unitRef="INR" decimals="-3" >59000</in-rbi-rep:OtherTangibleAssets>
+<in-rbi-rep:LiabilitiesInIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >854000</in-rbi-rep:LiabilitiesInIndia>
+<in-rbi-rep:AssetsInIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >854000</in-rbi-rep:AssetsInIndia>
+<in-rbi-rep:SecuredAdvances contextRef="asof_20210528" unitRef="INR" decimals="-3" >124000</in-rbi-rep:SecuredAdvances>
+<in-rbi-rep:UnsecuredAdvances contextRef="asof_20210528" unitRef="INR" decimals="-3" >125000</in-rbi-rep:UnsecuredAdvances>
+<in-rbi-rep:Advances contextRef="asof_20210528" unitRef="INR" decimals="-3" >249000</in-rbi-rep:Advances>
+<in-rbi-rep:PercentageOfCleanAdvances contextRef="asof_20210528" unitRef="PURE" decimals="1" >0.5</in-rbi-rep:PercentageOfCleanAdvances>
+<in-rbi-rep:PercentageOfAdvancesToDeposits contextRef="asof_20210528" unitRef="PURE" decimals="2" >2.17</in-rbi-rep:PercentageOfAdvancesToDeposits>
+<in-rbi-rep:NetDemandTimeLiabilitiesAfterDeductionOfZeroReservePrescriptions contextRef="asof_20210528" unitRef="INR" decimals="-3" >127000</in-rbi-rep:NetDemandTimeLiabilitiesAfterDeductionOfZeroReservePrescriptions>
+<in-rbi-rep:MinimumAssetsAcquiredInIndiaUnderSection25OfBankingRegulationAct contextRef="asof_20210528" unitRef="INR" decimals="-1" >95250</in-rbi-rep:MinimumAssetsAcquiredInIndiaUnderSection25OfBankingRegulationAct>
+<in-rbi-rep:TotalAssets contextRef="asof_20210528" unitRef="INR" decimals="-3" >129000</in-rbi-rep:TotalAssets>
+<in-rbi-rep:AssetsInIndiaExcludingInterOfficeAdjustmentsAndCapitalisedExpenses contextRef="asof_20210528" unitRef="INR" decimals="-3" >130000</in-rbi-rep:AssetsInIndiaExcludingInterOfficeAdjustmentsAndCapitalisedExpenses>
+<in-rbi-rep:SecuritiesApprovedUnderSection25OfBankingRegulationAct contextRef="asof_20210528" unitRef="INR" decimals="-3" >131000</in-rbi-rep:SecuritiesApprovedUnderSection25OfBankingRegulationAct>
+<in-rbi-rep:BalancesHeldAbroad contextRef="asof_20210528" unitRef="INR" decimals="-3" >152000</in-rbi-rep:BalancesHeldAbroad>
+<in-rbi-rep:InvestmentsHeldAbroad contextRef="asof_20210528" unitRef="INR" decimals="-3" >153000</in-rbi-rep:InvestmentsHeldAbroad>
+<in-rbi-rep:OtherForeignBillsPurchasedAndDiscountedOutsideIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >154000</in-rbi-rep:OtherForeignBillsPurchasedAndDiscountedOutsideIndia>
+<in-rbi-rep:OtherAssetsHeldOutsideIndia contextRef="asof_20210528" unitRef="INR" decimals="-3" >155000</in-rbi-rep:OtherAssetsHeldOutsideIndia>
+<in-rbi-rep:PlaceOfSignature contextRef="fromto_20210501_20210528" >New Mumbai</in-rbi-rep:PlaceOfSignature>
+<in-rbi-rep:Signature contextRef="fromto_20210501_20210528" >NMHKRIIOL</in-rbi-rep:Signature>
+<in-rbi-rep:DateOfSignature contextRef="fromto_20210501_20210528" >2021-06-02</in-rbi-rep:DateOfSignature>
+<in-rbi-rep:DesignationOfSignatory contextRef="fromto_20210501_20210528" >Assistant Executive</in-rbi-rep:DesignationOfSignatory>
+
+</xbrli:xbrl>

@@ -130,4 +130,17 @@ public class PCIXBRLApplication {
     fw.close();
         
     }
+    public static List<CustomerCreditLimitAxis> createCustomerCreditLimitAxis(CustomerCreditLimitAxisEnum customerCreditLimitEnum, TypeOfProblemCreditAndInvestmentCustomerAxisEnum typeOfProblemEnum, String value) {
+        CustomerCreditLimitAxis customerCreditLimitAxis = new CustomerCreditLimitAxis();
+        TypeOfProblemCreditAndInvestmentCustomerAxis typeProblemCredit = new TypeOfProblemCreditAndInvestmentCustomerAxis();
+        typeProblemCredit.setType(typeOfProblemEnum);
+        typeProblemCredit.setValue(value);
+        List<TypeOfProblemCreditAndInvestmentCustomerAxis> typePCIC = new ArrayList<TypeOfProblemCreditAndInvestmentCustomerAxis>();
+        typePCIC.add(typeProblemCredit);
+        customerCreditLimitAxis.setType(customerCreditLimitEnum);
+        customerCreditLimitAxis.setTypeOfProblemCreditAndInvestmentCustomerAxis(typePCIC);
+        List<CustomerCreditLimitAxis> customerCLA = new ArrayList<CustomerCreditLimitAxis>();
+        return customerCLA;
+    }
+    
 }

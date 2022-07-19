@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---->
+
+<link:linkbase xmlns:gen="http://xbrl.org/2008/generic"
+xmlns:label="http://xbrl.org/2008/label"
+xmlns:link="http://www.xbrl.org/2003/linkbase"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd http://xbrl.org/2008/label http://www.xbrl.org/2008/generic-label.xsd http://xbrl.org/2008/generic http://www.xbrl.org/2008/generic-link.xsd http://www.w3.org/1999/xlink http://www.xbrl.org/2003/xlink-2003-12-31.xsd">
+<link:roleRef roleURI="http://www.xbrl.org/2008/role/link"
+xlink:href="http://www.xbrl.org/2008/generic-link.xsd#standard-link-role"
+xlink:type="simple"/>
+<link:roleRef roleURI="http://www.xbrl.org/2008/role/label"
+xlink:href="http://www.xbrl.org/2008/generic-label.xsd#standard-label"
+xlink:type="simple"/>
+<link:roleRef roleURI="http://www.xbrl.org/2008/role/terseLabel"
+xlink:href="http://www.xbrl.org/2008/generic-label.xsd#terse-label"
+xlink:type="simple"/>
+<link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/element-label"
+xlink:href="http://www.xbrl.org/2008/generic-label.xsd#element-label"
+xlink:type="simple"/>
+<gen:link xlink:role="http://www.xbrl.org/2008/role/link" xlink:type="extended">
+<label:label xlink:label="res_1" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Part I - A. Liabilities in India</label:label>
+<link:loc xlink:href="formx-table.xml#id_PartI_PartI" xlink:label="loc_1" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_1" xlink:to="res_1" xlink:type="arc" order="0" />
+<label:label xlink:label="res_2" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">PartI_PartI</label:label>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_1" xlink:to="res_2" xlink:type="arc" order="1" />
+
+<label:label xlink:label="res_3" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Amount</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_4" xlink:label="loc_3" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_3" xlink:to="res_3" xlink:type="arc" order="0" />
+<label:label xlink:label="res_4" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">1. Paid-up capital (including *forfeited shares)</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_3" xlink:label="loc_4" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_4" xlink:to="res_4" xlink:type="arc" order="0" />
+<label:label xlink:label="res_5" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">2. Reserve fund and other Reserves</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_5" xlink:label="loc_5" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_5" xlink:to="res_5" xlink:type="arc" order="0" />
+<label:label xlink:label="res_6" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 2.1 Reserve fund</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_6" xlink:label="loc_6" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_6" xlink:to="res_6" xlink:type="arc" order="0" />
+<label:label xlink:label="res_7" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 2.2 Other reserves</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_7" xlink:label="loc_7" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_7" xlink:to="res_7" xlink:type="arc" order="0" />
+<label:label xlink:label="res_8" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 2.3 Shares premium account*</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_8" xlink:label="loc_8" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_8" xlink:to="res_8" xlink:type="arc" order="0" />
+<label:label xlink:label="res_9" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">3. Deposits</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_9" xlink:label="loc_9" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_9" xlink:to="res_9" xlink:type="arc" order="0" />
+<label:label xlink:label="res_10" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 3.1 Current deposits</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_10" xlink:label="loc_10" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_10" xlink:to="res_10" xlink:type="arc" order="0" />
+<label:label xlink:label="res_11" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">  3.1.1 From banks (including co-operative banks)</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_11" xlink:label="loc_11" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_11" xlink:to="res_11" xlink:type="arc" order="0" />
+<label:label xlink:label="res_12" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">  3.1.2 From others</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_12" xlink:label="loc_12" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_12" xlink:to="res_12" xlink:type="arc" order="0" />
+<label:label xlink:label="res_13" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 3.2 Savings Deposits</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_13" xlink:label="loc_13" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_13" xlink:to="res_13" xlink:type="arc" order="0" />
+<label:label xlink:label="res_14" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 3.3 Fixed Deposits (including Cash Certificates, Recurring deposits, etc.)</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_14" xlink:label="loc_14" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_14" xlink:to="res_14" xlink:type="arc" order="0" />
+<label:label xlink:label="res_15" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">  3.3.1 From banks (including co-operative banks)</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_15" xlink:label="loc_15" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_15" xlink:to="res_15" xlink:type="arc" order="0" />
+<label:label xlink:label="res_16" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">  3.3.2 From others</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_16" xlink:label="loc_16" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_16" xlink:to="res_16" xlink:type="arc" order="0" />
+<label:label xlink:label="res_17" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">4. Borrowings</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_17" xlink:label="loc_17" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_17" xlink:to="res_17" xlink:type="arc" order="0" />
+<label:label xlink:label="res_18" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 4.1 Borrowings from Banks in India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_18" xlink:label="loc_18" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_18" xlink:to="res_18" xlink:type="arc" order="0" />
+<label:label xlink:label="res_19" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">  4.1.1 Reserve Bank of India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_19" xlink:label="loc_19" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_19" xlink:to="res_19" xlink:type="arc" order="0" />
+<label:label xlink:label="res_20" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">  4.1.2 State Bank of India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_20" xlink:label="loc_20" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_20" xlink:to="res_20" xlink:type="arc" order="0" />
+<label:label xlink:label="res_21" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">  4.1.3 Subsidiaries of the State Bank of India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_21" xlink:label="loc_21" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_21" xlink:to="res_21" xlink:type="arc" order="0" />
+<label:label xlink:label="res_22" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">  4.1.4 Other commercial banks</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_22" xlink:label="loc_22" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_22" xlink:to="res_22" xlink:type="arc" order="0" />
+<label:label xlink:label="res_23" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">  4.1.5 Co-operative banks</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_23" xlink:label="loc_23" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_23" xlink:to="res_23" xlink:type="arc" order="0" />
+<label:label xlink:label="res_24" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 4.2 Borrowings from banks outside India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_24" xlink:label="loc_24" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_24" xlink:to="res_24" xlink:type="arc" order="0" />
+<label:label xlink:label="res_25" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 4.3 Borrowings from financial institutions in  India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_25" xlink:label="loc_25" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_25" xlink:to="res_25" xlink:type="arc" order="0" />
+<label:label xlink:label="res_26" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">  4.3.1 Industrial Development Bank of India </label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_26" xlink:label="loc_26" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_26" xlink:to="res_26" xlink:type="arc" order="0" />
+<label:label xlink:label="res_27" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">  4.3.2 National Bank for Agriculture and Rural Development</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_27" xlink:label="loc_27" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_27" xlink:to="res_27" xlink:type="arc" order="0" />
+<label:label xlink:label="res_28" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">  4.3.3. Export-Import Bank of India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_28" xlink:label="loc_28" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_28" xlink:to="res_28" xlink:type="arc" order="0" />
+<label:label xlink:label="res_29" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">  4.3.4. Other financial institutions</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_29" xlink:label="loc_29" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_29" xlink:to="res_29" xlink:type="arc" order="0" />
+<label:label xlink:label="res_30" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 4.4 Borrowings from financial institutions outside India.</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_30" xlink:label="loc_30" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_30" xlink:to="res_30" xlink:type="arc" order="0" />
+<label:label xlink:label="res_31" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">5. Other liabilities</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_31" xlink:label="loc_31" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_31" xlink:to="res_31" xlink:type="arc" order="0" />
+<label:label xlink:label="res_32" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 5.1 Bills payable in India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_32" xlink:label="loc_32" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_32" xlink:to="res_32" xlink:type="arc" order="0" />
+<label:label xlink:label="res_33" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">  5.1.1. Drawn by Indian offices</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_33" xlink:label="loc_33" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_33" xlink:to="res_33" xlink:type="arc" order="0" />
+<label:label xlink:label="res_34" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">  5.1.2. Drawn by foreign offices</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_34" xlink:label="loc_34" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_34" xlink:to="res_34" xlink:type="arc" order="0" />
+<label:label xlink:label="res_35" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 5.2 Bills payable outside India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_35" xlink:label="loc_35" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_35" xlink:to="res_35" xlink:type="arc" order="0" />
+<label:label xlink:label="res_36" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 5.3 Calls received in advance*</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_36" xlink:label="loc_36" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_36" xlink:to="res_36" xlink:type="arc" order="0" />
+<label:label xlink:label="res_37" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 5.4. Miscellaneous liabilities</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_37" xlink:label="loc_37" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_37" xlink:to="res_37" xlink:type="arc" order="0" />
+<label:label xlink:label="res_38" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">6. Branch adjustments@</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_38" xlink:label="loc_38" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_38" xlink:to="res_38" xlink:type="arc" order="0" />
+<label:label xlink:label="res_39" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 6.1 Among offices in India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_39" xlink:label="loc_39" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_39" xlink:to="res_39" xlink:type="arc" order="0" />
+<label:label xlink:label="res_40" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 6.2 With office outside India**</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_40" xlink:label="loc_40" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_40" xlink:to="res_40" xlink:type="arc" order="0" />
+<label:label xlink:label="res_41" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">7. Total demand and time liabilities, i.e., total of items A3, A4, and A5</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_41" xlink:label="loc_41" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_41" xlink:to="res_41" xlink:type="arc" order="0" />
+<label:label xlink:label="res_42" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">8. Balance of profit</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_42" xlink:label="loc_42" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_42" xlink:to="res_42" xlink:type="arc" order="0" />
+<label:label xlink:label="res_43" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Total liabilities</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_43" xlink:label="loc_43" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_43" xlink:to="res_43" xlink:type="arc" order="0" />
+<!-- <label:label xlink:label="res_44" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">A. Liabilities in India</label:label> -->
+<!-- <link:loc xlink:href="formx-table.xml#id_RuleNode_2" xlink:label="loc_44" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_44" xlink:to="res_44" xlink:type="arc" order="0" /> -->
+<label:label xlink:label="res_45" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Part I - B. Assets in India</label:label>
+<link:loc xlink:href="formx-table.xml#id_PartI_Layout1" xlink:label="loc_45" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_45" xlink:to="res_45" xlink:type="arc" order="0" />
+<label:label xlink:label="res_46" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">PartI_Layout1</label:label>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_45" xlink:to="res_46" xlink:type="arc" order="1" />
+
+<label:label xlink:label="res_47" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Amount</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_47" xlink:label="loc_47" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_47" xlink:to="res_47" xlink:type="arc" order="0" />
+<label:label xlink:label="res_48" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">1. Cash in hand</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_46" xlink:label="loc_48" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_48" xlink:to="res_48" xlink:type="arc" order="0" />
+<label:label xlink:label="res_49" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">2. Balances with Reserve Bank of India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_48" xlink:label="loc_49" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_49" xlink:to="res_49" xlink:type="arc" order="0" />
+<label:label xlink:label="res_50" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">3. Balances with other banks in India in current account</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_49" xlink:label="loc_50" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_50" xlink:to="res_50" xlink:type="arc" order="0" />
+<label:label xlink:label="res_51" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 3.1 The State Bank of India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_50" xlink:label="loc_51" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_51" xlink:to="res_51" xlink:type="arc" order="0" />
+<label:label xlink:label="res_52" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 3.2 Subsidiaries of the State Bank of India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_51" xlink:label="loc_52" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_52" xlink:to="res_52" xlink:type="arc" order="0" />
+<label:label xlink:label="res_53" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 3.3 Other Commercial banks</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_52" xlink:label="loc_53" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_53" xlink:to="res_53" xlink:type="arc" order="0" />
+<label:label xlink:label="res_54" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 3.4 Co-operative Banks</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_53" xlink:label="loc_54" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_54" xlink:to="res_54" xlink:type="arc" order="0" />
+<label:label xlink:label="res_55" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">4. Money at call and short notice</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_54" xlink:label="loc_55" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_55" xlink:to="res_55" xlink:type="arc" order="0" />
+<label:label xlink:label="res_56" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 4.1 With Commercial Banks</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_55" xlink:label="loc_56" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_56" xlink:to="res_56" xlink:type="arc" order="0" />
+<label:label xlink:label="res_57" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 4.2 With Co-operative Banks</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_56" xlink:label="loc_57" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_57" xlink:to="res_57" xlink:type="arc" order="0" />
+<label:label xlink:label="res_58" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 4.3 With other financial institutions</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_57" xlink:label="loc_58" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_58" xlink:to="res_58" xlink:type="arc" order="0" />
+<label:label xlink:label="res_59" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">5. Investment</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_58" xlink:label="loc_59" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_59" xlink:to="res_59" xlink:type="arc" order="0" />
+<label:label xlink:label="res_60" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">5.1 Treasury Bills</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_59" xlink:label="loc_60" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_60" xlink:to="res_60" xlink:type="arc" order="0" />
+<label:label xlink:label="res_61" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">5.2 Other Central Government Securities (including Treasury Savings Deposit Certificates and Postal Savings  Certificates and  deposits)</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_60" xlink:label="loc_61" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_61" xlink:to="res_61" xlink:type="arc" order="0" />
+<label:label xlink:label="res_62" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">5.3 State Government securities</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_61" xlink:label="loc_62" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_62" xlink:to="res_62" xlink:type="arc" order="0" />
+<label:label xlink:label="res_63" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">5.4 Other approved securities</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_62" xlink:label="loc_63" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_63" xlink:to="res_63" xlink:type="arc" order="0" />
+<label:label xlink:label="res_64" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">5.5 Shares and debentures of companies and corporations not included in 5.4 above.</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_63" xlink:label="loc_64" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_64" xlink:to="res_64" xlink:type="arc" order="0" />
+<label:label xlink:label="res_65" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">5.6 Fixed deposits with banks (including Co-operative Banks)</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_64" xlink:label="loc_65" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_65" xlink:to="res_65" xlink:type="arc" order="0" />
+<label:label xlink:label="res_66" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">5.7 Other investments in India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_65" xlink:label="loc_66" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_66" xlink:to="res_66" xlink:type="arc" order="0" />
+<label:label xlink:label="res_67" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">6. Bills purchased and discounted</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_66" xlink:label="loc_67" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_67" xlink:to="res_67" xlink:type="arc" order="0" />
+<label:label xlink:label="res_68" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 6.1 Inland bills purchased and discounted</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_67" xlink:label="loc_68" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_68" xlink:to="res_68" xlink:type="arc" order="0" />
+<label:label xlink:label="res_69" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 6.2 Foreign bills purchased and discounted</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_68" xlink:label="loc_69" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_69" xlink:to="res_69" xlink:type="arc" order="0" />
+<label:label xlink:label="res_70" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">  6.2.1. Exports bills drawn in India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_69" xlink:label="loc_70" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_70" xlink:to="res_70" xlink:type="arc" order="0" />
+<label:label xlink:label="res_71" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">  6.2.2. Import bills drawn on and payable in India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_70" xlink:label="loc_71" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_71" xlink:to="res_71" xlink:type="arc" order="0" />
+<label:label xlink:label="res_72" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">  6.2.3. Other foreign bills purchased and discounted</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_71" xlink:label="loc_72" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_72" xlink:to="res_72" xlink:type="arc" order="0" />
+<label:label xlink:label="res_73" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">   6.2.3.1. Payable in India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_72" xlink:label="loc_73" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_73" xlink:to="res_73" xlink:type="arc" order="0" />
+<label:label xlink:label="res_74" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">   6.2.3.2. Payable outside India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_73" xlink:label="loc_74" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_74" xlink:to="res_74" xlink:type="arc" order="0" />
+<label:label xlink:label="res_75" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">7. Loans and advances</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_74" xlink:label="loc_75" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_75" xlink:to="res_75" xlink:type="arc" order="0" />
+<label:label xlink:label="res_76" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 7.1 Loans and advances (cash credits and overdrafts (excluding due from banks vide item 7.2 below)</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_75" xlink:label="loc_76" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_76" xlink:to="res_76" xlink:type="arc" order="0" />
+<label:label xlink:label="res_77" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 7.2 Due from banks</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_76" xlink:label="loc_77" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_77" xlink:to="res_77" xlink:type="arc" order="0" />
+<label:label xlink:label="res_78" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">  7.2.1 Co-operative banks in India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_77" xlink:label="loc_78" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_78" xlink:to="res_78" xlink:type="arc" order="0" />
+<label:label xlink:label="res_79" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">  7.2.2. Commercial banks in India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_78" xlink:label="loc_79" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_79" xlink:to="res_79" xlink:type="arc" order="0" />
+<label:label xlink:label="res_80" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">  7.2.3. Banks outside India+</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_79" xlink:label="loc_80" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_80" xlink:to="res_80" xlink:type="arc" order="0" />
+<label:label xlink:label="res_81" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">8. Premises, Furniture, Fixtures, and other Fixed assets</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_80" xlink:label="loc_81" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_81" xlink:to="res_81" xlink:type="arc" order="0" />
+<label:label xlink:label="res_82" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">9. Branch adjustment@</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_81" xlink:label="loc_82" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_82" xlink:to="res_82" xlink:type="arc" order="0" />
+<label:label xlink:label="res_83" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 9.1 Among offices in India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_82" xlink:label="loc_83" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_83" xlink:to="res_83" xlink:type="arc" order="0" />
+<label:label xlink:label="res_84" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 9.2 With offices outside India**</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_83" xlink:label="loc_84" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_84" xlink:to="res_84" xlink:type="arc" order="0" />
+<label:label xlink:label="res_85" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">10. Capitalized expenses including preliminary expenses, organizational expenses, shares selling commission, brokerage, loss incurred and any other expenditure not represented by tangible assets***</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_84" xlink:label="loc_85" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_85" xlink:to="res_85" xlink:type="arc" order="0" />
+<label:label xlink:label="res_86" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">11. Non-banking assets acquired in satisfaction of claims </label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_85" xlink:label="loc_86" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_86" xlink:to="res_86" xlink:type="arc" order="0" />
+<label:label xlink:label="res_87" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">12. Other tangible assets</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_86" xlink:label="loc_87" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_87" xlink:to="res_87" xlink:type="arc" order="0" />
+<label:label xlink:label="res_88" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Total Assets</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_87" xlink:label="loc_88" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_88" xlink:to="res_88" xlink:type="arc" order="0" />
+<!-- <label:label xlink:label="res_89" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">B. Assets in India</label:label> -->
+<!-- <link:loc xlink:href="formx-table.xml#id_RuleNode_45" xlink:label="loc_89" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_89" xlink:to="res_89" xlink:type="arc" order="0" /> -->
+<label:label xlink:label="res_90" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Part II</label:label>
+<link:loc xlink:href="formx-table.xml#id_PartII_PartII" xlink:label="loc_90" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_90" xlink:to="res_90" xlink:type="arc" order="0" />
+<label:label xlink:label="res_91" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">PartII_PartII</label:label>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_90" xlink:to="res_91" xlink:type="arc" order="1" />
+
+<!-- <label:label xlink:label="res_92" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Amount (in Rs. 000s)</label:label> -->
+<!-- <link:loc xlink:href="formx-table.xml#id_RuleNode_90" xlink:label="loc_92" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_92" xlink:to="res_92" xlink:type="arc" order="0" /> -->
+<label:label xlink:label="res_93" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Amount</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_92" xlink:label="loc_93" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_93" xlink:to="res_93" xlink:type="arc" order="0" />
+<label:label xlink:label="res_94" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Secured Advances</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_91" xlink:label="loc_94" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_94" xlink:to="res_94" xlink:type="arc" order="0" />
+<label:label xlink:label="res_95" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Unsecured (Clean) Advances</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_93" xlink:label="loc_95" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_95" xlink:to="res_95" xlink:type="arc" order="0" />
+<label:label xlink:label="res_96" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Total Advances</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_94" xlink:label="loc_96" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_96" xlink:to="res_96" xlink:type="arc" order="0" />
+<label:label xlink:label="res_97" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Percentage of Clean (Unsecured) Advances  to Total advances</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_95" xlink:label="loc_97" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_97" xlink:to="res_97" xlink:type="arc" order="0" />
+<label:label xlink:label="res_98" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Total Deposits [item 3 of Liabilities in Part I ]</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_96" xlink:label="loc_98" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_98" xlink:to="res_98" xlink:type="arc" order="0" />
+<label:label xlink:label="res_99" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Percentage of Total Advances to Total Deposits </label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_97" xlink:label="loc_99" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_99" xlink:to="res_99" xlink:type="arc" order="0" />
+<label:label xlink:label="res_100" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Total Advances [ Total of items 6 and 7 of Assets in Part I ]</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_89" xlink:label="loc_100" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_100" xlink:to="res_100" xlink:type="arc" order="0" />
+<label:label xlink:label="res_101" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Part III</label:label>
+<link:loc xlink:href="formx-table.xml#id_PartIII_PartIII" xlink:label="loc_101" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_101" xlink:to="res_101" xlink:type="arc" order="0" />
+<label:label xlink:label="res_102" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">PartIII_PartIII</label:label>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_101" xlink:to="res_102" xlink:type="arc" order="1" />
+
+<label:label xlink:label="res_103" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Amount</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_101" xlink:label="loc_103" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_103" xlink:to="res_103" xlink:type="arc" order="0" />
+<label:label xlink:label="res_104" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">1. Demand and time liabilities in India [item 7 of liabilities in part I] (excluding items which banks are at present allowed to exclude, e.g. items not in the nature of outside liabilities)</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_100" xlink:label="loc_104" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_104" xlink:to="res_104" xlink:type="arc" order="0" />
+<label:label xlink:label="res_105" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">2. Minimum amount of assets required to be held in India under section 25 of the Act (75 per cent of item 1 above)</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_102" xlink:label="loc_105" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_105" xlink:to="res_105" xlink:type="arc" order="0" />
+<label:label xlink:label="res_106" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">3. Assets in India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_103" xlink:label="loc_106" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_106" xlink:to="res_106" xlink:type="arc" order="0" />
+<label:label xlink:label="res_107" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 3.1 Total of items B.1 to B.8, B.11 and B.12 on assets side in Part I</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_104" xlink:label="loc_107" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_107" xlink:to="res_107" xlink:type="arc" order="0" />
+<label:label xlink:label="res_108" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"> 3.2 Securities approved by the Reserve Bank of India under section 25(3)(a) of the Act and not included in 3.1 above</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_105" xlink:label="loc_108" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_108" xlink:to="res_108" xlink:type="arc" order="0" />
+<label:label xlink:label="res_109" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Particulars</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_99" xlink:label="loc_109" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_109" xlink:to="res_109" xlink:type="arc" order="0" />
+<label:label xlink:label="res_110" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Data on Foreign Assets and Liabilities of Indian Offices of Banks</label:label>
+<link:loc xlink:href="formx-table.xml#id_ForeignliabilitiesAndassets_Foreignliabilitiesassets" xlink:label="loc_110" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_110" xlink:to="res_110" xlink:type="arc" order="0" />
+<label:label xlink:label="res_111" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">ForeignliabilitiesAndassets_Foreignliabilitiesassets</label:label>
+
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_110" xlink:to="res_111" xlink:type="arc" order="1" />
+<label:label xlink:label="res_112" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Amount</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_109" xlink:label="loc_112" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_112" xlink:to="res_112" xlink:type="arc" order="0" />
+<label:label xlink:label="res_113" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">1. Balances held abroad</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_108" xlink:label="loc_113" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_113" xlink:to="res_113" xlink:type="arc" order="0" />
+<label:label xlink:label="res_114" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">2. Investments held abroad</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_110" xlink:label="loc_114" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_114" xlink:to="res_114" xlink:type="arc" order="0" />
+<label:label xlink:label="res_115" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">3. Other foreign bills purchased &amp; discounted payable outside India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_111" xlink:label="loc_115" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_115" xlink:to="res_115" xlink:type="arc" order="0" />
+<label:label xlink:label="res_116" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">4. Any other assets held outside India</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_112" xlink:label="loc_116" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_116" xlink:to="res_116" xlink:type="arc" order="0" />
+<label:label xlink:label="res_117" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Particulars</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_107" xlink:label="loc_117" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_117" xlink:to="res_117" xlink:type="arc" order="0" />
+<label:label xlink:label="res_118" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Signatory Details</label:label>
+<link:loc xlink:href="formx-table.xml#id_Signatory_Signatory" xlink:label="loc_118" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_118" xlink:to="res_118" xlink:type="arc" order="0" />
+<label:label xlink:label="res_119" xlink:role="http://www.xbrl.org/2008/role/terseLabel" xlink:type="resource" xml:lang="en">Signatory_Signatory</label:label>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_118" xlink:to="res_119" xlink:type="arc" order="1" />
+
+<label:label xlink:label="res_120a" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Values</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_116" xlink:label="loc_121a" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_121a" xlink:to="res_120a" xlink:type="arc" order="0" />
+
+<label:label xlink:label="res_120" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Place</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_115" xlink:label="loc_121" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_121" xlink:to="res_120" xlink:type="arc" order="0" />
+<label:label xlink:label="res_121" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Signature</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_117" xlink:label="loc_122" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_122" xlink:to="res_121" xlink:type="arc" order="0" />
+<label:label xlink:label="res_122" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Date</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_118" xlink:label="loc_123" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_123" xlink:to="res_122" xlink:type="arc" order="0" />
+<label:label xlink:label="res_123" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Designation</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_119" xlink:label="loc_124" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_124" xlink:to="res_123" xlink:type="arc" order="0" />
+<!-- <label:label xlink:label="res_124" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Signatory Details</label:label> -->
+<!-- <link:loc xlink:href="formx-table.xml#id_RuleNode_114" xlink:label="loc_125" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_125" xlink:to="res_124" xlink:type="arc" order="0" /> -->
+<label:label xlink:label="res_1501" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en"></label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_1401" xlink:label="loc_1501" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_1501" xlink:to="res_1501" xlink:type="arc" order="0" />
+<label:label xlink:label="res_1503" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Return name</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_1403" xlink:label="loc_1503" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_1503" xlink:to="res_1503" xlink:type="arc" order="0" />
+<label:label xlink:label="res_1504" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Return code</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_1404" xlink:label="loc_1504" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_1504" xlink:to="res_1504" xlink:type="arc" order="0" />
+<label:label xlink:label="res_1505" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Name of reporting institution</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_1405" xlink:label="loc_1505" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_1505" xlink:to="res_1505" xlink:type="arc" order="0" />
+<label:label xlink:label="res_1506" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Bank code</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_1406" xlink:label="loc_1506" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_1506" xlink:to="res_1506" xlink:type="arc" order="0" />
+<label:label xlink:label="res_1507" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Reporting period start date</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_1407" xlink:label="loc_1507" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_1507" xlink:to="res_1507" xlink:type="arc" order="0" />
+<label:label xlink:label="res_1508" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Reporting period end date</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_1408" xlink:label="loc_1508" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_1508" xlink:to="res_1508" xlink:type="arc" order="0" />
+<label:label xlink:label="res_1509" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Reporting frequency</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_1409" xlink:label="loc_1509" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_1509" xlink:to="res_1509" xlink:type="arc" order="0" />
+<!-- <label:label xlink:label="res_1510" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Report status</label:label> -->
+<!-- <link:loc xlink:href="formx-table.xml#id_RuleNode_1410" xlink:label="loc_1510" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_1510" xlink:to="res_1510" xlink:type="arc" order="0" /> -->
+<!-- <label:label xlink:label="res_1511" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Date of audit</label:label> -->
+<!-- <link:loc xlink:href="formx-table.xml#id_RuleNode_1411" xlink:label="loc_1511" xlink:type="locator"/> -->
+<!-- <gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_1511" xlink:to="res_1511" xlink:type="arc" order="0" /> -->
+<label:label xlink:label="res_1512" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">Return version</label:label>
+<link:loc xlink:href="formx-table.xml#id_RuleNode_1412" xlink:label="loc_1512" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_1512" xlink:to="res_1512" xlink:type="arc" order="0" />
+<label:label xlink:label="res_1514" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">General information</label:label>
+<link:loc xlink:href="formx-table.xml#id_GeneralInformation_GenInfo" xlink:label="loc_1514" xlink:type="locator"/>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_1514" xlink:to="res_1514" xlink:type="arc" order="0" />
+<label:label xlink:label="res_1515" xlink:role="http://www.xbrl.org/2008/role/label" xlink:type="resource" xml:lang="en">GeneralInformation_GenInfo</label:label>
+<gen:arc xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="loc_1514" xlink:to="res_1515" xlink:type="arc" order="0" />
+ </gen:link>
+ </link:linkbase>

@@ -145,8 +145,11 @@ public class Sample {
         // FileInputStream filescale = new FileInputStream("src/main/resources/xsd/in/xbrl/2012-04-25/rbi/rle/rle-table-Scale.xml");
         //FileInputStream fileIS = new FileInputStream("src/main/resources/xsd/in/xbrl/2012-04-25/rbi/vmr/vmr2-table.xml");
         //FileInputStream filescale = new FileInputStream("src/main/resources/xsd/in/xbrl/2012-04-25/rbi/vmr/vmr2-table-Scale.xml");
-        FileInputStream fileIS = new FileInputStream("src/main/resources/xsd/in/xbrl/2012-04-25/rbi/pci/pci-table.xml");
-        FileInputStream filescale = new FileInputStream("src/main/resources/xsd/in/xbrl/2012-04-25/rbi/pci/pci-table-Scale.xml");
+        // FileInputStream fileIS = new FileInputStream("src/main/resources/xsd/in/xbrl/2012-04-25/rbi/pci/pci-table.xml");
+        // FileInputStream filescale = new FileInputStream("src/main/resources/xsd/in/xbrl/2012-04-25/rbi/pci/pci-table-Scale.xml");
+        FileInputStream fileIS = new FileInputStream("src/main/resources/xsd/in/xbrl/2012-04-25/rbi/formx/formx-table.xml");
+        FileInputStream filescale = new FileInputStream("src/main/resources/xsd/in/xbrl/2012-04-25/rbi/formx/formx-table-Scale.xml");
+        
         DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = builderFactory.newDocumentBuilder();
         Document xmlDocument = builder.parse(fileIS);
@@ -189,6 +192,7 @@ public class Sample {
         //objectMapper.writeValue(new File("rle-reportMetaDataNode.json"), metaDataNode);
         //objectMapper.writeValue(new File("vmr2-reportMetaDataNode.json"), metaDataNode);
         objectMapper.writeValue(new File("pci-reportMetaDataNode.json"), metaDataNode);
+        objectMapper.writeValue(new File("formx-reportMetaDataNode.json"), metaDataNode);
         System.out.println(reportMetaDataJson);
     }
 
