@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <xbrli:xbrl xml:lang="en" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:in-rbi-rep="http://www.rbi.org/in/xbrl/2012-04-25/rbi" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:in-rbi-rep-par="http://www.rbi.org/in-rbi-rep-par">
     <link:schemaRef xlink:type="simple" xlink:href="../schemas/alo/in-rbi-pci.xsd"/>
-    <xbrli:context id="fromto_2019-04-01_2019-06-30">
+    <xbrli:context id="fromto_20190401_20190630">
         <xbrli:entity>
             <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
         </xbrli:entity>
@@ -10,7 +10,7 @@
             <xbrli:endDate>2019-06-30</xbrli:endDate>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="asof_2019-06-30">
+    <xbrli:context id="asof_20190630">
         <xbrli:entity>
             <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
         </xbrli:entity>
@@ -18,7 +18,7 @@
             <xbrli:instant>2019-06-30</xbrli:instant>
         </xbrli:period>
     </xbrli:context>
-    <xbrli:context id="fromto_2019-04-01_2019-06-30_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service">
+    <xbrli:context id="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service">
         <xbrli:entity>
             <xbrli:identifier scheme="http://www.rbi.gov.in/000/2010-12-31">00A</xbrli:identifier>
             <xbrli:segment>
@@ -52,25 +52,25 @@
     <xbrli:unit id="PURE">
         <xbrli:measure xmlns="">xbrli:pure</xbrli:measure>
     </xbrli:unit>
-    <in-rbi-rep:ReturnName contextRef="fromto_2019-04-01_2019-06-30">Problem Credit and Investments</in-rbi-rep:ReturnName>
-    <in-rbi-rep:ReturnCode contextRef="fromto_2019-04-01_2019-06-30">PCI</in-rbi-rep:ReturnCode>
-    <in-rbi-rep:NameOfReportingInstitution contextRef="fromto_2019-04-01_2019-06-30">Kookmin Bank</in-rbi-rep:NameOfReportingInstitution>
-    <in-rbi-rep:BankCode contextRef="asof_2019-06-30">00A</in-rbi-rep:BankCode>
-    <in-rbi-rep:ReportForTheYearEnded contextRef="fromto_2019-04-01_2019-06-30">2019-06-30</in-rbi-rep:ReportForTheYearEnded>
-    <in-rbi-rep:ReportingFrequency contextRef="fromto_2019-04-01_2019-06-30">Quarterly</in-rbi-rep:ReportingFrequency>
-    <in-rbi-rep:DateOfReport contextRef="asof_2019-06-30">2019-08-01</in-rbi-rep:DateOfReport>
-    <in-rbi-rep:ReportStatus contextRef="fromto_2019-04-01_2019-06-30">Audited</in-rbi-rep:ReportStatus>
-    <in-rbi-rep:DateOfAudit contextRef="asof_2019-06-30">2019-08-02</in-rbi-rep:DateOfAudit>
-    <in-rbi-rep:ValidationStatus contextRef="fromto_2019-04-01_2019-06-30">Validated</in-rbi-rep:ValidationStatus>
-    <in-rbi-rep:ToolName contextRef="fromto_2019-04-01_2019-06-30">iFile</in-rbi-rep:ToolName>
-    <in-rbi-rep:ReturnVersion contextRef="fromto_2019-04-01_2019-06-30">V2.1</in-rbi-rep:ReturnVersion>
-    <in-rbi-rep:ReportingPeriodStartDate contextRef="asof_2019-06-30">2019-04-01</in-rbi-rep:ReportingPeriodStartDate>
-    <in-rbi-rep:SoverignCharacter contextRef="fromto_2019-04-01_2019-06-30_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service">WDRWLYPQAE</in-rbi-rep:SoverignCharacter>
-    <in-rbi-rep:NameOfSignatory contextRef="fromto_2019-04-01_2019-06-30"/>
-    <in-rbi-rep:DesignationOfSignatory contextRef="fromto_2019-04-01_2019-06-30"/>
-    <in-rbi-rep:AuthorisedSignatoryMobileNumber decimals="INF" unitRef="PURE" contextRef="fromto_2019-04-01_2019-06-30">0</in-rbi-rep:AuthorisedSignatoryMobileNumber>
-    <in-rbi-rep:AuthorisedSignatoryLandlineNumber decimals="INF" unitRef="PURE" contextRef="fromto_2019-04-01_2019-06-30">0</in-rbi-rep:AuthorisedSignatoryLandlineNumber>
-    <in-rbi-rep:EMailIDOfAuthorisedReportingOfficial contextRef="fromto_2019-04-01_2019-06-30"/>
-    <in-rbi-rep:PlaceOfSignature contextRef="fromto_2019-04-01_2019-06-30"/>
-    <in-rbi-rep:DateOfSigning contextRef="fromto_2019-04-01_2019-06-30"/>
+    <in-rbi-rep:ReturnName contextRef="fromto_20190401_20190630">Problem Credit and Investments</in-rbi-rep:ReturnName>
+    <in-rbi-rep:ReturnCode contextRef="fromto_20190401_20190630">PCI</in-rbi-rep:ReturnCode>
+    <in-rbi-rep:NameOfReportingInstitution contextRef="fromto_20190401_20190630">Kookmin Bank</in-rbi-rep:NameOfReportingInstitution>
+    <in-rbi-rep:BankCode contextRef="asof_20190630">00A</in-rbi-rep:BankCode>
+    <in-rbi-rep:ReportForTheYearEnded contextRef="fromto_20190401_20190630">2019-06-30</in-rbi-rep:ReportForTheYearEnded>
+    <in-rbi-rep:ReportingFrequency contextRef="fromto_20190401_20190630">Quarterly</in-rbi-rep:ReportingFrequency>
+    <in-rbi-rep:DateOfReport contextRef="asof_20190630">2019-08-01</in-rbi-rep:DateOfReport>
+    <in-rbi-rep:ReportStatus contextRef="fromto_20190401_20190630">Audited</in-rbi-rep:ReportStatus>
+    <in-rbi-rep:DateOfAudit contextRef="asof_20190630">2019-08-02</in-rbi-rep:DateOfAudit>
+    <in-rbi-rep:ValidationStatus contextRef="fromto_20190401_20190630">Validated</in-rbi-rep:ValidationStatus>
+    <in-rbi-rep:ToolName contextRef="fromto_20190401_20190630">iFile</in-rbi-rep:ToolName>
+    <in-rbi-rep:ReturnVersion contextRef="fromto_20190401_20190630">V2.1</in-rbi-rep:ReturnVersion>
+    <in-rbi-rep:ReportingPeriodStartDate contextRef="asof_20190630">2019-04-01</in-rbi-rep:ReportingPeriodStartDate>
+    <in-rbi-rep:SoverignCharacter contextRef="fromto_20190401_20190630_MoreThanUSD2MillionMember_ProblemCreditMember_IN_592_Borrower1_BorrowerGroup1_Service">WDRWLYPQAE</in-rbi-rep:SoverignCharacter>
+    <in-rbi-rep:NameOfSignatory contextRef="fromto_20190401_20190630"/>
+    <in-rbi-rep:DesignationOfSignatory contextRef="fromto_20190401_20190630"/>
+    <in-rbi-rep:AuthorisedSignatoryMobileNumber decimals="INF" unitRef="PURE" contextRef="fromto_20190401_20190630">0</in-rbi-rep:AuthorisedSignatoryMobileNumber>
+    <in-rbi-rep:AuthorisedSignatoryLandlineNumber decimals="INF" unitRef="PURE" contextRef="fromto_20190401_20190630">0</in-rbi-rep:AuthorisedSignatoryLandlineNumber>
+    <in-rbi-rep:EMailIDOfAuthorisedReportingOfficial contextRef="fromto_20190401_20190630"/>
+    <in-rbi-rep:PlaceOfSignature contextRef="fromto_20190401_20190630"/>
+    <in-rbi-rep:DateOfSigning contextRef="fromto_20190401_20190630"/>
 </xbrli:xbrl>

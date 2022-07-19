@@ -7,8 +7,8 @@ public class ContextUtil {
     
     public static String getIdForFromTo(String type, String startDate, String endDate, Collection<String>  collections, String... args) {
         StringBuilder generateId = new StringBuilder(StringUtils.defaultIfEmpty(type, "fromto"));
-        generateId.append("_" + startDate);
-        generateId.append("_" + endDate);
+        generateId.append("_" + startDate.replaceAll("[()\\s-.:]+", ""));
+        generateId.append("_" + endDate.replaceAll("[()\\s-.:]+", ""));
         collections.forEach(item->{
             generateId.append("_" + item);
         });
@@ -21,7 +21,7 @@ public class ContextUtil {
     }
     public static String getIdForAsOf(String type, String periodDate, Collection<String>  collections, String... args) {
         StringBuilder generateId = new StringBuilder(StringUtils.defaultIfEmpty(type, "asof"));
-        generateId.append("_" + periodDate);
+        generateId.append("_" + periodDate.replaceAll("[()\\s-.:]+", ""));
         collections.forEach(item->{
             generateId.append("_" + item);
         });
