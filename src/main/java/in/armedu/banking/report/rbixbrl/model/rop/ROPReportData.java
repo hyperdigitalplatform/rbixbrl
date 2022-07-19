@@ -17,7 +17,7 @@ import lombok.Setter;
 @Setter
 @Getter
 
-public class ROPReportData  extends ReportData{
+public class ROPReportData  implements ReportData{
     
     private GeneralData generalData;
     private List<ItemData> itemDatas = new ArrayList<ItemData>();

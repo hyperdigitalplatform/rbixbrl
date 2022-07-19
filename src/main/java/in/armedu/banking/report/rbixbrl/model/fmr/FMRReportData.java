@@ -19,7 +19,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Setter
 @Getter
-public class FMRReportData extends ReportData {
+public class FMRReportData implements ReportData {
     private GeneralData generalData;
     private List<ItemData> itemDatas = new ArrayList<ItemData>();
 }

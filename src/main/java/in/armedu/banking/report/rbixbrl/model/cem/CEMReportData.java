@@ -17,7 +17,7 @@ import lombok.Setter;
 @Setter
 @Getter
 
-public class CEMReportData extends ReportData {
+public class CEMReportData implements ReportData {
     
     private GeneralData generalData;
     private List<ItemData> itemDatas = new ArrayList<ItemData>();

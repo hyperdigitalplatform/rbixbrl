@@ -13,7 +13,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Setter
 @Getter
-public class ROSData extends ReportData {
+public class ROSData implements ReportData {
     private ROSGeneralInfoData rosGeneralInfo;
     private List<ROSItem> rosItems = new ArrayList<ROSItem>();
 }

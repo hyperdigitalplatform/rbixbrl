@@ -17,7 +17,7 @@ import lombok.Setter;
 @Setter
 @Getter
 
-public class VMRReportData extends ReportData {
+public class VMRReportData implements ReportData {
     
     private GeneralData generalData;
    // private List<ItemData> itemDatas = new ArrayList<ItemData>();

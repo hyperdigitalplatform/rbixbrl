@@ -682,7 +682,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartASoverignCharacterMoreThanUSD2MillionMemberProblemCreditMemberValue16 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getSoverignCharacter(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartASoverignCharacterMoreThanUSD2MillionMemberProblemCreditMemberValue16 != null && !"".equals(explictMember2PARTA_lyt_PartASoverignCharacterMoreThanUSD2MillionMemberProblemCreditMemberValue16)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartASoverignCharacterMoreThanUSD2MillionMemberProblemCreditMemberMap15 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartASoverignCharacterMoreThanUSD2MillionMemberProblemCreditMemberMap15.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -706,6 +707,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<StringItemType> explictMember2PARTA_lyt_PartASoverignCharacterMoreThanUSD2MillionMemberProblemCreditMemberElement17 = instancObjectFactory.createSoverignCharacter(explictMember2PARTA_lyt_PartASoverignCharacterMoreThanUSD2MillionMemberProblemCreditMemberDataType18);
                         bodyElements.add(explictMember2PARTA_lyt_PartASoverignCharacterMoreThanUSD2MillionMemberProblemCreditMemberElement17);
+                    }
                     
             
             
@@ -735,7 +737,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartACategoryOfBorrowerMoreThanUSD2MillionMemberProblemCreditMemberValue21 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getCategoryOfBorrower(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartACategoryOfBorrowerMoreThanUSD2MillionMemberProblemCreditMemberValue21 != null && !"".equals(explictMember2PARTA_lyt_PartACategoryOfBorrowerMoreThanUSD2MillionMemberProblemCreditMemberValue21)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartACategoryOfBorrowerMoreThanUSD2MillionMemberProblemCreditMemberMap20 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartACategoryOfBorrowerMoreThanUSD2MillionMemberProblemCreditMemberMap20.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -759,6 +762,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<CategoryStatusItemType> explictMember2PARTA_lyt_PartACategoryOfBorrowerMoreThanUSD2MillionMemberProblemCreditMemberElement22 = instancObjectFactory.createCategoryOfBorrower(explictMember2PARTA_lyt_PartACategoryOfBorrowerMoreThanUSD2MillionMemberProblemCreditMemberDataType23);
                         bodyElements.add(explictMember2PARTA_lyt_PartACategoryOfBorrowerMoreThanUSD2MillionMemberProblemCreditMemberElement22);
+                    }
                     
             
             
@@ -799,7 +803,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartAAggregateAmountOfLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberValue27 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAggregateAmountOfLimitsSanctioned(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartAAggregateAmountOfLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberValue27 != null && !"".equals(explictMember2PARTA_lyt_PartAAggregateAmountOfLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberValue27)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartAAggregateAmountOfLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberMap26 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartAAggregateAmountOfLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberMap26.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -826,6 +831,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartAAggregateAmountOfLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberElement28 = instancObjectFactory.createAggregateAmountOfLimitsSanctioned(explictMember2PARTA_lyt_PartAAggregateAmountOfLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberDataType29);
                         bodyElements.add(explictMember2PARTA_lyt_PartAAggregateAmountOfLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberElement28);
+                    }
                     
             
             
@@ -866,7 +872,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartAAmountOfFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberValue33 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfFundedLimitsSanctioned(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartAAmountOfFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberValue33 != null && !"".equals(explictMember2PARTA_lyt_PartAAmountOfFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberValue33)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartAAmountOfFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberMap32 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartAAmountOfFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberMap32.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -893,6 +900,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartAAmountOfFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberElement34 = instancObjectFactory.createAmountOfFundedLimitsSanctioned(explictMember2PARTA_lyt_PartAAmountOfFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberDataType35);
                         bodyElements.add(explictMember2PARTA_lyt_PartAAmountOfFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberElement34);
+                    }
                     
             
             
@@ -933,7 +941,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartAAmountOfNonFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberValue39 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfNonFundedLimitsSanctioned(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartAAmountOfNonFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberValue39 != null && !"".equals(explictMember2PARTA_lyt_PartAAmountOfNonFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberValue39)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartAAmountOfNonFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberMap38 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartAAmountOfNonFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberMap38.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -960,6 +969,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartAAmountOfNonFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberElement40 = instancObjectFactory.createAmountOfNonFundedLimitsSanctioned(explictMember2PARTA_lyt_PartAAmountOfNonFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberDataType41);
                         bodyElements.add(explictMember2PARTA_lyt_PartAAmountOfNonFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberElement40);
+                    }
                     
             
             
@@ -1000,7 +1010,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartAAmountOutstandingOfCustomerCreditLimitSenctionedMoreThanUSD2MillionMemberProblemCreditMemberValue45 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOutstandingOfCustomerCreditLimitSenctioned(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartAAmountOutstandingOfCustomerCreditLimitSenctionedMoreThanUSD2MillionMemberProblemCreditMemberValue45 != null && !"".equals(explictMember2PARTA_lyt_PartAAmountOutstandingOfCustomerCreditLimitSenctionedMoreThanUSD2MillionMemberProblemCreditMemberValue45)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartAAmountOutstandingOfCustomerCreditLimitSenctionedMoreThanUSD2MillionMemberProblemCreditMemberMap44 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartAAmountOutstandingOfCustomerCreditLimitSenctionedMoreThanUSD2MillionMemberProblemCreditMemberMap44.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -1027,6 +1038,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartAAmountOutstandingOfCustomerCreditLimitSenctionedMoreThanUSD2MillionMemberProblemCreditMemberElement46 = instancObjectFactory.createAmountOutstandingOfCustomerCreditLimitSenctioned(explictMember2PARTA_lyt_PartAAmountOutstandingOfCustomerCreditLimitSenctionedMoreThanUSD2MillionMemberProblemCreditMemberDataType47);
                         bodyElements.add(explictMember2PARTA_lyt_PartAAmountOutstandingOfCustomerCreditLimitSenctionedMoreThanUSD2MillionMemberProblemCreditMemberElement46);
+                    }
                     
             
             
@@ -1067,7 +1079,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartASecurityValueMoreThanUSD2MillionMemberProblemCreditMemberValue51 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getSecurityValue(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartASecurityValueMoreThanUSD2MillionMemberProblemCreditMemberValue51 != null && !"".equals(explictMember2PARTA_lyt_PartASecurityValueMoreThanUSD2MillionMemberProblemCreditMemberValue51)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartASecurityValueMoreThanUSD2MillionMemberProblemCreditMemberMap50 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartASecurityValueMoreThanUSD2MillionMemberProblemCreditMemberMap50.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -1094,6 +1107,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartASecurityValueMoreThanUSD2MillionMemberProblemCreditMemberElement52 = instancObjectFactory.createSecurityValue(explictMember2PARTA_lyt_PartASecurityValueMoreThanUSD2MillionMemberProblemCreditMemberDataType53);
                         bodyElements.add(explictMember2PARTA_lyt_PartASecurityValueMoreThanUSD2MillionMemberProblemCreditMemberElement52);
+                    }
                     
             
             
@@ -1123,7 +1137,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartAAssetsClassificationMoreThanUSD2MillionMemberProblemCreditMemberValue56 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAssetsClassification(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartAAssetsClassificationMoreThanUSD2MillionMemberProblemCreditMemberValue56 != null && !"".equals(explictMember2PARTA_lyt_PartAAssetsClassificationMoreThanUSD2MillionMemberProblemCreditMemberValue56)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartAAssetsClassificationMoreThanUSD2MillionMemberProblemCreditMemberMap55 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartAAssetsClassificationMoreThanUSD2MillionMemberProblemCreditMemberMap55.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -1148,6 +1163,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<AssetsClassificationItemType> explictMember2PARTA_lyt_PartAAssetsClassificationMoreThanUSD2MillionMemberProblemCreditMemberElement57 = instancObjectFactory.createAssetsClassification(explictMember2PARTA_lyt_PartAAssetsClassificationMoreThanUSD2MillionMemberProblemCreditMemberDataType58);
                         bodyElements.add(explictMember2PARTA_lyt_PartAAssetsClassificationMoreThanUSD2MillionMemberProblemCreditMemberElement57);
+                    }
                     
             
             
@@ -1177,7 +1193,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartAAssetsClassificationHostCountryMoreThanUSD2MillionMemberProblemCreditMemberValue61 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAssetsClassificationHostCountry(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartAAssetsClassificationHostCountryMoreThanUSD2MillionMemberProblemCreditMemberValue61 != null && !"".equals(explictMember2PARTA_lyt_PartAAssetsClassificationHostCountryMoreThanUSD2MillionMemberProblemCreditMemberValue61)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartAAssetsClassificationHostCountryMoreThanUSD2MillionMemberProblemCreditMemberMap60 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartAAssetsClassificationHostCountryMoreThanUSD2MillionMemberProblemCreditMemberMap60.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -1202,6 +1219,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<AssetsClassificationHostCountryItemType> explictMember2PARTA_lyt_PartAAssetsClassificationHostCountryMoreThanUSD2MillionMemberProblemCreditMemberElement62 = instancObjectFactory.createAssetsClassificationHostCountry(explictMember2PARTA_lyt_PartAAssetsClassificationHostCountryMoreThanUSD2MillionMemberProblemCreditMemberDataType63);
                         bodyElements.add(explictMember2PARTA_lyt_PartAAssetsClassificationHostCountryMoreThanUSD2MillionMemberProblemCreditMemberElement62);
+                    }
                     
             
             
@@ -1242,7 +1260,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartAAmountOfProvisionsHeldAtBranchMoreThanUSD2MillionMemberProblemCreditMemberValue67 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionsHeldAtBranch(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartAAmountOfProvisionsHeldAtBranchMoreThanUSD2MillionMemberProblemCreditMemberValue67 != null && !"".equals(explictMember2PARTA_lyt_PartAAmountOfProvisionsHeldAtBranchMoreThanUSD2MillionMemberProblemCreditMemberValue67)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartAAmountOfProvisionsHeldAtBranchMoreThanUSD2MillionMemberProblemCreditMemberMap66 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartAAmountOfProvisionsHeldAtBranchMoreThanUSD2MillionMemberProblemCreditMemberMap66.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -1269,6 +1288,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartAAmountOfProvisionsHeldAtBranchMoreThanUSD2MillionMemberProblemCreditMemberElement68 = instancObjectFactory.createAmountOfProvisionsHeldAtBranch(explictMember2PARTA_lyt_PartAAmountOfProvisionsHeldAtBranchMoreThanUSD2MillionMemberProblemCreditMemberDataType69);
                         bodyElements.add(explictMember2PARTA_lyt_PartAAmountOfProvisionsHeldAtBranchMoreThanUSD2MillionMemberProblemCreditMemberElement68);
+                    }
                     
             
             
@@ -1309,7 +1329,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartAAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD2MillionMemberProblemCreditMemberValue73 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionsHeldAtHeadOffice(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartAAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD2MillionMemberProblemCreditMemberValue73 != null && !"".equals(explictMember2PARTA_lyt_PartAAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD2MillionMemberProblemCreditMemberValue73)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartAAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD2MillionMemberProblemCreditMemberMap72 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartAAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD2MillionMemberProblemCreditMemberMap72.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -1336,6 +1357,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartAAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD2MillionMemberProblemCreditMemberElement74 = instancObjectFactory.createAmountOfProvisionsHeldAtHeadOffice(explictMember2PARTA_lyt_PartAAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD2MillionMemberProblemCreditMemberDataType75);
                         bodyElements.add(explictMember2PARTA_lyt_PartAAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD2MillionMemberProblemCreditMemberElement74);
+                    }
                     
             
             
@@ -1376,7 +1398,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartAAmountOfInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberValue79 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfInterestSuspense(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartAAmountOfInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberValue79 != null && !"".equals(explictMember2PARTA_lyt_PartAAmountOfInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberValue79)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartAAmountOfInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberMap78 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartAAmountOfInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberMap78.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -1403,6 +1426,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartAAmountOfInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberElement80 = instancObjectFactory.createAmountOfInterestSuspense(explictMember2PARTA_lyt_PartAAmountOfInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberDataType81);
                         bodyElements.add(explictMember2PARTA_lyt_PartAAmountOfInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberElement80);
+                    }
                     
             
             
@@ -1443,7 +1467,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartAAggregateAmountOfProvisionAndInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberValue85 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAggregateAmountOfProvisionAndInterestSuspense(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartAAggregateAmountOfProvisionAndInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberValue85 != null && !"".equals(explictMember2PARTA_lyt_PartAAggregateAmountOfProvisionAndInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberValue85)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartAAggregateAmountOfProvisionAndInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberMap84 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartAAggregateAmountOfProvisionAndInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberMap84.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -1470,6 +1495,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartAAggregateAmountOfProvisionAndInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberElement86 = instancObjectFactory.createAggregateAmountOfProvisionAndInterestSuspense(explictMember2PARTA_lyt_PartAAggregateAmountOfProvisionAndInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberDataType87);
                         bodyElements.add(explictMember2PARTA_lyt_PartAAggregateAmountOfProvisionAndInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberElement86);
+                    }
                     
             
             
@@ -1510,7 +1536,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartAAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD2MillionMemberProblemCreditMemberValue91 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartAAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD2MillionMemberProblemCreditMemberValue91 != null && !"".equals(explictMember2PARTA_lyt_PartAAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD2MillionMemberProblemCreditMemberValue91)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartAAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD2MillionMemberProblemCreditMemberMap90 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartAAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD2MillionMemberProblemCreditMemberMap90.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -1537,6 +1564,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartAAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD2MillionMemberProblemCreditMemberElement92 = instancObjectFactory.createAmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities(explictMember2PARTA_lyt_PartAAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD2MillionMemberProblemCreditMemberDataType93);
                         bodyElements.add(explictMember2PARTA_lyt_PartAAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD2MillionMemberProblemCreditMemberElement92);
+                    }
                     
             
             
@@ -1577,7 +1605,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartAAmountOfShortFallMoreThanUSD2MillionMemberProblemCreditMemberValue97 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfShortFall(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartAAmountOfShortFallMoreThanUSD2MillionMemberProblemCreditMemberValue97 != null && !"".equals(explictMember2PARTA_lyt_PartAAmountOfShortFallMoreThanUSD2MillionMemberProblemCreditMemberValue97)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartAAmountOfShortFallMoreThanUSD2MillionMemberProblemCreditMemberMap96 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartAAmountOfShortFallMoreThanUSD2MillionMemberProblemCreditMemberMap96.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -1604,6 +1633,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartAAmountOfShortFallMoreThanUSD2MillionMemberProblemCreditMemberElement98 = instancObjectFactory.createAmountOfShortFall(explictMember2PARTA_lyt_PartAAmountOfShortFallMoreThanUSD2MillionMemberProblemCreditMemberDataType99);
                         bodyElements.add(explictMember2PARTA_lyt_PartAAmountOfShortFallMoreThanUSD2MillionMemberProblemCreditMemberElement98);
+                    }
                     
             
             
@@ -1644,7 +1674,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartAAmountOfHeadOfficeSupportFundMoreThanUSD2MillionMemberProblemCreditMemberValue103 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfHeadOfficeSupportFund(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartAAmountOfHeadOfficeSupportFundMoreThanUSD2MillionMemberProblemCreditMemberValue103 != null && !"".equals(explictMember2PARTA_lyt_PartAAmountOfHeadOfficeSupportFundMoreThanUSD2MillionMemberProblemCreditMemberValue103)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartAAmountOfHeadOfficeSupportFundMoreThanUSD2MillionMemberProblemCreditMemberMap102 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartAAmountOfHeadOfficeSupportFundMoreThanUSD2MillionMemberProblemCreditMemberMap102.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -1671,6 +1702,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartAAmountOfHeadOfficeSupportFundMoreThanUSD2MillionMemberProblemCreditMemberElement104 = instancObjectFactory.createAmountOfHeadOfficeSupportFund(explictMember2PARTA_lyt_PartAAmountOfHeadOfficeSupportFundMoreThanUSD2MillionMemberProblemCreditMemberDataType105);
                         bodyElements.add(explictMember2PARTA_lyt_PartAAmountOfHeadOfficeSupportFundMoreThanUSD2MillionMemberProblemCreditMemberElement104);
+                    }
                     
             
             
@@ -1700,7 +1732,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartADevelopmentsDuringQuarterMoreThanUSD2MillionMemberProblemCreditMemberValue108 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getDevelopmentsDuringQuarter(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartADevelopmentsDuringQuarterMoreThanUSD2MillionMemberProblemCreditMemberValue108 != null && !"".equals(explictMember2PARTA_lyt_PartADevelopmentsDuringQuarterMoreThanUSD2MillionMemberProblemCreditMemberValue108)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartADevelopmentsDuringQuarterMoreThanUSD2MillionMemberProblemCreditMemberMap107 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartADevelopmentsDuringQuarterMoreThanUSD2MillionMemberProblemCreditMemberMap107.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -1724,6 +1757,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<StringItemType> explictMember2PARTA_lyt_PartADevelopmentsDuringQuarterMoreThanUSD2MillionMemberProblemCreditMemberElement109 = instancObjectFactory.createDevelopmentsDuringQuarter(explictMember2PARTA_lyt_PartADevelopmentsDuringQuarterMoreThanUSD2MillionMemberProblemCreditMemberDataType110);
                         bodyElements.add(explictMember2PARTA_lyt_PartADevelopmentsDuringQuarterMoreThanUSD2MillionMemberProblemCreditMemberElement109);
+                    }
                     
             
             
@@ -1794,7 +1828,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_TotalAggregateAmountOfLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberValue114 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAggregateAmountOfLimitsSanctioned(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_TotalAggregateAmountOfLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberValue114 != null && !"".equals(explictMember2PARTA_lyt_PartA_TotalAggregateAmountOfLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberValue114)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_TotalAggregateAmountOfLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberMap113 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_TotalAggregateAmountOfLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberMap113.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -1821,6 +1856,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_TotalAggregateAmountOfLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberElement115 = instancObjectFactory.createAggregateAmountOfLimitsSanctioned(explictMember2PARTA_lyt_PartA_TotalAggregateAmountOfLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberDataType116);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_TotalAggregateAmountOfLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberElement115);
+                    }
                     
             
             
@@ -1861,7 +1897,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_TotalAmountOfFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberValue120 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfFundedLimitsSanctioned(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_TotalAmountOfFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberValue120 != null && !"".equals(explictMember2PARTA_lyt_PartA_TotalAmountOfFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberValue120)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_TotalAmountOfFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberMap119 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_TotalAmountOfFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberMap119.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -1888,6 +1925,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_TotalAmountOfFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberElement121 = instancObjectFactory.createAmountOfFundedLimitsSanctioned(explictMember2PARTA_lyt_PartA_TotalAmountOfFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberDataType122);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_TotalAmountOfFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberElement121);
+                    }
                     
             
             
@@ -1928,7 +1966,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_TotalAmountOfNonFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberValue126 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfNonFundedLimitsSanctioned(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_TotalAmountOfNonFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberValue126 != null && !"".equals(explictMember2PARTA_lyt_PartA_TotalAmountOfNonFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberValue126)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_TotalAmountOfNonFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberMap125 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_TotalAmountOfNonFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberMap125.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -1955,6 +1994,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_TotalAmountOfNonFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberElement127 = instancObjectFactory.createAmountOfNonFundedLimitsSanctioned(explictMember2PARTA_lyt_PartA_TotalAmountOfNonFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberDataType128);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_TotalAmountOfNonFundedLimitsSanctionedMoreThanUSD2MillionMemberProblemCreditMemberElement127);
+                    }
                     
             
             
@@ -1995,7 +2035,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_TotalAmountOutstandingOfCustomerCreditLimitSenctionedMoreThanUSD2MillionMemberProblemCreditMemberValue132 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOutstandingOfCustomerCreditLimitSenctioned(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_TotalAmountOutstandingOfCustomerCreditLimitSenctionedMoreThanUSD2MillionMemberProblemCreditMemberValue132 != null && !"".equals(explictMember2PARTA_lyt_PartA_TotalAmountOutstandingOfCustomerCreditLimitSenctionedMoreThanUSD2MillionMemberProblemCreditMemberValue132)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_TotalAmountOutstandingOfCustomerCreditLimitSenctionedMoreThanUSD2MillionMemberProblemCreditMemberMap131 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_TotalAmountOutstandingOfCustomerCreditLimitSenctionedMoreThanUSD2MillionMemberProblemCreditMemberMap131.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -2022,6 +2063,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_TotalAmountOutstandingOfCustomerCreditLimitSenctionedMoreThanUSD2MillionMemberProblemCreditMemberElement133 = instancObjectFactory.createAmountOutstandingOfCustomerCreditLimitSenctioned(explictMember2PARTA_lyt_PartA_TotalAmountOutstandingOfCustomerCreditLimitSenctionedMoreThanUSD2MillionMemberProblemCreditMemberDataType134);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_TotalAmountOutstandingOfCustomerCreditLimitSenctionedMoreThanUSD2MillionMemberProblemCreditMemberElement133);
+                    }
                     
             
             
@@ -2062,7 +2104,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_TotalSecurityValueMoreThanUSD2MillionMemberProblemCreditMemberValue138 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getSecurityValue(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_TotalSecurityValueMoreThanUSD2MillionMemberProblemCreditMemberValue138 != null && !"".equals(explictMember2PARTA_lyt_PartA_TotalSecurityValueMoreThanUSD2MillionMemberProblemCreditMemberValue138)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_TotalSecurityValueMoreThanUSD2MillionMemberProblemCreditMemberMap137 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_TotalSecurityValueMoreThanUSD2MillionMemberProblemCreditMemberMap137.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -2089,6 +2132,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_TotalSecurityValueMoreThanUSD2MillionMemberProblemCreditMemberElement139 = instancObjectFactory.createSecurityValue(explictMember2PARTA_lyt_PartA_TotalSecurityValueMoreThanUSD2MillionMemberProblemCreditMemberDataType140);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_TotalSecurityValueMoreThanUSD2MillionMemberProblemCreditMemberElement139);
+                    }
                     
             
             
@@ -2129,7 +2173,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionsHeldAtBranchMoreThanUSD2MillionMemberProblemCreditMemberValue144 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionsHeldAtBranch(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionsHeldAtBranchMoreThanUSD2MillionMemberProblemCreditMemberValue144 != null && !"".equals(explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionsHeldAtBranchMoreThanUSD2MillionMemberProblemCreditMemberValue144)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionsHeldAtBranchMoreThanUSD2MillionMemberProblemCreditMemberMap143 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionsHeldAtBranchMoreThanUSD2MillionMemberProblemCreditMemberMap143.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -2156,6 +2201,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionsHeldAtBranchMoreThanUSD2MillionMemberProblemCreditMemberElement145 = instancObjectFactory.createAmountOfProvisionsHeldAtBranch(explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionsHeldAtBranchMoreThanUSD2MillionMemberProblemCreditMemberDataType146);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionsHeldAtBranchMoreThanUSD2MillionMemberProblemCreditMemberElement145);
+                    }
                     
             
             
@@ -2196,7 +2242,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD2MillionMemberProblemCreditMemberValue150 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionsHeldAtHeadOffice(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD2MillionMemberProblemCreditMemberValue150 != null && !"".equals(explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD2MillionMemberProblemCreditMemberValue150)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD2MillionMemberProblemCreditMemberMap149 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD2MillionMemberProblemCreditMemberMap149.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -2223,6 +2270,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD2MillionMemberProblemCreditMemberElement151 = instancObjectFactory.createAmountOfProvisionsHeldAtHeadOffice(explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD2MillionMemberProblemCreditMemberDataType152);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD2MillionMemberProblemCreditMemberElement151);
+                    }
                     
             
             
@@ -2263,7 +2311,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_TotalAmountOfInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberValue156 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfInterestSuspense(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_TotalAmountOfInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberValue156 != null && !"".equals(explictMember2PARTA_lyt_PartA_TotalAmountOfInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberValue156)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_TotalAmountOfInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberMap155 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_TotalAmountOfInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberMap155.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -2290,6 +2339,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_TotalAmountOfInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberElement157 = instancObjectFactory.createAmountOfInterestSuspense(explictMember2PARTA_lyt_PartA_TotalAmountOfInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberDataType158);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_TotalAmountOfInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberElement157);
+                    }
                     
             
             
@@ -2330,7 +2380,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_TotalAggregateAmountOfProvisionAndInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberValue162 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAggregateAmountOfProvisionAndInterestSuspense(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_TotalAggregateAmountOfProvisionAndInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberValue162 != null && !"".equals(explictMember2PARTA_lyt_PartA_TotalAggregateAmountOfProvisionAndInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberValue162)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_TotalAggregateAmountOfProvisionAndInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberMap161 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_TotalAggregateAmountOfProvisionAndInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberMap161.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -2357,6 +2408,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_TotalAggregateAmountOfProvisionAndInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberElement163 = instancObjectFactory.createAggregateAmountOfProvisionAndInterestSuspense(explictMember2PARTA_lyt_PartA_TotalAggregateAmountOfProvisionAndInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberDataType164);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_TotalAggregateAmountOfProvisionAndInterestSuspenseMoreThanUSD2MillionMemberProblemCreditMemberElement163);
+                    }
                     
             
             
@@ -2397,7 +2449,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD2MillionMemberProblemCreditMemberValue168 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD2MillionMemberProblemCreditMemberValue168 != null && !"".equals(explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD2MillionMemberProblemCreditMemberValue168)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD2MillionMemberProblemCreditMemberMap167 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD2MillionMemberProblemCreditMemberMap167.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -2424,6 +2477,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD2MillionMemberProblemCreditMemberElement169 = instancObjectFactory.createAmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities(explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD2MillionMemberProblemCreditMemberDataType170);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_TotalAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD2MillionMemberProblemCreditMemberElement169);
+                    }
                     
             
             
@@ -2464,7 +2518,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_TotalAmountOfShortFallMoreThanUSD2MillionMemberProblemCreditMemberValue174 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfShortFall(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_TotalAmountOfShortFallMoreThanUSD2MillionMemberProblemCreditMemberValue174 != null && !"".equals(explictMember2PARTA_lyt_PartA_TotalAmountOfShortFallMoreThanUSD2MillionMemberProblemCreditMemberValue174)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_TotalAmountOfShortFallMoreThanUSD2MillionMemberProblemCreditMemberMap173 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_TotalAmountOfShortFallMoreThanUSD2MillionMemberProblemCreditMemberMap173.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -2491,6 +2546,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_TotalAmountOfShortFallMoreThanUSD2MillionMemberProblemCreditMemberElement175 = instancObjectFactory.createAmountOfShortFall(explictMember2PARTA_lyt_PartA_TotalAmountOfShortFallMoreThanUSD2MillionMemberProblemCreditMemberDataType176);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_TotalAmountOfShortFallMoreThanUSD2MillionMemberProblemCreditMemberElement175);
+                    }
                     
             
             
@@ -2531,7 +2587,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_TotalAmountOfHeadOfficeSupportFundMoreThanUSD2MillionMemberProblemCreditMemberValue180 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfHeadOfficeSupportFund(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_TotalAmountOfHeadOfficeSupportFundMoreThanUSD2MillionMemberProblemCreditMemberValue180 != null && !"".equals(explictMember2PARTA_lyt_PartA_TotalAmountOfHeadOfficeSupportFundMoreThanUSD2MillionMemberProblemCreditMemberValue180)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_TotalAmountOfHeadOfficeSupportFundMoreThanUSD2MillionMemberProblemCreditMemberMap179 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_TotalAmountOfHeadOfficeSupportFundMoreThanUSD2MillionMemberProblemCreditMemberMap179.put("CustomerCreditLimitAxis", "MoreThanUSD2MillionMember");                
@@ -2558,6 +2615,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_TotalAmountOfHeadOfficeSupportFundMoreThanUSD2MillionMemberProblemCreditMemberElement181 = instancObjectFactory.createAmountOfHeadOfficeSupportFund(explictMember2PARTA_lyt_PartA_TotalAmountOfHeadOfficeSupportFundMoreThanUSD2MillionMemberProblemCreditMemberDataType182);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_TotalAmountOfHeadOfficeSupportFundMoreThanUSD2MillionMemberProblemCreditMemberElement181);
+                    }
                     
             
             
@@ -2628,7 +2686,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_Sect2AggregateAmountOfLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberValue186 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAggregateAmountOfLimitsSanctioned(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_Sect2AggregateAmountOfLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberValue186 != null && !"".equals(explictMember2PARTA_lyt_PartA_Sect2AggregateAmountOfLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberValue186)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_Sect2AggregateAmountOfLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberMap185 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_Sect2AggregateAmountOfLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberMap185.put("CustomerCreditLimitAxis", "LessThanUSD2MillionMember");                
@@ -2655,6 +2714,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_Sect2AggregateAmountOfLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberElement187 = instancObjectFactory.createAggregateAmountOfLimitsSanctioned(explictMember2PARTA_lyt_PartA_Sect2AggregateAmountOfLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberDataType188);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_Sect2AggregateAmountOfLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberElement187);
+                    }
                     
             
             
@@ -2695,7 +2755,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_Sect2AmountOfFundedLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberValue192 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfFundedLimitsSanctioned(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_Sect2AmountOfFundedLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberValue192 != null && !"".equals(explictMember2PARTA_lyt_PartA_Sect2AmountOfFundedLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberValue192)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_Sect2AmountOfFundedLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberMap191 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_Sect2AmountOfFundedLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberMap191.put("CustomerCreditLimitAxis", "LessThanUSD2MillionMember");                
@@ -2722,6 +2783,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_Sect2AmountOfFundedLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberElement193 = instancObjectFactory.createAmountOfFundedLimitsSanctioned(explictMember2PARTA_lyt_PartA_Sect2AmountOfFundedLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberDataType194);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_Sect2AmountOfFundedLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberElement193);
+                    }
                     
             
             
@@ -2762,7 +2824,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_Sect2AmountOfNonFundedLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberValue198 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfNonFundedLimitsSanctioned(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_Sect2AmountOfNonFundedLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberValue198 != null && !"".equals(explictMember2PARTA_lyt_PartA_Sect2AmountOfNonFundedLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberValue198)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_Sect2AmountOfNonFundedLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberMap197 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_Sect2AmountOfNonFundedLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberMap197.put("CustomerCreditLimitAxis", "LessThanUSD2MillionMember");                
@@ -2789,6 +2852,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_Sect2AmountOfNonFundedLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberElement199 = instancObjectFactory.createAmountOfNonFundedLimitsSanctioned(explictMember2PARTA_lyt_PartA_Sect2AmountOfNonFundedLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberDataType200);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_Sect2AmountOfNonFundedLimitsSanctionedLessThanUSD2MillionMemberProblemCreditMemberElement199);
+                    }
                     
             
             
@@ -2829,7 +2893,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_Sect2AmountOutstandingOfCustomerCreditLimitSenctionedLessThanUSD2MillionMemberProblemCreditMemberValue204 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOutstandingOfCustomerCreditLimitSenctioned(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_Sect2AmountOutstandingOfCustomerCreditLimitSenctionedLessThanUSD2MillionMemberProblemCreditMemberValue204 != null && !"".equals(explictMember2PARTA_lyt_PartA_Sect2AmountOutstandingOfCustomerCreditLimitSenctionedLessThanUSD2MillionMemberProblemCreditMemberValue204)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_Sect2AmountOutstandingOfCustomerCreditLimitSenctionedLessThanUSD2MillionMemberProblemCreditMemberMap203 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_Sect2AmountOutstandingOfCustomerCreditLimitSenctionedLessThanUSD2MillionMemberProblemCreditMemberMap203.put("CustomerCreditLimitAxis", "LessThanUSD2MillionMember");                
@@ -2856,6 +2921,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_Sect2AmountOutstandingOfCustomerCreditLimitSenctionedLessThanUSD2MillionMemberProblemCreditMemberElement205 = instancObjectFactory.createAmountOutstandingOfCustomerCreditLimitSenctioned(explictMember2PARTA_lyt_PartA_Sect2AmountOutstandingOfCustomerCreditLimitSenctionedLessThanUSD2MillionMemberProblemCreditMemberDataType206);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_Sect2AmountOutstandingOfCustomerCreditLimitSenctionedLessThanUSD2MillionMemberProblemCreditMemberElement205);
+                    }
                     
             
             
@@ -2896,7 +2962,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_Sect2SecurityValueLessThanUSD2MillionMemberProblemCreditMemberValue210 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getSecurityValue(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_Sect2SecurityValueLessThanUSD2MillionMemberProblemCreditMemberValue210 != null && !"".equals(explictMember2PARTA_lyt_PartA_Sect2SecurityValueLessThanUSD2MillionMemberProblemCreditMemberValue210)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_Sect2SecurityValueLessThanUSD2MillionMemberProblemCreditMemberMap209 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_Sect2SecurityValueLessThanUSD2MillionMemberProblemCreditMemberMap209.put("CustomerCreditLimitAxis", "LessThanUSD2MillionMember");                
@@ -2923,6 +2990,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_Sect2SecurityValueLessThanUSD2MillionMemberProblemCreditMemberElement211 = instancObjectFactory.createSecurityValue(explictMember2PARTA_lyt_PartA_Sect2SecurityValueLessThanUSD2MillionMemberProblemCreditMemberDataType212);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_Sect2SecurityValueLessThanUSD2MillionMemberProblemCreditMemberElement211);
+                    }
                     
             
             
@@ -2963,7 +3031,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionsHeldAtBranchLessThanUSD2MillionMemberProblemCreditMemberValue216 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionsHeldAtBranch(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionsHeldAtBranchLessThanUSD2MillionMemberProblemCreditMemberValue216 != null && !"".equals(explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionsHeldAtBranchLessThanUSD2MillionMemberProblemCreditMemberValue216)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionsHeldAtBranchLessThanUSD2MillionMemberProblemCreditMemberMap215 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionsHeldAtBranchLessThanUSD2MillionMemberProblemCreditMemberMap215.put("CustomerCreditLimitAxis", "LessThanUSD2MillionMember");                
@@ -2990,6 +3059,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionsHeldAtBranchLessThanUSD2MillionMemberProblemCreditMemberElement217 = instancObjectFactory.createAmountOfProvisionsHeldAtBranch(explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionsHeldAtBranchLessThanUSD2MillionMemberProblemCreditMemberDataType218);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionsHeldAtBranchLessThanUSD2MillionMemberProblemCreditMemberElement217);
+                    }
                     
             
             
@@ -3030,7 +3100,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionsHeldAtHeadOfficeLessThanUSD2MillionMemberProblemCreditMemberValue222 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionsHeldAtHeadOffice(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionsHeldAtHeadOfficeLessThanUSD2MillionMemberProblemCreditMemberValue222 != null && !"".equals(explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionsHeldAtHeadOfficeLessThanUSD2MillionMemberProblemCreditMemberValue222)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionsHeldAtHeadOfficeLessThanUSD2MillionMemberProblemCreditMemberMap221 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionsHeldAtHeadOfficeLessThanUSD2MillionMemberProblemCreditMemberMap221.put("CustomerCreditLimitAxis", "LessThanUSD2MillionMember");                
@@ -3057,6 +3128,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionsHeldAtHeadOfficeLessThanUSD2MillionMemberProblemCreditMemberElement223 = instancObjectFactory.createAmountOfProvisionsHeldAtHeadOffice(explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionsHeldAtHeadOfficeLessThanUSD2MillionMemberProblemCreditMemberDataType224);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionsHeldAtHeadOfficeLessThanUSD2MillionMemberProblemCreditMemberElement223);
+                    }
                     
             
             
@@ -3097,7 +3169,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_Sect2AmountOfInterestSuspenseLessThanUSD2MillionMemberProblemCreditMemberValue228 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfInterestSuspense(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_Sect2AmountOfInterestSuspenseLessThanUSD2MillionMemberProblemCreditMemberValue228 != null && !"".equals(explictMember2PARTA_lyt_PartA_Sect2AmountOfInterestSuspenseLessThanUSD2MillionMemberProblemCreditMemberValue228)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_Sect2AmountOfInterestSuspenseLessThanUSD2MillionMemberProblemCreditMemberMap227 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_Sect2AmountOfInterestSuspenseLessThanUSD2MillionMemberProblemCreditMemberMap227.put("CustomerCreditLimitAxis", "LessThanUSD2MillionMember");                
@@ -3124,6 +3197,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_Sect2AmountOfInterestSuspenseLessThanUSD2MillionMemberProblemCreditMemberElement229 = instancObjectFactory.createAmountOfInterestSuspense(explictMember2PARTA_lyt_PartA_Sect2AmountOfInterestSuspenseLessThanUSD2MillionMemberProblemCreditMemberDataType230);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_Sect2AmountOfInterestSuspenseLessThanUSD2MillionMemberProblemCreditMemberElement229);
+                    }
                     
             
             
@@ -3164,7 +3238,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_Sect2AggregateAmountOfProvisionAndInterestSuspenseLessThanUSD2MillionMemberProblemCreditMemberValue234 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAggregateAmountOfProvisionAndInterestSuspense(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_Sect2AggregateAmountOfProvisionAndInterestSuspenseLessThanUSD2MillionMemberProblemCreditMemberValue234 != null && !"".equals(explictMember2PARTA_lyt_PartA_Sect2AggregateAmountOfProvisionAndInterestSuspenseLessThanUSD2MillionMemberProblemCreditMemberValue234)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_Sect2AggregateAmountOfProvisionAndInterestSuspenseLessThanUSD2MillionMemberProblemCreditMemberMap233 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_Sect2AggregateAmountOfProvisionAndInterestSuspenseLessThanUSD2MillionMemberProblemCreditMemberMap233.put("CustomerCreditLimitAxis", "LessThanUSD2MillionMember");                
@@ -3191,6 +3266,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_Sect2AggregateAmountOfProvisionAndInterestSuspenseLessThanUSD2MillionMemberProblemCreditMemberElement235 = instancObjectFactory.createAggregateAmountOfProvisionAndInterestSuspense(explictMember2PARTA_lyt_PartA_Sect2AggregateAmountOfProvisionAndInterestSuspenseLessThanUSD2MillionMemberProblemCreditMemberDataType236);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_Sect2AggregateAmountOfProvisionAndInterestSuspenseLessThanUSD2MillionMemberProblemCreditMemberElement235);
+                    }
                     
             
             
@@ -3231,7 +3307,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesLessThanUSD2MillionMemberProblemCreditMemberValue240 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesLessThanUSD2MillionMemberProblemCreditMemberValue240 != null && !"".equals(explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesLessThanUSD2MillionMemberProblemCreditMemberValue240)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesLessThanUSD2MillionMemberProblemCreditMemberMap239 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesLessThanUSD2MillionMemberProblemCreditMemberMap239.put("CustomerCreditLimitAxis", "LessThanUSD2MillionMember");                
@@ -3258,6 +3335,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesLessThanUSD2MillionMemberProblemCreditMemberElement241 = instancObjectFactory.createAmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities(explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesLessThanUSD2MillionMemberProblemCreditMemberDataType242);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_Sect2AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesLessThanUSD2MillionMemberProblemCreditMemberElement241);
+                    }
                     
             
             
@@ -3298,7 +3376,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_Sect2AmountOfShortFallLessThanUSD2MillionMemberProblemCreditMemberValue246 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfShortFall(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_Sect2AmountOfShortFallLessThanUSD2MillionMemberProblemCreditMemberValue246 != null && !"".equals(explictMember2PARTA_lyt_PartA_Sect2AmountOfShortFallLessThanUSD2MillionMemberProblemCreditMemberValue246)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_Sect2AmountOfShortFallLessThanUSD2MillionMemberProblemCreditMemberMap245 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_Sect2AmountOfShortFallLessThanUSD2MillionMemberProblemCreditMemberMap245.put("CustomerCreditLimitAxis", "LessThanUSD2MillionMember");                
@@ -3325,6 +3404,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_Sect2AmountOfShortFallLessThanUSD2MillionMemberProblemCreditMemberElement247 = instancObjectFactory.createAmountOfShortFall(explictMember2PARTA_lyt_PartA_Sect2AmountOfShortFallLessThanUSD2MillionMemberProblemCreditMemberDataType248);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_Sect2AmountOfShortFallLessThanUSD2MillionMemberProblemCreditMemberElement247);
+                    }
                     
             
             
@@ -3365,7 +3445,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_Sect2AmountOfHeadOfficeSupportFundLessThanUSD2MillionMemberProblemCreditMemberValue252 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfHeadOfficeSupportFund(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_Sect2AmountOfHeadOfficeSupportFundLessThanUSD2MillionMemberProblemCreditMemberValue252 != null && !"".equals(explictMember2PARTA_lyt_PartA_Sect2AmountOfHeadOfficeSupportFundLessThanUSD2MillionMemberProblemCreditMemberValue252)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_Sect2AmountOfHeadOfficeSupportFundLessThanUSD2MillionMemberProblemCreditMemberMap251 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_Sect2AmountOfHeadOfficeSupportFundLessThanUSD2MillionMemberProblemCreditMemberMap251.put("CustomerCreditLimitAxis", "LessThanUSD2MillionMember");                
@@ -3392,6 +3473,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTA_lyt_PartA_Sect2AmountOfHeadOfficeSupportFundLessThanUSD2MillionMemberProblemCreditMemberElement253 = instancObjectFactory.createAmountOfHeadOfficeSupportFund(explictMember2PARTA_lyt_PartA_Sect2AmountOfHeadOfficeSupportFundLessThanUSD2MillionMemberProblemCreditMemberDataType254);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_Sect2AmountOfHeadOfficeSupportFundLessThanUSD2MillionMemberProblemCreditMemberElement253);
+                    }
                     
             
             
@@ -3421,7 +3503,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTA_lyt_PartA_Sect2DevelopmentsDuringQuarterLessThanUSD2MillionMemberProblemCreditMemberValue257 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getDevelopmentsDuringQuarter(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD2MillionMember", "ProblemCreditMember");
-                
+                    if(explictMember2PARTA_lyt_PartA_Sect2DevelopmentsDuringQuarterLessThanUSD2MillionMemberProblemCreditMemberValue257 != null && !"".equals(explictMember2PARTA_lyt_PartA_Sect2DevelopmentsDuringQuarterLessThanUSD2MillionMemberProblemCreditMemberValue257)) {
+                    
 
                 Map explictMember2PARTA_lyt_PartA_Sect2DevelopmentsDuringQuarterLessThanUSD2MillionMemberProblemCreditMemberMap256 = new HashMap<String, String>();
                 explictMember2PARTA_lyt_PartA_Sect2DevelopmentsDuringQuarterLessThanUSD2MillionMemberProblemCreditMemberMap256.put("CustomerCreditLimitAxis", "LessThanUSD2MillionMember");                
@@ -3445,6 +3528,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<StringItemType> explictMember2PARTA_lyt_PartA_Sect2DevelopmentsDuringQuarterLessThanUSD2MillionMemberProblemCreditMemberElement258 = instancObjectFactory.createDevelopmentsDuringQuarter(explictMember2PARTA_lyt_PartA_Sect2DevelopmentsDuringQuarterLessThanUSD2MillionMemberProblemCreditMemberDataType259);
                         bodyElements.add(explictMember2PARTA_lyt_PartA_Sect2DevelopmentsDuringQuarterLessThanUSD2MillionMemberProblemCreditMemberElement258);
+                    }
                     
             
             
@@ -3511,7 +3595,8 @@ public class PCIReport implements XBRLReportIntf {
                     // create value for element
                     
                         String explictMember1PARTA_lyt_PartA_GrossAggregateAmountOfLimitsSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue263 = PCIReportUtil.retrieveValueForTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAggregateAmountOfLimitsSanctioned(), "ProblemCreditMember");
-                    
+                        if(explictMember1PARTA_lyt_PartA_GrossAggregateAmountOfLimitsSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue263 != null && !"".equals(explictMember1PARTA_lyt_PartA_GrossAggregateAmountOfLimitsSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue263)) {
+                        
                     
 
                     Map explictMember1PARTA_lyt_PartA_GrossAggregateAmountOfLimitsSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisMap262 = new HashMap<String, String>();
@@ -3537,7 +3622,7 @@ public class PCIReport implements XBRLReportIntf {
                     
                     JAXBElement<MonetaryItemType> explictMember1PARTA_lyt_PartA_GrossAggregateAmountOfLimitsSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement264 = instancObjectFactory.createAggregateAmountOfLimitsSanctioned(explictMember1PARTA_lyt_PartA_GrossAggregateAmountOfLimitsSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberDataType265);
                     bodyElements.add(explictMember1PARTA_lyt_PartA_GrossAggregateAmountOfLimitsSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement264);
-                    
+                    }
                     
             
             
@@ -3576,7 +3661,8 @@ public class PCIReport implements XBRLReportIntf {
                     // create value for element
                     
                         String explictMember1PARTA_lyt_PartA_GrossAmountOfFundedLimitsSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue269 = PCIReportUtil.retrieveValueForTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfFundedLimitsSanctioned(), "ProblemCreditMember");
-                    
+                        if(explictMember1PARTA_lyt_PartA_GrossAmountOfFundedLimitsSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue269 != null && !"".equals(explictMember1PARTA_lyt_PartA_GrossAmountOfFundedLimitsSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue269)) {
+                        
                     
 
                     Map explictMember1PARTA_lyt_PartA_GrossAmountOfFundedLimitsSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisMap268 = new HashMap<String, String>();
@@ -3602,7 +3688,7 @@ public class PCIReport implements XBRLReportIntf {
                     
                     JAXBElement<MonetaryItemType> explictMember1PARTA_lyt_PartA_GrossAmountOfFundedLimitsSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement270 = instancObjectFactory.createAmountOfFundedLimitsSanctioned(explictMember1PARTA_lyt_PartA_GrossAmountOfFundedLimitsSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberDataType271);
                     bodyElements.add(explictMember1PARTA_lyt_PartA_GrossAmountOfFundedLimitsSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement270);
-                    
+                    }
                     
             
             
@@ -3641,7 +3727,8 @@ public class PCIReport implements XBRLReportIntf {
                     // create value for element
                     
                         String explictMember1PARTA_lyt_PartA_GrossAmountOfNonFundedLimitsSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue275 = PCIReportUtil.retrieveValueForTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfNonFundedLimitsSanctioned(), "ProblemCreditMember");
-                    
+                        if(explictMember1PARTA_lyt_PartA_GrossAmountOfNonFundedLimitsSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue275 != null && !"".equals(explictMember1PARTA_lyt_PartA_GrossAmountOfNonFundedLimitsSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue275)) {
+                        
                     
 
                     Map explictMember1PARTA_lyt_PartA_GrossAmountOfNonFundedLimitsSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisMap274 = new HashMap<String, String>();
@@ -3667,7 +3754,7 @@ public class PCIReport implements XBRLReportIntf {
                     
                     JAXBElement<MonetaryItemType> explictMember1PARTA_lyt_PartA_GrossAmountOfNonFundedLimitsSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement276 = instancObjectFactory.createAmountOfNonFundedLimitsSanctioned(explictMember1PARTA_lyt_PartA_GrossAmountOfNonFundedLimitsSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberDataType277);
                     bodyElements.add(explictMember1PARTA_lyt_PartA_GrossAmountOfNonFundedLimitsSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement276);
-                    
+                    }
                     
             
             
@@ -3706,7 +3793,8 @@ public class PCIReport implements XBRLReportIntf {
                     // create value for element
                     
                         String explictMember1PARTA_lyt_PartA_GrossAmountOutstandingOfCustomerCreditLimitSenctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue281 = PCIReportUtil.retrieveValueForTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOutstandingOfCustomerCreditLimitSenctioned(), "ProblemCreditMember");
-                    
+                        if(explictMember1PARTA_lyt_PartA_GrossAmountOutstandingOfCustomerCreditLimitSenctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue281 != null && !"".equals(explictMember1PARTA_lyt_PartA_GrossAmountOutstandingOfCustomerCreditLimitSenctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue281)) {
+                        
                     
 
                     Map explictMember1PARTA_lyt_PartA_GrossAmountOutstandingOfCustomerCreditLimitSenctionedTypeOfProblemCreditAndInvestmentCustomerAxisMap280 = new HashMap<String, String>();
@@ -3732,7 +3820,7 @@ public class PCIReport implements XBRLReportIntf {
                     
                     JAXBElement<MonetaryItemType> explictMember1PARTA_lyt_PartA_GrossAmountOutstandingOfCustomerCreditLimitSenctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement282 = instancObjectFactory.createAmountOutstandingOfCustomerCreditLimitSenctioned(explictMember1PARTA_lyt_PartA_GrossAmountOutstandingOfCustomerCreditLimitSenctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberDataType283);
                     bodyElements.add(explictMember1PARTA_lyt_PartA_GrossAmountOutstandingOfCustomerCreditLimitSenctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement282);
-                    
+                    }
                     
             
             
@@ -3771,7 +3859,8 @@ public class PCIReport implements XBRLReportIntf {
                     // create value for element
                     
                         String explictMember1PARTA_lyt_PartA_GrossSecurityValueTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue287 = PCIReportUtil.retrieveValueForTypeOfProblemCreditAndInvestmentCustomerAxis(field.getSecurityValue(), "ProblemCreditMember");
-                    
+                        if(explictMember1PARTA_lyt_PartA_GrossSecurityValueTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue287 != null && !"".equals(explictMember1PARTA_lyt_PartA_GrossSecurityValueTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue287)) {
+                        
                     
 
                     Map explictMember1PARTA_lyt_PartA_GrossSecurityValueTypeOfProblemCreditAndInvestmentCustomerAxisMap286 = new HashMap<String, String>();
@@ -3797,7 +3886,7 @@ public class PCIReport implements XBRLReportIntf {
                     
                     JAXBElement<MonetaryItemType> explictMember1PARTA_lyt_PartA_GrossSecurityValueTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement288 = instancObjectFactory.createSecurityValue(explictMember1PARTA_lyt_PartA_GrossSecurityValueTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberDataType289);
                     bodyElements.add(explictMember1PARTA_lyt_PartA_GrossSecurityValueTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement288);
-                    
+                    }
                     
             
             
@@ -3836,7 +3925,8 @@ public class PCIReport implements XBRLReportIntf {
                     // create value for element
                     
                         String explictMember1PARTA_lyt_PartA_GrossAmountOfProvisionsHeldAtBranchTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue293 = PCIReportUtil.retrieveValueForTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionsHeldAtBranch(), "ProblemCreditMember");
-                    
+                        if(explictMember1PARTA_lyt_PartA_GrossAmountOfProvisionsHeldAtBranchTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue293 != null && !"".equals(explictMember1PARTA_lyt_PartA_GrossAmountOfProvisionsHeldAtBranchTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue293)) {
+                        
                     
 
                     Map explictMember1PARTA_lyt_PartA_GrossAmountOfProvisionsHeldAtBranchTypeOfProblemCreditAndInvestmentCustomerAxisMap292 = new HashMap<String, String>();
@@ -3862,7 +3952,7 @@ public class PCIReport implements XBRLReportIntf {
                     
                     JAXBElement<MonetaryItemType> explictMember1PARTA_lyt_PartA_GrossAmountOfProvisionsHeldAtBranchTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement294 = instancObjectFactory.createAmountOfProvisionsHeldAtBranch(explictMember1PARTA_lyt_PartA_GrossAmountOfProvisionsHeldAtBranchTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberDataType295);
                     bodyElements.add(explictMember1PARTA_lyt_PartA_GrossAmountOfProvisionsHeldAtBranchTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement294);
-                    
+                    }
                     
             
             
@@ -3901,7 +3991,8 @@ public class PCIReport implements XBRLReportIntf {
                     // create value for element
                     
                         String explictMember1PARTA_lyt_PartA_GrossAmountOfProvisionsHeldAtHeadOfficeTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue299 = PCIReportUtil.retrieveValueForTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionsHeldAtHeadOffice(), "ProblemCreditMember");
-                    
+                        if(explictMember1PARTA_lyt_PartA_GrossAmountOfProvisionsHeldAtHeadOfficeTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue299 != null && !"".equals(explictMember1PARTA_lyt_PartA_GrossAmountOfProvisionsHeldAtHeadOfficeTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue299)) {
+                        
                     
 
                     Map explictMember1PARTA_lyt_PartA_GrossAmountOfProvisionsHeldAtHeadOfficeTypeOfProblemCreditAndInvestmentCustomerAxisMap298 = new HashMap<String, String>();
@@ -3927,7 +4018,7 @@ public class PCIReport implements XBRLReportIntf {
                     
                     JAXBElement<MonetaryItemType> explictMember1PARTA_lyt_PartA_GrossAmountOfProvisionsHeldAtHeadOfficeTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement300 = instancObjectFactory.createAmountOfProvisionsHeldAtHeadOffice(explictMember1PARTA_lyt_PartA_GrossAmountOfProvisionsHeldAtHeadOfficeTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberDataType301);
                     bodyElements.add(explictMember1PARTA_lyt_PartA_GrossAmountOfProvisionsHeldAtHeadOfficeTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement300);
-                    
+                    }
                     
             
             
@@ -3966,7 +4057,8 @@ public class PCIReport implements XBRLReportIntf {
                     // create value for element
                     
                         String explictMember1PARTA_lyt_PartA_GrossAmountOfInterestSuspenseTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue305 = PCIReportUtil.retrieveValueForTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfInterestSuspense(), "ProblemCreditMember");
-                    
+                        if(explictMember1PARTA_lyt_PartA_GrossAmountOfInterestSuspenseTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue305 != null && !"".equals(explictMember1PARTA_lyt_PartA_GrossAmountOfInterestSuspenseTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue305)) {
+                        
                     
 
                     Map explictMember1PARTA_lyt_PartA_GrossAmountOfInterestSuspenseTypeOfProblemCreditAndInvestmentCustomerAxisMap304 = new HashMap<String, String>();
@@ -3992,7 +4084,7 @@ public class PCIReport implements XBRLReportIntf {
                     
                     JAXBElement<MonetaryItemType> explictMember1PARTA_lyt_PartA_GrossAmountOfInterestSuspenseTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement306 = instancObjectFactory.createAmountOfInterestSuspense(explictMember1PARTA_lyt_PartA_GrossAmountOfInterestSuspenseTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberDataType307);
                     bodyElements.add(explictMember1PARTA_lyt_PartA_GrossAmountOfInterestSuspenseTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement306);
-                    
+                    }
                     
             
             
@@ -4031,7 +4123,8 @@ public class PCIReport implements XBRLReportIntf {
                     // create value for element
                     
                         String explictMember1PARTA_lyt_PartA_GrossAggregateAmountOfProvisionAndInterestSuspenseTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue311 = PCIReportUtil.retrieveValueForTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAggregateAmountOfProvisionAndInterestSuspense(), "ProblemCreditMember");
-                    
+                        if(explictMember1PARTA_lyt_PartA_GrossAggregateAmountOfProvisionAndInterestSuspenseTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue311 != null && !"".equals(explictMember1PARTA_lyt_PartA_GrossAggregateAmountOfProvisionAndInterestSuspenseTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue311)) {
+                        
                     
 
                     Map explictMember1PARTA_lyt_PartA_GrossAggregateAmountOfProvisionAndInterestSuspenseTypeOfProblemCreditAndInvestmentCustomerAxisMap310 = new HashMap<String, String>();
@@ -4057,7 +4150,7 @@ public class PCIReport implements XBRLReportIntf {
                     
                     JAXBElement<MonetaryItemType> explictMember1PARTA_lyt_PartA_GrossAggregateAmountOfProvisionAndInterestSuspenseTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement312 = instancObjectFactory.createAggregateAmountOfProvisionAndInterestSuspense(explictMember1PARTA_lyt_PartA_GrossAggregateAmountOfProvisionAndInterestSuspenseTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberDataType313);
                     bodyElements.add(explictMember1PARTA_lyt_PartA_GrossAggregateAmountOfProvisionAndInterestSuspenseTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement312);
-                    
+                    }
                     
             
             
@@ -4096,7 +4189,8 @@ public class PCIReport implements XBRLReportIntf {
                     // create value for element
                     
                         String explictMember1PARTA_lyt_PartA_GrossAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue317 = PCIReportUtil.retrieveValueForTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities(), "ProblemCreditMember");
-                    
+                        if(explictMember1PARTA_lyt_PartA_GrossAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue317 != null && !"".equals(explictMember1PARTA_lyt_PartA_GrossAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue317)) {
+                        
                     
 
                     Map explictMember1PARTA_lyt_PartA_GrossAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesTypeOfProblemCreditAndInvestmentCustomerAxisMap316 = new HashMap<String, String>();
@@ -4122,7 +4216,7 @@ public class PCIReport implements XBRLReportIntf {
                     
                     JAXBElement<MonetaryItemType> explictMember1PARTA_lyt_PartA_GrossAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement318 = instancObjectFactory.createAmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities(explictMember1PARTA_lyt_PartA_GrossAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberDataType319);
                     bodyElements.add(explictMember1PARTA_lyt_PartA_GrossAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement318);
-                    
+                    }
                     
             
             
@@ -4161,7 +4255,8 @@ public class PCIReport implements XBRLReportIntf {
                     // create value for element
                     
                         String explictMember1PARTA_lyt_PartA_GrossAmountOfShortFallTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue323 = PCIReportUtil.retrieveValueForTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfShortFall(), "ProblemCreditMember");
-                    
+                        if(explictMember1PARTA_lyt_PartA_GrossAmountOfShortFallTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue323 != null && !"".equals(explictMember1PARTA_lyt_PartA_GrossAmountOfShortFallTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue323)) {
+                        
                     
 
                     Map explictMember1PARTA_lyt_PartA_GrossAmountOfShortFallTypeOfProblemCreditAndInvestmentCustomerAxisMap322 = new HashMap<String, String>();
@@ -4187,7 +4282,7 @@ public class PCIReport implements XBRLReportIntf {
                     
                     JAXBElement<MonetaryItemType> explictMember1PARTA_lyt_PartA_GrossAmountOfShortFallTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement324 = instancObjectFactory.createAmountOfShortFall(explictMember1PARTA_lyt_PartA_GrossAmountOfShortFallTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberDataType325);
                     bodyElements.add(explictMember1PARTA_lyt_PartA_GrossAmountOfShortFallTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement324);
-                    
+                    }
                     
             
             
@@ -4226,7 +4321,8 @@ public class PCIReport implements XBRLReportIntf {
                     // create value for element
                     
                         String explictMember1PARTA_lyt_PartA_GrossAmountOfHeadOfficeSupportFundTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue329 = PCIReportUtil.retrieveValueForTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfHeadOfficeSupportFund(), "ProblemCreditMember");
-                    
+                        if(explictMember1PARTA_lyt_PartA_GrossAmountOfHeadOfficeSupportFundTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue329 != null && !"".equals(explictMember1PARTA_lyt_PartA_GrossAmountOfHeadOfficeSupportFundTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberValue329)) {
+                        
                     
 
                     Map explictMember1PARTA_lyt_PartA_GrossAmountOfHeadOfficeSupportFundTypeOfProblemCreditAndInvestmentCustomerAxisMap328 = new HashMap<String, String>();
@@ -4252,7 +4348,7 @@ public class PCIReport implements XBRLReportIntf {
                     
                     JAXBElement<MonetaryItemType> explictMember1PARTA_lyt_PartA_GrossAmountOfHeadOfficeSupportFundTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement330 = instancObjectFactory.createAmountOfHeadOfficeSupportFund(explictMember1PARTA_lyt_PartA_GrossAmountOfHeadOfficeSupportFundTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberDataType331);
                     bodyElements.add(explictMember1PARTA_lyt_PartA_GrossAmountOfHeadOfficeSupportFundTypeOfProblemCreditAndInvestmentCustomerAxisProblemCreditMemberElement330);
-                    
+                    }
                     
             
             
@@ -4320,7 +4416,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1SoverignCharacterMoreThanUSD1MiliionMemberProblemInvestmentMemberValue334 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getSoverignCharacter(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1SoverignCharacterMoreThanUSD1MiliionMemberProblemInvestmentMemberValue334 != null && !"".equals(explictMember2PARTB_lyt_PartB1SoverignCharacterMoreThanUSD1MiliionMemberProblemInvestmentMemberValue334)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1SoverignCharacterMoreThanUSD1MiliionMemberProblemInvestmentMemberMap333 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1SoverignCharacterMoreThanUSD1MiliionMemberProblemInvestmentMemberMap333.put("CustomerCreditLimitAxis", "MoreThanUSD1MiliionMember");                
@@ -4344,6 +4441,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<StringItemType> explictMember2PARTB_lyt_PartB1SoverignCharacterMoreThanUSD1MiliionMemberProblemInvestmentMemberElement335 = instancObjectFactory.createSoverignCharacter(explictMember2PARTB_lyt_PartB1SoverignCharacterMoreThanUSD1MiliionMemberProblemInvestmentMemberDataType336);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1SoverignCharacterMoreThanUSD1MiliionMemberProblemInvestmentMemberElement335);
+                    }
                     
             
             
@@ -4373,7 +4471,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1CategoryOfBorrowerMoreThanUSD1MiliionMemberProblemInvestmentMemberValue339 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getCategoryOfBorrower(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1CategoryOfBorrowerMoreThanUSD1MiliionMemberProblemInvestmentMemberValue339 != null && !"".equals(explictMember2PARTB_lyt_PartB1CategoryOfBorrowerMoreThanUSD1MiliionMemberProblemInvestmentMemberValue339)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1CategoryOfBorrowerMoreThanUSD1MiliionMemberProblemInvestmentMemberMap338 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1CategoryOfBorrowerMoreThanUSD1MiliionMemberProblemInvestmentMemberMap338.put("CustomerCreditLimitAxis", "MoreThanUSD1MiliionMember");                
@@ -4397,6 +4496,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<CategoryStatusItemType> explictMember2PARTB_lyt_PartB1CategoryOfBorrowerMoreThanUSD1MiliionMemberProblemInvestmentMemberElement340 = instancObjectFactory.createCategoryOfBorrower(explictMember2PARTB_lyt_PartB1CategoryOfBorrowerMoreThanUSD1MiliionMemberProblemInvestmentMemberDataType341);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1CategoryOfBorrowerMoreThanUSD1MiliionMemberProblemInvestmentMemberElement340);
+                    }
                     
             
             
@@ -4437,7 +4537,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1AmountOfBookValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberValue345 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfBookValueOfCreditSanctioned(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1AmountOfBookValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberValue345 != null && !"".equals(explictMember2PARTB_lyt_PartB1AmountOfBookValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberValue345)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1AmountOfBookValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberMap344 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1AmountOfBookValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberMap344.put("CustomerCreditLimitAxis", "MoreThanUSD1MiliionMember");                
@@ -4464,6 +4565,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1AmountOfBookValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberElement346 = instancObjectFactory.createAmountOfBookValueOfCreditSanctioned(explictMember2PARTB_lyt_PartB1AmountOfBookValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberDataType347);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1AmountOfBookValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberElement346);
+                    }
                     
             
             
@@ -4504,7 +4606,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1AmountOfMarketValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberValue351 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfMarketValueOfCreditSanctioned(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1AmountOfMarketValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberValue351 != null && !"".equals(explictMember2PARTB_lyt_PartB1AmountOfMarketValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberValue351)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1AmountOfMarketValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberMap350 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1AmountOfMarketValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberMap350.put("CustomerCreditLimitAxis", "MoreThanUSD1MiliionMember");                
@@ -4531,6 +4634,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1AmountOfMarketValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberElement352 = instancObjectFactory.createAmountOfMarketValueOfCreditSanctioned(explictMember2PARTB_lyt_PartB1AmountOfMarketValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberDataType353);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1AmountOfMarketValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberElement352);
+                    }
                     
             
             
@@ -4560,7 +4664,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1AssetsClassificationMoreThanUSD1MiliionMemberProblemInvestmentMemberValue356 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAssetsClassification(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1AssetsClassificationMoreThanUSD1MiliionMemberProblemInvestmentMemberValue356 != null && !"".equals(explictMember2PARTB_lyt_PartB1AssetsClassificationMoreThanUSD1MiliionMemberProblemInvestmentMemberValue356)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1AssetsClassificationMoreThanUSD1MiliionMemberProblemInvestmentMemberMap355 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1AssetsClassificationMoreThanUSD1MiliionMemberProblemInvestmentMemberMap355.put("CustomerCreditLimitAxis", "MoreThanUSD1MiliionMember");                
@@ -4585,6 +4690,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<AssetsClassificationItemType> explictMember2PARTB_lyt_PartB1AssetsClassificationMoreThanUSD1MiliionMemberProblemInvestmentMemberElement357 = instancObjectFactory.createAssetsClassification(explictMember2PARTB_lyt_PartB1AssetsClassificationMoreThanUSD1MiliionMemberProblemInvestmentMemberDataType358);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1AssetsClassificationMoreThanUSD1MiliionMemberProblemInvestmentMemberElement357);
+                    }
                     
             
             
@@ -4625,7 +4731,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1AmountOfProvisionsHeldAtBranchMoreThanUSD1MiliionMemberProblemInvestmentMemberValue362 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionsHeldAtBranch(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1AmountOfProvisionsHeldAtBranchMoreThanUSD1MiliionMemberProblemInvestmentMemberValue362 != null && !"".equals(explictMember2PARTB_lyt_PartB1AmountOfProvisionsHeldAtBranchMoreThanUSD1MiliionMemberProblemInvestmentMemberValue362)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1AmountOfProvisionsHeldAtBranchMoreThanUSD1MiliionMemberProblemInvestmentMemberMap361 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1AmountOfProvisionsHeldAtBranchMoreThanUSD1MiliionMemberProblemInvestmentMemberMap361.put("CustomerCreditLimitAxis", "MoreThanUSD1MiliionMember");                
@@ -4652,6 +4759,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1AmountOfProvisionsHeldAtBranchMoreThanUSD1MiliionMemberProblemInvestmentMemberElement363 = instancObjectFactory.createAmountOfProvisionsHeldAtBranch(explictMember2PARTB_lyt_PartB1AmountOfProvisionsHeldAtBranchMoreThanUSD1MiliionMemberProblemInvestmentMemberDataType364);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1AmountOfProvisionsHeldAtBranchMoreThanUSD1MiliionMemberProblemInvestmentMemberElement363);
+                    }
                     
             
             
@@ -4692,7 +4800,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1AmountOfProvisionsHeldAtHeadOfficeMoreThanUSD1MiliionMemberProblemInvestmentMemberValue368 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionsHeldAtHeadOffice(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1AmountOfProvisionsHeldAtHeadOfficeMoreThanUSD1MiliionMemberProblemInvestmentMemberValue368 != null && !"".equals(explictMember2PARTB_lyt_PartB1AmountOfProvisionsHeldAtHeadOfficeMoreThanUSD1MiliionMemberProblemInvestmentMemberValue368)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1AmountOfProvisionsHeldAtHeadOfficeMoreThanUSD1MiliionMemberProblemInvestmentMemberMap367 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1AmountOfProvisionsHeldAtHeadOfficeMoreThanUSD1MiliionMemberProblemInvestmentMemberMap367.put("CustomerCreditLimitAxis", "MoreThanUSD1MiliionMember");                
@@ -4719,6 +4828,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1AmountOfProvisionsHeldAtHeadOfficeMoreThanUSD1MiliionMemberProblemInvestmentMemberElement369 = instancObjectFactory.createAmountOfProvisionsHeldAtHeadOffice(explictMember2PARTB_lyt_PartB1AmountOfProvisionsHeldAtHeadOfficeMoreThanUSD1MiliionMemberProblemInvestmentMemberDataType370);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1AmountOfProvisionsHeldAtHeadOfficeMoreThanUSD1MiliionMemberProblemInvestmentMemberElement369);
+                    }
                     
             
             
@@ -4759,7 +4869,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1AggregateAmountOfProvisionMoreThanUSD1MiliionMemberProblemInvestmentMemberValue374 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAggregateAmountOfProvision(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1AggregateAmountOfProvisionMoreThanUSD1MiliionMemberProblemInvestmentMemberValue374 != null && !"".equals(explictMember2PARTB_lyt_PartB1AggregateAmountOfProvisionMoreThanUSD1MiliionMemberProblemInvestmentMemberValue374)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1AggregateAmountOfProvisionMoreThanUSD1MiliionMemberProblemInvestmentMemberMap373 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1AggregateAmountOfProvisionMoreThanUSD1MiliionMemberProblemInvestmentMemberMap373.put("CustomerCreditLimitAxis", "MoreThanUSD1MiliionMember");                
@@ -4786,6 +4897,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1AggregateAmountOfProvisionMoreThanUSD1MiliionMemberProblemInvestmentMemberElement375 = instancObjectFactory.createAggregateAmountOfProvision(explictMember2PARTB_lyt_PartB1AggregateAmountOfProvisionMoreThanUSD1MiliionMemberProblemInvestmentMemberDataType376);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1AggregateAmountOfProvisionMoreThanUSD1MiliionMemberProblemInvestmentMemberElement375);
+                    }
                     
             
             
@@ -4826,7 +4938,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD1MiliionMemberProblemInvestmentMemberValue380 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD1MiliionMemberProblemInvestmentMemberValue380 != null && !"".equals(explictMember2PARTB_lyt_PartB1AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD1MiliionMemberProblemInvestmentMemberValue380)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD1MiliionMemberProblemInvestmentMemberMap379 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD1MiliionMemberProblemInvestmentMemberMap379.put("CustomerCreditLimitAxis", "MoreThanUSD1MiliionMember");                
@@ -4853,6 +4966,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD1MiliionMemberProblemInvestmentMemberElement381 = instancObjectFactory.createAmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities(explictMember2PARTB_lyt_PartB1AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD1MiliionMemberProblemInvestmentMemberDataType382);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD1MiliionMemberProblemInvestmentMemberElement381);
+                    }
                     
             
             
@@ -4893,7 +5007,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1AmountOfShortFallMoreThanUSD1MiliionMemberProblemInvestmentMemberValue386 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfShortFall(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1AmountOfShortFallMoreThanUSD1MiliionMemberProblemInvestmentMemberValue386 != null && !"".equals(explictMember2PARTB_lyt_PartB1AmountOfShortFallMoreThanUSD1MiliionMemberProblemInvestmentMemberValue386)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1AmountOfShortFallMoreThanUSD1MiliionMemberProblemInvestmentMemberMap385 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1AmountOfShortFallMoreThanUSD1MiliionMemberProblemInvestmentMemberMap385.put("CustomerCreditLimitAxis", "MoreThanUSD1MiliionMember");                
@@ -4920,6 +5035,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1AmountOfShortFallMoreThanUSD1MiliionMemberProblemInvestmentMemberElement387 = instancObjectFactory.createAmountOfShortFall(explictMember2PARTB_lyt_PartB1AmountOfShortFallMoreThanUSD1MiliionMemberProblemInvestmentMemberDataType388);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1AmountOfShortFallMoreThanUSD1MiliionMemberProblemInvestmentMemberElement387);
+                    }
                     
             
             
@@ -4960,7 +5076,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1AmountOfHeadOfficeSupportFundMoreThanUSD1MiliionMemberProblemInvestmentMemberValue392 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfHeadOfficeSupportFund(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1AmountOfHeadOfficeSupportFundMoreThanUSD1MiliionMemberProblemInvestmentMemberValue392 != null && !"".equals(explictMember2PARTB_lyt_PartB1AmountOfHeadOfficeSupportFundMoreThanUSD1MiliionMemberProblemInvestmentMemberValue392)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1AmountOfHeadOfficeSupportFundMoreThanUSD1MiliionMemberProblemInvestmentMemberMap391 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1AmountOfHeadOfficeSupportFundMoreThanUSD1MiliionMemberProblemInvestmentMemberMap391.put("CustomerCreditLimitAxis", "MoreThanUSD1MiliionMember");                
@@ -4987,6 +5104,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1AmountOfHeadOfficeSupportFundMoreThanUSD1MiliionMemberProblemInvestmentMemberElement393 = instancObjectFactory.createAmountOfHeadOfficeSupportFund(explictMember2PARTB_lyt_PartB1AmountOfHeadOfficeSupportFundMoreThanUSD1MiliionMemberProblemInvestmentMemberDataType394);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1AmountOfHeadOfficeSupportFundMoreThanUSD1MiliionMemberProblemInvestmentMemberElement393);
+                    }
                     
             
             
@@ -5016,7 +5134,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1DevelopmentsDuringQuarterMoreThanUSD1MiliionMemberProblemInvestmentMemberValue397 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getDevelopmentsDuringQuarter(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1DevelopmentsDuringQuarterMoreThanUSD1MiliionMemberProblemInvestmentMemberValue397 != null && !"".equals(explictMember2PARTB_lyt_PartB1DevelopmentsDuringQuarterMoreThanUSD1MiliionMemberProblemInvestmentMemberValue397)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1DevelopmentsDuringQuarterMoreThanUSD1MiliionMemberProblemInvestmentMemberMap396 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1DevelopmentsDuringQuarterMoreThanUSD1MiliionMemberProblemInvestmentMemberMap396.put("CustomerCreditLimitAxis", "MoreThanUSD1MiliionMember");                
@@ -5040,6 +5159,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<StringItemType> explictMember2PARTB_lyt_PartB1DevelopmentsDuringQuarterMoreThanUSD1MiliionMemberProblemInvestmentMemberElement398 = instancObjectFactory.createDevelopmentsDuringQuarter(explictMember2PARTB_lyt_PartB1DevelopmentsDuringQuarterMoreThanUSD1MiliionMemberProblemInvestmentMemberDataType399);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1DevelopmentsDuringQuarterMoreThanUSD1MiliionMemberProblemInvestmentMemberElement398);
+                    }
                     
             
             
@@ -5110,7 +5230,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1_totalAmountOfBookValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberValue403 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfBookValueOfCreditSanctioned(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1_totalAmountOfBookValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberValue403 != null && !"".equals(explictMember2PARTB_lyt_PartB1_totalAmountOfBookValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberValue403)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1_totalAmountOfBookValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberMap402 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1_totalAmountOfBookValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberMap402.put("CustomerCreditLimitAxis", "MoreThanUSD1MiliionMember");                
@@ -5137,6 +5258,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1_totalAmountOfBookValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberElement404 = instancObjectFactory.createAmountOfBookValueOfCreditSanctioned(explictMember2PARTB_lyt_PartB1_totalAmountOfBookValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberDataType405);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1_totalAmountOfBookValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberElement404);
+                    }
                     
             
             
@@ -5177,7 +5299,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1_totalAmountOfMarketValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberValue409 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfMarketValueOfCreditSanctioned(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1_totalAmountOfMarketValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberValue409 != null && !"".equals(explictMember2PARTB_lyt_PartB1_totalAmountOfMarketValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberValue409)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1_totalAmountOfMarketValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberMap408 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1_totalAmountOfMarketValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberMap408.put("CustomerCreditLimitAxis", "MoreThanUSD1MiliionMember");                
@@ -5204,6 +5327,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1_totalAmountOfMarketValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberElement410 = instancObjectFactory.createAmountOfMarketValueOfCreditSanctioned(explictMember2PARTB_lyt_PartB1_totalAmountOfMarketValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberDataType411);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1_totalAmountOfMarketValueOfCreditSanctionedMoreThanUSD1MiliionMemberProblemInvestmentMemberElement410);
+                    }
                     
             
             
@@ -5244,7 +5368,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionsHeldAtBranchMoreThanUSD1MiliionMemberProblemInvestmentMemberValue415 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionsHeldAtBranch(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionsHeldAtBranchMoreThanUSD1MiliionMemberProblemInvestmentMemberValue415 != null && !"".equals(explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionsHeldAtBranchMoreThanUSD1MiliionMemberProblemInvestmentMemberValue415)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionsHeldAtBranchMoreThanUSD1MiliionMemberProblemInvestmentMemberMap414 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionsHeldAtBranchMoreThanUSD1MiliionMemberProblemInvestmentMemberMap414.put("CustomerCreditLimitAxis", "MoreThanUSD1MiliionMember");                
@@ -5271,6 +5396,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionsHeldAtBranchMoreThanUSD1MiliionMemberProblemInvestmentMemberElement416 = instancObjectFactory.createAmountOfProvisionsHeldAtBranch(explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionsHeldAtBranchMoreThanUSD1MiliionMemberProblemInvestmentMemberDataType417);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionsHeldAtBranchMoreThanUSD1MiliionMemberProblemInvestmentMemberElement416);
+                    }
                     
             
             
@@ -5311,7 +5437,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD1MiliionMemberProblemInvestmentMemberValue421 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionsHeldAtHeadOffice(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD1MiliionMemberProblemInvestmentMemberValue421 != null && !"".equals(explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD1MiliionMemberProblemInvestmentMemberValue421)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD1MiliionMemberProblemInvestmentMemberMap420 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD1MiliionMemberProblemInvestmentMemberMap420.put("CustomerCreditLimitAxis", "MoreThanUSD1MiliionMember");                
@@ -5338,6 +5465,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD1MiliionMemberProblemInvestmentMemberElement422 = instancObjectFactory.createAmountOfProvisionsHeldAtHeadOffice(explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD1MiliionMemberProblemInvestmentMemberDataType423);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionsHeldAtHeadOfficeMoreThanUSD1MiliionMemberProblemInvestmentMemberElement422);
+                    }
                     
             
             
@@ -5378,7 +5506,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1_totalAggregateAmountOfProvisionMoreThanUSD1MiliionMemberProblemInvestmentMemberValue427 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAggregateAmountOfProvision(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1_totalAggregateAmountOfProvisionMoreThanUSD1MiliionMemberProblemInvestmentMemberValue427 != null && !"".equals(explictMember2PARTB_lyt_PartB1_totalAggregateAmountOfProvisionMoreThanUSD1MiliionMemberProblemInvestmentMemberValue427)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1_totalAggregateAmountOfProvisionMoreThanUSD1MiliionMemberProblemInvestmentMemberMap426 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1_totalAggregateAmountOfProvisionMoreThanUSD1MiliionMemberProblemInvestmentMemberMap426.put("CustomerCreditLimitAxis", "MoreThanUSD1MiliionMember");                
@@ -5405,6 +5534,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1_totalAggregateAmountOfProvisionMoreThanUSD1MiliionMemberProblemInvestmentMemberElement428 = instancObjectFactory.createAggregateAmountOfProvision(explictMember2PARTB_lyt_PartB1_totalAggregateAmountOfProvisionMoreThanUSD1MiliionMemberProblemInvestmentMemberDataType429);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1_totalAggregateAmountOfProvisionMoreThanUSD1MiliionMemberProblemInvestmentMemberElement428);
+                    }
                     
             
             
@@ -5445,7 +5575,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD1MiliionMemberProblemInvestmentMemberValue433 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD1MiliionMemberProblemInvestmentMemberValue433 != null && !"".equals(explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD1MiliionMemberProblemInvestmentMemberValue433)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD1MiliionMemberProblemInvestmentMemberMap432 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD1MiliionMemberProblemInvestmentMemberMap432.put("CustomerCreditLimitAxis", "MoreThanUSD1MiliionMember");                
@@ -5472,6 +5603,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD1MiliionMemberProblemInvestmentMemberElement434 = instancObjectFactory.createAmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities(explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD1MiliionMemberProblemInvestmentMemberDataType435);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1_totalAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesMoreThanUSD1MiliionMemberProblemInvestmentMemberElement434);
+                    }
                     
             
             
@@ -5512,7 +5644,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1_totalAmountOfShortFallMoreThanUSD1MiliionMemberProblemInvestmentMemberValue439 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfShortFall(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1_totalAmountOfShortFallMoreThanUSD1MiliionMemberProblemInvestmentMemberValue439 != null && !"".equals(explictMember2PARTB_lyt_PartB1_totalAmountOfShortFallMoreThanUSD1MiliionMemberProblemInvestmentMemberValue439)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1_totalAmountOfShortFallMoreThanUSD1MiliionMemberProblemInvestmentMemberMap438 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1_totalAmountOfShortFallMoreThanUSD1MiliionMemberProblemInvestmentMemberMap438.put("CustomerCreditLimitAxis", "MoreThanUSD1MiliionMember");                
@@ -5539,6 +5672,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1_totalAmountOfShortFallMoreThanUSD1MiliionMemberProblemInvestmentMemberElement440 = instancObjectFactory.createAmountOfShortFall(explictMember2PARTB_lyt_PartB1_totalAmountOfShortFallMoreThanUSD1MiliionMemberProblemInvestmentMemberDataType441);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1_totalAmountOfShortFallMoreThanUSD1MiliionMemberProblemInvestmentMemberElement440);
+                    }
                     
             
             
@@ -5579,7 +5713,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1_totalAmountOfHeadOfficeSupportFundMoreThanUSD1MiliionMemberProblemInvestmentMemberValue445 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfHeadOfficeSupportFund(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "MoreThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1_totalAmountOfHeadOfficeSupportFundMoreThanUSD1MiliionMemberProblemInvestmentMemberValue445 != null && !"".equals(explictMember2PARTB_lyt_PartB1_totalAmountOfHeadOfficeSupportFundMoreThanUSD1MiliionMemberProblemInvestmentMemberValue445)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1_totalAmountOfHeadOfficeSupportFundMoreThanUSD1MiliionMemberProblemInvestmentMemberMap444 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1_totalAmountOfHeadOfficeSupportFundMoreThanUSD1MiliionMemberProblemInvestmentMemberMap444.put("CustomerCreditLimitAxis", "MoreThanUSD1MiliionMember");                
@@ -5606,6 +5741,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1_totalAmountOfHeadOfficeSupportFundMoreThanUSD1MiliionMemberProblemInvestmentMemberElement446 = instancObjectFactory.createAmountOfHeadOfficeSupportFund(explictMember2PARTB_lyt_PartB1_totalAmountOfHeadOfficeSupportFundMoreThanUSD1MiliionMemberProblemInvestmentMemberDataType447);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1_totalAmountOfHeadOfficeSupportFundMoreThanUSD1MiliionMemberProblemInvestmentMemberElement446);
+                    }
                     
             
             
@@ -5676,7 +5812,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1_Sect2AmountOfBookValueOfCreditSanctionedLessThanUSD1MiliionMemberProblemInvestmentMemberValue451 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfBookValueOfCreditSanctioned(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1_Sect2AmountOfBookValueOfCreditSanctionedLessThanUSD1MiliionMemberProblemInvestmentMemberValue451 != null && !"".equals(explictMember2PARTB_lyt_PartB1_Sect2AmountOfBookValueOfCreditSanctionedLessThanUSD1MiliionMemberProblemInvestmentMemberValue451)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1_Sect2AmountOfBookValueOfCreditSanctionedLessThanUSD1MiliionMemberProblemInvestmentMemberMap450 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1_Sect2AmountOfBookValueOfCreditSanctionedLessThanUSD1MiliionMemberProblemInvestmentMemberMap450.put("CustomerCreditLimitAxis", "LessThanUSD1MiliionMember");                
@@ -5703,6 +5840,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1_Sect2AmountOfBookValueOfCreditSanctionedLessThanUSD1MiliionMemberProblemInvestmentMemberElement452 = instancObjectFactory.createAmountOfBookValueOfCreditSanctioned(explictMember2PARTB_lyt_PartB1_Sect2AmountOfBookValueOfCreditSanctionedLessThanUSD1MiliionMemberProblemInvestmentMemberDataType453);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1_Sect2AmountOfBookValueOfCreditSanctionedLessThanUSD1MiliionMemberProblemInvestmentMemberElement452);
+                    }
                     
             
             
@@ -5743,7 +5881,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1_Sect2AmountOfMarketValueOfCreditSanctionedLessThanUSD1MiliionMemberProblemInvestmentMemberValue457 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfMarketValueOfCreditSanctioned(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1_Sect2AmountOfMarketValueOfCreditSanctionedLessThanUSD1MiliionMemberProblemInvestmentMemberValue457 != null && !"".equals(explictMember2PARTB_lyt_PartB1_Sect2AmountOfMarketValueOfCreditSanctionedLessThanUSD1MiliionMemberProblemInvestmentMemberValue457)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1_Sect2AmountOfMarketValueOfCreditSanctionedLessThanUSD1MiliionMemberProblemInvestmentMemberMap456 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1_Sect2AmountOfMarketValueOfCreditSanctionedLessThanUSD1MiliionMemberProblemInvestmentMemberMap456.put("CustomerCreditLimitAxis", "LessThanUSD1MiliionMember");                
@@ -5770,6 +5909,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1_Sect2AmountOfMarketValueOfCreditSanctionedLessThanUSD1MiliionMemberProblemInvestmentMemberElement458 = instancObjectFactory.createAmountOfMarketValueOfCreditSanctioned(explictMember2PARTB_lyt_PartB1_Sect2AmountOfMarketValueOfCreditSanctionedLessThanUSD1MiliionMemberProblemInvestmentMemberDataType459);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1_Sect2AmountOfMarketValueOfCreditSanctionedLessThanUSD1MiliionMemberProblemInvestmentMemberElement458);
+                    }
                     
             
             
@@ -5810,7 +5950,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionsHeldAtBranchLessThanUSD1MiliionMemberProblemInvestmentMemberValue463 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionsHeldAtBranch(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionsHeldAtBranchLessThanUSD1MiliionMemberProblemInvestmentMemberValue463 != null && !"".equals(explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionsHeldAtBranchLessThanUSD1MiliionMemberProblemInvestmentMemberValue463)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionsHeldAtBranchLessThanUSD1MiliionMemberProblemInvestmentMemberMap462 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionsHeldAtBranchLessThanUSD1MiliionMemberProblemInvestmentMemberMap462.put("CustomerCreditLimitAxis", "LessThanUSD1MiliionMember");                
@@ -5837,6 +5978,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionsHeldAtBranchLessThanUSD1MiliionMemberProblemInvestmentMemberElement464 = instancObjectFactory.createAmountOfProvisionsHeldAtBranch(explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionsHeldAtBranchLessThanUSD1MiliionMemberProblemInvestmentMemberDataType465);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionsHeldAtBranchLessThanUSD1MiliionMemberProblemInvestmentMemberElement464);
+                    }
                     
             
             
@@ -5877,7 +6019,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionsHeldAtHeadOfficeLessThanUSD1MiliionMemberProblemInvestmentMemberValue469 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionsHeldAtHeadOffice(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionsHeldAtHeadOfficeLessThanUSD1MiliionMemberProblemInvestmentMemberValue469 != null && !"".equals(explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionsHeldAtHeadOfficeLessThanUSD1MiliionMemberProblemInvestmentMemberValue469)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionsHeldAtHeadOfficeLessThanUSD1MiliionMemberProblemInvestmentMemberMap468 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionsHeldAtHeadOfficeLessThanUSD1MiliionMemberProblemInvestmentMemberMap468.put("CustomerCreditLimitAxis", "LessThanUSD1MiliionMember");                
@@ -5904,6 +6047,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionsHeldAtHeadOfficeLessThanUSD1MiliionMemberProblemInvestmentMemberElement470 = instancObjectFactory.createAmountOfProvisionsHeldAtHeadOffice(explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionsHeldAtHeadOfficeLessThanUSD1MiliionMemberProblemInvestmentMemberDataType471);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionsHeldAtHeadOfficeLessThanUSD1MiliionMemberProblemInvestmentMemberElement470);
+                    }
                     
             
             
@@ -5944,7 +6088,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1_Sect2AggregateAmountOfProvisionLessThanUSD1MiliionMemberProblemInvestmentMemberValue475 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAggregateAmountOfProvision(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1_Sect2AggregateAmountOfProvisionLessThanUSD1MiliionMemberProblemInvestmentMemberValue475 != null && !"".equals(explictMember2PARTB_lyt_PartB1_Sect2AggregateAmountOfProvisionLessThanUSD1MiliionMemberProblemInvestmentMemberValue475)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1_Sect2AggregateAmountOfProvisionLessThanUSD1MiliionMemberProblemInvestmentMemberMap474 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1_Sect2AggregateAmountOfProvisionLessThanUSD1MiliionMemberProblemInvestmentMemberMap474.put("CustomerCreditLimitAxis", "LessThanUSD1MiliionMember");                
@@ -5971,6 +6116,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1_Sect2AggregateAmountOfProvisionLessThanUSD1MiliionMemberProblemInvestmentMemberElement476 = instancObjectFactory.createAggregateAmountOfProvision(explictMember2PARTB_lyt_PartB1_Sect2AggregateAmountOfProvisionLessThanUSD1MiliionMemberProblemInvestmentMemberDataType477);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1_Sect2AggregateAmountOfProvisionLessThanUSD1MiliionMemberProblemInvestmentMemberElement476);
+                    }
                     
             
             
@@ -6011,7 +6157,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesLessThanUSD1MiliionMemberProblemInvestmentMemberValue481 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesLessThanUSD1MiliionMemberProblemInvestmentMemberValue481 != null && !"".equals(explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesLessThanUSD1MiliionMemberProblemInvestmentMemberValue481)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesLessThanUSD1MiliionMemberProblemInvestmentMemberMap480 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesLessThanUSD1MiliionMemberProblemInvestmentMemberMap480.put("CustomerCreditLimitAxis", "LessThanUSD1MiliionMember");                
@@ -6038,6 +6185,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesLessThanUSD1MiliionMemberProblemInvestmentMemberElement482 = instancObjectFactory.createAmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities(explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesLessThanUSD1MiliionMemberProblemInvestmentMemberDataType483);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1_Sect2AmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesLessThanUSD1MiliionMemberProblemInvestmentMemberElement482);
+                    }
                     
             
             
@@ -6078,7 +6226,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1_Sect2AmountOfShortFallLessThanUSD1MiliionMemberProblemInvestmentMemberValue487 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfShortFall(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1_Sect2AmountOfShortFallLessThanUSD1MiliionMemberProblemInvestmentMemberValue487 != null && !"".equals(explictMember2PARTB_lyt_PartB1_Sect2AmountOfShortFallLessThanUSD1MiliionMemberProblemInvestmentMemberValue487)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1_Sect2AmountOfShortFallLessThanUSD1MiliionMemberProblemInvestmentMemberMap486 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1_Sect2AmountOfShortFallLessThanUSD1MiliionMemberProblemInvestmentMemberMap486.put("CustomerCreditLimitAxis", "LessThanUSD1MiliionMember");                
@@ -6105,6 +6254,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1_Sect2AmountOfShortFallLessThanUSD1MiliionMemberProblemInvestmentMemberElement488 = instancObjectFactory.createAmountOfShortFall(explictMember2PARTB_lyt_PartB1_Sect2AmountOfShortFallLessThanUSD1MiliionMemberProblemInvestmentMemberDataType489);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1_Sect2AmountOfShortFallLessThanUSD1MiliionMemberProblemInvestmentMemberElement488);
+                    }
                     
             
             
@@ -6145,7 +6295,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1_Sect2AmountOfHeadOfficeSupportFundLessThanUSD1MiliionMemberProblemInvestmentMemberValue493 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfHeadOfficeSupportFund(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1_Sect2AmountOfHeadOfficeSupportFundLessThanUSD1MiliionMemberProblemInvestmentMemberValue493 != null && !"".equals(explictMember2PARTB_lyt_PartB1_Sect2AmountOfHeadOfficeSupportFundLessThanUSD1MiliionMemberProblemInvestmentMemberValue493)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1_Sect2AmountOfHeadOfficeSupportFundLessThanUSD1MiliionMemberProblemInvestmentMemberMap492 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1_Sect2AmountOfHeadOfficeSupportFundLessThanUSD1MiliionMemberProblemInvestmentMemberMap492.put("CustomerCreditLimitAxis", "LessThanUSD1MiliionMember");                
@@ -6172,6 +6323,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<MonetaryItemType> explictMember2PARTB_lyt_PartB1_Sect2AmountOfHeadOfficeSupportFundLessThanUSD1MiliionMemberProblemInvestmentMemberElement494 = instancObjectFactory.createAmountOfHeadOfficeSupportFund(explictMember2PARTB_lyt_PartB1_Sect2AmountOfHeadOfficeSupportFundLessThanUSD1MiliionMemberProblemInvestmentMemberDataType495);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1_Sect2AmountOfHeadOfficeSupportFundLessThanUSD1MiliionMemberProblemInvestmentMemberElement494);
+                    }
                     
             
             
@@ -6201,7 +6353,8 @@ public class PCIReport implements XBRLReportIntf {
                 // create value for element
                 
                     String explictMember2PARTB_lyt_PartB1_Sect2DevelopmentsDuringQuarterLessThanUSD1MiliionMemberProblemInvestmentMemberValue498 = PCIReportUtil.retrieveValueForCustomerCreditLimitAxisTypeOfProblemCreditAndInvestmentCustomerAxis(field.getDevelopmentsDuringQuarter(), "TypeOfProblemCreditAndInvestmentCustomerAxis" , "LessThanUSD1MiliionMember", "ProblemInvestmentMember");
-                
+                    if(explictMember2PARTB_lyt_PartB1_Sect2DevelopmentsDuringQuarterLessThanUSD1MiliionMemberProblemInvestmentMemberValue498 != null && !"".equals(explictMember2PARTB_lyt_PartB1_Sect2DevelopmentsDuringQuarterLessThanUSD1MiliionMemberProblemInvestmentMemberValue498)) {
+                    
 
                 Map explictMember2PARTB_lyt_PartB1_Sect2DevelopmentsDuringQuarterLessThanUSD1MiliionMemberProblemInvestmentMemberMap497 = new HashMap<String, String>();
                 explictMember2PARTB_lyt_PartB1_Sect2DevelopmentsDuringQuarterLessThanUSD1MiliionMemberProblemInvestmentMemberMap497.put("CustomerCreditLimitAxis", "LessThanUSD1MiliionMember");                
@@ -6225,6 +6378,7 @@ public class PCIReport implements XBRLReportIntf {
                         
                         JAXBElement<StringItemType> explictMember2PARTB_lyt_PartB1_Sect2DevelopmentsDuringQuarterLessThanUSD1MiliionMemberProblemInvestmentMemberElement499 = instancObjectFactory.createDevelopmentsDuringQuarter(explictMember2PARTB_lyt_PartB1_Sect2DevelopmentsDuringQuarterLessThanUSD1MiliionMemberProblemInvestmentMemberDataType500);
                         bodyElements.add(explictMember2PARTB_lyt_PartB1_Sect2DevelopmentsDuringQuarterLessThanUSD1MiliionMemberProblemInvestmentMemberElement499);
+                    }
                     
             
             
@@ -6291,7 +6445,8 @@ public class PCIReport implements XBRLReportIntf {
                     // create value for element
                     
                         String explictMember1PARTB_lyt_PartB_GrossAmountOfBookValueOfCreditSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue504 = PCIReportUtil.retrieveValueForTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfBookValueOfCreditSanctioned(), "ProblemInvestmentMember");
-                    
+                        if(explictMember1PARTB_lyt_PartB_GrossAmountOfBookValueOfCreditSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue504 != null && !"".equals(explictMember1PARTB_lyt_PartB_GrossAmountOfBookValueOfCreditSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue504)) {
+                        
                     
 
                     Map explictMember1PARTB_lyt_PartB_GrossAmountOfBookValueOfCreditSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisMap503 = new HashMap<String, String>();
@@ -6317,7 +6472,7 @@ public class PCIReport implements XBRLReportIntf {
                     
                     JAXBElement<MonetaryItemType> explictMember1PARTB_lyt_PartB_GrossAmountOfBookValueOfCreditSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberElement505 = instancObjectFactory.createAmountOfBookValueOfCreditSanctioned(explictMember1PARTB_lyt_PartB_GrossAmountOfBookValueOfCreditSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberDataType506);
                     bodyElements.add(explictMember1PARTB_lyt_PartB_GrossAmountOfBookValueOfCreditSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberElement505);
-                    
+                    }
                     
             
             
@@ -6356,7 +6511,8 @@ public class PCIReport implements XBRLReportIntf {
                     // create value for element
                     
                         String explictMember1PARTB_lyt_PartB_GrossAmountOfMarketValueOfCreditSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue510 = PCIReportUtil.retrieveValueForTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfMarketValueOfCreditSanctioned(), "ProblemInvestmentMember");
-                    
+                        if(explictMember1PARTB_lyt_PartB_GrossAmountOfMarketValueOfCreditSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue510 != null && !"".equals(explictMember1PARTB_lyt_PartB_GrossAmountOfMarketValueOfCreditSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue510)) {
+                        
                     
 
                     Map explictMember1PARTB_lyt_PartB_GrossAmountOfMarketValueOfCreditSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisMap509 = new HashMap<String, String>();
@@ -6382,7 +6538,7 @@ public class PCIReport implements XBRLReportIntf {
                     
                     JAXBElement<MonetaryItemType> explictMember1PARTB_lyt_PartB_GrossAmountOfMarketValueOfCreditSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberElement511 = instancObjectFactory.createAmountOfMarketValueOfCreditSanctioned(explictMember1PARTB_lyt_PartB_GrossAmountOfMarketValueOfCreditSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberDataType512);
                     bodyElements.add(explictMember1PARTB_lyt_PartB_GrossAmountOfMarketValueOfCreditSanctionedTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberElement511);
-                    
+                    }
                     
             
             
@@ -6421,7 +6577,8 @@ public class PCIReport implements XBRLReportIntf {
                     // create value for element
                     
                         String explictMember1PARTB_lyt_PartB_GrossAmountOfProvisionsHeldAtBranchTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue516 = PCIReportUtil.retrieveValueForTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionsHeldAtBranch(), "ProblemInvestmentMember");
-                    
+                        if(explictMember1PARTB_lyt_PartB_GrossAmountOfProvisionsHeldAtBranchTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue516 != null && !"".equals(explictMember1PARTB_lyt_PartB_GrossAmountOfProvisionsHeldAtBranchTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue516)) {
+                        
                     
 
                     Map explictMember1PARTB_lyt_PartB_GrossAmountOfProvisionsHeldAtBranchTypeOfProblemCreditAndInvestmentCustomerAxisMap515 = new HashMap<String, String>();
@@ -6447,7 +6604,7 @@ public class PCIReport implements XBRLReportIntf {
                     
                     JAXBElement<MonetaryItemType> explictMember1PARTB_lyt_PartB_GrossAmountOfProvisionsHeldAtBranchTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberElement517 = instancObjectFactory.createAmountOfProvisionsHeldAtBranch(explictMember1PARTB_lyt_PartB_GrossAmountOfProvisionsHeldAtBranchTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberDataType518);
                     bodyElements.add(explictMember1PARTB_lyt_PartB_GrossAmountOfProvisionsHeldAtBranchTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberElement517);
-                    
+                    }
                     
             
             
@@ -6486,7 +6643,8 @@ public class PCIReport implements XBRLReportIntf {
                     // create value for element
                     
                         String explictMember1PARTB_lyt_PartB_GrossAmountOfProvisionsHeldAtHeadOfficeTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue522 = PCIReportUtil.retrieveValueForTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionsHeldAtHeadOffice(), "ProblemInvestmentMember");
-                    
+                        if(explictMember1PARTB_lyt_PartB_GrossAmountOfProvisionsHeldAtHeadOfficeTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue522 != null && !"".equals(explictMember1PARTB_lyt_PartB_GrossAmountOfProvisionsHeldAtHeadOfficeTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue522)) {
+                        
                     
 
                     Map explictMember1PARTB_lyt_PartB_GrossAmountOfProvisionsHeldAtHeadOfficeTypeOfProblemCreditAndInvestmentCustomerAxisMap521 = new HashMap<String, String>();
@@ -6512,7 +6670,7 @@ public class PCIReport implements XBRLReportIntf {
                     
                     JAXBElement<MonetaryItemType> explictMember1PARTB_lyt_PartB_GrossAmountOfProvisionsHeldAtHeadOfficeTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberElement523 = instancObjectFactory.createAmountOfProvisionsHeldAtHeadOffice(explictMember1PARTB_lyt_PartB_GrossAmountOfProvisionsHeldAtHeadOfficeTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberDataType524);
                     bodyElements.add(explictMember1PARTB_lyt_PartB_GrossAmountOfProvisionsHeldAtHeadOfficeTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberElement523);
-                    
+                    }
                     
             
             
@@ -6551,7 +6709,8 @@ public class PCIReport implements XBRLReportIntf {
                     // create value for element
                     
                         String explictMember1PARTB_lyt_PartB_GrossAggregateAmountOfProvisionTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue528 = PCIReportUtil.retrieveValueForTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAggregateAmountOfProvision(), "ProblemInvestmentMember");
-                    
+                        if(explictMember1PARTB_lyt_PartB_GrossAggregateAmountOfProvisionTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue528 != null && !"".equals(explictMember1PARTB_lyt_PartB_GrossAggregateAmountOfProvisionTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue528)) {
+                        
                     
 
                     Map explictMember1PARTB_lyt_PartB_GrossAggregateAmountOfProvisionTypeOfProblemCreditAndInvestmentCustomerAxisMap527 = new HashMap<String, String>();
@@ -6577,7 +6736,7 @@ public class PCIReport implements XBRLReportIntf {
                     
                     JAXBElement<MonetaryItemType> explictMember1PARTB_lyt_PartB_GrossAggregateAmountOfProvisionTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberElement529 = instancObjectFactory.createAggregateAmountOfProvision(explictMember1PARTB_lyt_PartB_GrossAggregateAmountOfProvisionTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberDataType530);
                     bodyElements.add(explictMember1PARTB_lyt_PartB_GrossAggregateAmountOfProvisionTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberElement529);
-                    
+                    }
                     
             
             
@@ -6616,7 +6775,8 @@ public class PCIReport implements XBRLReportIntf {
                     // create value for element
                     
                         String explictMember1PARTB_lyt_PartB_GrossAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue534 = PCIReportUtil.retrieveValueForTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities(), "ProblemInvestmentMember");
-                    
+                        if(explictMember1PARTB_lyt_PartB_GrossAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue534 != null && !"".equals(explictMember1PARTB_lyt_PartB_GrossAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue534)) {
+                        
                     
 
                     Map explictMember1PARTB_lyt_PartB_GrossAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesTypeOfProblemCreditAndInvestmentCustomerAxisMap533 = new HashMap<String, String>();
@@ -6642,7 +6802,7 @@ public class PCIReport implements XBRLReportIntf {
                     
                     JAXBElement<MonetaryItemType> explictMember1PARTB_lyt_PartB_GrossAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberElement535 = instancObjectFactory.createAmountOfProvisionRequiredToBeHeldByRegulatoryAuthorities(explictMember1PARTB_lyt_PartB_GrossAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberDataType536);
                     bodyElements.add(explictMember1PARTB_lyt_PartB_GrossAmountOfProvisionRequiredToBeHeldByRegulatoryAuthoritiesTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberElement535);
-                    
+                    }
                     
             
             
@@ -6681,7 +6841,8 @@ public class PCIReport implements XBRLReportIntf {
                     // create value for element
                     
                         String explictMember1PARTB_lyt_PartB_GrossAmountOfShortFallTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue540 = PCIReportUtil.retrieveValueForTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfShortFall(), "ProblemInvestmentMember");
-                    
+                        if(explictMember1PARTB_lyt_PartB_GrossAmountOfShortFallTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue540 != null && !"".equals(explictMember1PARTB_lyt_PartB_GrossAmountOfShortFallTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue540)) {
+                        
                     
 
                     Map explictMember1PARTB_lyt_PartB_GrossAmountOfShortFallTypeOfProblemCreditAndInvestmentCustomerAxisMap539 = new HashMap<String, String>();
@@ -6707,7 +6868,7 @@ public class PCIReport implements XBRLReportIntf {
                     
                     JAXBElement<MonetaryItemType> explictMember1PARTB_lyt_PartB_GrossAmountOfShortFallTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberElement541 = instancObjectFactory.createAmountOfShortFall(explictMember1PARTB_lyt_PartB_GrossAmountOfShortFallTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberDataType542);
                     bodyElements.add(explictMember1PARTB_lyt_PartB_GrossAmountOfShortFallTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberElement541);
-                    
+                    }
                     
             
             
@@ -6746,7 +6907,8 @@ public class PCIReport implements XBRLReportIntf {
                     // create value for element
                     
                         String explictMember1PARTB_lyt_PartB_GrossAmountOfHeadOfficeSupportFundTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue546 = PCIReportUtil.retrieveValueForTypeOfProblemCreditAndInvestmentCustomerAxis(field.getAmountOfHeadOfficeSupportFund(), "ProblemInvestmentMember");
-                    
+                        if(explictMember1PARTB_lyt_PartB_GrossAmountOfHeadOfficeSupportFundTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue546 != null && !"".equals(explictMember1PARTB_lyt_PartB_GrossAmountOfHeadOfficeSupportFundTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberValue546)) {
+                        
                     
 
                     Map explictMember1PARTB_lyt_PartB_GrossAmountOfHeadOfficeSupportFundTypeOfProblemCreditAndInvestmentCustomerAxisMap545 = new HashMap<String, String>();
@@ -6772,7 +6934,7 @@ public class PCIReport implements XBRLReportIntf {
                     
                     JAXBElement<MonetaryItemType> explictMember1PARTB_lyt_PartB_GrossAmountOfHeadOfficeSupportFundTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberElement547 = instancObjectFactory.createAmountOfHeadOfficeSupportFund(explictMember1PARTB_lyt_PartB_GrossAmountOfHeadOfficeSupportFundTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberDataType548);
                     bodyElements.add(explictMember1PARTB_lyt_PartB_GrossAmountOfHeadOfficeSupportFundTypeOfProblemCreditAndInvestmentCustomerAxisProblemInvestmentMemberElement547);
-                    
+                    }
                     
             
             

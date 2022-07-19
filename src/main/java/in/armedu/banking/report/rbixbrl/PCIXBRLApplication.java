@@ -11,11 +11,13 @@ import in.armedu.banking.report.rbixbrl.core.impl.XBRLReportGenerationEngine;
 import in.armedu.banking.report.rbixbrl.model.pci.PCIReportData;
 import in.armedu.banking.report.rbixbrl.model.pci.GeneralInformation_Lyt_Page1;
 import in.armedu.banking.report.rbixbrl.model.pci.PARTA_lyt_PartA;
+import in.armedu.banking.report.rbixbrl.model.pci.PARTA_lyt_PartA_Total;
 import in.armedu.banking.report.rbixbrl.model.pci.CustomerCreditLimitAxis;
 import in.armedu.banking.report.rbixbrl.model.pci.CustomerCreditLimitAxisEnum;
 import in.armedu.banking.report.rbixbrl.model.pci.TypeOfProblemCreditAndInvestmentCustomerAxis;
 import in.armedu.banking.report.rbixbrl.model.pci.TypeOfProblemCreditAndInvestmentCustomerAxisEnum;
 import in.armedu.banking.report.rbixbrl.model.pci.AuthorisedSignatory_Signatory;
+import in.armedu.banking.report.rbixbrl.model.pci.*;
 
 public class PCIXBRLApplication {
     
@@ -110,7 +112,24 @@ public class PCIXBRLApplication {
     List<PARTA_lyt_PartA> partAList = new ArrayList<PARTA_lyt_PartA>();
     partAList.add(partA);
     data.setPARTA_lyt_PartA(partAList);
-   
+    List<PARTA_lyt_PartA_Total> pARTA_lyt_PartA_Total = new ArrayList<PARTA_lyt_PartA_Total>();
+    data.setPARTA_lyt_PartA_Total(pARTA_lyt_PartA_Total);
+    List<PARTA_lyt_PartA_Sect2> pARTA_lyt_PartA_Sect2 = new ArrayList<PARTA_lyt_PartA_Sect2>();
+    data.setPARTA_lyt_PartA_Sect2(pARTA_lyt_PartA_Sect2);
+    List<PARTA_lyt_PartA_Gross> pARTA_lyt_PartA_Gross  = new ArrayList<PARTA_lyt_PartA_Gross>();
+    data.setPARTA_lyt_PartA_Gross(pARTA_lyt_PartA_Gross);
+    List<PARTB_lyt_PartB1> pARTB_lyt_PartB1 = new ArrayList<PARTB_lyt_PartB1>();
+    data.setPARTB_lyt_PartB1(pARTB_lyt_PartB1);
+    List<PARTB_lyt_PartB1_total> pARTB_lyt_PartB1_total  = new ArrayList<PARTB_lyt_PartB1_total>();
+    data.setPARTB_lyt_PartB1_total(pARTB_lyt_PartB1_total);
+    List<PARTB_lyt_PartB1_Sect2> pARTB_lyt_PartB1_Sect2 = new ArrayList<PARTB_lyt_PartB1_Sect2>();
+    data.setPARTB_lyt_PartB1_Sect2(pARTB_lyt_PartB1_Sect2);
+    List<PARTB_lyt_PartB_Gross> pARTB_lyt_PartB_Gross  = new ArrayList<PARTB_lyt_PartB_Gross>();
+    data.setPARTB_lyt_PartB_Gross(pARTB_lyt_PartB_Gross);
+    AuthorisedSignatory_Signatory authorisedSignatory_Signatory = new AuthorisedSignatory_Signatory();
+    authorisedSignatory_Signatory.setAuthorisedSignatoryMobileNumber("0");
+    authorisedSignatory_Signatory.setAuthorisedSignatoryLandlineNumber("0");
+    data.setAuthorisedSignatory_Signatory(authorisedSignatory_Signatory);
 
     // AuthorisedSignatory_Signatory signatoryDetails = new AuthorisedSignatory_Signatory();
     // signatoryDetails.setNameOfSignatory("");    

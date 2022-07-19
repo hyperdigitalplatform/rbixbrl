@@ -16,7 +16,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Setter
 @Getter
-public class CPRReportData extends ReportData {
+public class CPRReportData implements ReportData {
     private GeneralData generalData;
     private List<ItemData> itemDatas = new ArrayList<ItemData>();
 }

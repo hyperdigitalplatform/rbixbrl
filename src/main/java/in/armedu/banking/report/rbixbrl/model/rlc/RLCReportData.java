@@ -15,7 +15,7 @@ import lombok.Setter;
 @Setter
 @Getter
 
-public class RLCReportData extends ReportData {
+public class RLCReportData implements ReportData {
     
     private RLCGeneralData rlcGeneralData;
     private List<RLCItem> rlcItem = new ArrayList<RLCItem>();
